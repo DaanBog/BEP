@@ -1,0 +1,58 @@
+Input: 
+    Physical space (currently multilayer)
+    Number of Batches
+    Containers that fit in a rack
+    Number of days for each step
+    Number of containers per step
+    Number of days for which a schedule can be CONTAINERS_WHEN_TRANSPLATED
+
+Assumptions:
+    *** Assumptions on batches ***
+    A batch can only be in 1 status per day
+
+    *** A batch can only go to a next step ***
+    A batch that is 'not_started' on day i, can only be 'not_started' or 'is_seeded' on day i + 1
+    A batch that is 'is_seeded' on day i, can only be 'is_seeded' or 'is_transplanted' on day i + 1
+    A batch that is 'is_transplanteed' on day i, can only be 'is_transplanteed' or 'is_spaced' on day i + 1 
+    A batch that is 'is_spaced' on day i, can only be 'is_spaced' or 'is_harvested' on day i + 1
+    A batch that is 'is_harvested' on day i must still be 'harvested' on day i + 1
+
+    *** Batches take up different amounts of space when in different statuses ***
+    'not_started' batches take up no space
+    'is_seeded' batches take up CONATINERS_WHEN_SEEDED space
+    'is_transplanteed' batches take up CONTAINERS_WHEN_TRANSPLATED space
+    'is_spaced' batches take up CONTAINERS_WHEN_SPACED space
+    'is_harvested' batches take up no space
+
+    *** A batch must make a jump to a new status after a certain amount of days ***
+    Once a batch is 'is_seeded' for the first time, it must be 'is_transplanteed' after NUMBER_OF_DAYS_SEEDED days
+    Once a batch is 'is_transplanteed' for the first time, it must be 'is_spaced' after NUMBERS_OF_DAYS_TRANSPLANTED days
+    Once a batch is 'is_spaced' for the first time, it must be 'is_harvested' after NUMBER_OF_DAYS_SPACED days
+
+    *** Finished schedule ***
+    if only a schedule where all jobs are finished is desired, then we add the assumption:
+        At the end of the schedule, every batch must be harvested
+
+    *** Positions in vertical farm ***
+    For every day, the number of containers allocated in the vertical farm physically must be the same as the sum of 
+    all batches' containers, i.e. every container associated to a batch must be allocated in the vertical farm and every 
+    allocated container must be associated to a batch. 
+
+    *** Non realistic assumptions (in order of decreasing awfulness) *** 
+    A container can freely be moved to whatever position as long as it stays in the same position for 1 day
+    Every batch is of the same type, so any container can be placed at any position without any consequences
+    Vertical farm is empty on start
+
+Variables introduced into mip:
+    For every day of the schedule, we have a for every layer of the multilayer for every rack of that layer an integer variable 0<=x<=30 representing the number of containers in that rack
+    For every batch, we have for every day whether or not it is in a certain status. Statuses are:
+        'not_started',
+        'is_seeded',
+        'is_transplanteed',
+        'is_spaced',
+        'is_harvested'
+    where it is a binary variable that indicates whether or not a batch is in a certain status
+
+Objective function:
+    The idea of the objective function is to optimize the number of batches finished so:
+        CONTAINERS_WHEN_SPACED * batch is harvested on last day of schedule
