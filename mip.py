@@ -142,7 +142,7 @@ def call_model():
                     for position in [0,1]:
                         for state in ['is_seeded_containers', 'is_transplanted_containers', 'is_spaced_containers']:
                             for container in BATCHES[batch][day][state]:
-                                obj_fn += (BATCHES[batch][day + 1][state][container][rack][layer][position] * BATCHES[batch][day][state][container][rack][layer][position])
+                                obj_fn += (BATCHES[batch][day + 1][state][container][rack][layer][position] - BATCHES[batch][day + 1][state][container][rack][layer][position] )
     
     mip.setObjective(obj_fn, GRB.MAXIMIZE)
 
