@@ -1,6 +1,7 @@
 from gurobipy import Model, GRB
 from parameters import *
 from helper import get_racks_perspective_of_containers, get_max_fertillizer, get_max_irrigation
+from model_to_easy_format import model_to_easy_format
 
 def call_model():
     mip = Model(name = "Vertical farm schedule")
@@ -84,7 +85,7 @@ def call_model():
     # The total number of containers allocated in the machine must be the same as the total number of containers that should be part of the batches
     for day in range(NUMBER_OF_DAYS_MODELLED):
         for batch in BATCHES:
-            # The number of containers that is allocated according to a batch must be the same as the number of containers it has allocated in the machine
+            # The number of containers that are allocated according to a batch must be the same as the number of containers it has allocated in the machine
             number_of_containers_according_to_batches = (
                 BATCHES[batch][day]['is_seeded'] * BATCHES[batch]['CONATINERS_WHEN_SEEDED'] +
                 BATCHES[batch][day]['is_transplanted'] * BATCHES[batch]['CONTAINERS_WHEN_TRANSPLATED'] + 
@@ -95,10 +96,12 @@ def call_model():
 
             for state in ['is_seeded_containers', 'is_transplanted_containers', 'is_spaced_containers']:
                 for container in BATCHES[batch][day][state]:
+                    container_allocations = 0
                     for rack in BATCHES[batch][day][state][container]:
                         for layer in BATCHES[batch][day][state][container][rack]:
                             for position in BATCHES[batch][day][state][container][rack][layer]:
                                 number_of_containers_according_to_ml_locations += BATCHES[batch][day][state][container][rack][layer][position] * BATCHES[batch][day][state.replace("_containers", "")]
+                                container_allocations += BATCHES[batch][day][state][container][rack][layer][position] * BATCHES[batch][day][state.replace("_containers", "")]
                                 if state == 'is_seeded_containers':
                                     # Containers that have not been seeded do not appear in the multilayer
                                     mip.addConstr(BATCHES[batch][day][state][container][rack][layer][position] * BATCHES[batch][day]['not_started'] == 0)
@@ -106,10 +109,11 @@ def call_model():
                                 mip.addConstr(BATCHES[batch][day][state][container][rack][layer][position] * ( BATCHES[batch]['REGIME'][state.replace("_containers", "")]['FERTILLIZER'] - MULTILAYER_ENV[day][rack]['FERTILLIZER'] ) == 0 )
                                 # Irrigation must match
                                 mip.addConstr(BATCHES[batch][day][state][container][rack][layer][position] * ( BATCHES[batch]['REGIME'][state.replace("_containers", "")]['IRRIGATION'] - MULTILAYER_ENV[day][rack][layer]['IRRIGATION_' + str(position + 1)]) == 0 )
+                    mip.addConstr(container_allocations <= 1, name=F'Container{container} must be allocated once')
        
             mip.addConstr(number_of_containers_according_to_batches == number_of_containers_according_to_ml_locations, name=F'day {day} total number of containers match for batch {batch}')
             
-        # For every day, the total number of containers in a half position of a rack is c/2
+        # For every day, the total number of containers in a half position of a rack is at most c/2
         for rack_number, rack in enumerate(RACKS):
             for layer_number, layer in enumerate(LAYERS):
                 for position in [0,1]:
@@ -120,25 +124,32 @@ def call_model():
                                 total_number_of_containers_in_this_half_rack += BATCHES[batch][day][state][container][rack][layer][position] * BATCHES[batch][day][state.replace("_containers", "")]
                     mip.addConstr(total_number_of_containers_in_this_half_rack <= CONTAINERS_PER_RACK / 2)
 
+    # On the final day, all batches must be harvested
+    harvested_batches = 0
+    for batch in BATCHES:
+        harvested_batches += BATCHES[batch][NUMBER_OF_DAYS_MODELLED - 1]['is_harvested']
+    mip.addConstr(harvested_batches == NUMBER_OF_BATCHES, name=F"B{batch}_harvested_on_final_day")
 
     # OBJECTIVE FUNCTION
 
     # Definition of objective function
     obj_fn = 0
-    for batch in BATCHES:
-        obj_fn += BATCHES[batch][NUMBER_OF_DAYS_MODELLED - 1]['is_harvested'] * BATCHES[batch]['CONTAINERS_WHEN_SPACED']
-
+    # As little movements as possible, i.e., when something is at some place on day 1, it may still be there on day 2 also switching of fertillizer or irrigation
+    for day in range(NUMBER_OF_DAYS_MODELLED - 1):
+        for batch in BATCHES:
+            for rack_number, rack in enumerate(RACKS):
+                for layer_number, layer in enumerate(LAYERS):
+                    for position in [0,1]:
+                        for state in ['is_seeded_containers', 'is_transplanted_containers', 'is_spaced_containers']:
+                            for container in BATCHES[batch][day][state]:
+                                obj_fn += (BATCHES[batch][day + 1][state][container][rack][layer][position] * BATCHES[batch][day][state][container][rack][layer][position])
+    
     mip.setObjective(obj_fn, GRB.MAXIMIZE)
 
-    # Call solver
-    mip.optimize() #solve the model
-    # mip.write("linear_model.lp") #output the LP file of the model
 
-    # print('Objective Function Value: %f' % mip.objVal)
-    # #Get values of the decision variables
-    # for v in mip.getVars():
-    #     if v.x != 0 and v.x !=-0:
-    #         print('%s: %g' % (v.varName, v.x))
+    # Call solver
+    mip.optimize() 
+    return (model_to_easy_format())
 
     
 

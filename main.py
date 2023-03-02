@@ -1,5 +1,9 @@
 from mip import call_model
 from parameters import *
 
-call_model()
 
+result = call_model()
+print('\n')
+print('Result')
+print(result)
+print('\n')
