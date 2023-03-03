@@ -24,16 +24,16 @@ def call_model():
         for rack_number, rack in enumerate(RACKS):
             MULTILAYER_ENV[day][rack]['FERTILLIZER'] = mip.addVar(
                 name = f"D{day} : {rack} fertillizer",
-                 vtype = GRB.INTEGER, lb = 1, ub = get_max_fertillizer()
+                 vtype = GRB.INTEGER, lb = 0, ub = get_max_fertillizer()
             )
             for layer_number, layer in enumerate(LAYERS):
                 MULTILAYER_ENV[day][rack][layer]['IRRIGATION_1'] = mip.addVar(
                     name = f"D{day} : {rack}{layer}P1 : irrigation",
-                    vtype = GRB.INTEGER, lb = 1, ub = get_max_irrigation()
+                    vtype = GRB.INTEGER, lb = 0, ub = get_max_irrigation()
                 )                
                 MULTILAYER_ENV[day][rack][layer]['IRRIGATION_2'] = mip.addVar(
                     name = f"D{day} : {rack}{layer}P2 : irrigation",
-                    vtype = GRB.INTEGER, lb = 1, ub = get_max_irrigation()
+                    vtype = GRB.INTEGER, lb = 0, ub = get_max_irrigation()
                 )
 
     # We define integer variables that represent on what day the batch was seeded 
@@ -142,9 +142,18 @@ def call_model():
                     for position in [0,1]:
                         for state in ['is_seeded_containers', 'is_transplanted_containers', 'is_spaced_containers']:
                             for container in BATCHES[batch][day][state]:
-                                obj_fn += (BATCHES[batch][day + 1][state][container][rack][layer][position] - BATCHES[batch][day + 1][state][container][rack][layer][position] )
-    
-    mip.setObjective(obj_fn, GRB.MAXIMIZE)
+                                # obj_fn += (BATCHES[batch][day + 1][state][container][rack][layer][position] - BATCHES[batch][day][state][container][rack][layer][position] ) * (BATCHES[batch][day + 1][state][container][rack][layer][position] - BATCHES[batch][day][state][container][rack][layer][position] )
+                                #obj_fn += (BATCHES[batch][day + 1][state][container][rack][layer][position] - BATCHES[batch][day][state][container][rack][layer][position] ) 
+                                pass 
+
+    for day in range(NUMBER_OF_DAYS_MODELLED - 1):
+        for rack in MULTILAYER_ENV[day]:
+            obj_fn += MULTILAYER_ENV[day][rack]['FERTILLIZER']
+            for layer in MULTILAYER_ENV[day][rack]:
+                if layer == 'FERTILLIZER':
+                    continue
+                obj_fn += MULTILAYER_ENV[day][rack][layer]['IRRIGATION_1'] + MULTILAYER_ENV[day][rack][layer]['IRRIGATION_2']
+    mip.setObjective(obj_fn, GRB.MINIMIZE)
 
 
     # Call solver

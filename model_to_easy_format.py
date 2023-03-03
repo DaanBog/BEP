@@ -1,4 +1,4 @@
-from parameters import BATCHES, NUMBER_OF_DAYS_MODELLED
+from parameters import BATCHES, NUMBER_OF_DAYS_MODELLED, MULTILAYER_ENV
 
 class InvalidSolution(Exception):
     "The returned solution was not valid"
@@ -27,6 +27,7 @@ def get_container_position(container_data):
 
 def model_to_easy_format():
     result = {}
+    ENV = {}
     for day in range(NUMBER_OF_DAYS_MODELLED):
         day_result_key = F"D{day}"
         result[day_result_key] = {}
@@ -49,6 +50,16 @@ def model_to_easy_format():
                     }
             else:
                 continue
-
-    
-    return result
+        
+        ENV[day] = {}
+        for rack in MULTILAYER_ENV[day]:
+            ENV[day][rack] = {'fertillizer' : int(MULTILAYER_ENV[day][rack]['FERTILLIZER'].x)}
+            for layer in MULTILAYER_ENV[day][rack]:
+                if layer == 'FERTILLIZER':
+                    continue
+                ENV[day][rack][layer] = {
+                    'irrigation_1': int(MULTILAYER_ENV[day][rack][layer]['IRRIGATION_1'].x),
+                    'irrigation_2': int(MULTILAYER_ENV[day][rack][layer]['IRRIGATION_2'].x),
+                }
+                
+    return result, ENV
