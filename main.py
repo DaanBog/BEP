@@ -1,9 +1,11 @@
-from mip import call_model
+from position_mip import call_model as position_model
+from regime_mip import call_model as regime_model
 from parameters import *
 from save import save_to_file
+from helper import NotSolvableError
 
-result, ENV = call_model()
-# combined_result = {'result': result, 'ENV': ENV}
-# save_to_file(combined_result)
-save_to_file(result,file_name='result')
-save_to_file(ENV,file_name='env')
+try:
+    result = regime_model()
+    save_to_file(result,file_name='result') 
+except TypeError:
+    raise NotSolvableError()
