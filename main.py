@@ -6,6 +6,6 @@ from helper import NotSolvableError
 
 try:
     result = regime_model()
-    save_to_file(result,file_name='result') 
+    save_to_file(result,file_name='regime_result') 
 except TypeError:
     raise NotSolvableError()
