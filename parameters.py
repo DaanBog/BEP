@@ -24,6 +24,9 @@ SECTIONS_PER_RACK_LAYER = 2
 
 # Modelling paramaters
 NUMBER_OF_DAYS = 9
+
+# Both fertillizer and irrigation must not have any gaps, so the total list of all those scripts must be [1,2,...,n]
+STATES = ['ns', 'se', 't', 'sp', 'h']
 BATCHES = {
     'b1':{
         'nc':{
@@ -32,8 +35,8 @@ BATCHES = {
             'sp': 4,
         },
         'nd':{
-            'se': 4,
-            't': 3,
+            'se': 3,
+            't': 2,
             'sp': 2,    
         },
         'i':{
@@ -49,3 +52,6 @@ BATCHES = {
 
     },
 }
+
+DAYS = list(range(NUMBER_OF_DAYS)) 
+DAYS = ['D' + str(day) for day in DAYS]
