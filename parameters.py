@@ -29,7 +29,14 @@ SECTIONS_PER_RACK_LAYER = 2
 NUMBER_OF_DAYS = 9
 
 # Both fertillizer and irrigation must not have any gaps, so the total list of all those scripts must be [1,2,...,n]
+TANKS_REGIMES = [1,2,3]
+IRRIGATION_REGIMES = {1:1, 2:2, 3:3}
+
+IRRIGATION_REGIMES_PER_RACK = len(LAYERS) * SECTIONS_PER_RACK_LAYER
+CONTAINERS_PER_IRRIGATION_REGIME = CONTAINERS_PER_RACK / SECTIONS_PER_RACK_LAYER
+
 STATES = ['ns', 'se', 't', 'sp', 'h']
+STATES_WITH_CONTAINERS = ['se', 't', 'sp']
 BATCHES = {
     'b1':{
         'nc':{

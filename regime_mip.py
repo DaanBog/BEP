@@ -8,15 +8,24 @@ def call_model():
 
     # Definition of variables
     # allocations
-    tanks = mip.addVars(DAYS, RACKS, lb=0, ub=get_max_fertillizer(BATCHES), vtype = GRB.INTEGER, name='tank')
-    irrigation = mip.addVars(DAYS, RACKS, LAYERS, [0,1], lb=0, ub=get_max_irrigation(BATCHES), vtype = GRB.INTEGER, name='irrigation' )
+    tanks = mip.addVars(DAYS, TANKS_REGIMES, lb=0, ub=len(RACKS), vtype = GRB.INTEGER, name='tank')
+    irrigation = mip.addVars(DAYS, IRRIGATION_REGIMES, lb=0, ub=len(RACKS) * len(LAYERS) * SECTIONS_PER_RACK_LAYER, vtype = GRB.INTEGER, name='irrigation' )
     
     # batches
     batches_keys = BATCHES.keys()
     batches_states = mip.addVars(DAYS,batches_keys,STATES, vtype = GRB.BINARY, name='batch is state on day')
 
     # Definition of constraints
+
+    # Maximum tank allocation
+    mip.addConstrs(gp.quicksum([tanks[(day,regime)] for regime in TANKS_REGIMES]) <= len(RACKS) for day in DAYS)
     
+    # Maximum irrigation allocation
+    mip.addConstrs(gp.quicksum([irrigation[(day, regime)] for regime in IRRIGATION_REGIMES]) <= len(RACKS) * len(LAYERS) * SECTIONS_PER_RACK_LAYER for day in DAYS)
+
+    # For every day, only so many irrigation of a type can be allocated if it has an allocated fertillizer
+    mip.addConstrs(gp.quicksum([irrigation[(day,regime)]]) <= IRRIGATION_REGIMES_PER_RACK * tanks[(day,IRRIGATION_REGIMES[regime])] for day in DAYS for regime in IRRIGATION_REGIMES )
+
     # On day 1, every batch is either not started or seeded
     mip.addConstrs(batches_states[(get_first_day(), batch, 'ns')] + batches_states[(get_first_day(), batch, 'se')] == 1 for batch in batches_keys)
 
@@ -49,17 +58,21 @@ def call_model():
             if day_numeric > 0 and day_numeric + BATCHES[batch]['nd']['sp'] < NUMBER_OF_DAYS:
                 mip.addConstr(batches_states[(day,batch,'sp')] + batches_states[(get_previous_day(day), batch, 't')] <= batches_states[(DAYS[day_numeric + BATCHES[batch]['nd']['sp']],batch,'h')] + 1 )
 
-
+    # An allocated batch needs a certain amount of containers to be available
+    mip.addConstrs(batches_states[(day,batch,state)] * BATCHES[batch]['nc'][state] <= CONTAINERS_PER_IRRIGATION_REGIME * irrigation[(day,BATCHES[batch]['i'][state])] for day in DAYS for batch in batches_keys for state in STATES_WITH_CONTAINERS)
 
     # Definition of objective function
-    obj_fn = gp.quicksum(tanks) + gp.quicksum(irrigation) - gp.quicksum([batches_states[(get_last_day(),batch,'h')]])
+    obj_fn = gp.quicksum([batches_states[(get_last_day(),batch,'h')]]) - 1/10000 * gp.quicksum(tanks) - 1/10000 * gp.quicksum(irrigation)
 
-    mip.setObjective(obj_fn, GRB.MINIMIZE)
+    mip.setObjective(obj_fn, GRB.MAXIMIZE)
 
     # Call solver
+    mip.write("linear_model.lp")
     mip.optimize() 
 
     for v in mip.getVars():
         if v.x != 0:
             print ('%s: %g' % (v.varName, v.x))
+
+ 
 
