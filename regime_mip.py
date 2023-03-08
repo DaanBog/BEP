@@ -1,6 +1,6 @@
 from gurobipy import Model, GRB
 import gurobipy as gp
-from helper import get_max_fertillizer, get_max_irrigation, next_day, get_first_day, get_day_numeric, get_last_day
+from helper import get_max_fertillizer, get_max_irrigation, next_day, get_first_day, get_day_numeric, get_last_day, get_previous_day
 from parameters import *
 
 def call_model():
@@ -30,8 +30,6 @@ def call_model():
     mip.addConstrs(batches_states[(day,batch,'sp')] <= batches_states[(next_day(day),batch,'sp')] + batches_states[(next_day(day),batch,'h')] for day in DAYS[:-1] for batch in batches_keys)
     mip.addConstrs(batches_states[(day,batch,'h')] <= batches_states[(next_day(day),batch,'h')] for day in DAYS[:-1] for batch in batches_keys)
 
-    # TODO see if we can reformulate/shorten constraints
-
     # batches can only jump after a certain set time
     for batch in batches_keys:
         for day in DAYS:
@@ -44,8 +42,13 @@ def call_model():
                 mip.addConstr(batches_states[(day,batch,'se')] >= batches_states[(DAYS[day_numeric + BATCHES[batch]['nd']['se']],batch,'t')])
 
     # Batches must have jumped after a certain set time 
-    
-    # END TODO
+            if day_numeric > 0 and day_numeric + BATCHES[batch]['nd']['se'] < NUMBER_OF_DAYS:
+                mip.addConstr(batches_states[(day,batch,'se')] + batches_states[(get_previous_day(day), batch, 'ns')] <= batches_states[(DAYS[day_numeric + BATCHES[batch]['nd']['se']],batch,'t')] + 1 )
+            if day_numeric > 0 and day_numeric +  BATCHES[batch]['nd']['t'] < NUMBER_OF_DAYS:
+                mip.addConstr(batches_states[(day,batch,'t')] + batches_states[(get_previous_day(day), batch, 'se')] <= batches_states[(DAYS[day_numeric + BATCHES[batch]['nd']['t']],batch,'sp')] + 1 )
+            if day_numeric > 0 and day_numeric + BATCHES[batch]['nd']['sp'] < NUMBER_OF_DAYS:
+                mip.addConstr(batches_states[(day,batch,'sp')] + batches_states[(get_previous_day(day), batch, 't')] <= batches_states[(DAYS[day_numeric + BATCHES[batch]['nd']['sp']],batch,'h')] + 1 )
+
 
 
     # Definition of objective function

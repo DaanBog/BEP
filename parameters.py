@@ -14,6 +14,9 @@ From full name to abbreviation
 | irrigation   | i            |
 | fertillizer  | f            |
 +--------------+--------------+
+
+For allocations:
+    it is important that any irrigation has a 1 to 1 relation to a fertillizer. so if we have batch 1 that when seeded needs f1 and i1, then any batch at any point that does not use f1 cannot use i1
 """
 
 # Physical space

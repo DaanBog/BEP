@@ -15,6 +15,11 @@ def next_day(day):
     next_day = days_keys[days_keys.index(day) + 1]
     return next_day
 
+def get_previous_day(day):
+    days_keys = list(DAYS)
+    previous = days_keys[days_keys.index(day) - 1]
+    return previous
+
 def get_first_day():
     days_keys = list(DAYS)
     first_day = days_keys[0]
