@@ -70,7 +70,6 @@ def call_model():
     mip.setObjective(obj_fn, GRB.MINIMIZE)
 
     # Call solver
-    save_model_to_file("regime_model", mip)
     mip.write("regime_model.lp")
     mip.optimize() 
     return model_to_json(batches_states)
@@ -84,14 +83,6 @@ def model_to_json(batches):
         for day in DAYS:
             final_batches_planning[batch]["planning"][day] = get_state_of_batch_on_day_from_model(batch,day,batches)
     return final_batches_planning
-
-def save_model_to_file(file_name, model):
-    model.write(F"{file_name}.lp")
-
-def print_model_result(mip):
-    for v in mip.getVars():
-        if v.x != 0:
-            print ('%s: %g' % (v.varName, v.x))
 
 def get_state_of_batch_on_day_from_model(batch, day, batches_info):
     for state in STATES:

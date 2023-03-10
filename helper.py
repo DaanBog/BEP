@@ -34,3 +34,11 @@ def get_day_numeric(day):
     days_keys = list(DAYS)
     day_index = days_keys.index(day)
     return day_index
+
+def print_model_result(mip):
+    for v in mip.getVars():
+        if v.x != 0:
+            print ('%s: %g' % (v.varName, v.x))
+
+def save_model_to_file(file_name, model):
+    model.write(F"{file_name}.lp")
