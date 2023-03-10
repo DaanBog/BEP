@@ -1,29 +1,21 @@
 \ Model Vertical farm schedule
 \ LP format - for model browsing. Use MPS format to capture full model detail.
-Maximize
-  - 0.0001 tank[D0,1] - 0.0001 tank[D0,2] - 0.0001 tank[D0,3]
-   - 0.0001 tank[D1,1] - 0.0001 tank[D1,2] - 0.0001 tank[D1,3]
-   - 0.0001 tank[D2,1] - 0.0001 tank[D2,2] - 0.0001 tank[D2,3]
-   - 0.0001 tank[D3,1] - 0.0001 tank[D3,2] - 0.0001 tank[D3,3]
-   - 0.0001 tank[D4,1] - 0.0001 tank[D4,2] - 0.0001 tank[D4,3]
-   - 0.0001 tank[D5,1] - 0.0001 tank[D5,2] - 0.0001 tank[D5,3]
-   - 0.0001 tank[D6,1] - 0.0001 tank[D6,2] - 0.0001 tank[D6,3]
-   - 0.0001 tank[D7,1] - 0.0001 tank[D7,2] - 0.0001 tank[D7,3]
-   - 0.0001 tank[D8,1] - 0.0001 tank[D8,2] - 0.0001 tank[D8,3]
-   - 0.0001 irrigation[D0,1] - 0.0001 irrigation[D0,2]
-   - 0.0001 irrigation[D0,3] - 0.0001 irrigation[D1,1]
-   - 0.0001 irrigation[D1,2] - 0.0001 irrigation[D1,3]
-   - 0.0001 irrigation[D2,1] - 0.0001 irrigation[D2,2]
-   - 0.0001 irrigation[D2,3] - 0.0001 irrigation[D3,1]
-   - 0.0001 irrigation[D3,2] - 0.0001 irrigation[D3,3]
-   - 0.0001 irrigation[D4,1] - 0.0001 irrigation[D4,2]
-   - 0.0001 irrigation[D4,3] - 0.0001 irrigation[D5,1]
-   - 0.0001 irrigation[D5,2] - 0.0001 irrigation[D5,3]
-   - 0.0001 irrigation[D6,1] - 0.0001 irrigation[D6,2]
-   - 0.0001 irrigation[D6,3] - 0.0001 irrigation[D7,1]
-   - 0.0001 irrigation[D7,2] - 0.0001 irrigation[D7,3]
-   - 0.0001 irrigation[D8,1] - 0.0001 irrigation[D8,2]
-   - 0.0001 irrigation[D8,3] + batch_is_state_on_day[D8,b1,h]
+Minimize
+  tank[D0,1] + tank[D0,2] + tank[D0,3] + tank[D1,1] + tank[D1,2]
+   + tank[D1,3] + tank[D2,1] + tank[D2,2] + tank[D2,3] + tank[D3,1]
+   + tank[D3,2] + tank[D3,3] + tank[D4,1] + tank[D4,2] + tank[D4,3]
+   + tank[D5,1] + tank[D5,2] + tank[D5,3] + tank[D6,1] + tank[D6,2]
+   + tank[D6,3] + tank[D7,1] + tank[D7,2] + tank[D7,3] + tank[D8,1]
+   + tank[D8,2] + tank[D8,3] + irrigation[D0,1] + irrigation[D0,2]
+   + irrigation[D0,3] + irrigation[D1,1] + irrigation[D1,2]
+   + irrigation[D1,3] + irrigation[D2,1] + irrigation[D2,2]
+   + irrigation[D2,3] + irrigation[D3,1] + irrigation[D3,2]
+   + irrigation[D3,3] + irrigation[D4,1] + irrigation[D4,2]
+   + irrigation[D4,3] + irrigation[D5,1] + irrigation[D5,2]
+   + irrigation[D5,3] + irrigation[D6,1] + irrigation[D6,2]
+   + irrigation[D6,3] + irrigation[D7,1] + irrigation[D7,2]
+   + irrigation[D7,3] + irrigation[D8,1] + irrigation[D8,2]
+   + irrigation[D8,3]
 Subject To
  R0: tank[D0,1] + tank[D0,2] + tank[D0,3] <= 8
  R1: tank[D1,1] + tank[D1,2] + tank[D1,3] <= 8
@@ -272,6 +264,7 @@ Subject To
  R156: - 15 irrigation[D8,1] + batch_is_state_on_day[D8,b1,se] <= 0
  R157: - 15 irrigation[D8,2] + 2 batch_is_state_on_day[D8,b1,t] <= 0
  R158: - 15 irrigation[D8,3] + 4 batch_is_state_on_day[D8,b1,sp] <= 0
+ R159: batch_is_state_on_day[D8,b1,h] = 1
 Bounds
  tank[D0,1] <= 8
  tank[D0,2] <= 8

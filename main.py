@@ -9,3 +9,5 @@ try:
     save_to_file(result,file_name='regime_result') 
 except TypeError:
     raise NotSolvableError()
+
+final_result = position_model(result)

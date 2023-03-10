@@ -24,7 +24,7 @@ RACKS = ['R1','R2','R3','R4','R5','R6','R7','R8']
 LAYERS = ['L1', 'L2', 'L3', 'L4', 'L5', 'L6']
 CONTAINERS_PER_RACK = 30
 SECTIONS_PER_RACK_LAYER = 2
-
+POSITIONS = list(map( lambda x: f"P{x}",list(range(SECTIONS_PER_RACK_LAYER))))
 # Modelling paramaters
 NUMBER_OF_DAYS = 9
 
@@ -61,6 +61,28 @@ BATCHES = {
         },
 
     },
+    # 'b2':{
+    #     'nc':{
+    #         'se': 40,
+    #         't': 80,
+    #         'sp': 120,
+    #     },
+    #     'nd':{
+    #         'se': 3,
+    #         't': 2,
+    #         'sp': 2,    
+    #     },
+    #     'i':{
+    #         'se': 1,
+    #         't': 2,
+    #         'sp': 3,    
+    #     },
+    #     'f':{
+    #         'se': 1,
+    #         't': 2,
+    #         'sp': 3,    
+    #     },
+    # },
 }
 
 DAYS = list(range(NUMBER_OF_DAYS)) 

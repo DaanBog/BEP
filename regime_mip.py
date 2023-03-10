@@ -1,6 +1,6 @@
 from gurobipy import Model, GRB
 import gurobipy as gp
-from helper import get_max_fertillizer, get_max_irrigation, next_day, get_first_day, get_day_numeric, get_last_day, get_previous_day
+from helper import get_max_fertillizer, get_max_irrigation, next_day, get_first_day, get_day_numeric, get_last_day, get_previous_day, NotSolvableError
 from parameters import *
 
 def call_model():
@@ -61,18 +61,40 @@ def call_model():
     # An allocated batch needs a certain amount of containers to be available
     mip.addConstrs(batches_states[(day,batch,state)] * BATCHES[batch]['nc'][state] <= CONTAINERS_PER_IRRIGATION_REGIME * irrigation[(day,BATCHES[batch]['i'][state])] for day in DAYS for batch in batches_keys for state in STATES_WITH_CONTAINERS)
 
-    # Definition of objective function
-    obj_fn = gp.quicksum([batches_states[(get_last_day(),batch,'h')]]) - 1/10000 * gp.quicksum(tanks) - 1/10000 * gp.quicksum(irrigation)
+    # On the final day, every batch must be harvested
+    mip.addConstrs(batches_states[(get_last_day(), batch, 'h')] == 1 for batch in batches_keys)
 
-    mip.setObjective(obj_fn, GRB.MAXIMIZE)
+    # Definition of objective function
+    obj_fn = gp.quicksum(tanks) + gp.quicksum(irrigation)
+
+    mip.setObjective(obj_fn, GRB.MINIMIZE)
 
     # Call solver
-    mip.write("linear_model.lp")
+    save_model_to_file("regime_model", mip)
+    mip.write("regime_model.lp")
     mip.optimize() 
+    return model_to_json(batches_states)
+ 
 
+def model_to_json(batches):
+    final_batches_planning = BATCHES
+    for batch in BATCHES:
+        final_batches_planning[batch]["planning"] = {}
+        # extract final planning from model
+        for day in DAYS:
+            final_batches_planning[batch]["planning"][day] = get_state_of_batch_on_day_from_model(batch,day,batches)
+    return final_batches_planning
+
+def save_model_to_file(file_name, model):
+    model.write(F"{file_name}.lp")
+
+def print_model_result(mip):
     for v in mip.getVars():
         if v.x != 0:
             print ('%s: %g' % (v.varName, v.x))
 
- 
-
+def get_state_of_batch_on_day_from_model(batch, day, batches_info):
+    for state in STATES:
+        if batches_info[(day,batch,state)].x == 1:
+            return state
+    raise NotSolvableError
