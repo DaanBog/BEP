@@ -26,7 +26,7 @@ CONTAINERS_PER_RACK = 30
 SECTIONS_PER_RACK_LAYER = 2
 POSITIONS = list(map( lambda x: f"P{x}",list(range(SECTIONS_PER_RACK_LAYER))))
 # Modelling paramaters
-NUMBER_OF_DAYS = 9
+NUMBER_OF_DAYS = 10
 
 # Both fertillizer and irrigation must not have any gaps, so the total list of all those scripts must be [1,2,...,n]
 TANKS_REGIMES = [1,2,3]
@@ -86,4 +86,3 @@ BATCHES = {
 }
 
 DAYS = list(range(NUMBER_OF_DAYS)) 
-DAYS = ['D' + str(day) for day in DAYS]
