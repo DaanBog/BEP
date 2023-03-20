@@ -31,6 +31,24 @@ def call_model(batches):
                 pass
         mip.addConstr((total_number_of_containers_on_day(day, batches) == total_number_of_containers_according_to_positions), name=F"{day} number_of_containers_match")
    
+        # Every container is allocated
+        for batch in batches_keys:
+            try: 
+                mip.addConstrs(1 == gp.quicksum([locations[day][batch][(c, layer, rack, position)] for layer in LAYERS for rack in RACKS for position in POSITIONS]) for c in list(batches[batch]['containers'][day].keys()))
+            except KeyError:
+                pass
+
+        # Total number of allocated containers on position <= 15
+        # TODO
+
+        # If container allocated on position, irrigation matches
+        # TODO
+
+        # if container allocated on position, tank matches
+        # TODO
+
+
+
     # Definition of objective function
     obj_fn = 0
 
@@ -39,8 +57,6 @@ def call_model(batches):
     save_model_to_file('position_model', mip)
     # Call solver
     mip.optimize() 
-
-
     print_model_result(mip)
     
 

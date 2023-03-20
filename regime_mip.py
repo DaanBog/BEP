@@ -69,8 +69,9 @@ def call_model():
 
     mip.setObjective(obj_fn, GRB.MINIMIZE)
 
+    # mip.write("regime_model.lp")
+
     # Call solver
-    mip.write("regime_model.lp")
     mip.optimize() 
     return model_to_json(batches_states)
  
