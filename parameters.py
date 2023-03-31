@@ -1,88 +1,76 @@
-
-"""
-From full name to abbreviation
-+--------------+--------------+
-|     Name     | Abbreviation |
-+--------------+--------------+
-| not_seeded   | ns           |
-| seeded       | se           |
-| transplanted | t            |
-| spaced       | sp           |
-| harvested    | h            |
-| # containers | nc           |
-| # days       | nd           |
-| irrigation   | i            |
-| fertillizer  | f            |
-+--------------+--------------+
-
-For allocations:
-    it is important that any irrigation has a 1 to 1 relation to a fertillizer. so if we have batch 1 that when seeded needs f1 and i1, then any batch at any point that does not use f1 cannot use i1
-"""
-
-# Physical space
-RACKS = ['R1','R2','R3','R4','R5','R6','R7','R8']
-LAYERS = ['L1', 'L2', 'L3', 'L4', 'L5', 'L6']
-CONTAINERS_PER_RACK = 30
-SECTIONS_PER_RACK_LAYER = 2
-POSITIONS = list(map( lambda x: f"P{x}",list(range(SECTIONS_PER_RACK_LAYER))))
-# Modelling paramaters
-NUMBER_OF_DAYS = 10
-
-# Both fertillizer and irrigation must not have any gaps, so the total list of all those scripts must be [1,2,...,n]
-TANKS_REGIMES = [1,2,3]
-IRRIGATION_REGIMES = {1:1, 2:2, 3:3}
-
-IRRIGATION_REGIMES_PER_RACK = len(LAYERS) * SECTIONS_PER_RACK_LAYER
-CONTAINERS_PER_IRRIGATION_REGIME = CONTAINERS_PER_RACK / SECTIONS_PER_RACK_LAYER
-
-STATES = ['ns', 'se', 't', 'sp', 'h']
-STATES_WITH_CONTAINERS = ['se', 't', 'sp']
 BATCHES = {
-    'b1':{
-        'nc':{
-            'se': 1,
-            't': 2,
-            'sp': 4,
+    "basil-1": {
+        'nc': {
+            1:100,
+            2:122,
+            3:122,
+            4:222,
+            5:222,
+            6:422,
+            7:422,
         },
-        'nd':{
-            'se': 3,
-            't': 2,
-            'sp': 2,    
+        'i': {
+            1:1,
+            2:1,
+            3:1,
+            4:1,
+            5:1,
+            6:2,
+            7:2,
         },
-        'i':{
-            'se': 1,
-            't': 2,
-            'sp': 3,    
+        'f': {
+            1:1,
+            2:1,
+            3:1,
+            4:2,
+            5:2,
+            6:3,
+            7:3,
         },
-        'f':{
-            'se': 1,
-            't': 2,
-            'sp': 3,    
-        },
-
     },
-    # 'b2':{
-    #     'nc':{
-    #         'se': 40,
-    #         't': 80,
-    #         'sp': 120,
-    #     },
-    #     'nd':{
-    #         'se': 3,
-    #         't': 2,
-    #         'sp': 2,    
-    #     },
-    #     'i':{
-    #         'se': 1,
-    #         't': 2,
-    #         'sp': 3,    
-    #     },
-    #     'f':{
-    #         'se': 1,
-    #         't': 2,
-    #         'sp': 3,    
-    #     },
-    # },
+    "basil-2": {
+        'nc': {
+            3:1,
+            4:1,
+            5:1,
+            6:2,
+            7:2,
+            8:4,
+            9:4,
+        },
+        'i': {
+            3:1,
+            4:1,
+            5:1,
+            6:2,
+            7:2,
+            8:2,
+            9:2,
+        },
+        'f': {
+            3:1,
+            4:1,
+            5:1,
+            6:2,
+            7:2,
+            8:3,
+            9:3,
+        },
+    }
 }
 
-DAYS = list(range(NUMBER_OF_DAYS)) 
+FERTILLIZERS = [1,2,3]
+IRRIGATION_SCRIPTS = [1,2]
+
+NUMBER_OF_DAYS = 11
+DAYS = range(1,NUMBER_OF_DAYS + 1)
+
+NUMBER_OF_RACKS = 8
+RACKS = range(1,NUMBER_OF_RACKS + 1)
+
+NUMBER_OF_LAYERS = 6
+LAYERS = range(1, NUMBER_OF_LAYERS + 1)
+
+NUMBER_OF_POSITIONS = 2
+POSITIONS = range(1, NUMBER_OF_POSITIONS + 1)
+NUMBER_OF_CONTAINERS_PER_POSITION = 15
