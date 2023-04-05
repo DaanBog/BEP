@@ -48,7 +48,7 @@ for day in DAYS:
                     mip += batch_is_allocated_at_pos[day][batch][(layer,rack,position)] * BATCHES[batch]['i'][day] <= irrigation[day][layer][rack][position]
                     mip += irrigation[day][layer][rack][position] <= (1-batch_is_allocated_at_pos[day][batch][(layer,rack,position)]) * max(IRRIGATION_SCRIPTS) + batch_is_allocated_at_pos[day][batch][(layer,rack,position)] * BATCHES[batch]['i'][day]
 
-mip.objective = minimize(xsum([tanks[day][rack] for day in DAYS for rack in RACKS ]))     
+mip.objective = minimize(xsum([tanks[day][rack] for day in DAYS for rack in RACKS ]) + xsum([irrigation[day][layer][rack][position] for day in DAYS for layer in LAYERS for rack in RACKS for position in POSITIONS]))     
 
 mip.write('model.lp')
 mip.optimize(max_seconds=300)
