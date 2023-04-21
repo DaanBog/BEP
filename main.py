@@ -7,12 +7,18 @@ containers_per_day_per_batch = {}
 batch_is_allocated_at_pos = {}
 batch_has_changed_position = {}
 tanks = {}
+tanks_has_changed = {}
 irrigation = {}
+positions = []
 
 for day in DAYS:
     # Set tanks
     tanks[day] = { rack : mip.add_var(var_type=INTEGER, lb=0, ub=max(FERTILLIZERS), name=F"D{day}_Tank_at_R{rack}") for rack in RACKS  }
-
+    if day > 1:
+        tanks_has_changed[day] = { rack: mip.add_var(var_type=BINARY) for rack in RACKS}
+        for rack in RACKS:
+            mip += tanks[day][rack] - tanks[day - 1][rack] <= max(FERTILLIZERS) * tanks_has_changed[day][rack]
+            mip += tanks[day - 1][rack] - tanks[day][rack] <= max(FERTILLIZERS) * tanks_has_changed[day][rack]
     # Set irrigation
     irrigation[day] = {}
     for layer in LAYERS:
@@ -34,6 +40,8 @@ for day in DAYS:
             batch_is_allocated_at_pos[day][batch] = { (layer,rack,position) : mip.add_var(var_type=BINARY, name=F"batch_allocated_at_D{day}_B{batch}_L{layer}_R{rack}_P{position}") for layer in LAYERS for rack in RACKS for position in POSITIONS }
             if day > 1 and day-1 in BATCHES[batch]['nc'] and BATCHES[batch]['nc'][day] == BATCHES[batch]['nc'][day-1]:
                 batch_has_changed_position[day][batch] = {(layer,rack,position) : mip.add_var(var_type=INTEGER, lb=0, ub=BATCHES[batch]['nc'][day], name=F"Batch_{batch}_changed_position_at_D{day}") for layer in LAYERS for rack in RACKS for position in POSITIONS }
+            elif day > 1 and day-1 in BATCHES[batch]['nc'] and BATCHES[batch]['nc'][day] != BATCHES[batch]['nc'][day-1]:
+                positions += [ rack * layer * containers_per_day_per_batch[day][batch][layer,rack,position] for layer in LAYERS for rack in RACKS for position in POSITIONS ]
             # exactly 'nc' containers must be seeded on this 
             mip += xsum([ containers_per_day_per_batch[day][batch][(layer,rack,position)] for layer in LAYERS for rack in RACKS for position in POSITIONS ]) == BATCHES[batch]['nc'][day]
             
@@ -65,10 +73,12 @@ for day in DAYS:
                     mip += -containers_per_day_per_batch[day][batch][(layer,rack,position)] +  containers_per_day_per_batch[day - 1][batch][(layer,rack,position)] <= batch_has_changed_position[day][batch][(layer,rack,position)]
 
 tanks_sum = xsum([tanks[day][rack] for day in DAYS for rack in RACKS ])
+changed_tank_sum = xsum([tanks_has_changed[day][rack] for day in tanks_has_changed for rack in tanks_has_changed[day]])
 irrigation_sum =  xsum([irrigation[day][layer][rack][position] for day in DAYS for layer in LAYERS for rack in RACKS for position in POSITIONS])
 changes_positions_sum = xsum([ batch_has_changed_position[day][batch][index] for day in batch_has_changed_position for batch in batch_has_changed_position[day] for index in batch_has_changed_position[day][batch]])
+positions = xsum([ layer * rack *  containers_per_day_per_batch[day][batch][(layer,rack,position)] for day in DAYS for batch in containers_per_day_per_batch[day] for layer in LAYERS for rack in RACKS for position in POSITIONS  ])
 
-mip.objective = minimize(tanks_sum + irrigation_sum + changes_positions_sum)     
+mip.objective = minimize(tanks_sum + irrigation_sum + changes_positions_sum + changed_tank_sum + positions)     
 
 mip.write('model.lp')
 mip.optimize(max_seconds=300)
