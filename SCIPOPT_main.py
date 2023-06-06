@@ -1,4 +1,5 @@
-from mip import *
+from pyscipopt import Model
+
 from parameters import *
 
 mip = Model(sense=MAXIMIZE, solver_name=GRB) # Change solver to GRB for Gurobi solver, CBC for free solver
