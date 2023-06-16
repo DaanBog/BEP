@@ -16,7 +16,7 @@ h = mip.addVars(D, B, L, R, P, vtype=GRB.BINARY, name='allocated')
 
 # Linearization variables
 Dv = mip.addVars(D[1:], R, vtype=GRB.BINARY, name='fertillizerTank')
-Dh = mip.addVars(D[1:], B, L, R, P, vtype=GRB.BINARY, name='containers', lb=0, ub=c)
+Dh = mip.addVars(D[1:], B, L, R, P, vtype=GRB.BINARY, name='containerMovements', lb=0, ub=c)
 
 # Simple symmetry breaking variables
 if USE_SYMMETRY_BREAKING:   
@@ -65,9 +65,14 @@ if USE_ADVANCED_SYMMETRY_BREAKING:
     
    
 # objective function
-Dh_obj = gp.quicksum([Dh[(d,b,l,r,p)] for d in D[1:] for b in B for l in L for r in R for p in P]) 
+Dh_obj = gp.quicksum([Dh[(d,b,l,r,p)] for d in D[1:] for b in B for l in L for r in R for p in P if nc[(d,b)] == nc[(d-1,b)]]) 
 Dv_obj = gp.quicksum([Dv[(d,r)] for d in D[1:] for r in R])
 h_obj = gp.quicksum([h[(d,b,l,r,p)] for d in D for b in B for l in L for r in R for p in P])
+
+print('\n')
+print('Dh')
+print(Dh_obj)
+print('\n')
 
 mip.setObjectiveN(Dv_obj, 0, 2)
 mip.setObjectiveN(Dh_obj, 1,1)
