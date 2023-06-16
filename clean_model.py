@@ -69,11 +69,6 @@ Dh_obj = gp.quicksum([Dh[(d,b,l,r,p)] for d in D[1:] for b in B for l in L for r
 Dv_obj = gp.quicksum([Dv[(d,r)] for d in D[1:] for r in R])
 h_obj = gp.quicksum([h[(d,b,l,r,p)] for d in D for b in B for l in L for r in R for p in P])
 
-print('\n')
-print('Dh')
-print(Dh_obj)
-print('\n')
-
 mip.setObjectiveN(Dv_obj, 0, 2)
 mip.setObjectiveN(Dh_obj, 1,1)
 mip.setObjectiveN(h_obj, 2,0)
