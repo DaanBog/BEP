@@ -31,12 +31,10 @@ mip.addConstrs(gp.quicksum([cnt[(d,b,l,r,p)] for l in L for r in R for p in P]) 
 mip.addConstrs(gp.quicksum([cnt[(d,b,l,r,p)] for b in B]) <= c for d in D for l in L for r in R for p in P ) # 2
 mip.addConstrs(cnt[(d,b,l,r,p)] <= c * h[(d,b,l,r,p)] for d in D for b in B for l in L for r in R for p in P) # 3
 mip.addConstrs(h[(d,b,l,r,p)] <= cnt[(d,b,l,r,p)] for d in D for b in B for l in L for r in R for p in P) # 3
-
-mip.addConstrs(gp.quicksum([ v[(d,r,f)] for f in F_list ]) == 1 for d in D for r in R)
-mip.addConstrs(h[(d,b,l,r,p)] <= v[(d,r,F[(d,b)])] for d in D for b in B for l in L for r in R for p in P) # 4
-
-mip.addConstrs(gp.quicksum([ irr[(d,l,r,p,i)] for i in I_list ]) == 1 for d in D for l in L for r in R for p in P)
-mip.addConstrs(h[(d,b,l,r,p)] <= irr[(d,l,r,p,I[(d,b)])] for d in D for b in B for l in L for r in R for p in P) # 5
+mip.addConstrs(gp.quicksum([ v[(d,r,f)] for f in F_list ]) == 1 for d in D for r in R) # 4
+mip.addConstrs(h[(d,b,l,r,p)] <= v[(d,r,F[(d,b)])] for d in D for b in B for l in L for r in R for p in P) # 5
+mip.addConstrs(gp.quicksum([ irr[(d,l,r,p,i)] for i in I_list ]) == 1 for d in D for l in L for r in R for p in P) # 6
+mip.addConstrs(h[(d,b,l,r,p)] <= irr[(d,l,r,p,I[(d,b)])] for d in D for b in B for l in L for r in R for p in P) # 7
 
 # Linearization constraints
 mip.addConstrs(v[(d,r,f)] - v[(d-1,r,f)] <= Dv[(d,r)] for d in D[1:] for r in R for f in F_list) # 1
@@ -65,8 +63,8 @@ if USE_ADVANCED_SYMMETRY_BREAKING:
     
    
 # objective function
-Dh_obj = gp.quicksum([Dh[(d,b,l,r,p)] for d in D[1:] for b in B for l in L for r in R for p in P if nc[(d,b)] == nc[(d-1,b)]]) 
 Dv_obj = gp.quicksum([Dv[(d,r)] for d in D[1:] for r in R])
+Dh_obj = gp.quicksum([Dh[(d,b,l,r,p)] for d in D[1:] for b in B for l in L for r in R for p in P if nc[(d,b)] == nc[(d-1,b)]]) 
 h_obj = gp.quicksum([h[(d,b,l,r,p)] for d in D for b in B for l in L for r in R for p in P])
 
 mip.setObjectiveN(Dv_obj, 0, 2)

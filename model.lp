@@ -38273,6 +38273,9531 @@ Subject To
    - containerMovements[10,4,6,8,1] <= 0
  R24887: allocated[9,4,6,8,2] - allocated[10,4,6,8,2]
    - containerMovements[10,4,6,8,2] <= 0
+ R24888: allocated[1,1,1,1,1] + allocated[1,1,1,1,2] + allocated[1,1,2,1,1]
+   + allocated[1,1,2,1,2] + allocated[1,1,3,1,1] + allocated[1,1,3,1,2]
+   + allocated[1,1,4,1,1] + allocated[1,1,4,1,2] + allocated[1,1,5,1,1]
+   + allocated[1,1,5,1,2] + allocated[1,1,6,1,1] + allocated[1,1,6,1,2]
+   + allocated[1,2,1,1,1] + allocated[1,2,1,1,2] + allocated[1,2,2,1,1]
+   + allocated[1,2,2,1,2] + allocated[1,2,3,1,1] + allocated[1,2,3,1,2]
+   + allocated[1,2,4,1,1] + allocated[1,2,4,1,2] + allocated[1,2,5,1,1]
+   + allocated[1,2,5,1,2] + allocated[1,2,6,1,1] + allocated[1,2,6,1,2]
+   + allocated[1,3,1,1,1] + allocated[1,3,1,1,2] + allocated[1,3,2,1,1]
+   + allocated[1,3,2,1,2] + allocated[1,3,3,1,1] + allocated[1,3,3,1,2]
+   + allocated[1,3,4,1,1] + allocated[1,3,4,1,2] + allocated[1,3,5,1,1]
+   + allocated[1,3,5,1,2] + allocated[1,3,6,1,1] + allocated[1,3,6,1,2]
+   + allocated[1,4,1,1,1] + allocated[1,4,1,1,2] + allocated[1,4,2,1,1]
+   + allocated[1,4,2,1,2] + allocated[1,4,3,1,1] + allocated[1,4,3,1,2]
+   + allocated[1,4,4,1,1] + allocated[1,4,4,1,2] + allocated[1,4,5,1,1]
+   + allocated[1,4,5,1,2] + allocated[1,4,6,1,1] + allocated[1,4,6,1,2]
+   - 48 firstDayInUseRack[1,1] <= 0
+ R24889: allocated[1,1,1,2,1] + allocated[1,1,1,2,2] + allocated[1,1,2,2,1]
+   + allocated[1,1,2,2,2] + allocated[1,1,3,2,1] + allocated[1,1,3,2,2]
+   + allocated[1,1,4,2,1] + allocated[1,1,4,2,2] + allocated[1,1,5,2,1]
+   + allocated[1,1,5,2,2] + allocated[1,1,6,2,1] + allocated[1,1,6,2,2]
+   + allocated[1,2,1,2,1] + allocated[1,2,1,2,2] + allocated[1,2,2,2,1]
+   + allocated[1,2,2,2,2] + allocated[1,2,3,2,1] + allocated[1,2,3,2,2]
+   + allocated[1,2,4,2,1] + allocated[1,2,4,2,2] + allocated[1,2,5,2,1]
+   + allocated[1,2,5,2,2] + allocated[1,2,6,2,1] + allocated[1,2,6,2,2]
+   + allocated[1,3,1,2,1] + allocated[1,3,1,2,2] + allocated[1,3,2,2,1]
+   + allocated[1,3,2,2,2] + allocated[1,3,3,2,1] + allocated[1,3,3,2,2]
+   + allocated[1,3,4,2,1] + allocated[1,3,4,2,2] + allocated[1,3,5,2,1]
+   + allocated[1,3,5,2,2] + allocated[1,3,6,2,1] + allocated[1,3,6,2,2]
+   + allocated[1,4,1,2,1] + allocated[1,4,1,2,2] + allocated[1,4,2,2,1]
+   + allocated[1,4,2,2,2] + allocated[1,4,3,2,1] + allocated[1,4,3,2,2]
+   + allocated[1,4,4,2,1] + allocated[1,4,4,2,2] + allocated[1,4,5,2,1]
+   + allocated[1,4,5,2,2] + allocated[1,4,6,2,1] + allocated[1,4,6,2,2]
+   - 48 firstDayInUseRack[1,2] <= 0
+ R24890: allocated[1,1,1,3,1] + allocated[1,1,1,3,2] + allocated[1,1,2,3,1]
+   + allocated[1,1,2,3,2] + allocated[1,1,3,3,1] + allocated[1,1,3,3,2]
+   + allocated[1,1,4,3,1] + allocated[1,1,4,3,2] + allocated[1,1,5,3,1]
+   + allocated[1,1,5,3,2] + allocated[1,1,6,3,1] + allocated[1,1,6,3,2]
+   + allocated[1,2,1,3,1] + allocated[1,2,1,3,2] + allocated[1,2,2,3,1]
+   + allocated[1,2,2,3,2] + allocated[1,2,3,3,1] + allocated[1,2,3,3,2]
+   + allocated[1,2,4,3,1] + allocated[1,2,4,3,2] + allocated[1,2,5,3,1]
+   + allocated[1,2,5,3,2] + allocated[1,2,6,3,1] + allocated[1,2,6,3,2]
+   + allocated[1,3,1,3,1] + allocated[1,3,1,3,2] + allocated[1,3,2,3,1]
+   + allocated[1,3,2,3,2] + allocated[1,3,3,3,1] + allocated[1,3,3,3,2]
+   + allocated[1,3,4,3,1] + allocated[1,3,4,3,2] + allocated[1,3,5,3,1]
+   + allocated[1,3,5,3,2] + allocated[1,3,6,3,1] + allocated[1,3,6,3,2]
+   + allocated[1,4,1,3,1] + allocated[1,4,1,3,2] + allocated[1,4,2,3,1]
+   + allocated[1,4,2,3,2] + allocated[1,4,3,3,1] + allocated[1,4,3,3,2]
+   + allocated[1,4,4,3,1] + allocated[1,4,4,3,2] + allocated[1,4,5,3,1]
+   + allocated[1,4,5,3,2] + allocated[1,4,6,3,1] + allocated[1,4,6,3,2]
+   - 48 firstDayInUseRack[1,3] <= 0
+ R24891: allocated[1,1,1,4,1] + allocated[1,1,1,4,2] + allocated[1,1,2,4,1]
+   + allocated[1,1,2,4,2] + allocated[1,1,3,4,1] + allocated[1,1,3,4,2]
+   + allocated[1,1,4,4,1] + allocated[1,1,4,4,2] + allocated[1,1,5,4,1]
+   + allocated[1,1,5,4,2] + allocated[1,1,6,4,1] + allocated[1,1,6,4,2]
+   + allocated[1,2,1,4,1] + allocated[1,2,1,4,2] + allocated[1,2,2,4,1]
+   + allocated[1,2,2,4,2] + allocated[1,2,3,4,1] + allocated[1,2,3,4,2]
+   + allocated[1,2,4,4,1] + allocated[1,2,4,4,2] + allocated[1,2,5,4,1]
+   + allocated[1,2,5,4,2] + allocated[1,2,6,4,1] + allocated[1,2,6,4,2]
+   + allocated[1,3,1,4,1] + allocated[1,3,1,4,2] + allocated[1,3,2,4,1]
+   + allocated[1,3,2,4,2] + allocated[1,3,3,4,1] + allocated[1,3,3,4,2]
+   + allocated[1,3,4,4,1] + allocated[1,3,4,4,2] + allocated[1,3,5,4,1]
+   + allocated[1,3,5,4,2] + allocated[1,3,6,4,1] + allocated[1,3,6,4,2]
+   + allocated[1,4,1,4,1] + allocated[1,4,1,4,2] + allocated[1,4,2,4,1]
+   + allocated[1,4,2,4,2] + allocated[1,4,3,4,1] + allocated[1,4,3,4,2]
+   + allocated[1,4,4,4,1] + allocated[1,4,4,4,2] + allocated[1,4,5,4,1]
+   + allocated[1,4,5,4,2] + allocated[1,4,6,4,1] + allocated[1,4,6,4,2]
+   - 48 firstDayInUseRack[1,4] <= 0
+ R24892: allocated[1,1,1,5,1] + allocated[1,1,1,5,2] + allocated[1,1,2,5,1]
+   + allocated[1,1,2,5,2] + allocated[1,1,3,5,1] + allocated[1,1,3,5,2]
+   + allocated[1,1,4,5,1] + allocated[1,1,4,5,2] + allocated[1,1,5,5,1]
+   + allocated[1,1,5,5,2] + allocated[1,1,6,5,1] + allocated[1,1,6,5,2]
+   + allocated[1,2,1,5,1] + allocated[1,2,1,5,2] + allocated[1,2,2,5,1]
+   + allocated[1,2,2,5,2] + allocated[1,2,3,5,1] + allocated[1,2,3,5,2]
+   + allocated[1,2,4,5,1] + allocated[1,2,4,5,2] + allocated[1,2,5,5,1]
+   + allocated[1,2,5,5,2] + allocated[1,2,6,5,1] + allocated[1,2,6,5,2]
+   + allocated[1,3,1,5,1] + allocated[1,3,1,5,2] + allocated[1,3,2,5,1]
+   + allocated[1,3,2,5,2] + allocated[1,3,3,5,1] + allocated[1,3,3,5,2]
+   + allocated[1,3,4,5,1] + allocated[1,3,4,5,2] + allocated[1,3,5,5,1]
+   + allocated[1,3,5,5,2] + allocated[1,3,6,5,1] + allocated[1,3,6,5,2]
+   + allocated[1,4,1,5,1] + allocated[1,4,1,5,2] + allocated[1,4,2,5,1]
+   + allocated[1,4,2,5,2] + allocated[1,4,3,5,1] + allocated[1,4,3,5,2]
+   + allocated[1,4,4,5,1] + allocated[1,4,4,5,2] + allocated[1,4,5,5,1]
+   + allocated[1,4,5,5,2] + allocated[1,4,6,5,1] + allocated[1,4,6,5,2]
+   - 48 firstDayInUseRack[1,5] <= 0
+ R24893: allocated[1,1,1,6,1] + allocated[1,1,1,6,2] + allocated[1,1,2,6,1]
+   + allocated[1,1,2,6,2] + allocated[1,1,3,6,1] + allocated[1,1,3,6,2]
+   + allocated[1,1,4,6,1] + allocated[1,1,4,6,2] + allocated[1,1,5,6,1]
+   + allocated[1,1,5,6,2] + allocated[1,1,6,6,1] + allocated[1,1,6,6,2]
+   + allocated[1,2,1,6,1] + allocated[1,2,1,6,2] + allocated[1,2,2,6,1]
+   + allocated[1,2,2,6,2] + allocated[1,2,3,6,1] + allocated[1,2,3,6,2]
+   + allocated[1,2,4,6,1] + allocated[1,2,4,6,2] + allocated[1,2,5,6,1]
+   + allocated[1,2,5,6,2] + allocated[1,2,6,6,1] + allocated[1,2,6,6,2]
+   + allocated[1,3,1,6,1] + allocated[1,3,1,6,2] + allocated[1,3,2,6,1]
+   + allocated[1,3,2,6,2] + allocated[1,3,3,6,1] + allocated[1,3,3,6,2]
+   + allocated[1,3,4,6,1] + allocated[1,3,4,6,2] + allocated[1,3,5,6,1]
+   + allocated[1,3,5,6,2] + allocated[1,3,6,6,1] + allocated[1,3,6,6,2]
+   + allocated[1,4,1,6,1] + allocated[1,4,1,6,2] + allocated[1,4,2,6,1]
+   + allocated[1,4,2,6,2] + allocated[1,4,3,6,1] + allocated[1,4,3,6,2]
+   + allocated[1,4,4,6,1] + allocated[1,4,4,6,2] + allocated[1,4,5,6,1]
+   + allocated[1,4,5,6,2] + allocated[1,4,6,6,1] + allocated[1,4,6,6,2]
+   - 48 firstDayInUseRack[1,6] <= 0
+ R24894: allocated[1,1,1,7,1] + allocated[1,1,1,7,2] + allocated[1,1,2,7,1]
+   + allocated[1,1,2,7,2] + allocated[1,1,3,7,1] + allocated[1,1,3,7,2]
+   + allocated[1,1,4,7,1] + allocated[1,1,4,7,2] + allocated[1,1,5,7,1]
+   + allocated[1,1,5,7,2] + allocated[1,1,6,7,1] + allocated[1,1,6,7,2]
+   + allocated[1,2,1,7,1] + allocated[1,2,1,7,2] + allocated[1,2,2,7,1]
+   + allocated[1,2,2,7,2] + allocated[1,2,3,7,1] + allocated[1,2,3,7,2]
+   + allocated[1,2,4,7,1] + allocated[1,2,4,7,2] + allocated[1,2,5,7,1]
+   + allocated[1,2,5,7,2] + allocated[1,2,6,7,1] + allocated[1,2,6,7,2]
+   + allocated[1,3,1,7,1] + allocated[1,3,1,7,2] + allocated[1,3,2,7,1]
+   + allocated[1,3,2,7,2] + allocated[1,3,3,7,1] + allocated[1,3,3,7,2]
+   + allocated[1,3,4,7,1] + allocated[1,3,4,7,2] + allocated[1,3,5,7,1]
+   + allocated[1,3,5,7,2] + allocated[1,3,6,7,1] + allocated[1,3,6,7,2]
+   + allocated[1,4,1,7,1] + allocated[1,4,1,7,2] + allocated[1,4,2,7,1]
+   + allocated[1,4,2,7,2] + allocated[1,4,3,7,1] + allocated[1,4,3,7,2]
+   + allocated[1,4,4,7,1] + allocated[1,4,4,7,2] + allocated[1,4,5,7,1]
+   + allocated[1,4,5,7,2] + allocated[1,4,6,7,1] + allocated[1,4,6,7,2]
+   - 48 firstDayInUseRack[1,7] <= 0
+ R24895: allocated[1,1,1,8,1] + allocated[1,1,1,8,2] + allocated[1,1,2,8,1]
+   + allocated[1,1,2,8,2] + allocated[1,1,3,8,1] + allocated[1,1,3,8,2]
+   + allocated[1,1,4,8,1] + allocated[1,1,4,8,2] + allocated[1,1,5,8,1]
+   + allocated[1,1,5,8,2] + allocated[1,1,6,8,1] + allocated[1,1,6,8,2]
+   + allocated[1,2,1,8,1] + allocated[1,2,1,8,2] + allocated[1,2,2,8,1]
+   + allocated[1,2,2,8,2] + allocated[1,2,3,8,1] + allocated[1,2,3,8,2]
+   + allocated[1,2,4,8,1] + allocated[1,2,4,8,2] + allocated[1,2,5,8,1]
+   + allocated[1,2,5,8,2] + allocated[1,2,6,8,1] + allocated[1,2,6,8,2]
+   + allocated[1,3,1,8,1] + allocated[1,3,1,8,2] + allocated[1,3,2,8,1]
+   + allocated[1,3,2,8,2] + allocated[1,3,3,8,1] + allocated[1,3,3,8,2]
+   + allocated[1,3,4,8,1] + allocated[1,3,4,8,2] + allocated[1,3,5,8,1]
+   + allocated[1,3,5,8,2] + allocated[1,3,6,8,1] + allocated[1,3,6,8,2]
+   + allocated[1,4,1,8,1] + allocated[1,4,1,8,2] + allocated[1,4,2,8,1]
+   + allocated[1,4,2,8,2] + allocated[1,4,3,8,1] + allocated[1,4,3,8,2]
+   + allocated[1,4,4,8,1] + allocated[1,4,4,8,2] + allocated[1,4,5,8,1]
+   + allocated[1,4,5,8,2] + allocated[1,4,6,8,1] + allocated[1,4,6,8,2]
+   - 48 firstDayInUseRack[1,8] <= 0
+ R24896: allocated[2,1,1,1,1] + allocated[2,1,1,1,2] + allocated[2,1,2,1,1]
+   + allocated[2,1,2,1,2] + allocated[2,1,3,1,1] + allocated[2,1,3,1,2]
+   + allocated[2,1,4,1,1] + allocated[2,1,4,1,2] + allocated[2,1,5,1,1]
+   + allocated[2,1,5,1,2] + allocated[2,1,6,1,1] + allocated[2,1,6,1,2]
+   + allocated[2,2,1,1,1] + allocated[2,2,1,1,2] + allocated[2,2,2,1,1]
+   + allocated[2,2,2,1,2] + allocated[2,2,3,1,1] + allocated[2,2,3,1,2]
+   + allocated[2,2,4,1,1] + allocated[2,2,4,1,2] + allocated[2,2,5,1,1]
+   + allocated[2,2,5,1,2] + allocated[2,2,6,1,1] + allocated[2,2,6,1,2]
+   + allocated[2,3,1,1,1] + allocated[2,3,1,1,2] + allocated[2,3,2,1,1]
+   + allocated[2,3,2,1,2] + allocated[2,3,3,1,1] + allocated[2,3,3,1,2]
+   + allocated[2,3,4,1,1] + allocated[2,3,4,1,2] + allocated[2,3,5,1,1]
+   + allocated[2,3,5,1,2] + allocated[2,3,6,1,1] + allocated[2,3,6,1,2]
+   + allocated[2,4,1,1,1] + allocated[2,4,1,1,2] + allocated[2,4,2,1,1]
+   + allocated[2,4,2,1,2] + allocated[2,4,3,1,1] + allocated[2,4,3,1,2]
+   + allocated[2,4,4,1,1] + allocated[2,4,4,1,2] + allocated[2,4,5,1,1]
+   + allocated[2,4,5,1,2] + allocated[2,4,6,1,1] + allocated[2,4,6,1,2]
+   - 48 firstDayInUseRack[1,1] - 48 firstDayInUseRack[2,1] <= 0
+ R24897: allocated[2,1,1,2,1] + allocated[2,1,1,2,2] + allocated[2,1,2,2,1]
+   + allocated[2,1,2,2,2] + allocated[2,1,3,2,1] + allocated[2,1,3,2,2]
+   + allocated[2,1,4,2,1] + allocated[2,1,4,2,2] + allocated[2,1,5,2,1]
+   + allocated[2,1,5,2,2] + allocated[2,1,6,2,1] + allocated[2,1,6,2,2]
+   + allocated[2,2,1,2,1] + allocated[2,2,1,2,2] + allocated[2,2,2,2,1]
+   + allocated[2,2,2,2,2] + allocated[2,2,3,2,1] + allocated[2,2,3,2,2]
+   + allocated[2,2,4,2,1] + allocated[2,2,4,2,2] + allocated[2,2,5,2,1]
+   + allocated[2,2,5,2,2] + allocated[2,2,6,2,1] + allocated[2,2,6,2,2]
+   + allocated[2,3,1,2,1] + allocated[2,3,1,2,2] + allocated[2,3,2,2,1]
+   + allocated[2,3,2,2,2] + allocated[2,3,3,2,1] + allocated[2,3,3,2,2]
+   + allocated[2,3,4,2,1] + allocated[2,3,4,2,2] + allocated[2,3,5,2,1]
+   + allocated[2,3,5,2,2] + allocated[2,3,6,2,1] + allocated[2,3,6,2,2]
+   + allocated[2,4,1,2,1] + allocated[2,4,1,2,2] + allocated[2,4,2,2,1]
+   + allocated[2,4,2,2,2] + allocated[2,4,3,2,1] + allocated[2,4,3,2,2]
+   + allocated[2,4,4,2,1] + allocated[2,4,4,2,2] + allocated[2,4,5,2,1]
+   + allocated[2,4,5,2,2] + allocated[2,4,6,2,1] + allocated[2,4,6,2,2]
+   - 48 firstDayInUseRack[1,2] - 48 firstDayInUseRack[2,2] <= 0
+ R24898: allocated[2,1,1,3,1] + allocated[2,1,1,3,2] + allocated[2,1,2,3,1]
+   + allocated[2,1,2,3,2] + allocated[2,1,3,3,1] + allocated[2,1,3,3,2]
+   + allocated[2,1,4,3,1] + allocated[2,1,4,3,2] + allocated[2,1,5,3,1]
+   + allocated[2,1,5,3,2] + allocated[2,1,6,3,1] + allocated[2,1,6,3,2]
+   + allocated[2,2,1,3,1] + allocated[2,2,1,3,2] + allocated[2,2,2,3,1]
+   + allocated[2,2,2,3,2] + allocated[2,2,3,3,1] + allocated[2,2,3,3,2]
+   + allocated[2,2,4,3,1] + allocated[2,2,4,3,2] + allocated[2,2,5,3,1]
+   + allocated[2,2,5,3,2] + allocated[2,2,6,3,1] + allocated[2,2,6,3,2]
+   + allocated[2,3,1,3,1] + allocated[2,3,1,3,2] + allocated[2,3,2,3,1]
+   + allocated[2,3,2,3,2] + allocated[2,3,3,3,1] + allocated[2,3,3,3,2]
+   + allocated[2,3,4,3,1] + allocated[2,3,4,3,2] + allocated[2,3,5,3,1]
+   + allocated[2,3,5,3,2] + allocated[2,3,6,3,1] + allocated[2,3,6,3,2]
+   + allocated[2,4,1,3,1] + allocated[2,4,1,3,2] + allocated[2,4,2,3,1]
+   + allocated[2,4,2,3,2] + allocated[2,4,3,3,1] + allocated[2,4,3,3,2]
+   + allocated[2,4,4,3,1] + allocated[2,4,4,3,2] + allocated[2,4,5,3,1]
+   + allocated[2,4,5,3,2] + allocated[2,4,6,3,1] + allocated[2,4,6,3,2]
+   - 48 firstDayInUseRack[1,3] - 48 firstDayInUseRack[2,3] <= 0
+ R24899: allocated[2,1,1,4,1] + allocated[2,1,1,4,2] + allocated[2,1,2,4,1]
+   + allocated[2,1,2,4,2] + allocated[2,1,3,4,1] + allocated[2,1,3,4,2]
+   + allocated[2,1,4,4,1] + allocated[2,1,4,4,2] + allocated[2,1,5,4,1]
+   + allocated[2,1,5,4,2] + allocated[2,1,6,4,1] + allocated[2,1,6,4,2]
+   + allocated[2,2,1,4,1] + allocated[2,2,1,4,2] + allocated[2,2,2,4,1]
+   + allocated[2,2,2,4,2] + allocated[2,2,3,4,1] + allocated[2,2,3,4,2]
+   + allocated[2,2,4,4,1] + allocated[2,2,4,4,2] + allocated[2,2,5,4,1]
+   + allocated[2,2,5,4,2] + allocated[2,2,6,4,1] + allocated[2,2,6,4,2]
+   + allocated[2,3,1,4,1] + allocated[2,3,1,4,2] + allocated[2,3,2,4,1]
+   + allocated[2,3,2,4,2] + allocated[2,3,3,4,1] + allocated[2,3,3,4,2]
+   + allocated[2,3,4,4,1] + allocated[2,3,4,4,2] + allocated[2,3,5,4,1]
+   + allocated[2,3,5,4,2] + allocated[2,3,6,4,1] + allocated[2,3,6,4,2]
+   + allocated[2,4,1,4,1] + allocated[2,4,1,4,2] + allocated[2,4,2,4,1]
+   + allocated[2,4,2,4,2] + allocated[2,4,3,4,1] + allocated[2,4,3,4,2]
+   + allocated[2,4,4,4,1] + allocated[2,4,4,4,2] + allocated[2,4,5,4,1]
+   + allocated[2,4,5,4,2] + allocated[2,4,6,4,1] + allocated[2,4,6,4,2]
+   - 48 firstDayInUseRack[1,4] - 48 firstDayInUseRack[2,4] <= 0
+ R24900: allocated[2,1,1,5,1] + allocated[2,1,1,5,2] + allocated[2,1,2,5,1]
+   + allocated[2,1,2,5,2] + allocated[2,1,3,5,1] + allocated[2,1,3,5,2]
+   + allocated[2,1,4,5,1] + allocated[2,1,4,5,2] + allocated[2,1,5,5,1]
+   + allocated[2,1,5,5,2] + allocated[2,1,6,5,1] + allocated[2,1,6,5,2]
+   + allocated[2,2,1,5,1] + allocated[2,2,1,5,2] + allocated[2,2,2,5,1]
+   + allocated[2,2,2,5,2] + allocated[2,2,3,5,1] + allocated[2,2,3,5,2]
+   + allocated[2,2,4,5,1] + allocated[2,2,4,5,2] + allocated[2,2,5,5,1]
+   + allocated[2,2,5,5,2] + allocated[2,2,6,5,1] + allocated[2,2,6,5,2]
+   + allocated[2,3,1,5,1] + allocated[2,3,1,5,2] + allocated[2,3,2,5,1]
+   + allocated[2,3,2,5,2] + allocated[2,3,3,5,1] + allocated[2,3,3,5,2]
+   + allocated[2,3,4,5,1] + allocated[2,3,4,5,2] + allocated[2,3,5,5,1]
+   + allocated[2,3,5,5,2] + allocated[2,3,6,5,1] + allocated[2,3,6,5,2]
+   + allocated[2,4,1,5,1] + allocated[2,4,1,5,2] + allocated[2,4,2,5,1]
+   + allocated[2,4,2,5,2] + allocated[2,4,3,5,1] + allocated[2,4,3,5,2]
+   + allocated[2,4,4,5,1] + allocated[2,4,4,5,2] + allocated[2,4,5,5,1]
+   + allocated[2,4,5,5,2] + allocated[2,4,6,5,1] + allocated[2,4,6,5,2]
+   - 48 firstDayInUseRack[1,5] - 48 firstDayInUseRack[2,5] <= 0
+ R24901: allocated[2,1,1,6,1] + allocated[2,1,1,6,2] + allocated[2,1,2,6,1]
+   + allocated[2,1,2,6,2] + allocated[2,1,3,6,1] + allocated[2,1,3,6,2]
+   + allocated[2,1,4,6,1] + allocated[2,1,4,6,2] + allocated[2,1,5,6,1]
+   + allocated[2,1,5,6,2] + allocated[2,1,6,6,1] + allocated[2,1,6,6,2]
+   + allocated[2,2,1,6,1] + allocated[2,2,1,6,2] + allocated[2,2,2,6,1]
+   + allocated[2,2,2,6,2] + allocated[2,2,3,6,1] + allocated[2,2,3,6,2]
+   + allocated[2,2,4,6,1] + allocated[2,2,4,6,2] + allocated[2,2,5,6,1]
+   + allocated[2,2,5,6,2] + allocated[2,2,6,6,1] + allocated[2,2,6,6,2]
+   + allocated[2,3,1,6,1] + allocated[2,3,1,6,2] + allocated[2,3,2,6,1]
+   + allocated[2,3,2,6,2] + allocated[2,3,3,6,1] + allocated[2,3,3,6,2]
+   + allocated[2,3,4,6,1] + allocated[2,3,4,6,2] + allocated[2,3,5,6,1]
+   + allocated[2,3,5,6,2] + allocated[2,3,6,6,1] + allocated[2,3,6,6,2]
+   + allocated[2,4,1,6,1] + allocated[2,4,1,6,2] + allocated[2,4,2,6,1]
+   + allocated[2,4,2,6,2] + allocated[2,4,3,6,1] + allocated[2,4,3,6,2]
+   + allocated[2,4,4,6,1] + allocated[2,4,4,6,2] + allocated[2,4,5,6,1]
+   + allocated[2,4,5,6,2] + allocated[2,4,6,6,1] + allocated[2,4,6,6,2]
+   - 48 firstDayInUseRack[1,6] - 48 firstDayInUseRack[2,6] <= 0
+ R24902: allocated[2,1,1,7,1] + allocated[2,1,1,7,2] + allocated[2,1,2,7,1]
+   + allocated[2,1,2,7,2] + allocated[2,1,3,7,1] + allocated[2,1,3,7,2]
+   + allocated[2,1,4,7,1] + allocated[2,1,4,7,2] + allocated[2,1,5,7,1]
+   + allocated[2,1,5,7,2] + allocated[2,1,6,7,1] + allocated[2,1,6,7,2]
+   + allocated[2,2,1,7,1] + allocated[2,2,1,7,2] + allocated[2,2,2,7,1]
+   + allocated[2,2,2,7,2] + allocated[2,2,3,7,1] + allocated[2,2,3,7,2]
+   + allocated[2,2,4,7,1] + allocated[2,2,4,7,2] + allocated[2,2,5,7,1]
+   + allocated[2,2,5,7,2] + allocated[2,2,6,7,1] + allocated[2,2,6,7,2]
+   + allocated[2,3,1,7,1] + allocated[2,3,1,7,2] + allocated[2,3,2,7,1]
+   + allocated[2,3,2,7,2] + allocated[2,3,3,7,1] + allocated[2,3,3,7,2]
+   + allocated[2,3,4,7,1] + allocated[2,3,4,7,2] + allocated[2,3,5,7,1]
+   + allocated[2,3,5,7,2] + allocated[2,3,6,7,1] + allocated[2,3,6,7,2]
+   + allocated[2,4,1,7,1] + allocated[2,4,1,7,2] + allocated[2,4,2,7,1]
+   + allocated[2,4,2,7,2] + allocated[2,4,3,7,1] + allocated[2,4,3,7,2]
+   + allocated[2,4,4,7,1] + allocated[2,4,4,7,2] + allocated[2,4,5,7,1]
+   + allocated[2,4,5,7,2] + allocated[2,4,6,7,1] + allocated[2,4,6,7,2]
+   - 48 firstDayInUseRack[1,7] - 48 firstDayInUseRack[2,7] <= 0
+ R24903: allocated[2,1,1,8,1] + allocated[2,1,1,8,2] + allocated[2,1,2,8,1]
+   + allocated[2,1,2,8,2] + allocated[2,1,3,8,1] + allocated[2,1,3,8,2]
+   + allocated[2,1,4,8,1] + allocated[2,1,4,8,2] + allocated[2,1,5,8,1]
+   + allocated[2,1,5,8,2] + allocated[2,1,6,8,1] + allocated[2,1,6,8,2]
+   + allocated[2,2,1,8,1] + allocated[2,2,1,8,2] + allocated[2,2,2,8,1]
+   + allocated[2,2,2,8,2] + allocated[2,2,3,8,1] + allocated[2,2,3,8,2]
+   + allocated[2,2,4,8,1] + allocated[2,2,4,8,2] + allocated[2,2,5,8,1]
+   + allocated[2,2,5,8,2] + allocated[2,2,6,8,1] + allocated[2,2,6,8,2]
+   + allocated[2,3,1,8,1] + allocated[2,3,1,8,2] + allocated[2,3,2,8,1]
+   + allocated[2,3,2,8,2] + allocated[2,3,3,8,1] + allocated[2,3,3,8,2]
+   + allocated[2,3,4,8,1] + allocated[2,3,4,8,2] + allocated[2,3,5,8,1]
+   + allocated[2,3,5,8,2] + allocated[2,3,6,8,1] + allocated[2,3,6,8,2]
+   + allocated[2,4,1,8,1] + allocated[2,4,1,8,2] + allocated[2,4,2,8,1]
+   + allocated[2,4,2,8,2] + allocated[2,4,3,8,1] + allocated[2,4,3,8,2]
+   + allocated[2,4,4,8,1] + allocated[2,4,4,8,2] + allocated[2,4,5,8,1]
+   + allocated[2,4,5,8,2] + allocated[2,4,6,8,1] + allocated[2,4,6,8,2]
+   - 48 firstDayInUseRack[1,8] - 48 firstDayInUseRack[2,8] <= 0
+ R24904: allocated[3,1,1,1,1] + allocated[3,1,1,1,2] + allocated[3,1,2,1,1]
+   + allocated[3,1,2,1,2] + allocated[3,1,3,1,1] + allocated[3,1,3,1,2]
+   + allocated[3,1,4,1,1] + allocated[3,1,4,1,2] + allocated[3,1,5,1,1]
+   + allocated[3,1,5,1,2] + allocated[3,1,6,1,1] + allocated[3,1,6,1,2]
+   + allocated[3,2,1,1,1] + allocated[3,2,1,1,2] + allocated[3,2,2,1,1]
+   + allocated[3,2,2,1,2] + allocated[3,2,3,1,1] + allocated[3,2,3,1,2]
+   + allocated[3,2,4,1,1] + allocated[3,2,4,1,2] + allocated[3,2,5,1,1]
+   + allocated[3,2,5,1,2] + allocated[3,2,6,1,1] + allocated[3,2,6,1,2]
+   + allocated[3,3,1,1,1] + allocated[3,3,1,1,2] + allocated[3,3,2,1,1]
+   + allocated[3,3,2,1,2] + allocated[3,3,3,1,1] + allocated[3,3,3,1,2]
+   + allocated[3,3,4,1,1] + allocated[3,3,4,1,2] + allocated[3,3,5,1,1]
+   + allocated[3,3,5,1,2] + allocated[3,3,6,1,1] + allocated[3,3,6,1,2]
+   + allocated[3,4,1,1,1] + allocated[3,4,1,1,2] + allocated[3,4,2,1,1]
+   + allocated[3,4,2,1,2] + allocated[3,4,3,1,1] + allocated[3,4,3,1,2]
+   + allocated[3,4,4,1,1] + allocated[3,4,4,1,2] + allocated[3,4,5,1,1]
+   + allocated[3,4,5,1,2] + allocated[3,4,6,1,1] + allocated[3,4,6,1,2]
+   - 48 firstDayInUseRack[1,1] - 48 firstDayInUseRack[2,1]
+   - 48 firstDayInUseRack[3,1] <= 0
+ R24905: allocated[3,1,1,2,1] + allocated[3,1,1,2,2] + allocated[3,1,2,2,1]
+   + allocated[3,1,2,2,2] + allocated[3,1,3,2,1] + allocated[3,1,3,2,2]
+   + allocated[3,1,4,2,1] + allocated[3,1,4,2,2] + allocated[3,1,5,2,1]
+   + allocated[3,1,5,2,2] + allocated[3,1,6,2,1] + allocated[3,1,6,2,2]
+   + allocated[3,2,1,2,1] + allocated[3,2,1,2,2] + allocated[3,2,2,2,1]
+   + allocated[3,2,2,2,2] + allocated[3,2,3,2,1] + allocated[3,2,3,2,2]
+   + allocated[3,2,4,2,1] + allocated[3,2,4,2,2] + allocated[3,2,5,2,1]
+   + allocated[3,2,5,2,2] + allocated[3,2,6,2,1] + allocated[3,2,6,2,2]
+   + allocated[3,3,1,2,1] + allocated[3,3,1,2,2] + allocated[3,3,2,2,1]
+   + allocated[3,3,2,2,2] + allocated[3,3,3,2,1] + allocated[3,3,3,2,2]
+   + allocated[3,3,4,2,1] + allocated[3,3,4,2,2] + allocated[3,3,5,2,1]
+   + allocated[3,3,5,2,2] + allocated[3,3,6,2,1] + allocated[3,3,6,2,2]
+   + allocated[3,4,1,2,1] + allocated[3,4,1,2,2] + allocated[3,4,2,2,1]
+   + allocated[3,4,2,2,2] + allocated[3,4,3,2,1] + allocated[3,4,3,2,2]
+   + allocated[3,4,4,2,1] + allocated[3,4,4,2,2] + allocated[3,4,5,2,1]
+   + allocated[3,4,5,2,2] + allocated[3,4,6,2,1] + allocated[3,4,6,2,2]
+   - 48 firstDayInUseRack[1,2] - 48 firstDayInUseRack[2,2]
+   - 48 firstDayInUseRack[3,2] <= 0
+ R24906: allocated[3,1,1,3,1] + allocated[3,1,1,3,2] + allocated[3,1,2,3,1]
+   + allocated[3,1,2,3,2] + allocated[3,1,3,3,1] + allocated[3,1,3,3,2]
+   + allocated[3,1,4,3,1] + allocated[3,1,4,3,2] + allocated[3,1,5,3,1]
+   + allocated[3,1,5,3,2] + allocated[3,1,6,3,1] + allocated[3,1,6,3,2]
+   + allocated[3,2,1,3,1] + allocated[3,2,1,3,2] + allocated[3,2,2,3,1]
+   + allocated[3,2,2,3,2] + allocated[3,2,3,3,1] + allocated[3,2,3,3,2]
+   + allocated[3,2,4,3,1] + allocated[3,2,4,3,2] + allocated[3,2,5,3,1]
+   + allocated[3,2,5,3,2] + allocated[3,2,6,3,1] + allocated[3,2,6,3,2]
+   + allocated[3,3,1,3,1] + allocated[3,3,1,3,2] + allocated[3,3,2,3,1]
+   + allocated[3,3,2,3,2] + allocated[3,3,3,3,1] + allocated[3,3,3,3,2]
+   + allocated[3,3,4,3,1] + allocated[3,3,4,3,2] + allocated[3,3,5,3,1]
+   + allocated[3,3,5,3,2] + allocated[3,3,6,3,1] + allocated[3,3,6,3,2]
+   + allocated[3,4,1,3,1] + allocated[3,4,1,3,2] + allocated[3,4,2,3,1]
+   + allocated[3,4,2,3,2] + allocated[3,4,3,3,1] + allocated[3,4,3,3,2]
+   + allocated[3,4,4,3,1] + allocated[3,4,4,3,2] + allocated[3,4,5,3,1]
+   + allocated[3,4,5,3,2] + allocated[3,4,6,3,1] + allocated[3,4,6,3,2]
+   - 48 firstDayInUseRack[1,3] - 48 firstDayInUseRack[2,3]
+   - 48 firstDayInUseRack[3,3] <= 0
+ R24907: allocated[3,1,1,4,1] + allocated[3,1,1,4,2] + allocated[3,1,2,4,1]
+   + allocated[3,1,2,4,2] + allocated[3,1,3,4,1] + allocated[3,1,3,4,2]
+   + allocated[3,1,4,4,1] + allocated[3,1,4,4,2] + allocated[3,1,5,4,1]
+   + allocated[3,1,5,4,2] + allocated[3,1,6,4,1] + allocated[3,1,6,4,2]
+   + allocated[3,2,1,4,1] + allocated[3,2,1,4,2] + allocated[3,2,2,4,1]
+   + allocated[3,2,2,4,2] + allocated[3,2,3,4,1] + allocated[3,2,3,4,2]
+   + allocated[3,2,4,4,1] + allocated[3,2,4,4,2] + allocated[3,2,5,4,1]
+   + allocated[3,2,5,4,2] + allocated[3,2,6,4,1] + allocated[3,2,6,4,2]
+   + allocated[3,3,1,4,1] + allocated[3,3,1,4,2] + allocated[3,3,2,4,1]
+   + allocated[3,3,2,4,2] + allocated[3,3,3,4,1] + allocated[3,3,3,4,2]
+   + allocated[3,3,4,4,1] + allocated[3,3,4,4,2] + allocated[3,3,5,4,1]
+   + allocated[3,3,5,4,2] + allocated[3,3,6,4,1] + allocated[3,3,6,4,2]
+   + allocated[3,4,1,4,1] + allocated[3,4,1,4,2] + allocated[3,4,2,4,1]
+   + allocated[3,4,2,4,2] + allocated[3,4,3,4,1] + allocated[3,4,3,4,2]
+   + allocated[3,4,4,4,1] + allocated[3,4,4,4,2] + allocated[3,4,5,4,1]
+   + allocated[3,4,5,4,2] + allocated[3,4,6,4,1] + allocated[3,4,6,4,2]
+   - 48 firstDayInUseRack[1,4] - 48 firstDayInUseRack[2,4]
+   - 48 firstDayInUseRack[3,4] <= 0
+ R24908: allocated[3,1,1,5,1] + allocated[3,1,1,5,2] + allocated[3,1,2,5,1]
+   + allocated[3,1,2,5,2] + allocated[3,1,3,5,1] + allocated[3,1,3,5,2]
+   + allocated[3,1,4,5,1] + allocated[3,1,4,5,2] + allocated[3,1,5,5,1]
+   + allocated[3,1,5,5,2] + allocated[3,1,6,5,1] + allocated[3,1,6,5,2]
+   + allocated[3,2,1,5,1] + allocated[3,2,1,5,2] + allocated[3,2,2,5,1]
+   + allocated[3,2,2,5,2] + allocated[3,2,3,5,1] + allocated[3,2,3,5,2]
+   + allocated[3,2,4,5,1] + allocated[3,2,4,5,2] + allocated[3,2,5,5,1]
+   + allocated[3,2,5,5,2] + allocated[3,2,6,5,1] + allocated[3,2,6,5,2]
+   + allocated[3,3,1,5,1] + allocated[3,3,1,5,2] + allocated[3,3,2,5,1]
+   + allocated[3,3,2,5,2] + allocated[3,3,3,5,1] + allocated[3,3,3,5,2]
+   + allocated[3,3,4,5,1] + allocated[3,3,4,5,2] + allocated[3,3,5,5,1]
+   + allocated[3,3,5,5,2] + allocated[3,3,6,5,1] + allocated[3,3,6,5,2]
+   + allocated[3,4,1,5,1] + allocated[3,4,1,5,2] + allocated[3,4,2,5,1]
+   + allocated[3,4,2,5,2] + allocated[3,4,3,5,1] + allocated[3,4,3,5,2]
+   + allocated[3,4,4,5,1] + allocated[3,4,4,5,2] + allocated[3,4,5,5,1]
+   + allocated[3,4,5,5,2] + allocated[3,4,6,5,1] + allocated[3,4,6,5,2]
+   - 48 firstDayInUseRack[1,5] - 48 firstDayInUseRack[2,5]
+   - 48 firstDayInUseRack[3,5] <= 0
+ R24909: allocated[3,1,1,6,1] + allocated[3,1,1,6,2] + allocated[3,1,2,6,1]
+   + allocated[3,1,2,6,2] + allocated[3,1,3,6,1] + allocated[3,1,3,6,2]
+   + allocated[3,1,4,6,1] + allocated[3,1,4,6,2] + allocated[3,1,5,6,1]
+   + allocated[3,1,5,6,2] + allocated[3,1,6,6,1] + allocated[3,1,6,6,2]
+   + allocated[3,2,1,6,1] + allocated[3,2,1,6,2] + allocated[3,2,2,6,1]
+   + allocated[3,2,2,6,2] + allocated[3,2,3,6,1] + allocated[3,2,3,6,2]
+   + allocated[3,2,4,6,1] + allocated[3,2,4,6,2] + allocated[3,2,5,6,1]
+   + allocated[3,2,5,6,2] + allocated[3,2,6,6,1] + allocated[3,2,6,6,2]
+   + allocated[3,3,1,6,1] + allocated[3,3,1,6,2] + allocated[3,3,2,6,1]
+   + allocated[3,3,2,6,2] + allocated[3,3,3,6,1] + allocated[3,3,3,6,2]
+   + allocated[3,3,4,6,1] + allocated[3,3,4,6,2] + allocated[3,3,5,6,1]
+   + allocated[3,3,5,6,2] + allocated[3,3,6,6,1] + allocated[3,3,6,6,2]
+   + allocated[3,4,1,6,1] + allocated[3,4,1,6,2] + allocated[3,4,2,6,1]
+   + allocated[3,4,2,6,2] + allocated[3,4,3,6,1] + allocated[3,4,3,6,2]
+   + allocated[3,4,4,6,1] + allocated[3,4,4,6,2] + allocated[3,4,5,6,1]
+   + allocated[3,4,5,6,2] + allocated[3,4,6,6,1] + allocated[3,4,6,6,2]
+   - 48 firstDayInUseRack[1,6] - 48 firstDayInUseRack[2,6]
+   - 48 firstDayInUseRack[3,6] <= 0
+ R24910: allocated[3,1,1,7,1] + allocated[3,1,1,7,2] + allocated[3,1,2,7,1]
+   + allocated[3,1,2,7,2] + allocated[3,1,3,7,1] + allocated[3,1,3,7,2]
+   + allocated[3,1,4,7,1] + allocated[3,1,4,7,2] + allocated[3,1,5,7,1]
+   + allocated[3,1,5,7,2] + allocated[3,1,6,7,1] + allocated[3,1,6,7,2]
+   + allocated[3,2,1,7,1] + allocated[3,2,1,7,2] + allocated[3,2,2,7,1]
+   + allocated[3,2,2,7,2] + allocated[3,2,3,7,1] + allocated[3,2,3,7,2]
+   + allocated[3,2,4,7,1] + allocated[3,2,4,7,2] + allocated[3,2,5,7,1]
+   + allocated[3,2,5,7,2] + allocated[3,2,6,7,1] + allocated[3,2,6,7,2]
+   + allocated[3,3,1,7,1] + allocated[3,3,1,7,2] + allocated[3,3,2,7,1]
+   + allocated[3,3,2,7,2] + allocated[3,3,3,7,1] + allocated[3,3,3,7,2]
+   + allocated[3,3,4,7,1] + allocated[3,3,4,7,2] + allocated[3,3,5,7,1]
+   + allocated[3,3,5,7,2] + allocated[3,3,6,7,1] + allocated[3,3,6,7,2]
+   + allocated[3,4,1,7,1] + allocated[3,4,1,7,2] + allocated[3,4,2,7,1]
+   + allocated[3,4,2,7,2] + allocated[3,4,3,7,1] + allocated[3,4,3,7,2]
+   + allocated[3,4,4,7,1] + allocated[3,4,4,7,2] + allocated[3,4,5,7,1]
+   + allocated[3,4,5,7,2] + allocated[3,4,6,7,1] + allocated[3,4,6,7,2]
+   - 48 firstDayInUseRack[1,7] - 48 firstDayInUseRack[2,7]
+   - 48 firstDayInUseRack[3,7] <= 0
+ R24911: allocated[3,1,1,8,1] + allocated[3,1,1,8,2] + allocated[3,1,2,8,1]
+   + allocated[3,1,2,8,2] + allocated[3,1,3,8,1] + allocated[3,1,3,8,2]
+   + allocated[3,1,4,8,1] + allocated[3,1,4,8,2] + allocated[3,1,5,8,1]
+   + allocated[3,1,5,8,2] + allocated[3,1,6,8,1] + allocated[3,1,6,8,2]
+   + allocated[3,2,1,8,1] + allocated[3,2,1,8,2] + allocated[3,2,2,8,1]
+   + allocated[3,2,2,8,2] + allocated[3,2,3,8,1] + allocated[3,2,3,8,2]
+   + allocated[3,2,4,8,1] + allocated[3,2,4,8,2] + allocated[3,2,5,8,1]
+   + allocated[3,2,5,8,2] + allocated[3,2,6,8,1] + allocated[3,2,6,8,2]
+   + allocated[3,3,1,8,1] + allocated[3,3,1,8,2] + allocated[3,3,2,8,1]
+   + allocated[3,3,2,8,2] + allocated[3,3,3,8,1] + allocated[3,3,3,8,2]
+   + allocated[3,3,4,8,1] + allocated[3,3,4,8,2] + allocated[3,3,5,8,1]
+   + allocated[3,3,5,8,2] + allocated[3,3,6,8,1] + allocated[3,3,6,8,2]
+   + allocated[3,4,1,8,1] + allocated[3,4,1,8,2] + allocated[3,4,2,8,1]
+   + allocated[3,4,2,8,2] + allocated[3,4,3,8,1] + allocated[3,4,3,8,2]
+   + allocated[3,4,4,8,1] + allocated[3,4,4,8,2] + allocated[3,4,5,8,1]
+   + allocated[3,4,5,8,2] + allocated[3,4,6,8,1] + allocated[3,4,6,8,2]
+   - 48 firstDayInUseRack[1,8] - 48 firstDayInUseRack[2,8]
+   - 48 firstDayInUseRack[3,8] <= 0
+ R24912: allocated[4,1,1,1,1] + allocated[4,1,1,1,2] + allocated[4,1,2,1,1]
+   + allocated[4,1,2,1,2] + allocated[4,1,3,1,1] + allocated[4,1,3,1,2]
+   + allocated[4,1,4,1,1] + allocated[4,1,4,1,2] + allocated[4,1,5,1,1]
+   + allocated[4,1,5,1,2] + allocated[4,1,6,1,1] + allocated[4,1,6,1,2]
+   + allocated[4,2,1,1,1] + allocated[4,2,1,1,2] + allocated[4,2,2,1,1]
+   + allocated[4,2,2,1,2] + allocated[4,2,3,1,1] + allocated[4,2,3,1,2]
+   + allocated[4,2,4,1,1] + allocated[4,2,4,1,2] + allocated[4,2,5,1,1]
+   + allocated[4,2,5,1,2] + allocated[4,2,6,1,1] + allocated[4,2,6,1,2]
+   + allocated[4,3,1,1,1] + allocated[4,3,1,1,2] + allocated[4,3,2,1,1]
+   + allocated[4,3,2,1,2] + allocated[4,3,3,1,1] + allocated[4,3,3,1,2]
+   + allocated[4,3,4,1,1] + allocated[4,3,4,1,2] + allocated[4,3,5,1,1]
+   + allocated[4,3,5,1,2] + allocated[4,3,6,1,1] + allocated[4,3,6,1,2]
+   + allocated[4,4,1,1,1] + allocated[4,4,1,1,2] + allocated[4,4,2,1,1]
+   + allocated[4,4,2,1,2] + allocated[4,4,3,1,1] + allocated[4,4,3,1,2]
+   + allocated[4,4,4,1,1] + allocated[4,4,4,1,2] + allocated[4,4,5,1,1]
+   + allocated[4,4,5,1,2] + allocated[4,4,6,1,1] + allocated[4,4,6,1,2]
+   - 48 firstDayInUseRack[1,1] - 48 firstDayInUseRack[2,1]
+   - 48 firstDayInUseRack[3,1] - 48 firstDayInUseRack[4,1] <= 0
+ R24913: allocated[4,1,1,2,1] + allocated[4,1,1,2,2] + allocated[4,1,2,2,1]
+   + allocated[4,1,2,2,2] + allocated[4,1,3,2,1] + allocated[4,1,3,2,2]
+   + allocated[4,1,4,2,1] + allocated[4,1,4,2,2] + allocated[4,1,5,2,1]
+   + allocated[4,1,5,2,2] + allocated[4,1,6,2,1] + allocated[4,1,6,2,2]
+   + allocated[4,2,1,2,1] + allocated[4,2,1,2,2] + allocated[4,2,2,2,1]
+   + allocated[4,2,2,2,2] + allocated[4,2,3,2,1] + allocated[4,2,3,2,2]
+   + allocated[4,2,4,2,1] + allocated[4,2,4,2,2] + allocated[4,2,5,2,1]
+   + allocated[4,2,5,2,2] + allocated[4,2,6,2,1] + allocated[4,2,6,2,2]
+   + allocated[4,3,1,2,1] + allocated[4,3,1,2,2] + allocated[4,3,2,2,1]
+   + allocated[4,3,2,2,2] + allocated[4,3,3,2,1] + allocated[4,3,3,2,2]
+   + allocated[4,3,4,2,1] + allocated[4,3,4,2,2] + allocated[4,3,5,2,1]
+   + allocated[4,3,5,2,2] + allocated[4,3,6,2,1] + allocated[4,3,6,2,2]
+   + allocated[4,4,1,2,1] + allocated[4,4,1,2,2] + allocated[4,4,2,2,1]
+   + allocated[4,4,2,2,2] + allocated[4,4,3,2,1] + allocated[4,4,3,2,2]
+   + allocated[4,4,4,2,1] + allocated[4,4,4,2,2] + allocated[4,4,5,2,1]
+   + allocated[4,4,5,2,2] + allocated[4,4,6,2,1] + allocated[4,4,6,2,2]
+   - 48 firstDayInUseRack[1,2] - 48 firstDayInUseRack[2,2]
+   - 48 firstDayInUseRack[3,2] - 48 firstDayInUseRack[4,2] <= 0
+ R24914: allocated[4,1,1,3,1] + allocated[4,1,1,3,2] + allocated[4,1,2,3,1]
+   + allocated[4,1,2,3,2] + allocated[4,1,3,3,1] + allocated[4,1,3,3,2]
+   + allocated[4,1,4,3,1] + allocated[4,1,4,3,2] + allocated[4,1,5,3,1]
+   + allocated[4,1,5,3,2] + allocated[4,1,6,3,1] + allocated[4,1,6,3,2]
+   + allocated[4,2,1,3,1] + allocated[4,2,1,3,2] + allocated[4,2,2,3,1]
+   + allocated[4,2,2,3,2] + allocated[4,2,3,3,1] + allocated[4,2,3,3,2]
+   + allocated[4,2,4,3,1] + allocated[4,2,4,3,2] + allocated[4,2,5,3,1]
+   + allocated[4,2,5,3,2] + allocated[4,2,6,3,1] + allocated[4,2,6,3,2]
+   + allocated[4,3,1,3,1] + allocated[4,3,1,3,2] + allocated[4,3,2,3,1]
+   + allocated[4,3,2,3,2] + allocated[4,3,3,3,1] + allocated[4,3,3,3,2]
+   + allocated[4,3,4,3,1] + allocated[4,3,4,3,2] + allocated[4,3,5,3,1]
+   + allocated[4,3,5,3,2] + allocated[4,3,6,3,1] + allocated[4,3,6,3,2]
+   + allocated[4,4,1,3,1] + allocated[4,4,1,3,2] + allocated[4,4,2,3,1]
+   + allocated[4,4,2,3,2] + allocated[4,4,3,3,1] + allocated[4,4,3,3,2]
+   + allocated[4,4,4,3,1] + allocated[4,4,4,3,2] + allocated[4,4,5,3,1]
+   + allocated[4,4,5,3,2] + allocated[4,4,6,3,1] + allocated[4,4,6,3,2]
+   - 48 firstDayInUseRack[1,3] - 48 firstDayInUseRack[2,3]
+   - 48 firstDayInUseRack[3,3] - 48 firstDayInUseRack[4,3] <= 0
+ R24915: allocated[4,1,1,4,1] + allocated[4,1,1,4,2] + allocated[4,1,2,4,1]
+   + allocated[4,1,2,4,2] + allocated[4,1,3,4,1] + allocated[4,1,3,4,2]
+   + allocated[4,1,4,4,1] + allocated[4,1,4,4,2] + allocated[4,1,5,4,1]
+   + allocated[4,1,5,4,2] + allocated[4,1,6,4,1] + allocated[4,1,6,4,2]
+   + allocated[4,2,1,4,1] + allocated[4,2,1,4,2] + allocated[4,2,2,4,1]
+   + allocated[4,2,2,4,2] + allocated[4,2,3,4,1] + allocated[4,2,3,4,2]
+   + allocated[4,2,4,4,1] + allocated[4,2,4,4,2] + allocated[4,2,5,4,1]
+   + allocated[4,2,5,4,2] + allocated[4,2,6,4,1] + allocated[4,2,6,4,2]
+   + allocated[4,3,1,4,1] + allocated[4,3,1,4,2] + allocated[4,3,2,4,1]
+   + allocated[4,3,2,4,2] + allocated[4,3,3,4,1] + allocated[4,3,3,4,2]
+   + allocated[4,3,4,4,1] + allocated[4,3,4,4,2] + allocated[4,3,5,4,1]
+   + allocated[4,3,5,4,2] + allocated[4,3,6,4,1] + allocated[4,3,6,4,2]
+   + allocated[4,4,1,4,1] + allocated[4,4,1,4,2] + allocated[4,4,2,4,1]
+   + allocated[4,4,2,4,2] + allocated[4,4,3,4,1] + allocated[4,4,3,4,2]
+   + allocated[4,4,4,4,1] + allocated[4,4,4,4,2] + allocated[4,4,5,4,1]
+   + allocated[4,4,5,4,2] + allocated[4,4,6,4,1] + allocated[4,4,6,4,2]
+   - 48 firstDayInUseRack[1,4] - 48 firstDayInUseRack[2,4]
+   - 48 firstDayInUseRack[3,4] - 48 firstDayInUseRack[4,4] <= 0
+ R24916: allocated[4,1,1,5,1] + allocated[4,1,1,5,2] + allocated[4,1,2,5,1]
+   + allocated[4,1,2,5,2] + allocated[4,1,3,5,1] + allocated[4,1,3,5,2]
+   + allocated[4,1,4,5,1] + allocated[4,1,4,5,2] + allocated[4,1,5,5,1]
+   + allocated[4,1,5,5,2] + allocated[4,1,6,5,1] + allocated[4,1,6,5,2]
+   + allocated[4,2,1,5,1] + allocated[4,2,1,5,2] + allocated[4,2,2,5,1]
+   + allocated[4,2,2,5,2] + allocated[4,2,3,5,1] + allocated[4,2,3,5,2]
+   + allocated[4,2,4,5,1] + allocated[4,2,4,5,2] + allocated[4,2,5,5,1]
+   + allocated[4,2,5,5,2] + allocated[4,2,6,5,1] + allocated[4,2,6,5,2]
+   + allocated[4,3,1,5,1] + allocated[4,3,1,5,2] + allocated[4,3,2,5,1]
+   + allocated[4,3,2,5,2] + allocated[4,3,3,5,1] + allocated[4,3,3,5,2]
+   + allocated[4,3,4,5,1] + allocated[4,3,4,5,2] + allocated[4,3,5,5,1]
+   + allocated[4,3,5,5,2] + allocated[4,3,6,5,1] + allocated[4,3,6,5,2]
+   + allocated[4,4,1,5,1] + allocated[4,4,1,5,2] + allocated[4,4,2,5,1]
+   + allocated[4,4,2,5,2] + allocated[4,4,3,5,1] + allocated[4,4,3,5,2]
+   + allocated[4,4,4,5,1] + allocated[4,4,4,5,2] + allocated[4,4,5,5,1]
+   + allocated[4,4,5,5,2] + allocated[4,4,6,5,1] + allocated[4,4,6,5,2]
+   - 48 firstDayInUseRack[1,5] - 48 firstDayInUseRack[2,5]
+   - 48 firstDayInUseRack[3,5] - 48 firstDayInUseRack[4,5] <= 0
+ R24917: allocated[4,1,1,6,1] + allocated[4,1,1,6,2] + allocated[4,1,2,6,1]
+   + allocated[4,1,2,6,2] + allocated[4,1,3,6,1] + allocated[4,1,3,6,2]
+   + allocated[4,1,4,6,1] + allocated[4,1,4,6,2] + allocated[4,1,5,6,1]
+   + allocated[4,1,5,6,2] + allocated[4,1,6,6,1] + allocated[4,1,6,6,2]
+   + allocated[4,2,1,6,1] + allocated[4,2,1,6,2] + allocated[4,2,2,6,1]
+   + allocated[4,2,2,6,2] + allocated[4,2,3,6,1] + allocated[4,2,3,6,2]
+   + allocated[4,2,4,6,1] + allocated[4,2,4,6,2] + allocated[4,2,5,6,1]
+   + allocated[4,2,5,6,2] + allocated[4,2,6,6,1] + allocated[4,2,6,6,2]
+   + allocated[4,3,1,6,1] + allocated[4,3,1,6,2] + allocated[4,3,2,6,1]
+   + allocated[4,3,2,6,2] + allocated[4,3,3,6,1] + allocated[4,3,3,6,2]
+   + allocated[4,3,4,6,1] + allocated[4,3,4,6,2] + allocated[4,3,5,6,1]
+   + allocated[4,3,5,6,2] + allocated[4,3,6,6,1] + allocated[4,3,6,6,2]
+   + allocated[4,4,1,6,1] + allocated[4,4,1,6,2] + allocated[4,4,2,6,1]
+   + allocated[4,4,2,6,2] + allocated[4,4,3,6,1] + allocated[4,4,3,6,2]
+   + allocated[4,4,4,6,1] + allocated[4,4,4,6,2] + allocated[4,4,5,6,1]
+   + allocated[4,4,5,6,2] + allocated[4,4,6,6,1] + allocated[4,4,6,6,2]
+   - 48 firstDayInUseRack[1,6] - 48 firstDayInUseRack[2,6]
+   - 48 firstDayInUseRack[3,6] - 48 firstDayInUseRack[4,6] <= 0
+ R24918: allocated[4,1,1,7,1] + allocated[4,1,1,7,2] + allocated[4,1,2,7,1]
+   + allocated[4,1,2,7,2] + allocated[4,1,3,7,1] + allocated[4,1,3,7,2]
+   + allocated[4,1,4,7,1] + allocated[4,1,4,7,2] + allocated[4,1,5,7,1]
+   + allocated[4,1,5,7,2] + allocated[4,1,6,7,1] + allocated[4,1,6,7,2]
+   + allocated[4,2,1,7,1] + allocated[4,2,1,7,2] + allocated[4,2,2,7,1]
+   + allocated[4,2,2,7,2] + allocated[4,2,3,7,1] + allocated[4,2,3,7,2]
+   + allocated[4,2,4,7,1] + allocated[4,2,4,7,2] + allocated[4,2,5,7,1]
+   + allocated[4,2,5,7,2] + allocated[4,2,6,7,1] + allocated[4,2,6,7,2]
+   + allocated[4,3,1,7,1] + allocated[4,3,1,7,2] + allocated[4,3,2,7,1]
+   + allocated[4,3,2,7,2] + allocated[4,3,3,7,1] + allocated[4,3,3,7,2]
+   + allocated[4,3,4,7,1] + allocated[4,3,4,7,2] + allocated[4,3,5,7,1]
+   + allocated[4,3,5,7,2] + allocated[4,3,6,7,1] + allocated[4,3,6,7,2]
+   + allocated[4,4,1,7,1] + allocated[4,4,1,7,2] + allocated[4,4,2,7,1]
+   + allocated[4,4,2,7,2] + allocated[4,4,3,7,1] + allocated[4,4,3,7,2]
+   + allocated[4,4,4,7,1] + allocated[4,4,4,7,2] + allocated[4,4,5,7,1]
+   + allocated[4,4,5,7,2] + allocated[4,4,6,7,1] + allocated[4,4,6,7,2]
+   - 48 firstDayInUseRack[1,7] - 48 firstDayInUseRack[2,7]
+   - 48 firstDayInUseRack[3,7] - 48 firstDayInUseRack[4,7] <= 0
+ R24919: allocated[4,1,1,8,1] + allocated[4,1,1,8,2] + allocated[4,1,2,8,1]
+   + allocated[4,1,2,8,2] + allocated[4,1,3,8,1] + allocated[4,1,3,8,2]
+   + allocated[4,1,4,8,1] + allocated[4,1,4,8,2] + allocated[4,1,5,8,1]
+   + allocated[4,1,5,8,2] + allocated[4,1,6,8,1] + allocated[4,1,6,8,2]
+   + allocated[4,2,1,8,1] + allocated[4,2,1,8,2] + allocated[4,2,2,8,1]
+   + allocated[4,2,2,8,2] + allocated[4,2,3,8,1] + allocated[4,2,3,8,2]
+   + allocated[4,2,4,8,1] + allocated[4,2,4,8,2] + allocated[4,2,5,8,1]
+   + allocated[4,2,5,8,2] + allocated[4,2,6,8,1] + allocated[4,2,6,8,2]
+   + allocated[4,3,1,8,1] + allocated[4,3,1,8,2] + allocated[4,3,2,8,1]
+   + allocated[4,3,2,8,2] + allocated[4,3,3,8,1] + allocated[4,3,3,8,2]
+   + allocated[4,3,4,8,1] + allocated[4,3,4,8,2] + allocated[4,3,5,8,1]
+   + allocated[4,3,5,8,2] + allocated[4,3,6,8,1] + allocated[4,3,6,8,2]
+   + allocated[4,4,1,8,1] + allocated[4,4,1,8,2] + allocated[4,4,2,8,1]
+   + allocated[4,4,2,8,2] + allocated[4,4,3,8,1] + allocated[4,4,3,8,2]
+   + allocated[4,4,4,8,1] + allocated[4,4,4,8,2] + allocated[4,4,5,8,1]
+   + allocated[4,4,5,8,2] + allocated[4,4,6,8,1] + allocated[4,4,6,8,2]
+   - 48 firstDayInUseRack[1,8] - 48 firstDayInUseRack[2,8]
+   - 48 firstDayInUseRack[3,8] - 48 firstDayInUseRack[4,8] <= 0
+ R24920: allocated[5,1,1,1,1] + allocated[5,1,1,1,2] + allocated[5,1,2,1,1]
+   + allocated[5,1,2,1,2] + allocated[5,1,3,1,1] + allocated[5,1,3,1,2]
+   + allocated[5,1,4,1,1] + allocated[5,1,4,1,2] + allocated[5,1,5,1,1]
+   + allocated[5,1,5,1,2] + allocated[5,1,6,1,1] + allocated[5,1,6,1,2]
+   + allocated[5,2,1,1,1] + allocated[5,2,1,1,2] + allocated[5,2,2,1,1]
+   + allocated[5,2,2,1,2] + allocated[5,2,3,1,1] + allocated[5,2,3,1,2]
+   + allocated[5,2,4,1,1] + allocated[5,2,4,1,2] + allocated[5,2,5,1,1]
+   + allocated[5,2,5,1,2] + allocated[5,2,6,1,1] + allocated[5,2,6,1,2]
+   + allocated[5,3,1,1,1] + allocated[5,3,1,1,2] + allocated[5,3,2,1,1]
+   + allocated[5,3,2,1,2] + allocated[5,3,3,1,1] + allocated[5,3,3,1,2]
+   + allocated[5,3,4,1,1] + allocated[5,3,4,1,2] + allocated[5,3,5,1,1]
+   + allocated[5,3,5,1,2] + allocated[5,3,6,1,1] + allocated[5,3,6,1,2]
+   + allocated[5,4,1,1,1] + allocated[5,4,1,1,2] + allocated[5,4,2,1,1]
+   + allocated[5,4,2,1,2] + allocated[5,4,3,1,1] + allocated[5,4,3,1,2]
+   + allocated[5,4,4,1,1] + allocated[5,4,4,1,2] + allocated[5,4,5,1,1]
+   + allocated[5,4,5,1,2] + allocated[5,4,6,1,1] + allocated[5,4,6,1,2]
+   - 48 firstDayInUseRack[1,1] - 48 firstDayInUseRack[2,1]
+   - 48 firstDayInUseRack[3,1] - 48 firstDayInUseRack[4,1]
+   - 48 firstDayInUseRack[5,1] <= 0
+ R24921: allocated[5,1,1,2,1] + allocated[5,1,1,2,2] + allocated[5,1,2,2,1]
+   + allocated[5,1,2,2,2] + allocated[5,1,3,2,1] + allocated[5,1,3,2,2]
+   + allocated[5,1,4,2,1] + allocated[5,1,4,2,2] + allocated[5,1,5,2,1]
+   + allocated[5,1,5,2,2] + allocated[5,1,6,2,1] + allocated[5,1,6,2,2]
+   + allocated[5,2,1,2,1] + allocated[5,2,1,2,2] + allocated[5,2,2,2,1]
+   + allocated[5,2,2,2,2] + allocated[5,2,3,2,1] + allocated[5,2,3,2,2]
+   + allocated[5,2,4,2,1] + allocated[5,2,4,2,2] + allocated[5,2,5,2,1]
+   + allocated[5,2,5,2,2] + allocated[5,2,6,2,1] + allocated[5,2,6,2,2]
+   + allocated[5,3,1,2,1] + allocated[5,3,1,2,2] + allocated[5,3,2,2,1]
+   + allocated[5,3,2,2,2] + allocated[5,3,3,2,1] + allocated[5,3,3,2,2]
+   + allocated[5,3,4,2,1] + allocated[5,3,4,2,2] + allocated[5,3,5,2,1]
+   + allocated[5,3,5,2,2] + allocated[5,3,6,2,1] + allocated[5,3,6,2,2]
+   + allocated[5,4,1,2,1] + allocated[5,4,1,2,2] + allocated[5,4,2,2,1]
+   + allocated[5,4,2,2,2] + allocated[5,4,3,2,1] + allocated[5,4,3,2,2]
+   + allocated[5,4,4,2,1] + allocated[5,4,4,2,2] + allocated[5,4,5,2,1]
+   + allocated[5,4,5,2,2] + allocated[5,4,6,2,1] + allocated[5,4,6,2,2]
+   - 48 firstDayInUseRack[1,2] - 48 firstDayInUseRack[2,2]
+   - 48 firstDayInUseRack[3,2] - 48 firstDayInUseRack[4,2]
+   - 48 firstDayInUseRack[5,2] <= 0
+ R24922: allocated[5,1,1,3,1] + allocated[5,1,1,3,2] + allocated[5,1,2,3,1]
+   + allocated[5,1,2,3,2] + allocated[5,1,3,3,1] + allocated[5,1,3,3,2]
+   + allocated[5,1,4,3,1] + allocated[5,1,4,3,2] + allocated[5,1,5,3,1]
+   + allocated[5,1,5,3,2] + allocated[5,1,6,3,1] + allocated[5,1,6,3,2]
+   + allocated[5,2,1,3,1] + allocated[5,2,1,3,2] + allocated[5,2,2,3,1]
+   + allocated[5,2,2,3,2] + allocated[5,2,3,3,1] + allocated[5,2,3,3,2]
+   + allocated[5,2,4,3,1] + allocated[5,2,4,3,2] + allocated[5,2,5,3,1]
+   + allocated[5,2,5,3,2] + allocated[5,2,6,3,1] + allocated[5,2,6,3,2]
+   + allocated[5,3,1,3,1] + allocated[5,3,1,3,2] + allocated[5,3,2,3,1]
+   + allocated[5,3,2,3,2] + allocated[5,3,3,3,1] + allocated[5,3,3,3,2]
+   + allocated[5,3,4,3,1] + allocated[5,3,4,3,2] + allocated[5,3,5,3,1]
+   + allocated[5,3,5,3,2] + allocated[5,3,6,3,1] + allocated[5,3,6,3,2]
+   + allocated[5,4,1,3,1] + allocated[5,4,1,3,2] + allocated[5,4,2,3,1]
+   + allocated[5,4,2,3,2] + allocated[5,4,3,3,1] + allocated[5,4,3,3,2]
+   + allocated[5,4,4,3,1] + allocated[5,4,4,3,2] + allocated[5,4,5,3,1]
+   + allocated[5,4,5,3,2] + allocated[5,4,6,3,1] + allocated[5,4,6,3,2]
+   - 48 firstDayInUseRack[1,3] - 48 firstDayInUseRack[2,3]
+   - 48 firstDayInUseRack[3,3] - 48 firstDayInUseRack[4,3]
+   - 48 firstDayInUseRack[5,3] <= 0
+ R24923: allocated[5,1,1,4,1] + allocated[5,1,1,4,2] + allocated[5,1,2,4,1]
+   + allocated[5,1,2,4,2] + allocated[5,1,3,4,1] + allocated[5,1,3,4,2]
+   + allocated[5,1,4,4,1] + allocated[5,1,4,4,2] + allocated[5,1,5,4,1]
+   + allocated[5,1,5,4,2] + allocated[5,1,6,4,1] + allocated[5,1,6,4,2]
+   + allocated[5,2,1,4,1] + allocated[5,2,1,4,2] + allocated[5,2,2,4,1]
+   + allocated[5,2,2,4,2] + allocated[5,2,3,4,1] + allocated[5,2,3,4,2]
+   + allocated[5,2,4,4,1] + allocated[5,2,4,4,2] + allocated[5,2,5,4,1]
+   + allocated[5,2,5,4,2] + allocated[5,2,6,4,1] + allocated[5,2,6,4,2]
+   + allocated[5,3,1,4,1] + allocated[5,3,1,4,2] + allocated[5,3,2,4,1]
+   + allocated[5,3,2,4,2] + allocated[5,3,3,4,1] + allocated[5,3,3,4,2]
+   + allocated[5,3,4,4,1] + allocated[5,3,4,4,2] + allocated[5,3,5,4,1]
+   + allocated[5,3,5,4,2] + allocated[5,3,6,4,1] + allocated[5,3,6,4,2]
+   + allocated[5,4,1,4,1] + allocated[5,4,1,4,2] + allocated[5,4,2,4,1]
+   + allocated[5,4,2,4,2] + allocated[5,4,3,4,1] + allocated[5,4,3,4,2]
+   + allocated[5,4,4,4,1] + allocated[5,4,4,4,2] + allocated[5,4,5,4,1]
+   + allocated[5,4,5,4,2] + allocated[5,4,6,4,1] + allocated[5,4,6,4,2]
+   - 48 firstDayInUseRack[1,4] - 48 firstDayInUseRack[2,4]
+   - 48 firstDayInUseRack[3,4] - 48 firstDayInUseRack[4,4]
+   - 48 firstDayInUseRack[5,4] <= 0
+ R24924: allocated[5,1,1,5,1] + allocated[5,1,1,5,2] + allocated[5,1,2,5,1]
+   + allocated[5,1,2,5,2] + allocated[5,1,3,5,1] + allocated[5,1,3,5,2]
+   + allocated[5,1,4,5,1] + allocated[5,1,4,5,2] + allocated[5,1,5,5,1]
+   + allocated[5,1,5,5,2] + allocated[5,1,6,5,1] + allocated[5,1,6,5,2]
+   + allocated[5,2,1,5,1] + allocated[5,2,1,5,2] + allocated[5,2,2,5,1]
+   + allocated[5,2,2,5,2] + allocated[5,2,3,5,1] + allocated[5,2,3,5,2]
+   + allocated[5,2,4,5,1] + allocated[5,2,4,5,2] + allocated[5,2,5,5,1]
+   + allocated[5,2,5,5,2] + allocated[5,2,6,5,1] + allocated[5,2,6,5,2]
+   + allocated[5,3,1,5,1] + allocated[5,3,1,5,2] + allocated[5,3,2,5,1]
+   + allocated[5,3,2,5,2] + allocated[5,3,3,5,1] + allocated[5,3,3,5,2]
+   + allocated[5,3,4,5,1] + allocated[5,3,4,5,2] + allocated[5,3,5,5,1]
+   + allocated[5,3,5,5,2] + allocated[5,3,6,5,1] + allocated[5,3,6,5,2]
+   + allocated[5,4,1,5,1] + allocated[5,4,1,5,2] + allocated[5,4,2,5,1]
+   + allocated[5,4,2,5,2] + allocated[5,4,3,5,1] + allocated[5,4,3,5,2]
+   + allocated[5,4,4,5,1] + allocated[5,4,4,5,2] + allocated[5,4,5,5,1]
+   + allocated[5,4,5,5,2] + allocated[5,4,6,5,1] + allocated[5,4,6,5,2]
+   - 48 firstDayInUseRack[1,5] - 48 firstDayInUseRack[2,5]
+   - 48 firstDayInUseRack[3,5] - 48 firstDayInUseRack[4,5]
+   - 48 firstDayInUseRack[5,5] <= 0
+ R24925: allocated[5,1,1,6,1] + allocated[5,1,1,6,2] + allocated[5,1,2,6,1]
+   + allocated[5,1,2,6,2] + allocated[5,1,3,6,1] + allocated[5,1,3,6,2]
+   + allocated[5,1,4,6,1] + allocated[5,1,4,6,2] + allocated[5,1,5,6,1]
+   + allocated[5,1,5,6,2] + allocated[5,1,6,6,1] + allocated[5,1,6,6,2]
+   + allocated[5,2,1,6,1] + allocated[5,2,1,6,2] + allocated[5,2,2,6,1]
+   + allocated[5,2,2,6,2] + allocated[5,2,3,6,1] + allocated[5,2,3,6,2]
+   + allocated[5,2,4,6,1] + allocated[5,2,4,6,2] + allocated[5,2,5,6,1]
+   + allocated[5,2,5,6,2] + allocated[5,2,6,6,1] + allocated[5,2,6,6,2]
+   + allocated[5,3,1,6,1] + allocated[5,3,1,6,2] + allocated[5,3,2,6,1]
+   + allocated[5,3,2,6,2] + allocated[5,3,3,6,1] + allocated[5,3,3,6,2]
+   + allocated[5,3,4,6,1] + allocated[5,3,4,6,2] + allocated[5,3,5,6,1]
+   + allocated[5,3,5,6,2] + allocated[5,3,6,6,1] + allocated[5,3,6,6,2]
+   + allocated[5,4,1,6,1] + allocated[5,4,1,6,2] + allocated[5,4,2,6,1]
+   + allocated[5,4,2,6,2] + allocated[5,4,3,6,1] + allocated[5,4,3,6,2]
+   + allocated[5,4,4,6,1] + allocated[5,4,4,6,2] + allocated[5,4,5,6,1]
+   + allocated[5,4,5,6,2] + allocated[5,4,6,6,1] + allocated[5,4,6,6,2]
+   - 48 firstDayInUseRack[1,6] - 48 firstDayInUseRack[2,6]
+   - 48 firstDayInUseRack[3,6] - 48 firstDayInUseRack[4,6]
+   - 48 firstDayInUseRack[5,6] <= 0
+ R24926: allocated[5,1,1,7,1] + allocated[5,1,1,7,2] + allocated[5,1,2,7,1]
+   + allocated[5,1,2,7,2] + allocated[5,1,3,7,1] + allocated[5,1,3,7,2]
+   + allocated[5,1,4,7,1] + allocated[5,1,4,7,2] + allocated[5,1,5,7,1]
+   + allocated[5,1,5,7,2] + allocated[5,1,6,7,1] + allocated[5,1,6,7,2]
+   + allocated[5,2,1,7,1] + allocated[5,2,1,7,2] + allocated[5,2,2,7,1]
+   + allocated[5,2,2,7,2] + allocated[5,2,3,7,1] + allocated[5,2,3,7,2]
+   + allocated[5,2,4,7,1] + allocated[5,2,4,7,2] + allocated[5,2,5,7,1]
+   + allocated[5,2,5,7,2] + allocated[5,2,6,7,1] + allocated[5,2,6,7,2]
+   + allocated[5,3,1,7,1] + allocated[5,3,1,7,2] + allocated[5,3,2,7,1]
+   + allocated[5,3,2,7,2] + allocated[5,3,3,7,1] + allocated[5,3,3,7,2]
+   + allocated[5,3,4,7,1] + allocated[5,3,4,7,2] + allocated[5,3,5,7,1]
+   + allocated[5,3,5,7,2] + allocated[5,3,6,7,1] + allocated[5,3,6,7,2]
+   + allocated[5,4,1,7,1] + allocated[5,4,1,7,2] + allocated[5,4,2,7,1]
+   + allocated[5,4,2,7,2] + allocated[5,4,3,7,1] + allocated[5,4,3,7,2]
+   + allocated[5,4,4,7,1] + allocated[5,4,4,7,2] + allocated[5,4,5,7,1]
+   + allocated[5,4,5,7,2] + allocated[5,4,6,7,1] + allocated[5,4,6,7,2]
+   - 48 firstDayInUseRack[1,7] - 48 firstDayInUseRack[2,7]
+   - 48 firstDayInUseRack[3,7] - 48 firstDayInUseRack[4,7]
+   - 48 firstDayInUseRack[5,7] <= 0
+ R24927: allocated[5,1,1,8,1] + allocated[5,1,1,8,2] + allocated[5,1,2,8,1]
+   + allocated[5,1,2,8,2] + allocated[5,1,3,8,1] + allocated[5,1,3,8,2]
+   + allocated[5,1,4,8,1] + allocated[5,1,4,8,2] + allocated[5,1,5,8,1]
+   + allocated[5,1,5,8,2] + allocated[5,1,6,8,1] + allocated[5,1,6,8,2]
+   + allocated[5,2,1,8,1] + allocated[5,2,1,8,2] + allocated[5,2,2,8,1]
+   + allocated[5,2,2,8,2] + allocated[5,2,3,8,1] + allocated[5,2,3,8,2]
+   + allocated[5,2,4,8,1] + allocated[5,2,4,8,2] + allocated[5,2,5,8,1]
+   + allocated[5,2,5,8,2] + allocated[5,2,6,8,1] + allocated[5,2,6,8,2]
+   + allocated[5,3,1,8,1] + allocated[5,3,1,8,2] + allocated[5,3,2,8,1]
+   + allocated[5,3,2,8,2] + allocated[5,3,3,8,1] + allocated[5,3,3,8,2]
+   + allocated[5,3,4,8,1] + allocated[5,3,4,8,2] + allocated[5,3,5,8,1]
+   + allocated[5,3,5,8,2] + allocated[5,3,6,8,1] + allocated[5,3,6,8,2]
+   + allocated[5,4,1,8,1] + allocated[5,4,1,8,2] + allocated[5,4,2,8,1]
+   + allocated[5,4,2,8,2] + allocated[5,4,3,8,1] + allocated[5,4,3,8,2]
+   + allocated[5,4,4,8,1] + allocated[5,4,4,8,2] + allocated[5,4,5,8,1]
+   + allocated[5,4,5,8,2] + allocated[5,4,6,8,1] + allocated[5,4,6,8,2]
+   - 48 firstDayInUseRack[1,8] - 48 firstDayInUseRack[2,8]
+   - 48 firstDayInUseRack[3,8] - 48 firstDayInUseRack[4,8]
+   - 48 firstDayInUseRack[5,8] <= 0
+ R24928: allocated[6,1,1,1,1] + allocated[6,1,1,1,2] + allocated[6,1,2,1,1]
+   + allocated[6,1,2,1,2] + allocated[6,1,3,1,1] + allocated[6,1,3,1,2]
+   + allocated[6,1,4,1,1] + allocated[6,1,4,1,2] + allocated[6,1,5,1,1]
+   + allocated[6,1,5,1,2] + allocated[6,1,6,1,1] + allocated[6,1,6,1,2]
+   + allocated[6,2,1,1,1] + allocated[6,2,1,1,2] + allocated[6,2,2,1,1]
+   + allocated[6,2,2,1,2] + allocated[6,2,3,1,1] + allocated[6,2,3,1,2]
+   + allocated[6,2,4,1,1] + allocated[6,2,4,1,2] + allocated[6,2,5,1,1]
+   + allocated[6,2,5,1,2] + allocated[6,2,6,1,1] + allocated[6,2,6,1,2]
+   + allocated[6,3,1,1,1] + allocated[6,3,1,1,2] + allocated[6,3,2,1,1]
+   + allocated[6,3,2,1,2] + allocated[6,3,3,1,1] + allocated[6,3,3,1,2]
+   + allocated[6,3,4,1,1] + allocated[6,3,4,1,2] + allocated[6,3,5,1,1]
+   + allocated[6,3,5,1,2] + allocated[6,3,6,1,1] + allocated[6,3,6,1,2]
+   + allocated[6,4,1,1,1] + allocated[6,4,1,1,2] + allocated[6,4,2,1,1]
+   + allocated[6,4,2,1,2] + allocated[6,4,3,1,1] + allocated[6,4,3,1,2]
+   + allocated[6,4,4,1,1] + allocated[6,4,4,1,2] + allocated[6,4,5,1,1]
+   + allocated[6,4,5,1,2] + allocated[6,4,6,1,1] + allocated[6,4,6,1,2]
+   - 48 firstDayInUseRack[1,1] - 48 firstDayInUseRack[2,1]
+   - 48 firstDayInUseRack[3,1] - 48 firstDayInUseRack[4,1]
+   - 48 firstDayInUseRack[5,1] - 48 firstDayInUseRack[6,1] <= 0
+ R24929: allocated[6,1,1,2,1] + allocated[6,1,1,2,2] + allocated[6,1,2,2,1]
+   + allocated[6,1,2,2,2] + allocated[6,1,3,2,1] + allocated[6,1,3,2,2]
+   + allocated[6,1,4,2,1] + allocated[6,1,4,2,2] + allocated[6,1,5,2,1]
+   + allocated[6,1,5,2,2] + allocated[6,1,6,2,1] + allocated[6,1,6,2,2]
+   + allocated[6,2,1,2,1] + allocated[6,2,1,2,2] + allocated[6,2,2,2,1]
+   + allocated[6,2,2,2,2] + allocated[6,2,3,2,1] + allocated[6,2,3,2,2]
+   + allocated[6,2,4,2,1] + allocated[6,2,4,2,2] + allocated[6,2,5,2,1]
+   + allocated[6,2,5,2,2] + allocated[6,2,6,2,1] + allocated[6,2,6,2,2]
+   + allocated[6,3,1,2,1] + allocated[6,3,1,2,2] + allocated[6,3,2,2,1]
+   + allocated[6,3,2,2,2] + allocated[6,3,3,2,1] + allocated[6,3,3,2,2]
+   + allocated[6,3,4,2,1] + allocated[6,3,4,2,2] + allocated[6,3,5,2,1]
+   + allocated[6,3,5,2,2] + allocated[6,3,6,2,1] + allocated[6,3,6,2,2]
+   + allocated[6,4,1,2,1] + allocated[6,4,1,2,2] + allocated[6,4,2,2,1]
+   + allocated[6,4,2,2,2] + allocated[6,4,3,2,1] + allocated[6,4,3,2,2]
+   + allocated[6,4,4,2,1] + allocated[6,4,4,2,2] + allocated[6,4,5,2,1]
+   + allocated[6,4,5,2,2] + allocated[6,4,6,2,1] + allocated[6,4,6,2,2]
+   - 48 firstDayInUseRack[1,2] - 48 firstDayInUseRack[2,2]
+   - 48 firstDayInUseRack[3,2] - 48 firstDayInUseRack[4,2]
+   - 48 firstDayInUseRack[5,2] - 48 firstDayInUseRack[6,2] <= 0
+ R24930: allocated[6,1,1,3,1] + allocated[6,1,1,3,2] + allocated[6,1,2,3,1]
+   + allocated[6,1,2,3,2] + allocated[6,1,3,3,1] + allocated[6,1,3,3,2]
+   + allocated[6,1,4,3,1] + allocated[6,1,4,3,2] + allocated[6,1,5,3,1]
+   + allocated[6,1,5,3,2] + allocated[6,1,6,3,1] + allocated[6,1,6,3,2]
+   + allocated[6,2,1,3,1] + allocated[6,2,1,3,2] + allocated[6,2,2,3,1]
+   + allocated[6,2,2,3,2] + allocated[6,2,3,3,1] + allocated[6,2,3,3,2]
+   + allocated[6,2,4,3,1] + allocated[6,2,4,3,2] + allocated[6,2,5,3,1]
+   + allocated[6,2,5,3,2] + allocated[6,2,6,3,1] + allocated[6,2,6,3,2]
+   + allocated[6,3,1,3,1] + allocated[6,3,1,3,2] + allocated[6,3,2,3,1]
+   + allocated[6,3,2,3,2] + allocated[6,3,3,3,1] + allocated[6,3,3,3,2]
+   + allocated[6,3,4,3,1] + allocated[6,3,4,3,2] + allocated[6,3,5,3,1]
+   + allocated[6,3,5,3,2] + allocated[6,3,6,3,1] + allocated[6,3,6,3,2]
+   + allocated[6,4,1,3,1] + allocated[6,4,1,3,2] + allocated[6,4,2,3,1]
+   + allocated[6,4,2,3,2] + allocated[6,4,3,3,1] + allocated[6,4,3,3,2]
+   + allocated[6,4,4,3,1] + allocated[6,4,4,3,2] + allocated[6,4,5,3,1]
+   + allocated[6,4,5,3,2] + allocated[6,4,6,3,1] + allocated[6,4,6,3,2]
+   - 48 firstDayInUseRack[1,3] - 48 firstDayInUseRack[2,3]
+   - 48 firstDayInUseRack[3,3] - 48 firstDayInUseRack[4,3]
+   - 48 firstDayInUseRack[5,3] - 48 firstDayInUseRack[6,3] <= 0
+ R24931: allocated[6,1,1,4,1] + allocated[6,1,1,4,2] + allocated[6,1,2,4,1]
+   + allocated[6,1,2,4,2] + allocated[6,1,3,4,1] + allocated[6,1,3,4,2]
+   + allocated[6,1,4,4,1] + allocated[6,1,4,4,2] + allocated[6,1,5,4,1]
+   + allocated[6,1,5,4,2] + allocated[6,1,6,4,1] + allocated[6,1,6,4,2]
+   + allocated[6,2,1,4,1] + allocated[6,2,1,4,2] + allocated[6,2,2,4,1]
+   + allocated[6,2,2,4,2] + allocated[6,2,3,4,1] + allocated[6,2,3,4,2]
+   + allocated[6,2,4,4,1] + allocated[6,2,4,4,2] + allocated[6,2,5,4,1]
+   + allocated[6,2,5,4,2] + allocated[6,2,6,4,1] + allocated[6,2,6,4,2]
+   + allocated[6,3,1,4,1] + allocated[6,3,1,4,2] + allocated[6,3,2,4,1]
+   + allocated[6,3,2,4,2] + allocated[6,3,3,4,1] + allocated[6,3,3,4,2]
+   + allocated[6,3,4,4,1] + allocated[6,3,4,4,2] + allocated[6,3,5,4,1]
+   + allocated[6,3,5,4,2] + allocated[6,3,6,4,1] + allocated[6,3,6,4,2]
+   + allocated[6,4,1,4,1] + allocated[6,4,1,4,2] + allocated[6,4,2,4,1]
+   + allocated[6,4,2,4,2] + allocated[6,4,3,4,1] + allocated[6,4,3,4,2]
+   + allocated[6,4,4,4,1] + allocated[6,4,4,4,2] + allocated[6,4,5,4,1]
+   + allocated[6,4,5,4,2] + allocated[6,4,6,4,1] + allocated[6,4,6,4,2]
+   - 48 firstDayInUseRack[1,4] - 48 firstDayInUseRack[2,4]
+   - 48 firstDayInUseRack[3,4] - 48 firstDayInUseRack[4,4]
+   - 48 firstDayInUseRack[5,4] - 48 firstDayInUseRack[6,4] <= 0
+ R24932: allocated[6,1,1,5,1] + allocated[6,1,1,5,2] + allocated[6,1,2,5,1]
+   + allocated[6,1,2,5,2] + allocated[6,1,3,5,1] + allocated[6,1,3,5,2]
+   + allocated[6,1,4,5,1] + allocated[6,1,4,5,2] + allocated[6,1,5,5,1]
+   + allocated[6,1,5,5,2] + allocated[6,1,6,5,1] + allocated[6,1,6,5,2]
+   + allocated[6,2,1,5,1] + allocated[6,2,1,5,2] + allocated[6,2,2,5,1]
+   + allocated[6,2,2,5,2] + allocated[6,2,3,5,1] + allocated[6,2,3,5,2]
+   + allocated[6,2,4,5,1] + allocated[6,2,4,5,2] + allocated[6,2,5,5,1]
+   + allocated[6,2,5,5,2] + allocated[6,2,6,5,1] + allocated[6,2,6,5,2]
+   + allocated[6,3,1,5,1] + allocated[6,3,1,5,2] + allocated[6,3,2,5,1]
+   + allocated[6,3,2,5,2] + allocated[6,3,3,5,1] + allocated[6,3,3,5,2]
+   + allocated[6,3,4,5,1] + allocated[6,3,4,5,2] + allocated[6,3,5,5,1]
+   + allocated[6,3,5,5,2] + allocated[6,3,6,5,1] + allocated[6,3,6,5,2]
+   + allocated[6,4,1,5,1] + allocated[6,4,1,5,2] + allocated[6,4,2,5,1]
+   + allocated[6,4,2,5,2] + allocated[6,4,3,5,1] + allocated[6,4,3,5,2]
+   + allocated[6,4,4,5,1] + allocated[6,4,4,5,2] + allocated[6,4,5,5,1]
+   + allocated[6,4,5,5,2] + allocated[6,4,6,5,1] + allocated[6,4,6,5,2]
+   - 48 firstDayInUseRack[1,5] - 48 firstDayInUseRack[2,5]
+   - 48 firstDayInUseRack[3,5] - 48 firstDayInUseRack[4,5]
+   - 48 firstDayInUseRack[5,5] - 48 firstDayInUseRack[6,5] <= 0
+ R24933: allocated[6,1,1,6,1] + allocated[6,1,1,6,2] + allocated[6,1,2,6,1]
+   + allocated[6,1,2,6,2] + allocated[6,1,3,6,1] + allocated[6,1,3,6,2]
+   + allocated[6,1,4,6,1] + allocated[6,1,4,6,2] + allocated[6,1,5,6,1]
+   + allocated[6,1,5,6,2] + allocated[6,1,6,6,1] + allocated[6,1,6,6,2]
+   + allocated[6,2,1,6,1] + allocated[6,2,1,6,2] + allocated[6,2,2,6,1]
+   + allocated[6,2,2,6,2] + allocated[6,2,3,6,1] + allocated[6,2,3,6,2]
+   + allocated[6,2,4,6,1] + allocated[6,2,4,6,2] + allocated[6,2,5,6,1]
+   + allocated[6,2,5,6,2] + allocated[6,2,6,6,1] + allocated[6,2,6,6,2]
+   + allocated[6,3,1,6,1] + allocated[6,3,1,6,2] + allocated[6,3,2,6,1]
+   + allocated[6,3,2,6,2] + allocated[6,3,3,6,1] + allocated[6,3,3,6,2]
+   + allocated[6,3,4,6,1] + allocated[6,3,4,6,2] + allocated[6,3,5,6,1]
+   + allocated[6,3,5,6,2] + allocated[6,3,6,6,1] + allocated[6,3,6,6,2]
+   + allocated[6,4,1,6,1] + allocated[6,4,1,6,2] + allocated[6,4,2,6,1]
+   + allocated[6,4,2,6,2] + allocated[6,4,3,6,1] + allocated[6,4,3,6,2]
+   + allocated[6,4,4,6,1] + allocated[6,4,4,6,2] + allocated[6,4,5,6,1]
+   + allocated[6,4,5,6,2] + allocated[6,4,6,6,1] + allocated[6,4,6,6,2]
+   - 48 firstDayInUseRack[1,6] - 48 firstDayInUseRack[2,6]
+   - 48 firstDayInUseRack[3,6] - 48 firstDayInUseRack[4,6]
+   - 48 firstDayInUseRack[5,6] - 48 firstDayInUseRack[6,6] <= 0
+ R24934: allocated[6,1,1,7,1] + allocated[6,1,1,7,2] + allocated[6,1,2,7,1]
+   + allocated[6,1,2,7,2] + allocated[6,1,3,7,1] + allocated[6,1,3,7,2]
+   + allocated[6,1,4,7,1] + allocated[6,1,4,7,2] + allocated[6,1,5,7,1]
+   + allocated[6,1,5,7,2] + allocated[6,1,6,7,1] + allocated[6,1,6,7,2]
+   + allocated[6,2,1,7,1] + allocated[6,2,1,7,2] + allocated[6,2,2,7,1]
+   + allocated[6,2,2,7,2] + allocated[6,2,3,7,1] + allocated[6,2,3,7,2]
+   + allocated[6,2,4,7,1] + allocated[6,2,4,7,2] + allocated[6,2,5,7,1]
+   + allocated[6,2,5,7,2] + allocated[6,2,6,7,1] + allocated[6,2,6,7,2]
+   + allocated[6,3,1,7,1] + allocated[6,3,1,7,2] + allocated[6,3,2,7,1]
+   + allocated[6,3,2,7,2] + allocated[6,3,3,7,1] + allocated[6,3,3,7,2]
+   + allocated[6,3,4,7,1] + allocated[6,3,4,7,2] + allocated[6,3,5,7,1]
+   + allocated[6,3,5,7,2] + allocated[6,3,6,7,1] + allocated[6,3,6,7,2]
+   + allocated[6,4,1,7,1] + allocated[6,4,1,7,2] + allocated[6,4,2,7,1]
+   + allocated[6,4,2,7,2] + allocated[6,4,3,7,1] + allocated[6,4,3,7,2]
+   + allocated[6,4,4,7,1] + allocated[6,4,4,7,2] + allocated[6,4,5,7,1]
+   + allocated[6,4,5,7,2] + allocated[6,4,6,7,1] + allocated[6,4,6,7,2]
+   - 48 firstDayInUseRack[1,7] - 48 firstDayInUseRack[2,7]
+   - 48 firstDayInUseRack[3,7] - 48 firstDayInUseRack[4,7]
+   - 48 firstDayInUseRack[5,7] - 48 firstDayInUseRack[6,7] <= 0
+ R24935: allocated[6,1,1,8,1] + allocated[6,1,1,8,2] + allocated[6,1,2,8,1]
+   + allocated[6,1,2,8,2] + allocated[6,1,3,8,1] + allocated[6,1,3,8,2]
+   + allocated[6,1,4,8,1] + allocated[6,1,4,8,2] + allocated[6,1,5,8,1]
+   + allocated[6,1,5,8,2] + allocated[6,1,6,8,1] + allocated[6,1,6,8,2]
+   + allocated[6,2,1,8,1] + allocated[6,2,1,8,2] + allocated[6,2,2,8,1]
+   + allocated[6,2,2,8,2] + allocated[6,2,3,8,1] + allocated[6,2,3,8,2]
+   + allocated[6,2,4,8,1] + allocated[6,2,4,8,2] + allocated[6,2,5,8,1]
+   + allocated[6,2,5,8,2] + allocated[6,2,6,8,1] + allocated[6,2,6,8,2]
+   + allocated[6,3,1,8,1] + allocated[6,3,1,8,2] + allocated[6,3,2,8,1]
+   + allocated[6,3,2,8,2] + allocated[6,3,3,8,1] + allocated[6,3,3,8,2]
+   + allocated[6,3,4,8,1] + allocated[6,3,4,8,2] + allocated[6,3,5,8,1]
+   + allocated[6,3,5,8,2] + allocated[6,3,6,8,1] + allocated[6,3,6,8,2]
+   + allocated[6,4,1,8,1] + allocated[6,4,1,8,2] + allocated[6,4,2,8,1]
+   + allocated[6,4,2,8,2] + allocated[6,4,3,8,1] + allocated[6,4,3,8,2]
+   + allocated[6,4,4,8,1] + allocated[6,4,4,8,2] + allocated[6,4,5,8,1]
+   + allocated[6,4,5,8,2] + allocated[6,4,6,8,1] + allocated[6,4,6,8,2]
+   - 48 firstDayInUseRack[1,8] - 48 firstDayInUseRack[2,8]
+   - 48 firstDayInUseRack[3,8] - 48 firstDayInUseRack[4,8]
+   - 48 firstDayInUseRack[5,8] - 48 firstDayInUseRack[6,8] <= 0
+ R24936: allocated[7,1,1,1,1] + allocated[7,1,1,1,2] + allocated[7,1,2,1,1]
+   + allocated[7,1,2,1,2] + allocated[7,1,3,1,1] + allocated[7,1,3,1,2]
+   + allocated[7,1,4,1,1] + allocated[7,1,4,1,2] + allocated[7,1,5,1,1]
+   + allocated[7,1,5,1,2] + allocated[7,1,6,1,1] + allocated[7,1,6,1,2]
+   + allocated[7,2,1,1,1] + allocated[7,2,1,1,2] + allocated[7,2,2,1,1]
+   + allocated[7,2,2,1,2] + allocated[7,2,3,1,1] + allocated[7,2,3,1,2]
+   + allocated[7,2,4,1,1] + allocated[7,2,4,1,2] + allocated[7,2,5,1,1]
+   + allocated[7,2,5,1,2] + allocated[7,2,6,1,1] + allocated[7,2,6,1,2]
+   + allocated[7,3,1,1,1] + allocated[7,3,1,1,2] + allocated[7,3,2,1,1]
+   + allocated[7,3,2,1,2] + allocated[7,3,3,1,1] + allocated[7,3,3,1,2]
+   + allocated[7,3,4,1,1] + allocated[7,3,4,1,2] + allocated[7,3,5,1,1]
+   + allocated[7,3,5,1,2] + allocated[7,3,6,1,1] + allocated[7,3,6,1,2]
+   + allocated[7,4,1,1,1] + allocated[7,4,1,1,2] + allocated[7,4,2,1,1]
+   + allocated[7,4,2,1,2] + allocated[7,4,3,1,1] + allocated[7,4,3,1,2]
+   + allocated[7,4,4,1,1] + allocated[7,4,4,1,2] + allocated[7,4,5,1,1]
+   + allocated[7,4,5,1,2] + allocated[7,4,6,1,1] + allocated[7,4,6,1,2]
+   - 48 firstDayInUseRack[1,1] - 48 firstDayInUseRack[2,1]
+   - 48 firstDayInUseRack[3,1] - 48 firstDayInUseRack[4,1]
+   - 48 firstDayInUseRack[5,1] - 48 firstDayInUseRack[6,1]
+   - 48 firstDayInUseRack[7,1] <= 0
+ R24937: allocated[7,1,1,2,1] + allocated[7,1,1,2,2] + allocated[7,1,2,2,1]
+   + allocated[7,1,2,2,2] + allocated[7,1,3,2,1] + allocated[7,1,3,2,2]
+   + allocated[7,1,4,2,1] + allocated[7,1,4,2,2] + allocated[7,1,5,2,1]
+   + allocated[7,1,5,2,2] + allocated[7,1,6,2,1] + allocated[7,1,6,2,2]
+   + allocated[7,2,1,2,1] + allocated[7,2,1,2,2] + allocated[7,2,2,2,1]
+   + allocated[7,2,2,2,2] + allocated[7,2,3,2,1] + allocated[7,2,3,2,2]
+   + allocated[7,2,4,2,1] + allocated[7,2,4,2,2] + allocated[7,2,5,2,1]
+   + allocated[7,2,5,2,2] + allocated[7,2,6,2,1] + allocated[7,2,6,2,2]
+   + allocated[7,3,1,2,1] + allocated[7,3,1,2,2] + allocated[7,3,2,2,1]
+   + allocated[7,3,2,2,2] + allocated[7,3,3,2,1] + allocated[7,3,3,2,2]
+   + allocated[7,3,4,2,1] + allocated[7,3,4,2,2] + allocated[7,3,5,2,1]
+   + allocated[7,3,5,2,2] + allocated[7,3,6,2,1] + allocated[7,3,6,2,2]
+   + allocated[7,4,1,2,1] + allocated[7,4,1,2,2] + allocated[7,4,2,2,1]
+   + allocated[7,4,2,2,2] + allocated[7,4,3,2,1] + allocated[7,4,3,2,2]
+   + allocated[7,4,4,2,1] + allocated[7,4,4,2,2] + allocated[7,4,5,2,1]
+   + allocated[7,4,5,2,2] + allocated[7,4,6,2,1] + allocated[7,4,6,2,2]
+   - 48 firstDayInUseRack[1,2] - 48 firstDayInUseRack[2,2]
+   - 48 firstDayInUseRack[3,2] - 48 firstDayInUseRack[4,2]
+   - 48 firstDayInUseRack[5,2] - 48 firstDayInUseRack[6,2]
+   - 48 firstDayInUseRack[7,2] <= 0
+ R24938: allocated[7,1,1,3,1] + allocated[7,1,1,3,2] + allocated[7,1,2,3,1]
+   + allocated[7,1,2,3,2] + allocated[7,1,3,3,1] + allocated[7,1,3,3,2]
+   + allocated[7,1,4,3,1] + allocated[7,1,4,3,2] + allocated[7,1,5,3,1]
+   + allocated[7,1,5,3,2] + allocated[7,1,6,3,1] + allocated[7,1,6,3,2]
+   + allocated[7,2,1,3,1] + allocated[7,2,1,3,2] + allocated[7,2,2,3,1]
+   + allocated[7,2,2,3,2] + allocated[7,2,3,3,1] + allocated[7,2,3,3,2]
+   + allocated[7,2,4,3,1] + allocated[7,2,4,3,2] + allocated[7,2,5,3,1]
+   + allocated[7,2,5,3,2] + allocated[7,2,6,3,1] + allocated[7,2,6,3,2]
+   + allocated[7,3,1,3,1] + allocated[7,3,1,3,2] + allocated[7,3,2,3,1]
+   + allocated[7,3,2,3,2] + allocated[7,3,3,3,1] + allocated[7,3,3,3,2]
+   + allocated[7,3,4,3,1] + allocated[7,3,4,3,2] + allocated[7,3,5,3,1]
+   + allocated[7,3,5,3,2] + allocated[7,3,6,3,1] + allocated[7,3,6,3,2]
+   + allocated[7,4,1,3,1] + allocated[7,4,1,3,2] + allocated[7,4,2,3,1]
+   + allocated[7,4,2,3,2] + allocated[7,4,3,3,1] + allocated[7,4,3,3,2]
+   + allocated[7,4,4,3,1] + allocated[7,4,4,3,2] + allocated[7,4,5,3,1]
+   + allocated[7,4,5,3,2] + allocated[7,4,6,3,1] + allocated[7,4,6,3,2]
+   - 48 firstDayInUseRack[1,3] - 48 firstDayInUseRack[2,3]
+   - 48 firstDayInUseRack[3,3] - 48 firstDayInUseRack[4,3]
+   - 48 firstDayInUseRack[5,3] - 48 firstDayInUseRack[6,3]
+   - 48 firstDayInUseRack[7,3] <= 0
+ R24939: allocated[7,1,1,4,1] + allocated[7,1,1,4,2] + allocated[7,1,2,4,1]
+   + allocated[7,1,2,4,2] + allocated[7,1,3,4,1] + allocated[7,1,3,4,2]
+   + allocated[7,1,4,4,1] + allocated[7,1,4,4,2] + allocated[7,1,5,4,1]
+   + allocated[7,1,5,4,2] + allocated[7,1,6,4,1] + allocated[7,1,6,4,2]
+   + allocated[7,2,1,4,1] + allocated[7,2,1,4,2] + allocated[7,2,2,4,1]
+   + allocated[7,2,2,4,2] + allocated[7,2,3,4,1] + allocated[7,2,3,4,2]
+   + allocated[7,2,4,4,1] + allocated[7,2,4,4,2] + allocated[7,2,5,4,1]
+   + allocated[7,2,5,4,2] + allocated[7,2,6,4,1] + allocated[7,2,6,4,2]
+   + allocated[7,3,1,4,1] + allocated[7,3,1,4,2] + allocated[7,3,2,4,1]
+   + allocated[7,3,2,4,2] + allocated[7,3,3,4,1] + allocated[7,3,3,4,2]
+   + allocated[7,3,4,4,1] + allocated[7,3,4,4,2] + allocated[7,3,5,4,1]
+   + allocated[7,3,5,4,2] + allocated[7,3,6,4,1] + allocated[7,3,6,4,2]
+   + allocated[7,4,1,4,1] + allocated[7,4,1,4,2] + allocated[7,4,2,4,1]
+   + allocated[7,4,2,4,2] + allocated[7,4,3,4,1] + allocated[7,4,3,4,2]
+   + allocated[7,4,4,4,1] + allocated[7,4,4,4,2] + allocated[7,4,5,4,1]
+   + allocated[7,4,5,4,2] + allocated[7,4,6,4,1] + allocated[7,4,6,4,2]
+   - 48 firstDayInUseRack[1,4] - 48 firstDayInUseRack[2,4]
+   - 48 firstDayInUseRack[3,4] - 48 firstDayInUseRack[4,4]
+   - 48 firstDayInUseRack[5,4] - 48 firstDayInUseRack[6,4]
+   - 48 firstDayInUseRack[7,4] <= 0
+ R24940: allocated[7,1,1,5,1] + allocated[7,1,1,5,2] + allocated[7,1,2,5,1]
+   + allocated[7,1,2,5,2] + allocated[7,1,3,5,1] + allocated[7,1,3,5,2]
+   + allocated[7,1,4,5,1] + allocated[7,1,4,5,2] + allocated[7,1,5,5,1]
+   + allocated[7,1,5,5,2] + allocated[7,1,6,5,1] + allocated[7,1,6,5,2]
+   + allocated[7,2,1,5,1] + allocated[7,2,1,5,2] + allocated[7,2,2,5,1]
+   + allocated[7,2,2,5,2] + allocated[7,2,3,5,1] + allocated[7,2,3,5,2]
+   + allocated[7,2,4,5,1] + allocated[7,2,4,5,2] + allocated[7,2,5,5,1]
+   + allocated[7,2,5,5,2] + allocated[7,2,6,5,1] + allocated[7,2,6,5,2]
+   + allocated[7,3,1,5,1] + allocated[7,3,1,5,2] + allocated[7,3,2,5,1]
+   + allocated[7,3,2,5,2] + allocated[7,3,3,5,1] + allocated[7,3,3,5,2]
+   + allocated[7,3,4,5,1] + allocated[7,3,4,5,2] + allocated[7,3,5,5,1]
+   + allocated[7,3,5,5,2] + allocated[7,3,6,5,1] + allocated[7,3,6,5,2]
+   + allocated[7,4,1,5,1] + allocated[7,4,1,5,2] + allocated[7,4,2,5,1]
+   + allocated[7,4,2,5,2] + allocated[7,4,3,5,1] + allocated[7,4,3,5,2]
+   + allocated[7,4,4,5,1] + allocated[7,4,4,5,2] + allocated[7,4,5,5,1]
+   + allocated[7,4,5,5,2] + allocated[7,4,6,5,1] + allocated[7,4,6,5,2]
+   - 48 firstDayInUseRack[1,5] - 48 firstDayInUseRack[2,5]
+   - 48 firstDayInUseRack[3,5] - 48 firstDayInUseRack[4,5]
+   - 48 firstDayInUseRack[5,5] - 48 firstDayInUseRack[6,5]
+   - 48 firstDayInUseRack[7,5] <= 0
+ R24941: allocated[7,1,1,6,1] + allocated[7,1,1,6,2] + allocated[7,1,2,6,1]
+   + allocated[7,1,2,6,2] + allocated[7,1,3,6,1] + allocated[7,1,3,6,2]
+   + allocated[7,1,4,6,1] + allocated[7,1,4,6,2] + allocated[7,1,5,6,1]
+   + allocated[7,1,5,6,2] + allocated[7,1,6,6,1] + allocated[7,1,6,6,2]
+   + allocated[7,2,1,6,1] + allocated[7,2,1,6,2] + allocated[7,2,2,6,1]
+   + allocated[7,2,2,6,2] + allocated[7,2,3,6,1] + allocated[7,2,3,6,2]
+   + allocated[7,2,4,6,1] + allocated[7,2,4,6,2] + allocated[7,2,5,6,1]
+   + allocated[7,2,5,6,2] + allocated[7,2,6,6,1] + allocated[7,2,6,6,2]
+   + allocated[7,3,1,6,1] + allocated[7,3,1,6,2] + allocated[7,3,2,6,1]
+   + allocated[7,3,2,6,2] + allocated[7,3,3,6,1] + allocated[7,3,3,6,2]
+   + allocated[7,3,4,6,1] + allocated[7,3,4,6,2] + allocated[7,3,5,6,1]
+   + allocated[7,3,5,6,2] + allocated[7,3,6,6,1] + allocated[7,3,6,6,2]
+   + allocated[7,4,1,6,1] + allocated[7,4,1,6,2] + allocated[7,4,2,6,1]
+   + allocated[7,4,2,6,2] + allocated[7,4,3,6,1] + allocated[7,4,3,6,2]
+   + allocated[7,4,4,6,1] + allocated[7,4,4,6,2] + allocated[7,4,5,6,1]
+   + allocated[7,4,5,6,2] + allocated[7,4,6,6,1] + allocated[7,4,6,6,2]
+   - 48 firstDayInUseRack[1,6] - 48 firstDayInUseRack[2,6]
+   - 48 firstDayInUseRack[3,6] - 48 firstDayInUseRack[4,6]
+   - 48 firstDayInUseRack[5,6] - 48 firstDayInUseRack[6,6]
+   - 48 firstDayInUseRack[7,6] <= 0
+ R24942: allocated[7,1,1,7,1] + allocated[7,1,1,7,2] + allocated[7,1,2,7,1]
+   + allocated[7,1,2,7,2] + allocated[7,1,3,7,1] + allocated[7,1,3,7,2]
+   + allocated[7,1,4,7,1] + allocated[7,1,4,7,2] + allocated[7,1,5,7,1]
+   + allocated[7,1,5,7,2] + allocated[7,1,6,7,1] + allocated[7,1,6,7,2]
+   + allocated[7,2,1,7,1] + allocated[7,2,1,7,2] + allocated[7,2,2,7,1]
+   + allocated[7,2,2,7,2] + allocated[7,2,3,7,1] + allocated[7,2,3,7,2]
+   + allocated[7,2,4,7,1] + allocated[7,2,4,7,2] + allocated[7,2,5,7,1]
+   + allocated[7,2,5,7,2] + allocated[7,2,6,7,1] + allocated[7,2,6,7,2]
+   + allocated[7,3,1,7,1] + allocated[7,3,1,7,2] + allocated[7,3,2,7,1]
+   + allocated[7,3,2,7,2] + allocated[7,3,3,7,1] + allocated[7,3,3,7,2]
+   + allocated[7,3,4,7,1] + allocated[7,3,4,7,2] + allocated[7,3,5,7,1]
+   + allocated[7,3,5,7,2] + allocated[7,3,6,7,1] + allocated[7,3,6,7,2]
+   + allocated[7,4,1,7,1] + allocated[7,4,1,7,2] + allocated[7,4,2,7,1]
+   + allocated[7,4,2,7,2] + allocated[7,4,3,7,1] + allocated[7,4,3,7,2]
+   + allocated[7,4,4,7,1] + allocated[7,4,4,7,2] + allocated[7,4,5,7,1]
+   + allocated[7,4,5,7,2] + allocated[7,4,6,7,1] + allocated[7,4,6,7,2]
+   - 48 firstDayInUseRack[1,7] - 48 firstDayInUseRack[2,7]
+   - 48 firstDayInUseRack[3,7] - 48 firstDayInUseRack[4,7]
+   - 48 firstDayInUseRack[5,7] - 48 firstDayInUseRack[6,7]
+   - 48 firstDayInUseRack[7,7] <= 0
+ R24943: allocated[7,1,1,8,1] + allocated[7,1,1,8,2] + allocated[7,1,2,8,1]
+   + allocated[7,1,2,8,2] + allocated[7,1,3,8,1] + allocated[7,1,3,8,2]
+   + allocated[7,1,4,8,1] + allocated[7,1,4,8,2] + allocated[7,1,5,8,1]
+   + allocated[7,1,5,8,2] + allocated[7,1,6,8,1] + allocated[7,1,6,8,2]
+   + allocated[7,2,1,8,1] + allocated[7,2,1,8,2] + allocated[7,2,2,8,1]
+   + allocated[7,2,2,8,2] + allocated[7,2,3,8,1] + allocated[7,2,3,8,2]
+   + allocated[7,2,4,8,1] + allocated[7,2,4,8,2] + allocated[7,2,5,8,1]
+   + allocated[7,2,5,8,2] + allocated[7,2,6,8,1] + allocated[7,2,6,8,2]
+   + allocated[7,3,1,8,1] + allocated[7,3,1,8,2] + allocated[7,3,2,8,1]
+   + allocated[7,3,2,8,2] + allocated[7,3,3,8,1] + allocated[7,3,3,8,2]
+   + allocated[7,3,4,8,1] + allocated[7,3,4,8,2] + allocated[7,3,5,8,1]
+   + allocated[7,3,5,8,2] + allocated[7,3,6,8,1] + allocated[7,3,6,8,2]
+   + allocated[7,4,1,8,1] + allocated[7,4,1,8,2] + allocated[7,4,2,8,1]
+   + allocated[7,4,2,8,2] + allocated[7,4,3,8,1] + allocated[7,4,3,8,2]
+   + allocated[7,4,4,8,1] + allocated[7,4,4,8,2] + allocated[7,4,5,8,1]
+   + allocated[7,4,5,8,2] + allocated[7,4,6,8,1] + allocated[7,4,6,8,2]
+   - 48 firstDayInUseRack[1,8] - 48 firstDayInUseRack[2,8]
+   - 48 firstDayInUseRack[3,8] - 48 firstDayInUseRack[4,8]
+   - 48 firstDayInUseRack[5,8] - 48 firstDayInUseRack[6,8]
+   - 48 firstDayInUseRack[7,8] <= 0
+ R24944: allocated[8,1,1,1,1] + allocated[8,1,1,1,2] + allocated[8,1,2,1,1]
+   + allocated[8,1,2,1,2] + allocated[8,1,3,1,1] + allocated[8,1,3,1,2]
+   + allocated[8,1,4,1,1] + allocated[8,1,4,1,2] + allocated[8,1,5,1,1]
+   + allocated[8,1,5,1,2] + allocated[8,1,6,1,1] + allocated[8,1,6,1,2]
+   + allocated[8,2,1,1,1] + allocated[8,2,1,1,2] + allocated[8,2,2,1,1]
+   + allocated[8,2,2,1,2] + allocated[8,2,3,1,1] + allocated[8,2,3,1,2]
+   + allocated[8,2,4,1,1] + allocated[8,2,4,1,2] + allocated[8,2,5,1,1]
+   + allocated[8,2,5,1,2] + allocated[8,2,6,1,1] + allocated[8,2,6,1,2]
+   + allocated[8,3,1,1,1] + allocated[8,3,1,1,2] + allocated[8,3,2,1,1]
+   + allocated[8,3,2,1,2] + allocated[8,3,3,1,1] + allocated[8,3,3,1,2]
+   + allocated[8,3,4,1,1] + allocated[8,3,4,1,2] + allocated[8,3,5,1,1]
+   + allocated[8,3,5,1,2] + allocated[8,3,6,1,1] + allocated[8,3,6,1,2]
+   + allocated[8,4,1,1,1] + allocated[8,4,1,1,2] + allocated[8,4,2,1,1]
+   + allocated[8,4,2,1,2] + allocated[8,4,3,1,1] + allocated[8,4,3,1,2]
+   + allocated[8,4,4,1,1] + allocated[8,4,4,1,2] + allocated[8,4,5,1,1]
+   + allocated[8,4,5,1,2] + allocated[8,4,6,1,1] + allocated[8,4,6,1,2]
+   - 48 firstDayInUseRack[1,1] - 48 firstDayInUseRack[2,1]
+   - 48 firstDayInUseRack[3,1] - 48 firstDayInUseRack[4,1]
+   - 48 firstDayInUseRack[5,1] - 48 firstDayInUseRack[6,1]
+   - 48 firstDayInUseRack[7,1] - 48 firstDayInUseRack[8,1] <= 0
+ R24945: allocated[8,1,1,2,1] + allocated[8,1,1,2,2] + allocated[8,1,2,2,1]
+   + allocated[8,1,2,2,2] + allocated[8,1,3,2,1] + allocated[8,1,3,2,2]
+   + allocated[8,1,4,2,1] + allocated[8,1,4,2,2] + allocated[8,1,5,2,1]
+   + allocated[8,1,5,2,2] + allocated[8,1,6,2,1] + allocated[8,1,6,2,2]
+   + allocated[8,2,1,2,1] + allocated[8,2,1,2,2] + allocated[8,2,2,2,1]
+   + allocated[8,2,2,2,2] + allocated[8,2,3,2,1] + allocated[8,2,3,2,2]
+   + allocated[8,2,4,2,1] + allocated[8,2,4,2,2] + allocated[8,2,5,2,1]
+   + allocated[8,2,5,2,2] + allocated[8,2,6,2,1] + allocated[8,2,6,2,2]
+   + allocated[8,3,1,2,1] + allocated[8,3,1,2,2] + allocated[8,3,2,2,1]
+   + allocated[8,3,2,2,2] + allocated[8,3,3,2,1] + allocated[8,3,3,2,2]
+   + allocated[8,3,4,2,1] + allocated[8,3,4,2,2] + allocated[8,3,5,2,1]
+   + allocated[8,3,5,2,2] + allocated[8,3,6,2,1] + allocated[8,3,6,2,2]
+   + allocated[8,4,1,2,1] + allocated[8,4,1,2,2] + allocated[8,4,2,2,1]
+   + allocated[8,4,2,2,2] + allocated[8,4,3,2,1] + allocated[8,4,3,2,2]
+   + allocated[8,4,4,2,1] + allocated[8,4,4,2,2] + allocated[8,4,5,2,1]
+   + allocated[8,4,5,2,2] + allocated[8,4,6,2,1] + allocated[8,4,6,2,2]
+   - 48 firstDayInUseRack[1,2] - 48 firstDayInUseRack[2,2]
+   - 48 firstDayInUseRack[3,2] - 48 firstDayInUseRack[4,2]
+   - 48 firstDayInUseRack[5,2] - 48 firstDayInUseRack[6,2]
+   - 48 firstDayInUseRack[7,2] - 48 firstDayInUseRack[8,2] <= 0
+ R24946: allocated[8,1,1,3,1] + allocated[8,1,1,3,2] + allocated[8,1,2,3,1]
+   + allocated[8,1,2,3,2] + allocated[8,1,3,3,1] + allocated[8,1,3,3,2]
+   + allocated[8,1,4,3,1] + allocated[8,1,4,3,2] + allocated[8,1,5,3,1]
+   + allocated[8,1,5,3,2] + allocated[8,1,6,3,1] + allocated[8,1,6,3,2]
+   + allocated[8,2,1,3,1] + allocated[8,2,1,3,2] + allocated[8,2,2,3,1]
+   + allocated[8,2,2,3,2] + allocated[8,2,3,3,1] + allocated[8,2,3,3,2]
+   + allocated[8,2,4,3,1] + allocated[8,2,4,3,2] + allocated[8,2,5,3,1]
+   + allocated[8,2,5,3,2] + allocated[8,2,6,3,1] + allocated[8,2,6,3,2]
+   + allocated[8,3,1,3,1] + allocated[8,3,1,3,2] + allocated[8,3,2,3,1]
+   + allocated[8,3,2,3,2] + allocated[8,3,3,3,1] + allocated[8,3,3,3,2]
+   + allocated[8,3,4,3,1] + allocated[8,3,4,3,2] + allocated[8,3,5,3,1]
+   + allocated[8,3,5,3,2] + allocated[8,3,6,3,1] + allocated[8,3,6,3,2]
+   + allocated[8,4,1,3,1] + allocated[8,4,1,3,2] + allocated[8,4,2,3,1]
+   + allocated[8,4,2,3,2] + allocated[8,4,3,3,1] + allocated[8,4,3,3,2]
+   + allocated[8,4,4,3,1] + allocated[8,4,4,3,2] + allocated[8,4,5,3,1]
+   + allocated[8,4,5,3,2] + allocated[8,4,6,3,1] + allocated[8,4,6,3,2]
+   - 48 firstDayInUseRack[1,3] - 48 firstDayInUseRack[2,3]
+   - 48 firstDayInUseRack[3,3] - 48 firstDayInUseRack[4,3]
+   - 48 firstDayInUseRack[5,3] - 48 firstDayInUseRack[6,3]
+   - 48 firstDayInUseRack[7,3] - 48 firstDayInUseRack[8,3] <= 0
+ R24947: allocated[8,1,1,4,1] + allocated[8,1,1,4,2] + allocated[8,1,2,4,1]
+   + allocated[8,1,2,4,2] + allocated[8,1,3,4,1] + allocated[8,1,3,4,2]
+   + allocated[8,1,4,4,1] + allocated[8,1,4,4,2] + allocated[8,1,5,4,1]
+   + allocated[8,1,5,4,2] + allocated[8,1,6,4,1] + allocated[8,1,6,4,2]
+   + allocated[8,2,1,4,1] + allocated[8,2,1,4,2] + allocated[8,2,2,4,1]
+   + allocated[8,2,2,4,2] + allocated[8,2,3,4,1] + allocated[8,2,3,4,2]
+   + allocated[8,2,4,4,1] + allocated[8,2,4,4,2] + allocated[8,2,5,4,1]
+   + allocated[8,2,5,4,2] + allocated[8,2,6,4,1] + allocated[8,2,6,4,2]
+   + allocated[8,3,1,4,1] + allocated[8,3,1,4,2] + allocated[8,3,2,4,1]
+   + allocated[8,3,2,4,2] + allocated[8,3,3,4,1] + allocated[8,3,3,4,2]
+   + allocated[8,3,4,4,1] + allocated[8,3,4,4,2] + allocated[8,3,5,4,1]
+   + allocated[8,3,5,4,2] + allocated[8,3,6,4,1] + allocated[8,3,6,4,2]
+   + allocated[8,4,1,4,1] + allocated[8,4,1,4,2] + allocated[8,4,2,4,1]
+   + allocated[8,4,2,4,2] + allocated[8,4,3,4,1] + allocated[8,4,3,4,2]
+   + allocated[8,4,4,4,1] + allocated[8,4,4,4,2] + allocated[8,4,5,4,1]
+   + allocated[8,4,5,4,2] + allocated[8,4,6,4,1] + allocated[8,4,6,4,2]
+   - 48 firstDayInUseRack[1,4] - 48 firstDayInUseRack[2,4]
+   - 48 firstDayInUseRack[3,4] - 48 firstDayInUseRack[4,4]
+   - 48 firstDayInUseRack[5,4] - 48 firstDayInUseRack[6,4]
+   - 48 firstDayInUseRack[7,4] - 48 firstDayInUseRack[8,4] <= 0
+ R24948: allocated[8,1,1,5,1] + allocated[8,1,1,5,2] + allocated[8,1,2,5,1]
+   + allocated[8,1,2,5,2] + allocated[8,1,3,5,1] + allocated[8,1,3,5,2]
+   + allocated[8,1,4,5,1] + allocated[8,1,4,5,2] + allocated[8,1,5,5,1]
+   + allocated[8,1,5,5,2] + allocated[8,1,6,5,1] + allocated[8,1,6,5,2]
+   + allocated[8,2,1,5,1] + allocated[8,2,1,5,2] + allocated[8,2,2,5,1]
+   + allocated[8,2,2,5,2] + allocated[8,2,3,5,1] + allocated[8,2,3,5,2]
+   + allocated[8,2,4,5,1] + allocated[8,2,4,5,2] + allocated[8,2,5,5,1]
+   + allocated[8,2,5,5,2] + allocated[8,2,6,5,1] + allocated[8,2,6,5,2]
+   + allocated[8,3,1,5,1] + allocated[8,3,1,5,2] + allocated[8,3,2,5,1]
+   + allocated[8,3,2,5,2] + allocated[8,3,3,5,1] + allocated[8,3,3,5,2]
+   + allocated[8,3,4,5,1] + allocated[8,3,4,5,2] + allocated[8,3,5,5,1]
+   + allocated[8,3,5,5,2] + allocated[8,3,6,5,1] + allocated[8,3,6,5,2]
+   + allocated[8,4,1,5,1] + allocated[8,4,1,5,2] + allocated[8,4,2,5,1]
+   + allocated[8,4,2,5,2] + allocated[8,4,3,5,1] + allocated[8,4,3,5,2]
+   + allocated[8,4,4,5,1] + allocated[8,4,4,5,2] + allocated[8,4,5,5,1]
+   + allocated[8,4,5,5,2] + allocated[8,4,6,5,1] + allocated[8,4,6,5,2]
+   - 48 firstDayInUseRack[1,5] - 48 firstDayInUseRack[2,5]
+   - 48 firstDayInUseRack[3,5] - 48 firstDayInUseRack[4,5]
+   - 48 firstDayInUseRack[5,5] - 48 firstDayInUseRack[6,5]
+   - 48 firstDayInUseRack[7,5] - 48 firstDayInUseRack[8,5] <= 0
+ R24949: allocated[8,1,1,6,1] + allocated[8,1,1,6,2] + allocated[8,1,2,6,1]
+   + allocated[8,1,2,6,2] + allocated[8,1,3,6,1] + allocated[8,1,3,6,2]
+   + allocated[8,1,4,6,1] + allocated[8,1,4,6,2] + allocated[8,1,5,6,1]
+   + allocated[8,1,5,6,2] + allocated[8,1,6,6,1] + allocated[8,1,6,6,2]
+   + allocated[8,2,1,6,1] + allocated[8,2,1,6,2] + allocated[8,2,2,6,1]
+   + allocated[8,2,2,6,2] + allocated[8,2,3,6,1] + allocated[8,2,3,6,2]
+   + allocated[8,2,4,6,1] + allocated[8,2,4,6,2] + allocated[8,2,5,6,1]
+   + allocated[8,2,5,6,2] + allocated[8,2,6,6,1] + allocated[8,2,6,6,2]
+   + allocated[8,3,1,6,1] + allocated[8,3,1,6,2] + allocated[8,3,2,6,1]
+   + allocated[8,3,2,6,2] + allocated[8,3,3,6,1] + allocated[8,3,3,6,2]
+   + allocated[8,3,4,6,1] + allocated[8,3,4,6,2] + allocated[8,3,5,6,1]
+   + allocated[8,3,5,6,2] + allocated[8,3,6,6,1] + allocated[8,3,6,6,2]
+   + allocated[8,4,1,6,1] + allocated[8,4,1,6,2] + allocated[8,4,2,6,1]
+   + allocated[8,4,2,6,2] + allocated[8,4,3,6,1] + allocated[8,4,3,6,2]
+   + allocated[8,4,4,6,1] + allocated[8,4,4,6,2] + allocated[8,4,5,6,1]
+   + allocated[8,4,5,6,2] + allocated[8,4,6,6,1] + allocated[8,4,6,6,2]
+   - 48 firstDayInUseRack[1,6] - 48 firstDayInUseRack[2,6]
+   - 48 firstDayInUseRack[3,6] - 48 firstDayInUseRack[4,6]
+   - 48 firstDayInUseRack[5,6] - 48 firstDayInUseRack[6,6]
+   - 48 firstDayInUseRack[7,6] - 48 firstDayInUseRack[8,6] <= 0
+ R24950: allocated[8,1,1,7,1] + allocated[8,1,1,7,2] + allocated[8,1,2,7,1]
+   + allocated[8,1,2,7,2] + allocated[8,1,3,7,1] + allocated[8,1,3,7,2]
+   + allocated[8,1,4,7,1] + allocated[8,1,4,7,2] + allocated[8,1,5,7,1]
+   + allocated[8,1,5,7,2] + allocated[8,1,6,7,1] + allocated[8,1,6,7,2]
+   + allocated[8,2,1,7,1] + allocated[8,2,1,7,2] + allocated[8,2,2,7,1]
+   + allocated[8,2,2,7,2] + allocated[8,2,3,7,1] + allocated[8,2,3,7,2]
+   + allocated[8,2,4,7,1] + allocated[8,2,4,7,2] + allocated[8,2,5,7,1]
+   + allocated[8,2,5,7,2] + allocated[8,2,6,7,1] + allocated[8,2,6,7,2]
+   + allocated[8,3,1,7,1] + allocated[8,3,1,7,2] + allocated[8,3,2,7,1]
+   + allocated[8,3,2,7,2] + allocated[8,3,3,7,1] + allocated[8,3,3,7,2]
+   + allocated[8,3,4,7,1] + allocated[8,3,4,7,2] + allocated[8,3,5,7,1]
+   + allocated[8,3,5,7,2] + allocated[8,3,6,7,1] + allocated[8,3,6,7,2]
+   + allocated[8,4,1,7,1] + allocated[8,4,1,7,2] + allocated[8,4,2,7,1]
+   + allocated[8,4,2,7,2] + allocated[8,4,3,7,1] + allocated[8,4,3,7,2]
+   + allocated[8,4,4,7,1] + allocated[8,4,4,7,2] + allocated[8,4,5,7,1]
+   + allocated[8,4,5,7,2] + allocated[8,4,6,7,1] + allocated[8,4,6,7,2]
+   - 48 firstDayInUseRack[1,7] - 48 firstDayInUseRack[2,7]
+   - 48 firstDayInUseRack[3,7] - 48 firstDayInUseRack[4,7]
+   - 48 firstDayInUseRack[5,7] - 48 firstDayInUseRack[6,7]
+   - 48 firstDayInUseRack[7,7] - 48 firstDayInUseRack[8,7] <= 0
+ R24951: allocated[8,1,1,8,1] + allocated[8,1,1,8,2] + allocated[8,1,2,8,1]
+   + allocated[8,1,2,8,2] + allocated[8,1,3,8,1] + allocated[8,1,3,8,2]
+   + allocated[8,1,4,8,1] + allocated[8,1,4,8,2] + allocated[8,1,5,8,1]
+   + allocated[8,1,5,8,2] + allocated[8,1,6,8,1] + allocated[8,1,6,8,2]
+   + allocated[8,2,1,8,1] + allocated[8,2,1,8,2] + allocated[8,2,2,8,1]
+   + allocated[8,2,2,8,2] + allocated[8,2,3,8,1] + allocated[8,2,3,8,2]
+   + allocated[8,2,4,8,1] + allocated[8,2,4,8,2] + allocated[8,2,5,8,1]
+   + allocated[8,2,5,8,2] + allocated[8,2,6,8,1] + allocated[8,2,6,8,2]
+   + allocated[8,3,1,8,1] + allocated[8,3,1,8,2] + allocated[8,3,2,8,1]
+   + allocated[8,3,2,8,2] + allocated[8,3,3,8,1] + allocated[8,3,3,8,2]
+   + allocated[8,3,4,8,1] + allocated[8,3,4,8,2] + allocated[8,3,5,8,1]
+   + allocated[8,3,5,8,2] + allocated[8,3,6,8,1] + allocated[8,3,6,8,2]
+   + allocated[8,4,1,8,1] + allocated[8,4,1,8,2] + allocated[8,4,2,8,1]
+   + allocated[8,4,2,8,2] + allocated[8,4,3,8,1] + allocated[8,4,3,8,2]
+   + allocated[8,4,4,8,1] + allocated[8,4,4,8,2] + allocated[8,4,5,8,1]
+   + allocated[8,4,5,8,2] + allocated[8,4,6,8,1] + allocated[8,4,6,8,2]
+   - 48 firstDayInUseRack[1,8] - 48 firstDayInUseRack[2,8]
+   - 48 firstDayInUseRack[3,8] - 48 firstDayInUseRack[4,8]
+   - 48 firstDayInUseRack[5,8] - 48 firstDayInUseRack[6,8]
+   - 48 firstDayInUseRack[7,8] - 48 firstDayInUseRack[8,8] <= 0
+ R24952: allocated[9,1,1,1,1] + allocated[9,1,1,1,2] + allocated[9,1,2,1,1]
+   + allocated[9,1,2,1,2] + allocated[9,1,3,1,1] + allocated[9,1,3,1,2]
+   + allocated[9,1,4,1,1] + allocated[9,1,4,1,2] + allocated[9,1,5,1,1]
+   + allocated[9,1,5,1,2] + allocated[9,1,6,1,1] + allocated[9,1,6,1,2]
+   + allocated[9,2,1,1,1] + allocated[9,2,1,1,2] + allocated[9,2,2,1,1]
+   + allocated[9,2,2,1,2] + allocated[9,2,3,1,1] + allocated[9,2,3,1,2]
+   + allocated[9,2,4,1,1] + allocated[9,2,4,1,2] + allocated[9,2,5,1,1]
+   + allocated[9,2,5,1,2] + allocated[9,2,6,1,1] + allocated[9,2,6,1,2]
+   + allocated[9,3,1,1,1] + allocated[9,3,1,1,2] + allocated[9,3,2,1,1]
+   + allocated[9,3,2,1,2] + allocated[9,3,3,1,1] + allocated[9,3,3,1,2]
+   + allocated[9,3,4,1,1] + allocated[9,3,4,1,2] + allocated[9,3,5,1,1]
+   + allocated[9,3,5,1,2] + allocated[9,3,6,1,1] + allocated[9,3,6,1,2]
+   + allocated[9,4,1,1,1] + allocated[9,4,1,1,2] + allocated[9,4,2,1,1]
+   + allocated[9,4,2,1,2] + allocated[9,4,3,1,1] + allocated[9,4,3,1,2]
+   + allocated[9,4,4,1,1] + allocated[9,4,4,1,2] + allocated[9,4,5,1,1]
+   + allocated[9,4,5,1,2] + allocated[9,4,6,1,1] + allocated[9,4,6,1,2]
+   - 48 firstDayInUseRack[1,1] - 48 firstDayInUseRack[2,1]
+   - 48 firstDayInUseRack[3,1] - 48 firstDayInUseRack[4,1]
+   - 48 firstDayInUseRack[5,1] - 48 firstDayInUseRack[6,1]
+   - 48 firstDayInUseRack[7,1] - 48 firstDayInUseRack[8,1]
+   - 48 firstDayInUseRack[9,1] <= 0
+ R24953: allocated[9,1,1,2,1] + allocated[9,1,1,2,2] + allocated[9,1,2,2,1]
+   + allocated[9,1,2,2,2] + allocated[9,1,3,2,1] + allocated[9,1,3,2,2]
+   + allocated[9,1,4,2,1] + allocated[9,1,4,2,2] + allocated[9,1,5,2,1]
+   + allocated[9,1,5,2,2] + allocated[9,1,6,2,1] + allocated[9,1,6,2,2]
+   + allocated[9,2,1,2,1] + allocated[9,2,1,2,2] + allocated[9,2,2,2,1]
+   + allocated[9,2,2,2,2] + allocated[9,2,3,2,1] + allocated[9,2,3,2,2]
+   + allocated[9,2,4,2,1] + allocated[9,2,4,2,2] + allocated[9,2,5,2,1]
+   + allocated[9,2,5,2,2] + allocated[9,2,6,2,1] + allocated[9,2,6,2,2]
+   + allocated[9,3,1,2,1] + allocated[9,3,1,2,2] + allocated[9,3,2,2,1]
+   + allocated[9,3,2,2,2] + allocated[9,3,3,2,1] + allocated[9,3,3,2,2]
+   + allocated[9,3,4,2,1] + allocated[9,3,4,2,2] + allocated[9,3,5,2,1]
+   + allocated[9,3,5,2,2] + allocated[9,3,6,2,1] + allocated[9,3,6,2,2]
+   + allocated[9,4,1,2,1] + allocated[9,4,1,2,2] + allocated[9,4,2,2,1]
+   + allocated[9,4,2,2,2] + allocated[9,4,3,2,1] + allocated[9,4,3,2,2]
+   + allocated[9,4,4,2,1] + allocated[9,4,4,2,2] + allocated[9,4,5,2,1]
+   + allocated[9,4,5,2,2] + allocated[9,4,6,2,1] + allocated[9,4,6,2,2]
+   - 48 firstDayInUseRack[1,2] - 48 firstDayInUseRack[2,2]
+   - 48 firstDayInUseRack[3,2] - 48 firstDayInUseRack[4,2]
+   - 48 firstDayInUseRack[5,2] - 48 firstDayInUseRack[6,2]
+   - 48 firstDayInUseRack[7,2] - 48 firstDayInUseRack[8,2]
+   - 48 firstDayInUseRack[9,2] <= 0
+ R24954: allocated[9,1,1,3,1] + allocated[9,1,1,3,2] + allocated[9,1,2,3,1]
+   + allocated[9,1,2,3,2] + allocated[9,1,3,3,1] + allocated[9,1,3,3,2]
+   + allocated[9,1,4,3,1] + allocated[9,1,4,3,2] + allocated[9,1,5,3,1]
+   + allocated[9,1,5,3,2] + allocated[9,1,6,3,1] + allocated[9,1,6,3,2]
+   + allocated[9,2,1,3,1] + allocated[9,2,1,3,2] + allocated[9,2,2,3,1]
+   + allocated[9,2,2,3,2] + allocated[9,2,3,3,1] + allocated[9,2,3,3,2]
+   + allocated[9,2,4,3,1] + allocated[9,2,4,3,2] + allocated[9,2,5,3,1]
+   + allocated[9,2,5,3,2] + allocated[9,2,6,3,1] + allocated[9,2,6,3,2]
+   + allocated[9,3,1,3,1] + allocated[9,3,1,3,2] + allocated[9,3,2,3,1]
+   + allocated[9,3,2,3,2] + allocated[9,3,3,3,1] + allocated[9,3,3,3,2]
+   + allocated[9,3,4,3,1] + allocated[9,3,4,3,2] + allocated[9,3,5,3,1]
+   + allocated[9,3,5,3,2] + allocated[9,3,6,3,1] + allocated[9,3,6,3,2]
+   + allocated[9,4,1,3,1] + allocated[9,4,1,3,2] + allocated[9,4,2,3,1]
+   + allocated[9,4,2,3,2] + allocated[9,4,3,3,1] + allocated[9,4,3,3,2]
+   + allocated[9,4,4,3,1] + allocated[9,4,4,3,2] + allocated[9,4,5,3,1]
+   + allocated[9,4,5,3,2] + allocated[9,4,6,3,1] + allocated[9,4,6,3,2]
+   - 48 firstDayInUseRack[1,3] - 48 firstDayInUseRack[2,3]
+   - 48 firstDayInUseRack[3,3] - 48 firstDayInUseRack[4,3]
+   - 48 firstDayInUseRack[5,3] - 48 firstDayInUseRack[6,3]
+   - 48 firstDayInUseRack[7,3] - 48 firstDayInUseRack[8,3]
+   - 48 firstDayInUseRack[9,3] <= 0
+ R24955: allocated[9,1,1,4,1] + allocated[9,1,1,4,2] + allocated[9,1,2,4,1]
+   + allocated[9,1,2,4,2] + allocated[9,1,3,4,1] + allocated[9,1,3,4,2]
+   + allocated[9,1,4,4,1] + allocated[9,1,4,4,2] + allocated[9,1,5,4,1]
+   + allocated[9,1,5,4,2] + allocated[9,1,6,4,1] + allocated[9,1,6,4,2]
+   + allocated[9,2,1,4,1] + allocated[9,2,1,4,2] + allocated[9,2,2,4,1]
+   + allocated[9,2,2,4,2] + allocated[9,2,3,4,1] + allocated[9,2,3,4,2]
+   + allocated[9,2,4,4,1] + allocated[9,2,4,4,2] + allocated[9,2,5,4,1]
+   + allocated[9,2,5,4,2] + allocated[9,2,6,4,1] + allocated[9,2,6,4,2]
+   + allocated[9,3,1,4,1] + allocated[9,3,1,4,2] + allocated[9,3,2,4,1]
+   + allocated[9,3,2,4,2] + allocated[9,3,3,4,1] + allocated[9,3,3,4,2]
+   + allocated[9,3,4,4,1] + allocated[9,3,4,4,2] + allocated[9,3,5,4,1]
+   + allocated[9,3,5,4,2] + allocated[9,3,6,4,1] + allocated[9,3,6,4,2]
+   + allocated[9,4,1,4,1] + allocated[9,4,1,4,2] + allocated[9,4,2,4,1]
+   + allocated[9,4,2,4,2] + allocated[9,4,3,4,1] + allocated[9,4,3,4,2]
+   + allocated[9,4,4,4,1] + allocated[9,4,4,4,2] + allocated[9,4,5,4,1]
+   + allocated[9,4,5,4,2] + allocated[9,4,6,4,1] + allocated[9,4,6,4,2]
+   - 48 firstDayInUseRack[1,4] - 48 firstDayInUseRack[2,4]
+   - 48 firstDayInUseRack[3,4] - 48 firstDayInUseRack[4,4]
+   - 48 firstDayInUseRack[5,4] - 48 firstDayInUseRack[6,4]
+   - 48 firstDayInUseRack[7,4] - 48 firstDayInUseRack[8,4]
+   - 48 firstDayInUseRack[9,4] <= 0
+ R24956: allocated[9,1,1,5,1] + allocated[9,1,1,5,2] + allocated[9,1,2,5,1]
+   + allocated[9,1,2,5,2] + allocated[9,1,3,5,1] + allocated[9,1,3,5,2]
+   + allocated[9,1,4,5,1] + allocated[9,1,4,5,2] + allocated[9,1,5,5,1]
+   + allocated[9,1,5,5,2] + allocated[9,1,6,5,1] + allocated[9,1,6,5,2]
+   + allocated[9,2,1,5,1] + allocated[9,2,1,5,2] + allocated[9,2,2,5,1]
+   + allocated[9,2,2,5,2] + allocated[9,2,3,5,1] + allocated[9,2,3,5,2]
+   + allocated[9,2,4,5,1] + allocated[9,2,4,5,2] + allocated[9,2,5,5,1]
+   + allocated[9,2,5,5,2] + allocated[9,2,6,5,1] + allocated[9,2,6,5,2]
+   + allocated[9,3,1,5,1] + allocated[9,3,1,5,2] + allocated[9,3,2,5,1]
+   + allocated[9,3,2,5,2] + allocated[9,3,3,5,1] + allocated[9,3,3,5,2]
+   + allocated[9,3,4,5,1] + allocated[9,3,4,5,2] + allocated[9,3,5,5,1]
+   + allocated[9,3,5,5,2] + allocated[9,3,6,5,1] + allocated[9,3,6,5,2]
+   + allocated[9,4,1,5,1] + allocated[9,4,1,5,2] + allocated[9,4,2,5,1]
+   + allocated[9,4,2,5,2] + allocated[9,4,3,5,1] + allocated[9,4,3,5,2]
+   + allocated[9,4,4,5,1] + allocated[9,4,4,5,2] + allocated[9,4,5,5,1]
+   + allocated[9,4,5,5,2] + allocated[9,4,6,5,1] + allocated[9,4,6,5,2]
+   - 48 firstDayInUseRack[1,5] - 48 firstDayInUseRack[2,5]
+   - 48 firstDayInUseRack[3,5] - 48 firstDayInUseRack[4,5]
+   - 48 firstDayInUseRack[5,5] - 48 firstDayInUseRack[6,5]
+   - 48 firstDayInUseRack[7,5] - 48 firstDayInUseRack[8,5]
+   - 48 firstDayInUseRack[9,5] <= 0
+ R24957: allocated[9,1,1,6,1] + allocated[9,1,1,6,2] + allocated[9,1,2,6,1]
+   + allocated[9,1,2,6,2] + allocated[9,1,3,6,1] + allocated[9,1,3,6,2]
+   + allocated[9,1,4,6,1] + allocated[9,1,4,6,2] + allocated[9,1,5,6,1]
+   + allocated[9,1,5,6,2] + allocated[9,1,6,6,1] + allocated[9,1,6,6,2]
+   + allocated[9,2,1,6,1] + allocated[9,2,1,6,2] + allocated[9,2,2,6,1]
+   + allocated[9,2,2,6,2] + allocated[9,2,3,6,1] + allocated[9,2,3,6,2]
+   + allocated[9,2,4,6,1] + allocated[9,2,4,6,2] + allocated[9,2,5,6,1]
+   + allocated[9,2,5,6,2] + allocated[9,2,6,6,1] + allocated[9,2,6,6,2]
+   + allocated[9,3,1,6,1] + allocated[9,3,1,6,2] + allocated[9,3,2,6,1]
+   + allocated[9,3,2,6,2] + allocated[9,3,3,6,1] + allocated[9,3,3,6,2]
+   + allocated[9,3,4,6,1] + allocated[9,3,4,6,2] + allocated[9,3,5,6,1]
+   + allocated[9,3,5,6,2] + allocated[9,3,6,6,1] + allocated[9,3,6,6,2]
+   + allocated[9,4,1,6,1] + allocated[9,4,1,6,2] + allocated[9,4,2,6,1]
+   + allocated[9,4,2,6,2] + allocated[9,4,3,6,1] + allocated[9,4,3,6,2]
+   + allocated[9,4,4,6,1] + allocated[9,4,4,6,2] + allocated[9,4,5,6,1]
+   + allocated[9,4,5,6,2] + allocated[9,4,6,6,1] + allocated[9,4,6,6,2]
+   - 48 firstDayInUseRack[1,6] - 48 firstDayInUseRack[2,6]
+   - 48 firstDayInUseRack[3,6] - 48 firstDayInUseRack[4,6]
+   - 48 firstDayInUseRack[5,6] - 48 firstDayInUseRack[6,6]
+   - 48 firstDayInUseRack[7,6] - 48 firstDayInUseRack[8,6]
+   - 48 firstDayInUseRack[9,6] <= 0
+ R24958: allocated[9,1,1,7,1] + allocated[9,1,1,7,2] + allocated[9,1,2,7,1]
+   + allocated[9,1,2,7,2] + allocated[9,1,3,7,1] + allocated[9,1,3,7,2]
+   + allocated[9,1,4,7,1] + allocated[9,1,4,7,2] + allocated[9,1,5,7,1]
+   + allocated[9,1,5,7,2] + allocated[9,1,6,7,1] + allocated[9,1,6,7,2]
+   + allocated[9,2,1,7,1] + allocated[9,2,1,7,2] + allocated[9,2,2,7,1]
+   + allocated[9,2,2,7,2] + allocated[9,2,3,7,1] + allocated[9,2,3,7,2]
+   + allocated[9,2,4,7,1] + allocated[9,2,4,7,2] + allocated[9,2,5,7,1]
+   + allocated[9,2,5,7,2] + allocated[9,2,6,7,1] + allocated[9,2,6,7,2]
+   + allocated[9,3,1,7,1] + allocated[9,3,1,7,2] + allocated[9,3,2,7,1]
+   + allocated[9,3,2,7,2] + allocated[9,3,3,7,1] + allocated[9,3,3,7,2]
+   + allocated[9,3,4,7,1] + allocated[9,3,4,7,2] + allocated[9,3,5,7,1]
+   + allocated[9,3,5,7,2] + allocated[9,3,6,7,1] + allocated[9,3,6,7,2]
+   + allocated[9,4,1,7,1] + allocated[9,4,1,7,2] + allocated[9,4,2,7,1]
+   + allocated[9,4,2,7,2] + allocated[9,4,3,7,1] + allocated[9,4,3,7,2]
+   + allocated[9,4,4,7,1] + allocated[9,4,4,7,2] + allocated[9,4,5,7,1]
+   + allocated[9,4,5,7,2] + allocated[9,4,6,7,1] + allocated[9,4,6,7,2]
+   - 48 firstDayInUseRack[1,7] - 48 firstDayInUseRack[2,7]
+   - 48 firstDayInUseRack[3,7] - 48 firstDayInUseRack[4,7]
+   - 48 firstDayInUseRack[5,7] - 48 firstDayInUseRack[6,7]
+   - 48 firstDayInUseRack[7,7] - 48 firstDayInUseRack[8,7]
+   - 48 firstDayInUseRack[9,7] <= 0
+ R24959: allocated[9,1,1,8,1] + allocated[9,1,1,8,2] + allocated[9,1,2,8,1]
+   + allocated[9,1,2,8,2] + allocated[9,1,3,8,1] + allocated[9,1,3,8,2]
+   + allocated[9,1,4,8,1] + allocated[9,1,4,8,2] + allocated[9,1,5,8,1]
+   + allocated[9,1,5,8,2] + allocated[9,1,6,8,1] + allocated[9,1,6,8,2]
+   + allocated[9,2,1,8,1] + allocated[9,2,1,8,2] + allocated[9,2,2,8,1]
+   + allocated[9,2,2,8,2] + allocated[9,2,3,8,1] + allocated[9,2,3,8,2]
+   + allocated[9,2,4,8,1] + allocated[9,2,4,8,2] + allocated[9,2,5,8,1]
+   + allocated[9,2,5,8,2] + allocated[9,2,6,8,1] + allocated[9,2,6,8,2]
+   + allocated[9,3,1,8,1] + allocated[9,3,1,8,2] + allocated[9,3,2,8,1]
+   + allocated[9,3,2,8,2] + allocated[9,3,3,8,1] + allocated[9,3,3,8,2]
+   + allocated[9,3,4,8,1] + allocated[9,3,4,8,2] + allocated[9,3,5,8,1]
+   + allocated[9,3,5,8,2] + allocated[9,3,6,8,1] + allocated[9,3,6,8,2]
+   + allocated[9,4,1,8,1] + allocated[9,4,1,8,2] + allocated[9,4,2,8,1]
+   + allocated[9,4,2,8,2] + allocated[9,4,3,8,1] + allocated[9,4,3,8,2]
+   + allocated[9,4,4,8,1] + allocated[9,4,4,8,2] + allocated[9,4,5,8,1]
+   + allocated[9,4,5,8,2] + allocated[9,4,6,8,1] + allocated[9,4,6,8,2]
+   - 48 firstDayInUseRack[1,8] - 48 firstDayInUseRack[2,8]
+   - 48 firstDayInUseRack[3,8] - 48 firstDayInUseRack[4,8]
+   - 48 firstDayInUseRack[5,8] - 48 firstDayInUseRack[6,8]
+   - 48 firstDayInUseRack[7,8] - 48 firstDayInUseRack[8,8]
+   - 48 firstDayInUseRack[9,8] <= 0
+ R24960: allocated[10,1,1,1,1] + allocated[10,1,1,1,2]
+   + allocated[10,1,2,1,1] + allocated[10,1,2,1,2] + allocated[10,1,3,1,1]
+   + allocated[10,1,3,1,2] + allocated[10,1,4,1,1] + allocated[10,1,4,1,2]
+   + allocated[10,1,5,1,1] + allocated[10,1,5,1,2] + allocated[10,1,6,1,1]
+   + allocated[10,1,6,1,2] + allocated[10,2,1,1,1] + allocated[10,2,1,1,2]
+   + allocated[10,2,2,1,1] + allocated[10,2,2,1,2] + allocated[10,2,3,1,1]
+   + allocated[10,2,3,1,2] + allocated[10,2,4,1,1] + allocated[10,2,4,1,2]
+   + allocated[10,2,5,1,1] + allocated[10,2,5,1,2] + allocated[10,2,6,1,1]
+   + allocated[10,2,6,1,2] + allocated[10,3,1,1,1] + allocated[10,3,1,1,2]
+   + allocated[10,3,2,1,1] + allocated[10,3,2,1,2] + allocated[10,3,3,1,1]
+   + allocated[10,3,3,1,2] + allocated[10,3,4,1,1] + allocated[10,3,4,1,2]
+   + allocated[10,3,5,1,1] + allocated[10,3,5,1,2] + allocated[10,3,6,1,1]
+   + allocated[10,3,6,1,2] + allocated[10,4,1,1,1] + allocated[10,4,1,1,2]
+   + allocated[10,4,2,1,1] + allocated[10,4,2,1,2] + allocated[10,4,3,1,1]
+   + allocated[10,4,3,1,2] + allocated[10,4,4,1,1] + allocated[10,4,4,1,2]
+   + allocated[10,4,5,1,1] + allocated[10,4,5,1,2] + allocated[10,4,6,1,1]
+   + allocated[10,4,6,1,2] - 48 firstDayInUseRack[1,1]
+   - 48 firstDayInUseRack[2,1] - 48 firstDayInUseRack[3,1]
+   - 48 firstDayInUseRack[4,1] - 48 firstDayInUseRack[5,1]
+   - 48 firstDayInUseRack[6,1] - 48 firstDayInUseRack[7,1]
+   - 48 firstDayInUseRack[8,1] - 48 firstDayInUseRack[9,1]
+   - 48 firstDayInUseRack[10,1] <= 0
+ R24961: allocated[10,1,1,2,1] + allocated[10,1,1,2,2]
+   + allocated[10,1,2,2,1] + allocated[10,1,2,2,2] + allocated[10,1,3,2,1]
+   + allocated[10,1,3,2,2] + allocated[10,1,4,2,1] + allocated[10,1,4,2,2]
+   + allocated[10,1,5,2,1] + allocated[10,1,5,2,2] + allocated[10,1,6,2,1]
+   + allocated[10,1,6,2,2] + allocated[10,2,1,2,1] + allocated[10,2,1,2,2]
+   + allocated[10,2,2,2,1] + allocated[10,2,2,2,2] + allocated[10,2,3,2,1]
+   + allocated[10,2,3,2,2] + allocated[10,2,4,2,1] + allocated[10,2,4,2,2]
+   + allocated[10,2,5,2,1] + allocated[10,2,5,2,2] + allocated[10,2,6,2,1]
+   + allocated[10,2,6,2,2] + allocated[10,3,1,2,1] + allocated[10,3,1,2,2]
+   + allocated[10,3,2,2,1] + allocated[10,3,2,2,2] + allocated[10,3,3,2,1]
+   + allocated[10,3,3,2,2] + allocated[10,3,4,2,1] + allocated[10,3,4,2,2]
+   + allocated[10,3,5,2,1] + allocated[10,3,5,2,2] + allocated[10,3,6,2,1]
+   + allocated[10,3,6,2,2] + allocated[10,4,1,2,1] + allocated[10,4,1,2,2]
+   + allocated[10,4,2,2,1] + allocated[10,4,2,2,2] + allocated[10,4,3,2,1]
+   + allocated[10,4,3,2,2] + allocated[10,4,4,2,1] + allocated[10,4,4,2,2]
+   + allocated[10,4,5,2,1] + allocated[10,4,5,2,2] + allocated[10,4,6,2,1]
+   + allocated[10,4,6,2,2] - 48 firstDayInUseRack[1,2]
+   - 48 firstDayInUseRack[2,2] - 48 firstDayInUseRack[3,2]
+   - 48 firstDayInUseRack[4,2] - 48 firstDayInUseRack[5,2]
+   - 48 firstDayInUseRack[6,2] - 48 firstDayInUseRack[7,2]
+   - 48 firstDayInUseRack[8,2] - 48 firstDayInUseRack[9,2]
+   - 48 firstDayInUseRack[10,2] <= 0
+ R24962: allocated[10,1,1,3,1] + allocated[10,1,1,3,2]
+   + allocated[10,1,2,3,1] + allocated[10,1,2,3,2] + allocated[10,1,3,3,1]
+   + allocated[10,1,3,3,2] + allocated[10,1,4,3,1] + allocated[10,1,4,3,2]
+   + allocated[10,1,5,3,1] + allocated[10,1,5,3,2] + allocated[10,1,6,3,1]
+   + allocated[10,1,6,3,2] + allocated[10,2,1,3,1] + allocated[10,2,1,3,2]
+   + allocated[10,2,2,3,1] + allocated[10,2,2,3,2] + allocated[10,2,3,3,1]
+   + allocated[10,2,3,3,2] + allocated[10,2,4,3,1] + allocated[10,2,4,3,2]
+   + allocated[10,2,5,3,1] + allocated[10,2,5,3,2] + allocated[10,2,6,3,1]
+   + allocated[10,2,6,3,2] + allocated[10,3,1,3,1] + allocated[10,3,1,3,2]
+   + allocated[10,3,2,3,1] + allocated[10,3,2,3,2] + allocated[10,3,3,3,1]
+   + allocated[10,3,3,3,2] + allocated[10,3,4,3,1] + allocated[10,3,4,3,2]
+   + allocated[10,3,5,3,1] + allocated[10,3,5,3,2] + allocated[10,3,6,3,1]
+   + allocated[10,3,6,3,2] + allocated[10,4,1,3,1] + allocated[10,4,1,3,2]
+   + allocated[10,4,2,3,1] + allocated[10,4,2,3,2] + allocated[10,4,3,3,1]
+   + allocated[10,4,3,3,2] + allocated[10,4,4,3,1] + allocated[10,4,4,3,2]
+   + allocated[10,4,5,3,1] + allocated[10,4,5,3,2] + allocated[10,4,6,3,1]
+   + allocated[10,4,6,3,2] - 48 firstDayInUseRack[1,3]
+   - 48 firstDayInUseRack[2,3] - 48 firstDayInUseRack[3,3]
+   - 48 firstDayInUseRack[4,3] - 48 firstDayInUseRack[5,3]
+   - 48 firstDayInUseRack[6,3] - 48 firstDayInUseRack[7,3]
+   - 48 firstDayInUseRack[8,3] - 48 firstDayInUseRack[9,3]
+   - 48 firstDayInUseRack[10,3] <= 0
+ R24963: allocated[10,1,1,4,1] + allocated[10,1,1,4,2]
+   + allocated[10,1,2,4,1] + allocated[10,1,2,4,2] + allocated[10,1,3,4,1]
+   + allocated[10,1,3,4,2] + allocated[10,1,4,4,1] + allocated[10,1,4,4,2]
+   + allocated[10,1,5,4,1] + allocated[10,1,5,4,2] + allocated[10,1,6,4,1]
+   + allocated[10,1,6,4,2] + allocated[10,2,1,4,1] + allocated[10,2,1,4,2]
+   + allocated[10,2,2,4,1] + allocated[10,2,2,4,2] + allocated[10,2,3,4,1]
+   + allocated[10,2,3,4,2] + allocated[10,2,4,4,1] + allocated[10,2,4,4,2]
+   + allocated[10,2,5,4,1] + allocated[10,2,5,4,2] + allocated[10,2,6,4,1]
+   + allocated[10,2,6,4,2] + allocated[10,3,1,4,1] + allocated[10,3,1,4,2]
+   + allocated[10,3,2,4,1] + allocated[10,3,2,4,2] + allocated[10,3,3,4,1]
+   + allocated[10,3,3,4,2] + allocated[10,3,4,4,1] + allocated[10,3,4,4,2]
+   + allocated[10,3,5,4,1] + allocated[10,3,5,4,2] + allocated[10,3,6,4,1]
+   + allocated[10,3,6,4,2] + allocated[10,4,1,4,1] + allocated[10,4,1,4,2]
+   + allocated[10,4,2,4,1] + allocated[10,4,2,4,2] + allocated[10,4,3,4,1]
+   + allocated[10,4,3,4,2] + allocated[10,4,4,4,1] + allocated[10,4,4,4,2]
+   + allocated[10,4,5,4,1] + allocated[10,4,5,4,2] + allocated[10,4,6,4,1]
+   + allocated[10,4,6,4,2] - 48 firstDayInUseRack[1,4]
+   - 48 firstDayInUseRack[2,4] - 48 firstDayInUseRack[3,4]
+   - 48 firstDayInUseRack[4,4] - 48 firstDayInUseRack[5,4]
+   - 48 firstDayInUseRack[6,4] - 48 firstDayInUseRack[7,4]
+   - 48 firstDayInUseRack[8,4] - 48 firstDayInUseRack[9,4]
+   - 48 firstDayInUseRack[10,4] <= 0
+ R24964: allocated[10,1,1,5,1] + allocated[10,1,1,5,2]
+   + allocated[10,1,2,5,1] + allocated[10,1,2,5,2] + allocated[10,1,3,5,1]
+   + allocated[10,1,3,5,2] + allocated[10,1,4,5,1] + allocated[10,1,4,5,2]
+   + allocated[10,1,5,5,1] + allocated[10,1,5,5,2] + allocated[10,1,6,5,1]
+   + allocated[10,1,6,5,2] + allocated[10,2,1,5,1] + allocated[10,2,1,5,2]
+   + allocated[10,2,2,5,1] + allocated[10,2,2,5,2] + allocated[10,2,3,5,1]
+   + allocated[10,2,3,5,2] + allocated[10,2,4,5,1] + allocated[10,2,4,5,2]
+   + allocated[10,2,5,5,1] + allocated[10,2,5,5,2] + allocated[10,2,6,5,1]
+   + allocated[10,2,6,5,2] + allocated[10,3,1,5,1] + allocated[10,3,1,5,2]
+   + allocated[10,3,2,5,1] + allocated[10,3,2,5,2] + allocated[10,3,3,5,1]
+   + allocated[10,3,3,5,2] + allocated[10,3,4,5,1] + allocated[10,3,4,5,2]
+   + allocated[10,3,5,5,1] + allocated[10,3,5,5,2] + allocated[10,3,6,5,1]
+   + allocated[10,3,6,5,2] + allocated[10,4,1,5,1] + allocated[10,4,1,5,2]
+   + allocated[10,4,2,5,1] + allocated[10,4,2,5,2] + allocated[10,4,3,5,1]
+   + allocated[10,4,3,5,2] + allocated[10,4,4,5,1] + allocated[10,4,4,5,2]
+   + allocated[10,4,5,5,1] + allocated[10,4,5,5,2] + allocated[10,4,6,5,1]
+   + allocated[10,4,6,5,2] - 48 firstDayInUseRack[1,5]
+   - 48 firstDayInUseRack[2,5] - 48 firstDayInUseRack[3,5]
+   - 48 firstDayInUseRack[4,5] - 48 firstDayInUseRack[5,5]
+   - 48 firstDayInUseRack[6,5] - 48 firstDayInUseRack[7,5]
+   - 48 firstDayInUseRack[8,5] - 48 firstDayInUseRack[9,5]
+   - 48 firstDayInUseRack[10,5] <= 0
+ R24965: allocated[10,1,1,6,1] + allocated[10,1,1,6,2]
+   + allocated[10,1,2,6,1] + allocated[10,1,2,6,2] + allocated[10,1,3,6,1]
+   + allocated[10,1,3,6,2] + allocated[10,1,4,6,1] + allocated[10,1,4,6,2]
+   + allocated[10,1,5,6,1] + allocated[10,1,5,6,2] + allocated[10,1,6,6,1]
+   + allocated[10,1,6,6,2] + allocated[10,2,1,6,1] + allocated[10,2,1,6,2]
+   + allocated[10,2,2,6,1] + allocated[10,2,2,6,2] + allocated[10,2,3,6,1]
+   + allocated[10,2,3,6,2] + allocated[10,2,4,6,1] + allocated[10,2,4,6,2]
+   + allocated[10,2,5,6,1] + allocated[10,2,5,6,2] + allocated[10,2,6,6,1]
+   + allocated[10,2,6,6,2] + allocated[10,3,1,6,1] + allocated[10,3,1,6,2]
+   + allocated[10,3,2,6,1] + allocated[10,3,2,6,2] + allocated[10,3,3,6,1]
+   + allocated[10,3,3,6,2] + allocated[10,3,4,6,1] + allocated[10,3,4,6,2]
+   + allocated[10,3,5,6,1] + allocated[10,3,5,6,2] + allocated[10,3,6,6,1]
+   + allocated[10,3,6,6,2] + allocated[10,4,1,6,1] + allocated[10,4,1,6,2]
+   + allocated[10,4,2,6,1] + allocated[10,4,2,6,2] + allocated[10,4,3,6,1]
+   + allocated[10,4,3,6,2] + allocated[10,4,4,6,1] + allocated[10,4,4,6,2]
+   + allocated[10,4,5,6,1] + allocated[10,4,5,6,2] + allocated[10,4,6,6,1]
+   + allocated[10,4,6,6,2] - 48 firstDayInUseRack[1,6]
+   - 48 firstDayInUseRack[2,6] - 48 firstDayInUseRack[3,6]
+   - 48 firstDayInUseRack[4,6] - 48 firstDayInUseRack[5,6]
+   - 48 firstDayInUseRack[6,6] - 48 firstDayInUseRack[7,6]
+   - 48 firstDayInUseRack[8,6] - 48 firstDayInUseRack[9,6]
+   - 48 firstDayInUseRack[10,6] <= 0
+ R24966: allocated[10,1,1,7,1] + allocated[10,1,1,7,2]
+   + allocated[10,1,2,7,1] + allocated[10,1,2,7,2] + allocated[10,1,3,7,1]
+   + allocated[10,1,3,7,2] + allocated[10,1,4,7,1] + allocated[10,1,4,7,2]
+   + allocated[10,1,5,7,1] + allocated[10,1,5,7,2] + allocated[10,1,6,7,1]
+   + allocated[10,1,6,7,2] + allocated[10,2,1,7,1] + allocated[10,2,1,7,2]
+   + allocated[10,2,2,7,1] + allocated[10,2,2,7,2] + allocated[10,2,3,7,1]
+   + allocated[10,2,3,7,2] + allocated[10,2,4,7,1] + allocated[10,2,4,7,2]
+   + allocated[10,2,5,7,1] + allocated[10,2,5,7,2] + allocated[10,2,6,7,1]
+   + allocated[10,2,6,7,2] + allocated[10,3,1,7,1] + allocated[10,3,1,7,2]
+   + allocated[10,3,2,7,1] + allocated[10,3,2,7,2] + allocated[10,3,3,7,1]
+   + allocated[10,3,3,7,2] + allocated[10,3,4,7,1] + allocated[10,3,4,7,2]
+   + allocated[10,3,5,7,1] + allocated[10,3,5,7,2] + allocated[10,3,6,7,1]
+   + allocated[10,3,6,7,2] + allocated[10,4,1,7,1] + allocated[10,4,1,7,2]
+   + allocated[10,4,2,7,1] + allocated[10,4,2,7,2] + allocated[10,4,3,7,1]
+   + allocated[10,4,3,7,2] + allocated[10,4,4,7,1] + allocated[10,4,4,7,2]
+   + allocated[10,4,5,7,1] + allocated[10,4,5,7,2] + allocated[10,4,6,7,1]
+   + allocated[10,4,6,7,2] - 48 firstDayInUseRack[1,7]
+   - 48 firstDayInUseRack[2,7] - 48 firstDayInUseRack[3,7]
+   - 48 firstDayInUseRack[4,7] - 48 firstDayInUseRack[5,7]
+   - 48 firstDayInUseRack[6,7] - 48 firstDayInUseRack[7,7]
+   - 48 firstDayInUseRack[8,7] - 48 firstDayInUseRack[9,7]
+   - 48 firstDayInUseRack[10,7] <= 0
+ R24967: allocated[10,1,1,8,1] + allocated[10,1,1,8,2]
+   + allocated[10,1,2,8,1] + allocated[10,1,2,8,2] + allocated[10,1,3,8,1]
+   + allocated[10,1,3,8,2] + allocated[10,1,4,8,1] + allocated[10,1,4,8,2]
+   + allocated[10,1,5,8,1] + allocated[10,1,5,8,2] + allocated[10,1,6,8,1]
+   + allocated[10,1,6,8,2] + allocated[10,2,1,8,1] + allocated[10,2,1,8,2]
+   + allocated[10,2,2,8,1] + allocated[10,2,2,8,2] + allocated[10,2,3,8,1]
+   + allocated[10,2,3,8,2] + allocated[10,2,4,8,1] + allocated[10,2,4,8,2]
+   + allocated[10,2,5,8,1] + allocated[10,2,5,8,2] + allocated[10,2,6,8,1]
+   + allocated[10,2,6,8,2] + allocated[10,3,1,8,1] + allocated[10,3,1,8,2]
+   + allocated[10,3,2,8,1] + allocated[10,3,2,8,2] + allocated[10,3,3,8,1]
+   + allocated[10,3,3,8,2] + allocated[10,3,4,8,1] + allocated[10,3,4,8,2]
+   + allocated[10,3,5,8,1] + allocated[10,3,5,8,2] + allocated[10,3,6,8,1]
+   + allocated[10,3,6,8,2] + allocated[10,4,1,8,1] + allocated[10,4,1,8,2]
+   + allocated[10,4,2,8,1] + allocated[10,4,2,8,2] + allocated[10,4,3,8,1]
+   + allocated[10,4,3,8,2] + allocated[10,4,4,8,1] + allocated[10,4,4,8,2]
+   + allocated[10,4,5,8,1] + allocated[10,4,5,8,2] + allocated[10,4,6,8,1]
+   + allocated[10,4,6,8,2] - 48 firstDayInUseRack[1,8]
+   - 48 firstDayInUseRack[2,8] - 48 firstDayInUseRack[3,8]
+   - 48 firstDayInUseRack[4,8] - 48 firstDayInUseRack[5,8]
+   - 48 firstDayInUseRack[6,8] - 48 firstDayInUseRack[7,8]
+   - 48 firstDayInUseRack[8,8] - 48 firstDayInUseRack[9,8]
+   - 48 firstDayInUseRack[10,8] <= 0
+ R24968: firstDayInUseRack[1,1] + firstDayInUseRack[2,1]
+   + firstDayInUseRack[3,1] + firstDayInUseRack[4,1]
+   + firstDayInUseRack[5,1] + firstDayInUseRack[6,1]
+   + firstDayInUseRack[7,1] + firstDayInUseRack[8,1]
+   + firstDayInUseRack[9,1] + firstDayInUseRack[10,1] = 1
+ R24969: firstDayInUseRack[1,2] + firstDayInUseRack[2,2]
+   + firstDayInUseRack[3,2] + firstDayInUseRack[4,2]
+   + firstDayInUseRack[5,2] + firstDayInUseRack[6,2]
+   + firstDayInUseRack[7,2] + firstDayInUseRack[8,2]
+   + firstDayInUseRack[9,2] + firstDayInUseRack[10,2] = 1
+ R24970: firstDayInUseRack[1,3] + firstDayInUseRack[2,3]
+   + firstDayInUseRack[3,3] + firstDayInUseRack[4,3]
+   + firstDayInUseRack[5,3] + firstDayInUseRack[6,3]
+   + firstDayInUseRack[7,3] + firstDayInUseRack[8,3]
+   + firstDayInUseRack[9,3] + firstDayInUseRack[10,3] = 1
+ R24971: firstDayInUseRack[1,4] + firstDayInUseRack[2,4]
+   + firstDayInUseRack[3,4] + firstDayInUseRack[4,4]
+   + firstDayInUseRack[5,4] + firstDayInUseRack[6,4]
+   + firstDayInUseRack[7,4] + firstDayInUseRack[8,4]
+   + firstDayInUseRack[9,4] + firstDayInUseRack[10,4] = 1
+ R24972: firstDayInUseRack[1,5] + firstDayInUseRack[2,5]
+   + firstDayInUseRack[3,5] + firstDayInUseRack[4,5]
+   + firstDayInUseRack[5,5] + firstDayInUseRack[6,5]
+   + firstDayInUseRack[7,5] + firstDayInUseRack[8,5]
+   + firstDayInUseRack[9,5] + firstDayInUseRack[10,5] = 1
+ R24973: firstDayInUseRack[1,6] + firstDayInUseRack[2,6]
+   + firstDayInUseRack[3,6] + firstDayInUseRack[4,6]
+   + firstDayInUseRack[5,6] + firstDayInUseRack[6,6]
+   + firstDayInUseRack[7,6] + firstDayInUseRack[8,6]
+   + firstDayInUseRack[9,6] + firstDayInUseRack[10,6] = 1
+ R24974: firstDayInUseRack[1,7] + firstDayInUseRack[2,7]
+   + firstDayInUseRack[3,7] + firstDayInUseRack[4,7]
+   + firstDayInUseRack[5,7] + firstDayInUseRack[6,7]
+   + firstDayInUseRack[7,7] + firstDayInUseRack[8,7]
+   + firstDayInUseRack[9,7] + firstDayInUseRack[10,7] = 1
+ R24975: firstDayInUseRack[1,8] + firstDayInUseRack[2,8]
+   + firstDayInUseRack[3,8] + firstDayInUseRack[4,8]
+   + firstDayInUseRack[5,8] + firstDayInUseRack[6,8]
+   + firstDayInUseRack[7,8] + firstDayInUseRack[8,8]
+   + firstDayInUseRack[9,8] + firstDayInUseRack[10,8] = 1
+ R24976: - firstDayInUseRack[1,1] + firstDayInUseRack[1,2] <= 0
+ R24977: - firstDayInUseRack[1,2] + firstDayInUseRack[1,3] <= 0
+ R24978: - firstDayInUseRack[1,3] + firstDayInUseRack[1,4] <= 0
+ R24979: - firstDayInUseRack[1,4] + firstDayInUseRack[1,5] <= 0
+ R24980: - firstDayInUseRack[1,5] + firstDayInUseRack[1,6] <= 0
+ R24981: - firstDayInUseRack[1,6] + firstDayInUseRack[1,7] <= 0
+ R24982: - firstDayInUseRack[1,7] + firstDayInUseRack[1,8] <= 0
+ R24983: - firstDayInUseRack[1,1] - firstDayInUseRack[2,1]
+   + firstDayInUseRack[2,2] <= 0
+ R24984: - firstDayInUseRack[1,2] - firstDayInUseRack[2,2]
+   + firstDayInUseRack[2,3] <= 0
+ R24985: - firstDayInUseRack[1,3] - firstDayInUseRack[2,3]
+   + firstDayInUseRack[2,4] <= 0
+ R24986: - firstDayInUseRack[1,4] - firstDayInUseRack[2,4]
+   + firstDayInUseRack[2,5] <= 0
+ R24987: - firstDayInUseRack[1,5] - firstDayInUseRack[2,5]
+   + firstDayInUseRack[2,6] <= 0
+ R24988: - firstDayInUseRack[1,6] - firstDayInUseRack[2,6]
+   + firstDayInUseRack[2,7] <= 0
+ R24989: - firstDayInUseRack[1,7] - firstDayInUseRack[2,7]
+   + firstDayInUseRack[2,8] <= 0
+ R24990: - firstDayInUseRack[1,1] - firstDayInUseRack[2,1]
+   - firstDayInUseRack[3,1] + firstDayInUseRack[3,2] <= 0
+ R24991: - firstDayInUseRack[1,2] - firstDayInUseRack[2,2]
+   - firstDayInUseRack[3,2] + firstDayInUseRack[3,3] <= 0
+ R24992: - firstDayInUseRack[1,3] - firstDayInUseRack[2,3]
+   - firstDayInUseRack[3,3] + firstDayInUseRack[3,4] <= 0
+ R24993: - firstDayInUseRack[1,4] - firstDayInUseRack[2,4]
+   - firstDayInUseRack[3,4] + firstDayInUseRack[3,5] <= 0
+ R24994: - firstDayInUseRack[1,5] - firstDayInUseRack[2,5]
+   - firstDayInUseRack[3,5] + firstDayInUseRack[3,6] <= 0
+ R24995: - firstDayInUseRack[1,6] - firstDayInUseRack[2,6]
+   - firstDayInUseRack[3,6] + firstDayInUseRack[3,7] <= 0
+ R24996: - firstDayInUseRack[1,7] - firstDayInUseRack[2,7]
+   - firstDayInUseRack[3,7] + firstDayInUseRack[3,8] <= 0
+ R24997: - firstDayInUseRack[1,1] - firstDayInUseRack[2,1]
+   - firstDayInUseRack[3,1] - firstDayInUseRack[4,1]
+   + firstDayInUseRack[4,2] <= 0
+ R24998: - firstDayInUseRack[1,2] - firstDayInUseRack[2,2]
+   - firstDayInUseRack[3,2] - firstDayInUseRack[4,2]
+   + firstDayInUseRack[4,3] <= 0
+ R24999: - firstDayInUseRack[1,3] - firstDayInUseRack[2,3]
+   - firstDayInUseRack[3,3] - firstDayInUseRack[4,3]
+   + firstDayInUseRack[4,4] <= 0
+ R25000: - firstDayInUseRack[1,4] - firstDayInUseRack[2,4]
+   - firstDayInUseRack[3,4] - firstDayInUseRack[4,4]
+   + firstDayInUseRack[4,5] <= 0
+ R25001: - firstDayInUseRack[1,5] - firstDayInUseRack[2,5]
+   - firstDayInUseRack[3,5] - firstDayInUseRack[4,5]
+   + firstDayInUseRack[4,6] <= 0
+ R25002: - firstDayInUseRack[1,6] - firstDayInUseRack[2,6]
+   - firstDayInUseRack[3,6] - firstDayInUseRack[4,6]
+   + firstDayInUseRack[4,7] <= 0
+ R25003: - firstDayInUseRack[1,7] - firstDayInUseRack[2,7]
+   - firstDayInUseRack[3,7] - firstDayInUseRack[4,7]
+   + firstDayInUseRack[4,8] <= 0
+ R25004: - firstDayInUseRack[1,1] - firstDayInUseRack[2,1]
+   - firstDayInUseRack[3,1] - firstDayInUseRack[4,1]
+   - firstDayInUseRack[5,1] + firstDayInUseRack[5,2] <= 0
+ R25005: - firstDayInUseRack[1,2] - firstDayInUseRack[2,2]
+   - firstDayInUseRack[3,2] - firstDayInUseRack[4,2]
+   - firstDayInUseRack[5,2] + firstDayInUseRack[5,3] <= 0
+ R25006: - firstDayInUseRack[1,3] - firstDayInUseRack[2,3]
+   - firstDayInUseRack[3,3] - firstDayInUseRack[4,3]
+   - firstDayInUseRack[5,3] + firstDayInUseRack[5,4] <= 0
+ R25007: - firstDayInUseRack[1,4] - firstDayInUseRack[2,4]
+   - firstDayInUseRack[3,4] - firstDayInUseRack[4,4]
+   - firstDayInUseRack[5,4] + firstDayInUseRack[5,5] <= 0
+ R25008: - firstDayInUseRack[1,5] - firstDayInUseRack[2,5]
+   - firstDayInUseRack[3,5] - firstDayInUseRack[4,5]
+   - firstDayInUseRack[5,5] + firstDayInUseRack[5,6] <= 0
+ R25009: - firstDayInUseRack[1,6] - firstDayInUseRack[2,6]
+   - firstDayInUseRack[3,6] - firstDayInUseRack[4,6]
+   - firstDayInUseRack[5,6] + firstDayInUseRack[5,7] <= 0
+ R25010: - firstDayInUseRack[1,7] - firstDayInUseRack[2,7]
+   - firstDayInUseRack[3,7] - firstDayInUseRack[4,7]
+   - firstDayInUseRack[5,7] + firstDayInUseRack[5,8] <= 0
+ R25011: - firstDayInUseRack[1,1] - firstDayInUseRack[2,1]
+   - firstDayInUseRack[3,1] - firstDayInUseRack[4,1]
+   - firstDayInUseRack[5,1] - firstDayInUseRack[6,1]
+   + firstDayInUseRack[6,2] <= 0
+ R25012: - firstDayInUseRack[1,2] - firstDayInUseRack[2,2]
+   - firstDayInUseRack[3,2] - firstDayInUseRack[4,2]
+   - firstDayInUseRack[5,2] - firstDayInUseRack[6,2]
+   + firstDayInUseRack[6,3] <= 0
+ R25013: - firstDayInUseRack[1,3] - firstDayInUseRack[2,3]
+   - firstDayInUseRack[3,3] - firstDayInUseRack[4,3]
+   - firstDayInUseRack[5,3] - firstDayInUseRack[6,3]
+   + firstDayInUseRack[6,4] <= 0
+ R25014: - firstDayInUseRack[1,4] - firstDayInUseRack[2,4]
+   - firstDayInUseRack[3,4] - firstDayInUseRack[4,4]
+   - firstDayInUseRack[5,4] - firstDayInUseRack[6,4]
+   + firstDayInUseRack[6,5] <= 0
+ R25015: - firstDayInUseRack[1,5] - firstDayInUseRack[2,5]
+   - firstDayInUseRack[3,5] - firstDayInUseRack[4,5]
+   - firstDayInUseRack[5,5] - firstDayInUseRack[6,5]
+   + firstDayInUseRack[6,6] <= 0
+ R25016: - firstDayInUseRack[1,6] - firstDayInUseRack[2,6]
+   - firstDayInUseRack[3,6] - firstDayInUseRack[4,6]
+   - firstDayInUseRack[5,6] - firstDayInUseRack[6,6]
+   + firstDayInUseRack[6,7] <= 0
+ R25017: - firstDayInUseRack[1,7] - firstDayInUseRack[2,7]
+   - firstDayInUseRack[3,7] - firstDayInUseRack[4,7]
+   - firstDayInUseRack[5,7] - firstDayInUseRack[6,7]
+   + firstDayInUseRack[6,8] <= 0
+ R25018: - firstDayInUseRack[1,1] - firstDayInUseRack[2,1]
+   - firstDayInUseRack[3,1] - firstDayInUseRack[4,1]
+   - firstDayInUseRack[5,1] - firstDayInUseRack[6,1]
+   - firstDayInUseRack[7,1] + firstDayInUseRack[7,2] <= 0
+ R25019: - firstDayInUseRack[1,2] - firstDayInUseRack[2,2]
+   - firstDayInUseRack[3,2] - firstDayInUseRack[4,2]
+   - firstDayInUseRack[5,2] - firstDayInUseRack[6,2]
+   - firstDayInUseRack[7,2] + firstDayInUseRack[7,3] <= 0
+ R25020: - firstDayInUseRack[1,3] - firstDayInUseRack[2,3]
+   - firstDayInUseRack[3,3] - firstDayInUseRack[4,3]
+   - firstDayInUseRack[5,3] - firstDayInUseRack[6,3]
+   - firstDayInUseRack[7,3] + firstDayInUseRack[7,4] <= 0
+ R25021: - firstDayInUseRack[1,4] - firstDayInUseRack[2,4]
+   - firstDayInUseRack[3,4] - firstDayInUseRack[4,4]
+   - firstDayInUseRack[5,4] - firstDayInUseRack[6,4]
+   - firstDayInUseRack[7,4] + firstDayInUseRack[7,5] <= 0
+ R25022: - firstDayInUseRack[1,5] - firstDayInUseRack[2,5]
+   - firstDayInUseRack[3,5] - firstDayInUseRack[4,5]
+   - firstDayInUseRack[5,5] - firstDayInUseRack[6,5]
+   - firstDayInUseRack[7,5] + firstDayInUseRack[7,6] <= 0
+ R25023: - firstDayInUseRack[1,6] - firstDayInUseRack[2,6]
+   - firstDayInUseRack[3,6] - firstDayInUseRack[4,6]
+   - firstDayInUseRack[5,6] - firstDayInUseRack[6,6]
+   - firstDayInUseRack[7,6] + firstDayInUseRack[7,7] <= 0
+ R25024: - firstDayInUseRack[1,7] - firstDayInUseRack[2,7]
+   - firstDayInUseRack[3,7] - firstDayInUseRack[4,7]
+   - firstDayInUseRack[5,7] - firstDayInUseRack[6,7]
+   - firstDayInUseRack[7,7] + firstDayInUseRack[7,8] <= 0
+ R25025: - firstDayInUseRack[1,1] - firstDayInUseRack[2,1]
+   - firstDayInUseRack[3,1] - firstDayInUseRack[4,1]
+   - firstDayInUseRack[5,1] - firstDayInUseRack[6,1]
+   - firstDayInUseRack[7,1] - firstDayInUseRack[8,1]
+   + firstDayInUseRack[8,2] <= 0
+ R25026: - firstDayInUseRack[1,2] - firstDayInUseRack[2,2]
+   - firstDayInUseRack[3,2] - firstDayInUseRack[4,2]
+   - firstDayInUseRack[5,2] - firstDayInUseRack[6,2]
+   - firstDayInUseRack[7,2] - firstDayInUseRack[8,2]
+   + firstDayInUseRack[8,3] <= 0
+ R25027: - firstDayInUseRack[1,3] - firstDayInUseRack[2,3]
+   - firstDayInUseRack[3,3] - firstDayInUseRack[4,3]
+   - firstDayInUseRack[5,3] - firstDayInUseRack[6,3]
+   - firstDayInUseRack[7,3] - firstDayInUseRack[8,3]
+   + firstDayInUseRack[8,4] <= 0
+ R25028: - firstDayInUseRack[1,4] - firstDayInUseRack[2,4]
+   - firstDayInUseRack[3,4] - firstDayInUseRack[4,4]
+   - firstDayInUseRack[5,4] - firstDayInUseRack[6,4]
+   - firstDayInUseRack[7,4] - firstDayInUseRack[8,4]
+   + firstDayInUseRack[8,5] <= 0
+ R25029: - firstDayInUseRack[1,5] - firstDayInUseRack[2,5]
+   - firstDayInUseRack[3,5] - firstDayInUseRack[4,5]
+   - firstDayInUseRack[5,5] - firstDayInUseRack[6,5]
+   - firstDayInUseRack[7,5] - firstDayInUseRack[8,5]
+   + firstDayInUseRack[8,6] <= 0
+ R25030: - firstDayInUseRack[1,6] - firstDayInUseRack[2,6]
+   - firstDayInUseRack[3,6] - firstDayInUseRack[4,6]
+   - firstDayInUseRack[5,6] - firstDayInUseRack[6,6]
+   - firstDayInUseRack[7,6] - firstDayInUseRack[8,6]
+   + firstDayInUseRack[8,7] <= 0
+ R25031: - firstDayInUseRack[1,7] - firstDayInUseRack[2,7]
+   - firstDayInUseRack[3,7] - firstDayInUseRack[4,7]
+   - firstDayInUseRack[5,7] - firstDayInUseRack[6,7]
+   - firstDayInUseRack[7,7] - firstDayInUseRack[8,7]
+   + firstDayInUseRack[8,8] <= 0
+ R25032: - firstDayInUseRack[1,1] - firstDayInUseRack[2,1]
+   - firstDayInUseRack[3,1] - firstDayInUseRack[4,1]
+   - firstDayInUseRack[5,1] - firstDayInUseRack[6,1]
+   - firstDayInUseRack[7,1] - firstDayInUseRack[8,1]
+   - firstDayInUseRack[9,1] + firstDayInUseRack[9,2] <= 0
+ R25033: - firstDayInUseRack[1,2] - firstDayInUseRack[2,2]
+   - firstDayInUseRack[3,2] - firstDayInUseRack[4,2]
+   - firstDayInUseRack[5,2] - firstDayInUseRack[6,2]
+   - firstDayInUseRack[7,2] - firstDayInUseRack[8,2]
+   - firstDayInUseRack[9,2] + firstDayInUseRack[9,3] <= 0
+ R25034: - firstDayInUseRack[1,3] - firstDayInUseRack[2,3]
+   - firstDayInUseRack[3,3] - firstDayInUseRack[4,3]
+   - firstDayInUseRack[5,3] - firstDayInUseRack[6,3]
+   - firstDayInUseRack[7,3] - firstDayInUseRack[8,3]
+   - firstDayInUseRack[9,3] + firstDayInUseRack[9,4] <= 0
+ R25035: - firstDayInUseRack[1,4] - firstDayInUseRack[2,4]
+   - firstDayInUseRack[3,4] - firstDayInUseRack[4,4]
+   - firstDayInUseRack[5,4] - firstDayInUseRack[6,4]
+   - firstDayInUseRack[7,4] - firstDayInUseRack[8,4]
+   - firstDayInUseRack[9,4] + firstDayInUseRack[9,5] <= 0
+ R25036: - firstDayInUseRack[1,5] - firstDayInUseRack[2,5]
+   - firstDayInUseRack[3,5] - firstDayInUseRack[4,5]
+   - firstDayInUseRack[5,5] - firstDayInUseRack[6,5]
+   - firstDayInUseRack[7,5] - firstDayInUseRack[8,5]
+   - firstDayInUseRack[9,5] + firstDayInUseRack[9,6] <= 0
+ R25037: - firstDayInUseRack[1,6] - firstDayInUseRack[2,6]
+   - firstDayInUseRack[3,6] - firstDayInUseRack[4,6]
+   - firstDayInUseRack[5,6] - firstDayInUseRack[6,6]
+   - firstDayInUseRack[7,6] - firstDayInUseRack[8,6]
+   - firstDayInUseRack[9,6] + firstDayInUseRack[9,7] <= 0
+ R25038: - firstDayInUseRack[1,7] - firstDayInUseRack[2,7]
+   - firstDayInUseRack[3,7] - firstDayInUseRack[4,7]
+   - firstDayInUseRack[5,7] - firstDayInUseRack[6,7]
+   - firstDayInUseRack[7,7] - firstDayInUseRack[8,7]
+   - firstDayInUseRack[9,7] + firstDayInUseRack[9,8] <= 0
+ R25039: - firstDayInUseRack[1,1] - firstDayInUseRack[2,1]
+   - firstDayInUseRack[3,1] - firstDayInUseRack[4,1]
+   - firstDayInUseRack[5,1] - firstDayInUseRack[6,1]
+   - firstDayInUseRack[7,1] - firstDayInUseRack[8,1]
+   - firstDayInUseRack[9,1] - firstDayInUseRack[10,1]
+   + firstDayInUseRack[10,2] <= 0
+ R25040: - firstDayInUseRack[1,2] - firstDayInUseRack[2,2]
+   - firstDayInUseRack[3,2] - firstDayInUseRack[4,2]
+   - firstDayInUseRack[5,2] - firstDayInUseRack[6,2]
+   - firstDayInUseRack[7,2] - firstDayInUseRack[8,2]
+   - firstDayInUseRack[9,2] - firstDayInUseRack[10,2]
+   + firstDayInUseRack[10,3] <= 0
+ R25041: - firstDayInUseRack[1,3] - firstDayInUseRack[2,3]
+   - firstDayInUseRack[3,3] - firstDayInUseRack[4,3]
+   - firstDayInUseRack[5,3] - firstDayInUseRack[6,3]
+   - firstDayInUseRack[7,3] - firstDayInUseRack[8,3]
+   - firstDayInUseRack[9,3] - firstDayInUseRack[10,3]
+   + firstDayInUseRack[10,4] <= 0
+ R25042: - firstDayInUseRack[1,4] - firstDayInUseRack[2,4]
+   - firstDayInUseRack[3,4] - firstDayInUseRack[4,4]
+   - firstDayInUseRack[5,4] - firstDayInUseRack[6,4]
+   - firstDayInUseRack[7,4] - firstDayInUseRack[8,4]
+   - firstDayInUseRack[9,4] - firstDayInUseRack[10,4]
+   + firstDayInUseRack[10,5] <= 0
+ R25043: - firstDayInUseRack[1,5] - firstDayInUseRack[2,5]
+   - firstDayInUseRack[3,5] - firstDayInUseRack[4,5]
+   - firstDayInUseRack[5,5] - firstDayInUseRack[6,5]
+   - firstDayInUseRack[7,5] - firstDayInUseRack[8,5]
+   - firstDayInUseRack[9,5] - firstDayInUseRack[10,5]
+   + firstDayInUseRack[10,6] <= 0
+ R25044: - firstDayInUseRack[1,6] - firstDayInUseRack[2,6]
+   - firstDayInUseRack[3,6] - firstDayInUseRack[4,6]
+   - firstDayInUseRack[5,6] - firstDayInUseRack[6,6]
+   - firstDayInUseRack[7,6] - firstDayInUseRack[8,6]
+   - firstDayInUseRack[9,6] - firstDayInUseRack[10,6]
+   + firstDayInUseRack[10,7] <= 0
+ R25045: - firstDayInUseRack[1,7] - firstDayInUseRack[2,7]
+   - firstDayInUseRack[3,7] - firstDayInUseRack[4,7]
+   - firstDayInUseRack[5,7] - firstDayInUseRack[6,7]
+   - firstDayInUseRack[7,7] - firstDayInUseRack[8,7]
+   - firstDayInUseRack[9,7] - firstDayInUseRack[10,7]
+   + firstDayInUseRack[10,8] <= 0
+ R25046: allocated[1,1,1,1,1] - 15 layerInUse[1,1,1] <= 0
+ R25047: allocated[1,1,1,1,2] - 15 layerInUse[1,1,1] <= 0
+ R25048: allocated[1,2,1,1,1] - 15 layerInUse[1,1,1] <= 0
+ R25049: allocated[1,2,1,1,2] - 15 layerInUse[1,1,1] <= 0
+ R25050: allocated[1,3,1,1,1] - 15 layerInUse[1,1,1] <= 0
+ R25051: allocated[1,3,1,1,2] - 15 layerInUse[1,1,1] <= 0
+ R25052: allocated[1,4,1,1,1] - 15 layerInUse[1,1,1] <= 0
+ R25053: allocated[1,4,1,1,2] - 15 layerInUse[1,1,1] <= 0
+ R25054: allocated[1,1,2,1,1] - 15 layerInUse[1,1,2] <= 0
+ R25055: allocated[1,1,2,1,2] - 15 layerInUse[1,1,2] <= 0
+ R25056: allocated[1,2,2,1,1] - 15 layerInUse[1,1,2] <= 0
+ R25057: allocated[1,2,2,1,2] - 15 layerInUse[1,1,2] <= 0
+ R25058: allocated[1,3,2,1,1] - 15 layerInUse[1,1,2] <= 0
+ R25059: allocated[1,3,2,1,2] - 15 layerInUse[1,1,2] <= 0
+ R25060: allocated[1,4,2,1,1] - 15 layerInUse[1,1,2] <= 0
+ R25061: allocated[1,4,2,1,2] - 15 layerInUse[1,1,2] <= 0
+ R25062: allocated[1,1,3,1,1] - 15 layerInUse[1,1,3] <= 0
+ R25063: allocated[1,1,3,1,2] - 15 layerInUse[1,1,3] <= 0
+ R25064: allocated[1,2,3,1,1] - 15 layerInUse[1,1,3] <= 0
+ R25065: allocated[1,2,3,1,2] - 15 layerInUse[1,1,3] <= 0
+ R25066: allocated[1,3,3,1,1] - 15 layerInUse[1,1,3] <= 0
+ R25067: allocated[1,3,3,1,2] - 15 layerInUse[1,1,3] <= 0
+ R25068: allocated[1,4,3,1,1] - 15 layerInUse[1,1,3] <= 0
+ R25069: allocated[1,4,3,1,2] - 15 layerInUse[1,1,3] <= 0
+ R25070: allocated[1,1,4,1,1] - 15 layerInUse[1,1,4] <= 0
+ R25071: allocated[1,1,4,1,2] - 15 layerInUse[1,1,4] <= 0
+ R25072: allocated[1,2,4,1,1] - 15 layerInUse[1,1,4] <= 0
+ R25073: allocated[1,2,4,1,2] - 15 layerInUse[1,1,4] <= 0
+ R25074: allocated[1,3,4,1,1] - 15 layerInUse[1,1,4] <= 0
+ R25075: allocated[1,3,4,1,2] - 15 layerInUse[1,1,4] <= 0
+ R25076: allocated[1,4,4,1,1] - 15 layerInUse[1,1,4] <= 0
+ R25077: allocated[1,4,4,1,2] - 15 layerInUse[1,1,4] <= 0
+ R25078: allocated[1,1,5,1,1] - 15 layerInUse[1,1,5] <= 0
+ R25079: allocated[1,1,5,1,2] - 15 layerInUse[1,1,5] <= 0
+ R25080: allocated[1,2,5,1,1] - 15 layerInUse[1,1,5] <= 0
+ R25081: allocated[1,2,5,1,2] - 15 layerInUse[1,1,5] <= 0
+ R25082: allocated[1,3,5,1,1] - 15 layerInUse[1,1,5] <= 0
+ R25083: allocated[1,3,5,1,2] - 15 layerInUse[1,1,5] <= 0
+ R25084: allocated[1,4,5,1,1] - 15 layerInUse[1,1,5] <= 0
+ R25085: allocated[1,4,5,1,2] - 15 layerInUse[1,1,5] <= 0
+ R25086: allocated[1,1,6,1,1] - 15 layerInUse[1,1,6] <= 0
+ R25087: allocated[1,1,6,1,2] - 15 layerInUse[1,1,6] <= 0
+ R25088: allocated[1,2,6,1,1] - 15 layerInUse[1,1,6] <= 0
+ R25089: allocated[1,2,6,1,2] - 15 layerInUse[1,1,6] <= 0
+ R25090: allocated[1,3,6,1,1] - 15 layerInUse[1,1,6] <= 0
+ R25091: allocated[1,3,6,1,2] - 15 layerInUse[1,1,6] <= 0
+ R25092: allocated[1,4,6,1,1] - 15 layerInUse[1,1,6] <= 0
+ R25093: allocated[1,4,6,1,2] - 15 layerInUse[1,1,6] <= 0
+ R25094: allocated[1,1,1,2,1] - 15 layerInUse[1,2,1] <= 0
+ R25095: allocated[1,1,1,2,2] - 15 layerInUse[1,2,1] <= 0
+ R25096: allocated[1,2,1,2,1] - 15 layerInUse[1,2,1] <= 0
+ R25097: allocated[1,2,1,2,2] - 15 layerInUse[1,2,1] <= 0
+ R25098: allocated[1,3,1,2,1] - 15 layerInUse[1,2,1] <= 0
+ R25099: allocated[1,3,1,2,2] - 15 layerInUse[1,2,1] <= 0
+ R25100: allocated[1,4,1,2,1] - 15 layerInUse[1,2,1] <= 0
+ R25101: allocated[1,4,1,2,2] - 15 layerInUse[1,2,1] <= 0
+ R25102: allocated[1,1,2,2,1] - 15 layerInUse[1,2,2] <= 0
+ R25103: allocated[1,1,2,2,2] - 15 layerInUse[1,2,2] <= 0
+ R25104: allocated[1,2,2,2,1] - 15 layerInUse[1,2,2] <= 0
+ R25105: allocated[1,2,2,2,2] - 15 layerInUse[1,2,2] <= 0
+ R25106: allocated[1,3,2,2,1] - 15 layerInUse[1,2,2] <= 0
+ R25107: allocated[1,3,2,2,2] - 15 layerInUse[1,2,2] <= 0
+ R25108: allocated[1,4,2,2,1] - 15 layerInUse[1,2,2] <= 0
+ R25109: allocated[1,4,2,2,2] - 15 layerInUse[1,2,2] <= 0
+ R25110: allocated[1,1,3,2,1] - 15 layerInUse[1,2,3] <= 0
+ R25111: allocated[1,1,3,2,2] - 15 layerInUse[1,2,3] <= 0
+ R25112: allocated[1,2,3,2,1] - 15 layerInUse[1,2,3] <= 0
+ R25113: allocated[1,2,3,2,2] - 15 layerInUse[1,2,3] <= 0
+ R25114: allocated[1,3,3,2,1] - 15 layerInUse[1,2,3] <= 0
+ R25115: allocated[1,3,3,2,2] - 15 layerInUse[1,2,3] <= 0
+ R25116: allocated[1,4,3,2,1] - 15 layerInUse[1,2,3] <= 0
+ R25117: allocated[1,4,3,2,2] - 15 layerInUse[1,2,3] <= 0
+ R25118: allocated[1,1,4,2,1] - 15 layerInUse[1,2,4] <= 0
+ R25119: allocated[1,1,4,2,2] - 15 layerInUse[1,2,4] <= 0
+ R25120: allocated[1,2,4,2,1] - 15 layerInUse[1,2,4] <= 0
+ R25121: allocated[1,2,4,2,2] - 15 layerInUse[1,2,4] <= 0
+ R25122: allocated[1,3,4,2,1] - 15 layerInUse[1,2,4] <= 0
+ R25123: allocated[1,3,4,2,2] - 15 layerInUse[1,2,4] <= 0
+ R25124: allocated[1,4,4,2,1] - 15 layerInUse[1,2,4] <= 0
+ R25125: allocated[1,4,4,2,2] - 15 layerInUse[1,2,4] <= 0
+ R25126: allocated[1,1,5,2,1] - 15 layerInUse[1,2,5] <= 0
+ R25127: allocated[1,1,5,2,2] - 15 layerInUse[1,2,5] <= 0
+ R25128: allocated[1,2,5,2,1] - 15 layerInUse[1,2,5] <= 0
+ R25129: allocated[1,2,5,2,2] - 15 layerInUse[1,2,5] <= 0
+ R25130: allocated[1,3,5,2,1] - 15 layerInUse[1,2,5] <= 0
+ R25131: allocated[1,3,5,2,2] - 15 layerInUse[1,2,5] <= 0
+ R25132: allocated[1,4,5,2,1] - 15 layerInUse[1,2,5] <= 0
+ R25133: allocated[1,4,5,2,2] - 15 layerInUse[1,2,5] <= 0
+ R25134: allocated[1,1,6,2,1] - 15 layerInUse[1,2,6] <= 0
+ R25135: allocated[1,1,6,2,2] - 15 layerInUse[1,2,6] <= 0
+ R25136: allocated[1,2,6,2,1] - 15 layerInUse[1,2,6] <= 0
+ R25137: allocated[1,2,6,2,2] - 15 layerInUse[1,2,6] <= 0
+ R25138: allocated[1,3,6,2,1] - 15 layerInUse[1,2,6] <= 0
+ R25139: allocated[1,3,6,2,2] - 15 layerInUse[1,2,6] <= 0
+ R25140: allocated[1,4,6,2,1] - 15 layerInUse[1,2,6] <= 0
+ R25141: allocated[1,4,6,2,2] - 15 layerInUse[1,2,6] <= 0
+ R25142: allocated[1,1,1,3,1] - 15 layerInUse[1,3,1] <= 0
+ R25143: allocated[1,1,1,3,2] - 15 layerInUse[1,3,1] <= 0
+ R25144: allocated[1,2,1,3,1] - 15 layerInUse[1,3,1] <= 0
+ R25145: allocated[1,2,1,3,2] - 15 layerInUse[1,3,1] <= 0
+ R25146: allocated[1,3,1,3,1] - 15 layerInUse[1,3,1] <= 0
+ R25147: allocated[1,3,1,3,2] - 15 layerInUse[1,3,1] <= 0
+ R25148: allocated[1,4,1,3,1] - 15 layerInUse[1,3,1] <= 0
+ R25149: allocated[1,4,1,3,2] - 15 layerInUse[1,3,1] <= 0
+ R25150: allocated[1,1,2,3,1] - 15 layerInUse[1,3,2] <= 0
+ R25151: allocated[1,1,2,3,2] - 15 layerInUse[1,3,2] <= 0
+ R25152: allocated[1,2,2,3,1] - 15 layerInUse[1,3,2] <= 0
+ R25153: allocated[1,2,2,3,2] - 15 layerInUse[1,3,2] <= 0
+ R25154: allocated[1,3,2,3,1] - 15 layerInUse[1,3,2] <= 0
+ R25155: allocated[1,3,2,3,2] - 15 layerInUse[1,3,2] <= 0
+ R25156: allocated[1,4,2,3,1] - 15 layerInUse[1,3,2] <= 0
+ R25157: allocated[1,4,2,3,2] - 15 layerInUse[1,3,2] <= 0
+ R25158: allocated[1,1,3,3,1] - 15 layerInUse[1,3,3] <= 0
+ R25159: allocated[1,1,3,3,2] - 15 layerInUse[1,3,3] <= 0
+ R25160: allocated[1,2,3,3,1] - 15 layerInUse[1,3,3] <= 0
+ R25161: allocated[1,2,3,3,2] - 15 layerInUse[1,3,3] <= 0
+ R25162: allocated[1,3,3,3,1] - 15 layerInUse[1,3,3] <= 0
+ R25163: allocated[1,3,3,3,2] - 15 layerInUse[1,3,3] <= 0
+ R25164: allocated[1,4,3,3,1] - 15 layerInUse[1,3,3] <= 0
+ R25165: allocated[1,4,3,3,2] - 15 layerInUse[1,3,3] <= 0
+ R25166: allocated[1,1,4,3,1] - 15 layerInUse[1,3,4] <= 0
+ R25167: allocated[1,1,4,3,2] - 15 layerInUse[1,3,4] <= 0
+ R25168: allocated[1,2,4,3,1] - 15 layerInUse[1,3,4] <= 0
+ R25169: allocated[1,2,4,3,2] - 15 layerInUse[1,3,4] <= 0
+ R25170: allocated[1,3,4,3,1] - 15 layerInUse[1,3,4] <= 0
+ R25171: allocated[1,3,4,3,2] - 15 layerInUse[1,3,4] <= 0
+ R25172: allocated[1,4,4,3,1] - 15 layerInUse[1,3,4] <= 0
+ R25173: allocated[1,4,4,3,2] - 15 layerInUse[1,3,4] <= 0
+ R25174: allocated[1,1,5,3,1] - 15 layerInUse[1,3,5] <= 0
+ R25175: allocated[1,1,5,3,2] - 15 layerInUse[1,3,5] <= 0
+ R25176: allocated[1,2,5,3,1] - 15 layerInUse[1,3,5] <= 0
+ R25177: allocated[1,2,5,3,2] - 15 layerInUse[1,3,5] <= 0
+ R25178: allocated[1,3,5,3,1] - 15 layerInUse[1,3,5] <= 0
+ R25179: allocated[1,3,5,3,2] - 15 layerInUse[1,3,5] <= 0
+ R25180: allocated[1,4,5,3,1] - 15 layerInUse[1,3,5] <= 0
+ R25181: allocated[1,4,5,3,2] - 15 layerInUse[1,3,5] <= 0
+ R25182: allocated[1,1,6,3,1] - 15 layerInUse[1,3,6] <= 0
+ R25183: allocated[1,1,6,3,2] - 15 layerInUse[1,3,6] <= 0
+ R25184: allocated[1,2,6,3,1] - 15 layerInUse[1,3,6] <= 0
+ R25185: allocated[1,2,6,3,2] - 15 layerInUse[1,3,6] <= 0
+ R25186: allocated[1,3,6,3,1] - 15 layerInUse[1,3,6] <= 0
+ R25187: allocated[1,3,6,3,2] - 15 layerInUse[1,3,6] <= 0
+ R25188: allocated[1,4,6,3,1] - 15 layerInUse[1,3,6] <= 0
+ R25189: allocated[1,4,6,3,2] - 15 layerInUse[1,3,6] <= 0
+ R25190: allocated[1,1,1,4,1] - 15 layerInUse[1,4,1] <= 0
+ R25191: allocated[1,1,1,4,2] - 15 layerInUse[1,4,1] <= 0
+ R25192: allocated[1,2,1,4,1] - 15 layerInUse[1,4,1] <= 0
+ R25193: allocated[1,2,1,4,2] - 15 layerInUse[1,4,1] <= 0
+ R25194: allocated[1,3,1,4,1] - 15 layerInUse[1,4,1] <= 0
+ R25195: allocated[1,3,1,4,2] - 15 layerInUse[1,4,1] <= 0
+ R25196: allocated[1,4,1,4,1] - 15 layerInUse[1,4,1] <= 0
+ R25197: allocated[1,4,1,4,2] - 15 layerInUse[1,4,1] <= 0
+ R25198: allocated[1,1,2,4,1] - 15 layerInUse[1,4,2] <= 0
+ R25199: allocated[1,1,2,4,2] - 15 layerInUse[1,4,2] <= 0
+ R25200: allocated[1,2,2,4,1] - 15 layerInUse[1,4,2] <= 0
+ R25201: allocated[1,2,2,4,2] - 15 layerInUse[1,4,2] <= 0
+ R25202: allocated[1,3,2,4,1] - 15 layerInUse[1,4,2] <= 0
+ R25203: allocated[1,3,2,4,2] - 15 layerInUse[1,4,2] <= 0
+ R25204: allocated[1,4,2,4,1] - 15 layerInUse[1,4,2] <= 0
+ R25205: allocated[1,4,2,4,2] - 15 layerInUse[1,4,2] <= 0
+ R25206: allocated[1,1,3,4,1] - 15 layerInUse[1,4,3] <= 0
+ R25207: allocated[1,1,3,4,2] - 15 layerInUse[1,4,3] <= 0
+ R25208: allocated[1,2,3,4,1] - 15 layerInUse[1,4,3] <= 0
+ R25209: allocated[1,2,3,4,2] - 15 layerInUse[1,4,3] <= 0
+ R25210: allocated[1,3,3,4,1] - 15 layerInUse[1,4,3] <= 0
+ R25211: allocated[1,3,3,4,2] - 15 layerInUse[1,4,3] <= 0
+ R25212: allocated[1,4,3,4,1] - 15 layerInUse[1,4,3] <= 0
+ R25213: allocated[1,4,3,4,2] - 15 layerInUse[1,4,3] <= 0
+ R25214: allocated[1,1,4,4,1] - 15 layerInUse[1,4,4] <= 0
+ R25215: allocated[1,1,4,4,2] - 15 layerInUse[1,4,4] <= 0
+ R25216: allocated[1,2,4,4,1] - 15 layerInUse[1,4,4] <= 0
+ R25217: allocated[1,2,4,4,2] - 15 layerInUse[1,4,4] <= 0
+ R25218: allocated[1,3,4,4,1] - 15 layerInUse[1,4,4] <= 0
+ R25219: allocated[1,3,4,4,2] - 15 layerInUse[1,4,4] <= 0
+ R25220: allocated[1,4,4,4,1] - 15 layerInUse[1,4,4] <= 0
+ R25221: allocated[1,4,4,4,2] - 15 layerInUse[1,4,4] <= 0
+ R25222: allocated[1,1,5,4,1] - 15 layerInUse[1,4,5] <= 0
+ R25223: allocated[1,1,5,4,2] - 15 layerInUse[1,4,5] <= 0
+ R25224: allocated[1,2,5,4,1] - 15 layerInUse[1,4,5] <= 0
+ R25225: allocated[1,2,5,4,2] - 15 layerInUse[1,4,5] <= 0
+ R25226: allocated[1,3,5,4,1] - 15 layerInUse[1,4,5] <= 0
+ R25227: allocated[1,3,5,4,2] - 15 layerInUse[1,4,5] <= 0
+ R25228: allocated[1,4,5,4,1] - 15 layerInUse[1,4,5] <= 0
+ R25229: allocated[1,4,5,4,2] - 15 layerInUse[1,4,5] <= 0
+ R25230: allocated[1,1,6,4,1] - 15 layerInUse[1,4,6] <= 0
+ R25231: allocated[1,1,6,4,2] - 15 layerInUse[1,4,6] <= 0
+ R25232: allocated[1,2,6,4,1] - 15 layerInUse[1,4,6] <= 0
+ R25233: allocated[1,2,6,4,2] - 15 layerInUse[1,4,6] <= 0
+ R25234: allocated[1,3,6,4,1] - 15 layerInUse[1,4,6] <= 0
+ R25235: allocated[1,3,6,4,2] - 15 layerInUse[1,4,6] <= 0
+ R25236: allocated[1,4,6,4,1] - 15 layerInUse[1,4,6] <= 0
+ R25237: allocated[1,4,6,4,2] - 15 layerInUse[1,4,6] <= 0
+ R25238: allocated[1,1,1,5,1] - 15 layerInUse[1,5,1] <= 0
+ R25239: allocated[1,1,1,5,2] - 15 layerInUse[1,5,1] <= 0
+ R25240: allocated[1,2,1,5,1] - 15 layerInUse[1,5,1] <= 0
+ R25241: allocated[1,2,1,5,2] - 15 layerInUse[1,5,1] <= 0
+ R25242: allocated[1,3,1,5,1] - 15 layerInUse[1,5,1] <= 0
+ R25243: allocated[1,3,1,5,2] - 15 layerInUse[1,5,1] <= 0
+ R25244: allocated[1,4,1,5,1] - 15 layerInUse[1,5,1] <= 0
+ R25245: allocated[1,4,1,5,2] - 15 layerInUse[1,5,1] <= 0
+ R25246: allocated[1,1,2,5,1] - 15 layerInUse[1,5,2] <= 0
+ R25247: allocated[1,1,2,5,2] - 15 layerInUse[1,5,2] <= 0
+ R25248: allocated[1,2,2,5,1] - 15 layerInUse[1,5,2] <= 0
+ R25249: allocated[1,2,2,5,2] - 15 layerInUse[1,5,2] <= 0
+ R25250: allocated[1,3,2,5,1] - 15 layerInUse[1,5,2] <= 0
+ R25251: allocated[1,3,2,5,2] - 15 layerInUse[1,5,2] <= 0
+ R25252: allocated[1,4,2,5,1] - 15 layerInUse[1,5,2] <= 0
+ R25253: allocated[1,4,2,5,2] - 15 layerInUse[1,5,2] <= 0
+ R25254: allocated[1,1,3,5,1] - 15 layerInUse[1,5,3] <= 0
+ R25255: allocated[1,1,3,5,2] - 15 layerInUse[1,5,3] <= 0
+ R25256: allocated[1,2,3,5,1] - 15 layerInUse[1,5,3] <= 0
+ R25257: allocated[1,2,3,5,2] - 15 layerInUse[1,5,3] <= 0
+ R25258: allocated[1,3,3,5,1] - 15 layerInUse[1,5,3] <= 0
+ R25259: allocated[1,3,3,5,2] - 15 layerInUse[1,5,3] <= 0
+ R25260: allocated[1,4,3,5,1] - 15 layerInUse[1,5,3] <= 0
+ R25261: allocated[1,4,3,5,2] - 15 layerInUse[1,5,3] <= 0
+ R25262: allocated[1,1,4,5,1] - 15 layerInUse[1,5,4] <= 0
+ R25263: allocated[1,1,4,5,2] - 15 layerInUse[1,5,4] <= 0
+ R25264: allocated[1,2,4,5,1] - 15 layerInUse[1,5,4] <= 0
+ R25265: allocated[1,2,4,5,2] - 15 layerInUse[1,5,4] <= 0
+ R25266: allocated[1,3,4,5,1] - 15 layerInUse[1,5,4] <= 0
+ R25267: allocated[1,3,4,5,2] - 15 layerInUse[1,5,4] <= 0
+ R25268: allocated[1,4,4,5,1] - 15 layerInUse[1,5,4] <= 0
+ R25269: allocated[1,4,4,5,2] - 15 layerInUse[1,5,4] <= 0
+ R25270: allocated[1,1,5,5,1] - 15 layerInUse[1,5,5] <= 0
+ R25271: allocated[1,1,5,5,2] - 15 layerInUse[1,5,5] <= 0
+ R25272: allocated[1,2,5,5,1] - 15 layerInUse[1,5,5] <= 0
+ R25273: allocated[1,2,5,5,2] - 15 layerInUse[1,5,5] <= 0
+ R25274: allocated[1,3,5,5,1] - 15 layerInUse[1,5,5] <= 0
+ R25275: allocated[1,3,5,5,2] - 15 layerInUse[1,5,5] <= 0
+ R25276: allocated[1,4,5,5,1] - 15 layerInUse[1,5,5] <= 0
+ R25277: allocated[1,4,5,5,2] - 15 layerInUse[1,5,5] <= 0
+ R25278: allocated[1,1,6,5,1] - 15 layerInUse[1,5,6] <= 0
+ R25279: allocated[1,1,6,5,2] - 15 layerInUse[1,5,6] <= 0
+ R25280: allocated[1,2,6,5,1] - 15 layerInUse[1,5,6] <= 0
+ R25281: allocated[1,2,6,5,2] - 15 layerInUse[1,5,6] <= 0
+ R25282: allocated[1,3,6,5,1] - 15 layerInUse[1,5,6] <= 0
+ R25283: allocated[1,3,6,5,2] - 15 layerInUse[1,5,6] <= 0
+ R25284: allocated[1,4,6,5,1] - 15 layerInUse[1,5,6] <= 0
+ R25285: allocated[1,4,6,5,2] - 15 layerInUse[1,5,6] <= 0
+ R25286: allocated[1,1,1,6,1] - 15 layerInUse[1,6,1] <= 0
+ R25287: allocated[1,1,1,6,2] - 15 layerInUse[1,6,1] <= 0
+ R25288: allocated[1,2,1,6,1] - 15 layerInUse[1,6,1] <= 0
+ R25289: allocated[1,2,1,6,2] - 15 layerInUse[1,6,1] <= 0
+ R25290: allocated[1,3,1,6,1] - 15 layerInUse[1,6,1] <= 0
+ R25291: allocated[1,3,1,6,2] - 15 layerInUse[1,6,1] <= 0
+ R25292: allocated[1,4,1,6,1] - 15 layerInUse[1,6,1] <= 0
+ R25293: allocated[1,4,1,6,2] - 15 layerInUse[1,6,1] <= 0
+ R25294: allocated[1,1,2,6,1] - 15 layerInUse[1,6,2] <= 0
+ R25295: allocated[1,1,2,6,2] - 15 layerInUse[1,6,2] <= 0
+ R25296: allocated[1,2,2,6,1] - 15 layerInUse[1,6,2] <= 0
+ R25297: allocated[1,2,2,6,2] - 15 layerInUse[1,6,2] <= 0
+ R25298: allocated[1,3,2,6,1] - 15 layerInUse[1,6,2] <= 0
+ R25299: allocated[1,3,2,6,2] - 15 layerInUse[1,6,2] <= 0
+ R25300: allocated[1,4,2,6,1] - 15 layerInUse[1,6,2] <= 0
+ R25301: allocated[1,4,2,6,2] - 15 layerInUse[1,6,2] <= 0
+ R25302: allocated[1,1,3,6,1] - 15 layerInUse[1,6,3] <= 0
+ R25303: allocated[1,1,3,6,2] - 15 layerInUse[1,6,3] <= 0
+ R25304: allocated[1,2,3,6,1] - 15 layerInUse[1,6,3] <= 0
+ R25305: allocated[1,2,3,6,2] - 15 layerInUse[1,6,3] <= 0
+ R25306: allocated[1,3,3,6,1] - 15 layerInUse[1,6,3] <= 0
+ R25307: allocated[1,3,3,6,2] - 15 layerInUse[1,6,3] <= 0
+ R25308: allocated[1,4,3,6,1] - 15 layerInUse[1,6,3] <= 0
+ R25309: allocated[1,4,3,6,2] - 15 layerInUse[1,6,3] <= 0
+ R25310: allocated[1,1,4,6,1] - 15 layerInUse[1,6,4] <= 0
+ R25311: allocated[1,1,4,6,2] - 15 layerInUse[1,6,4] <= 0
+ R25312: allocated[1,2,4,6,1] - 15 layerInUse[1,6,4] <= 0
+ R25313: allocated[1,2,4,6,2] - 15 layerInUse[1,6,4] <= 0
+ R25314: allocated[1,3,4,6,1] - 15 layerInUse[1,6,4] <= 0
+ R25315: allocated[1,3,4,6,2] - 15 layerInUse[1,6,4] <= 0
+ R25316: allocated[1,4,4,6,1] - 15 layerInUse[1,6,4] <= 0
+ R25317: allocated[1,4,4,6,2] - 15 layerInUse[1,6,4] <= 0
+ R25318: allocated[1,1,5,6,1] - 15 layerInUse[1,6,5] <= 0
+ R25319: allocated[1,1,5,6,2] - 15 layerInUse[1,6,5] <= 0
+ R25320: allocated[1,2,5,6,1] - 15 layerInUse[1,6,5] <= 0
+ R25321: allocated[1,2,5,6,2] - 15 layerInUse[1,6,5] <= 0
+ R25322: allocated[1,3,5,6,1] - 15 layerInUse[1,6,5] <= 0
+ R25323: allocated[1,3,5,6,2] - 15 layerInUse[1,6,5] <= 0
+ R25324: allocated[1,4,5,6,1] - 15 layerInUse[1,6,5] <= 0
+ R25325: allocated[1,4,5,6,2] - 15 layerInUse[1,6,5] <= 0
+ R25326: allocated[1,1,6,6,1] - 15 layerInUse[1,6,6] <= 0
+ R25327: allocated[1,1,6,6,2] - 15 layerInUse[1,6,6] <= 0
+ R25328: allocated[1,2,6,6,1] - 15 layerInUse[1,6,6] <= 0
+ R25329: allocated[1,2,6,6,2] - 15 layerInUse[1,6,6] <= 0
+ R25330: allocated[1,3,6,6,1] - 15 layerInUse[1,6,6] <= 0
+ R25331: allocated[1,3,6,6,2] - 15 layerInUse[1,6,6] <= 0
+ R25332: allocated[1,4,6,6,1] - 15 layerInUse[1,6,6] <= 0
+ R25333: allocated[1,4,6,6,2] - 15 layerInUse[1,6,6] <= 0
+ R25334: allocated[1,1,1,7,1] - 15 layerInUse[1,7,1] <= 0
+ R25335: allocated[1,1,1,7,2] - 15 layerInUse[1,7,1] <= 0
+ R25336: allocated[1,2,1,7,1] - 15 layerInUse[1,7,1] <= 0
+ R25337: allocated[1,2,1,7,2] - 15 layerInUse[1,7,1] <= 0
+ R25338: allocated[1,3,1,7,1] - 15 layerInUse[1,7,1] <= 0
+ R25339: allocated[1,3,1,7,2] - 15 layerInUse[1,7,1] <= 0
+ R25340: allocated[1,4,1,7,1] - 15 layerInUse[1,7,1] <= 0
+ R25341: allocated[1,4,1,7,2] - 15 layerInUse[1,7,1] <= 0
+ R25342: allocated[1,1,2,7,1] - 15 layerInUse[1,7,2] <= 0
+ R25343: allocated[1,1,2,7,2] - 15 layerInUse[1,7,2] <= 0
+ R25344: allocated[1,2,2,7,1] - 15 layerInUse[1,7,2] <= 0
+ R25345: allocated[1,2,2,7,2] - 15 layerInUse[1,7,2] <= 0
+ R25346: allocated[1,3,2,7,1] - 15 layerInUse[1,7,2] <= 0
+ R25347: allocated[1,3,2,7,2] - 15 layerInUse[1,7,2] <= 0
+ R25348: allocated[1,4,2,7,1] - 15 layerInUse[1,7,2] <= 0
+ R25349: allocated[1,4,2,7,2] - 15 layerInUse[1,7,2] <= 0
+ R25350: allocated[1,1,3,7,1] - 15 layerInUse[1,7,3] <= 0
+ R25351: allocated[1,1,3,7,2] - 15 layerInUse[1,7,3] <= 0
+ R25352: allocated[1,2,3,7,1] - 15 layerInUse[1,7,3] <= 0
+ R25353: allocated[1,2,3,7,2] - 15 layerInUse[1,7,3] <= 0
+ R25354: allocated[1,3,3,7,1] - 15 layerInUse[1,7,3] <= 0
+ R25355: allocated[1,3,3,7,2] - 15 layerInUse[1,7,3] <= 0
+ R25356: allocated[1,4,3,7,1] - 15 layerInUse[1,7,3] <= 0
+ R25357: allocated[1,4,3,7,2] - 15 layerInUse[1,7,3] <= 0
+ R25358: allocated[1,1,4,7,1] - 15 layerInUse[1,7,4] <= 0
+ R25359: allocated[1,1,4,7,2] - 15 layerInUse[1,7,4] <= 0
+ R25360: allocated[1,2,4,7,1] - 15 layerInUse[1,7,4] <= 0
+ R25361: allocated[1,2,4,7,2] - 15 layerInUse[1,7,4] <= 0
+ R25362: allocated[1,3,4,7,1] - 15 layerInUse[1,7,4] <= 0
+ R25363: allocated[1,3,4,7,2] - 15 layerInUse[1,7,4] <= 0
+ R25364: allocated[1,4,4,7,1] - 15 layerInUse[1,7,4] <= 0
+ R25365: allocated[1,4,4,7,2] - 15 layerInUse[1,7,4] <= 0
+ R25366: allocated[1,1,5,7,1] - 15 layerInUse[1,7,5] <= 0
+ R25367: allocated[1,1,5,7,2] - 15 layerInUse[1,7,5] <= 0
+ R25368: allocated[1,2,5,7,1] - 15 layerInUse[1,7,5] <= 0
+ R25369: allocated[1,2,5,7,2] - 15 layerInUse[1,7,5] <= 0
+ R25370: allocated[1,3,5,7,1] - 15 layerInUse[1,7,5] <= 0
+ R25371: allocated[1,3,5,7,2] - 15 layerInUse[1,7,5] <= 0
+ R25372: allocated[1,4,5,7,1] - 15 layerInUse[1,7,5] <= 0
+ R25373: allocated[1,4,5,7,2] - 15 layerInUse[1,7,5] <= 0
+ R25374: allocated[1,1,6,7,1] - 15 layerInUse[1,7,6] <= 0
+ R25375: allocated[1,1,6,7,2] - 15 layerInUse[1,7,6] <= 0
+ R25376: allocated[1,2,6,7,1] - 15 layerInUse[1,7,6] <= 0
+ R25377: allocated[1,2,6,7,2] - 15 layerInUse[1,7,6] <= 0
+ R25378: allocated[1,3,6,7,1] - 15 layerInUse[1,7,6] <= 0
+ R25379: allocated[1,3,6,7,2] - 15 layerInUse[1,7,6] <= 0
+ R25380: allocated[1,4,6,7,1] - 15 layerInUse[1,7,6] <= 0
+ R25381: allocated[1,4,6,7,2] - 15 layerInUse[1,7,6] <= 0
+ R25382: allocated[1,1,1,8,1] - 15 layerInUse[1,8,1] <= 0
+ R25383: allocated[1,1,1,8,2] - 15 layerInUse[1,8,1] <= 0
+ R25384: allocated[1,2,1,8,1] - 15 layerInUse[1,8,1] <= 0
+ R25385: allocated[1,2,1,8,2] - 15 layerInUse[1,8,1] <= 0
+ R25386: allocated[1,3,1,8,1] - 15 layerInUse[1,8,1] <= 0
+ R25387: allocated[1,3,1,8,2] - 15 layerInUse[1,8,1] <= 0
+ R25388: allocated[1,4,1,8,1] - 15 layerInUse[1,8,1] <= 0
+ R25389: allocated[1,4,1,8,2] - 15 layerInUse[1,8,1] <= 0
+ R25390: allocated[1,1,2,8,1] - 15 layerInUse[1,8,2] <= 0
+ R25391: allocated[1,1,2,8,2] - 15 layerInUse[1,8,2] <= 0
+ R25392: allocated[1,2,2,8,1] - 15 layerInUse[1,8,2] <= 0
+ R25393: allocated[1,2,2,8,2] - 15 layerInUse[1,8,2] <= 0
+ R25394: allocated[1,3,2,8,1] - 15 layerInUse[1,8,2] <= 0
+ R25395: allocated[1,3,2,8,2] - 15 layerInUse[1,8,2] <= 0
+ R25396: allocated[1,4,2,8,1] - 15 layerInUse[1,8,2] <= 0
+ R25397: allocated[1,4,2,8,2] - 15 layerInUse[1,8,2] <= 0
+ R25398: allocated[1,1,3,8,1] - 15 layerInUse[1,8,3] <= 0
+ R25399: allocated[1,1,3,8,2] - 15 layerInUse[1,8,3] <= 0
+ R25400: allocated[1,2,3,8,1] - 15 layerInUse[1,8,3] <= 0
+ R25401: allocated[1,2,3,8,2] - 15 layerInUse[1,8,3] <= 0
+ R25402: allocated[1,3,3,8,1] - 15 layerInUse[1,8,3] <= 0
+ R25403: allocated[1,3,3,8,2] - 15 layerInUse[1,8,3] <= 0
+ R25404: allocated[1,4,3,8,1] - 15 layerInUse[1,8,3] <= 0
+ R25405: allocated[1,4,3,8,2] - 15 layerInUse[1,8,3] <= 0
+ R25406: allocated[1,1,4,8,1] - 15 layerInUse[1,8,4] <= 0
+ R25407: allocated[1,1,4,8,2] - 15 layerInUse[1,8,4] <= 0
+ R25408: allocated[1,2,4,8,1] - 15 layerInUse[1,8,4] <= 0
+ R25409: allocated[1,2,4,8,2] - 15 layerInUse[1,8,4] <= 0
+ R25410: allocated[1,3,4,8,1] - 15 layerInUse[1,8,4] <= 0
+ R25411: allocated[1,3,4,8,2] - 15 layerInUse[1,8,4] <= 0
+ R25412: allocated[1,4,4,8,1] - 15 layerInUse[1,8,4] <= 0
+ R25413: allocated[1,4,4,8,2] - 15 layerInUse[1,8,4] <= 0
+ R25414: allocated[1,1,5,8,1] - 15 layerInUse[1,8,5] <= 0
+ R25415: allocated[1,1,5,8,2] - 15 layerInUse[1,8,5] <= 0
+ R25416: allocated[1,2,5,8,1] - 15 layerInUse[1,8,5] <= 0
+ R25417: allocated[1,2,5,8,2] - 15 layerInUse[1,8,5] <= 0
+ R25418: allocated[1,3,5,8,1] - 15 layerInUse[1,8,5] <= 0
+ R25419: allocated[1,3,5,8,2] - 15 layerInUse[1,8,5] <= 0
+ R25420: allocated[1,4,5,8,1] - 15 layerInUse[1,8,5] <= 0
+ R25421: allocated[1,4,5,8,2] - 15 layerInUse[1,8,5] <= 0
+ R25422: allocated[1,1,6,8,1] - 15 layerInUse[1,8,6] <= 0
+ R25423: allocated[1,1,6,8,2] - 15 layerInUse[1,8,6] <= 0
+ R25424: allocated[1,2,6,8,1] - 15 layerInUse[1,8,6] <= 0
+ R25425: allocated[1,2,6,8,2] - 15 layerInUse[1,8,6] <= 0
+ R25426: allocated[1,3,6,8,1] - 15 layerInUse[1,8,6] <= 0
+ R25427: allocated[1,3,6,8,2] - 15 layerInUse[1,8,6] <= 0
+ R25428: allocated[1,4,6,8,1] - 15 layerInUse[1,8,6] <= 0
+ R25429: allocated[1,4,6,8,2] - 15 layerInUse[1,8,6] <= 0
+ R25430: allocated[2,1,1,1,1] - 15 layerInUse[2,1,1] <= 0
+ R25431: allocated[2,1,1,1,2] - 15 layerInUse[2,1,1] <= 0
+ R25432: allocated[2,2,1,1,1] - 15 layerInUse[2,1,1] <= 0
+ R25433: allocated[2,2,1,1,2] - 15 layerInUse[2,1,1] <= 0
+ R25434: allocated[2,3,1,1,1] - 15 layerInUse[2,1,1] <= 0
+ R25435: allocated[2,3,1,1,2] - 15 layerInUse[2,1,1] <= 0
+ R25436: allocated[2,4,1,1,1] - 15 layerInUse[2,1,1] <= 0
+ R25437: allocated[2,4,1,1,2] - 15 layerInUse[2,1,1] <= 0
+ R25438: allocated[2,1,2,1,1] - 15 layerInUse[2,1,2] <= 0
+ R25439: allocated[2,1,2,1,2] - 15 layerInUse[2,1,2] <= 0
+ R25440: allocated[2,2,2,1,1] - 15 layerInUse[2,1,2] <= 0
+ R25441: allocated[2,2,2,1,2] - 15 layerInUse[2,1,2] <= 0
+ R25442: allocated[2,3,2,1,1] - 15 layerInUse[2,1,2] <= 0
+ R25443: allocated[2,3,2,1,2] - 15 layerInUse[2,1,2] <= 0
+ R25444: allocated[2,4,2,1,1] - 15 layerInUse[2,1,2] <= 0
+ R25445: allocated[2,4,2,1,2] - 15 layerInUse[2,1,2] <= 0
+ R25446: allocated[2,1,3,1,1] - 15 layerInUse[2,1,3] <= 0
+ R25447: allocated[2,1,3,1,2] - 15 layerInUse[2,1,3] <= 0
+ R25448: allocated[2,2,3,1,1] - 15 layerInUse[2,1,3] <= 0
+ R25449: allocated[2,2,3,1,2] - 15 layerInUse[2,1,3] <= 0
+ R25450: allocated[2,3,3,1,1] - 15 layerInUse[2,1,3] <= 0
+ R25451: allocated[2,3,3,1,2] - 15 layerInUse[2,1,3] <= 0
+ R25452: allocated[2,4,3,1,1] - 15 layerInUse[2,1,3] <= 0
+ R25453: allocated[2,4,3,1,2] - 15 layerInUse[2,1,3] <= 0
+ R25454: allocated[2,1,4,1,1] - 15 layerInUse[2,1,4] <= 0
+ R25455: allocated[2,1,4,1,2] - 15 layerInUse[2,1,4] <= 0
+ R25456: allocated[2,2,4,1,1] - 15 layerInUse[2,1,4] <= 0
+ R25457: allocated[2,2,4,1,2] - 15 layerInUse[2,1,4] <= 0
+ R25458: allocated[2,3,4,1,1] - 15 layerInUse[2,1,4] <= 0
+ R25459: allocated[2,3,4,1,2] - 15 layerInUse[2,1,4] <= 0
+ R25460: allocated[2,4,4,1,1] - 15 layerInUse[2,1,4] <= 0
+ R25461: allocated[2,4,4,1,2] - 15 layerInUse[2,1,4] <= 0
+ R25462: allocated[2,1,5,1,1] - 15 layerInUse[2,1,5] <= 0
+ R25463: allocated[2,1,5,1,2] - 15 layerInUse[2,1,5] <= 0
+ R25464: allocated[2,2,5,1,1] - 15 layerInUse[2,1,5] <= 0
+ R25465: allocated[2,2,5,1,2] - 15 layerInUse[2,1,5] <= 0
+ R25466: allocated[2,3,5,1,1] - 15 layerInUse[2,1,5] <= 0
+ R25467: allocated[2,3,5,1,2] - 15 layerInUse[2,1,5] <= 0
+ R25468: allocated[2,4,5,1,1] - 15 layerInUse[2,1,5] <= 0
+ R25469: allocated[2,4,5,1,2] - 15 layerInUse[2,1,5] <= 0
+ R25470: allocated[2,1,6,1,1] - 15 layerInUse[2,1,6] <= 0
+ R25471: allocated[2,1,6,1,2] - 15 layerInUse[2,1,6] <= 0
+ R25472: allocated[2,2,6,1,1] - 15 layerInUse[2,1,6] <= 0
+ R25473: allocated[2,2,6,1,2] - 15 layerInUse[2,1,6] <= 0
+ R25474: allocated[2,3,6,1,1] - 15 layerInUse[2,1,6] <= 0
+ R25475: allocated[2,3,6,1,2] - 15 layerInUse[2,1,6] <= 0
+ R25476: allocated[2,4,6,1,1] - 15 layerInUse[2,1,6] <= 0
+ R25477: allocated[2,4,6,1,2] - 15 layerInUse[2,1,6] <= 0
+ R25478: allocated[2,1,1,2,1] - 15 layerInUse[2,2,1] <= 0
+ R25479: allocated[2,1,1,2,2] - 15 layerInUse[2,2,1] <= 0
+ R25480: allocated[2,2,1,2,1] - 15 layerInUse[2,2,1] <= 0
+ R25481: allocated[2,2,1,2,2] - 15 layerInUse[2,2,1] <= 0
+ R25482: allocated[2,3,1,2,1] - 15 layerInUse[2,2,1] <= 0
+ R25483: allocated[2,3,1,2,2] - 15 layerInUse[2,2,1] <= 0
+ R25484: allocated[2,4,1,2,1] - 15 layerInUse[2,2,1] <= 0
+ R25485: allocated[2,4,1,2,2] - 15 layerInUse[2,2,1] <= 0
+ R25486: allocated[2,1,2,2,1] - 15 layerInUse[2,2,2] <= 0
+ R25487: allocated[2,1,2,2,2] - 15 layerInUse[2,2,2] <= 0
+ R25488: allocated[2,2,2,2,1] - 15 layerInUse[2,2,2] <= 0
+ R25489: allocated[2,2,2,2,2] - 15 layerInUse[2,2,2] <= 0
+ R25490: allocated[2,3,2,2,1] - 15 layerInUse[2,2,2] <= 0
+ R25491: allocated[2,3,2,2,2] - 15 layerInUse[2,2,2] <= 0
+ R25492: allocated[2,4,2,2,1] - 15 layerInUse[2,2,2] <= 0
+ R25493: allocated[2,4,2,2,2] - 15 layerInUse[2,2,2] <= 0
+ R25494: allocated[2,1,3,2,1] - 15 layerInUse[2,2,3] <= 0
+ R25495: allocated[2,1,3,2,2] - 15 layerInUse[2,2,3] <= 0
+ R25496: allocated[2,2,3,2,1] - 15 layerInUse[2,2,3] <= 0
+ R25497: allocated[2,2,3,2,2] - 15 layerInUse[2,2,3] <= 0
+ R25498: allocated[2,3,3,2,1] - 15 layerInUse[2,2,3] <= 0
+ R25499: allocated[2,3,3,2,2] - 15 layerInUse[2,2,3] <= 0
+ R25500: allocated[2,4,3,2,1] - 15 layerInUse[2,2,3] <= 0
+ R25501: allocated[2,4,3,2,2] - 15 layerInUse[2,2,3] <= 0
+ R25502: allocated[2,1,4,2,1] - 15 layerInUse[2,2,4] <= 0
+ R25503: allocated[2,1,4,2,2] - 15 layerInUse[2,2,4] <= 0
+ R25504: allocated[2,2,4,2,1] - 15 layerInUse[2,2,4] <= 0
+ R25505: allocated[2,2,4,2,2] - 15 layerInUse[2,2,4] <= 0
+ R25506: allocated[2,3,4,2,1] - 15 layerInUse[2,2,4] <= 0
+ R25507: allocated[2,3,4,2,2] - 15 layerInUse[2,2,4] <= 0
+ R25508: allocated[2,4,4,2,1] - 15 layerInUse[2,2,4] <= 0
+ R25509: allocated[2,4,4,2,2] - 15 layerInUse[2,2,4] <= 0
+ R25510: allocated[2,1,5,2,1] - 15 layerInUse[2,2,5] <= 0
+ R25511: allocated[2,1,5,2,2] - 15 layerInUse[2,2,5] <= 0
+ R25512: allocated[2,2,5,2,1] - 15 layerInUse[2,2,5] <= 0
+ R25513: allocated[2,2,5,2,2] - 15 layerInUse[2,2,5] <= 0
+ R25514: allocated[2,3,5,2,1] - 15 layerInUse[2,2,5] <= 0
+ R25515: allocated[2,3,5,2,2] - 15 layerInUse[2,2,5] <= 0
+ R25516: allocated[2,4,5,2,1] - 15 layerInUse[2,2,5] <= 0
+ R25517: allocated[2,4,5,2,2] - 15 layerInUse[2,2,5] <= 0
+ R25518: allocated[2,1,6,2,1] - 15 layerInUse[2,2,6] <= 0
+ R25519: allocated[2,1,6,2,2] - 15 layerInUse[2,2,6] <= 0
+ R25520: allocated[2,2,6,2,1] - 15 layerInUse[2,2,6] <= 0
+ R25521: allocated[2,2,6,2,2] - 15 layerInUse[2,2,6] <= 0
+ R25522: allocated[2,3,6,2,1] - 15 layerInUse[2,2,6] <= 0
+ R25523: allocated[2,3,6,2,2] - 15 layerInUse[2,2,6] <= 0
+ R25524: allocated[2,4,6,2,1] - 15 layerInUse[2,2,6] <= 0
+ R25525: allocated[2,4,6,2,2] - 15 layerInUse[2,2,6] <= 0
+ R25526: allocated[2,1,1,3,1] - 15 layerInUse[2,3,1] <= 0
+ R25527: allocated[2,1,1,3,2] - 15 layerInUse[2,3,1] <= 0
+ R25528: allocated[2,2,1,3,1] - 15 layerInUse[2,3,1] <= 0
+ R25529: allocated[2,2,1,3,2] - 15 layerInUse[2,3,1] <= 0
+ R25530: allocated[2,3,1,3,1] - 15 layerInUse[2,3,1] <= 0
+ R25531: allocated[2,3,1,3,2] - 15 layerInUse[2,3,1] <= 0
+ R25532: allocated[2,4,1,3,1] - 15 layerInUse[2,3,1] <= 0
+ R25533: allocated[2,4,1,3,2] - 15 layerInUse[2,3,1] <= 0
+ R25534: allocated[2,1,2,3,1] - 15 layerInUse[2,3,2] <= 0
+ R25535: allocated[2,1,2,3,2] - 15 layerInUse[2,3,2] <= 0
+ R25536: allocated[2,2,2,3,1] - 15 layerInUse[2,3,2] <= 0
+ R25537: allocated[2,2,2,3,2] - 15 layerInUse[2,3,2] <= 0
+ R25538: allocated[2,3,2,3,1] - 15 layerInUse[2,3,2] <= 0
+ R25539: allocated[2,3,2,3,2] - 15 layerInUse[2,3,2] <= 0
+ R25540: allocated[2,4,2,3,1] - 15 layerInUse[2,3,2] <= 0
+ R25541: allocated[2,4,2,3,2] - 15 layerInUse[2,3,2] <= 0
+ R25542: allocated[2,1,3,3,1] - 15 layerInUse[2,3,3] <= 0
+ R25543: allocated[2,1,3,3,2] - 15 layerInUse[2,3,3] <= 0
+ R25544: allocated[2,2,3,3,1] - 15 layerInUse[2,3,3] <= 0
+ R25545: allocated[2,2,3,3,2] - 15 layerInUse[2,3,3] <= 0
+ R25546: allocated[2,3,3,3,1] - 15 layerInUse[2,3,3] <= 0
+ R25547: allocated[2,3,3,3,2] - 15 layerInUse[2,3,3] <= 0
+ R25548: allocated[2,4,3,3,1] - 15 layerInUse[2,3,3] <= 0
+ R25549: allocated[2,4,3,3,2] - 15 layerInUse[2,3,3] <= 0
+ R25550: allocated[2,1,4,3,1] - 15 layerInUse[2,3,4] <= 0
+ R25551: allocated[2,1,4,3,2] - 15 layerInUse[2,3,4] <= 0
+ R25552: allocated[2,2,4,3,1] - 15 layerInUse[2,3,4] <= 0
+ R25553: allocated[2,2,4,3,2] - 15 layerInUse[2,3,4] <= 0
+ R25554: allocated[2,3,4,3,1] - 15 layerInUse[2,3,4] <= 0
+ R25555: allocated[2,3,4,3,2] - 15 layerInUse[2,3,4] <= 0
+ R25556: allocated[2,4,4,3,1] - 15 layerInUse[2,3,4] <= 0
+ R25557: allocated[2,4,4,3,2] - 15 layerInUse[2,3,4] <= 0
+ R25558: allocated[2,1,5,3,1] - 15 layerInUse[2,3,5] <= 0
+ R25559: allocated[2,1,5,3,2] - 15 layerInUse[2,3,5] <= 0
+ R25560: allocated[2,2,5,3,1] - 15 layerInUse[2,3,5] <= 0
+ R25561: allocated[2,2,5,3,2] - 15 layerInUse[2,3,5] <= 0
+ R25562: allocated[2,3,5,3,1] - 15 layerInUse[2,3,5] <= 0
+ R25563: allocated[2,3,5,3,2] - 15 layerInUse[2,3,5] <= 0
+ R25564: allocated[2,4,5,3,1] - 15 layerInUse[2,3,5] <= 0
+ R25565: allocated[2,4,5,3,2] - 15 layerInUse[2,3,5] <= 0
+ R25566: allocated[2,1,6,3,1] - 15 layerInUse[2,3,6] <= 0
+ R25567: allocated[2,1,6,3,2] - 15 layerInUse[2,3,6] <= 0
+ R25568: allocated[2,2,6,3,1] - 15 layerInUse[2,3,6] <= 0
+ R25569: allocated[2,2,6,3,2] - 15 layerInUse[2,3,6] <= 0
+ R25570: allocated[2,3,6,3,1] - 15 layerInUse[2,3,6] <= 0
+ R25571: allocated[2,3,6,3,2] - 15 layerInUse[2,3,6] <= 0
+ R25572: allocated[2,4,6,3,1] - 15 layerInUse[2,3,6] <= 0
+ R25573: allocated[2,4,6,3,2] - 15 layerInUse[2,3,6] <= 0
+ R25574: allocated[2,1,1,4,1] - 15 layerInUse[2,4,1] <= 0
+ R25575: allocated[2,1,1,4,2] - 15 layerInUse[2,4,1] <= 0
+ R25576: allocated[2,2,1,4,1] - 15 layerInUse[2,4,1] <= 0
+ R25577: allocated[2,2,1,4,2] - 15 layerInUse[2,4,1] <= 0
+ R25578: allocated[2,3,1,4,1] - 15 layerInUse[2,4,1] <= 0
+ R25579: allocated[2,3,1,4,2] - 15 layerInUse[2,4,1] <= 0
+ R25580: allocated[2,4,1,4,1] - 15 layerInUse[2,4,1] <= 0
+ R25581: allocated[2,4,1,4,2] - 15 layerInUse[2,4,1] <= 0
+ R25582: allocated[2,1,2,4,1] - 15 layerInUse[2,4,2] <= 0
+ R25583: allocated[2,1,2,4,2] - 15 layerInUse[2,4,2] <= 0
+ R25584: allocated[2,2,2,4,1] - 15 layerInUse[2,4,2] <= 0
+ R25585: allocated[2,2,2,4,2] - 15 layerInUse[2,4,2] <= 0
+ R25586: allocated[2,3,2,4,1] - 15 layerInUse[2,4,2] <= 0
+ R25587: allocated[2,3,2,4,2] - 15 layerInUse[2,4,2] <= 0
+ R25588: allocated[2,4,2,4,1] - 15 layerInUse[2,4,2] <= 0
+ R25589: allocated[2,4,2,4,2] - 15 layerInUse[2,4,2] <= 0
+ R25590: allocated[2,1,3,4,1] - 15 layerInUse[2,4,3] <= 0
+ R25591: allocated[2,1,3,4,2] - 15 layerInUse[2,4,3] <= 0
+ R25592: allocated[2,2,3,4,1] - 15 layerInUse[2,4,3] <= 0
+ R25593: allocated[2,2,3,4,2] - 15 layerInUse[2,4,3] <= 0
+ R25594: allocated[2,3,3,4,1] - 15 layerInUse[2,4,3] <= 0
+ R25595: allocated[2,3,3,4,2] - 15 layerInUse[2,4,3] <= 0
+ R25596: allocated[2,4,3,4,1] - 15 layerInUse[2,4,3] <= 0
+ R25597: allocated[2,4,3,4,2] - 15 layerInUse[2,4,3] <= 0
+ R25598: allocated[2,1,4,4,1] - 15 layerInUse[2,4,4] <= 0
+ R25599: allocated[2,1,4,4,2] - 15 layerInUse[2,4,4] <= 0
+ R25600: allocated[2,2,4,4,1] - 15 layerInUse[2,4,4] <= 0
+ R25601: allocated[2,2,4,4,2] - 15 layerInUse[2,4,4] <= 0
+ R25602: allocated[2,3,4,4,1] - 15 layerInUse[2,4,4] <= 0
+ R25603: allocated[2,3,4,4,2] - 15 layerInUse[2,4,4] <= 0
+ R25604: allocated[2,4,4,4,1] - 15 layerInUse[2,4,4] <= 0
+ R25605: allocated[2,4,4,4,2] - 15 layerInUse[2,4,4] <= 0
+ R25606: allocated[2,1,5,4,1] - 15 layerInUse[2,4,5] <= 0
+ R25607: allocated[2,1,5,4,2] - 15 layerInUse[2,4,5] <= 0
+ R25608: allocated[2,2,5,4,1] - 15 layerInUse[2,4,5] <= 0
+ R25609: allocated[2,2,5,4,2] - 15 layerInUse[2,4,5] <= 0
+ R25610: allocated[2,3,5,4,1] - 15 layerInUse[2,4,5] <= 0
+ R25611: allocated[2,3,5,4,2] - 15 layerInUse[2,4,5] <= 0
+ R25612: allocated[2,4,5,4,1] - 15 layerInUse[2,4,5] <= 0
+ R25613: allocated[2,4,5,4,2] - 15 layerInUse[2,4,5] <= 0
+ R25614: allocated[2,1,6,4,1] - 15 layerInUse[2,4,6] <= 0
+ R25615: allocated[2,1,6,4,2] - 15 layerInUse[2,4,6] <= 0
+ R25616: allocated[2,2,6,4,1] - 15 layerInUse[2,4,6] <= 0
+ R25617: allocated[2,2,6,4,2] - 15 layerInUse[2,4,6] <= 0
+ R25618: allocated[2,3,6,4,1] - 15 layerInUse[2,4,6] <= 0
+ R25619: allocated[2,3,6,4,2] - 15 layerInUse[2,4,6] <= 0
+ R25620: allocated[2,4,6,4,1] - 15 layerInUse[2,4,6] <= 0
+ R25621: allocated[2,4,6,4,2] - 15 layerInUse[2,4,6] <= 0
+ R25622: allocated[2,1,1,5,1] - 15 layerInUse[2,5,1] <= 0
+ R25623: allocated[2,1,1,5,2] - 15 layerInUse[2,5,1] <= 0
+ R25624: allocated[2,2,1,5,1] - 15 layerInUse[2,5,1] <= 0
+ R25625: allocated[2,2,1,5,2] - 15 layerInUse[2,5,1] <= 0
+ R25626: allocated[2,3,1,5,1] - 15 layerInUse[2,5,1] <= 0
+ R25627: allocated[2,3,1,5,2] - 15 layerInUse[2,5,1] <= 0
+ R25628: allocated[2,4,1,5,1] - 15 layerInUse[2,5,1] <= 0
+ R25629: allocated[2,4,1,5,2] - 15 layerInUse[2,5,1] <= 0
+ R25630: allocated[2,1,2,5,1] - 15 layerInUse[2,5,2] <= 0
+ R25631: allocated[2,1,2,5,2] - 15 layerInUse[2,5,2] <= 0
+ R25632: allocated[2,2,2,5,1] - 15 layerInUse[2,5,2] <= 0
+ R25633: allocated[2,2,2,5,2] - 15 layerInUse[2,5,2] <= 0
+ R25634: allocated[2,3,2,5,1] - 15 layerInUse[2,5,2] <= 0
+ R25635: allocated[2,3,2,5,2] - 15 layerInUse[2,5,2] <= 0
+ R25636: allocated[2,4,2,5,1] - 15 layerInUse[2,5,2] <= 0
+ R25637: allocated[2,4,2,5,2] - 15 layerInUse[2,5,2] <= 0
+ R25638: allocated[2,1,3,5,1] - 15 layerInUse[2,5,3] <= 0
+ R25639: allocated[2,1,3,5,2] - 15 layerInUse[2,5,3] <= 0
+ R25640: allocated[2,2,3,5,1] - 15 layerInUse[2,5,3] <= 0
+ R25641: allocated[2,2,3,5,2] - 15 layerInUse[2,5,3] <= 0
+ R25642: allocated[2,3,3,5,1] - 15 layerInUse[2,5,3] <= 0
+ R25643: allocated[2,3,3,5,2] - 15 layerInUse[2,5,3] <= 0
+ R25644: allocated[2,4,3,5,1] - 15 layerInUse[2,5,3] <= 0
+ R25645: allocated[2,4,3,5,2] - 15 layerInUse[2,5,3] <= 0
+ R25646: allocated[2,1,4,5,1] - 15 layerInUse[2,5,4] <= 0
+ R25647: allocated[2,1,4,5,2] - 15 layerInUse[2,5,4] <= 0
+ R25648: allocated[2,2,4,5,1] - 15 layerInUse[2,5,4] <= 0
+ R25649: allocated[2,2,4,5,2] - 15 layerInUse[2,5,4] <= 0
+ R25650: allocated[2,3,4,5,1] - 15 layerInUse[2,5,4] <= 0
+ R25651: allocated[2,3,4,5,2] - 15 layerInUse[2,5,4] <= 0
+ R25652: allocated[2,4,4,5,1] - 15 layerInUse[2,5,4] <= 0
+ R25653: allocated[2,4,4,5,2] - 15 layerInUse[2,5,4] <= 0
+ R25654: allocated[2,1,5,5,1] - 15 layerInUse[2,5,5] <= 0
+ R25655: allocated[2,1,5,5,2] - 15 layerInUse[2,5,5] <= 0
+ R25656: allocated[2,2,5,5,1] - 15 layerInUse[2,5,5] <= 0
+ R25657: allocated[2,2,5,5,2] - 15 layerInUse[2,5,5] <= 0
+ R25658: allocated[2,3,5,5,1] - 15 layerInUse[2,5,5] <= 0
+ R25659: allocated[2,3,5,5,2] - 15 layerInUse[2,5,5] <= 0
+ R25660: allocated[2,4,5,5,1] - 15 layerInUse[2,5,5] <= 0
+ R25661: allocated[2,4,5,5,2] - 15 layerInUse[2,5,5] <= 0
+ R25662: allocated[2,1,6,5,1] - 15 layerInUse[2,5,6] <= 0
+ R25663: allocated[2,1,6,5,2] - 15 layerInUse[2,5,6] <= 0
+ R25664: allocated[2,2,6,5,1] - 15 layerInUse[2,5,6] <= 0
+ R25665: allocated[2,2,6,5,2] - 15 layerInUse[2,5,6] <= 0
+ R25666: allocated[2,3,6,5,1] - 15 layerInUse[2,5,6] <= 0
+ R25667: allocated[2,3,6,5,2] - 15 layerInUse[2,5,6] <= 0
+ R25668: allocated[2,4,6,5,1] - 15 layerInUse[2,5,6] <= 0
+ R25669: allocated[2,4,6,5,2] - 15 layerInUse[2,5,6] <= 0
+ R25670: allocated[2,1,1,6,1] - 15 layerInUse[2,6,1] <= 0
+ R25671: allocated[2,1,1,6,2] - 15 layerInUse[2,6,1] <= 0
+ R25672: allocated[2,2,1,6,1] - 15 layerInUse[2,6,1] <= 0
+ R25673: allocated[2,2,1,6,2] - 15 layerInUse[2,6,1] <= 0
+ R25674: allocated[2,3,1,6,1] - 15 layerInUse[2,6,1] <= 0
+ R25675: allocated[2,3,1,6,2] - 15 layerInUse[2,6,1] <= 0
+ R25676: allocated[2,4,1,6,1] - 15 layerInUse[2,6,1] <= 0
+ R25677: allocated[2,4,1,6,2] - 15 layerInUse[2,6,1] <= 0
+ R25678: allocated[2,1,2,6,1] - 15 layerInUse[2,6,2] <= 0
+ R25679: allocated[2,1,2,6,2] - 15 layerInUse[2,6,2] <= 0
+ R25680: allocated[2,2,2,6,1] - 15 layerInUse[2,6,2] <= 0
+ R25681: allocated[2,2,2,6,2] - 15 layerInUse[2,6,2] <= 0
+ R25682: allocated[2,3,2,6,1] - 15 layerInUse[2,6,2] <= 0
+ R25683: allocated[2,3,2,6,2] - 15 layerInUse[2,6,2] <= 0
+ R25684: allocated[2,4,2,6,1] - 15 layerInUse[2,6,2] <= 0
+ R25685: allocated[2,4,2,6,2] - 15 layerInUse[2,6,2] <= 0
+ R25686: allocated[2,1,3,6,1] - 15 layerInUse[2,6,3] <= 0
+ R25687: allocated[2,1,3,6,2] - 15 layerInUse[2,6,3] <= 0
+ R25688: allocated[2,2,3,6,1] - 15 layerInUse[2,6,3] <= 0
+ R25689: allocated[2,2,3,6,2] - 15 layerInUse[2,6,3] <= 0
+ R25690: allocated[2,3,3,6,1] - 15 layerInUse[2,6,3] <= 0
+ R25691: allocated[2,3,3,6,2] - 15 layerInUse[2,6,3] <= 0
+ R25692: allocated[2,4,3,6,1] - 15 layerInUse[2,6,3] <= 0
+ R25693: allocated[2,4,3,6,2] - 15 layerInUse[2,6,3] <= 0
+ R25694: allocated[2,1,4,6,1] - 15 layerInUse[2,6,4] <= 0
+ R25695: allocated[2,1,4,6,2] - 15 layerInUse[2,6,4] <= 0
+ R25696: allocated[2,2,4,6,1] - 15 layerInUse[2,6,4] <= 0
+ R25697: allocated[2,2,4,6,2] - 15 layerInUse[2,6,4] <= 0
+ R25698: allocated[2,3,4,6,1] - 15 layerInUse[2,6,4] <= 0
+ R25699: allocated[2,3,4,6,2] - 15 layerInUse[2,6,4] <= 0
+ R25700: allocated[2,4,4,6,1] - 15 layerInUse[2,6,4] <= 0
+ R25701: allocated[2,4,4,6,2] - 15 layerInUse[2,6,4] <= 0
+ R25702: allocated[2,1,5,6,1] - 15 layerInUse[2,6,5] <= 0
+ R25703: allocated[2,1,5,6,2] - 15 layerInUse[2,6,5] <= 0
+ R25704: allocated[2,2,5,6,1] - 15 layerInUse[2,6,5] <= 0
+ R25705: allocated[2,2,5,6,2] - 15 layerInUse[2,6,5] <= 0
+ R25706: allocated[2,3,5,6,1] - 15 layerInUse[2,6,5] <= 0
+ R25707: allocated[2,3,5,6,2] - 15 layerInUse[2,6,5] <= 0
+ R25708: allocated[2,4,5,6,1] - 15 layerInUse[2,6,5] <= 0
+ R25709: allocated[2,4,5,6,2] - 15 layerInUse[2,6,5] <= 0
+ R25710: allocated[2,1,6,6,1] - 15 layerInUse[2,6,6] <= 0
+ R25711: allocated[2,1,6,6,2] - 15 layerInUse[2,6,6] <= 0
+ R25712: allocated[2,2,6,6,1] - 15 layerInUse[2,6,6] <= 0
+ R25713: allocated[2,2,6,6,2] - 15 layerInUse[2,6,6] <= 0
+ R25714: allocated[2,3,6,6,1] - 15 layerInUse[2,6,6] <= 0
+ R25715: allocated[2,3,6,6,2] - 15 layerInUse[2,6,6] <= 0
+ R25716: allocated[2,4,6,6,1] - 15 layerInUse[2,6,6] <= 0
+ R25717: allocated[2,4,6,6,2] - 15 layerInUse[2,6,6] <= 0
+ R25718: allocated[2,1,1,7,1] - 15 layerInUse[2,7,1] <= 0
+ R25719: allocated[2,1,1,7,2] - 15 layerInUse[2,7,1] <= 0
+ R25720: allocated[2,2,1,7,1] - 15 layerInUse[2,7,1] <= 0
+ R25721: allocated[2,2,1,7,2] - 15 layerInUse[2,7,1] <= 0
+ R25722: allocated[2,3,1,7,1] - 15 layerInUse[2,7,1] <= 0
+ R25723: allocated[2,3,1,7,2] - 15 layerInUse[2,7,1] <= 0
+ R25724: allocated[2,4,1,7,1] - 15 layerInUse[2,7,1] <= 0
+ R25725: allocated[2,4,1,7,2] - 15 layerInUse[2,7,1] <= 0
+ R25726: allocated[2,1,2,7,1] - 15 layerInUse[2,7,2] <= 0
+ R25727: allocated[2,1,2,7,2] - 15 layerInUse[2,7,2] <= 0
+ R25728: allocated[2,2,2,7,1] - 15 layerInUse[2,7,2] <= 0
+ R25729: allocated[2,2,2,7,2] - 15 layerInUse[2,7,2] <= 0
+ R25730: allocated[2,3,2,7,1] - 15 layerInUse[2,7,2] <= 0
+ R25731: allocated[2,3,2,7,2] - 15 layerInUse[2,7,2] <= 0
+ R25732: allocated[2,4,2,7,1] - 15 layerInUse[2,7,2] <= 0
+ R25733: allocated[2,4,2,7,2] - 15 layerInUse[2,7,2] <= 0
+ R25734: allocated[2,1,3,7,1] - 15 layerInUse[2,7,3] <= 0
+ R25735: allocated[2,1,3,7,2] - 15 layerInUse[2,7,3] <= 0
+ R25736: allocated[2,2,3,7,1] - 15 layerInUse[2,7,3] <= 0
+ R25737: allocated[2,2,3,7,2] - 15 layerInUse[2,7,3] <= 0
+ R25738: allocated[2,3,3,7,1] - 15 layerInUse[2,7,3] <= 0
+ R25739: allocated[2,3,3,7,2] - 15 layerInUse[2,7,3] <= 0
+ R25740: allocated[2,4,3,7,1] - 15 layerInUse[2,7,3] <= 0
+ R25741: allocated[2,4,3,7,2] - 15 layerInUse[2,7,3] <= 0
+ R25742: allocated[2,1,4,7,1] - 15 layerInUse[2,7,4] <= 0
+ R25743: allocated[2,1,4,7,2] - 15 layerInUse[2,7,4] <= 0
+ R25744: allocated[2,2,4,7,1] - 15 layerInUse[2,7,4] <= 0
+ R25745: allocated[2,2,4,7,2] - 15 layerInUse[2,7,4] <= 0
+ R25746: allocated[2,3,4,7,1] - 15 layerInUse[2,7,4] <= 0
+ R25747: allocated[2,3,4,7,2] - 15 layerInUse[2,7,4] <= 0
+ R25748: allocated[2,4,4,7,1] - 15 layerInUse[2,7,4] <= 0
+ R25749: allocated[2,4,4,7,2] - 15 layerInUse[2,7,4] <= 0
+ R25750: allocated[2,1,5,7,1] - 15 layerInUse[2,7,5] <= 0
+ R25751: allocated[2,1,5,7,2] - 15 layerInUse[2,7,5] <= 0
+ R25752: allocated[2,2,5,7,1] - 15 layerInUse[2,7,5] <= 0
+ R25753: allocated[2,2,5,7,2] - 15 layerInUse[2,7,5] <= 0
+ R25754: allocated[2,3,5,7,1] - 15 layerInUse[2,7,5] <= 0
+ R25755: allocated[2,3,5,7,2] - 15 layerInUse[2,7,5] <= 0
+ R25756: allocated[2,4,5,7,1] - 15 layerInUse[2,7,5] <= 0
+ R25757: allocated[2,4,5,7,2] - 15 layerInUse[2,7,5] <= 0
+ R25758: allocated[2,1,6,7,1] - 15 layerInUse[2,7,6] <= 0
+ R25759: allocated[2,1,6,7,2] - 15 layerInUse[2,7,6] <= 0
+ R25760: allocated[2,2,6,7,1] - 15 layerInUse[2,7,6] <= 0
+ R25761: allocated[2,2,6,7,2] - 15 layerInUse[2,7,6] <= 0
+ R25762: allocated[2,3,6,7,1] - 15 layerInUse[2,7,6] <= 0
+ R25763: allocated[2,3,6,7,2] - 15 layerInUse[2,7,6] <= 0
+ R25764: allocated[2,4,6,7,1] - 15 layerInUse[2,7,6] <= 0
+ R25765: allocated[2,4,6,7,2] - 15 layerInUse[2,7,6] <= 0
+ R25766: allocated[2,1,1,8,1] - 15 layerInUse[2,8,1] <= 0
+ R25767: allocated[2,1,1,8,2] - 15 layerInUse[2,8,1] <= 0
+ R25768: allocated[2,2,1,8,1] - 15 layerInUse[2,8,1] <= 0
+ R25769: allocated[2,2,1,8,2] - 15 layerInUse[2,8,1] <= 0
+ R25770: allocated[2,3,1,8,1] - 15 layerInUse[2,8,1] <= 0
+ R25771: allocated[2,3,1,8,2] - 15 layerInUse[2,8,1] <= 0
+ R25772: allocated[2,4,1,8,1] - 15 layerInUse[2,8,1] <= 0
+ R25773: allocated[2,4,1,8,2] - 15 layerInUse[2,8,1] <= 0
+ R25774: allocated[2,1,2,8,1] - 15 layerInUse[2,8,2] <= 0
+ R25775: allocated[2,1,2,8,2] - 15 layerInUse[2,8,2] <= 0
+ R25776: allocated[2,2,2,8,1] - 15 layerInUse[2,8,2] <= 0
+ R25777: allocated[2,2,2,8,2] - 15 layerInUse[2,8,2] <= 0
+ R25778: allocated[2,3,2,8,1] - 15 layerInUse[2,8,2] <= 0
+ R25779: allocated[2,3,2,8,2] - 15 layerInUse[2,8,2] <= 0
+ R25780: allocated[2,4,2,8,1] - 15 layerInUse[2,8,2] <= 0
+ R25781: allocated[2,4,2,8,2] - 15 layerInUse[2,8,2] <= 0
+ R25782: allocated[2,1,3,8,1] - 15 layerInUse[2,8,3] <= 0
+ R25783: allocated[2,1,3,8,2] - 15 layerInUse[2,8,3] <= 0
+ R25784: allocated[2,2,3,8,1] - 15 layerInUse[2,8,3] <= 0
+ R25785: allocated[2,2,3,8,2] - 15 layerInUse[2,8,3] <= 0
+ R25786: allocated[2,3,3,8,1] - 15 layerInUse[2,8,3] <= 0
+ R25787: allocated[2,3,3,8,2] - 15 layerInUse[2,8,3] <= 0
+ R25788: allocated[2,4,3,8,1] - 15 layerInUse[2,8,3] <= 0
+ R25789: allocated[2,4,3,8,2] - 15 layerInUse[2,8,3] <= 0
+ R25790: allocated[2,1,4,8,1] - 15 layerInUse[2,8,4] <= 0
+ R25791: allocated[2,1,4,8,2] - 15 layerInUse[2,8,4] <= 0
+ R25792: allocated[2,2,4,8,1] - 15 layerInUse[2,8,4] <= 0
+ R25793: allocated[2,2,4,8,2] - 15 layerInUse[2,8,4] <= 0
+ R25794: allocated[2,3,4,8,1] - 15 layerInUse[2,8,4] <= 0
+ R25795: allocated[2,3,4,8,2] - 15 layerInUse[2,8,4] <= 0
+ R25796: allocated[2,4,4,8,1] - 15 layerInUse[2,8,4] <= 0
+ R25797: allocated[2,4,4,8,2] - 15 layerInUse[2,8,4] <= 0
+ R25798: allocated[2,1,5,8,1] - 15 layerInUse[2,8,5] <= 0
+ R25799: allocated[2,1,5,8,2] - 15 layerInUse[2,8,5] <= 0
+ R25800: allocated[2,2,5,8,1] - 15 layerInUse[2,8,5] <= 0
+ R25801: allocated[2,2,5,8,2] - 15 layerInUse[2,8,5] <= 0
+ R25802: allocated[2,3,5,8,1] - 15 layerInUse[2,8,5] <= 0
+ R25803: allocated[2,3,5,8,2] - 15 layerInUse[2,8,5] <= 0
+ R25804: allocated[2,4,5,8,1] - 15 layerInUse[2,8,5] <= 0
+ R25805: allocated[2,4,5,8,2] - 15 layerInUse[2,8,5] <= 0
+ R25806: allocated[2,1,6,8,1] - 15 layerInUse[2,8,6] <= 0
+ R25807: allocated[2,1,6,8,2] - 15 layerInUse[2,8,6] <= 0
+ R25808: allocated[2,2,6,8,1] - 15 layerInUse[2,8,6] <= 0
+ R25809: allocated[2,2,6,8,2] - 15 layerInUse[2,8,6] <= 0
+ R25810: allocated[2,3,6,8,1] - 15 layerInUse[2,8,6] <= 0
+ R25811: allocated[2,3,6,8,2] - 15 layerInUse[2,8,6] <= 0
+ R25812: allocated[2,4,6,8,1] - 15 layerInUse[2,8,6] <= 0
+ R25813: allocated[2,4,6,8,2] - 15 layerInUse[2,8,6] <= 0
+ R25814: allocated[3,1,1,1,1] - 15 layerInUse[3,1,1] <= 0
+ R25815: allocated[3,1,1,1,2] - 15 layerInUse[3,1,1] <= 0
+ R25816: allocated[3,2,1,1,1] - 15 layerInUse[3,1,1] <= 0
+ R25817: allocated[3,2,1,1,2] - 15 layerInUse[3,1,1] <= 0
+ R25818: allocated[3,3,1,1,1] - 15 layerInUse[3,1,1] <= 0
+ R25819: allocated[3,3,1,1,2] - 15 layerInUse[3,1,1] <= 0
+ R25820: allocated[3,4,1,1,1] - 15 layerInUse[3,1,1] <= 0
+ R25821: allocated[3,4,1,1,2] - 15 layerInUse[3,1,1] <= 0
+ R25822: allocated[3,1,2,1,1] - 15 layerInUse[3,1,2] <= 0
+ R25823: allocated[3,1,2,1,2] - 15 layerInUse[3,1,2] <= 0
+ R25824: allocated[3,2,2,1,1] - 15 layerInUse[3,1,2] <= 0
+ R25825: allocated[3,2,2,1,2] - 15 layerInUse[3,1,2] <= 0
+ R25826: allocated[3,3,2,1,1] - 15 layerInUse[3,1,2] <= 0
+ R25827: allocated[3,3,2,1,2] - 15 layerInUse[3,1,2] <= 0
+ R25828: allocated[3,4,2,1,1] - 15 layerInUse[3,1,2] <= 0
+ R25829: allocated[3,4,2,1,2] - 15 layerInUse[3,1,2] <= 0
+ R25830: allocated[3,1,3,1,1] - 15 layerInUse[3,1,3] <= 0
+ R25831: allocated[3,1,3,1,2] - 15 layerInUse[3,1,3] <= 0
+ R25832: allocated[3,2,3,1,1] - 15 layerInUse[3,1,3] <= 0
+ R25833: allocated[3,2,3,1,2] - 15 layerInUse[3,1,3] <= 0
+ R25834: allocated[3,3,3,1,1] - 15 layerInUse[3,1,3] <= 0
+ R25835: allocated[3,3,3,1,2] - 15 layerInUse[3,1,3] <= 0
+ R25836: allocated[3,4,3,1,1] - 15 layerInUse[3,1,3] <= 0
+ R25837: allocated[3,4,3,1,2] - 15 layerInUse[3,1,3] <= 0
+ R25838: allocated[3,1,4,1,1] - 15 layerInUse[3,1,4] <= 0
+ R25839: allocated[3,1,4,1,2] - 15 layerInUse[3,1,4] <= 0
+ R25840: allocated[3,2,4,1,1] - 15 layerInUse[3,1,4] <= 0
+ R25841: allocated[3,2,4,1,2] - 15 layerInUse[3,1,4] <= 0
+ R25842: allocated[3,3,4,1,1] - 15 layerInUse[3,1,4] <= 0
+ R25843: allocated[3,3,4,1,2] - 15 layerInUse[3,1,4] <= 0
+ R25844: allocated[3,4,4,1,1] - 15 layerInUse[3,1,4] <= 0
+ R25845: allocated[3,4,4,1,2] - 15 layerInUse[3,1,4] <= 0
+ R25846: allocated[3,1,5,1,1] - 15 layerInUse[3,1,5] <= 0
+ R25847: allocated[3,1,5,1,2] - 15 layerInUse[3,1,5] <= 0
+ R25848: allocated[3,2,5,1,1] - 15 layerInUse[3,1,5] <= 0
+ R25849: allocated[3,2,5,1,2] - 15 layerInUse[3,1,5] <= 0
+ R25850: allocated[3,3,5,1,1] - 15 layerInUse[3,1,5] <= 0
+ R25851: allocated[3,3,5,1,2] - 15 layerInUse[3,1,5] <= 0
+ R25852: allocated[3,4,5,1,1] - 15 layerInUse[3,1,5] <= 0
+ R25853: allocated[3,4,5,1,2] - 15 layerInUse[3,1,5] <= 0
+ R25854: allocated[3,1,6,1,1] - 15 layerInUse[3,1,6] <= 0
+ R25855: allocated[3,1,6,1,2] - 15 layerInUse[3,1,6] <= 0
+ R25856: allocated[3,2,6,1,1] - 15 layerInUse[3,1,6] <= 0
+ R25857: allocated[3,2,6,1,2] - 15 layerInUse[3,1,6] <= 0
+ R25858: allocated[3,3,6,1,1] - 15 layerInUse[3,1,6] <= 0
+ R25859: allocated[3,3,6,1,2] - 15 layerInUse[3,1,6] <= 0
+ R25860: allocated[3,4,6,1,1] - 15 layerInUse[3,1,6] <= 0
+ R25861: allocated[3,4,6,1,2] - 15 layerInUse[3,1,6] <= 0
+ R25862: allocated[3,1,1,2,1] - 15 layerInUse[3,2,1] <= 0
+ R25863: allocated[3,1,1,2,2] - 15 layerInUse[3,2,1] <= 0
+ R25864: allocated[3,2,1,2,1] - 15 layerInUse[3,2,1] <= 0
+ R25865: allocated[3,2,1,2,2] - 15 layerInUse[3,2,1] <= 0
+ R25866: allocated[3,3,1,2,1] - 15 layerInUse[3,2,1] <= 0
+ R25867: allocated[3,3,1,2,2] - 15 layerInUse[3,2,1] <= 0
+ R25868: allocated[3,4,1,2,1] - 15 layerInUse[3,2,1] <= 0
+ R25869: allocated[3,4,1,2,2] - 15 layerInUse[3,2,1] <= 0
+ R25870: allocated[3,1,2,2,1] - 15 layerInUse[3,2,2] <= 0
+ R25871: allocated[3,1,2,2,2] - 15 layerInUse[3,2,2] <= 0
+ R25872: allocated[3,2,2,2,1] - 15 layerInUse[3,2,2] <= 0
+ R25873: allocated[3,2,2,2,2] - 15 layerInUse[3,2,2] <= 0
+ R25874: allocated[3,3,2,2,1] - 15 layerInUse[3,2,2] <= 0
+ R25875: allocated[3,3,2,2,2] - 15 layerInUse[3,2,2] <= 0
+ R25876: allocated[3,4,2,2,1] - 15 layerInUse[3,2,2] <= 0
+ R25877: allocated[3,4,2,2,2] - 15 layerInUse[3,2,2] <= 0
+ R25878: allocated[3,1,3,2,1] - 15 layerInUse[3,2,3] <= 0
+ R25879: allocated[3,1,3,2,2] - 15 layerInUse[3,2,3] <= 0
+ R25880: allocated[3,2,3,2,1] - 15 layerInUse[3,2,3] <= 0
+ R25881: allocated[3,2,3,2,2] - 15 layerInUse[3,2,3] <= 0
+ R25882: allocated[3,3,3,2,1] - 15 layerInUse[3,2,3] <= 0
+ R25883: allocated[3,3,3,2,2] - 15 layerInUse[3,2,3] <= 0
+ R25884: allocated[3,4,3,2,1] - 15 layerInUse[3,2,3] <= 0
+ R25885: allocated[3,4,3,2,2] - 15 layerInUse[3,2,3] <= 0
+ R25886: allocated[3,1,4,2,1] - 15 layerInUse[3,2,4] <= 0
+ R25887: allocated[3,1,4,2,2] - 15 layerInUse[3,2,4] <= 0
+ R25888: allocated[3,2,4,2,1] - 15 layerInUse[3,2,4] <= 0
+ R25889: allocated[3,2,4,2,2] - 15 layerInUse[3,2,4] <= 0
+ R25890: allocated[3,3,4,2,1] - 15 layerInUse[3,2,4] <= 0
+ R25891: allocated[3,3,4,2,2] - 15 layerInUse[3,2,4] <= 0
+ R25892: allocated[3,4,4,2,1] - 15 layerInUse[3,2,4] <= 0
+ R25893: allocated[3,4,4,2,2] - 15 layerInUse[3,2,4] <= 0
+ R25894: allocated[3,1,5,2,1] - 15 layerInUse[3,2,5] <= 0
+ R25895: allocated[3,1,5,2,2] - 15 layerInUse[3,2,5] <= 0
+ R25896: allocated[3,2,5,2,1] - 15 layerInUse[3,2,5] <= 0
+ R25897: allocated[3,2,5,2,2] - 15 layerInUse[3,2,5] <= 0
+ R25898: allocated[3,3,5,2,1] - 15 layerInUse[3,2,5] <= 0
+ R25899: allocated[3,3,5,2,2] - 15 layerInUse[3,2,5] <= 0
+ R25900: allocated[3,4,5,2,1] - 15 layerInUse[3,2,5] <= 0
+ R25901: allocated[3,4,5,2,2] - 15 layerInUse[3,2,5] <= 0
+ R25902: allocated[3,1,6,2,1] - 15 layerInUse[3,2,6] <= 0
+ R25903: allocated[3,1,6,2,2] - 15 layerInUse[3,2,6] <= 0
+ R25904: allocated[3,2,6,2,1] - 15 layerInUse[3,2,6] <= 0
+ R25905: allocated[3,2,6,2,2] - 15 layerInUse[3,2,6] <= 0
+ R25906: allocated[3,3,6,2,1] - 15 layerInUse[3,2,6] <= 0
+ R25907: allocated[3,3,6,2,2] - 15 layerInUse[3,2,6] <= 0
+ R25908: allocated[3,4,6,2,1] - 15 layerInUse[3,2,6] <= 0
+ R25909: allocated[3,4,6,2,2] - 15 layerInUse[3,2,6] <= 0
+ R25910: allocated[3,1,1,3,1] - 15 layerInUse[3,3,1] <= 0
+ R25911: allocated[3,1,1,3,2] - 15 layerInUse[3,3,1] <= 0
+ R25912: allocated[3,2,1,3,1] - 15 layerInUse[3,3,1] <= 0
+ R25913: allocated[3,2,1,3,2] - 15 layerInUse[3,3,1] <= 0
+ R25914: allocated[3,3,1,3,1] - 15 layerInUse[3,3,1] <= 0
+ R25915: allocated[3,3,1,3,2] - 15 layerInUse[3,3,1] <= 0
+ R25916: allocated[3,4,1,3,1] - 15 layerInUse[3,3,1] <= 0
+ R25917: allocated[3,4,1,3,2] - 15 layerInUse[3,3,1] <= 0
+ R25918: allocated[3,1,2,3,1] - 15 layerInUse[3,3,2] <= 0
+ R25919: allocated[3,1,2,3,2] - 15 layerInUse[3,3,2] <= 0
+ R25920: allocated[3,2,2,3,1] - 15 layerInUse[3,3,2] <= 0
+ R25921: allocated[3,2,2,3,2] - 15 layerInUse[3,3,2] <= 0
+ R25922: allocated[3,3,2,3,1] - 15 layerInUse[3,3,2] <= 0
+ R25923: allocated[3,3,2,3,2] - 15 layerInUse[3,3,2] <= 0
+ R25924: allocated[3,4,2,3,1] - 15 layerInUse[3,3,2] <= 0
+ R25925: allocated[3,4,2,3,2] - 15 layerInUse[3,3,2] <= 0
+ R25926: allocated[3,1,3,3,1] - 15 layerInUse[3,3,3] <= 0
+ R25927: allocated[3,1,3,3,2] - 15 layerInUse[3,3,3] <= 0
+ R25928: allocated[3,2,3,3,1] - 15 layerInUse[3,3,3] <= 0
+ R25929: allocated[3,2,3,3,2] - 15 layerInUse[3,3,3] <= 0
+ R25930: allocated[3,3,3,3,1] - 15 layerInUse[3,3,3] <= 0
+ R25931: allocated[3,3,3,3,2] - 15 layerInUse[3,3,3] <= 0
+ R25932: allocated[3,4,3,3,1] - 15 layerInUse[3,3,3] <= 0
+ R25933: allocated[3,4,3,3,2] - 15 layerInUse[3,3,3] <= 0
+ R25934: allocated[3,1,4,3,1] - 15 layerInUse[3,3,4] <= 0
+ R25935: allocated[3,1,4,3,2] - 15 layerInUse[3,3,4] <= 0
+ R25936: allocated[3,2,4,3,1] - 15 layerInUse[3,3,4] <= 0
+ R25937: allocated[3,2,4,3,2] - 15 layerInUse[3,3,4] <= 0
+ R25938: allocated[3,3,4,3,1] - 15 layerInUse[3,3,4] <= 0
+ R25939: allocated[3,3,4,3,2] - 15 layerInUse[3,3,4] <= 0
+ R25940: allocated[3,4,4,3,1] - 15 layerInUse[3,3,4] <= 0
+ R25941: allocated[3,4,4,3,2] - 15 layerInUse[3,3,4] <= 0
+ R25942: allocated[3,1,5,3,1] - 15 layerInUse[3,3,5] <= 0
+ R25943: allocated[3,1,5,3,2] - 15 layerInUse[3,3,5] <= 0
+ R25944: allocated[3,2,5,3,1] - 15 layerInUse[3,3,5] <= 0
+ R25945: allocated[3,2,5,3,2] - 15 layerInUse[3,3,5] <= 0
+ R25946: allocated[3,3,5,3,1] - 15 layerInUse[3,3,5] <= 0
+ R25947: allocated[3,3,5,3,2] - 15 layerInUse[3,3,5] <= 0
+ R25948: allocated[3,4,5,3,1] - 15 layerInUse[3,3,5] <= 0
+ R25949: allocated[3,4,5,3,2] - 15 layerInUse[3,3,5] <= 0
+ R25950: allocated[3,1,6,3,1] - 15 layerInUse[3,3,6] <= 0
+ R25951: allocated[3,1,6,3,2] - 15 layerInUse[3,3,6] <= 0
+ R25952: allocated[3,2,6,3,1] - 15 layerInUse[3,3,6] <= 0
+ R25953: allocated[3,2,6,3,2] - 15 layerInUse[3,3,6] <= 0
+ R25954: allocated[3,3,6,3,1] - 15 layerInUse[3,3,6] <= 0
+ R25955: allocated[3,3,6,3,2] - 15 layerInUse[3,3,6] <= 0
+ R25956: allocated[3,4,6,3,1] - 15 layerInUse[3,3,6] <= 0
+ R25957: allocated[3,4,6,3,2] - 15 layerInUse[3,3,6] <= 0
+ R25958: allocated[3,1,1,4,1] - 15 layerInUse[3,4,1] <= 0
+ R25959: allocated[3,1,1,4,2] - 15 layerInUse[3,4,1] <= 0
+ R25960: allocated[3,2,1,4,1] - 15 layerInUse[3,4,1] <= 0
+ R25961: allocated[3,2,1,4,2] - 15 layerInUse[3,4,1] <= 0
+ R25962: allocated[3,3,1,4,1] - 15 layerInUse[3,4,1] <= 0
+ R25963: allocated[3,3,1,4,2] - 15 layerInUse[3,4,1] <= 0
+ R25964: allocated[3,4,1,4,1] - 15 layerInUse[3,4,1] <= 0
+ R25965: allocated[3,4,1,4,2] - 15 layerInUse[3,4,1] <= 0
+ R25966: allocated[3,1,2,4,1] - 15 layerInUse[3,4,2] <= 0
+ R25967: allocated[3,1,2,4,2] - 15 layerInUse[3,4,2] <= 0
+ R25968: allocated[3,2,2,4,1] - 15 layerInUse[3,4,2] <= 0
+ R25969: allocated[3,2,2,4,2] - 15 layerInUse[3,4,2] <= 0
+ R25970: allocated[3,3,2,4,1] - 15 layerInUse[3,4,2] <= 0
+ R25971: allocated[3,3,2,4,2] - 15 layerInUse[3,4,2] <= 0
+ R25972: allocated[3,4,2,4,1] - 15 layerInUse[3,4,2] <= 0
+ R25973: allocated[3,4,2,4,2] - 15 layerInUse[3,4,2] <= 0
+ R25974: allocated[3,1,3,4,1] - 15 layerInUse[3,4,3] <= 0
+ R25975: allocated[3,1,3,4,2] - 15 layerInUse[3,4,3] <= 0
+ R25976: allocated[3,2,3,4,1] - 15 layerInUse[3,4,3] <= 0
+ R25977: allocated[3,2,3,4,2] - 15 layerInUse[3,4,3] <= 0
+ R25978: allocated[3,3,3,4,1] - 15 layerInUse[3,4,3] <= 0
+ R25979: allocated[3,3,3,4,2] - 15 layerInUse[3,4,3] <= 0
+ R25980: allocated[3,4,3,4,1] - 15 layerInUse[3,4,3] <= 0
+ R25981: allocated[3,4,3,4,2] - 15 layerInUse[3,4,3] <= 0
+ R25982: allocated[3,1,4,4,1] - 15 layerInUse[3,4,4] <= 0
+ R25983: allocated[3,1,4,4,2] - 15 layerInUse[3,4,4] <= 0
+ R25984: allocated[3,2,4,4,1] - 15 layerInUse[3,4,4] <= 0
+ R25985: allocated[3,2,4,4,2] - 15 layerInUse[3,4,4] <= 0
+ R25986: allocated[3,3,4,4,1] - 15 layerInUse[3,4,4] <= 0
+ R25987: allocated[3,3,4,4,2] - 15 layerInUse[3,4,4] <= 0
+ R25988: allocated[3,4,4,4,1] - 15 layerInUse[3,4,4] <= 0
+ R25989: allocated[3,4,4,4,2] - 15 layerInUse[3,4,4] <= 0
+ R25990: allocated[3,1,5,4,1] - 15 layerInUse[3,4,5] <= 0
+ R25991: allocated[3,1,5,4,2] - 15 layerInUse[3,4,5] <= 0
+ R25992: allocated[3,2,5,4,1] - 15 layerInUse[3,4,5] <= 0
+ R25993: allocated[3,2,5,4,2] - 15 layerInUse[3,4,5] <= 0
+ R25994: allocated[3,3,5,4,1] - 15 layerInUse[3,4,5] <= 0
+ R25995: allocated[3,3,5,4,2] - 15 layerInUse[3,4,5] <= 0
+ R25996: allocated[3,4,5,4,1] - 15 layerInUse[3,4,5] <= 0
+ R25997: allocated[3,4,5,4,2] - 15 layerInUse[3,4,5] <= 0
+ R25998: allocated[3,1,6,4,1] - 15 layerInUse[3,4,6] <= 0
+ R25999: allocated[3,1,6,4,2] - 15 layerInUse[3,4,6] <= 0
+ R26000: allocated[3,2,6,4,1] - 15 layerInUse[3,4,6] <= 0
+ R26001: allocated[3,2,6,4,2] - 15 layerInUse[3,4,6] <= 0
+ R26002: allocated[3,3,6,4,1] - 15 layerInUse[3,4,6] <= 0
+ R26003: allocated[3,3,6,4,2] - 15 layerInUse[3,4,6] <= 0
+ R26004: allocated[3,4,6,4,1] - 15 layerInUse[3,4,6] <= 0
+ R26005: allocated[3,4,6,4,2] - 15 layerInUse[3,4,6] <= 0
+ R26006: allocated[3,1,1,5,1] - 15 layerInUse[3,5,1] <= 0
+ R26007: allocated[3,1,1,5,2] - 15 layerInUse[3,5,1] <= 0
+ R26008: allocated[3,2,1,5,1] - 15 layerInUse[3,5,1] <= 0
+ R26009: allocated[3,2,1,5,2] - 15 layerInUse[3,5,1] <= 0
+ R26010: allocated[3,3,1,5,1] - 15 layerInUse[3,5,1] <= 0
+ R26011: allocated[3,3,1,5,2] - 15 layerInUse[3,5,1] <= 0
+ R26012: allocated[3,4,1,5,1] - 15 layerInUse[3,5,1] <= 0
+ R26013: allocated[3,4,1,5,2] - 15 layerInUse[3,5,1] <= 0
+ R26014: allocated[3,1,2,5,1] - 15 layerInUse[3,5,2] <= 0
+ R26015: allocated[3,1,2,5,2] - 15 layerInUse[3,5,2] <= 0
+ R26016: allocated[3,2,2,5,1] - 15 layerInUse[3,5,2] <= 0
+ R26017: allocated[3,2,2,5,2] - 15 layerInUse[3,5,2] <= 0
+ R26018: allocated[3,3,2,5,1] - 15 layerInUse[3,5,2] <= 0
+ R26019: allocated[3,3,2,5,2] - 15 layerInUse[3,5,2] <= 0
+ R26020: allocated[3,4,2,5,1] - 15 layerInUse[3,5,2] <= 0
+ R26021: allocated[3,4,2,5,2] - 15 layerInUse[3,5,2] <= 0
+ R26022: allocated[3,1,3,5,1] - 15 layerInUse[3,5,3] <= 0
+ R26023: allocated[3,1,3,5,2] - 15 layerInUse[3,5,3] <= 0
+ R26024: allocated[3,2,3,5,1] - 15 layerInUse[3,5,3] <= 0
+ R26025: allocated[3,2,3,5,2] - 15 layerInUse[3,5,3] <= 0
+ R26026: allocated[3,3,3,5,1] - 15 layerInUse[3,5,3] <= 0
+ R26027: allocated[3,3,3,5,2] - 15 layerInUse[3,5,3] <= 0
+ R26028: allocated[3,4,3,5,1] - 15 layerInUse[3,5,3] <= 0
+ R26029: allocated[3,4,3,5,2] - 15 layerInUse[3,5,3] <= 0
+ R26030: allocated[3,1,4,5,1] - 15 layerInUse[3,5,4] <= 0
+ R26031: allocated[3,1,4,5,2] - 15 layerInUse[3,5,4] <= 0
+ R26032: allocated[3,2,4,5,1] - 15 layerInUse[3,5,4] <= 0
+ R26033: allocated[3,2,4,5,2] - 15 layerInUse[3,5,4] <= 0
+ R26034: allocated[3,3,4,5,1] - 15 layerInUse[3,5,4] <= 0
+ R26035: allocated[3,3,4,5,2] - 15 layerInUse[3,5,4] <= 0
+ R26036: allocated[3,4,4,5,1] - 15 layerInUse[3,5,4] <= 0
+ R26037: allocated[3,4,4,5,2] - 15 layerInUse[3,5,4] <= 0
+ R26038: allocated[3,1,5,5,1] - 15 layerInUse[3,5,5] <= 0
+ R26039: allocated[3,1,5,5,2] - 15 layerInUse[3,5,5] <= 0
+ R26040: allocated[3,2,5,5,1] - 15 layerInUse[3,5,5] <= 0
+ R26041: allocated[3,2,5,5,2] - 15 layerInUse[3,5,5] <= 0
+ R26042: allocated[3,3,5,5,1] - 15 layerInUse[3,5,5] <= 0
+ R26043: allocated[3,3,5,5,2] - 15 layerInUse[3,5,5] <= 0
+ R26044: allocated[3,4,5,5,1] - 15 layerInUse[3,5,5] <= 0
+ R26045: allocated[3,4,5,5,2] - 15 layerInUse[3,5,5] <= 0
+ R26046: allocated[3,1,6,5,1] - 15 layerInUse[3,5,6] <= 0
+ R26047: allocated[3,1,6,5,2] - 15 layerInUse[3,5,6] <= 0
+ R26048: allocated[3,2,6,5,1] - 15 layerInUse[3,5,6] <= 0
+ R26049: allocated[3,2,6,5,2] - 15 layerInUse[3,5,6] <= 0
+ R26050: allocated[3,3,6,5,1] - 15 layerInUse[3,5,6] <= 0
+ R26051: allocated[3,3,6,5,2] - 15 layerInUse[3,5,6] <= 0
+ R26052: allocated[3,4,6,5,1] - 15 layerInUse[3,5,6] <= 0
+ R26053: allocated[3,4,6,5,2] - 15 layerInUse[3,5,6] <= 0
+ R26054: allocated[3,1,1,6,1] - 15 layerInUse[3,6,1] <= 0
+ R26055: allocated[3,1,1,6,2] - 15 layerInUse[3,6,1] <= 0
+ R26056: allocated[3,2,1,6,1] - 15 layerInUse[3,6,1] <= 0
+ R26057: allocated[3,2,1,6,2] - 15 layerInUse[3,6,1] <= 0
+ R26058: allocated[3,3,1,6,1] - 15 layerInUse[3,6,1] <= 0
+ R26059: allocated[3,3,1,6,2] - 15 layerInUse[3,6,1] <= 0
+ R26060: allocated[3,4,1,6,1] - 15 layerInUse[3,6,1] <= 0
+ R26061: allocated[3,4,1,6,2] - 15 layerInUse[3,6,1] <= 0
+ R26062: allocated[3,1,2,6,1] - 15 layerInUse[3,6,2] <= 0
+ R26063: allocated[3,1,2,6,2] - 15 layerInUse[3,6,2] <= 0
+ R26064: allocated[3,2,2,6,1] - 15 layerInUse[3,6,2] <= 0
+ R26065: allocated[3,2,2,6,2] - 15 layerInUse[3,6,2] <= 0
+ R26066: allocated[3,3,2,6,1] - 15 layerInUse[3,6,2] <= 0
+ R26067: allocated[3,3,2,6,2] - 15 layerInUse[3,6,2] <= 0
+ R26068: allocated[3,4,2,6,1] - 15 layerInUse[3,6,2] <= 0
+ R26069: allocated[3,4,2,6,2] - 15 layerInUse[3,6,2] <= 0
+ R26070: allocated[3,1,3,6,1] - 15 layerInUse[3,6,3] <= 0
+ R26071: allocated[3,1,3,6,2] - 15 layerInUse[3,6,3] <= 0
+ R26072: allocated[3,2,3,6,1] - 15 layerInUse[3,6,3] <= 0
+ R26073: allocated[3,2,3,6,2] - 15 layerInUse[3,6,3] <= 0
+ R26074: allocated[3,3,3,6,1] - 15 layerInUse[3,6,3] <= 0
+ R26075: allocated[3,3,3,6,2] - 15 layerInUse[3,6,3] <= 0
+ R26076: allocated[3,4,3,6,1] - 15 layerInUse[3,6,3] <= 0
+ R26077: allocated[3,4,3,6,2] - 15 layerInUse[3,6,3] <= 0
+ R26078: allocated[3,1,4,6,1] - 15 layerInUse[3,6,4] <= 0
+ R26079: allocated[3,1,4,6,2] - 15 layerInUse[3,6,4] <= 0
+ R26080: allocated[3,2,4,6,1] - 15 layerInUse[3,6,4] <= 0
+ R26081: allocated[3,2,4,6,2] - 15 layerInUse[3,6,4] <= 0
+ R26082: allocated[3,3,4,6,1] - 15 layerInUse[3,6,4] <= 0
+ R26083: allocated[3,3,4,6,2] - 15 layerInUse[3,6,4] <= 0
+ R26084: allocated[3,4,4,6,1] - 15 layerInUse[3,6,4] <= 0
+ R26085: allocated[3,4,4,6,2] - 15 layerInUse[3,6,4] <= 0
+ R26086: allocated[3,1,5,6,1] - 15 layerInUse[3,6,5] <= 0
+ R26087: allocated[3,1,5,6,2] - 15 layerInUse[3,6,5] <= 0
+ R26088: allocated[3,2,5,6,1] - 15 layerInUse[3,6,5] <= 0
+ R26089: allocated[3,2,5,6,2] - 15 layerInUse[3,6,5] <= 0
+ R26090: allocated[3,3,5,6,1] - 15 layerInUse[3,6,5] <= 0
+ R26091: allocated[3,3,5,6,2] - 15 layerInUse[3,6,5] <= 0
+ R26092: allocated[3,4,5,6,1] - 15 layerInUse[3,6,5] <= 0
+ R26093: allocated[3,4,5,6,2] - 15 layerInUse[3,6,5] <= 0
+ R26094: allocated[3,1,6,6,1] - 15 layerInUse[3,6,6] <= 0
+ R26095: allocated[3,1,6,6,2] - 15 layerInUse[3,6,6] <= 0
+ R26096: allocated[3,2,6,6,1] - 15 layerInUse[3,6,6] <= 0
+ R26097: allocated[3,2,6,6,2] - 15 layerInUse[3,6,6] <= 0
+ R26098: allocated[3,3,6,6,1] - 15 layerInUse[3,6,6] <= 0
+ R26099: allocated[3,3,6,6,2] - 15 layerInUse[3,6,6] <= 0
+ R26100: allocated[3,4,6,6,1] - 15 layerInUse[3,6,6] <= 0
+ R26101: allocated[3,4,6,6,2] - 15 layerInUse[3,6,6] <= 0
+ R26102: allocated[3,1,1,7,1] - 15 layerInUse[3,7,1] <= 0
+ R26103: allocated[3,1,1,7,2] - 15 layerInUse[3,7,1] <= 0
+ R26104: allocated[3,2,1,7,1] - 15 layerInUse[3,7,1] <= 0
+ R26105: allocated[3,2,1,7,2] - 15 layerInUse[3,7,1] <= 0
+ R26106: allocated[3,3,1,7,1] - 15 layerInUse[3,7,1] <= 0
+ R26107: allocated[3,3,1,7,2] - 15 layerInUse[3,7,1] <= 0
+ R26108: allocated[3,4,1,7,1] - 15 layerInUse[3,7,1] <= 0
+ R26109: allocated[3,4,1,7,2] - 15 layerInUse[3,7,1] <= 0
+ R26110: allocated[3,1,2,7,1] - 15 layerInUse[3,7,2] <= 0
+ R26111: allocated[3,1,2,7,2] - 15 layerInUse[3,7,2] <= 0
+ R26112: allocated[3,2,2,7,1] - 15 layerInUse[3,7,2] <= 0
+ R26113: allocated[3,2,2,7,2] - 15 layerInUse[3,7,2] <= 0
+ R26114: allocated[3,3,2,7,1] - 15 layerInUse[3,7,2] <= 0
+ R26115: allocated[3,3,2,7,2] - 15 layerInUse[3,7,2] <= 0
+ R26116: allocated[3,4,2,7,1] - 15 layerInUse[3,7,2] <= 0
+ R26117: allocated[3,4,2,7,2] - 15 layerInUse[3,7,2] <= 0
+ R26118: allocated[3,1,3,7,1] - 15 layerInUse[3,7,3] <= 0
+ R26119: allocated[3,1,3,7,2] - 15 layerInUse[3,7,3] <= 0
+ R26120: allocated[3,2,3,7,1] - 15 layerInUse[3,7,3] <= 0
+ R26121: allocated[3,2,3,7,2] - 15 layerInUse[3,7,3] <= 0
+ R26122: allocated[3,3,3,7,1] - 15 layerInUse[3,7,3] <= 0
+ R26123: allocated[3,3,3,7,2] - 15 layerInUse[3,7,3] <= 0
+ R26124: allocated[3,4,3,7,1] - 15 layerInUse[3,7,3] <= 0
+ R26125: allocated[3,4,3,7,2] - 15 layerInUse[3,7,3] <= 0
+ R26126: allocated[3,1,4,7,1] - 15 layerInUse[3,7,4] <= 0
+ R26127: allocated[3,1,4,7,2] - 15 layerInUse[3,7,4] <= 0
+ R26128: allocated[3,2,4,7,1] - 15 layerInUse[3,7,4] <= 0
+ R26129: allocated[3,2,4,7,2] - 15 layerInUse[3,7,4] <= 0
+ R26130: allocated[3,3,4,7,1] - 15 layerInUse[3,7,4] <= 0
+ R26131: allocated[3,3,4,7,2] - 15 layerInUse[3,7,4] <= 0
+ R26132: allocated[3,4,4,7,1] - 15 layerInUse[3,7,4] <= 0
+ R26133: allocated[3,4,4,7,2] - 15 layerInUse[3,7,4] <= 0
+ R26134: allocated[3,1,5,7,1] - 15 layerInUse[3,7,5] <= 0
+ R26135: allocated[3,1,5,7,2] - 15 layerInUse[3,7,5] <= 0
+ R26136: allocated[3,2,5,7,1] - 15 layerInUse[3,7,5] <= 0
+ R26137: allocated[3,2,5,7,2] - 15 layerInUse[3,7,5] <= 0
+ R26138: allocated[3,3,5,7,1] - 15 layerInUse[3,7,5] <= 0
+ R26139: allocated[3,3,5,7,2] - 15 layerInUse[3,7,5] <= 0
+ R26140: allocated[3,4,5,7,1] - 15 layerInUse[3,7,5] <= 0
+ R26141: allocated[3,4,5,7,2] - 15 layerInUse[3,7,5] <= 0
+ R26142: allocated[3,1,6,7,1] - 15 layerInUse[3,7,6] <= 0
+ R26143: allocated[3,1,6,7,2] - 15 layerInUse[3,7,6] <= 0
+ R26144: allocated[3,2,6,7,1] - 15 layerInUse[3,7,6] <= 0
+ R26145: allocated[3,2,6,7,2] - 15 layerInUse[3,7,6] <= 0
+ R26146: allocated[3,3,6,7,1] - 15 layerInUse[3,7,6] <= 0
+ R26147: allocated[3,3,6,7,2] - 15 layerInUse[3,7,6] <= 0
+ R26148: allocated[3,4,6,7,1] - 15 layerInUse[3,7,6] <= 0
+ R26149: allocated[3,4,6,7,2] - 15 layerInUse[3,7,6] <= 0
+ R26150: allocated[3,1,1,8,1] - 15 layerInUse[3,8,1] <= 0
+ R26151: allocated[3,1,1,8,2] - 15 layerInUse[3,8,1] <= 0
+ R26152: allocated[3,2,1,8,1] - 15 layerInUse[3,8,1] <= 0
+ R26153: allocated[3,2,1,8,2] - 15 layerInUse[3,8,1] <= 0
+ R26154: allocated[3,3,1,8,1] - 15 layerInUse[3,8,1] <= 0
+ R26155: allocated[3,3,1,8,2] - 15 layerInUse[3,8,1] <= 0
+ R26156: allocated[3,4,1,8,1] - 15 layerInUse[3,8,1] <= 0
+ R26157: allocated[3,4,1,8,2] - 15 layerInUse[3,8,1] <= 0
+ R26158: allocated[3,1,2,8,1] - 15 layerInUse[3,8,2] <= 0
+ R26159: allocated[3,1,2,8,2] - 15 layerInUse[3,8,2] <= 0
+ R26160: allocated[3,2,2,8,1] - 15 layerInUse[3,8,2] <= 0
+ R26161: allocated[3,2,2,8,2] - 15 layerInUse[3,8,2] <= 0
+ R26162: allocated[3,3,2,8,1] - 15 layerInUse[3,8,2] <= 0
+ R26163: allocated[3,3,2,8,2] - 15 layerInUse[3,8,2] <= 0
+ R26164: allocated[3,4,2,8,1] - 15 layerInUse[3,8,2] <= 0
+ R26165: allocated[3,4,2,8,2] - 15 layerInUse[3,8,2] <= 0
+ R26166: allocated[3,1,3,8,1] - 15 layerInUse[3,8,3] <= 0
+ R26167: allocated[3,1,3,8,2] - 15 layerInUse[3,8,3] <= 0
+ R26168: allocated[3,2,3,8,1] - 15 layerInUse[3,8,3] <= 0
+ R26169: allocated[3,2,3,8,2] - 15 layerInUse[3,8,3] <= 0
+ R26170: allocated[3,3,3,8,1] - 15 layerInUse[3,8,3] <= 0
+ R26171: allocated[3,3,3,8,2] - 15 layerInUse[3,8,3] <= 0
+ R26172: allocated[3,4,3,8,1] - 15 layerInUse[3,8,3] <= 0
+ R26173: allocated[3,4,3,8,2] - 15 layerInUse[3,8,3] <= 0
+ R26174: allocated[3,1,4,8,1] - 15 layerInUse[3,8,4] <= 0
+ R26175: allocated[3,1,4,8,2] - 15 layerInUse[3,8,4] <= 0
+ R26176: allocated[3,2,4,8,1] - 15 layerInUse[3,8,4] <= 0
+ R26177: allocated[3,2,4,8,2] - 15 layerInUse[3,8,4] <= 0
+ R26178: allocated[3,3,4,8,1] - 15 layerInUse[3,8,4] <= 0
+ R26179: allocated[3,3,4,8,2] - 15 layerInUse[3,8,4] <= 0
+ R26180: allocated[3,4,4,8,1] - 15 layerInUse[3,8,4] <= 0
+ R26181: allocated[3,4,4,8,2] - 15 layerInUse[3,8,4] <= 0
+ R26182: allocated[3,1,5,8,1] - 15 layerInUse[3,8,5] <= 0
+ R26183: allocated[3,1,5,8,2] - 15 layerInUse[3,8,5] <= 0
+ R26184: allocated[3,2,5,8,1] - 15 layerInUse[3,8,5] <= 0
+ R26185: allocated[3,2,5,8,2] - 15 layerInUse[3,8,5] <= 0
+ R26186: allocated[3,3,5,8,1] - 15 layerInUse[3,8,5] <= 0
+ R26187: allocated[3,3,5,8,2] - 15 layerInUse[3,8,5] <= 0
+ R26188: allocated[3,4,5,8,1] - 15 layerInUse[3,8,5] <= 0
+ R26189: allocated[3,4,5,8,2] - 15 layerInUse[3,8,5] <= 0
+ R26190: allocated[3,1,6,8,1] - 15 layerInUse[3,8,6] <= 0
+ R26191: allocated[3,1,6,8,2] - 15 layerInUse[3,8,6] <= 0
+ R26192: allocated[3,2,6,8,1] - 15 layerInUse[3,8,6] <= 0
+ R26193: allocated[3,2,6,8,2] - 15 layerInUse[3,8,6] <= 0
+ R26194: allocated[3,3,6,8,1] - 15 layerInUse[3,8,6] <= 0
+ R26195: allocated[3,3,6,8,2] - 15 layerInUse[3,8,6] <= 0
+ R26196: allocated[3,4,6,8,1] - 15 layerInUse[3,8,6] <= 0
+ R26197: allocated[3,4,6,8,2] - 15 layerInUse[3,8,6] <= 0
+ R26198: allocated[4,1,1,1,1] - 15 layerInUse[4,1,1] <= 0
+ R26199: allocated[4,1,1,1,2] - 15 layerInUse[4,1,1] <= 0
+ R26200: allocated[4,2,1,1,1] - 15 layerInUse[4,1,1] <= 0
+ R26201: allocated[4,2,1,1,2] - 15 layerInUse[4,1,1] <= 0
+ R26202: allocated[4,3,1,1,1] - 15 layerInUse[4,1,1] <= 0
+ R26203: allocated[4,3,1,1,2] - 15 layerInUse[4,1,1] <= 0
+ R26204: allocated[4,4,1,1,1] - 15 layerInUse[4,1,1] <= 0
+ R26205: allocated[4,4,1,1,2] - 15 layerInUse[4,1,1] <= 0
+ R26206: allocated[4,1,2,1,1] - 15 layerInUse[4,1,2] <= 0
+ R26207: allocated[4,1,2,1,2] - 15 layerInUse[4,1,2] <= 0
+ R26208: allocated[4,2,2,1,1] - 15 layerInUse[4,1,2] <= 0
+ R26209: allocated[4,2,2,1,2] - 15 layerInUse[4,1,2] <= 0
+ R26210: allocated[4,3,2,1,1] - 15 layerInUse[4,1,2] <= 0
+ R26211: allocated[4,3,2,1,2] - 15 layerInUse[4,1,2] <= 0
+ R26212: allocated[4,4,2,1,1] - 15 layerInUse[4,1,2] <= 0
+ R26213: allocated[4,4,2,1,2] - 15 layerInUse[4,1,2] <= 0
+ R26214: allocated[4,1,3,1,1] - 15 layerInUse[4,1,3] <= 0
+ R26215: allocated[4,1,3,1,2] - 15 layerInUse[4,1,3] <= 0
+ R26216: allocated[4,2,3,1,1] - 15 layerInUse[4,1,3] <= 0
+ R26217: allocated[4,2,3,1,2] - 15 layerInUse[4,1,3] <= 0
+ R26218: allocated[4,3,3,1,1] - 15 layerInUse[4,1,3] <= 0
+ R26219: allocated[4,3,3,1,2] - 15 layerInUse[4,1,3] <= 0
+ R26220: allocated[4,4,3,1,1] - 15 layerInUse[4,1,3] <= 0
+ R26221: allocated[4,4,3,1,2] - 15 layerInUse[4,1,3] <= 0
+ R26222: allocated[4,1,4,1,1] - 15 layerInUse[4,1,4] <= 0
+ R26223: allocated[4,1,4,1,2] - 15 layerInUse[4,1,4] <= 0
+ R26224: allocated[4,2,4,1,1] - 15 layerInUse[4,1,4] <= 0
+ R26225: allocated[4,2,4,1,2] - 15 layerInUse[4,1,4] <= 0
+ R26226: allocated[4,3,4,1,1] - 15 layerInUse[4,1,4] <= 0
+ R26227: allocated[4,3,4,1,2] - 15 layerInUse[4,1,4] <= 0
+ R26228: allocated[4,4,4,1,1] - 15 layerInUse[4,1,4] <= 0
+ R26229: allocated[4,4,4,1,2] - 15 layerInUse[4,1,4] <= 0
+ R26230: allocated[4,1,5,1,1] - 15 layerInUse[4,1,5] <= 0
+ R26231: allocated[4,1,5,1,2] - 15 layerInUse[4,1,5] <= 0
+ R26232: allocated[4,2,5,1,1] - 15 layerInUse[4,1,5] <= 0
+ R26233: allocated[4,2,5,1,2] - 15 layerInUse[4,1,5] <= 0
+ R26234: allocated[4,3,5,1,1] - 15 layerInUse[4,1,5] <= 0
+ R26235: allocated[4,3,5,1,2] - 15 layerInUse[4,1,5] <= 0
+ R26236: allocated[4,4,5,1,1] - 15 layerInUse[4,1,5] <= 0
+ R26237: allocated[4,4,5,1,2] - 15 layerInUse[4,1,5] <= 0
+ R26238: allocated[4,1,6,1,1] - 15 layerInUse[4,1,6] <= 0
+ R26239: allocated[4,1,6,1,2] - 15 layerInUse[4,1,6] <= 0
+ R26240: allocated[4,2,6,1,1] - 15 layerInUse[4,1,6] <= 0
+ R26241: allocated[4,2,6,1,2] - 15 layerInUse[4,1,6] <= 0
+ R26242: allocated[4,3,6,1,1] - 15 layerInUse[4,1,6] <= 0
+ R26243: allocated[4,3,6,1,2] - 15 layerInUse[4,1,6] <= 0
+ R26244: allocated[4,4,6,1,1] - 15 layerInUse[4,1,6] <= 0
+ R26245: allocated[4,4,6,1,2] - 15 layerInUse[4,1,6] <= 0
+ R26246: allocated[4,1,1,2,1] - 15 layerInUse[4,2,1] <= 0
+ R26247: allocated[4,1,1,2,2] - 15 layerInUse[4,2,1] <= 0
+ R26248: allocated[4,2,1,2,1] - 15 layerInUse[4,2,1] <= 0
+ R26249: allocated[4,2,1,2,2] - 15 layerInUse[4,2,1] <= 0
+ R26250: allocated[4,3,1,2,1] - 15 layerInUse[4,2,1] <= 0
+ R26251: allocated[4,3,1,2,2] - 15 layerInUse[4,2,1] <= 0
+ R26252: allocated[4,4,1,2,1] - 15 layerInUse[4,2,1] <= 0
+ R26253: allocated[4,4,1,2,2] - 15 layerInUse[4,2,1] <= 0
+ R26254: allocated[4,1,2,2,1] - 15 layerInUse[4,2,2] <= 0
+ R26255: allocated[4,1,2,2,2] - 15 layerInUse[4,2,2] <= 0
+ R26256: allocated[4,2,2,2,1] - 15 layerInUse[4,2,2] <= 0
+ R26257: allocated[4,2,2,2,2] - 15 layerInUse[4,2,2] <= 0
+ R26258: allocated[4,3,2,2,1] - 15 layerInUse[4,2,2] <= 0
+ R26259: allocated[4,3,2,2,2] - 15 layerInUse[4,2,2] <= 0
+ R26260: allocated[4,4,2,2,1] - 15 layerInUse[4,2,2] <= 0
+ R26261: allocated[4,4,2,2,2] - 15 layerInUse[4,2,2] <= 0
+ R26262: allocated[4,1,3,2,1] - 15 layerInUse[4,2,3] <= 0
+ R26263: allocated[4,1,3,2,2] - 15 layerInUse[4,2,3] <= 0
+ R26264: allocated[4,2,3,2,1] - 15 layerInUse[4,2,3] <= 0
+ R26265: allocated[4,2,3,2,2] - 15 layerInUse[4,2,3] <= 0
+ R26266: allocated[4,3,3,2,1] - 15 layerInUse[4,2,3] <= 0
+ R26267: allocated[4,3,3,2,2] - 15 layerInUse[4,2,3] <= 0
+ R26268: allocated[4,4,3,2,1] - 15 layerInUse[4,2,3] <= 0
+ R26269: allocated[4,4,3,2,2] - 15 layerInUse[4,2,3] <= 0
+ R26270: allocated[4,1,4,2,1] - 15 layerInUse[4,2,4] <= 0
+ R26271: allocated[4,1,4,2,2] - 15 layerInUse[4,2,4] <= 0
+ R26272: allocated[4,2,4,2,1] - 15 layerInUse[4,2,4] <= 0
+ R26273: allocated[4,2,4,2,2] - 15 layerInUse[4,2,4] <= 0
+ R26274: allocated[4,3,4,2,1] - 15 layerInUse[4,2,4] <= 0
+ R26275: allocated[4,3,4,2,2] - 15 layerInUse[4,2,4] <= 0
+ R26276: allocated[4,4,4,2,1] - 15 layerInUse[4,2,4] <= 0
+ R26277: allocated[4,4,4,2,2] - 15 layerInUse[4,2,4] <= 0
+ R26278: allocated[4,1,5,2,1] - 15 layerInUse[4,2,5] <= 0
+ R26279: allocated[4,1,5,2,2] - 15 layerInUse[4,2,5] <= 0
+ R26280: allocated[4,2,5,2,1] - 15 layerInUse[4,2,5] <= 0
+ R26281: allocated[4,2,5,2,2] - 15 layerInUse[4,2,5] <= 0
+ R26282: allocated[4,3,5,2,1] - 15 layerInUse[4,2,5] <= 0
+ R26283: allocated[4,3,5,2,2] - 15 layerInUse[4,2,5] <= 0
+ R26284: allocated[4,4,5,2,1] - 15 layerInUse[4,2,5] <= 0
+ R26285: allocated[4,4,5,2,2] - 15 layerInUse[4,2,5] <= 0
+ R26286: allocated[4,1,6,2,1] - 15 layerInUse[4,2,6] <= 0
+ R26287: allocated[4,1,6,2,2] - 15 layerInUse[4,2,6] <= 0
+ R26288: allocated[4,2,6,2,1] - 15 layerInUse[4,2,6] <= 0
+ R26289: allocated[4,2,6,2,2] - 15 layerInUse[4,2,6] <= 0
+ R26290: allocated[4,3,6,2,1] - 15 layerInUse[4,2,6] <= 0
+ R26291: allocated[4,3,6,2,2] - 15 layerInUse[4,2,6] <= 0
+ R26292: allocated[4,4,6,2,1] - 15 layerInUse[4,2,6] <= 0
+ R26293: allocated[4,4,6,2,2] - 15 layerInUse[4,2,6] <= 0
+ R26294: allocated[4,1,1,3,1] - 15 layerInUse[4,3,1] <= 0
+ R26295: allocated[4,1,1,3,2] - 15 layerInUse[4,3,1] <= 0
+ R26296: allocated[4,2,1,3,1] - 15 layerInUse[4,3,1] <= 0
+ R26297: allocated[4,2,1,3,2] - 15 layerInUse[4,3,1] <= 0
+ R26298: allocated[4,3,1,3,1] - 15 layerInUse[4,3,1] <= 0
+ R26299: allocated[4,3,1,3,2] - 15 layerInUse[4,3,1] <= 0
+ R26300: allocated[4,4,1,3,1] - 15 layerInUse[4,3,1] <= 0
+ R26301: allocated[4,4,1,3,2] - 15 layerInUse[4,3,1] <= 0
+ R26302: allocated[4,1,2,3,1] - 15 layerInUse[4,3,2] <= 0
+ R26303: allocated[4,1,2,3,2] - 15 layerInUse[4,3,2] <= 0
+ R26304: allocated[4,2,2,3,1] - 15 layerInUse[4,3,2] <= 0
+ R26305: allocated[4,2,2,3,2] - 15 layerInUse[4,3,2] <= 0
+ R26306: allocated[4,3,2,3,1] - 15 layerInUse[4,3,2] <= 0
+ R26307: allocated[4,3,2,3,2] - 15 layerInUse[4,3,2] <= 0
+ R26308: allocated[4,4,2,3,1] - 15 layerInUse[4,3,2] <= 0
+ R26309: allocated[4,4,2,3,2] - 15 layerInUse[4,3,2] <= 0
+ R26310: allocated[4,1,3,3,1] - 15 layerInUse[4,3,3] <= 0
+ R26311: allocated[4,1,3,3,2] - 15 layerInUse[4,3,3] <= 0
+ R26312: allocated[4,2,3,3,1] - 15 layerInUse[4,3,3] <= 0
+ R26313: allocated[4,2,3,3,2] - 15 layerInUse[4,3,3] <= 0
+ R26314: allocated[4,3,3,3,1] - 15 layerInUse[4,3,3] <= 0
+ R26315: allocated[4,3,3,3,2] - 15 layerInUse[4,3,3] <= 0
+ R26316: allocated[4,4,3,3,1] - 15 layerInUse[4,3,3] <= 0
+ R26317: allocated[4,4,3,3,2] - 15 layerInUse[4,3,3] <= 0
+ R26318: allocated[4,1,4,3,1] - 15 layerInUse[4,3,4] <= 0
+ R26319: allocated[4,1,4,3,2] - 15 layerInUse[4,3,4] <= 0
+ R26320: allocated[4,2,4,3,1] - 15 layerInUse[4,3,4] <= 0
+ R26321: allocated[4,2,4,3,2] - 15 layerInUse[4,3,4] <= 0
+ R26322: allocated[4,3,4,3,1] - 15 layerInUse[4,3,4] <= 0
+ R26323: allocated[4,3,4,3,2] - 15 layerInUse[4,3,4] <= 0
+ R26324: allocated[4,4,4,3,1] - 15 layerInUse[4,3,4] <= 0
+ R26325: allocated[4,4,4,3,2] - 15 layerInUse[4,3,4] <= 0
+ R26326: allocated[4,1,5,3,1] - 15 layerInUse[4,3,5] <= 0
+ R26327: allocated[4,1,5,3,2] - 15 layerInUse[4,3,5] <= 0
+ R26328: allocated[4,2,5,3,1] - 15 layerInUse[4,3,5] <= 0
+ R26329: allocated[4,2,5,3,2] - 15 layerInUse[4,3,5] <= 0
+ R26330: allocated[4,3,5,3,1] - 15 layerInUse[4,3,5] <= 0
+ R26331: allocated[4,3,5,3,2] - 15 layerInUse[4,3,5] <= 0
+ R26332: allocated[4,4,5,3,1] - 15 layerInUse[4,3,5] <= 0
+ R26333: allocated[4,4,5,3,2] - 15 layerInUse[4,3,5] <= 0
+ R26334: allocated[4,1,6,3,1] - 15 layerInUse[4,3,6] <= 0
+ R26335: allocated[4,1,6,3,2] - 15 layerInUse[4,3,6] <= 0
+ R26336: allocated[4,2,6,3,1] - 15 layerInUse[4,3,6] <= 0
+ R26337: allocated[4,2,6,3,2] - 15 layerInUse[4,3,6] <= 0
+ R26338: allocated[4,3,6,3,1] - 15 layerInUse[4,3,6] <= 0
+ R26339: allocated[4,3,6,3,2] - 15 layerInUse[4,3,6] <= 0
+ R26340: allocated[4,4,6,3,1] - 15 layerInUse[4,3,6] <= 0
+ R26341: allocated[4,4,6,3,2] - 15 layerInUse[4,3,6] <= 0
+ R26342: allocated[4,1,1,4,1] - 15 layerInUse[4,4,1] <= 0
+ R26343: allocated[4,1,1,4,2] - 15 layerInUse[4,4,1] <= 0
+ R26344: allocated[4,2,1,4,1] - 15 layerInUse[4,4,1] <= 0
+ R26345: allocated[4,2,1,4,2] - 15 layerInUse[4,4,1] <= 0
+ R26346: allocated[4,3,1,4,1] - 15 layerInUse[4,4,1] <= 0
+ R26347: allocated[4,3,1,4,2] - 15 layerInUse[4,4,1] <= 0
+ R26348: allocated[4,4,1,4,1] - 15 layerInUse[4,4,1] <= 0
+ R26349: allocated[4,4,1,4,2] - 15 layerInUse[4,4,1] <= 0
+ R26350: allocated[4,1,2,4,1] - 15 layerInUse[4,4,2] <= 0
+ R26351: allocated[4,1,2,4,2] - 15 layerInUse[4,4,2] <= 0
+ R26352: allocated[4,2,2,4,1] - 15 layerInUse[4,4,2] <= 0
+ R26353: allocated[4,2,2,4,2] - 15 layerInUse[4,4,2] <= 0
+ R26354: allocated[4,3,2,4,1] - 15 layerInUse[4,4,2] <= 0
+ R26355: allocated[4,3,2,4,2] - 15 layerInUse[4,4,2] <= 0
+ R26356: allocated[4,4,2,4,1] - 15 layerInUse[4,4,2] <= 0
+ R26357: allocated[4,4,2,4,2] - 15 layerInUse[4,4,2] <= 0
+ R26358: allocated[4,1,3,4,1] - 15 layerInUse[4,4,3] <= 0
+ R26359: allocated[4,1,3,4,2] - 15 layerInUse[4,4,3] <= 0
+ R26360: allocated[4,2,3,4,1] - 15 layerInUse[4,4,3] <= 0
+ R26361: allocated[4,2,3,4,2] - 15 layerInUse[4,4,3] <= 0
+ R26362: allocated[4,3,3,4,1] - 15 layerInUse[4,4,3] <= 0
+ R26363: allocated[4,3,3,4,2] - 15 layerInUse[4,4,3] <= 0
+ R26364: allocated[4,4,3,4,1] - 15 layerInUse[4,4,3] <= 0
+ R26365: allocated[4,4,3,4,2] - 15 layerInUse[4,4,3] <= 0
+ R26366: allocated[4,1,4,4,1] - 15 layerInUse[4,4,4] <= 0
+ R26367: allocated[4,1,4,4,2] - 15 layerInUse[4,4,4] <= 0
+ R26368: allocated[4,2,4,4,1] - 15 layerInUse[4,4,4] <= 0
+ R26369: allocated[4,2,4,4,2] - 15 layerInUse[4,4,4] <= 0
+ R26370: allocated[4,3,4,4,1] - 15 layerInUse[4,4,4] <= 0
+ R26371: allocated[4,3,4,4,2] - 15 layerInUse[4,4,4] <= 0
+ R26372: allocated[4,4,4,4,1] - 15 layerInUse[4,4,4] <= 0
+ R26373: allocated[4,4,4,4,2] - 15 layerInUse[4,4,4] <= 0
+ R26374: allocated[4,1,5,4,1] - 15 layerInUse[4,4,5] <= 0
+ R26375: allocated[4,1,5,4,2] - 15 layerInUse[4,4,5] <= 0
+ R26376: allocated[4,2,5,4,1] - 15 layerInUse[4,4,5] <= 0
+ R26377: allocated[4,2,5,4,2] - 15 layerInUse[4,4,5] <= 0
+ R26378: allocated[4,3,5,4,1] - 15 layerInUse[4,4,5] <= 0
+ R26379: allocated[4,3,5,4,2] - 15 layerInUse[4,4,5] <= 0
+ R26380: allocated[4,4,5,4,1] - 15 layerInUse[4,4,5] <= 0
+ R26381: allocated[4,4,5,4,2] - 15 layerInUse[4,4,5] <= 0
+ R26382: allocated[4,1,6,4,1] - 15 layerInUse[4,4,6] <= 0
+ R26383: allocated[4,1,6,4,2] - 15 layerInUse[4,4,6] <= 0
+ R26384: allocated[4,2,6,4,1] - 15 layerInUse[4,4,6] <= 0
+ R26385: allocated[4,2,6,4,2] - 15 layerInUse[4,4,6] <= 0
+ R26386: allocated[4,3,6,4,1] - 15 layerInUse[4,4,6] <= 0
+ R26387: allocated[4,3,6,4,2] - 15 layerInUse[4,4,6] <= 0
+ R26388: allocated[4,4,6,4,1] - 15 layerInUse[4,4,6] <= 0
+ R26389: allocated[4,4,6,4,2] - 15 layerInUse[4,4,6] <= 0
+ R26390: allocated[4,1,1,5,1] - 15 layerInUse[4,5,1] <= 0
+ R26391: allocated[4,1,1,5,2] - 15 layerInUse[4,5,1] <= 0
+ R26392: allocated[4,2,1,5,1] - 15 layerInUse[4,5,1] <= 0
+ R26393: allocated[4,2,1,5,2] - 15 layerInUse[4,5,1] <= 0
+ R26394: allocated[4,3,1,5,1] - 15 layerInUse[4,5,1] <= 0
+ R26395: allocated[4,3,1,5,2] - 15 layerInUse[4,5,1] <= 0
+ R26396: allocated[4,4,1,5,1] - 15 layerInUse[4,5,1] <= 0
+ R26397: allocated[4,4,1,5,2] - 15 layerInUse[4,5,1] <= 0
+ R26398: allocated[4,1,2,5,1] - 15 layerInUse[4,5,2] <= 0
+ R26399: allocated[4,1,2,5,2] - 15 layerInUse[4,5,2] <= 0
+ R26400: allocated[4,2,2,5,1] - 15 layerInUse[4,5,2] <= 0
+ R26401: allocated[4,2,2,5,2] - 15 layerInUse[4,5,2] <= 0
+ R26402: allocated[4,3,2,5,1] - 15 layerInUse[4,5,2] <= 0
+ R26403: allocated[4,3,2,5,2] - 15 layerInUse[4,5,2] <= 0
+ R26404: allocated[4,4,2,5,1] - 15 layerInUse[4,5,2] <= 0
+ R26405: allocated[4,4,2,5,2] - 15 layerInUse[4,5,2] <= 0
+ R26406: allocated[4,1,3,5,1] - 15 layerInUse[4,5,3] <= 0
+ R26407: allocated[4,1,3,5,2] - 15 layerInUse[4,5,3] <= 0
+ R26408: allocated[4,2,3,5,1] - 15 layerInUse[4,5,3] <= 0
+ R26409: allocated[4,2,3,5,2] - 15 layerInUse[4,5,3] <= 0
+ R26410: allocated[4,3,3,5,1] - 15 layerInUse[4,5,3] <= 0
+ R26411: allocated[4,3,3,5,2] - 15 layerInUse[4,5,3] <= 0
+ R26412: allocated[4,4,3,5,1] - 15 layerInUse[4,5,3] <= 0
+ R26413: allocated[4,4,3,5,2] - 15 layerInUse[4,5,3] <= 0
+ R26414: allocated[4,1,4,5,1] - 15 layerInUse[4,5,4] <= 0
+ R26415: allocated[4,1,4,5,2] - 15 layerInUse[4,5,4] <= 0
+ R26416: allocated[4,2,4,5,1] - 15 layerInUse[4,5,4] <= 0
+ R26417: allocated[4,2,4,5,2] - 15 layerInUse[4,5,4] <= 0
+ R26418: allocated[4,3,4,5,1] - 15 layerInUse[4,5,4] <= 0
+ R26419: allocated[4,3,4,5,2] - 15 layerInUse[4,5,4] <= 0
+ R26420: allocated[4,4,4,5,1] - 15 layerInUse[4,5,4] <= 0
+ R26421: allocated[4,4,4,5,2] - 15 layerInUse[4,5,4] <= 0
+ R26422: allocated[4,1,5,5,1] - 15 layerInUse[4,5,5] <= 0
+ R26423: allocated[4,1,5,5,2] - 15 layerInUse[4,5,5] <= 0
+ R26424: allocated[4,2,5,5,1] - 15 layerInUse[4,5,5] <= 0
+ R26425: allocated[4,2,5,5,2] - 15 layerInUse[4,5,5] <= 0
+ R26426: allocated[4,3,5,5,1] - 15 layerInUse[4,5,5] <= 0
+ R26427: allocated[4,3,5,5,2] - 15 layerInUse[4,5,5] <= 0
+ R26428: allocated[4,4,5,5,1] - 15 layerInUse[4,5,5] <= 0
+ R26429: allocated[4,4,5,5,2] - 15 layerInUse[4,5,5] <= 0
+ R26430: allocated[4,1,6,5,1] - 15 layerInUse[4,5,6] <= 0
+ R26431: allocated[4,1,6,5,2] - 15 layerInUse[4,5,6] <= 0
+ R26432: allocated[4,2,6,5,1] - 15 layerInUse[4,5,6] <= 0
+ R26433: allocated[4,2,6,5,2] - 15 layerInUse[4,5,6] <= 0
+ R26434: allocated[4,3,6,5,1] - 15 layerInUse[4,5,6] <= 0
+ R26435: allocated[4,3,6,5,2] - 15 layerInUse[4,5,6] <= 0
+ R26436: allocated[4,4,6,5,1] - 15 layerInUse[4,5,6] <= 0
+ R26437: allocated[4,4,6,5,2] - 15 layerInUse[4,5,6] <= 0
+ R26438: allocated[4,1,1,6,1] - 15 layerInUse[4,6,1] <= 0
+ R26439: allocated[4,1,1,6,2] - 15 layerInUse[4,6,1] <= 0
+ R26440: allocated[4,2,1,6,1] - 15 layerInUse[4,6,1] <= 0
+ R26441: allocated[4,2,1,6,2] - 15 layerInUse[4,6,1] <= 0
+ R26442: allocated[4,3,1,6,1] - 15 layerInUse[4,6,1] <= 0
+ R26443: allocated[4,3,1,6,2] - 15 layerInUse[4,6,1] <= 0
+ R26444: allocated[4,4,1,6,1] - 15 layerInUse[4,6,1] <= 0
+ R26445: allocated[4,4,1,6,2] - 15 layerInUse[4,6,1] <= 0
+ R26446: allocated[4,1,2,6,1] - 15 layerInUse[4,6,2] <= 0
+ R26447: allocated[4,1,2,6,2] - 15 layerInUse[4,6,2] <= 0
+ R26448: allocated[4,2,2,6,1] - 15 layerInUse[4,6,2] <= 0
+ R26449: allocated[4,2,2,6,2] - 15 layerInUse[4,6,2] <= 0
+ R26450: allocated[4,3,2,6,1] - 15 layerInUse[4,6,2] <= 0
+ R26451: allocated[4,3,2,6,2] - 15 layerInUse[4,6,2] <= 0
+ R26452: allocated[4,4,2,6,1] - 15 layerInUse[4,6,2] <= 0
+ R26453: allocated[4,4,2,6,2] - 15 layerInUse[4,6,2] <= 0
+ R26454: allocated[4,1,3,6,1] - 15 layerInUse[4,6,3] <= 0
+ R26455: allocated[4,1,3,6,2] - 15 layerInUse[4,6,3] <= 0
+ R26456: allocated[4,2,3,6,1] - 15 layerInUse[4,6,3] <= 0
+ R26457: allocated[4,2,3,6,2] - 15 layerInUse[4,6,3] <= 0
+ R26458: allocated[4,3,3,6,1] - 15 layerInUse[4,6,3] <= 0
+ R26459: allocated[4,3,3,6,2] - 15 layerInUse[4,6,3] <= 0
+ R26460: allocated[4,4,3,6,1] - 15 layerInUse[4,6,3] <= 0
+ R26461: allocated[4,4,3,6,2] - 15 layerInUse[4,6,3] <= 0
+ R26462: allocated[4,1,4,6,1] - 15 layerInUse[4,6,4] <= 0
+ R26463: allocated[4,1,4,6,2] - 15 layerInUse[4,6,4] <= 0
+ R26464: allocated[4,2,4,6,1] - 15 layerInUse[4,6,4] <= 0
+ R26465: allocated[4,2,4,6,2] - 15 layerInUse[4,6,4] <= 0
+ R26466: allocated[4,3,4,6,1] - 15 layerInUse[4,6,4] <= 0
+ R26467: allocated[4,3,4,6,2] - 15 layerInUse[4,6,4] <= 0
+ R26468: allocated[4,4,4,6,1] - 15 layerInUse[4,6,4] <= 0
+ R26469: allocated[4,4,4,6,2] - 15 layerInUse[4,6,4] <= 0
+ R26470: allocated[4,1,5,6,1] - 15 layerInUse[4,6,5] <= 0
+ R26471: allocated[4,1,5,6,2] - 15 layerInUse[4,6,5] <= 0
+ R26472: allocated[4,2,5,6,1] - 15 layerInUse[4,6,5] <= 0
+ R26473: allocated[4,2,5,6,2] - 15 layerInUse[4,6,5] <= 0
+ R26474: allocated[4,3,5,6,1] - 15 layerInUse[4,6,5] <= 0
+ R26475: allocated[4,3,5,6,2] - 15 layerInUse[4,6,5] <= 0
+ R26476: allocated[4,4,5,6,1] - 15 layerInUse[4,6,5] <= 0
+ R26477: allocated[4,4,5,6,2] - 15 layerInUse[4,6,5] <= 0
+ R26478: allocated[4,1,6,6,1] - 15 layerInUse[4,6,6] <= 0
+ R26479: allocated[4,1,6,6,2] - 15 layerInUse[4,6,6] <= 0
+ R26480: allocated[4,2,6,6,1] - 15 layerInUse[4,6,6] <= 0
+ R26481: allocated[4,2,6,6,2] - 15 layerInUse[4,6,6] <= 0
+ R26482: allocated[4,3,6,6,1] - 15 layerInUse[4,6,6] <= 0
+ R26483: allocated[4,3,6,6,2] - 15 layerInUse[4,6,6] <= 0
+ R26484: allocated[4,4,6,6,1] - 15 layerInUse[4,6,6] <= 0
+ R26485: allocated[4,4,6,6,2] - 15 layerInUse[4,6,6] <= 0
+ R26486: allocated[4,1,1,7,1] - 15 layerInUse[4,7,1] <= 0
+ R26487: allocated[4,1,1,7,2] - 15 layerInUse[4,7,1] <= 0
+ R26488: allocated[4,2,1,7,1] - 15 layerInUse[4,7,1] <= 0
+ R26489: allocated[4,2,1,7,2] - 15 layerInUse[4,7,1] <= 0
+ R26490: allocated[4,3,1,7,1] - 15 layerInUse[4,7,1] <= 0
+ R26491: allocated[4,3,1,7,2] - 15 layerInUse[4,7,1] <= 0
+ R26492: allocated[4,4,1,7,1] - 15 layerInUse[4,7,1] <= 0
+ R26493: allocated[4,4,1,7,2] - 15 layerInUse[4,7,1] <= 0
+ R26494: allocated[4,1,2,7,1] - 15 layerInUse[4,7,2] <= 0
+ R26495: allocated[4,1,2,7,2] - 15 layerInUse[4,7,2] <= 0
+ R26496: allocated[4,2,2,7,1] - 15 layerInUse[4,7,2] <= 0
+ R26497: allocated[4,2,2,7,2] - 15 layerInUse[4,7,2] <= 0
+ R26498: allocated[4,3,2,7,1] - 15 layerInUse[4,7,2] <= 0
+ R26499: allocated[4,3,2,7,2] - 15 layerInUse[4,7,2] <= 0
+ R26500: allocated[4,4,2,7,1] - 15 layerInUse[4,7,2] <= 0
+ R26501: allocated[4,4,2,7,2] - 15 layerInUse[4,7,2] <= 0
+ R26502: allocated[4,1,3,7,1] - 15 layerInUse[4,7,3] <= 0
+ R26503: allocated[4,1,3,7,2] - 15 layerInUse[4,7,3] <= 0
+ R26504: allocated[4,2,3,7,1] - 15 layerInUse[4,7,3] <= 0
+ R26505: allocated[4,2,3,7,2] - 15 layerInUse[4,7,3] <= 0
+ R26506: allocated[4,3,3,7,1] - 15 layerInUse[4,7,3] <= 0
+ R26507: allocated[4,3,3,7,2] - 15 layerInUse[4,7,3] <= 0
+ R26508: allocated[4,4,3,7,1] - 15 layerInUse[4,7,3] <= 0
+ R26509: allocated[4,4,3,7,2] - 15 layerInUse[4,7,3] <= 0
+ R26510: allocated[4,1,4,7,1] - 15 layerInUse[4,7,4] <= 0
+ R26511: allocated[4,1,4,7,2] - 15 layerInUse[4,7,4] <= 0
+ R26512: allocated[4,2,4,7,1] - 15 layerInUse[4,7,4] <= 0
+ R26513: allocated[4,2,4,7,2] - 15 layerInUse[4,7,4] <= 0
+ R26514: allocated[4,3,4,7,1] - 15 layerInUse[4,7,4] <= 0
+ R26515: allocated[4,3,4,7,2] - 15 layerInUse[4,7,4] <= 0
+ R26516: allocated[4,4,4,7,1] - 15 layerInUse[4,7,4] <= 0
+ R26517: allocated[4,4,4,7,2] - 15 layerInUse[4,7,4] <= 0
+ R26518: allocated[4,1,5,7,1] - 15 layerInUse[4,7,5] <= 0
+ R26519: allocated[4,1,5,7,2] - 15 layerInUse[4,7,5] <= 0
+ R26520: allocated[4,2,5,7,1] - 15 layerInUse[4,7,5] <= 0
+ R26521: allocated[4,2,5,7,2] - 15 layerInUse[4,7,5] <= 0
+ R26522: allocated[4,3,5,7,1] - 15 layerInUse[4,7,5] <= 0
+ R26523: allocated[4,3,5,7,2] - 15 layerInUse[4,7,5] <= 0
+ R26524: allocated[4,4,5,7,1] - 15 layerInUse[4,7,5] <= 0
+ R26525: allocated[4,4,5,7,2] - 15 layerInUse[4,7,5] <= 0
+ R26526: allocated[4,1,6,7,1] - 15 layerInUse[4,7,6] <= 0
+ R26527: allocated[4,1,6,7,2] - 15 layerInUse[4,7,6] <= 0
+ R26528: allocated[4,2,6,7,1] - 15 layerInUse[4,7,6] <= 0
+ R26529: allocated[4,2,6,7,2] - 15 layerInUse[4,7,6] <= 0
+ R26530: allocated[4,3,6,7,1] - 15 layerInUse[4,7,6] <= 0
+ R26531: allocated[4,3,6,7,2] - 15 layerInUse[4,7,6] <= 0
+ R26532: allocated[4,4,6,7,1] - 15 layerInUse[4,7,6] <= 0
+ R26533: allocated[4,4,6,7,2] - 15 layerInUse[4,7,6] <= 0
+ R26534: allocated[4,1,1,8,1] - 15 layerInUse[4,8,1] <= 0
+ R26535: allocated[4,1,1,8,2] - 15 layerInUse[4,8,1] <= 0
+ R26536: allocated[4,2,1,8,1] - 15 layerInUse[4,8,1] <= 0
+ R26537: allocated[4,2,1,8,2] - 15 layerInUse[4,8,1] <= 0
+ R26538: allocated[4,3,1,8,1] - 15 layerInUse[4,8,1] <= 0
+ R26539: allocated[4,3,1,8,2] - 15 layerInUse[4,8,1] <= 0
+ R26540: allocated[4,4,1,8,1] - 15 layerInUse[4,8,1] <= 0
+ R26541: allocated[4,4,1,8,2] - 15 layerInUse[4,8,1] <= 0
+ R26542: allocated[4,1,2,8,1] - 15 layerInUse[4,8,2] <= 0
+ R26543: allocated[4,1,2,8,2] - 15 layerInUse[4,8,2] <= 0
+ R26544: allocated[4,2,2,8,1] - 15 layerInUse[4,8,2] <= 0
+ R26545: allocated[4,2,2,8,2] - 15 layerInUse[4,8,2] <= 0
+ R26546: allocated[4,3,2,8,1] - 15 layerInUse[4,8,2] <= 0
+ R26547: allocated[4,3,2,8,2] - 15 layerInUse[4,8,2] <= 0
+ R26548: allocated[4,4,2,8,1] - 15 layerInUse[4,8,2] <= 0
+ R26549: allocated[4,4,2,8,2] - 15 layerInUse[4,8,2] <= 0
+ R26550: allocated[4,1,3,8,1] - 15 layerInUse[4,8,3] <= 0
+ R26551: allocated[4,1,3,8,2] - 15 layerInUse[4,8,3] <= 0
+ R26552: allocated[4,2,3,8,1] - 15 layerInUse[4,8,3] <= 0
+ R26553: allocated[4,2,3,8,2] - 15 layerInUse[4,8,3] <= 0
+ R26554: allocated[4,3,3,8,1] - 15 layerInUse[4,8,3] <= 0
+ R26555: allocated[4,3,3,8,2] - 15 layerInUse[4,8,3] <= 0
+ R26556: allocated[4,4,3,8,1] - 15 layerInUse[4,8,3] <= 0
+ R26557: allocated[4,4,3,8,2] - 15 layerInUse[4,8,3] <= 0
+ R26558: allocated[4,1,4,8,1] - 15 layerInUse[4,8,4] <= 0
+ R26559: allocated[4,1,4,8,2] - 15 layerInUse[4,8,4] <= 0
+ R26560: allocated[4,2,4,8,1] - 15 layerInUse[4,8,4] <= 0
+ R26561: allocated[4,2,4,8,2] - 15 layerInUse[4,8,4] <= 0
+ R26562: allocated[4,3,4,8,1] - 15 layerInUse[4,8,4] <= 0
+ R26563: allocated[4,3,4,8,2] - 15 layerInUse[4,8,4] <= 0
+ R26564: allocated[4,4,4,8,1] - 15 layerInUse[4,8,4] <= 0
+ R26565: allocated[4,4,4,8,2] - 15 layerInUse[4,8,4] <= 0
+ R26566: allocated[4,1,5,8,1] - 15 layerInUse[4,8,5] <= 0
+ R26567: allocated[4,1,5,8,2] - 15 layerInUse[4,8,5] <= 0
+ R26568: allocated[4,2,5,8,1] - 15 layerInUse[4,8,5] <= 0
+ R26569: allocated[4,2,5,8,2] - 15 layerInUse[4,8,5] <= 0
+ R26570: allocated[4,3,5,8,1] - 15 layerInUse[4,8,5] <= 0
+ R26571: allocated[4,3,5,8,2] - 15 layerInUse[4,8,5] <= 0
+ R26572: allocated[4,4,5,8,1] - 15 layerInUse[4,8,5] <= 0
+ R26573: allocated[4,4,5,8,2] - 15 layerInUse[4,8,5] <= 0
+ R26574: allocated[4,1,6,8,1] - 15 layerInUse[4,8,6] <= 0
+ R26575: allocated[4,1,6,8,2] - 15 layerInUse[4,8,6] <= 0
+ R26576: allocated[4,2,6,8,1] - 15 layerInUse[4,8,6] <= 0
+ R26577: allocated[4,2,6,8,2] - 15 layerInUse[4,8,6] <= 0
+ R26578: allocated[4,3,6,8,1] - 15 layerInUse[4,8,6] <= 0
+ R26579: allocated[4,3,6,8,2] - 15 layerInUse[4,8,6] <= 0
+ R26580: allocated[4,4,6,8,1] - 15 layerInUse[4,8,6] <= 0
+ R26581: allocated[4,4,6,8,2] - 15 layerInUse[4,8,6] <= 0
+ R26582: allocated[5,1,1,1,1] - 15 layerInUse[5,1,1] <= 0
+ R26583: allocated[5,1,1,1,2] - 15 layerInUse[5,1,1] <= 0
+ R26584: allocated[5,2,1,1,1] - 15 layerInUse[5,1,1] <= 0
+ R26585: allocated[5,2,1,1,2] - 15 layerInUse[5,1,1] <= 0
+ R26586: allocated[5,3,1,1,1] - 15 layerInUse[5,1,1] <= 0
+ R26587: allocated[5,3,1,1,2] - 15 layerInUse[5,1,1] <= 0
+ R26588: allocated[5,4,1,1,1] - 15 layerInUse[5,1,1] <= 0
+ R26589: allocated[5,4,1,1,2] - 15 layerInUse[5,1,1] <= 0
+ R26590: allocated[5,1,2,1,1] - 15 layerInUse[5,1,2] <= 0
+ R26591: allocated[5,1,2,1,2] - 15 layerInUse[5,1,2] <= 0
+ R26592: allocated[5,2,2,1,1] - 15 layerInUse[5,1,2] <= 0
+ R26593: allocated[5,2,2,1,2] - 15 layerInUse[5,1,2] <= 0
+ R26594: allocated[5,3,2,1,1] - 15 layerInUse[5,1,2] <= 0
+ R26595: allocated[5,3,2,1,2] - 15 layerInUse[5,1,2] <= 0
+ R26596: allocated[5,4,2,1,1] - 15 layerInUse[5,1,2] <= 0
+ R26597: allocated[5,4,2,1,2] - 15 layerInUse[5,1,2] <= 0
+ R26598: allocated[5,1,3,1,1] - 15 layerInUse[5,1,3] <= 0
+ R26599: allocated[5,1,3,1,2] - 15 layerInUse[5,1,3] <= 0
+ R26600: allocated[5,2,3,1,1] - 15 layerInUse[5,1,3] <= 0
+ R26601: allocated[5,2,3,1,2] - 15 layerInUse[5,1,3] <= 0
+ R26602: allocated[5,3,3,1,1] - 15 layerInUse[5,1,3] <= 0
+ R26603: allocated[5,3,3,1,2] - 15 layerInUse[5,1,3] <= 0
+ R26604: allocated[5,4,3,1,1] - 15 layerInUse[5,1,3] <= 0
+ R26605: allocated[5,4,3,1,2] - 15 layerInUse[5,1,3] <= 0
+ R26606: allocated[5,1,4,1,1] - 15 layerInUse[5,1,4] <= 0
+ R26607: allocated[5,1,4,1,2] - 15 layerInUse[5,1,4] <= 0
+ R26608: allocated[5,2,4,1,1] - 15 layerInUse[5,1,4] <= 0
+ R26609: allocated[5,2,4,1,2] - 15 layerInUse[5,1,4] <= 0
+ R26610: allocated[5,3,4,1,1] - 15 layerInUse[5,1,4] <= 0
+ R26611: allocated[5,3,4,1,2] - 15 layerInUse[5,1,4] <= 0
+ R26612: allocated[5,4,4,1,1] - 15 layerInUse[5,1,4] <= 0
+ R26613: allocated[5,4,4,1,2] - 15 layerInUse[5,1,4] <= 0
+ R26614: allocated[5,1,5,1,1] - 15 layerInUse[5,1,5] <= 0
+ R26615: allocated[5,1,5,1,2] - 15 layerInUse[5,1,5] <= 0
+ R26616: allocated[5,2,5,1,1] - 15 layerInUse[5,1,5] <= 0
+ R26617: allocated[5,2,5,1,2] - 15 layerInUse[5,1,5] <= 0
+ R26618: allocated[5,3,5,1,1] - 15 layerInUse[5,1,5] <= 0
+ R26619: allocated[5,3,5,1,2] - 15 layerInUse[5,1,5] <= 0
+ R26620: allocated[5,4,5,1,1] - 15 layerInUse[5,1,5] <= 0
+ R26621: allocated[5,4,5,1,2] - 15 layerInUse[5,1,5] <= 0
+ R26622: allocated[5,1,6,1,1] - 15 layerInUse[5,1,6] <= 0
+ R26623: allocated[5,1,6,1,2] - 15 layerInUse[5,1,6] <= 0
+ R26624: allocated[5,2,6,1,1] - 15 layerInUse[5,1,6] <= 0
+ R26625: allocated[5,2,6,1,2] - 15 layerInUse[5,1,6] <= 0
+ R26626: allocated[5,3,6,1,1] - 15 layerInUse[5,1,6] <= 0
+ R26627: allocated[5,3,6,1,2] - 15 layerInUse[5,1,6] <= 0
+ R26628: allocated[5,4,6,1,1] - 15 layerInUse[5,1,6] <= 0
+ R26629: allocated[5,4,6,1,2] - 15 layerInUse[5,1,6] <= 0
+ R26630: allocated[5,1,1,2,1] - 15 layerInUse[5,2,1] <= 0
+ R26631: allocated[5,1,1,2,2] - 15 layerInUse[5,2,1] <= 0
+ R26632: allocated[5,2,1,2,1] - 15 layerInUse[5,2,1] <= 0
+ R26633: allocated[5,2,1,2,2] - 15 layerInUse[5,2,1] <= 0
+ R26634: allocated[5,3,1,2,1] - 15 layerInUse[5,2,1] <= 0
+ R26635: allocated[5,3,1,2,2] - 15 layerInUse[5,2,1] <= 0
+ R26636: allocated[5,4,1,2,1] - 15 layerInUse[5,2,1] <= 0
+ R26637: allocated[5,4,1,2,2] - 15 layerInUse[5,2,1] <= 0
+ R26638: allocated[5,1,2,2,1] - 15 layerInUse[5,2,2] <= 0
+ R26639: allocated[5,1,2,2,2] - 15 layerInUse[5,2,2] <= 0
+ R26640: allocated[5,2,2,2,1] - 15 layerInUse[5,2,2] <= 0
+ R26641: allocated[5,2,2,2,2] - 15 layerInUse[5,2,2] <= 0
+ R26642: allocated[5,3,2,2,1] - 15 layerInUse[5,2,2] <= 0
+ R26643: allocated[5,3,2,2,2] - 15 layerInUse[5,2,2] <= 0
+ R26644: allocated[5,4,2,2,1] - 15 layerInUse[5,2,2] <= 0
+ R26645: allocated[5,4,2,2,2] - 15 layerInUse[5,2,2] <= 0
+ R26646: allocated[5,1,3,2,1] - 15 layerInUse[5,2,3] <= 0
+ R26647: allocated[5,1,3,2,2] - 15 layerInUse[5,2,3] <= 0
+ R26648: allocated[5,2,3,2,1] - 15 layerInUse[5,2,3] <= 0
+ R26649: allocated[5,2,3,2,2] - 15 layerInUse[5,2,3] <= 0
+ R26650: allocated[5,3,3,2,1] - 15 layerInUse[5,2,3] <= 0
+ R26651: allocated[5,3,3,2,2] - 15 layerInUse[5,2,3] <= 0
+ R26652: allocated[5,4,3,2,1] - 15 layerInUse[5,2,3] <= 0
+ R26653: allocated[5,4,3,2,2] - 15 layerInUse[5,2,3] <= 0
+ R26654: allocated[5,1,4,2,1] - 15 layerInUse[5,2,4] <= 0
+ R26655: allocated[5,1,4,2,2] - 15 layerInUse[5,2,4] <= 0
+ R26656: allocated[5,2,4,2,1] - 15 layerInUse[5,2,4] <= 0
+ R26657: allocated[5,2,4,2,2] - 15 layerInUse[5,2,4] <= 0
+ R26658: allocated[5,3,4,2,1] - 15 layerInUse[5,2,4] <= 0
+ R26659: allocated[5,3,4,2,2] - 15 layerInUse[5,2,4] <= 0
+ R26660: allocated[5,4,4,2,1] - 15 layerInUse[5,2,4] <= 0
+ R26661: allocated[5,4,4,2,2] - 15 layerInUse[5,2,4] <= 0
+ R26662: allocated[5,1,5,2,1] - 15 layerInUse[5,2,5] <= 0
+ R26663: allocated[5,1,5,2,2] - 15 layerInUse[5,2,5] <= 0
+ R26664: allocated[5,2,5,2,1] - 15 layerInUse[5,2,5] <= 0
+ R26665: allocated[5,2,5,2,2] - 15 layerInUse[5,2,5] <= 0
+ R26666: allocated[5,3,5,2,1] - 15 layerInUse[5,2,5] <= 0
+ R26667: allocated[5,3,5,2,2] - 15 layerInUse[5,2,5] <= 0
+ R26668: allocated[5,4,5,2,1] - 15 layerInUse[5,2,5] <= 0
+ R26669: allocated[5,4,5,2,2] - 15 layerInUse[5,2,5] <= 0
+ R26670: allocated[5,1,6,2,1] - 15 layerInUse[5,2,6] <= 0
+ R26671: allocated[5,1,6,2,2] - 15 layerInUse[5,2,6] <= 0
+ R26672: allocated[5,2,6,2,1] - 15 layerInUse[5,2,6] <= 0
+ R26673: allocated[5,2,6,2,2] - 15 layerInUse[5,2,6] <= 0
+ R26674: allocated[5,3,6,2,1] - 15 layerInUse[5,2,6] <= 0
+ R26675: allocated[5,3,6,2,2] - 15 layerInUse[5,2,6] <= 0
+ R26676: allocated[5,4,6,2,1] - 15 layerInUse[5,2,6] <= 0
+ R26677: allocated[5,4,6,2,2] - 15 layerInUse[5,2,6] <= 0
+ R26678: allocated[5,1,1,3,1] - 15 layerInUse[5,3,1] <= 0
+ R26679: allocated[5,1,1,3,2] - 15 layerInUse[5,3,1] <= 0
+ R26680: allocated[5,2,1,3,1] - 15 layerInUse[5,3,1] <= 0
+ R26681: allocated[5,2,1,3,2] - 15 layerInUse[5,3,1] <= 0
+ R26682: allocated[5,3,1,3,1] - 15 layerInUse[5,3,1] <= 0
+ R26683: allocated[5,3,1,3,2] - 15 layerInUse[5,3,1] <= 0
+ R26684: allocated[5,4,1,3,1] - 15 layerInUse[5,3,1] <= 0
+ R26685: allocated[5,4,1,3,2] - 15 layerInUse[5,3,1] <= 0
+ R26686: allocated[5,1,2,3,1] - 15 layerInUse[5,3,2] <= 0
+ R26687: allocated[5,1,2,3,2] - 15 layerInUse[5,3,2] <= 0
+ R26688: allocated[5,2,2,3,1] - 15 layerInUse[5,3,2] <= 0
+ R26689: allocated[5,2,2,3,2] - 15 layerInUse[5,3,2] <= 0
+ R26690: allocated[5,3,2,3,1] - 15 layerInUse[5,3,2] <= 0
+ R26691: allocated[5,3,2,3,2] - 15 layerInUse[5,3,2] <= 0
+ R26692: allocated[5,4,2,3,1] - 15 layerInUse[5,3,2] <= 0
+ R26693: allocated[5,4,2,3,2] - 15 layerInUse[5,3,2] <= 0
+ R26694: allocated[5,1,3,3,1] - 15 layerInUse[5,3,3] <= 0
+ R26695: allocated[5,1,3,3,2] - 15 layerInUse[5,3,3] <= 0
+ R26696: allocated[5,2,3,3,1] - 15 layerInUse[5,3,3] <= 0
+ R26697: allocated[5,2,3,3,2] - 15 layerInUse[5,3,3] <= 0
+ R26698: allocated[5,3,3,3,1] - 15 layerInUse[5,3,3] <= 0
+ R26699: allocated[5,3,3,3,2] - 15 layerInUse[5,3,3] <= 0
+ R26700: allocated[5,4,3,3,1] - 15 layerInUse[5,3,3] <= 0
+ R26701: allocated[5,4,3,3,2] - 15 layerInUse[5,3,3] <= 0
+ R26702: allocated[5,1,4,3,1] - 15 layerInUse[5,3,4] <= 0
+ R26703: allocated[5,1,4,3,2] - 15 layerInUse[5,3,4] <= 0
+ R26704: allocated[5,2,4,3,1] - 15 layerInUse[5,3,4] <= 0
+ R26705: allocated[5,2,4,3,2] - 15 layerInUse[5,3,4] <= 0
+ R26706: allocated[5,3,4,3,1] - 15 layerInUse[5,3,4] <= 0
+ R26707: allocated[5,3,4,3,2] - 15 layerInUse[5,3,4] <= 0
+ R26708: allocated[5,4,4,3,1] - 15 layerInUse[5,3,4] <= 0
+ R26709: allocated[5,4,4,3,2] - 15 layerInUse[5,3,4] <= 0
+ R26710: allocated[5,1,5,3,1] - 15 layerInUse[5,3,5] <= 0
+ R26711: allocated[5,1,5,3,2] - 15 layerInUse[5,3,5] <= 0
+ R26712: allocated[5,2,5,3,1] - 15 layerInUse[5,3,5] <= 0
+ R26713: allocated[5,2,5,3,2] - 15 layerInUse[5,3,5] <= 0
+ R26714: allocated[5,3,5,3,1] - 15 layerInUse[5,3,5] <= 0
+ R26715: allocated[5,3,5,3,2] - 15 layerInUse[5,3,5] <= 0
+ R26716: allocated[5,4,5,3,1] - 15 layerInUse[5,3,5] <= 0
+ R26717: allocated[5,4,5,3,2] - 15 layerInUse[5,3,5] <= 0
+ R26718: allocated[5,1,6,3,1] - 15 layerInUse[5,3,6] <= 0
+ R26719: allocated[5,1,6,3,2] - 15 layerInUse[5,3,6] <= 0
+ R26720: allocated[5,2,6,3,1] - 15 layerInUse[5,3,6] <= 0
+ R26721: allocated[5,2,6,3,2] - 15 layerInUse[5,3,6] <= 0
+ R26722: allocated[5,3,6,3,1] - 15 layerInUse[5,3,6] <= 0
+ R26723: allocated[5,3,6,3,2] - 15 layerInUse[5,3,6] <= 0
+ R26724: allocated[5,4,6,3,1] - 15 layerInUse[5,3,6] <= 0
+ R26725: allocated[5,4,6,3,2] - 15 layerInUse[5,3,6] <= 0
+ R26726: allocated[5,1,1,4,1] - 15 layerInUse[5,4,1] <= 0
+ R26727: allocated[5,1,1,4,2] - 15 layerInUse[5,4,1] <= 0
+ R26728: allocated[5,2,1,4,1] - 15 layerInUse[5,4,1] <= 0
+ R26729: allocated[5,2,1,4,2] - 15 layerInUse[5,4,1] <= 0
+ R26730: allocated[5,3,1,4,1] - 15 layerInUse[5,4,1] <= 0
+ R26731: allocated[5,3,1,4,2] - 15 layerInUse[5,4,1] <= 0
+ R26732: allocated[5,4,1,4,1] - 15 layerInUse[5,4,1] <= 0
+ R26733: allocated[5,4,1,4,2] - 15 layerInUse[5,4,1] <= 0
+ R26734: allocated[5,1,2,4,1] - 15 layerInUse[5,4,2] <= 0
+ R26735: allocated[5,1,2,4,2] - 15 layerInUse[5,4,2] <= 0
+ R26736: allocated[5,2,2,4,1] - 15 layerInUse[5,4,2] <= 0
+ R26737: allocated[5,2,2,4,2] - 15 layerInUse[5,4,2] <= 0
+ R26738: allocated[5,3,2,4,1] - 15 layerInUse[5,4,2] <= 0
+ R26739: allocated[5,3,2,4,2] - 15 layerInUse[5,4,2] <= 0
+ R26740: allocated[5,4,2,4,1] - 15 layerInUse[5,4,2] <= 0
+ R26741: allocated[5,4,2,4,2] - 15 layerInUse[5,4,2] <= 0
+ R26742: allocated[5,1,3,4,1] - 15 layerInUse[5,4,3] <= 0
+ R26743: allocated[5,1,3,4,2] - 15 layerInUse[5,4,3] <= 0
+ R26744: allocated[5,2,3,4,1] - 15 layerInUse[5,4,3] <= 0
+ R26745: allocated[5,2,3,4,2] - 15 layerInUse[5,4,3] <= 0
+ R26746: allocated[5,3,3,4,1] - 15 layerInUse[5,4,3] <= 0
+ R26747: allocated[5,3,3,4,2] - 15 layerInUse[5,4,3] <= 0
+ R26748: allocated[5,4,3,4,1] - 15 layerInUse[5,4,3] <= 0
+ R26749: allocated[5,4,3,4,2] - 15 layerInUse[5,4,3] <= 0
+ R26750: allocated[5,1,4,4,1] - 15 layerInUse[5,4,4] <= 0
+ R26751: allocated[5,1,4,4,2] - 15 layerInUse[5,4,4] <= 0
+ R26752: allocated[5,2,4,4,1] - 15 layerInUse[5,4,4] <= 0
+ R26753: allocated[5,2,4,4,2] - 15 layerInUse[5,4,4] <= 0
+ R26754: allocated[5,3,4,4,1] - 15 layerInUse[5,4,4] <= 0
+ R26755: allocated[5,3,4,4,2] - 15 layerInUse[5,4,4] <= 0
+ R26756: allocated[5,4,4,4,1] - 15 layerInUse[5,4,4] <= 0
+ R26757: allocated[5,4,4,4,2] - 15 layerInUse[5,4,4] <= 0
+ R26758: allocated[5,1,5,4,1] - 15 layerInUse[5,4,5] <= 0
+ R26759: allocated[5,1,5,4,2] - 15 layerInUse[5,4,5] <= 0
+ R26760: allocated[5,2,5,4,1] - 15 layerInUse[5,4,5] <= 0
+ R26761: allocated[5,2,5,4,2] - 15 layerInUse[5,4,5] <= 0
+ R26762: allocated[5,3,5,4,1] - 15 layerInUse[5,4,5] <= 0
+ R26763: allocated[5,3,5,4,2] - 15 layerInUse[5,4,5] <= 0
+ R26764: allocated[5,4,5,4,1] - 15 layerInUse[5,4,5] <= 0
+ R26765: allocated[5,4,5,4,2] - 15 layerInUse[5,4,5] <= 0
+ R26766: allocated[5,1,6,4,1] - 15 layerInUse[5,4,6] <= 0
+ R26767: allocated[5,1,6,4,2] - 15 layerInUse[5,4,6] <= 0
+ R26768: allocated[5,2,6,4,1] - 15 layerInUse[5,4,6] <= 0
+ R26769: allocated[5,2,6,4,2] - 15 layerInUse[5,4,6] <= 0
+ R26770: allocated[5,3,6,4,1] - 15 layerInUse[5,4,6] <= 0
+ R26771: allocated[5,3,6,4,2] - 15 layerInUse[5,4,6] <= 0
+ R26772: allocated[5,4,6,4,1] - 15 layerInUse[5,4,6] <= 0
+ R26773: allocated[5,4,6,4,2] - 15 layerInUse[5,4,6] <= 0
+ R26774: allocated[5,1,1,5,1] - 15 layerInUse[5,5,1] <= 0
+ R26775: allocated[5,1,1,5,2] - 15 layerInUse[5,5,1] <= 0
+ R26776: allocated[5,2,1,5,1] - 15 layerInUse[5,5,1] <= 0
+ R26777: allocated[5,2,1,5,2] - 15 layerInUse[5,5,1] <= 0
+ R26778: allocated[5,3,1,5,1] - 15 layerInUse[5,5,1] <= 0
+ R26779: allocated[5,3,1,5,2] - 15 layerInUse[5,5,1] <= 0
+ R26780: allocated[5,4,1,5,1] - 15 layerInUse[5,5,1] <= 0
+ R26781: allocated[5,4,1,5,2] - 15 layerInUse[5,5,1] <= 0
+ R26782: allocated[5,1,2,5,1] - 15 layerInUse[5,5,2] <= 0
+ R26783: allocated[5,1,2,5,2] - 15 layerInUse[5,5,2] <= 0
+ R26784: allocated[5,2,2,5,1] - 15 layerInUse[5,5,2] <= 0
+ R26785: allocated[5,2,2,5,2] - 15 layerInUse[5,5,2] <= 0
+ R26786: allocated[5,3,2,5,1] - 15 layerInUse[5,5,2] <= 0
+ R26787: allocated[5,3,2,5,2] - 15 layerInUse[5,5,2] <= 0
+ R26788: allocated[5,4,2,5,1] - 15 layerInUse[5,5,2] <= 0
+ R26789: allocated[5,4,2,5,2] - 15 layerInUse[5,5,2] <= 0
+ R26790: allocated[5,1,3,5,1] - 15 layerInUse[5,5,3] <= 0
+ R26791: allocated[5,1,3,5,2] - 15 layerInUse[5,5,3] <= 0
+ R26792: allocated[5,2,3,5,1] - 15 layerInUse[5,5,3] <= 0
+ R26793: allocated[5,2,3,5,2] - 15 layerInUse[5,5,3] <= 0
+ R26794: allocated[5,3,3,5,1] - 15 layerInUse[5,5,3] <= 0
+ R26795: allocated[5,3,3,5,2] - 15 layerInUse[5,5,3] <= 0
+ R26796: allocated[5,4,3,5,1] - 15 layerInUse[5,5,3] <= 0
+ R26797: allocated[5,4,3,5,2] - 15 layerInUse[5,5,3] <= 0
+ R26798: allocated[5,1,4,5,1] - 15 layerInUse[5,5,4] <= 0
+ R26799: allocated[5,1,4,5,2] - 15 layerInUse[5,5,4] <= 0
+ R26800: allocated[5,2,4,5,1] - 15 layerInUse[5,5,4] <= 0
+ R26801: allocated[5,2,4,5,2] - 15 layerInUse[5,5,4] <= 0
+ R26802: allocated[5,3,4,5,1] - 15 layerInUse[5,5,4] <= 0
+ R26803: allocated[5,3,4,5,2] - 15 layerInUse[5,5,4] <= 0
+ R26804: allocated[5,4,4,5,1] - 15 layerInUse[5,5,4] <= 0
+ R26805: allocated[5,4,4,5,2] - 15 layerInUse[5,5,4] <= 0
+ R26806: allocated[5,1,5,5,1] - 15 layerInUse[5,5,5] <= 0
+ R26807: allocated[5,1,5,5,2] - 15 layerInUse[5,5,5] <= 0
+ R26808: allocated[5,2,5,5,1] - 15 layerInUse[5,5,5] <= 0
+ R26809: allocated[5,2,5,5,2] - 15 layerInUse[5,5,5] <= 0
+ R26810: allocated[5,3,5,5,1] - 15 layerInUse[5,5,5] <= 0
+ R26811: allocated[5,3,5,5,2] - 15 layerInUse[5,5,5] <= 0
+ R26812: allocated[5,4,5,5,1] - 15 layerInUse[5,5,5] <= 0
+ R26813: allocated[5,4,5,5,2] - 15 layerInUse[5,5,5] <= 0
+ R26814: allocated[5,1,6,5,1] - 15 layerInUse[5,5,6] <= 0
+ R26815: allocated[5,1,6,5,2] - 15 layerInUse[5,5,6] <= 0
+ R26816: allocated[5,2,6,5,1] - 15 layerInUse[5,5,6] <= 0
+ R26817: allocated[5,2,6,5,2] - 15 layerInUse[5,5,6] <= 0
+ R26818: allocated[5,3,6,5,1] - 15 layerInUse[5,5,6] <= 0
+ R26819: allocated[5,3,6,5,2] - 15 layerInUse[5,5,6] <= 0
+ R26820: allocated[5,4,6,5,1] - 15 layerInUse[5,5,6] <= 0
+ R26821: allocated[5,4,6,5,2] - 15 layerInUse[5,5,6] <= 0
+ R26822: allocated[5,1,1,6,1] - 15 layerInUse[5,6,1] <= 0
+ R26823: allocated[5,1,1,6,2] - 15 layerInUse[5,6,1] <= 0
+ R26824: allocated[5,2,1,6,1] - 15 layerInUse[5,6,1] <= 0
+ R26825: allocated[5,2,1,6,2] - 15 layerInUse[5,6,1] <= 0
+ R26826: allocated[5,3,1,6,1] - 15 layerInUse[5,6,1] <= 0
+ R26827: allocated[5,3,1,6,2] - 15 layerInUse[5,6,1] <= 0
+ R26828: allocated[5,4,1,6,1] - 15 layerInUse[5,6,1] <= 0
+ R26829: allocated[5,4,1,6,2] - 15 layerInUse[5,6,1] <= 0
+ R26830: allocated[5,1,2,6,1] - 15 layerInUse[5,6,2] <= 0
+ R26831: allocated[5,1,2,6,2] - 15 layerInUse[5,6,2] <= 0
+ R26832: allocated[5,2,2,6,1] - 15 layerInUse[5,6,2] <= 0
+ R26833: allocated[5,2,2,6,2] - 15 layerInUse[5,6,2] <= 0
+ R26834: allocated[5,3,2,6,1] - 15 layerInUse[5,6,2] <= 0
+ R26835: allocated[5,3,2,6,2] - 15 layerInUse[5,6,2] <= 0
+ R26836: allocated[5,4,2,6,1] - 15 layerInUse[5,6,2] <= 0
+ R26837: allocated[5,4,2,6,2] - 15 layerInUse[5,6,2] <= 0
+ R26838: allocated[5,1,3,6,1] - 15 layerInUse[5,6,3] <= 0
+ R26839: allocated[5,1,3,6,2] - 15 layerInUse[5,6,3] <= 0
+ R26840: allocated[5,2,3,6,1] - 15 layerInUse[5,6,3] <= 0
+ R26841: allocated[5,2,3,6,2] - 15 layerInUse[5,6,3] <= 0
+ R26842: allocated[5,3,3,6,1] - 15 layerInUse[5,6,3] <= 0
+ R26843: allocated[5,3,3,6,2] - 15 layerInUse[5,6,3] <= 0
+ R26844: allocated[5,4,3,6,1] - 15 layerInUse[5,6,3] <= 0
+ R26845: allocated[5,4,3,6,2] - 15 layerInUse[5,6,3] <= 0
+ R26846: allocated[5,1,4,6,1] - 15 layerInUse[5,6,4] <= 0
+ R26847: allocated[5,1,4,6,2] - 15 layerInUse[5,6,4] <= 0
+ R26848: allocated[5,2,4,6,1] - 15 layerInUse[5,6,4] <= 0
+ R26849: allocated[5,2,4,6,2] - 15 layerInUse[5,6,4] <= 0
+ R26850: allocated[5,3,4,6,1] - 15 layerInUse[5,6,4] <= 0
+ R26851: allocated[5,3,4,6,2] - 15 layerInUse[5,6,4] <= 0
+ R26852: allocated[5,4,4,6,1] - 15 layerInUse[5,6,4] <= 0
+ R26853: allocated[5,4,4,6,2] - 15 layerInUse[5,6,4] <= 0
+ R26854: allocated[5,1,5,6,1] - 15 layerInUse[5,6,5] <= 0
+ R26855: allocated[5,1,5,6,2] - 15 layerInUse[5,6,5] <= 0
+ R26856: allocated[5,2,5,6,1] - 15 layerInUse[5,6,5] <= 0
+ R26857: allocated[5,2,5,6,2] - 15 layerInUse[5,6,5] <= 0
+ R26858: allocated[5,3,5,6,1] - 15 layerInUse[5,6,5] <= 0
+ R26859: allocated[5,3,5,6,2] - 15 layerInUse[5,6,5] <= 0
+ R26860: allocated[5,4,5,6,1] - 15 layerInUse[5,6,5] <= 0
+ R26861: allocated[5,4,5,6,2] - 15 layerInUse[5,6,5] <= 0
+ R26862: allocated[5,1,6,6,1] - 15 layerInUse[5,6,6] <= 0
+ R26863: allocated[5,1,6,6,2] - 15 layerInUse[5,6,6] <= 0
+ R26864: allocated[5,2,6,6,1] - 15 layerInUse[5,6,6] <= 0
+ R26865: allocated[5,2,6,6,2] - 15 layerInUse[5,6,6] <= 0
+ R26866: allocated[5,3,6,6,1] - 15 layerInUse[5,6,6] <= 0
+ R26867: allocated[5,3,6,6,2] - 15 layerInUse[5,6,6] <= 0
+ R26868: allocated[5,4,6,6,1] - 15 layerInUse[5,6,6] <= 0
+ R26869: allocated[5,4,6,6,2] - 15 layerInUse[5,6,6] <= 0
+ R26870: allocated[5,1,1,7,1] - 15 layerInUse[5,7,1] <= 0
+ R26871: allocated[5,1,1,7,2] - 15 layerInUse[5,7,1] <= 0
+ R26872: allocated[5,2,1,7,1] - 15 layerInUse[5,7,1] <= 0
+ R26873: allocated[5,2,1,7,2] - 15 layerInUse[5,7,1] <= 0
+ R26874: allocated[5,3,1,7,1] - 15 layerInUse[5,7,1] <= 0
+ R26875: allocated[5,3,1,7,2] - 15 layerInUse[5,7,1] <= 0
+ R26876: allocated[5,4,1,7,1] - 15 layerInUse[5,7,1] <= 0
+ R26877: allocated[5,4,1,7,2] - 15 layerInUse[5,7,1] <= 0
+ R26878: allocated[5,1,2,7,1] - 15 layerInUse[5,7,2] <= 0
+ R26879: allocated[5,1,2,7,2] - 15 layerInUse[5,7,2] <= 0
+ R26880: allocated[5,2,2,7,1] - 15 layerInUse[5,7,2] <= 0
+ R26881: allocated[5,2,2,7,2] - 15 layerInUse[5,7,2] <= 0
+ R26882: allocated[5,3,2,7,1] - 15 layerInUse[5,7,2] <= 0
+ R26883: allocated[5,3,2,7,2] - 15 layerInUse[5,7,2] <= 0
+ R26884: allocated[5,4,2,7,1] - 15 layerInUse[5,7,2] <= 0
+ R26885: allocated[5,4,2,7,2] - 15 layerInUse[5,7,2] <= 0
+ R26886: allocated[5,1,3,7,1] - 15 layerInUse[5,7,3] <= 0
+ R26887: allocated[5,1,3,7,2] - 15 layerInUse[5,7,3] <= 0
+ R26888: allocated[5,2,3,7,1] - 15 layerInUse[5,7,3] <= 0
+ R26889: allocated[5,2,3,7,2] - 15 layerInUse[5,7,3] <= 0
+ R26890: allocated[5,3,3,7,1] - 15 layerInUse[5,7,3] <= 0
+ R26891: allocated[5,3,3,7,2] - 15 layerInUse[5,7,3] <= 0
+ R26892: allocated[5,4,3,7,1] - 15 layerInUse[5,7,3] <= 0
+ R26893: allocated[5,4,3,7,2] - 15 layerInUse[5,7,3] <= 0
+ R26894: allocated[5,1,4,7,1] - 15 layerInUse[5,7,4] <= 0
+ R26895: allocated[5,1,4,7,2] - 15 layerInUse[5,7,4] <= 0
+ R26896: allocated[5,2,4,7,1] - 15 layerInUse[5,7,4] <= 0
+ R26897: allocated[5,2,4,7,2] - 15 layerInUse[5,7,4] <= 0
+ R26898: allocated[5,3,4,7,1] - 15 layerInUse[5,7,4] <= 0
+ R26899: allocated[5,3,4,7,2] - 15 layerInUse[5,7,4] <= 0
+ R26900: allocated[5,4,4,7,1] - 15 layerInUse[5,7,4] <= 0
+ R26901: allocated[5,4,4,7,2] - 15 layerInUse[5,7,4] <= 0
+ R26902: allocated[5,1,5,7,1] - 15 layerInUse[5,7,5] <= 0
+ R26903: allocated[5,1,5,7,2] - 15 layerInUse[5,7,5] <= 0
+ R26904: allocated[5,2,5,7,1] - 15 layerInUse[5,7,5] <= 0
+ R26905: allocated[5,2,5,7,2] - 15 layerInUse[5,7,5] <= 0
+ R26906: allocated[5,3,5,7,1] - 15 layerInUse[5,7,5] <= 0
+ R26907: allocated[5,3,5,7,2] - 15 layerInUse[5,7,5] <= 0
+ R26908: allocated[5,4,5,7,1] - 15 layerInUse[5,7,5] <= 0
+ R26909: allocated[5,4,5,7,2] - 15 layerInUse[5,7,5] <= 0
+ R26910: allocated[5,1,6,7,1] - 15 layerInUse[5,7,6] <= 0
+ R26911: allocated[5,1,6,7,2] - 15 layerInUse[5,7,6] <= 0
+ R26912: allocated[5,2,6,7,1] - 15 layerInUse[5,7,6] <= 0
+ R26913: allocated[5,2,6,7,2] - 15 layerInUse[5,7,6] <= 0
+ R26914: allocated[5,3,6,7,1] - 15 layerInUse[5,7,6] <= 0
+ R26915: allocated[5,3,6,7,2] - 15 layerInUse[5,7,6] <= 0
+ R26916: allocated[5,4,6,7,1] - 15 layerInUse[5,7,6] <= 0
+ R26917: allocated[5,4,6,7,2] - 15 layerInUse[5,7,6] <= 0
+ R26918: allocated[5,1,1,8,1] - 15 layerInUse[5,8,1] <= 0
+ R26919: allocated[5,1,1,8,2] - 15 layerInUse[5,8,1] <= 0
+ R26920: allocated[5,2,1,8,1] - 15 layerInUse[5,8,1] <= 0
+ R26921: allocated[5,2,1,8,2] - 15 layerInUse[5,8,1] <= 0
+ R26922: allocated[5,3,1,8,1] - 15 layerInUse[5,8,1] <= 0
+ R26923: allocated[5,3,1,8,2] - 15 layerInUse[5,8,1] <= 0
+ R26924: allocated[5,4,1,8,1] - 15 layerInUse[5,8,1] <= 0
+ R26925: allocated[5,4,1,8,2] - 15 layerInUse[5,8,1] <= 0
+ R26926: allocated[5,1,2,8,1] - 15 layerInUse[5,8,2] <= 0
+ R26927: allocated[5,1,2,8,2] - 15 layerInUse[5,8,2] <= 0
+ R26928: allocated[5,2,2,8,1] - 15 layerInUse[5,8,2] <= 0
+ R26929: allocated[5,2,2,8,2] - 15 layerInUse[5,8,2] <= 0
+ R26930: allocated[5,3,2,8,1] - 15 layerInUse[5,8,2] <= 0
+ R26931: allocated[5,3,2,8,2] - 15 layerInUse[5,8,2] <= 0
+ R26932: allocated[5,4,2,8,1] - 15 layerInUse[5,8,2] <= 0
+ R26933: allocated[5,4,2,8,2] - 15 layerInUse[5,8,2] <= 0
+ R26934: allocated[5,1,3,8,1] - 15 layerInUse[5,8,3] <= 0
+ R26935: allocated[5,1,3,8,2] - 15 layerInUse[5,8,3] <= 0
+ R26936: allocated[5,2,3,8,1] - 15 layerInUse[5,8,3] <= 0
+ R26937: allocated[5,2,3,8,2] - 15 layerInUse[5,8,3] <= 0
+ R26938: allocated[5,3,3,8,1] - 15 layerInUse[5,8,3] <= 0
+ R26939: allocated[5,3,3,8,2] - 15 layerInUse[5,8,3] <= 0
+ R26940: allocated[5,4,3,8,1] - 15 layerInUse[5,8,3] <= 0
+ R26941: allocated[5,4,3,8,2] - 15 layerInUse[5,8,3] <= 0
+ R26942: allocated[5,1,4,8,1] - 15 layerInUse[5,8,4] <= 0
+ R26943: allocated[5,1,4,8,2] - 15 layerInUse[5,8,4] <= 0
+ R26944: allocated[5,2,4,8,1] - 15 layerInUse[5,8,4] <= 0
+ R26945: allocated[5,2,4,8,2] - 15 layerInUse[5,8,4] <= 0
+ R26946: allocated[5,3,4,8,1] - 15 layerInUse[5,8,4] <= 0
+ R26947: allocated[5,3,4,8,2] - 15 layerInUse[5,8,4] <= 0
+ R26948: allocated[5,4,4,8,1] - 15 layerInUse[5,8,4] <= 0
+ R26949: allocated[5,4,4,8,2] - 15 layerInUse[5,8,4] <= 0
+ R26950: allocated[5,1,5,8,1] - 15 layerInUse[5,8,5] <= 0
+ R26951: allocated[5,1,5,8,2] - 15 layerInUse[5,8,5] <= 0
+ R26952: allocated[5,2,5,8,1] - 15 layerInUse[5,8,5] <= 0
+ R26953: allocated[5,2,5,8,2] - 15 layerInUse[5,8,5] <= 0
+ R26954: allocated[5,3,5,8,1] - 15 layerInUse[5,8,5] <= 0
+ R26955: allocated[5,3,5,8,2] - 15 layerInUse[5,8,5] <= 0
+ R26956: allocated[5,4,5,8,1] - 15 layerInUse[5,8,5] <= 0
+ R26957: allocated[5,4,5,8,2] - 15 layerInUse[5,8,5] <= 0
+ R26958: allocated[5,1,6,8,1] - 15 layerInUse[5,8,6] <= 0
+ R26959: allocated[5,1,6,8,2] - 15 layerInUse[5,8,6] <= 0
+ R26960: allocated[5,2,6,8,1] - 15 layerInUse[5,8,6] <= 0
+ R26961: allocated[5,2,6,8,2] - 15 layerInUse[5,8,6] <= 0
+ R26962: allocated[5,3,6,8,1] - 15 layerInUse[5,8,6] <= 0
+ R26963: allocated[5,3,6,8,2] - 15 layerInUse[5,8,6] <= 0
+ R26964: allocated[5,4,6,8,1] - 15 layerInUse[5,8,6] <= 0
+ R26965: allocated[5,4,6,8,2] - 15 layerInUse[5,8,6] <= 0
+ R26966: allocated[6,1,1,1,1] - 15 layerInUse[6,1,1] <= 0
+ R26967: allocated[6,1,1,1,2] - 15 layerInUse[6,1,1] <= 0
+ R26968: allocated[6,2,1,1,1] - 15 layerInUse[6,1,1] <= 0
+ R26969: allocated[6,2,1,1,2] - 15 layerInUse[6,1,1] <= 0
+ R26970: allocated[6,3,1,1,1] - 15 layerInUse[6,1,1] <= 0
+ R26971: allocated[6,3,1,1,2] - 15 layerInUse[6,1,1] <= 0
+ R26972: allocated[6,4,1,1,1] - 15 layerInUse[6,1,1] <= 0
+ R26973: allocated[6,4,1,1,2] - 15 layerInUse[6,1,1] <= 0
+ R26974: allocated[6,1,2,1,1] - 15 layerInUse[6,1,2] <= 0
+ R26975: allocated[6,1,2,1,2] - 15 layerInUse[6,1,2] <= 0
+ R26976: allocated[6,2,2,1,1] - 15 layerInUse[6,1,2] <= 0
+ R26977: allocated[6,2,2,1,2] - 15 layerInUse[6,1,2] <= 0
+ R26978: allocated[6,3,2,1,1] - 15 layerInUse[6,1,2] <= 0
+ R26979: allocated[6,3,2,1,2] - 15 layerInUse[6,1,2] <= 0
+ R26980: allocated[6,4,2,1,1] - 15 layerInUse[6,1,2] <= 0
+ R26981: allocated[6,4,2,1,2] - 15 layerInUse[6,1,2] <= 0
+ R26982: allocated[6,1,3,1,1] - 15 layerInUse[6,1,3] <= 0
+ R26983: allocated[6,1,3,1,2] - 15 layerInUse[6,1,3] <= 0
+ R26984: allocated[6,2,3,1,1] - 15 layerInUse[6,1,3] <= 0
+ R26985: allocated[6,2,3,1,2] - 15 layerInUse[6,1,3] <= 0
+ R26986: allocated[6,3,3,1,1] - 15 layerInUse[6,1,3] <= 0
+ R26987: allocated[6,3,3,1,2] - 15 layerInUse[6,1,3] <= 0
+ R26988: allocated[6,4,3,1,1] - 15 layerInUse[6,1,3] <= 0
+ R26989: allocated[6,4,3,1,2] - 15 layerInUse[6,1,3] <= 0
+ R26990: allocated[6,1,4,1,1] - 15 layerInUse[6,1,4] <= 0
+ R26991: allocated[6,1,4,1,2] - 15 layerInUse[6,1,4] <= 0
+ R26992: allocated[6,2,4,1,1] - 15 layerInUse[6,1,4] <= 0
+ R26993: allocated[6,2,4,1,2] - 15 layerInUse[6,1,4] <= 0
+ R26994: allocated[6,3,4,1,1] - 15 layerInUse[6,1,4] <= 0
+ R26995: allocated[6,3,4,1,2] - 15 layerInUse[6,1,4] <= 0
+ R26996: allocated[6,4,4,1,1] - 15 layerInUse[6,1,4] <= 0
+ R26997: allocated[6,4,4,1,2] - 15 layerInUse[6,1,4] <= 0
+ R26998: allocated[6,1,5,1,1] - 15 layerInUse[6,1,5] <= 0
+ R26999: allocated[6,1,5,1,2] - 15 layerInUse[6,1,5] <= 0
+ R27000: allocated[6,2,5,1,1] - 15 layerInUse[6,1,5] <= 0
+ R27001: allocated[6,2,5,1,2] - 15 layerInUse[6,1,5] <= 0
+ R27002: allocated[6,3,5,1,1] - 15 layerInUse[6,1,5] <= 0
+ R27003: allocated[6,3,5,1,2] - 15 layerInUse[6,1,5] <= 0
+ R27004: allocated[6,4,5,1,1] - 15 layerInUse[6,1,5] <= 0
+ R27005: allocated[6,4,5,1,2] - 15 layerInUse[6,1,5] <= 0
+ R27006: allocated[6,1,6,1,1] - 15 layerInUse[6,1,6] <= 0
+ R27007: allocated[6,1,6,1,2] - 15 layerInUse[6,1,6] <= 0
+ R27008: allocated[6,2,6,1,1] - 15 layerInUse[6,1,6] <= 0
+ R27009: allocated[6,2,6,1,2] - 15 layerInUse[6,1,6] <= 0
+ R27010: allocated[6,3,6,1,1] - 15 layerInUse[6,1,6] <= 0
+ R27011: allocated[6,3,6,1,2] - 15 layerInUse[6,1,6] <= 0
+ R27012: allocated[6,4,6,1,1] - 15 layerInUse[6,1,6] <= 0
+ R27013: allocated[6,4,6,1,2] - 15 layerInUse[6,1,6] <= 0
+ R27014: allocated[6,1,1,2,1] - 15 layerInUse[6,2,1] <= 0
+ R27015: allocated[6,1,1,2,2] - 15 layerInUse[6,2,1] <= 0
+ R27016: allocated[6,2,1,2,1] - 15 layerInUse[6,2,1] <= 0
+ R27017: allocated[6,2,1,2,2] - 15 layerInUse[6,2,1] <= 0
+ R27018: allocated[6,3,1,2,1] - 15 layerInUse[6,2,1] <= 0
+ R27019: allocated[6,3,1,2,2] - 15 layerInUse[6,2,1] <= 0
+ R27020: allocated[6,4,1,2,1] - 15 layerInUse[6,2,1] <= 0
+ R27021: allocated[6,4,1,2,2] - 15 layerInUse[6,2,1] <= 0
+ R27022: allocated[6,1,2,2,1] - 15 layerInUse[6,2,2] <= 0
+ R27023: allocated[6,1,2,2,2] - 15 layerInUse[6,2,2] <= 0
+ R27024: allocated[6,2,2,2,1] - 15 layerInUse[6,2,2] <= 0
+ R27025: allocated[6,2,2,2,2] - 15 layerInUse[6,2,2] <= 0
+ R27026: allocated[6,3,2,2,1] - 15 layerInUse[6,2,2] <= 0
+ R27027: allocated[6,3,2,2,2] - 15 layerInUse[6,2,2] <= 0
+ R27028: allocated[6,4,2,2,1] - 15 layerInUse[6,2,2] <= 0
+ R27029: allocated[6,4,2,2,2] - 15 layerInUse[6,2,2] <= 0
+ R27030: allocated[6,1,3,2,1] - 15 layerInUse[6,2,3] <= 0
+ R27031: allocated[6,1,3,2,2] - 15 layerInUse[6,2,3] <= 0
+ R27032: allocated[6,2,3,2,1] - 15 layerInUse[6,2,3] <= 0
+ R27033: allocated[6,2,3,2,2] - 15 layerInUse[6,2,3] <= 0
+ R27034: allocated[6,3,3,2,1] - 15 layerInUse[6,2,3] <= 0
+ R27035: allocated[6,3,3,2,2] - 15 layerInUse[6,2,3] <= 0
+ R27036: allocated[6,4,3,2,1] - 15 layerInUse[6,2,3] <= 0
+ R27037: allocated[6,4,3,2,2] - 15 layerInUse[6,2,3] <= 0
+ R27038: allocated[6,1,4,2,1] - 15 layerInUse[6,2,4] <= 0
+ R27039: allocated[6,1,4,2,2] - 15 layerInUse[6,2,4] <= 0
+ R27040: allocated[6,2,4,2,1] - 15 layerInUse[6,2,4] <= 0
+ R27041: allocated[6,2,4,2,2] - 15 layerInUse[6,2,4] <= 0
+ R27042: allocated[6,3,4,2,1] - 15 layerInUse[6,2,4] <= 0
+ R27043: allocated[6,3,4,2,2] - 15 layerInUse[6,2,4] <= 0
+ R27044: allocated[6,4,4,2,1] - 15 layerInUse[6,2,4] <= 0
+ R27045: allocated[6,4,4,2,2] - 15 layerInUse[6,2,4] <= 0
+ R27046: allocated[6,1,5,2,1] - 15 layerInUse[6,2,5] <= 0
+ R27047: allocated[6,1,5,2,2] - 15 layerInUse[6,2,5] <= 0
+ R27048: allocated[6,2,5,2,1] - 15 layerInUse[6,2,5] <= 0
+ R27049: allocated[6,2,5,2,2] - 15 layerInUse[6,2,5] <= 0
+ R27050: allocated[6,3,5,2,1] - 15 layerInUse[6,2,5] <= 0
+ R27051: allocated[6,3,5,2,2] - 15 layerInUse[6,2,5] <= 0
+ R27052: allocated[6,4,5,2,1] - 15 layerInUse[6,2,5] <= 0
+ R27053: allocated[6,4,5,2,2] - 15 layerInUse[6,2,5] <= 0
+ R27054: allocated[6,1,6,2,1] - 15 layerInUse[6,2,6] <= 0
+ R27055: allocated[6,1,6,2,2] - 15 layerInUse[6,2,6] <= 0
+ R27056: allocated[6,2,6,2,1] - 15 layerInUse[6,2,6] <= 0
+ R27057: allocated[6,2,6,2,2] - 15 layerInUse[6,2,6] <= 0
+ R27058: allocated[6,3,6,2,1] - 15 layerInUse[6,2,6] <= 0
+ R27059: allocated[6,3,6,2,2] - 15 layerInUse[6,2,6] <= 0
+ R27060: allocated[6,4,6,2,1] - 15 layerInUse[6,2,6] <= 0
+ R27061: allocated[6,4,6,2,2] - 15 layerInUse[6,2,6] <= 0
+ R27062: allocated[6,1,1,3,1] - 15 layerInUse[6,3,1] <= 0
+ R27063: allocated[6,1,1,3,2] - 15 layerInUse[6,3,1] <= 0
+ R27064: allocated[6,2,1,3,1] - 15 layerInUse[6,3,1] <= 0
+ R27065: allocated[6,2,1,3,2] - 15 layerInUse[6,3,1] <= 0
+ R27066: allocated[6,3,1,3,1] - 15 layerInUse[6,3,1] <= 0
+ R27067: allocated[6,3,1,3,2] - 15 layerInUse[6,3,1] <= 0
+ R27068: allocated[6,4,1,3,1] - 15 layerInUse[6,3,1] <= 0
+ R27069: allocated[6,4,1,3,2] - 15 layerInUse[6,3,1] <= 0
+ R27070: allocated[6,1,2,3,1] - 15 layerInUse[6,3,2] <= 0
+ R27071: allocated[6,1,2,3,2] - 15 layerInUse[6,3,2] <= 0
+ R27072: allocated[6,2,2,3,1] - 15 layerInUse[6,3,2] <= 0
+ R27073: allocated[6,2,2,3,2] - 15 layerInUse[6,3,2] <= 0
+ R27074: allocated[6,3,2,3,1] - 15 layerInUse[6,3,2] <= 0
+ R27075: allocated[6,3,2,3,2] - 15 layerInUse[6,3,2] <= 0
+ R27076: allocated[6,4,2,3,1] - 15 layerInUse[6,3,2] <= 0
+ R27077: allocated[6,4,2,3,2] - 15 layerInUse[6,3,2] <= 0
+ R27078: allocated[6,1,3,3,1] - 15 layerInUse[6,3,3] <= 0
+ R27079: allocated[6,1,3,3,2] - 15 layerInUse[6,3,3] <= 0
+ R27080: allocated[6,2,3,3,1] - 15 layerInUse[6,3,3] <= 0
+ R27081: allocated[6,2,3,3,2] - 15 layerInUse[6,3,3] <= 0
+ R27082: allocated[6,3,3,3,1] - 15 layerInUse[6,3,3] <= 0
+ R27083: allocated[6,3,3,3,2] - 15 layerInUse[6,3,3] <= 0
+ R27084: allocated[6,4,3,3,1] - 15 layerInUse[6,3,3] <= 0
+ R27085: allocated[6,4,3,3,2] - 15 layerInUse[6,3,3] <= 0
+ R27086: allocated[6,1,4,3,1] - 15 layerInUse[6,3,4] <= 0
+ R27087: allocated[6,1,4,3,2] - 15 layerInUse[6,3,4] <= 0
+ R27088: allocated[6,2,4,3,1] - 15 layerInUse[6,3,4] <= 0
+ R27089: allocated[6,2,4,3,2] - 15 layerInUse[6,3,4] <= 0
+ R27090: allocated[6,3,4,3,1] - 15 layerInUse[6,3,4] <= 0
+ R27091: allocated[6,3,4,3,2] - 15 layerInUse[6,3,4] <= 0
+ R27092: allocated[6,4,4,3,1] - 15 layerInUse[6,3,4] <= 0
+ R27093: allocated[6,4,4,3,2] - 15 layerInUse[6,3,4] <= 0
+ R27094: allocated[6,1,5,3,1] - 15 layerInUse[6,3,5] <= 0
+ R27095: allocated[6,1,5,3,2] - 15 layerInUse[6,3,5] <= 0
+ R27096: allocated[6,2,5,3,1] - 15 layerInUse[6,3,5] <= 0
+ R27097: allocated[6,2,5,3,2] - 15 layerInUse[6,3,5] <= 0
+ R27098: allocated[6,3,5,3,1] - 15 layerInUse[6,3,5] <= 0
+ R27099: allocated[6,3,5,3,2] - 15 layerInUse[6,3,5] <= 0
+ R27100: allocated[6,4,5,3,1] - 15 layerInUse[6,3,5] <= 0
+ R27101: allocated[6,4,5,3,2] - 15 layerInUse[6,3,5] <= 0
+ R27102: allocated[6,1,6,3,1] - 15 layerInUse[6,3,6] <= 0
+ R27103: allocated[6,1,6,3,2] - 15 layerInUse[6,3,6] <= 0
+ R27104: allocated[6,2,6,3,1] - 15 layerInUse[6,3,6] <= 0
+ R27105: allocated[6,2,6,3,2] - 15 layerInUse[6,3,6] <= 0
+ R27106: allocated[6,3,6,3,1] - 15 layerInUse[6,3,6] <= 0
+ R27107: allocated[6,3,6,3,2] - 15 layerInUse[6,3,6] <= 0
+ R27108: allocated[6,4,6,3,1] - 15 layerInUse[6,3,6] <= 0
+ R27109: allocated[6,4,6,3,2] - 15 layerInUse[6,3,6] <= 0
+ R27110: allocated[6,1,1,4,1] - 15 layerInUse[6,4,1] <= 0
+ R27111: allocated[6,1,1,4,2] - 15 layerInUse[6,4,1] <= 0
+ R27112: allocated[6,2,1,4,1] - 15 layerInUse[6,4,1] <= 0
+ R27113: allocated[6,2,1,4,2] - 15 layerInUse[6,4,1] <= 0
+ R27114: allocated[6,3,1,4,1] - 15 layerInUse[6,4,1] <= 0
+ R27115: allocated[6,3,1,4,2] - 15 layerInUse[6,4,1] <= 0
+ R27116: allocated[6,4,1,4,1] - 15 layerInUse[6,4,1] <= 0
+ R27117: allocated[6,4,1,4,2] - 15 layerInUse[6,4,1] <= 0
+ R27118: allocated[6,1,2,4,1] - 15 layerInUse[6,4,2] <= 0
+ R27119: allocated[6,1,2,4,2] - 15 layerInUse[6,4,2] <= 0
+ R27120: allocated[6,2,2,4,1] - 15 layerInUse[6,4,2] <= 0
+ R27121: allocated[6,2,2,4,2] - 15 layerInUse[6,4,2] <= 0
+ R27122: allocated[6,3,2,4,1] - 15 layerInUse[6,4,2] <= 0
+ R27123: allocated[6,3,2,4,2] - 15 layerInUse[6,4,2] <= 0
+ R27124: allocated[6,4,2,4,1] - 15 layerInUse[6,4,2] <= 0
+ R27125: allocated[6,4,2,4,2] - 15 layerInUse[6,4,2] <= 0
+ R27126: allocated[6,1,3,4,1] - 15 layerInUse[6,4,3] <= 0
+ R27127: allocated[6,1,3,4,2] - 15 layerInUse[6,4,3] <= 0
+ R27128: allocated[6,2,3,4,1] - 15 layerInUse[6,4,3] <= 0
+ R27129: allocated[6,2,3,4,2] - 15 layerInUse[6,4,3] <= 0
+ R27130: allocated[6,3,3,4,1] - 15 layerInUse[6,4,3] <= 0
+ R27131: allocated[6,3,3,4,2] - 15 layerInUse[6,4,3] <= 0
+ R27132: allocated[6,4,3,4,1] - 15 layerInUse[6,4,3] <= 0
+ R27133: allocated[6,4,3,4,2] - 15 layerInUse[6,4,3] <= 0
+ R27134: allocated[6,1,4,4,1] - 15 layerInUse[6,4,4] <= 0
+ R27135: allocated[6,1,4,4,2] - 15 layerInUse[6,4,4] <= 0
+ R27136: allocated[6,2,4,4,1] - 15 layerInUse[6,4,4] <= 0
+ R27137: allocated[6,2,4,4,2] - 15 layerInUse[6,4,4] <= 0
+ R27138: allocated[6,3,4,4,1] - 15 layerInUse[6,4,4] <= 0
+ R27139: allocated[6,3,4,4,2] - 15 layerInUse[6,4,4] <= 0
+ R27140: allocated[6,4,4,4,1] - 15 layerInUse[6,4,4] <= 0
+ R27141: allocated[6,4,4,4,2] - 15 layerInUse[6,4,4] <= 0
+ R27142: allocated[6,1,5,4,1] - 15 layerInUse[6,4,5] <= 0
+ R27143: allocated[6,1,5,4,2] - 15 layerInUse[6,4,5] <= 0
+ R27144: allocated[6,2,5,4,1] - 15 layerInUse[6,4,5] <= 0
+ R27145: allocated[6,2,5,4,2] - 15 layerInUse[6,4,5] <= 0
+ R27146: allocated[6,3,5,4,1] - 15 layerInUse[6,4,5] <= 0
+ R27147: allocated[6,3,5,4,2] - 15 layerInUse[6,4,5] <= 0
+ R27148: allocated[6,4,5,4,1] - 15 layerInUse[6,4,5] <= 0
+ R27149: allocated[6,4,5,4,2] - 15 layerInUse[6,4,5] <= 0
+ R27150: allocated[6,1,6,4,1] - 15 layerInUse[6,4,6] <= 0
+ R27151: allocated[6,1,6,4,2] - 15 layerInUse[6,4,6] <= 0
+ R27152: allocated[6,2,6,4,1] - 15 layerInUse[6,4,6] <= 0
+ R27153: allocated[6,2,6,4,2] - 15 layerInUse[6,4,6] <= 0
+ R27154: allocated[6,3,6,4,1] - 15 layerInUse[6,4,6] <= 0
+ R27155: allocated[6,3,6,4,2] - 15 layerInUse[6,4,6] <= 0
+ R27156: allocated[6,4,6,4,1] - 15 layerInUse[6,4,6] <= 0
+ R27157: allocated[6,4,6,4,2] - 15 layerInUse[6,4,6] <= 0
+ R27158: allocated[6,1,1,5,1] - 15 layerInUse[6,5,1] <= 0
+ R27159: allocated[6,1,1,5,2] - 15 layerInUse[6,5,1] <= 0
+ R27160: allocated[6,2,1,5,1] - 15 layerInUse[6,5,1] <= 0
+ R27161: allocated[6,2,1,5,2] - 15 layerInUse[6,5,1] <= 0
+ R27162: allocated[6,3,1,5,1] - 15 layerInUse[6,5,1] <= 0
+ R27163: allocated[6,3,1,5,2] - 15 layerInUse[6,5,1] <= 0
+ R27164: allocated[6,4,1,5,1] - 15 layerInUse[6,5,1] <= 0
+ R27165: allocated[6,4,1,5,2] - 15 layerInUse[6,5,1] <= 0
+ R27166: allocated[6,1,2,5,1] - 15 layerInUse[6,5,2] <= 0
+ R27167: allocated[6,1,2,5,2] - 15 layerInUse[6,5,2] <= 0
+ R27168: allocated[6,2,2,5,1] - 15 layerInUse[6,5,2] <= 0
+ R27169: allocated[6,2,2,5,2] - 15 layerInUse[6,5,2] <= 0
+ R27170: allocated[6,3,2,5,1] - 15 layerInUse[6,5,2] <= 0
+ R27171: allocated[6,3,2,5,2] - 15 layerInUse[6,5,2] <= 0
+ R27172: allocated[6,4,2,5,1] - 15 layerInUse[6,5,2] <= 0
+ R27173: allocated[6,4,2,5,2] - 15 layerInUse[6,5,2] <= 0
+ R27174: allocated[6,1,3,5,1] - 15 layerInUse[6,5,3] <= 0
+ R27175: allocated[6,1,3,5,2] - 15 layerInUse[6,5,3] <= 0
+ R27176: allocated[6,2,3,5,1] - 15 layerInUse[6,5,3] <= 0
+ R27177: allocated[6,2,3,5,2] - 15 layerInUse[6,5,3] <= 0
+ R27178: allocated[6,3,3,5,1] - 15 layerInUse[6,5,3] <= 0
+ R27179: allocated[6,3,3,5,2] - 15 layerInUse[6,5,3] <= 0
+ R27180: allocated[6,4,3,5,1] - 15 layerInUse[6,5,3] <= 0
+ R27181: allocated[6,4,3,5,2] - 15 layerInUse[6,5,3] <= 0
+ R27182: allocated[6,1,4,5,1] - 15 layerInUse[6,5,4] <= 0
+ R27183: allocated[6,1,4,5,2] - 15 layerInUse[6,5,4] <= 0
+ R27184: allocated[6,2,4,5,1] - 15 layerInUse[6,5,4] <= 0
+ R27185: allocated[6,2,4,5,2] - 15 layerInUse[6,5,4] <= 0
+ R27186: allocated[6,3,4,5,1] - 15 layerInUse[6,5,4] <= 0
+ R27187: allocated[6,3,4,5,2] - 15 layerInUse[6,5,4] <= 0
+ R27188: allocated[6,4,4,5,1] - 15 layerInUse[6,5,4] <= 0
+ R27189: allocated[6,4,4,5,2] - 15 layerInUse[6,5,4] <= 0
+ R27190: allocated[6,1,5,5,1] - 15 layerInUse[6,5,5] <= 0
+ R27191: allocated[6,1,5,5,2] - 15 layerInUse[6,5,5] <= 0
+ R27192: allocated[6,2,5,5,1] - 15 layerInUse[6,5,5] <= 0
+ R27193: allocated[6,2,5,5,2] - 15 layerInUse[6,5,5] <= 0
+ R27194: allocated[6,3,5,5,1] - 15 layerInUse[6,5,5] <= 0
+ R27195: allocated[6,3,5,5,2] - 15 layerInUse[6,5,5] <= 0
+ R27196: allocated[6,4,5,5,1] - 15 layerInUse[6,5,5] <= 0
+ R27197: allocated[6,4,5,5,2] - 15 layerInUse[6,5,5] <= 0
+ R27198: allocated[6,1,6,5,1] - 15 layerInUse[6,5,6] <= 0
+ R27199: allocated[6,1,6,5,2] - 15 layerInUse[6,5,6] <= 0
+ R27200: allocated[6,2,6,5,1] - 15 layerInUse[6,5,6] <= 0
+ R27201: allocated[6,2,6,5,2] - 15 layerInUse[6,5,6] <= 0
+ R27202: allocated[6,3,6,5,1] - 15 layerInUse[6,5,6] <= 0
+ R27203: allocated[6,3,6,5,2] - 15 layerInUse[6,5,6] <= 0
+ R27204: allocated[6,4,6,5,1] - 15 layerInUse[6,5,6] <= 0
+ R27205: allocated[6,4,6,5,2] - 15 layerInUse[6,5,6] <= 0
+ R27206: allocated[6,1,1,6,1] - 15 layerInUse[6,6,1] <= 0
+ R27207: allocated[6,1,1,6,2] - 15 layerInUse[6,6,1] <= 0
+ R27208: allocated[6,2,1,6,1] - 15 layerInUse[6,6,1] <= 0
+ R27209: allocated[6,2,1,6,2] - 15 layerInUse[6,6,1] <= 0
+ R27210: allocated[6,3,1,6,1] - 15 layerInUse[6,6,1] <= 0
+ R27211: allocated[6,3,1,6,2] - 15 layerInUse[6,6,1] <= 0
+ R27212: allocated[6,4,1,6,1] - 15 layerInUse[6,6,1] <= 0
+ R27213: allocated[6,4,1,6,2] - 15 layerInUse[6,6,1] <= 0
+ R27214: allocated[6,1,2,6,1] - 15 layerInUse[6,6,2] <= 0
+ R27215: allocated[6,1,2,6,2] - 15 layerInUse[6,6,2] <= 0
+ R27216: allocated[6,2,2,6,1] - 15 layerInUse[6,6,2] <= 0
+ R27217: allocated[6,2,2,6,2] - 15 layerInUse[6,6,2] <= 0
+ R27218: allocated[6,3,2,6,1] - 15 layerInUse[6,6,2] <= 0
+ R27219: allocated[6,3,2,6,2] - 15 layerInUse[6,6,2] <= 0
+ R27220: allocated[6,4,2,6,1] - 15 layerInUse[6,6,2] <= 0
+ R27221: allocated[6,4,2,6,2] - 15 layerInUse[6,6,2] <= 0
+ R27222: allocated[6,1,3,6,1] - 15 layerInUse[6,6,3] <= 0
+ R27223: allocated[6,1,3,6,2] - 15 layerInUse[6,6,3] <= 0
+ R27224: allocated[6,2,3,6,1] - 15 layerInUse[6,6,3] <= 0
+ R27225: allocated[6,2,3,6,2] - 15 layerInUse[6,6,3] <= 0
+ R27226: allocated[6,3,3,6,1] - 15 layerInUse[6,6,3] <= 0
+ R27227: allocated[6,3,3,6,2] - 15 layerInUse[6,6,3] <= 0
+ R27228: allocated[6,4,3,6,1] - 15 layerInUse[6,6,3] <= 0
+ R27229: allocated[6,4,3,6,2] - 15 layerInUse[6,6,3] <= 0
+ R27230: allocated[6,1,4,6,1] - 15 layerInUse[6,6,4] <= 0
+ R27231: allocated[6,1,4,6,2] - 15 layerInUse[6,6,4] <= 0
+ R27232: allocated[6,2,4,6,1] - 15 layerInUse[6,6,4] <= 0
+ R27233: allocated[6,2,4,6,2] - 15 layerInUse[6,6,4] <= 0
+ R27234: allocated[6,3,4,6,1] - 15 layerInUse[6,6,4] <= 0
+ R27235: allocated[6,3,4,6,2] - 15 layerInUse[6,6,4] <= 0
+ R27236: allocated[6,4,4,6,1] - 15 layerInUse[6,6,4] <= 0
+ R27237: allocated[6,4,4,6,2] - 15 layerInUse[6,6,4] <= 0
+ R27238: allocated[6,1,5,6,1] - 15 layerInUse[6,6,5] <= 0
+ R27239: allocated[6,1,5,6,2] - 15 layerInUse[6,6,5] <= 0
+ R27240: allocated[6,2,5,6,1] - 15 layerInUse[6,6,5] <= 0
+ R27241: allocated[6,2,5,6,2] - 15 layerInUse[6,6,5] <= 0
+ R27242: allocated[6,3,5,6,1] - 15 layerInUse[6,6,5] <= 0
+ R27243: allocated[6,3,5,6,2] - 15 layerInUse[6,6,5] <= 0
+ R27244: allocated[6,4,5,6,1] - 15 layerInUse[6,6,5] <= 0
+ R27245: allocated[6,4,5,6,2] - 15 layerInUse[6,6,5] <= 0
+ R27246: allocated[6,1,6,6,1] - 15 layerInUse[6,6,6] <= 0
+ R27247: allocated[6,1,6,6,2] - 15 layerInUse[6,6,6] <= 0
+ R27248: allocated[6,2,6,6,1] - 15 layerInUse[6,6,6] <= 0
+ R27249: allocated[6,2,6,6,2] - 15 layerInUse[6,6,6] <= 0
+ R27250: allocated[6,3,6,6,1] - 15 layerInUse[6,6,6] <= 0
+ R27251: allocated[6,3,6,6,2] - 15 layerInUse[6,6,6] <= 0
+ R27252: allocated[6,4,6,6,1] - 15 layerInUse[6,6,6] <= 0
+ R27253: allocated[6,4,6,6,2] - 15 layerInUse[6,6,6] <= 0
+ R27254: allocated[6,1,1,7,1] - 15 layerInUse[6,7,1] <= 0
+ R27255: allocated[6,1,1,7,2] - 15 layerInUse[6,7,1] <= 0
+ R27256: allocated[6,2,1,7,1] - 15 layerInUse[6,7,1] <= 0
+ R27257: allocated[6,2,1,7,2] - 15 layerInUse[6,7,1] <= 0
+ R27258: allocated[6,3,1,7,1] - 15 layerInUse[6,7,1] <= 0
+ R27259: allocated[6,3,1,7,2] - 15 layerInUse[6,7,1] <= 0
+ R27260: allocated[6,4,1,7,1] - 15 layerInUse[6,7,1] <= 0
+ R27261: allocated[6,4,1,7,2] - 15 layerInUse[6,7,1] <= 0
+ R27262: allocated[6,1,2,7,1] - 15 layerInUse[6,7,2] <= 0
+ R27263: allocated[6,1,2,7,2] - 15 layerInUse[6,7,2] <= 0
+ R27264: allocated[6,2,2,7,1] - 15 layerInUse[6,7,2] <= 0
+ R27265: allocated[6,2,2,7,2] - 15 layerInUse[6,7,2] <= 0
+ R27266: allocated[6,3,2,7,1] - 15 layerInUse[6,7,2] <= 0
+ R27267: allocated[6,3,2,7,2] - 15 layerInUse[6,7,2] <= 0
+ R27268: allocated[6,4,2,7,1] - 15 layerInUse[6,7,2] <= 0
+ R27269: allocated[6,4,2,7,2] - 15 layerInUse[6,7,2] <= 0
+ R27270: allocated[6,1,3,7,1] - 15 layerInUse[6,7,3] <= 0
+ R27271: allocated[6,1,3,7,2] - 15 layerInUse[6,7,3] <= 0
+ R27272: allocated[6,2,3,7,1] - 15 layerInUse[6,7,3] <= 0
+ R27273: allocated[6,2,3,7,2] - 15 layerInUse[6,7,3] <= 0
+ R27274: allocated[6,3,3,7,1] - 15 layerInUse[6,7,3] <= 0
+ R27275: allocated[6,3,3,7,2] - 15 layerInUse[6,7,3] <= 0
+ R27276: allocated[6,4,3,7,1] - 15 layerInUse[6,7,3] <= 0
+ R27277: allocated[6,4,3,7,2] - 15 layerInUse[6,7,3] <= 0
+ R27278: allocated[6,1,4,7,1] - 15 layerInUse[6,7,4] <= 0
+ R27279: allocated[6,1,4,7,2] - 15 layerInUse[6,7,4] <= 0
+ R27280: allocated[6,2,4,7,1] - 15 layerInUse[6,7,4] <= 0
+ R27281: allocated[6,2,4,7,2] - 15 layerInUse[6,7,4] <= 0
+ R27282: allocated[6,3,4,7,1] - 15 layerInUse[6,7,4] <= 0
+ R27283: allocated[6,3,4,7,2] - 15 layerInUse[6,7,4] <= 0
+ R27284: allocated[6,4,4,7,1] - 15 layerInUse[6,7,4] <= 0
+ R27285: allocated[6,4,4,7,2] - 15 layerInUse[6,7,4] <= 0
+ R27286: allocated[6,1,5,7,1] - 15 layerInUse[6,7,5] <= 0
+ R27287: allocated[6,1,5,7,2] - 15 layerInUse[6,7,5] <= 0
+ R27288: allocated[6,2,5,7,1] - 15 layerInUse[6,7,5] <= 0
+ R27289: allocated[6,2,5,7,2] - 15 layerInUse[6,7,5] <= 0
+ R27290: allocated[6,3,5,7,1] - 15 layerInUse[6,7,5] <= 0
+ R27291: allocated[6,3,5,7,2] - 15 layerInUse[6,7,5] <= 0
+ R27292: allocated[6,4,5,7,1] - 15 layerInUse[6,7,5] <= 0
+ R27293: allocated[6,4,5,7,2] - 15 layerInUse[6,7,5] <= 0
+ R27294: allocated[6,1,6,7,1] - 15 layerInUse[6,7,6] <= 0
+ R27295: allocated[6,1,6,7,2] - 15 layerInUse[6,7,6] <= 0
+ R27296: allocated[6,2,6,7,1] - 15 layerInUse[6,7,6] <= 0
+ R27297: allocated[6,2,6,7,2] - 15 layerInUse[6,7,6] <= 0
+ R27298: allocated[6,3,6,7,1] - 15 layerInUse[6,7,6] <= 0
+ R27299: allocated[6,3,6,7,2] - 15 layerInUse[6,7,6] <= 0
+ R27300: allocated[6,4,6,7,1] - 15 layerInUse[6,7,6] <= 0
+ R27301: allocated[6,4,6,7,2] - 15 layerInUse[6,7,6] <= 0
+ R27302: allocated[6,1,1,8,1] - 15 layerInUse[6,8,1] <= 0
+ R27303: allocated[6,1,1,8,2] - 15 layerInUse[6,8,1] <= 0
+ R27304: allocated[6,2,1,8,1] - 15 layerInUse[6,8,1] <= 0
+ R27305: allocated[6,2,1,8,2] - 15 layerInUse[6,8,1] <= 0
+ R27306: allocated[6,3,1,8,1] - 15 layerInUse[6,8,1] <= 0
+ R27307: allocated[6,3,1,8,2] - 15 layerInUse[6,8,1] <= 0
+ R27308: allocated[6,4,1,8,1] - 15 layerInUse[6,8,1] <= 0
+ R27309: allocated[6,4,1,8,2] - 15 layerInUse[6,8,1] <= 0
+ R27310: allocated[6,1,2,8,1] - 15 layerInUse[6,8,2] <= 0
+ R27311: allocated[6,1,2,8,2] - 15 layerInUse[6,8,2] <= 0
+ R27312: allocated[6,2,2,8,1] - 15 layerInUse[6,8,2] <= 0
+ R27313: allocated[6,2,2,8,2] - 15 layerInUse[6,8,2] <= 0
+ R27314: allocated[6,3,2,8,1] - 15 layerInUse[6,8,2] <= 0
+ R27315: allocated[6,3,2,8,2] - 15 layerInUse[6,8,2] <= 0
+ R27316: allocated[6,4,2,8,1] - 15 layerInUse[6,8,2] <= 0
+ R27317: allocated[6,4,2,8,2] - 15 layerInUse[6,8,2] <= 0
+ R27318: allocated[6,1,3,8,1] - 15 layerInUse[6,8,3] <= 0
+ R27319: allocated[6,1,3,8,2] - 15 layerInUse[6,8,3] <= 0
+ R27320: allocated[6,2,3,8,1] - 15 layerInUse[6,8,3] <= 0
+ R27321: allocated[6,2,3,8,2] - 15 layerInUse[6,8,3] <= 0
+ R27322: allocated[6,3,3,8,1] - 15 layerInUse[6,8,3] <= 0
+ R27323: allocated[6,3,3,8,2] - 15 layerInUse[6,8,3] <= 0
+ R27324: allocated[6,4,3,8,1] - 15 layerInUse[6,8,3] <= 0
+ R27325: allocated[6,4,3,8,2] - 15 layerInUse[6,8,3] <= 0
+ R27326: allocated[6,1,4,8,1] - 15 layerInUse[6,8,4] <= 0
+ R27327: allocated[6,1,4,8,2] - 15 layerInUse[6,8,4] <= 0
+ R27328: allocated[6,2,4,8,1] - 15 layerInUse[6,8,4] <= 0
+ R27329: allocated[6,2,4,8,2] - 15 layerInUse[6,8,4] <= 0
+ R27330: allocated[6,3,4,8,1] - 15 layerInUse[6,8,4] <= 0
+ R27331: allocated[6,3,4,8,2] - 15 layerInUse[6,8,4] <= 0
+ R27332: allocated[6,4,4,8,1] - 15 layerInUse[6,8,4] <= 0
+ R27333: allocated[6,4,4,8,2] - 15 layerInUse[6,8,4] <= 0
+ R27334: allocated[6,1,5,8,1] - 15 layerInUse[6,8,5] <= 0
+ R27335: allocated[6,1,5,8,2] - 15 layerInUse[6,8,5] <= 0
+ R27336: allocated[6,2,5,8,1] - 15 layerInUse[6,8,5] <= 0
+ R27337: allocated[6,2,5,8,2] - 15 layerInUse[6,8,5] <= 0
+ R27338: allocated[6,3,5,8,1] - 15 layerInUse[6,8,5] <= 0
+ R27339: allocated[6,3,5,8,2] - 15 layerInUse[6,8,5] <= 0
+ R27340: allocated[6,4,5,8,1] - 15 layerInUse[6,8,5] <= 0
+ R27341: allocated[6,4,5,8,2] - 15 layerInUse[6,8,5] <= 0
+ R27342: allocated[6,1,6,8,1] - 15 layerInUse[6,8,6] <= 0
+ R27343: allocated[6,1,6,8,2] - 15 layerInUse[6,8,6] <= 0
+ R27344: allocated[6,2,6,8,1] - 15 layerInUse[6,8,6] <= 0
+ R27345: allocated[6,2,6,8,2] - 15 layerInUse[6,8,6] <= 0
+ R27346: allocated[6,3,6,8,1] - 15 layerInUse[6,8,6] <= 0
+ R27347: allocated[6,3,6,8,2] - 15 layerInUse[6,8,6] <= 0
+ R27348: allocated[6,4,6,8,1] - 15 layerInUse[6,8,6] <= 0
+ R27349: allocated[6,4,6,8,2] - 15 layerInUse[6,8,6] <= 0
+ R27350: allocated[7,1,1,1,1] - 15 layerInUse[7,1,1] <= 0
+ R27351: allocated[7,1,1,1,2] - 15 layerInUse[7,1,1] <= 0
+ R27352: allocated[7,2,1,1,1] - 15 layerInUse[7,1,1] <= 0
+ R27353: allocated[7,2,1,1,2] - 15 layerInUse[7,1,1] <= 0
+ R27354: allocated[7,3,1,1,1] - 15 layerInUse[7,1,1] <= 0
+ R27355: allocated[7,3,1,1,2] - 15 layerInUse[7,1,1] <= 0
+ R27356: allocated[7,4,1,1,1] - 15 layerInUse[7,1,1] <= 0
+ R27357: allocated[7,4,1,1,2] - 15 layerInUse[7,1,1] <= 0
+ R27358: allocated[7,1,2,1,1] - 15 layerInUse[7,1,2] <= 0
+ R27359: allocated[7,1,2,1,2] - 15 layerInUse[7,1,2] <= 0
+ R27360: allocated[7,2,2,1,1] - 15 layerInUse[7,1,2] <= 0
+ R27361: allocated[7,2,2,1,2] - 15 layerInUse[7,1,2] <= 0
+ R27362: allocated[7,3,2,1,1] - 15 layerInUse[7,1,2] <= 0
+ R27363: allocated[7,3,2,1,2] - 15 layerInUse[7,1,2] <= 0
+ R27364: allocated[7,4,2,1,1] - 15 layerInUse[7,1,2] <= 0
+ R27365: allocated[7,4,2,1,2] - 15 layerInUse[7,1,2] <= 0
+ R27366: allocated[7,1,3,1,1] - 15 layerInUse[7,1,3] <= 0
+ R27367: allocated[7,1,3,1,2] - 15 layerInUse[7,1,3] <= 0
+ R27368: allocated[7,2,3,1,1] - 15 layerInUse[7,1,3] <= 0
+ R27369: allocated[7,2,3,1,2] - 15 layerInUse[7,1,3] <= 0
+ R27370: allocated[7,3,3,1,1] - 15 layerInUse[7,1,3] <= 0
+ R27371: allocated[7,3,3,1,2] - 15 layerInUse[7,1,3] <= 0
+ R27372: allocated[7,4,3,1,1] - 15 layerInUse[7,1,3] <= 0
+ R27373: allocated[7,4,3,1,2] - 15 layerInUse[7,1,3] <= 0
+ R27374: allocated[7,1,4,1,1] - 15 layerInUse[7,1,4] <= 0
+ R27375: allocated[7,1,4,1,2] - 15 layerInUse[7,1,4] <= 0
+ R27376: allocated[7,2,4,1,1] - 15 layerInUse[7,1,4] <= 0
+ R27377: allocated[7,2,4,1,2] - 15 layerInUse[7,1,4] <= 0
+ R27378: allocated[7,3,4,1,1] - 15 layerInUse[7,1,4] <= 0
+ R27379: allocated[7,3,4,1,2] - 15 layerInUse[7,1,4] <= 0
+ R27380: allocated[7,4,4,1,1] - 15 layerInUse[7,1,4] <= 0
+ R27381: allocated[7,4,4,1,2] - 15 layerInUse[7,1,4] <= 0
+ R27382: allocated[7,1,5,1,1] - 15 layerInUse[7,1,5] <= 0
+ R27383: allocated[7,1,5,1,2] - 15 layerInUse[7,1,5] <= 0
+ R27384: allocated[7,2,5,1,1] - 15 layerInUse[7,1,5] <= 0
+ R27385: allocated[7,2,5,1,2] - 15 layerInUse[7,1,5] <= 0
+ R27386: allocated[7,3,5,1,1] - 15 layerInUse[7,1,5] <= 0
+ R27387: allocated[7,3,5,1,2] - 15 layerInUse[7,1,5] <= 0
+ R27388: allocated[7,4,5,1,1] - 15 layerInUse[7,1,5] <= 0
+ R27389: allocated[7,4,5,1,2] - 15 layerInUse[7,1,5] <= 0
+ R27390: allocated[7,1,6,1,1] - 15 layerInUse[7,1,6] <= 0
+ R27391: allocated[7,1,6,1,2] - 15 layerInUse[7,1,6] <= 0
+ R27392: allocated[7,2,6,1,1] - 15 layerInUse[7,1,6] <= 0
+ R27393: allocated[7,2,6,1,2] - 15 layerInUse[7,1,6] <= 0
+ R27394: allocated[7,3,6,1,1] - 15 layerInUse[7,1,6] <= 0
+ R27395: allocated[7,3,6,1,2] - 15 layerInUse[7,1,6] <= 0
+ R27396: allocated[7,4,6,1,1] - 15 layerInUse[7,1,6] <= 0
+ R27397: allocated[7,4,6,1,2] - 15 layerInUse[7,1,6] <= 0
+ R27398: allocated[7,1,1,2,1] - 15 layerInUse[7,2,1] <= 0
+ R27399: allocated[7,1,1,2,2] - 15 layerInUse[7,2,1] <= 0
+ R27400: allocated[7,2,1,2,1] - 15 layerInUse[7,2,1] <= 0
+ R27401: allocated[7,2,1,2,2] - 15 layerInUse[7,2,1] <= 0
+ R27402: allocated[7,3,1,2,1] - 15 layerInUse[7,2,1] <= 0
+ R27403: allocated[7,3,1,2,2] - 15 layerInUse[7,2,1] <= 0
+ R27404: allocated[7,4,1,2,1] - 15 layerInUse[7,2,1] <= 0
+ R27405: allocated[7,4,1,2,2] - 15 layerInUse[7,2,1] <= 0
+ R27406: allocated[7,1,2,2,1] - 15 layerInUse[7,2,2] <= 0
+ R27407: allocated[7,1,2,2,2] - 15 layerInUse[7,2,2] <= 0
+ R27408: allocated[7,2,2,2,1] - 15 layerInUse[7,2,2] <= 0
+ R27409: allocated[7,2,2,2,2] - 15 layerInUse[7,2,2] <= 0
+ R27410: allocated[7,3,2,2,1] - 15 layerInUse[7,2,2] <= 0
+ R27411: allocated[7,3,2,2,2] - 15 layerInUse[7,2,2] <= 0
+ R27412: allocated[7,4,2,2,1] - 15 layerInUse[7,2,2] <= 0
+ R27413: allocated[7,4,2,2,2] - 15 layerInUse[7,2,2] <= 0
+ R27414: allocated[7,1,3,2,1] - 15 layerInUse[7,2,3] <= 0
+ R27415: allocated[7,1,3,2,2] - 15 layerInUse[7,2,3] <= 0
+ R27416: allocated[7,2,3,2,1] - 15 layerInUse[7,2,3] <= 0
+ R27417: allocated[7,2,3,2,2] - 15 layerInUse[7,2,3] <= 0
+ R27418: allocated[7,3,3,2,1] - 15 layerInUse[7,2,3] <= 0
+ R27419: allocated[7,3,3,2,2] - 15 layerInUse[7,2,3] <= 0
+ R27420: allocated[7,4,3,2,1] - 15 layerInUse[7,2,3] <= 0
+ R27421: allocated[7,4,3,2,2] - 15 layerInUse[7,2,3] <= 0
+ R27422: allocated[7,1,4,2,1] - 15 layerInUse[7,2,4] <= 0
+ R27423: allocated[7,1,4,2,2] - 15 layerInUse[7,2,4] <= 0
+ R27424: allocated[7,2,4,2,1] - 15 layerInUse[7,2,4] <= 0
+ R27425: allocated[7,2,4,2,2] - 15 layerInUse[7,2,4] <= 0
+ R27426: allocated[7,3,4,2,1] - 15 layerInUse[7,2,4] <= 0
+ R27427: allocated[7,3,4,2,2] - 15 layerInUse[7,2,4] <= 0
+ R27428: allocated[7,4,4,2,1] - 15 layerInUse[7,2,4] <= 0
+ R27429: allocated[7,4,4,2,2] - 15 layerInUse[7,2,4] <= 0
+ R27430: allocated[7,1,5,2,1] - 15 layerInUse[7,2,5] <= 0
+ R27431: allocated[7,1,5,2,2] - 15 layerInUse[7,2,5] <= 0
+ R27432: allocated[7,2,5,2,1] - 15 layerInUse[7,2,5] <= 0
+ R27433: allocated[7,2,5,2,2] - 15 layerInUse[7,2,5] <= 0
+ R27434: allocated[7,3,5,2,1] - 15 layerInUse[7,2,5] <= 0
+ R27435: allocated[7,3,5,2,2] - 15 layerInUse[7,2,5] <= 0
+ R27436: allocated[7,4,5,2,1] - 15 layerInUse[7,2,5] <= 0
+ R27437: allocated[7,4,5,2,2] - 15 layerInUse[7,2,5] <= 0
+ R27438: allocated[7,1,6,2,1] - 15 layerInUse[7,2,6] <= 0
+ R27439: allocated[7,1,6,2,2] - 15 layerInUse[7,2,6] <= 0
+ R27440: allocated[7,2,6,2,1] - 15 layerInUse[7,2,6] <= 0
+ R27441: allocated[7,2,6,2,2] - 15 layerInUse[7,2,6] <= 0
+ R27442: allocated[7,3,6,2,1] - 15 layerInUse[7,2,6] <= 0
+ R27443: allocated[7,3,6,2,2] - 15 layerInUse[7,2,6] <= 0
+ R27444: allocated[7,4,6,2,1] - 15 layerInUse[7,2,6] <= 0
+ R27445: allocated[7,4,6,2,2] - 15 layerInUse[7,2,6] <= 0
+ R27446: allocated[7,1,1,3,1] - 15 layerInUse[7,3,1] <= 0
+ R27447: allocated[7,1,1,3,2] - 15 layerInUse[7,3,1] <= 0
+ R27448: allocated[7,2,1,3,1] - 15 layerInUse[7,3,1] <= 0
+ R27449: allocated[7,2,1,3,2] - 15 layerInUse[7,3,1] <= 0
+ R27450: allocated[7,3,1,3,1] - 15 layerInUse[7,3,1] <= 0
+ R27451: allocated[7,3,1,3,2] - 15 layerInUse[7,3,1] <= 0
+ R27452: allocated[7,4,1,3,1] - 15 layerInUse[7,3,1] <= 0
+ R27453: allocated[7,4,1,3,2] - 15 layerInUse[7,3,1] <= 0
+ R27454: allocated[7,1,2,3,1] - 15 layerInUse[7,3,2] <= 0
+ R27455: allocated[7,1,2,3,2] - 15 layerInUse[7,3,2] <= 0
+ R27456: allocated[7,2,2,3,1] - 15 layerInUse[7,3,2] <= 0
+ R27457: allocated[7,2,2,3,2] - 15 layerInUse[7,3,2] <= 0
+ R27458: allocated[7,3,2,3,1] - 15 layerInUse[7,3,2] <= 0
+ R27459: allocated[7,3,2,3,2] - 15 layerInUse[7,3,2] <= 0
+ R27460: allocated[7,4,2,3,1] - 15 layerInUse[7,3,2] <= 0
+ R27461: allocated[7,4,2,3,2] - 15 layerInUse[7,3,2] <= 0
+ R27462: allocated[7,1,3,3,1] - 15 layerInUse[7,3,3] <= 0
+ R27463: allocated[7,1,3,3,2] - 15 layerInUse[7,3,3] <= 0
+ R27464: allocated[7,2,3,3,1] - 15 layerInUse[7,3,3] <= 0
+ R27465: allocated[7,2,3,3,2] - 15 layerInUse[7,3,3] <= 0
+ R27466: allocated[7,3,3,3,1] - 15 layerInUse[7,3,3] <= 0
+ R27467: allocated[7,3,3,3,2] - 15 layerInUse[7,3,3] <= 0
+ R27468: allocated[7,4,3,3,1] - 15 layerInUse[7,3,3] <= 0
+ R27469: allocated[7,4,3,3,2] - 15 layerInUse[7,3,3] <= 0
+ R27470: allocated[7,1,4,3,1] - 15 layerInUse[7,3,4] <= 0
+ R27471: allocated[7,1,4,3,2] - 15 layerInUse[7,3,4] <= 0
+ R27472: allocated[7,2,4,3,1] - 15 layerInUse[7,3,4] <= 0
+ R27473: allocated[7,2,4,3,2] - 15 layerInUse[7,3,4] <= 0
+ R27474: allocated[7,3,4,3,1] - 15 layerInUse[7,3,4] <= 0
+ R27475: allocated[7,3,4,3,2] - 15 layerInUse[7,3,4] <= 0
+ R27476: allocated[7,4,4,3,1] - 15 layerInUse[7,3,4] <= 0
+ R27477: allocated[7,4,4,3,2] - 15 layerInUse[7,3,4] <= 0
+ R27478: allocated[7,1,5,3,1] - 15 layerInUse[7,3,5] <= 0
+ R27479: allocated[7,1,5,3,2] - 15 layerInUse[7,3,5] <= 0
+ R27480: allocated[7,2,5,3,1] - 15 layerInUse[7,3,5] <= 0
+ R27481: allocated[7,2,5,3,2] - 15 layerInUse[7,3,5] <= 0
+ R27482: allocated[7,3,5,3,1] - 15 layerInUse[7,3,5] <= 0
+ R27483: allocated[7,3,5,3,2] - 15 layerInUse[7,3,5] <= 0
+ R27484: allocated[7,4,5,3,1] - 15 layerInUse[7,3,5] <= 0
+ R27485: allocated[7,4,5,3,2] - 15 layerInUse[7,3,5] <= 0
+ R27486: allocated[7,1,6,3,1] - 15 layerInUse[7,3,6] <= 0
+ R27487: allocated[7,1,6,3,2] - 15 layerInUse[7,3,6] <= 0
+ R27488: allocated[7,2,6,3,1] - 15 layerInUse[7,3,6] <= 0
+ R27489: allocated[7,2,6,3,2] - 15 layerInUse[7,3,6] <= 0
+ R27490: allocated[7,3,6,3,1] - 15 layerInUse[7,3,6] <= 0
+ R27491: allocated[7,3,6,3,2] - 15 layerInUse[7,3,6] <= 0
+ R27492: allocated[7,4,6,3,1] - 15 layerInUse[7,3,6] <= 0
+ R27493: allocated[7,4,6,3,2] - 15 layerInUse[7,3,6] <= 0
+ R27494: allocated[7,1,1,4,1] - 15 layerInUse[7,4,1] <= 0
+ R27495: allocated[7,1,1,4,2] - 15 layerInUse[7,4,1] <= 0
+ R27496: allocated[7,2,1,4,1] - 15 layerInUse[7,4,1] <= 0
+ R27497: allocated[7,2,1,4,2] - 15 layerInUse[7,4,1] <= 0
+ R27498: allocated[7,3,1,4,1] - 15 layerInUse[7,4,1] <= 0
+ R27499: allocated[7,3,1,4,2] - 15 layerInUse[7,4,1] <= 0
+ R27500: allocated[7,4,1,4,1] - 15 layerInUse[7,4,1] <= 0
+ R27501: allocated[7,4,1,4,2] - 15 layerInUse[7,4,1] <= 0
+ R27502: allocated[7,1,2,4,1] - 15 layerInUse[7,4,2] <= 0
+ R27503: allocated[7,1,2,4,2] - 15 layerInUse[7,4,2] <= 0
+ R27504: allocated[7,2,2,4,1] - 15 layerInUse[7,4,2] <= 0
+ R27505: allocated[7,2,2,4,2] - 15 layerInUse[7,4,2] <= 0
+ R27506: allocated[7,3,2,4,1] - 15 layerInUse[7,4,2] <= 0
+ R27507: allocated[7,3,2,4,2] - 15 layerInUse[7,4,2] <= 0
+ R27508: allocated[7,4,2,4,1] - 15 layerInUse[7,4,2] <= 0
+ R27509: allocated[7,4,2,4,2] - 15 layerInUse[7,4,2] <= 0
+ R27510: allocated[7,1,3,4,1] - 15 layerInUse[7,4,3] <= 0
+ R27511: allocated[7,1,3,4,2] - 15 layerInUse[7,4,3] <= 0
+ R27512: allocated[7,2,3,4,1] - 15 layerInUse[7,4,3] <= 0
+ R27513: allocated[7,2,3,4,2] - 15 layerInUse[7,4,3] <= 0
+ R27514: allocated[7,3,3,4,1] - 15 layerInUse[7,4,3] <= 0
+ R27515: allocated[7,3,3,4,2] - 15 layerInUse[7,4,3] <= 0
+ R27516: allocated[7,4,3,4,1] - 15 layerInUse[7,4,3] <= 0
+ R27517: allocated[7,4,3,4,2] - 15 layerInUse[7,4,3] <= 0
+ R27518: allocated[7,1,4,4,1] - 15 layerInUse[7,4,4] <= 0
+ R27519: allocated[7,1,4,4,2] - 15 layerInUse[7,4,4] <= 0
+ R27520: allocated[7,2,4,4,1] - 15 layerInUse[7,4,4] <= 0
+ R27521: allocated[7,2,4,4,2] - 15 layerInUse[7,4,4] <= 0
+ R27522: allocated[7,3,4,4,1] - 15 layerInUse[7,4,4] <= 0
+ R27523: allocated[7,3,4,4,2] - 15 layerInUse[7,4,4] <= 0
+ R27524: allocated[7,4,4,4,1] - 15 layerInUse[7,4,4] <= 0
+ R27525: allocated[7,4,4,4,2] - 15 layerInUse[7,4,4] <= 0
+ R27526: allocated[7,1,5,4,1] - 15 layerInUse[7,4,5] <= 0
+ R27527: allocated[7,1,5,4,2] - 15 layerInUse[7,4,5] <= 0
+ R27528: allocated[7,2,5,4,1] - 15 layerInUse[7,4,5] <= 0
+ R27529: allocated[7,2,5,4,2] - 15 layerInUse[7,4,5] <= 0
+ R27530: allocated[7,3,5,4,1] - 15 layerInUse[7,4,5] <= 0
+ R27531: allocated[7,3,5,4,2] - 15 layerInUse[7,4,5] <= 0
+ R27532: allocated[7,4,5,4,1] - 15 layerInUse[7,4,5] <= 0
+ R27533: allocated[7,4,5,4,2] - 15 layerInUse[7,4,5] <= 0
+ R27534: allocated[7,1,6,4,1] - 15 layerInUse[7,4,6] <= 0
+ R27535: allocated[7,1,6,4,2] - 15 layerInUse[7,4,6] <= 0
+ R27536: allocated[7,2,6,4,1] - 15 layerInUse[7,4,6] <= 0
+ R27537: allocated[7,2,6,4,2] - 15 layerInUse[7,4,6] <= 0
+ R27538: allocated[7,3,6,4,1] - 15 layerInUse[7,4,6] <= 0
+ R27539: allocated[7,3,6,4,2] - 15 layerInUse[7,4,6] <= 0
+ R27540: allocated[7,4,6,4,1] - 15 layerInUse[7,4,6] <= 0
+ R27541: allocated[7,4,6,4,2] - 15 layerInUse[7,4,6] <= 0
+ R27542: allocated[7,1,1,5,1] - 15 layerInUse[7,5,1] <= 0
+ R27543: allocated[7,1,1,5,2] - 15 layerInUse[7,5,1] <= 0
+ R27544: allocated[7,2,1,5,1] - 15 layerInUse[7,5,1] <= 0
+ R27545: allocated[7,2,1,5,2] - 15 layerInUse[7,5,1] <= 0
+ R27546: allocated[7,3,1,5,1] - 15 layerInUse[7,5,1] <= 0
+ R27547: allocated[7,3,1,5,2] - 15 layerInUse[7,5,1] <= 0
+ R27548: allocated[7,4,1,5,1] - 15 layerInUse[7,5,1] <= 0
+ R27549: allocated[7,4,1,5,2] - 15 layerInUse[7,5,1] <= 0
+ R27550: allocated[7,1,2,5,1] - 15 layerInUse[7,5,2] <= 0
+ R27551: allocated[7,1,2,5,2] - 15 layerInUse[7,5,2] <= 0
+ R27552: allocated[7,2,2,5,1] - 15 layerInUse[7,5,2] <= 0
+ R27553: allocated[7,2,2,5,2] - 15 layerInUse[7,5,2] <= 0
+ R27554: allocated[7,3,2,5,1] - 15 layerInUse[7,5,2] <= 0
+ R27555: allocated[7,3,2,5,2] - 15 layerInUse[7,5,2] <= 0
+ R27556: allocated[7,4,2,5,1] - 15 layerInUse[7,5,2] <= 0
+ R27557: allocated[7,4,2,5,2] - 15 layerInUse[7,5,2] <= 0
+ R27558: allocated[7,1,3,5,1] - 15 layerInUse[7,5,3] <= 0
+ R27559: allocated[7,1,3,5,2] - 15 layerInUse[7,5,3] <= 0
+ R27560: allocated[7,2,3,5,1] - 15 layerInUse[7,5,3] <= 0
+ R27561: allocated[7,2,3,5,2] - 15 layerInUse[7,5,3] <= 0
+ R27562: allocated[7,3,3,5,1] - 15 layerInUse[7,5,3] <= 0
+ R27563: allocated[7,3,3,5,2] - 15 layerInUse[7,5,3] <= 0
+ R27564: allocated[7,4,3,5,1] - 15 layerInUse[7,5,3] <= 0
+ R27565: allocated[7,4,3,5,2] - 15 layerInUse[7,5,3] <= 0
+ R27566: allocated[7,1,4,5,1] - 15 layerInUse[7,5,4] <= 0
+ R27567: allocated[7,1,4,5,2] - 15 layerInUse[7,5,4] <= 0
+ R27568: allocated[7,2,4,5,1] - 15 layerInUse[7,5,4] <= 0
+ R27569: allocated[7,2,4,5,2] - 15 layerInUse[7,5,4] <= 0
+ R27570: allocated[7,3,4,5,1] - 15 layerInUse[7,5,4] <= 0
+ R27571: allocated[7,3,4,5,2] - 15 layerInUse[7,5,4] <= 0
+ R27572: allocated[7,4,4,5,1] - 15 layerInUse[7,5,4] <= 0
+ R27573: allocated[7,4,4,5,2] - 15 layerInUse[7,5,4] <= 0
+ R27574: allocated[7,1,5,5,1] - 15 layerInUse[7,5,5] <= 0
+ R27575: allocated[7,1,5,5,2] - 15 layerInUse[7,5,5] <= 0
+ R27576: allocated[7,2,5,5,1] - 15 layerInUse[7,5,5] <= 0
+ R27577: allocated[7,2,5,5,2] - 15 layerInUse[7,5,5] <= 0
+ R27578: allocated[7,3,5,5,1] - 15 layerInUse[7,5,5] <= 0
+ R27579: allocated[7,3,5,5,2] - 15 layerInUse[7,5,5] <= 0
+ R27580: allocated[7,4,5,5,1] - 15 layerInUse[7,5,5] <= 0
+ R27581: allocated[7,4,5,5,2] - 15 layerInUse[7,5,5] <= 0
+ R27582: allocated[7,1,6,5,1] - 15 layerInUse[7,5,6] <= 0
+ R27583: allocated[7,1,6,5,2] - 15 layerInUse[7,5,6] <= 0
+ R27584: allocated[7,2,6,5,1] - 15 layerInUse[7,5,6] <= 0
+ R27585: allocated[7,2,6,5,2] - 15 layerInUse[7,5,6] <= 0
+ R27586: allocated[7,3,6,5,1] - 15 layerInUse[7,5,6] <= 0
+ R27587: allocated[7,3,6,5,2] - 15 layerInUse[7,5,6] <= 0
+ R27588: allocated[7,4,6,5,1] - 15 layerInUse[7,5,6] <= 0
+ R27589: allocated[7,4,6,5,2] - 15 layerInUse[7,5,6] <= 0
+ R27590: allocated[7,1,1,6,1] - 15 layerInUse[7,6,1] <= 0
+ R27591: allocated[7,1,1,6,2] - 15 layerInUse[7,6,1] <= 0
+ R27592: allocated[7,2,1,6,1] - 15 layerInUse[7,6,1] <= 0
+ R27593: allocated[7,2,1,6,2] - 15 layerInUse[7,6,1] <= 0
+ R27594: allocated[7,3,1,6,1] - 15 layerInUse[7,6,1] <= 0
+ R27595: allocated[7,3,1,6,2] - 15 layerInUse[7,6,1] <= 0
+ R27596: allocated[7,4,1,6,1] - 15 layerInUse[7,6,1] <= 0
+ R27597: allocated[7,4,1,6,2] - 15 layerInUse[7,6,1] <= 0
+ R27598: allocated[7,1,2,6,1] - 15 layerInUse[7,6,2] <= 0
+ R27599: allocated[7,1,2,6,2] - 15 layerInUse[7,6,2] <= 0
+ R27600: allocated[7,2,2,6,1] - 15 layerInUse[7,6,2] <= 0
+ R27601: allocated[7,2,2,6,2] - 15 layerInUse[7,6,2] <= 0
+ R27602: allocated[7,3,2,6,1] - 15 layerInUse[7,6,2] <= 0
+ R27603: allocated[7,3,2,6,2] - 15 layerInUse[7,6,2] <= 0
+ R27604: allocated[7,4,2,6,1] - 15 layerInUse[7,6,2] <= 0
+ R27605: allocated[7,4,2,6,2] - 15 layerInUse[7,6,2] <= 0
+ R27606: allocated[7,1,3,6,1] - 15 layerInUse[7,6,3] <= 0
+ R27607: allocated[7,1,3,6,2] - 15 layerInUse[7,6,3] <= 0
+ R27608: allocated[7,2,3,6,1] - 15 layerInUse[7,6,3] <= 0
+ R27609: allocated[7,2,3,6,2] - 15 layerInUse[7,6,3] <= 0
+ R27610: allocated[7,3,3,6,1] - 15 layerInUse[7,6,3] <= 0
+ R27611: allocated[7,3,3,6,2] - 15 layerInUse[7,6,3] <= 0
+ R27612: allocated[7,4,3,6,1] - 15 layerInUse[7,6,3] <= 0
+ R27613: allocated[7,4,3,6,2] - 15 layerInUse[7,6,3] <= 0
+ R27614: allocated[7,1,4,6,1] - 15 layerInUse[7,6,4] <= 0
+ R27615: allocated[7,1,4,6,2] - 15 layerInUse[7,6,4] <= 0
+ R27616: allocated[7,2,4,6,1] - 15 layerInUse[7,6,4] <= 0
+ R27617: allocated[7,2,4,6,2] - 15 layerInUse[7,6,4] <= 0
+ R27618: allocated[7,3,4,6,1] - 15 layerInUse[7,6,4] <= 0
+ R27619: allocated[7,3,4,6,2] - 15 layerInUse[7,6,4] <= 0
+ R27620: allocated[7,4,4,6,1] - 15 layerInUse[7,6,4] <= 0
+ R27621: allocated[7,4,4,6,2] - 15 layerInUse[7,6,4] <= 0
+ R27622: allocated[7,1,5,6,1] - 15 layerInUse[7,6,5] <= 0
+ R27623: allocated[7,1,5,6,2] - 15 layerInUse[7,6,5] <= 0
+ R27624: allocated[7,2,5,6,1] - 15 layerInUse[7,6,5] <= 0
+ R27625: allocated[7,2,5,6,2] - 15 layerInUse[7,6,5] <= 0
+ R27626: allocated[7,3,5,6,1] - 15 layerInUse[7,6,5] <= 0
+ R27627: allocated[7,3,5,6,2] - 15 layerInUse[7,6,5] <= 0
+ R27628: allocated[7,4,5,6,1] - 15 layerInUse[7,6,5] <= 0
+ R27629: allocated[7,4,5,6,2] - 15 layerInUse[7,6,5] <= 0
+ R27630: allocated[7,1,6,6,1] - 15 layerInUse[7,6,6] <= 0
+ R27631: allocated[7,1,6,6,2] - 15 layerInUse[7,6,6] <= 0
+ R27632: allocated[7,2,6,6,1] - 15 layerInUse[7,6,6] <= 0
+ R27633: allocated[7,2,6,6,2] - 15 layerInUse[7,6,6] <= 0
+ R27634: allocated[7,3,6,6,1] - 15 layerInUse[7,6,6] <= 0
+ R27635: allocated[7,3,6,6,2] - 15 layerInUse[7,6,6] <= 0
+ R27636: allocated[7,4,6,6,1] - 15 layerInUse[7,6,6] <= 0
+ R27637: allocated[7,4,6,6,2] - 15 layerInUse[7,6,6] <= 0
+ R27638: allocated[7,1,1,7,1] - 15 layerInUse[7,7,1] <= 0
+ R27639: allocated[7,1,1,7,2] - 15 layerInUse[7,7,1] <= 0
+ R27640: allocated[7,2,1,7,1] - 15 layerInUse[7,7,1] <= 0
+ R27641: allocated[7,2,1,7,2] - 15 layerInUse[7,7,1] <= 0
+ R27642: allocated[7,3,1,7,1] - 15 layerInUse[7,7,1] <= 0
+ R27643: allocated[7,3,1,7,2] - 15 layerInUse[7,7,1] <= 0
+ R27644: allocated[7,4,1,7,1] - 15 layerInUse[7,7,1] <= 0
+ R27645: allocated[7,4,1,7,2] - 15 layerInUse[7,7,1] <= 0
+ R27646: allocated[7,1,2,7,1] - 15 layerInUse[7,7,2] <= 0
+ R27647: allocated[7,1,2,7,2] - 15 layerInUse[7,7,2] <= 0
+ R27648: allocated[7,2,2,7,1] - 15 layerInUse[7,7,2] <= 0
+ R27649: allocated[7,2,2,7,2] - 15 layerInUse[7,7,2] <= 0
+ R27650: allocated[7,3,2,7,1] - 15 layerInUse[7,7,2] <= 0
+ R27651: allocated[7,3,2,7,2] - 15 layerInUse[7,7,2] <= 0
+ R27652: allocated[7,4,2,7,1] - 15 layerInUse[7,7,2] <= 0
+ R27653: allocated[7,4,2,7,2] - 15 layerInUse[7,7,2] <= 0
+ R27654: allocated[7,1,3,7,1] - 15 layerInUse[7,7,3] <= 0
+ R27655: allocated[7,1,3,7,2] - 15 layerInUse[7,7,3] <= 0
+ R27656: allocated[7,2,3,7,1] - 15 layerInUse[7,7,3] <= 0
+ R27657: allocated[7,2,3,7,2] - 15 layerInUse[7,7,3] <= 0
+ R27658: allocated[7,3,3,7,1] - 15 layerInUse[7,7,3] <= 0
+ R27659: allocated[7,3,3,7,2] - 15 layerInUse[7,7,3] <= 0
+ R27660: allocated[7,4,3,7,1] - 15 layerInUse[7,7,3] <= 0
+ R27661: allocated[7,4,3,7,2] - 15 layerInUse[7,7,3] <= 0
+ R27662: allocated[7,1,4,7,1] - 15 layerInUse[7,7,4] <= 0
+ R27663: allocated[7,1,4,7,2] - 15 layerInUse[7,7,4] <= 0
+ R27664: allocated[7,2,4,7,1] - 15 layerInUse[7,7,4] <= 0
+ R27665: allocated[7,2,4,7,2] - 15 layerInUse[7,7,4] <= 0
+ R27666: allocated[7,3,4,7,1] - 15 layerInUse[7,7,4] <= 0
+ R27667: allocated[7,3,4,7,2] - 15 layerInUse[7,7,4] <= 0
+ R27668: allocated[7,4,4,7,1] - 15 layerInUse[7,7,4] <= 0
+ R27669: allocated[7,4,4,7,2] - 15 layerInUse[7,7,4] <= 0
+ R27670: allocated[7,1,5,7,1] - 15 layerInUse[7,7,5] <= 0
+ R27671: allocated[7,1,5,7,2] - 15 layerInUse[7,7,5] <= 0
+ R27672: allocated[7,2,5,7,1] - 15 layerInUse[7,7,5] <= 0
+ R27673: allocated[7,2,5,7,2] - 15 layerInUse[7,7,5] <= 0
+ R27674: allocated[7,3,5,7,1] - 15 layerInUse[7,7,5] <= 0
+ R27675: allocated[7,3,5,7,2] - 15 layerInUse[7,7,5] <= 0
+ R27676: allocated[7,4,5,7,1] - 15 layerInUse[7,7,5] <= 0
+ R27677: allocated[7,4,5,7,2] - 15 layerInUse[7,7,5] <= 0
+ R27678: allocated[7,1,6,7,1] - 15 layerInUse[7,7,6] <= 0
+ R27679: allocated[7,1,6,7,2] - 15 layerInUse[7,7,6] <= 0
+ R27680: allocated[7,2,6,7,1] - 15 layerInUse[7,7,6] <= 0
+ R27681: allocated[7,2,6,7,2] - 15 layerInUse[7,7,6] <= 0
+ R27682: allocated[7,3,6,7,1] - 15 layerInUse[7,7,6] <= 0
+ R27683: allocated[7,3,6,7,2] - 15 layerInUse[7,7,6] <= 0
+ R27684: allocated[7,4,6,7,1] - 15 layerInUse[7,7,6] <= 0
+ R27685: allocated[7,4,6,7,2] - 15 layerInUse[7,7,6] <= 0
+ R27686: allocated[7,1,1,8,1] - 15 layerInUse[7,8,1] <= 0
+ R27687: allocated[7,1,1,8,2] - 15 layerInUse[7,8,1] <= 0
+ R27688: allocated[7,2,1,8,1] - 15 layerInUse[7,8,1] <= 0
+ R27689: allocated[7,2,1,8,2] - 15 layerInUse[7,8,1] <= 0
+ R27690: allocated[7,3,1,8,1] - 15 layerInUse[7,8,1] <= 0
+ R27691: allocated[7,3,1,8,2] - 15 layerInUse[7,8,1] <= 0
+ R27692: allocated[7,4,1,8,1] - 15 layerInUse[7,8,1] <= 0
+ R27693: allocated[7,4,1,8,2] - 15 layerInUse[7,8,1] <= 0
+ R27694: allocated[7,1,2,8,1] - 15 layerInUse[7,8,2] <= 0
+ R27695: allocated[7,1,2,8,2] - 15 layerInUse[7,8,2] <= 0
+ R27696: allocated[7,2,2,8,1] - 15 layerInUse[7,8,2] <= 0
+ R27697: allocated[7,2,2,8,2] - 15 layerInUse[7,8,2] <= 0
+ R27698: allocated[7,3,2,8,1] - 15 layerInUse[7,8,2] <= 0
+ R27699: allocated[7,3,2,8,2] - 15 layerInUse[7,8,2] <= 0
+ R27700: allocated[7,4,2,8,1] - 15 layerInUse[7,8,2] <= 0
+ R27701: allocated[7,4,2,8,2] - 15 layerInUse[7,8,2] <= 0
+ R27702: allocated[7,1,3,8,1] - 15 layerInUse[7,8,3] <= 0
+ R27703: allocated[7,1,3,8,2] - 15 layerInUse[7,8,3] <= 0
+ R27704: allocated[7,2,3,8,1] - 15 layerInUse[7,8,3] <= 0
+ R27705: allocated[7,2,3,8,2] - 15 layerInUse[7,8,3] <= 0
+ R27706: allocated[7,3,3,8,1] - 15 layerInUse[7,8,3] <= 0
+ R27707: allocated[7,3,3,8,2] - 15 layerInUse[7,8,3] <= 0
+ R27708: allocated[7,4,3,8,1] - 15 layerInUse[7,8,3] <= 0
+ R27709: allocated[7,4,3,8,2] - 15 layerInUse[7,8,3] <= 0
+ R27710: allocated[7,1,4,8,1] - 15 layerInUse[7,8,4] <= 0
+ R27711: allocated[7,1,4,8,2] - 15 layerInUse[7,8,4] <= 0
+ R27712: allocated[7,2,4,8,1] - 15 layerInUse[7,8,4] <= 0
+ R27713: allocated[7,2,4,8,2] - 15 layerInUse[7,8,4] <= 0
+ R27714: allocated[7,3,4,8,1] - 15 layerInUse[7,8,4] <= 0
+ R27715: allocated[7,3,4,8,2] - 15 layerInUse[7,8,4] <= 0
+ R27716: allocated[7,4,4,8,1] - 15 layerInUse[7,8,4] <= 0
+ R27717: allocated[7,4,4,8,2] - 15 layerInUse[7,8,4] <= 0
+ R27718: allocated[7,1,5,8,1] - 15 layerInUse[7,8,5] <= 0
+ R27719: allocated[7,1,5,8,2] - 15 layerInUse[7,8,5] <= 0
+ R27720: allocated[7,2,5,8,1] - 15 layerInUse[7,8,5] <= 0
+ R27721: allocated[7,2,5,8,2] - 15 layerInUse[7,8,5] <= 0
+ R27722: allocated[7,3,5,8,1] - 15 layerInUse[7,8,5] <= 0
+ R27723: allocated[7,3,5,8,2] - 15 layerInUse[7,8,5] <= 0
+ R27724: allocated[7,4,5,8,1] - 15 layerInUse[7,8,5] <= 0
+ R27725: allocated[7,4,5,8,2] - 15 layerInUse[7,8,5] <= 0
+ R27726: allocated[7,1,6,8,1] - 15 layerInUse[7,8,6] <= 0
+ R27727: allocated[7,1,6,8,2] - 15 layerInUse[7,8,6] <= 0
+ R27728: allocated[7,2,6,8,1] - 15 layerInUse[7,8,6] <= 0
+ R27729: allocated[7,2,6,8,2] - 15 layerInUse[7,8,6] <= 0
+ R27730: allocated[7,3,6,8,1] - 15 layerInUse[7,8,6] <= 0
+ R27731: allocated[7,3,6,8,2] - 15 layerInUse[7,8,6] <= 0
+ R27732: allocated[7,4,6,8,1] - 15 layerInUse[7,8,6] <= 0
+ R27733: allocated[7,4,6,8,2] - 15 layerInUse[7,8,6] <= 0
+ R27734: allocated[8,1,1,1,1] - 15 layerInUse[8,1,1] <= 0
+ R27735: allocated[8,1,1,1,2] - 15 layerInUse[8,1,1] <= 0
+ R27736: allocated[8,2,1,1,1] - 15 layerInUse[8,1,1] <= 0
+ R27737: allocated[8,2,1,1,2] - 15 layerInUse[8,1,1] <= 0
+ R27738: allocated[8,3,1,1,1] - 15 layerInUse[8,1,1] <= 0
+ R27739: allocated[8,3,1,1,2] - 15 layerInUse[8,1,1] <= 0
+ R27740: allocated[8,4,1,1,1] - 15 layerInUse[8,1,1] <= 0
+ R27741: allocated[8,4,1,1,2] - 15 layerInUse[8,1,1] <= 0
+ R27742: allocated[8,1,2,1,1] - 15 layerInUse[8,1,2] <= 0
+ R27743: allocated[8,1,2,1,2] - 15 layerInUse[8,1,2] <= 0
+ R27744: allocated[8,2,2,1,1] - 15 layerInUse[8,1,2] <= 0
+ R27745: allocated[8,2,2,1,2] - 15 layerInUse[8,1,2] <= 0
+ R27746: allocated[8,3,2,1,1] - 15 layerInUse[8,1,2] <= 0
+ R27747: allocated[8,3,2,1,2] - 15 layerInUse[8,1,2] <= 0
+ R27748: allocated[8,4,2,1,1] - 15 layerInUse[8,1,2] <= 0
+ R27749: allocated[8,4,2,1,2] - 15 layerInUse[8,1,2] <= 0
+ R27750: allocated[8,1,3,1,1] - 15 layerInUse[8,1,3] <= 0
+ R27751: allocated[8,1,3,1,2] - 15 layerInUse[8,1,3] <= 0
+ R27752: allocated[8,2,3,1,1] - 15 layerInUse[8,1,3] <= 0
+ R27753: allocated[8,2,3,1,2] - 15 layerInUse[8,1,3] <= 0
+ R27754: allocated[8,3,3,1,1] - 15 layerInUse[8,1,3] <= 0
+ R27755: allocated[8,3,3,1,2] - 15 layerInUse[8,1,3] <= 0
+ R27756: allocated[8,4,3,1,1] - 15 layerInUse[8,1,3] <= 0
+ R27757: allocated[8,4,3,1,2] - 15 layerInUse[8,1,3] <= 0
+ R27758: allocated[8,1,4,1,1] - 15 layerInUse[8,1,4] <= 0
+ R27759: allocated[8,1,4,1,2] - 15 layerInUse[8,1,4] <= 0
+ R27760: allocated[8,2,4,1,1] - 15 layerInUse[8,1,4] <= 0
+ R27761: allocated[8,2,4,1,2] - 15 layerInUse[8,1,4] <= 0
+ R27762: allocated[8,3,4,1,1] - 15 layerInUse[8,1,4] <= 0
+ R27763: allocated[8,3,4,1,2] - 15 layerInUse[8,1,4] <= 0
+ R27764: allocated[8,4,4,1,1] - 15 layerInUse[8,1,4] <= 0
+ R27765: allocated[8,4,4,1,2] - 15 layerInUse[8,1,4] <= 0
+ R27766: allocated[8,1,5,1,1] - 15 layerInUse[8,1,5] <= 0
+ R27767: allocated[8,1,5,1,2] - 15 layerInUse[8,1,5] <= 0
+ R27768: allocated[8,2,5,1,1] - 15 layerInUse[8,1,5] <= 0
+ R27769: allocated[8,2,5,1,2] - 15 layerInUse[8,1,5] <= 0
+ R27770: allocated[8,3,5,1,1] - 15 layerInUse[8,1,5] <= 0
+ R27771: allocated[8,3,5,1,2] - 15 layerInUse[8,1,5] <= 0
+ R27772: allocated[8,4,5,1,1] - 15 layerInUse[8,1,5] <= 0
+ R27773: allocated[8,4,5,1,2] - 15 layerInUse[8,1,5] <= 0
+ R27774: allocated[8,1,6,1,1] - 15 layerInUse[8,1,6] <= 0
+ R27775: allocated[8,1,6,1,2] - 15 layerInUse[8,1,6] <= 0
+ R27776: allocated[8,2,6,1,1] - 15 layerInUse[8,1,6] <= 0
+ R27777: allocated[8,2,6,1,2] - 15 layerInUse[8,1,6] <= 0
+ R27778: allocated[8,3,6,1,1] - 15 layerInUse[8,1,6] <= 0
+ R27779: allocated[8,3,6,1,2] - 15 layerInUse[8,1,6] <= 0
+ R27780: allocated[8,4,6,1,1] - 15 layerInUse[8,1,6] <= 0
+ R27781: allocated[8,4,6,1,2] - 15 layerInUse[8,1,6] <= 0
+ R27782: allocated[8,1,1,2,1] - 15 layerInUse[8,2,1] <= 0
+ R27783: allocated[8,1,1,2,2] - 15 layerInUse[8,2,1] <= 0
+ R27784: allocated[8,2,1,2,1] - 15 layerInUse[8,2,1] <= 0
+ R27785: allocated[8,2,1,2,2] - 15 layerInUse[8,2,1] <= 0
+ R27786: allocated[8,3,1,2,1] - 15 layerInUse[8,2,1] <= 0
+ R27787: allocated[8,3,1,2,2] - 15 layerInUse[8,2,1] <= 0
+ R27788: allocated[8,4,1,2,1] - 15 layerInUse[8,2,1] <= 0
+ R27789: allocated[8,4,1,2,2] - 15 layerInUse[8,2,1] <= 0
+ R27790: allocated[8,1,2,2,1] - 15 layerInUse[8,2,2] <= 0
+ R27791: allocated[8,1,2,2,2] - 15 layerInUse[8,2,2] <= 0
+ R27792: allocated[8,2,2,2,1] - 15 layerInUse[8,2,2] <= 0
+ R27793: allocated[8,2,2,2,2] - 15 layerInUse[8,2,2] <= 0
+ R27794: allocated[8,3,2,2,1] - 15 layerInUse[8,2,2] <= 0
+ R27795: allocated[8,3,2,2,2] - 15 layerInUse[8,2,2] <= 0
+ R27796: allocated[8,4,2,2,1] - 15 layerInUse[8,2,2] <= 0
+ R27797: allocated[8,4,2,2,2] - 15 layerInUse[8,2,2] <= 0
+ R27798: allocated[8,1,3,2,1] - 15 layerInUse[8,2,3] <= 0
+ R27799: allocated[8,1,3,2,2] - 15 layerInUse[8,2,3] <= 0
+ R27800: allocated[8,2,3,2,1] - 15 layerInUse[8,2,3] <= 0
+ R27801: allocated[8,2,3,2,2] - 15 layerInUse[8,2,3] <= 0
+ R27802: allocated[8,3,3,2,1] - 15 layerInUse[8,2,3] <= 0
+ R27803: allocated[8,3,3,2,2] - 15 layerInUse[8,2,3] <= 0
+ R27804: allocated[8,4,3,2,1] - 15 layerInUse[8,2,3] <= 0
+ R27805: allocated[8,4,3,2,2] - 15 layerInUse[8,2,3] <= 0
+ R27806: allocated[8,1,4,2,1] - 15 layerInUse[8,2,4] <= 0
+ R27807: allocated[8,1,4,2,2] - 15 layerInUse[8,2,4] <= 0
+ R27808: allocated[8,2,4,2,1] - 15 layerInUse[8,2,4] <= 0
+ R27809: allocated[8,2,4,2,2] - 15 layerInUse[8,2,4] <= 0
+ R27810: allocated[8,3,4,2,1] - 15 layerInUse[8,2,4] <= 0
+ R27811: allocated[8,3,4,2,2] - 15 layerInUse[8,2,4] <= 0
+ R27812: allocated[8,4,4,2,1] - 15 layerInUse[8,2,4] <= 0
+ R27813: allocated[8,4,4,2,2] - 15 layerInUse[8,2,4] <= 0
+ R27814: allocated[8,1,5,2,1] - 15 layerInUse[8,2,5] <= 0
+ R27815: allocated[8,1,5,2,2] - 15 layerInUse[8,2,5] <= 0
+ R27816: allocated[8,2,5,2,1] - 15 layerInUse[8,2,5] <= 0
+ R27817: allocated[8,2,5,2,2] - 15 layerInUse[8,2,5] <= 0
+ R27818: allocated[8,3,5,2,1] - 15 layerInUse[8,2,5] <= 0
+ R27819: allocated[8,3,5,2,2] - 15 layerInUse[8,2,5] <= 0
+ R27820: allocated[8,4,5,2,1] - 15 layerInUse[8,2,5] <= 0
+ R27821: allocated[8,4,5,2,2] - 15 layerInUse[8,2,5] <= 0
+ R27822: allocated[8,1,6,2,1] - 15 layerInUse[8,2,6] <= 0
+ R27823: allocated[8,1,6,2,2] - 15 layerInUse[8,2,6] <= 0
+ R27824: allocated[8,2,6,2,1] - 15 layerInUse[8,2,6] <= 0
+ R27825: allocated[8,2,6,2,2] - 15 layerInUse[8,2,6] <= 0
+ R27826: allocated[8,3,6,2,1] - 15 layerInUse[8,2,6] <= 0
+ R27827: allocated[8,3,6,2,2] - 15 layerInUse[8,2,6] <= 0
+ R27828: allocated[8,4,6,2,1] - 15 layerInUse[8,2,6] <= 0
+ R27829: allocated[8,4,6,2,2] - 15 layerInUse[8,2,6] <= 0
+ R27830: allocated[8,1,1,3,1] - 15 layerInUse[8,3,1] <= 0
+ R27831: allocated[8,1,1,3,2] - 15 layerInUse[8,3,1] <= 0
+ R27832: allocated[8,2,1,3,1] - 15 layerInUse[8,3,1] <= 0
+ R27833: allocated[8,2,1,3,2] - 15 layerInUse[8,3,1] <= 0
+ R27834: allocated[8,3,1,3,1] - 15 layerInUse[8,3,1] <= 0
+ R27835: allocated[8,3,1,3,2] - 15 layerInUse[8,3,1] <= 0
+ R27836: allocated[8,4,1,3,1] - 15 layerInUse[8,3,1] <= 0
+ R27837: allocated[8,4,1,3,2] - 15 layerInUse[8,3,1] <= 0
+ R27838: allocated[8,1,2,3,1] - 15 layerInUse[8,3,2] <= 0
+ R27839: allocated[8,1,2,3,2] - 15 layerInUse[8,3,2] <= 0
+ R27840: allocated[8,2,2,3,1] - 15 layerInUse[8,3,2] <= 0
+ R27841: allocated[8,2,2,3,2] - 15 layerInUse[8,3,2] <= 0
+ R27842: allocated[8,3,2,3,1] - 15 layerInUse[8,3,2] <= 0
+ R27843: allocated[8,3,2,3,2] - 15 layerInUse[8,3,2] <= 0
+ R27844: allocated[8,4,2,3,1] - 15 layerInUse[8,3,2] <= 0
+ R27845: allocated[8,4,2,3,2] - 15 layerInUse[8,3,2] <= 0
+ R27846: allocated[8,1,3,3,1] - 15 layerInUse[8,3,3] <= 0
+ R27847: allocated[8,1,3,3,2] - 15 layerInUse[8,3,3] <= 0
+ R27848: allocated[8,2,3,3,1] - 15 layerInUse[8,3,3] <= 0
+ R27849: allocated[8,2,3,3,2] - 15 layerInUse[8,3,3] <= 0
+ R27850: allocated[8,3,3,3,1] - 15 layerInUse[8,3,3] <= 0
+ R27851: allocated[8,3,3,3,2] - 15 layerInUse[8,3,3] <= 0
+ R27852: allocated[8,4,3,3,1] - 15 layerInUse[8,3,3] <= 0
+ R27853: allocated[8,4,3,3,2] - 15 layerInUse[8,3,3] <= 0
+ R27854: allocated[8,1,4,3,1] - 15 layerInUse[8,3,4] <= 0
+ R27855: allocated[8,1,4,3,2] - 15 layerInUse[8,3,4] <= 0
+ R27856: allocated[8,2,4,3,1] - 15 layerInUse[8,3,4] <= 0
+ R27857: allocated[8,2,4,3,2] - 15 layerInUse[8,3,4] <= 0
+ R27858: allocated[8,3,4,3,1] - 15 layerInUse[8,3,4] <= 0
+ R27859: allocated[8,3,4,3,2] - 15 layerInUse[8,3,4] <= 0
+ R27860: allocated[8,4,4,3,1] - 15 layerInUse[8,3,4] <= 0
+ R27861: allocated[8,4,4,3,2] - 15 layerInUse[8,3,4] <= 0
+ R27862: allocated[8,1,5,3,1] - 15 layerInUse[8,3,5] <= 0
+ R27863: allocated[8,1,5,3,2] - 15 layerInUse[8,3,5] <= 0
+ R27864: allocated[8,2,5,3,1] - 15 layerInUse[8,3,5] <= 0
+ R27865: allocated[8,2,5,3,2] - 15 layerInUse[8,3,5] <= 0
+ R27866: allocated[8,3,5,3,1] - 15 layerInUse[8,3,5] <= 0
+ R27867: allocated[8,3,5,3,2] - 15 layerInUse[8,3,5] <= 0
+ R27868: allocated[8,4,5,3,1] - 15 layerInUse[8,3,5] <= 0
+ R27869: allocated[8,4,5,3,2] - 15 layerInUse[8,3,5] <= 0
+ R27870: allocated[8,1,6,3,1] - 15 layerInUse[8,3,6] <= 0
+ R27871: allocated[8,1,6,3,2] - 15 layerInUse[8,3,6] <= 0
+ R27872: allocated[8,2,6,3,1] - 15 layerInUse[8,3,6] <= 0
+ R27873: allocated[8,2,6,3,2] - 15 layerInUse[8,3,6] <= 0
+ R27874: allocated[8,3,6,3,1] - 15 layerInUse[8,3,6] <= 0
+ R27875: allocated[8,3,6,3,2] - 15 layerInUse[8,3,6] <= 0
+ R27876: allocated[8,4,6,3,1] - 15 layerInUse[8,3,6] <= 0
+ R27877: allocated[8,4,6,3,2] - 15 layerInUse[8,3,6] <= 0
+ R27878: allocated[8,1,1,4,1] - 15 layerInUse[8,4,1] <= 0
+ R27879: allocated[8,1,1,4,2] - 15 layerInUse[8,4,1] <= 0
+ R27880: allocated[8,2,1,4,1] - 15 layerInUse[8,4,1] <= 0
+ R27881: allocated[8,2,1,4,2] - 15 layerInUse[8,4,1] <= 0
+ R27882: allocated[8,3,1,4,1] - 15 layerInUse[8,4,1] <= 0
+ R27883: allocated[8,3,1,4,2] - 15 layerInUse[8,4,1] <= 0
+ R27884: allocated[8,4,1,4,1] - 15 layerInUse[8,4,1] <= 0
+ R27885: allocated[8,4,1,4,2] - 15 layerInUse[8,4,1] <= 0
+ R27886: allocated[8,1,2,4,1] - 15 layerInUse[8,4,2] <= 0
+ R27887: allocated[8,1,2,4,2] - 15 layerInUse[8,4,2] <= 0
+ R27888: allocated[8,2,2,4,1] - 15 layerInUse[8,4,2] <= 0
+ R27889: allocated[8,2,2,4,2] - 15 layerInUse[8,4,2] <= 0
+ R27890: allocated[8,3,2,4,1] - 15 layerInUse[8,4,2] <= 0
+ R27891: allocated[8,3,2,4,2] - 15 layerInUse[8,4,2] <= 0
+ R27892: allocated[8,4,2,4,1] - 15 layerInUse[8,4,2] <= 0
+ R27893: allocated[8,4,2,4,2] - 15 layerInUse[8,4,2] <= 0
+ R27894: allocated[8,1,3,4,1] - 15 layerInUse[8,4,3] <= 0
+ R27895: allocated[8,1,3,4,2] - 15 layerInUse[8,4,3] <= 0
+ R27896: allocated[8,2,3,4,1] - 15 layerInUse[8,4,3] <= 0
+ R27897: allocated[8,2,3,4,2] - 15 layerInUse[8,4,3] <= 0
+ R27898: allocated[8,3,3,4,1] - 15 layerInUse[8,4,3] <= 0
+ R27899: allocated[8,3,3,4,2] - 15 layerInUse[8,4,3] <= 0
+ R27900: allocated[8,4,3,4,1] - 15 layerInUse[8,4,3] <= 0
+ R27901: allocated[8,4,3,4,2] - 15 layerInUse[8,4,3] <= 0
+ R27902: allocated[8,1,4,4,1] - 15 layerInUse[8,4,4] <= 0
+ R27903: allocated[8,1,4,4,2] - 15 layerInUse[8,4,4] <= 0
+ R27904: allocated[8,2,4,4,1] - 15 layerInUse[8,4,4] <= 0
+ R27905: allocated[8,2,4,4,2] - 15 layerInUse[8,4,4] <= 0
+ R27906: allocated[8,3,4,4,1] - 15 layerInUse[8,4,4] <= 0
+ R27907: allocated[8,3,4,4,2] - 15 layerInUse[8,4,4] <= 0
+ R27908: allocated[8,4,4,4,1] - 15 layerInUse[8,4,4] <= 0
+ R27909: allocated[8,4,4,4,2] - 15 layerInUse[8,4,4] <= 0
+ R27910: allocated[8,1,5,4,1] - 15 layerInUse[8,4,5] <= 0
+ R27911: allocated[8,1,5,4,2] - 15 layerInUse[8,4,5] <= 0
+ R27912: allocated[8,2,5,4,1] - 15 layerInUse[8,4,5] <= 0
+ R27913: allocated[8,2,5,4,2] - 15 layerInUse[8,4,5] <= 0
+ R27914: allocated[8,3,5,4,1] - 15 layerInUse[8,4,5] <= 0
+ R27915: allocated[8,3,5,4,2] - 15 layerInUse[8,4,5] <= 0
+ R27916: allocated[8,4,5,4,1] - 15 layerInUse[8,4,5] <= 0
+ R27917: allocated[8,4,5,4,2] - 15 layerInUse[8,4,5] <= 0
+ R27918: allocated[8,1,6,4,1] - 15 layerInUse[8,4,6] <= 0
+ R27919: allocated[8,1,6,4,2] - 15 layerInUse[8,4,6] <= 0
+ R27920: allocated[8,2,6,4,1] - 15 layerInUse[8,4,6] <= 0
+ R27921: allocated[8,2,6,4,2] - 15 layerInUse[8,4,6] <= 0
+ R27922: allocated[8,3,6,4,1] - 15 layerInUse[8,4,6] <= 0
+ R27923: allocated[8,3,6,4,2] - 15 layerInUse[8,4,6] <= 0
+ R27924: allocated[8,4,6,4,1] - 15 layerInUse[8,4,6] <= 0
+ R27925: allocated[8,4,6,4,2] - 15 layerInUse[8,4,6] <= 0
+ R27926: allocated[8,1,1,5,1] - 15 layerInUse[8,5,1] <= 0
+ R27927: allocated[8,1,1,5,2] - 15 layerInUse[8,5,1] <= 0
+ R27928: allocated[8,2,1,5,1] - 15 layerInUse[8,5,1] <= 0
+ R27929: allocated[8,2,1,5,2] - 15 layerInUse[8,5,1] <= 0
+ R27930: allocated[8,3,1,5,1] - 15 layerInUse[8,5,1] <= 0
+ R27931: allocated[8,3,1,5,2] - 15 layerInUse[8,5,1] <= 0
+ R27932: allocated[8,4,1,5,1] - 15 layerInUse[8,5,1] <= 0
+ R27933: allocated[8,4,1,5,2] - 15 layerInUse[8,5,1] <= 0
+ R27934: allocated[8,1,2,5,1] - 15 layerInUse[8,5,2] <= 0
+ R27935: allocated[8,1,2,5,2] - 15 layerInUse[8,5,2] <= 0
+ R27936: allocated[8,2,2,5,1] - 15 layerInUse[8,5,2] <= 0
+ R27937: allocated[8,2,2,5,2] - 15 layerInUse[8,5,2] <= 0
+ R27938: allocated[8,3,2,5,1] - 15 layerInUse[8,5,2] <= 0
+ R27939: allocated[8,3,2,5,2] - 15 layerInUse[8,5,2] <= 0
+ R27940: allocated[8,4,2,5,1] - 15 layerInUse[8,5,2] <= 0
+ R27941: allocated[8,4,2,5,2] - 15 layerInUse[8,5,2] <= 0
+ R27942: allocated[8,1,3,5,1] - 15 layerInUse[8,5,3] <= 0
+ R27943: allocated[8,1,3,5,2] - 15 layerInUse[8,5,3] <= 0
+ R27944: allocated[8,2,3,5,1] - 15 layerInUse[8,5,3] <= 0
+ R27945: allocated[8,2,3,5,2] - 15 layerInUse[8,5,3] <= 0
+ R27946: allocated[8,3,3,5,1] - 15 layerInUse[8,5,3] <= 0
+ R27947: allocated[8,3,3,5,2] - 15 layerInUse[8,5,3] <= 0
+ R27948: allocated[8,4,3,5,1] - 15 layerInUse[8,5,3] <= 0
+ R27949: allocated[8,4,3,5,2] - 15 layerInUse[8,5,3] <= 0
+ R27950: allocated[8,1,4,5,1] - 15 layerInUse[8,5,4] <= 0
+ R27951: allocated[8,1,4,5,2] - 15 layerInUse[8,5,4] <= 0
+ R27952: allocated[8,2,4,5,1] - 15 layerInUse[8,5,4] <= 0
+ R27953: allocated[8,2,4,5,2] - 15 layerInUse[8,5,4] <= 0
+ R27954: allocated[8,3,4,5,1] - 15 layerInUse[8,5,4] <= 0
+ R27955: allocated[8,3,4,5,2] - 15 layerInUse[8,5,4] <= 0
+ R27956: allocated[8,4,4,5,1] - 15 layerInUse[8,5,4] <= 0
+ R27957: allocated[8,4,4,5,2] - 15 layerInUse[8,5,4] <= 0
+ R27958: allocated[8,1,5,5,1] - 15 layerInUse[8,5,5] <= 0
+ R27959: allocated[8,1,5,5,2] - 15 layerInUse[8,5,5] <= 0
+ R27960: allocated[8,2,5,5,1] - 15 layerInUse[8,5,5] <= 0
+ R27961: allocated[8,2,5,5,2] - 15 layerInUse[8,5,5] <= 0
+ R27962: allocated[8,3,5,5,1] - 15 layerInUse[8,5,5] <= 0
+ R27963: allocated[8,3,5,5,2] - 15 layerInUse[8,5,5] <= 0
+ R27964: allocated[8,4,5,5,1] - 15 layerInUse[8,5,5] <= 0
+ R27965: allocated[8,4,5,5,2] - 15 layerInUse[8,5,5] <= 0
+ R27966: allocated[8,1,6,5,1] - 15 layerInUse[8,5,6] <= 0
+ R27967: allocated[8,1,6,5,2] - 15 layerInUse[8,5,6] <= 0
+ R27968: allocated[8,2,6,5,1] - 15 layerInUse[8,5,6] <= 0
+ R27969: allocated[8,2,6,5,2] - 15 layerInUse[8,5,6] <= 0
+ R27970: allocated[8,3,6,5,1] - 15 layerInUse[8,5,6] <= 0
+ R27971: allocated[8,3,6,5,2] - 15 layerInUse[8,5,6] <= 0
+ R27972: allocated[8,4,6,5,1] - 15 layerInUse[8,5,6] <= 0
+ R27973: allocated[8,4,6,5,2] - 15 layerInUse[8,5,6] <= 0
+ R27974: allocated[8,1,1,6,1] - 15 layerInUse[8,6,1] <= 0
+ R27975: allocated[8,1,1,6,2] - 15 layerInUse[8,6,1] <= 0
+ R27976: allocated[8,2,1,6,1] - 15 layerInUse[8,6,1] <= 0
+ R27977: allocated[8,2,1,6,2] - 15 layerInUse[8,6,1] <= 0
+ R27978: allocated[8,3,1,6,1] - 15 layerInUse[8,6,1] <= 0
+ R27979: allocated[8,3,1,6,2] - 15 layerInUse[8,6,1] <= 0
+ R27980: allocated[8,4,1,6,1] - 15 layerInUse[8,6,1] <= 0
+ R27981: allocated[8,4,1,6,2] - 15 layerInUse[8,6,1] <= 0
+ R27982: allocated[8,1,2,6,1] - 15 layerInUse[8,6,2] <= 0
+ R27983: allocated[8,1,2,6,2] - 15 layerInUse[8,6,2] <= 0
+ R27984: allocated[8,2,2,6,1] - 15 layerInUse[8,6,2] <= 0
+ R27985: allocated[8,2,2,6,2] - 15 layerInUse[8,6,2] <= 0
+ R27986: allocated[8,3,2,6,1] - 15 layerInUse[8,6,2] <= 0
+ R27987: allocated[8,3,2,6,2] - 15 layerInUse[8,6,2] <= 0
+ R27988: allocated[8,4,2,6,1] - 15 layerInUse[8,6,2] <= 0
+ R27989: allocated[8,4,2,6,2] - 15 layerInUse[8,6,2] <= 0
+ R27990: allocated[8,1,3,6,1] - 15 layerInUse[8,6,3] <= 0
+ R27991: allocated[8,1,3,6,2] - 15 layerInUse[8,6,3] <= 0
+ R27992: allocated[8,2,3,6,1] - 15 layerInUse[8,6,3] <= 0
+ R27993: allocated[8,2,3,6,2] - 15 layerInUse[8,6,3] <= 0
+ R27994: allocated[8,3,3,6,1] - 15 layerInUse[8,6,3] <= 0
+ R27995: allocated[8,3,3,6,2] - 15 layerInUse[8,6,3] <= 0
+ R27996: allocated[8,4,3,6,1] - 15 layerInUse[8,6,3] <= 0
+ R27997: allocated[8,4,3,6,2] - 15 layerInUse[8,6,3] <= 0
+ R27998: allocated[8,1,4,6,1] - 15 layerInUse[8,6,4] <= 0
+ R27999: allocated[8,1,4,6,2] - 15 layerInUse[8,6,4] <= 0
+ R28000: allocated[8,2,4,6,1] - 15 layerInUse[8,6,4] <= 0
+ R28001: allocated[8,2,4,6,2] - 15 layerInUse[8,6,4] <= 0
+ R28002: allocated[8,3,4,6,1] - 15 layerInUse[8,6,4] <= 0
+ R28003: allocated[8,3,4,6,2] - 15 layerInUse[8,6,4] <= 0
+ R28004: allocated[8,4,4,6,1] - 15 layerInUse[8,6,4] <= 0
+ R28005: allocated[8,4,4,6,2] - 15 layerInUse[8,6,4] <= 0
+ R28006: allocated[8,1,5,6,1] - 15 layerInUse[8,6,5] <= 0
+ R28007: allocated[8,1,5,6,2] - 15 layerInUse[8,6,5] <= 0
+ R28008: allocated[8,2,5,6,1] - 15 layerInUse[8,6,5] <= 0
+ R28009: allocated[8,2,5,6,2] - 15 layerInUse[8,6,5] <= 0
+ R28010: allocated[8,3,5,6,1] - 15 layerInUse[8,6,5] <= 0
+ R28011: allocated[8,3,5,6,2] - 15 layerInUse[8,6,5] <= 0
+ R28012: allocated[8,4,5,6,1] - 15 layerInUse[8,6,5] <= 0
+ R28013: allocated[8,4,5,6,2] - 15 layerInUse[8,6,5] <= 0
+ R28014: allocated[8,1,6,6,1] - 15 layerInUse[8,6,6] <= 0
+ R28015: allocated[8,1,6,6,2] - 15 layerInUse[8,6,6] <= 0
+ R28016: allocated[8,2,6,6,1] - 15 layerInUse[8,6,6] <= 0
+ R28017: allocated[8,2,6,6,2] - 15 layerInUse[8,6,6] <= 0
+ R28018: allocated[8,3,6,6,1] - 15 layerInUse[8,6,6] <= 0
+ R28019: allocated[8,3,6,6,2] - 15 layerInUse[8,6,6] <= 0
+ R28020: allocated[8,4,6,6,1] - 15 layerInUse[8,6,6] <= 0
+ R28021: allocated[8,4,6,6,2] - 15 layerInUse[8,6,6] <= 0
+ R28022: allocated[8,1,1,7,1] - 15 layerInUse[8,7,1] <= 0
+ R28023: allocated[8,1,1,7,2] - 15 layerInUse[8,7,1] <= 0
+ R28024: allocated[8,2,1,7,1] - 15 layerInUse[8,7,1] <= 0
+ R28025: allocated[8,2,1,7,2] - 15 layerInUse[8,7,1] <= 0
+ R28026: allocated[8,3,1,7,1] - 15 layerInUse[8,7,1] <= 0
+ R28027: allocated[8,3,1,7,2] - 15 layerInUse[8,7,1] <= 0
+ R28028: allocated[8,4,1,7,1] - 15 layerInUse[8,7,1] <= 0
+ R28029: allocated[8,4,1,7,2] - 15 layerInUse[8,7,1] <= 0
+ R28030: allocated[8,1,2,7,1] - 15 layerInUse[8,7,2] <= 0
+ R28031: allocated[8,1,2,7,2] - 15 layerInUse[8,7,2] <= 0
+ R28032: allocated[8,2,2,7,1] - 15 layerInUse[8,7,2] <= 0
+ R28033: allocated[8,2,2,7,2] - 15 layerInUse[8,7,2] <= 0
+ R28034: allocated[8,3,2,7,1] - 15 layerInUse[8,7,2] <= 0
+ R28035: allocated[8,3,2,7,2] - 15 layerInUse[8,7,2] <= 0
+ R28036: allocated[8,4,2,7,1] - 15 layerInUse[8,7,2] <= 0
+ R28037: allocated[8,4,2,7,2] - 15 layerInUse[8,7,2] <= 0
+ R28038: allocated[8,1,3,7,1] - 15 layerInUse[8,7,3] <= 0
+ R28039: allocated[8,1,3,7,2] - 15 layerInUse[8,7,3] <= 0
+ R28040: allocated[8,2,3,7,1] - 15 layerInUse[8,7,3] <= 0
+ R28041: allocated[8,2,3,7,2] - 15 layerInUse[8,7,3] <= 0
+ R28042: allocated[8,3,3,7,1] - 15 layerInUse[8,7,3] <= 0
+ R28043: allocated[8,3,3,7,2] - 15 layerInUse[8,7,3] <= 0
+ R28044: allocated[8,4,3,7,1] - 15 layerInUse[8,7,3] <= 0
+ R28045: allocated[8,4,3,7,2] - 15 layerInUse[8,7,3] <= 0
+ R28046: allocated[8,1,4,7,1] - 15 layerInUse[8,7,4] <= 0
+ R28047: allocated[8,1,4,7,2] - 15 layerInUse[8,7,4] <= 0
+ R28048: allocated[8,2,4,7,1] - 15 layerInUse[8,7,4] <= 0
+ R28049: allocated[8,2,4,7,2] - 15 layerInUse[8,7,4] <= 0
+ R28050: allocated[8,3,4,7,1] - 15 layerInUse[8,7,4] <= 0
+ R28051: allocated[8,3,4,7,2] - 15 layerInUse[8,7,4] <= 0
+ R28052: allocated[8,4,4,7,1] - 15 layerInUse[8,7,4] <= 0
+ R28053: allocated[8,4,4,7,2] - 15 layerInUse[8,7,4] <= 0
+ R28054: allocated[8,1,5,7,1] - 15 layerInUse[8,7,5] <= 0
+ R28055: allocated[8,1,5,7,2] - 15 layerInUse[8,7,5] <= 0
+ R28056: allocated[8,2,5,7,1] - 15 layerInUse[8,7,5] <= 0
+ R28057: allocated[8,2,5,7,2] - 15 layerInUse[8,7,5] <= 0
+ R28058: allocated[8,3,5,7,1] - 15 layerInUse[8,7,5] <= 0
+ R28059: allocated[8,3,5,7,2] - 15 layerInUse[8,7,5] <= 0
+ R28060: allocated[8,4,5,7,1] - 15 layerInUse[8,7,5] <= 0
+ R28061: allocated[8,4,5,7,2] - 15 layerInUse[8,7,5] <= 0
+ R28062: allocated[8,1,6,7,1] - 15 layerInUse[8,7,6] <= 0
+ R28063: allocated[8,1,6,7,2] - 15 layerInUse[8,7,6] <= 0
+ R28064: allocated[8,2,6,7,1] - 15 layerInUse[8,7,6] <= 0
+ R28065: allocated[8,2,6,7,2] - 15 layerInUse[8,7,6] <= 0
+ R28066: allocated[8,3,6,7,1] - 15 layerInUse[8,7,6] <= 0
+ R28067: allocated[8,3,6,7,2] - 15 layerInUse[8,7,6] <= 0
+ R28068: allocated[8,4,6,7,1] - 15 layerInUse[8,7,6] <= 0
+ R28069: allocated[8,4,6,7,2] - 15 layerInUse[8,7,6] <= 0
+ R28070: allocated[8,1,1,8,1] - 15 layerInUse[8,8,1] <= 0
+ R28071: allocated[8,1,1,8,2] - 15 layerInUse[8,8,1] <= 0
+ R28072: allocated[8,2,1,8,1] - 15 layerInUse[8,8,1] <= 0
+ R28073: allocated[8,2,1,8,2] - 15 layerInUse[8,8,1] <= 0
+ R28074: allocated[8,3,1,8,1] - 15 layerInUse[8,8,1] <= 0
+ R28075: allocated[8,3,1,8,2] - 15 layerInUse[8,8,1] <= 0
+ R28076: allocated[8,4,1,8,1] - 15 layerInUse[8,8,1] <= 0
+ R28077: allocated[8,4,1,8,2] - 15 layerInUse[8,8,1] <= 0
+ R28078: allocated[8,1,2,8,1] - 15 layerInUse[8,8,2] <= 0
+ R28079: allocated[8,1,2,8,2] - 15 layerInUse[8,8,2] <= 0
+ R28080: allocated[8,2,2,8,1] - 15 layerInUse[8,8,2] <= 0
+ R28081: allocated[8,2,2,8,2] - 15 layerInUse[8,8,2] <= 0
+ R28082: allocated[8,3,2,8,1] - 15 layerInUse[8,8,2] <= 0
+ R28083: allocated[8,3,2,8,2] - 15 layerInUse[8,8,2] <= 0
+ R28084: allocated[8,4,2,8,1] - 15 layerInUse[8,8,2] <= 0
+ R28085: allocated[8,4,2,8,2] - 15 layerInUse[8,8,2] <= 0
+ R28086: allocated[8,1,3,8,1] - 15 layerInUse[8,8,3] <= 0
+ R28087: allocated[8,1,3,8,2] - 15 layerInUse[8,8,3] <= 0
+ R28088: allocated[8,2,3,8,1] - 15 layerInUse[8,8,3] <= 0
+ R28089: allocated[8,2,3,8,2] - 15 layerInUse[8,8,3] <= 0
+ R28090: allocated[8,3,3,8,1] - 15 layerInUse[8,8,3] <= 0
+ R28091: allocated[8,3,3,8,2] - 15 layerInUse[8,8,3] <= 0
+ R28092: allocated[8,4,3,8,1] - 15 layerInUse[8,8,3] <= 0
+ R28093: allocated[8,4,3,8,2] - 15 layerInUse[8,8,3] <= 0
+ R28094: allocated[8,1,4,8,1] - 15 layerInUse[8,8,4] <= 0
+ R28095: allocated[8,1,4,8,2] - 15 layerInUse[8,8,4] <= 0
+ R28096: allocated[8,2,4,8,1] - 15 layerInUse[8,8,4] <= 0
+ R28097: allocated[8,2,4,8,2] - 15 layerInUse[8,8,4] <= 0
+ R28098: allocated[8,3,4,8,1] - 15 layerInUse[8,8,4] <= 0
+ R28099: allocated[8,3,4,8,2] - 15 layerInUse[8,8,4] <= 0
+ R28100: allocated[8,4,4,8,1] - 15 layerInUse[8,8,4] <= 0
+ R28101: allocated[8,4,4,8,2] - 15 layerInUse[8,8,4] <= 0
+ R28102: allocated[8,1,5,8,1] - 15 layerInUse[8,8,5] <= 0
+ R28103: allocated[8,1,5,8,2] - 15 layerInUse[8,8,5] <= 0
+ R28104: allocated[8,2,5,8,1] - 15 layerInUse[8,8,5] <= 0
+ R28105: allocated[8,2,5,8,2] - 15 layerInUse[8,8,5] <= 0
+ R28106: allocated[8,3,5,8,1] - 15 layerInUse[8,8,5] <= 0
+ R28107: allocated[8,3,5,8,2] - 15 layerInUse[8,8,5] <= 0
+ R28108: allocated[8,4,5,8,1] - 15 layerInUse[8,8,5] <= 0
+ R28109: allocated[8,4,5,8,2] - 15 layerInUse[8,8,5] <= 0
+ R28110: allocated[8,1,6,8,1] - 15 layerInUse[8,8,6] <= 0
+ R28111: allocated[8,1,6,8,2] - 15 layerInUse[8,8,6] <= 0
+ R28112: allocated[8,2,6,8,1] - 15 layerInUse[8,8,6] <= 0
+ R28113: allocated[8,2,6,8,2] - 15 layerInUse[8,8,6] <= 0
+ R28114: allocated[8,3,6,8,1] - 15 layerInUse[8,8,6] <= 0
+ R28115: allocated[8,3,6,8,2] - 15 layerInUse[8,8,6] <= 0
+ R28116: allocated[8,4,6,8,1] - 15 layerInUse[8,8,6] <= 0
+ R28117: allocated[8,4,6,8,2] - 15 layerInUse[8,8,6] <= 0
+ R28118: allocated[9,1,1,1,1] - 15 layerInUse[9,1,1] <= 0
+ R28119: allocated[9,1,1,1,2] - 15 layerInUse[9,1,1] <= 0
+ R28120: allocated[9,2,1,1,1] - 15 layerInUse[9,1,1] <= 0
+ R28121: allocated[9,2,1,1,2] - 15 layerInUse[9,1,1] <= 0
+ R28122: allocated[9,3,1,1,1] - 15 layerInUse[9,1,1] <= 0
+ R28123: allocated[9,3,1,1,2] - 15 layerInUse[9,1,1] <= 0
+ R28124: allocated[9,4,1,1,1] - 15 layerInUse[9,1,1] <= 0
+ R28125: allocated[9,4,1,1,2] - 15 layerInUse[9,1,1] <= 0
+ R28126: allocated[9,1,2,1,1] - 15 layerInUse[9,1,2] <= 0
+ R28127: allocated[9,1,2,1,2] - 15 layerInUse[9,1,2] <= 0
+ R28128: allocated[9,2,2,1,1] - 15 layerInUse[9,1,2] <= 0
+ R28129: allocated[9,2,2,1,2] - 15 layerInUse[9,1,2] <= 0
+ R28130: allocated[9,3,2,1,1] - 15 layerInUse[9,1,2] <= 0
+ R28131: allocated[9,3,2,1,2] - 15 layerInUse[9,1,2] <= 0
+ R28132: allocated[9,4,2,1,1] - 15 layerInUse[9,1,2] <= 0
+ R28133: allocated[9,4,2,1,2] - 15 layerInUse[9,1,2] <= 0
+ R28134: allocated[9,1,3,1,1] - 15 layerInUse[9,1,3] <= 0
+ R28135: allocated[9,1,3,1,2] - 15 layerInUse[9,1,3] <= 0
+ R28136: allocated[9,2,3,1,1] - 15 layerInUse[9,1,3] <= 0
+ R28137: allocated[9,2,3,1,2] - 15 layerInUse[9,1,3] <= 0
+ R28138: allocated[9,3,3,1,1] - 15 layerInUse[9,1,3] <= 0
+ R28139: allocated[9,3,3,1,2] - 15 layerInUse[9,1,3] <= 0
+ R28140: allocated[9,4,3,1,1] - 15 layerInUse[9,1,3] <= 0
+ R28141: allocated[9,4,3,1,2] - 15 layerInUse[9,1,3] <= 0
+ R28142: allocated[9,1,4,1,1] - 15 layerInUse[9,1,4] <= 0
+ R28143: allocated[9,1,4,1,2] - 15 layerInUse[9,1,4] <= 0
+ R28144: allocated[9,2,4,1,1] - 15 layerInUse[9,1,4] <= 0
+ R28145: allocated[9,2,4,1,2] - 15 layerInUse[9,1,4] <= 0
+ R28146: allocated[9,3,4,1,1] - 15 layerInUse[9,1,4] <= 0
+ R28147: allocated[9,3,4,1,2] - 15 layerInUse[9,1,4] <= 0
+ R28148: allocated[9,4,4,1,1] - 15 layerInUse[9,1,4] <= 0
+ R28149: allocated[9,4,4,1,2] - 15 layerInUse[9,1,4] <= 0
+ R28150: allocated[9,1,5,1,1] - 15 layerInUse[9,1,5] <= 0
+ R28151: allocated[9,1,5,1,2] - 15 layerInUse[9,1,5] <= 0
+ R28152: allocated[9,2,5,1,1] - 15 layerInUse[9,1,5] <= 0
+ R28153: allocated[9,2,5,1,2] - 15 layerInUse[9,1,5] <= 0
+ R28154: allocated[9,3,5,1,1] - 15 layerInUse[9,1,5] <= 0
+ R28155: allocated[9,3,5,1,2] - 15 layerInUse[9,1,5] <= 0
+ R28156: allocated[9,4,5,1,1] - 15 layerInUse[9,1,5] <= 0
+ R28157: allocated[9,4,5,1,2] - 15 layerInUse[9,1,5] <= 0
+ R28158: allocated[9,1,6,1,1] - 15 layerInUse[9,1,6] <= 0
+ R28159: allocated[9,1,6,1,2] - 15 layerInUse[9,1,6] <= 0
+ R28160: allocated[9,2,6,1,1] - 15 layerInUse[9,1,6] <= 0
+ R28161: allocated[9,2,6,1,2] - 15 layerInUse[9,1,6] <= 0
+ R28162: allocated[9,3,6,1,1] - 15 layerInUse[9,1,6] <= 0
+ R28163: allocated[9,3,6,1,2] - 15 layerInUse[9,1,6] <= 0
+ R28164: allocated[9,4,6,1,1] - 15 layerInUse[9,1,6] <= 0
+ R28165: allocated[9,4,6,1,2] - 15 layerInUse[9,1,6] <= 0
+ R28166: allocated[9,1,1,2,1] - 15 layerInUse[9,2,1] <= 0
+ R28167: allocated[9,1,1,2,2] - 15 layerInUse[9,2,1] <= 0
+ R28168: allocated[9,2,1,2,1] - 15 layerInUse[9,2,1] <= 0
+ R28169: allocated[9,2,1,2,2] - 15 layerInUse[9,2,1] <= 0
+ R28170: allocated[9,3,1,2,1] - 15 layerInUse[9,2,1] <= 0
+ R28171: allocated[9,3,1,2,2] - 15 layerInUse[9,2,1] <= 0
+ R28172: allocated[9,4,1,2,1] - 15 layerInUse[9,2,1] <= 0
+ R28173: allocated[9,4,1,2,2] - 15 layerInUse[9,2,1] <= 0
+ R28174: allocated[9,1,2,2,1] - 15 layerInUse[9,2,2] <= 0
+ R28175: allocated[9,1,2,2,2] - 15 layerInUse[9,2,2] <= 0
+ R28176: allocated[9,2,2,2,1] - 15 layerInUse[9,2,2] <= 0
+ R28177: allocated[9,2,2,2,2] - 15 layerInUse[9,2,2] <= 0
+ R28178: allocated[9,3,2,2,1] - 15 layerInUse[9,2,2] <= 0
+ R28179: allocated[9,3,2,2,2] - 15 layerInUse[9,2,2] <= 0
+ R28180: allocated[9,4,2,2,1] - 15 layerInUse[9,2,2] <= 0
+ R28181: allocated[9,4,2,2,2] - 15 layerInUse[9,2,2] <= 0
+ R28182: allocated[9,1,3,2,1] - 15 layerInUse[9,2,3] <= 0
+ R28183: allocated[9,1,3,2,2] - 15 layerInUse[9,2,3] <= 0
+ R28184: allocated[9,2,3,2,1] - 15 layerInUse[9,2,3] <= 0
+ R28185: allocated[9,2,3,2,2] - 15 layerInUse[9,2,3] <= 0
+ R28186: allocated[9,3,3,2,1] - 15 layerInUse[9,2,3] <= 0
+ R28187: allocated[9,3,3,2,2] - 15 layerInUse[9,2,3] <= 0
+ R28188: allocated[9,4,3,2,1] - 15 layerInUse[9,2,3] <= 0
+ R28189: allocated[9,4,3,2,2] - 15 layerInUse[9,2,3] <= 0
+ R28190: allocated[9,1,4,2,1] - 15 layerInUse[9,2,4] <= 0
+ R28191: allocated[9,1,4,2,2] - 15 layerInUse[9,2,4] <= 0
+ R28192: allocated[9,2,4,2,1] - 15 layerInUse[9,2,4] <= 0
+ R28193: allocated[9,2,4,2,2] - 15 layerInUse[9,2,4] <= 0
+ R28194: allocated[9,3,4,2,1] - 15 layerInUse[9,2,4] <= 0
+ R28195: allocated[9,3,4,2,2] - 15 layerInUse[9,2,4] <= 0
+ R28196: allocated[9,4,4,2,1] - 15 layerInUse[9,2,4] <= 0
+ R28197: allocated[9,4,4,2,2] - 15 layerInUse[9,2,4] <= 0
+ R28198: allocated[9,1,5,2,1] - 15 layerInUse[9,2,5] <= 0
+ R28199: allocated[9,1,5,2,2] - 15 layerInUse[9,2,5] <= 0
+ R28200: allocated[9,2,5,2,1] - 15 layerInUse[9,2,5] <= 0
+ R28201: allocated[9,2,5,2,2] - 15 layerInUse[9,2,5] <= 0
+ R28202: allocated[9,3,5,2,1] - 15 layerInUse[9,2,5] <= 0
+ R28203: allocated[9,3,5,2,2] - 15 layerInUse[9,2,5] <= 0
+ R28204: allocated[9,4,5,2,1] - 15 layerInUse[9,2,5] <= 0
+ R28205: allocated[9,4,5,2,2] - 15 layerInUse[9,2,5] <= 0
+ R28206: allocated[9,1,6,2,1] - 15 layerInUse[9,2,6] <= 0
+ R28207: allocated[9,1,6,2,2] - 15 layerInUse[9,2,6] <= 0
+ R28208: allocated[9,2,6,2,1] - 15 layerInUse[9,2,6] <= 0
+ R28209: allocated[9,2,6,2,2] - 15 layerInUse[9,2,6] <= 0
+ R28210: allocated[9,3,6,2,1] - 15 layerInUse[9,2,6] <= 0
+ R28211: allocated[9,3,6,2,2] - 15 layerInUse[9,2,6] <= 0
+ R28212: allocated[9,4,6,2,1] - 15 layerInUse[9,2,6] <= 0
+ R28213: allocated[9,4,6,2,2] - 15 layerInUse[9,2,6] <= 0
+ R28214: allocated[9,1,1,3,1] - 15 layerInUse[9,3,1] <= 0
+ R28215: allocated[9,1,1,3,2] - 15 layerInUse[9,3,1] <= 0
+ R28216: allocated[9,2,1,3,1] - 15 layerInUse[9,3,1] <= 0
+ R28217: allocated[9,2,1,3,2] - 15 layerInUse[9,3,1] <= 0
+ R28218: allocated[9,3,1,3,1] - 15 layerInUse[9,3,1] <= 0
+ R28219: allocated[9,3,1,3,2] - 15 layerInUse[9,3,1] <= 0
+ R28220: allocated[9,4,1,3,1] - 15 layerInUse[9,3,1] <= 0
+ R28221: allocated[9,4,1,3,2] - 15 layerInUse[9,3,1] <= 0
+ R28222: allocated[9,1,2,3,1] - 15 layerInUse[9,3,2] <= 0
+ R28223: allocated[9,1,2,3,2] - 15 layerInUse[9,3,2] <= 0
+ R28224: allocated[9,2,2,3,1] - 15 layerInUse[9,3,2] <= 0
+ R28225: allocated[9,2,2,3,2] - 15 layerInUse[9,3,2] <= 0
+ R28226: allocated[9,3,2,3,1] - 15 layerInUse[9,3,2] <= 0
+ R28227: allocated[9,3,2,3,2] - 15 layerInUse[9,3,2] <= 0
+ R28228: allocated[9,4,2,3,1] - 15 layerInUse[9,3,2] <= 0
+ R28229: allocated[9,4,2,3,2] - 15 layerInUse[9,3,2] <= 0
+ R28230: allocated[9,1,3,3,1] - 15 layerInUse[9,3,3] <= 0
+ R28231: allocated[9,1,3,3,2] - 15 layerInUse[9,3,3] <= 0
+ R28232: allocated[9,2,3,3,1] - 15 layerInUse[9,3,3] <= 0
+ R28233: allocated[9,2,3,3,2] - 15 layerInUse[9,3,3] <= 0
+ R28234: allocated[9,3,3,3,1] - 15 layerInUse[9,3,3] <= 0
+ R28235: allocated[9,3,3,3,2] - 15 layerInUse[9,3,3] <= 0
+ R28236: allocated[9,4,3,3,1] - 15 layerInUse[9,3,3] <= 0
+ R28237: allocated[9,4,3,3,2] - 15 layerInUse[9,3,3] <= 0
+ R28238: allocated[9,1,4,3,1] - 15 layerInUse[9,3,4] <= 0
+ R28239: allocated[9,1,4,3,2] - 15 layerInUse[9,3,4] <= 0
+ R28240: allocated[9,2,4,3,1] - 15 layerInUse[9,3,4] <= 0
+ R28241: allocated[9,2,4,3,2] - 15 layerInUse[9,3,4] <= 0
+ R28242: allocated[9,3,4,3,1] - 15 layerInUse[9,3,4] <= 0
+ R28243: allocated[9,3,4,3,2] - 15 layerInUse[9,3,4] <= 0
+ R28244: allocated[9,4,4,3,1] - 15 layerInUse[9,3,4] <= 0
+ R28245: allocated[9,4,4,3,2] - 15 layerInUse[9,3,4] <= 0
+ R28246: allocated[9,1,5,3,1] - 15 layerInUse[9,3,5] <= 0
+ R28247: allocated[9,1,5,3,2] - 15 layerInUse[9,3,5] <= 0
+ R28248: allocated[9,2,5,3,1] - 15 layerInUse[9,3,5] <= 0
+ R28249: allocated[9,2,5,3,2] - 15 layerInUse[9,3,5] <= 0
+ R28250: allocated[9,3,5,3,1] - 15 layerInUse[9,3,5] <= 0
+ R28251: allocated[9,3,5,3,2] - 15 layerInUse[9,3,5] <= 0
+ R28252: allocated[9,4,5,3,1] - 15 layerInUse[9,3,5] <= 0
+ R28253: allocated[9,4,5,3,2] - 15 layerInUse[9,3,5] <= 0
+ R28254: allocated[9,1,6,3,1] - 15 layerInUse[9,3,6] <= 0
+ R28255: allocated[9,1,6,3,2] - 15 layerInUse[9,3,6] <= 0
+ R28256: allocated[9,2,6,3,1] - 15 layerInUse[9,3,6] <= 0
+ R28257: allocated[9,2,6,3,2] - 15 layerInUse[9,3,6] <= 0
+ R28258: allocated[9,3,6,3,1] - 15 layerInUse[9,3,6] <= 0
+ R28259: allocated[9,3,6,3,2] - 15 layerInUse[9,3,6] <= 0
+ R28260: allocated[9,4,6,3,1] - 15 layerInUse[9,3,6] <= 0
+ R28261: allocated[9,4,6,3,2] - 15 layerInUse[9,3,6] <= 0
+ R28262: allocated[9,1,1,4,1] - 15 layerInUse[9,4,1] <= 0
+ R28263: allocated[9,1,1,4,2] - 15 layerInUse[9,4,1] <= 0
+ R28264: allocated[9,2,1,4,1] - 15 layerInUse[9,4,1] <= 0
+ R28265: allocated[9,2,1,4,2] - 15 layerInUse[9,4,1] <= 0
+ R28266: allocated[9,3,1,4,1] - 15 layerInUse[9,4,1] <= 0
+ R28267: allocated[9,3,1,4,2] - 15 layerInUse[9,4,1] <= 0
+ R28268: allocated[9,4,1,4,1] - 15 layerInUse[9,4,1] <= 0
+ R28269: allocated[9,4,1,4,2] - 15 layerInUse[9,4,1] <= 0
+ R28270: allocated[9,1,2,4,1] - 15 layerInUse[9,4,2] <= 0
+ R28271: allocated[9,1,2,4,2] - 15 layerInUse[9,4,2] <= 0
+ R28272: allocated[9,2,2,4,1] - 15 layerInUse[9,4,2] <= 0
+ R28273: allocated[9,2,2,4,2] - 15 layerInUse[9,4,2] <= 0
+ R28274: allocated[9,3,2,4,1] - 15 layerInUse[9,4,2] <= 0
+ R28275: allocated[9,3,2,4,2] - 15 layerInUse[9,4,2] <= 0
+ R28276: allocated[9,4,2,4,1] - 15 layerInUse[9,4,2] <= 0
+ R28277: allocated[9,4,2,4,2] - 15 layerInUse[9,4,2] <= 0
+ R28278: allocated[9,1,3,4,1] - 15 layerInUse[9,4,3] <= 0
+ R28279: allocated[9,1,3,4,2] - 15 layerInUse[9,4,3] <= 0
+ R28280: allocated[9,2,3,4,1] - 15 layerInUse[9,4,3] <= 0
+ R28281: allocated[9,2,3,4,2] - 15 layerInUse[9,4,3] <= 0
+ R28282: allocated[9,3,3,4,1] - 15 layerInUse[9,4,3] <= 0
+ R28283: allocated[9,3,3,4,2] - 15 layerInUse[9,4,3] <= 0
+ R28284: allocated[9,4,3,4,1] - 15 layerInUse[9,4,3] <= 0
+ R28285: allocated[9,4,3,4,2] - 15 layerInUse[9,4,3] <= 0
+ R28286: allocated[9,1,4,4,1] - 15 layerInUse[9,4,4] <= 0
+ R28287: allocated[9,1,4,4,2] - 15 layerInUse[9,4,4] <= 0
+ R28288: allocated[9,2,4,4,1] - 15 layerInUse[9,4,4] <= 0
+ R28289: allocated[9,2,4,4,2] - 15 layerInUse[9,4,4] <= 0
+ R28290: allocated[9,3,4,4,1] - 15 layerInUse[9,4,4] <= 0
+ R28291: allocated[9,3,4,4,2] - 15 layerInUse[9,4,4] <= 0
+ R28292: allocated[9,4,4,4,1] - 15 layerInUse[9,4,4] <= 0
+ R28293: allocated[9,4,4,4,2] - 15 layerInUse[9,4,4] <= 0
+ R28294: allocated[9,1,5,4,1] - 15 layerInUse[9,4,5] <= 0
+ R28295: allocated[9,1,5,4,2] - 15 layerInUse[9,4,5] <= 0
+ R28296: allocated[9,2,5,4,1] - 15 layerInUse[9,4,5] <= 0
+ R28297: allocated[9,2,5,4,2] - 15 layerInUse[9,4,5] <= 0
+ R28298: allocated[9,3,5,4,1] - 15 layerInUse[9,4,5] <= 0
+ R28299: allocated[9,3,5,4,2] - 15 layerInUse[9,4,5] <= 0
+ R28300: allocated[9,4,5,4,1] - 15 layerInUse[9,4,5] <= 0
+ R28301: allocated[9,4,5,4,2] - 15 layerInUse[9,4,5] <= 0
+ R28302: allocated[9,1,6,4,1] - 15 layerInUse[9,4,6] <= 0
+ R28303: allocated[9,1,6,4,2] - 15 layerInUse[9,4,6] <= 0
+ R28304: allocated[9,2,6,4,1] - 15 layerInUse[9,4,6] <= 0
+ R28305: allocated[9,2,6,4,2] - 15 layerInUse[9,4,6] <= 0
+ R28306: allocated[9,3,6,4,1] - 15 layerInUse[9,4,6] <= 0
+ R28307: allocated[9,3,6,4,2] - 15 layerInUse[9,4,6] <= 0
+ R28308: allocated[9,4,6,4,1] - 15 layerInUse[9,4,6] <= 0
+ R28309: allocated[9,4,6,4,2] - 15 layerInUse[9,4,6] <= 0
+ R28310: allocated[9,1,1,5,1] - 15 layerInUse[9,5,1] <= 0
+ R28311: allocated[9,1,1,5,2] - 15 layerInUse[9,5,1] <= 0
+ R28312: allocated[9,2,1,5,1] - 15 layerInUse[9,5,1] <= 0
+ R28313: allocated[9,2,1,5,2] - 15 layerInUse[9,5,1] <= 0
+ R28314: allocated[9,3,1,5,1] - 15 layerInUse[9,5,1] <= 0
+ R28315: allocated[9,3,1,5,2] - 15 layerInUse[9,5,1] <= 0
+ R28316: allocated[9,4,1,5,1] - 15 layerInUse[9,5,1] <= 0
+ R28317: allocated[9,4,1,5,2] - 15 layerInUse[9,5,1] <= 0
+ R28318: allocated[9,1,2,5,1] - 15 layerInUse[9,5,2] <= 0
+ R28319: allocated[9,1,2,5,2] - 15 layerInUse[9,5,2] <= 0
+ R28320: allocated[9,2,2,5,1] - 15 layerInUse[9,5,2] <= 0
+ R28321: allocated[9,2,2,5,2] - 15 layerInUse[9,5,2] <= 0
+ R28322: allocated[9,3,2,5,1] - 15 layerInUse[9,5,2] <= 0
+ R28323: allocated[9,3,2,5,2] - 15 layerInUse[9,5,2] <= 0
+ R28324: allocated[9,4,2,5,1] - 15 layerInUse[9,5,2] <= 0
+ R28325: allocated[9,4,2,5,2] - 15 layerInUse[9,5,2] <= 0
+ R28326: allocated[9,1,3,5,1] - 15 layerInUse[9,5,3] <= 0
+ R28327: allocated[9,1,3,5,2] - 15 layerInUse[9,5,3] <= 0
+ R28328: allocated[9,2,3,5,1] - 15 layerInUse[9,5,3] <= 0
+ R28329: allocated[9,2,3,5,2] - 15 layerInUse[9,5,3] <= 0
+ R28330: allocated[9,3,3,5,1] - 15 layerInUse[9,5,3] <= 0
+ R28331: allocated[9,3,3,5,2] - 15 layerInUse[9,5,3] <= 0
+ R28332: allocated[9,4,3,5,1] - 15 layerInUse[9,5,3] <= 0
+ R28333: allocated[9,4,3,5,2] - 15 layerInUse[9,5,3] <= 0
+ R28334: allocated[9,1,4,5,1] - 15 layerInUse[9,5,4] <= 0
+ R28335: allocated[9,1,4,5,2] - 15 layerInUse[9,5,4] <= 0
+ R28336: allocated[9,2,4,5,1] - 15 layerInUse[9,5,4] <= 0
+ R28337: allocated[9,2,4,5,2] - 15 layerInUse[9,5,4] <= 0
+ R28338: allocated[9,3,4,5,1] - 15 layerInUse[9,5,4] <= 0
+ R28339: allocated[9,3,4,5,2] - 15 layerInUse[9,5,4] <= 0
+ R28340: allocated[9,4,4,5,1] - 15 layerInUse[9,5,4] <= 0
+ R28341: allocated[9,4,4,5,2] - 15 layerInUse[9,5,4] <= 0
+ R28342: allocated[9,1,5,5,1] - 15 layerInUse[9,5,5] <= 0
+ R28343: allocated[9,1,5,5,2] - 15 layerInUse[9,5,5] <= 0
+ R28344: allocated[9,2,5,5,1] - 15 layerInUse[9,5,5] <= 0
+ R28345: allocated[9,2,5,5,2] - 15 layerInUse[9,5,5] <= 0
+ R28346: allocated[9,3,5,5,1] - 15 layerInUse[9,5,5] <= 0
+ R28347: allocated[9,3,5,5,2] - 15 layerInUse[9,5,5] <= 0
+ R28348: allocated[9,4,5,5,1] - 15 layerInUse[9,5,5] <= 0
+ R28349: allocated[9,4,5,5,2] - 15 layerInUse[9,5,5] <= 0
+ R28350: allocated[9,1,6,5,1] - 15 layerInUse[9,5,6] <= 0
+ R28351: allocated[9,1,6,5,2] - 15 layerInUse[9,5,6] <= 0
+ R28352: allocated[9,2,6,5,1] - 15 layerInUse[9,5,6] <= 0
+ R28353: allocated[9,2,6,5,2] - 15 layerInUse[9,5,6] <= 0
+ R28354: allocated[9,3,6,5,1] - 15 layerInUse[9,5,6] <= 0
+ R28355: allocated[9,3,6,5,2] - 15 layerInUse[9,5,6] <= 0
+ R28356: allocated[9,4,6,5,1] - 15 layerInUse[9,5,6] <= 0
+ R28357: allocated[9,4,6,5,2] - 15 layerInUse[9,5,6] <= 0
+ R28358: allocated[9,1,1,6,1] - 15 layerInUse[9,6,1] <= 0
+ R28359: allocated[9,1,1,6,2] - 15 layerInUse[9,6,1] <= 0
+ R28360: allocated[9,2,1,6,1] - 15 layerInUse[9,6,1] <= 0
+ R28361: allocated[9,2,1,6,2] - 15 layerInUse[9,6,1] <= 0
+ R28362: allocated[9,3,1,6,1] - 15 layerInUse[9,6,1] <= 0
+ R28363: allocated[9,3,1,6,2] - 15 layerInUse[9,6,1] <= 0
+ R28364: allocated[9,4,1,6,1] - 15 layerInUse[9,6,1] <= 0
+ R28365: allocated[9,4,1,6,2] - 15 layerInUse[9,6,1] <= 0
+ R28366: allocated[9,1,2,6,1] - 15 layerInUse[9,6,2] <= 0
+ R28367: allocated[9,1,2,6,2] - 15 layerInUse[9,6,2] <= 0
+ R28368: allocated[9,2,2,6,1] - 15 layerInUse[9,6,2] <= 0
+ R28369: allocated[9,2,2,6,2] - 15 layerInUse[9,6,2] <= 0
+ R28370: allocated[9,3,2,6,1] - 15 layerInUse[9,6,2] <= 0
+ R28371: allocated[9,3,2,6,2] - 15 layerInUse[9,6,2] <= 0
+ R28372: allocated[9,4,2,6,1] - 15 layerInUse[9,6,2] <= 0
+ R28373: allocated[9,4,2,6,2] - 15 layerInUse[9,6,2] <= 0
+ R28374: allocated[9,1,3,6,1] - 15 layerInUse[9,6,3] <= 0
+ R28375: allocated[9,1,3,6,2] - 15 layerInUse[9,6,3] <= 0
+ R28376: allocated[9,2,3,6,1] - 15 layerInUse[9,6,3] <= 0
+ R28377: allocated[9,2,3,6,2] - 15 layerInUse[9,6,3] <= 0
+ R28378: allocated[9,3,3,6,1] - 15 layerInUse[9,6,3] <= 0
+ R28379: allocated[9,3,3,6,2] - 15 layerInUse[9,6,3] <= 0
+ R28380: allocated[9,4,3,6,1] - 15 layerInUse[9,6,3] <= 0
+ R28381: allocated[9,4,3,6,2] - 15 layerInUse[9,6,3] <= 0
+ R28382: allocated[9,1,4,6,1] - 15 layerInUse[9,6,4] <= 0
+ R28383: allocated[9,1,4,6,2] - 15 layerInUse[9,6,4] <= 0
+ R28384: allocated[9,2,4,6,1] - 15 layerInUse[9,6,4] <= 0
+ R28385: allocated[9,2,4,6,2] - 15 layerInUse[9,6,4] <= 0
+ R28386: allocated[9,3,4,6,1] - 15 layerInUse[9,6,4] <= 0
+ R28387: allocated[9,3,4,6,2] - 15 layerInUse[9,6,4] <= 0
+ R28388: allocated[9,4,4,6,1] - 15 layerInUse[9,6,4] <= 0
+ R28389: allocated[9,4,4,6,2] - 15 layerInUse[9,6,4] <= 0
+ R28390: allocated[9,1,5,6,1] - 15 layerInUse[9,6,5] <= 0
+ R28391: allocated[9,1,5,6,2] - 15 layerInUse[9,6,5] <= 0
+ R28392: allocated[9,2,5,6,1] - 15 layerInUse[9,6,5] <= 0
+ R28393: allocated[9,2,5,6,2] - 15 layerInUse[9,6,5] <= 0
+ R28394: allocated[9,3,5,6,1] - 15 layerInUse[9,6,5] <= 0
+ R28395: allocated[9,3,5,6,2] - 15 layerInUse[9,6,5] <= 0
+ R28396: allocated[9,4,5,6,1] - 15 layerInUse[9,6,5] <= 0
+ R28397: allocated[9,4,5,6,2] - 15 layerInUse[9,6,5] <= 0
+ R28398: allocated[9,1,6,6,1] - 15 layerInUse[9,6,6] <= 0
+ R28399: allocated[9,1,6,6,2] - 15 layerInUse[9,6,6] <= 0
+ R28400: allocated[9,2,6,6,1] - 15 layerInUse[9,6,6] <= 0
+ R28401: allocated[9,2,6,6,2] - 15 layerInUse[9,6,6] <= 0
+ R28402: allocated[9,3,6,6,1] - 15 layerInUse[9,6,6] <= 0
+ R28403: allocated[9,3,6,6,2] - 15 layerInUse[9,6,6] <= 0
+ R28404: allocated[9,4,6,6,1] - 15 layerInUse[9,6,6] <= 0
+ R28405: allocated[9,4,6,6,2] - 15 layerInUse[9,6,6] <= 0
+ R28406: allocated[9,1,1,7,1] - 15 layerInUse[9,7,1] <= 0
+ R28407: allocated[9,1,1,7,2] - 15 layerInUse[9,7,1] <= 0
+ R28408: allocated[9,2,1,7,1] - 15 layerInUse[9,7,1] <= 0
+ R28409: allocated[9,2,1,7,2] - 15 layerInUse[9,7,1] <= 0
+ R28410: allocated[9,3,1,7,1] - 15 layerInUse[9,7,1] <= 0
+ R28411: allocated[9,3,1,7,2] - 15 layerInUse[9,7,1] <= 0
+ R28412: allocated[9,4,1,7,1] - 15 layerInUse[9,7,1] <= 0
+ R28413: allocated[9,4,1,7,2] - 15 layerInUse[9,7,1] <= 0
+ R28414: allocated[9,1,2,7,1] - 15 layerInUse[9,7,2] <= 0
+ R28415: allocated[9,1,2,7,2] - 15 layerInUse[9,7,2] <= 0
+ R28416: allocated[9,2,2,7,1] - 15 layerInUse[9,7,2] <= 0
+ R28417: allocated[9,2,2,7,2] - 15 layerInUse[9,7,2] <= 0
+ R28418: allocated[9,3,2,7,1] - 15 layerInUse[9,7,2] <= 0
+ R28419: allocated[9,3,2,7,2] - 15 layerInUse[9,7,2] <= 0
+ R28420: allocated[9,4,2,7,1] - 15 layerInUse[9,7,2] <= 0
+ R28421: allocated[9,4,2,7,2] - 15 layerInUse[9,7,2] <= 0
+ R28422: allocated[9,1,3,7,1] - 15 layerInUse[9,7,3] <= 0
+ R28423: allocated[9,1,3,7,2] - 15 layerInUse[9,7,3] <= 0
+ R28424: allocated[9,2,3,7,1] - 15 layerInUse[9,7,3] <= 0
+ R28425: allocated[9,2,3,7,2] - 15 layerInUse[9,7,3] <= 0
+ R28426: allocated[9,3,3,7,1] - 15 layerInUse[9,7,3] <= 0
+ R28427: allocated[9,3,3,7,2] - 15 layerInUse[9,7,3] <= 0
+ R28428: allocated[9,4,3,7,1] - 15 layerInUse[9,7,3] <= 0
+ R28429: allocated[9,4,3,7,2] - 15 layerInUse[9,7,3] <= 0
+ R28430: allocated[9,1,4,7,1] - 15 layerInUse[9,7,4] <= 0
+ R28431: allocated[9,1,4,7,2] - 15 layerInUse[9,7,4] <= 0
+ R28432: allocated[9,2,4,7,1] - 15 layerInUse[9,7,4] <= 0
+ R28433: allocated[9,2,4,7,2] - 15 layerInUse[9,7,4] <= 0
+ R28434: allocated[9,3,4,7,1] - 15 layerInUse[9,7,4] <= 0
+ R28435: allocated[9,3,4,7,2] - 15 layerInUse[9,7,4] <= 0
+ R28436: allocated[9,4,4,7,1] - 15 layerInUse[9,7,4] <= 0
+ R28437: allocated[9,4,4,7,2] - 15 layerInUse[9,7,4] <= 0
+ R28438: allocated[9,1,5,7,1] - 15 layerInUse[9,7,5] <= 0
+ R28439: allocated[9,1,5,7,2] - 15 layerInUse[9,7,5] <= 0
+ R28440: allocated[9,2,5,7,1] - 15 layerInUse[9,7,5] <= 0
+ R28441: allocated[9,2,5,7,2] - 15 layerInUse[9,7,5] <= 0
+ R28442: allocated[9,3,5,7,1] - 15 layerInUse[9,7,5] <= 0
+ R28443: allocated[9,3,5,7,2] - 15 layerInUse[9,7,5] <= 0
+ R28444: allocated[9,4,5,7,1] - 15 layerInUse[9,7,5] <= 0
+ R28445: allocated[9,4,5,7,2] - 15 layerInUse[9,7,5] <= 0
+ R28446: allocated[9,1,6,7,1] - 15 layerInUse[9,7,6] <= 0
+ R28447: allocated[9,1,6,7,2] - 15 layerInUse[9,7,6] <= 0
+ R28448: allocated[9,2,6,7,1] - 15 layerInUse[9,7,6] <= 0
+ R28449: allocated[9,2,6,7,2] - 15 layerInUse[9,7,6] <= 0
+ R28450: allocated[9,3,6,7,1] - 15 layerInUse[9,7,6] <= 0
+ R28451: allocated[9,3,6,7,2] - 15 layerInUse[9,7,6] <= 0
+ R28452: allocated[9,4,6,7,1] - 15 layerInUse[9,7,6] <= 0
+ R28453: allocated[9,4,6,7,2] - 15 layerInUse[9,7,6] <= 0
+ R28454: allocated[9,1,1,8,1] - 15 layerInUse[9,8,1] <= 0
+ R28455: allocated[9,1,1,8,2] - 15 layerInUse[9,8,1] <= 0
+ R28456: allocated[9,2,1,8,1] - 15 layerInUse[9,8,1] <= 0
+ R28457: allocated[9,2,1,8,2] - 15 layerInUse[9,8,1] <= 0
+ R28458: allocated[9,3,1,8,1] - 15 layerInUse[9,8,1] <= 0
+ R28459: allocated[9,3,1,8,2] - 15 layerInUse[9,8,1] <= 0
+ R28460: allocated[9,4,1,8,1] - 15 layerInUse[9,8,1] <= 0
+ R28461: allocated[9,4,1,8,2] - 15 layerInUse[9,8,1] <= 0
+ R28462: allocated[9,1,2,8,1] - 15 layerInUse[9,8,2] <= 0
+ R28463: allocated[9,1,2,8,2] - 15 layerInUse[9,8,2] <= 0
+ R28464: allocated[9,2,2,8,1] - 15 layerInUse[9,8,2] <= 0
+ R28465: allocated[9,2,2,8,2] - 15 layerInUse[9,8,2] <= 0
+ R28466: allocated[9,3,2,8,1] - 15 layerInUse[9,8,2] <= 0
+ R28467: allocated[9,3,2,8,2] - 15 layerInUse[9,8,2] <= 0
+ R28468: allocated[9,4,2,8,1] - 15 layerInUse[9,8,2] <= 0
+ R28469: allocated[9,4,2,8,2] - 15 layerInUse[9,8,2] <= 0
+ R28470: allocated[9,1,3,8,1] - 15 layerInUse[9,8,3] <= 0
+ R28471: allocated[9,1,3,8,2] - 15 layerInUse[9,8,3] <= 0
+ R28472: allocated[9,2,3,8,1] - 15 layerInUse[9,8,3] <= 0
+ R28473: allocated[9,2,3,8,2] - 15 layerInUse[9,8,3] <= 0
+ R28474: allocated[9,3,3,8,1] - 15 layerInUse[9,8,3] <= 0
+ R28475: allocated[9,3,3,8,2] - 15 layerInUse[9,8,3] <= 0
+ R28476: allocated[9,4,3,8,1] - 15 layerInUse[9,8,3] <= 0
+ R28477: allocated[9,4,3,8,2] - 15 layerInUse[9,8,3] <= 0
+ R28478: allocated[9,1,4,8,1] - 15 layerInUse[9,8,4] <= 0
+ R28479: allocated[9,1,4,8,2] - 15 layerInUse[9,8,4] <= 0
+ R28480: allocated[9,2,4,8,1] - 15 layerInUse[9,8,4] <= 0
+ R28481: allocated[9,2,4,8,2] - 15 layerInUse[9,8,4] <= 0
+ R28482: allocated[9,3,4,8,1] - 15 layerInUse[9,8,4] <= 0
+ R28483: allocated[9,3,4,8,2] - 15 layerInUse[9,8,4] <= 0
+ R28484: allocated[9,4,4,8,1] - 15 layerInUse[9,8,4] <= 0
+ R28485: allocated[9,4,4,8,2] - 15 layerInUse[9,8,4] <= 0
+ R28486: allocated[9,1,5,8,1] - 15 layerInUse[9,8,5] <= 0
+ R28487: allocated[9,1,5,8,2] - 15 layerInUse[9,8,5] <= 0
+ R28488: allocated[9,2,5,8,1] - 15 layerInUse[9,8,5] <= 0
+ R28489: allocated[9,2,5,8,2] - 15 layerInUse[9,8,5] <= 0
+ R28490: allocated[9,3,5,8,1] - 15 layerInUse[9,8,5] <= 0
+ R28491: allocated[9,3,5,8,2] - 15 layerInUse[9,8,5] <= 0
+ R28492: allocated[9,4,5,8,1] - 15 layerInUse[9,8,5] <= 0
+ R28493: allocated[9,4,5,8,2] - 15 layerInUse[9,8,5] <= 0
+ R28494: allocated[9,1,6,8,1] - 15 layerInUse[9,8,6] <= 0
+ R28495: allocated[9,1,6,8,2] - 15 layerInUse[9,8,6] <= 0
+ R28496: allocated[9,2,6,8,1] - 15 layerInUse[9,8,6] <= 0
+ R28497: allocated[9,2,6,8,2] - 15 layerInUse[9,8,6] <= 0
+ R28498: allocated[9,3,6,8,1] - 15 layerInUse[9,8,6] <= 0
+ R28499: allocated[9,3,6,8,2] - 15 layerInUse[9,8,6] <= 0
+ R28500: allocated[9,4,6,8,1] - 15 layerInUse[9,8,6] <= 0
+ R28501: allocated[9,4,6,8,2] - 15 layerInUse[9,8,6] <= 0
+ R28502: allocated[10,1,1,1,1] - 15 layerInUse[10,1,1] <= 0
+ R28503: allocated[10,1,1,1,2] - 15 layerInUse[10,1,1] <= 0
+ R28504: allocated[10,2,1,1,1] - 15 layerInUse[10,1,1] <= 0
+ R28505: allocated[10,2,1,1,2] - 15 layerInUse[10,1,1] <= 0
+ R28506: allocated[10,3,1,1,1] - 15 layerInUse[10,1,1] <= 0
+ R28507: allocated[10,3,1,1,2] - 15 layerInUse[10,1,1] <= 0
+ R28508: allocated[10,4,1,1,1] - 15 layerInUse[10,1,1] <= 0
+ R28509: allocated[10,4,1,1,2] - 15 layerInUse[10,1,1] <= 0
+ R28510: allocated[10,1,2,1,1] - 15 layerInUse[10,1,2] <= 0
+ R28511: allocated[10,1,2,1,2] - 15 layerInUse[10,1,2] <= 0
+ R28512: allocated[10,2,2,1,1] - 15 layerInUse[10,1,2] <= 0
+ R28513: allocated[10,2,2,1,2] - 15 layerInUse[10,1,2] <= 0
+ R28514: allocated[10,3,2,1,1] - 15 layerInUse[10,1,2] <= 0
+ R28515: allocated[10,3,2,1,2] - 15 layerInUse[10,1,2] <= 0
+ R28516: allocated[10,4,2,1,1] - 15 layerInUse[10,1,2] <= 0
+ R28517: allocated[10,4,2,1,2] - 15 layerInUse[10,1,2] <= 0
+ R28518: allocated[10,1,3,1,1] - 15 layerInUse[10,1,3] <= 0
+ R28519: allocated[10,1,3,1,2] - 15 layerInUse[10,1,3] <= 0
+ R28520: allocated[10,2,3,1,1] - 15 layerInUse[10,1,3] <= 0
+ R28521: allocated[10,2,3,1,2] - 15 layerInUse[10,1,3] <= 0
+ R28522: allocated[10,3,3,1,1] - 15 layerInUse[10,1,3] <= 0
+ R28523: allocated[10,3,3,1,2] - 15 layerInUse[10,1,3] <= 0
+ R28524: allocated[10,4,3,1,1] - 15 layerInUse[10,1,3] <= 0
+ R28525: allocated[10,4,3,1,2] - 15 layerInUse[10,1,3] <= 0
+ R28526: allocated[10,1,4,1,1] - 15 layerInUse[10,1,4] <= 0
+ R28527: allocated[10,1,4,1,2] - 15 layerInUse[10,1,4] <= 0
+ R28528: allocated[10,2,4,1,1] - 15 layerInUse[10,1,4] <= 0
+ R28529: allocated[10,2,4,1,2] - 15 layerInUse[10,1,4] <= 0
+ R28530: allocated[10,3,4,1,1] - 15 layerInUse[10,1,4] <= 0
+ R28531: allocated[10,3,4,1,2] - 15 layerInUse[10,1,4] <= 0
+ R28532: allocated[10,4,4,1,1] - 15 layerInUse[10,1,4] <= 0
+ R28533: allocated[10,4,4,1,2] - 15 layerInUse[10,1,4] <= 0
+ R28534: allocated[10,1,5,1,1] - 15 layerInUse[10,1,5] <= 0
+ R28535: allocated[10,1,5,1,2] - 15 layerInUse[10,1,5] <= 0
+ R28536: allocated[10,2,5,1,1] - 15 layerInUse[10,1,5] <= 0
+ R28537: allocated[10,2,5,1,2] - 15 layerInUse[10,1,5] <= 0
+ R28538: allocated[10,3,5,1,1] - 15 layerInUse[10,1,5] <= 0
+ R28539: allocated[10,3,5,1,2] - 15 layerInUse[10,1,5] <= 0
+ R28540: allocated[10,4,5,1,1] - 15 layerInUse[10,1,5] <= 0
+ R28541: allocated[10,4,5,1,2] - 15 layerInUse[10,1,5] <= 0
+ R28542: allocated[10,1,6,1,1] - 15 layerInUse[10,1,6] <= 0
+ R28543: allocated[10,1,6,1,2] - 15 layerInUse[10,1,6] <= 0
+ R28544: allocated[10,2,6,1,1] - 15 layerInUse[10,1,6] <= 0
+ R28545: allocated[10,2,6,1,2] - 15 layerInUse[10,1,6] <= 0
+ R28546: allocated[10,3,6,1,1] - 15 layerInUse[10,1,6] <= 0
+ R28547: allocated[10,3,6,1,2] - 15 layerInUse[10,1,6] <= 0
+ R28548: allocated[10,4,6,1,1] - 15 layerInUse[10,1,6] <= 0
+ R28549: allocated[10,4,6,1,2] - 15 layerInUse[10,1,6] <= 0
+ R28550: allocated[10,1,1,2,1] - 15 layerInUse[10,2,1] <= 0
+ R28551: allocated[10,1,1,2,2] - 15 layerInUse[10,2,1] <= 0
+ R28552: allocated[10,2,1,2,1] - 15 layerInUse[10,2,1] <= 0
+ R28553: allocated[10,2,1,2,2] - 15 layerInUse[10,2,1] <= 0
+ R28554: allocated[10,3,1,2,1] - 15 layerInUse[10,2,1] <= 0
+ R28555: allocated[10,3,1,2,2] - 15 layerInUse[10,2,1] <= 0
+ R28556: allocated[10,4,1,2,1] - 15 layerInUse[10,2,1] <= 0
+ R28557: allocated[10,4,1,2,2] - 15 layerInUse[10,2,1] <= 0
+ R28558: allocated[10,1,2,2,1] - 15 layerInUse[10,2,2] <= 0
+ R28559: allocated[10,1,2,2,2] - 15 layerInUse[10,2,2] <= 0
+ R28560: allocated[10,2,2,2,1] - 15 layerInUse[10,2,2] <= 0
+ R28561: allocated[10,2,2,2,2] - 15 layerInUse[10,2,2] <= 0
+ R28562: allocated[10,3,2,2,1] - 15 layerInUse[10,2,2] <= 0
+ R28563: allocated[10,3,2,2,2] - 15 layerInUse[10,2,2] <= 0
+ R28564: allocated[10,4,2,2,1] - 15 layerInUse[10,2,2] <= 0
+ R28565: allocated[10,4,2,2,2] - 15 layerInUse[10,2,2] <= 0
+ R28566: allocated[10,1,3,2,1] - 15 layerInUse[10,2,3] <= 0
+ R28567: allocated[10,1,3,2,2] - 15 layerInUse[10,2,3] <= 0
+ R28568: allocated[10,2,3,2,1] - 15 layerInUse[10,2,3] <= 0
+ R28569: allocated[10,2,3,2,2] - 15 layerInUse[10,2,3] <= 0
+ R28570: allocated[10,3,3,2,1] - 15 layerInUse[10,2,3] <= 0
+ R28571: allocated[10,3,3,2,2] - 15 layerInUse[10,2,3] <= 0
+ R28572: allocated[10,4,3,2,1] - 15 layerInUse[10,2,3] <= 0
+ R28573: allocated[10,4,3,2,2] - 15 layerInUse[10,2,3] <= 0
+ R28574: allocated[10,1,4,2,1] - 15 layerInUse[10,2,4] <= 0
+ R28575: allocated[10,1,4,2,2] - 15 layerInUse[10,2,4] <= 0
+ R28576: allocated[10,2,4,2,1] - 15 layerInUse[10,2,4] <= 0
+ R28577: allocated[10,2,4,2,2] - 15 layerInUse[10,2,4] <= 0
+ R28578: allocated[10,3,4,2,1] - 15 layerInUse[10,2,4] <= 0
+ R28579: allocated[10,3,4,2,2] - 15 layerInUse[10,2,4] <= 0
+ R28580: allocated[10,4,4,2,1] - 15 layerInUse[10,2,4] <= 0
+ R28581: allocated[10,4,4,2,2] - 15 layerInUse[10,2,4] <= 0
+ R28582: allocated[10,1,5,2,1] - 15 layerInUse[10,2,5] <= 0
+ R28583: allocated[10,1,5,2,2] - 15 layerInUse[10,2,5] <= 0
+ R28584: allocated[10,2,5,2,1] - 15 layerInUse[10,2,5] <= 0
+ R28585: allocated[10,2,5,2,2] - 15 layerInUse[10,2,5] <= 0
+ R28586: allocated[10,3,5,2,1] - 15 layerInUse[10,2,5] <= 0
+ R28587: allocated[10,3,5,2,2] - 15 layerInUse[10,2,5] <= 0
+ R28588: allocated[10,4,5,2,1] - 15 layerInUse[10,2,5] <= 0
+ R28589: allocated[10,4,5,2,2] - 15 layerInUse[10,2,5] <= 0
+ R28590: allocated[10,1,6,2,1] - 15 layerInUse[10,2,6] <= 0
+ R28591: allocated[10,1,6,2,2] - 15 layerInUse[10,2,6] <= 0
+ R28592: allocated[10,2,6,2,1] - 15 layerInUse[10,2,6] <= 0
+ R28593: allocated[10,2,6,2,2] - 15 layerInUse[10,2,6] <= 0
+ R28594: allocated[10,3,6,2,1] - 15 layerInUse[10,2,6] <= 0
+ R28595: allocated[10,3,6,2,2] - 15 layerInUse[10,2,6] <= 0
+ R28596: allocated[10,4,6,2,1] - 15 layerInUse[10,2,6] <= 0
+ R28597: allocated[10,4,6,2,2] - 15 layerInUse[10,2,6] <= 0
+ R28598: allocated[10,1,1,3,1] - 15 layerInUse[10,3,1] <= 0
+ R28599: allocated[10,1,1,3,2] - 15 layerInUse[10,3,1] <= 0
+ R28600: allocated[10,2,1,3,1] - 15 layerInUse[10,3,1] <= 0
+ R28601: allocated[10,2,1,3,2] - 15 layerInUse[10,3,1] <= 0
+ R28602: allocated[10,3,1,3,1] - 15 layerInUse[10,3,1] <= 0
+ R28603: allocated[10,3,1,3,2] - 15 layerInUse[10,3,1] <= 0
+ R28604: allocated[10,4,1,3,1] - 15 layerInUse[10,3,1] <= 0
+ R28605: allocated[10,4,1,3,2] - 15 layerInUse[10,3,1] <= 0
+ R28606: allocated[10,1,2,3,1] - 15 layerInUse[10,3,2] <= 0
+ R28607: allocated[10,1,2,3,2] - 15 layerInUse[10,3,2] <= 0
+ R28608: allocated[10,2,2,3,1] - 15 layerInUse[10,3,2] <= 0
+ R28609: allocated[10,2,2,3,2] - 15 layerInUse[10,3,2] <= 0
+ R28610: allocated[10,3,2,3,1] - 15 layerInUse[10,3,2] <= 0
+ R28611: allocated[10,3,2,3,2] - 15 layerInUse[10,3,2] <= 0
+ R28612: allocated[10,4,2,3,1] - 15 layerInUse[10,3,2] <= 0
+ R28613: allocated[10,4,2,3,2] - 15 layerInUse[10,3,2] <= 0
+ R28614: allocated[10,1,3,3,1] - 15 layerInUse[10,3,3] <= 0
+ R28615: allocated[10,1,3,3,2] - 15 layerInUse[10,3,3] <= 0
+ R28616: allocated[10,2,3,3,1] - 15 layerInUse[10,3,3] <= 0
+ R28617: allocated[10,2,3,3,2] - 15 layerInUse[10,3,3] <= 0
+ R28618: allocated[10,3,3,3,1] - 15 layerInUse[10,3,3] <= 0
+ R28619: allocated[10,3,3,3,2] - 15 layerInUse[10,3,3] <= 0
+ R28620: allocated[10,4,3,3,1] - 15 layerInUse[10,3,3] <= 0
+ R28621: allocated[10,4,3,3,2] - 15 layerInUse[10,3,3] <= 0
+ R28622: allocated[10,1,4,3,1] - 15 layerInUse[10,3,4] <= 0
+ R28623: allocated[10,1,4,3,2] - 15 layerInUse[10,3,4] <= 0
+ R28624: allocated[10,2,4,3,1] - 15 layerInUse[10,3,4] <= 0
+ R28625: allocated[10,2,4,3,2] - 15 layerInUse[10,3,4] <= 0
+ R28626: allocated[10,3,4,3,1] - 15 layerInUse[10,3,4] <= 0
+ R28627: allocated[10,3,4,3,2] - 15 layerInUse[10,3,4] <= 0
+ R28628: allocated[10,4,4,3,1] - 15 layerInUse[10,3,4] <= 0
+ R28629: allocated[10,4,4,3,2] - 15 layerInUse[10,3,4] <= 0
+ R28630: allocated[10,1,5,3,1] - 15 layerInUse[10,3,5] <= 0
+ R28631: allocated[10,1,5,3,2] - 15 layerInUse[10,3,5] <= 0
+ R28632: allocated[10,2,5,3,1] - 15 layerInUse[10,3,5] <= 0
+ R28633: allocated[10,2,5,3,2] - 15 layerInUse[10,3,5] <= 0
+ R28634: allocated[10,3,5,3,1] - 15 layerInUse[10,3,5] <= 0
+ R28635: allocated[10,3,5,3,2] - 15 layerInUse[10,3,5] <= 0
+ R28636: allocated[10,4,5,3,1] - 15 layerInUse[10,3,5] <= 0
+ R28637: allocated[10,4,5,3,2] - 15 layerInUse[10,3,5] <= 0
+ R28638: allocated[10,1,6,3,1] - 15 layerInUse[10,3,6] <= 0
+ R28639: allocated[10,1,6,3,2] - 15 layerInUse[10,3,6] <= 0
+ R28640: allocated[10,2,6,3,1] - 15 layerInUse[10,3,6] <= 0
+ R28641: allocated[10,2,6,3,2] - 15 layerInUse[10,3,6] <= 0
+ R28642: allocated[10,3,6,3,1] - 15 layerInUse[10,3,6] <= 0
+ R28643: allocated[10,3,6,3,2] - 15 layerInUse[10,3,6] <= 0
+ R28644: allocated[10,4,6,3,1] - 15 layerInUse[10,3,6] <= 0
+ R28645: allocated[10,4,6,3,2] - 15 layerInUse[10,3,6] <= 0
+ R28646: allocated[10,1,1,4,1] - 15 layerInUse[10,4,1] <= 0
+ R28647: allocated[10,1,1,4,2] - 15 layerInUse[10,4,1] <= 0
+ R28648: allocated[10,2,1,4,1] - 15 layerInUse[10,4,1] <= 0
+ R28649: allocated[10,2,1,4,2] - 15 layerInUse[10,4,1] <= 0
+ R28650: allocated[10,3,1,4,1] - 15 layerInUse[10,4,1] <= 0
+ R28651: allocated[10,3,1,4,2] - 15 layerInUse[10,4,1] <= 0
+ R28652: allocated[10,4,1,4,1] - 15 layerInUse[10,4,1] <= 0
+ R28653: allocated[10,4,1,4,2] - 15 layerInUse[10,4,1] <= 0
+ R28654: allocated[10,1,2,4,1] - 15 layerInUse[10,4,2] <= 0
+ R28655: allocated[10,1,2,4,2] - 15 layerInUse[10,4,2] <= 0
+ R28656: allocated[10,2,2,4,1] - 15 layerInUse[10,4,2] <= 0
+ R28657: allocated[10,2,2,4,2] - 15 layerInUse[10,4,2] <= 0
+ R28658: allocated[10,3,2,4,1] - 15 layerInUse[10,4,2] <= 0
+ R28659: allocated[10,3,2,4,2] - 15 layerInUse[10,4,2] <= 0
+ R28660: allocated[10,4,2,4,1] - 15 layerInUse[10,4,2] <= 0
+ R28661: allocated[10,4,2,4,2] - 15 layerInUse[10,4,2] <= 0
+ R28662: allocated[10,1,3,4,1] - 15 layerInUse[10,4,3] <= 0
+ R28663: allocated[10,1,3,4,2] - 15 layerInUse[10,4,3] <= 0
+ R28664: allocated[10,2,3,4,1] - 15 layerInUse[10,4,3] <= 0
+ R28665: allocated[10,2,3,4,2] - 15 layerInUse[10,4,3] <= 0
+ R28666: allocated[10,3,3,4,1] - 15 layerInUse[10,4,3] <= 0
+ R28667: allocated[10,3,3,4,2] - 15 layerInUse[10,4,3] <= 0
+ R28668: allocated[10,4,3,4,1] - 15 layerInUse[10,4,3] <= 0
+ R28669: allocated[10,4,3,4,2] - 15 layerInUse[10,4,3] <= 0
+ R28670: allocated[10,1,4,4,1] - 15 layerInUse[10,4,4] <= 0
+ R28671: allocated[10,1,4,4,2] - 15 layerInUse[10,4,4] <= 0
+ R28672: allocated[10,2,4,4,1] - 15 layerInUse[10,4,4] <= 0
+ R28673: allocated[10,2,4,4,2] - 15 layerInUse[10,4,4] <= 0
+ R28674: allocated[10,3,4,4,1] - 15 layerInUse[10,4,4] <= 0
+ R28675: allocated[10,3,4,4,2] - 15 layerInUse[10,4,4] <= 0
+ R28676: allocated[10,4,4,4,1] - 15 layerInUse[10,4,4] <= 0
+ R28677: allocated[10,4,4,4,2] - 15 layerInUse[10,4,4] <= 0
+ R28678: allocated[10,1,5,4,1] - 15 layerInUse[10,4,5] <= 0
+ R28679: allocated[10,1,5,4,2] - 15 layerInUse[10,4,5] <= 0
+ R28680: allocated[10,2,5,4,1] - 15 layerInUse[10,4,5] <= 0
+ R28681: allocated[10,2,5,4,2] - 15 layerInUse[10,4,5] <= 0
+ R28682: allocated[10,3,5,4,1] - 15 layerInUse[10,4,5] <= 0
+ R28683: allocated[10,3,5,4,2] - 15 layerInUse[10,4,5] <= 0
+ R28684: allocated[10,4,5,4,1] - 15 layerInUse[10,4,5] <= 0
+ R28685: allocated[10,4,5,4,2] - 15 layerInUse[10,4,5] <= 0
+ R28686: allocated[10,1,6,4,1] - 15 layerInUse[10,4,6] <= 0
+ R28687: allocated[10,1,6,4,2] - 15 layerInUse[10,4,6] <= 0
+ R28688: allocated[10,2,6,4,1] - 15 layerInUse[10,4,6] <= 0
+ R28689: allocated[10,2,6,4,2] - 15 layerInUse[10,4,6] <= 0
+ R28690: allocated[10,3,6,4,1] - 15 layerInUse[10,4,6] <= 0
+ R28691: allocated[10,3,6,4,2] - 15 layerInUse[10,4,6] <= 0
+ R28692: allocated[10,4,6,4,1] - 15 layerInUse[10,4,6] <= 0
+ R28693: allocated[10,4,6,4,2] - 15 layerInUse[10,4,6] <= 0
+ R28694: allocated[10,1,1,5,1] - 15 layerInUse[10,5,1] <= 0
+ R28695: allocated[10,1,1,5,2] - 15 layerInUse[10,5,1] <= 0
+ R28696: allocated[10,2,1,5,1] - 15 layerInUse[10,5,1] <= 0
+ R28697: allocated[10,2,1,5,2] - 15 layerInUse[10,5,1] <= 0
+ R28698: allocated[10,3,1,5,1] - 15 layerInUse[10,5,1] <= 0
+ R28699: allocated[10,3,1,5,2] - 15 layerInUse[10,5,1] <= 0
+ R28700: allocated[10,4,1,5,1] - 15 layerInUse[10,5,1] <= 0
+ R28701: allocated[10,4,1,5,2] - 15 layerInUse[10,5,1] <= 0
+ R28702: allocated[10,1,2,5,1] - 15 layerInUse[10,5,2] <= 0
+ R28703: allocated[10,1,2,5,2] - 15 layerInUse[10,5,2] <= 0
+ R28704: allocated[10,2,2,5,1] - 15 layerInUse[10,5,2] <= 0
+ R28705: allocated[10,2,2,5,2] - 15 layerInUse[10,5,2] <= 0
+ R28706: allocated[10,3,2,5,1] - 15 layerInUse[10,5,2] <= 0
+ R28707: allocated[10,3,2,5,2] - 15 layerInUse[10,5,2] <= 0
+ R28708: allocated[10,4,2,5,1] - 15 layerInUse[10,5,2] <= 0
+ R28709: allocated[10,4,2,5,2] - 15 layerInUse[10,5,2] <= 0
+ R28710: allocated[10,1,3,5,1] - 15 layerInUse[10,5,3] <= 0
+ R28711: allocated[10,1,3,5,2] - 15 layerInUse[10,5,3] <= 0
+ R28712: allocated[10,2,3,5,1] - 15 layerInUse[10,5,3] <= 0
+ R28713: allocated[10,2,3,5,2] - 15 layerInUse[10,5,3] <= 0
+ R28714: allocated[10,3,3,5,1] - 15 layerInUse[10,5,3] <= 0
+ R28715: allocated[10,3,3,5,2] - 15 layerInUse[10,5,3] <= 0
+ R28716: allocated[10,4,3,5,1] - 15 layerInUse[10,5,3] <= 0
+ R28717: allocated[10,4,3,5,2] - 15 layerInUse[10,5,3] <= 0
+ R28718: allocated[10,1,4,5,1] - 15 layerInUse[10,5,4] <= 0
+ R28719: allocated[10,1,4,5,2] - 15 layerInUse[10,5,4] <= 0
+ R28720: allocated[10,2,4,5,1] - 15 layerInUse[10,5,4] <= 0
+ R28721: allocated[10,2,4,5,2] - 15 layerInUse[10,5,4] <= 0
+ R28722: allocated[10,3,4,5,1] - 15 layerInUse[10,5,4] <= 0
+ R28723: allocated[10,3,4,5,2] - 15 layerInUse[10,5,4] <= 0
+ R28724: allocated[10,4,4,5,1] - 15 layerInUse[10,5,4] <= 0
+ R28725: allocated[10,4,4,5,2] - 15 layerInUse[10,5,4] <= 0
+ R28726: allocated[10,1,5,5,1] - 15 layerInUse[10,5,5] <= 0
+ R28727: allocated[10,1,5,5,2] - 15 layerInUse[10,5,5] <= 0
+ R28728: allocated[10,2,5,5,1] - 15 layerInUse[10,5,5] <= 0
+ R28729: allocated[10,2,5,5,2] - 15 layerInUse[10,5,5] <= 0
+ R28730: allocated[10,3,5,5,1] - 15 layerInUse[10,5,5] <= 0
+ R28731: allocated[10,3,5,5,2] - 15 layerInUse[10,5,5] <= 0
+ R28732: allocated[10,4,5,5,1] - 15 layerInUse[10,5,5] <= 0
+ R28733: allocated[10,4,5,5,2] - 15 layerInUse[10,5,5] <= 0
+ R28734: allocated[10,1,6,5,1] - 15 layerInUse[10,5,6] <= 0
+ R28735: allocated[10,1,6,5,2] - 15 layerInUse[10,5,6] <= 0
+ R28736: allocated[10,2,6,5,1] - 15 layerInUse[10,5,6] <= 0
+ R28737: allocated[10,2,6,5,2] - 15 layerInUse[10,5,6] <= 0
+ R28738: allocated[10,3,6,5,1] - 15 layerInUse[10,5,6] <= 0
+ R28739: allocated[10,3,6,5,2] - 15 layerInUse[10,5,6] <= 0
+ R28740: allocated[10,4,6,5,1] - 15 layerInUse[10,5,6] <= 0
+ R28741: allocated[10,4,6,5,2] - 15 layerInUse[10,5,6] <= 0
+ R28742: allocated[10,1,1,6,1] - 15 layerInUse[10,6,1] <= 0
+ R28743: allocated[10,1,1,6,2] - 15 layerInUse[10,6,1] <= 0
+ R28744: allocated[10,2,1,6,1] - 15 layerInUse[10,6,1] <= 0
+ R28745: allocated[10,2,1,6,2] - 15 layerInUse[10,6,1] <= 0
+ R28746: allocated[10,3,1,6,1] - 15 layerInUse[10,6,1] <= 0
+ R28747: allocated[10,3,1,6,2] - 15 layerInUse[10,6,1] <= 0
+ R28748: allocated[10,4,1,6,1] - 15 layerInUse[10,6,1] <= 0
+ R28749: allocated[10,4,1,6,2] - 15 layerInUse[10,6,1] <= 0
+ R28750: allocated[10,1,2,6,1] - 15 layerInUse[10,6,2] <= 0
+ R28751: allocated[10,1,2,6,2] - 15 layerInUse[10,6,2] <= 0
+ R28752: allocated[10,2,2,6,1] - 15 layerInUse[10,6,2] <= 0
+ R28753: allocated[10,2,2,6,2] - 15 layerInUse[10,6,2] <= 0
+ R28754: allocated[10,3,2,6,1] - 15 layerInUse[10,6,2] <= 0
+ R28755: allocated[10,3,2,6,2] - 15 layerInUse[10,6,2] <= 0
+ R28756: allocated[10,4,2,6,1] - 15 layerInUse[10,6,2] <= 0
+ R28757: allocated[10,4,2,6,2] - 15 layerInUse[10,6,2] <= 0
+ R28758: allocated[10,1,3,6,1] - 15 layerInUse[10,6,3] <= 0
+ R28759: allocated[10,1,3,6,2] - 15 layerInUse[10,6,3] <= 0
+ R28760: allocated[10,2,3,6,1] - 15 layerInUse[10,6,3] <= 0
+ R28761: allocated[10,2,3,6,2] - 15 layerInUse[10,6,3] <= 0
+ R28762: allocated[10,3,3,6,1] - 15 layerInUse[10,6,3] <= 0
+ R28763: allocated[10,3,3,6,2] - 15 layerInUse[10,6,3] <= 0
+ R28764: allocated[10,4,3,6,1] - 15 layerInUse[10,6,3] <= 0
+ R28765: allocated[10,4,3,6,2] - 15 layerInUse[10,6,3] <= 0
+ R28766: allocated[10,1,4,6,1] - 15 layerInUse[10,6,4] <= 0
+ R28767: allocated[10,1,4,6,2] - 15 layerInUse[10,6,4] <= 0
+ R28768: allocated[10,2,4,6,1] - 15 layerInUse[10,6,4] <= 0
+ R28769: allocated[10,2,4,6,2] - 15 layerInUse[10,6,4] <= 0
+ R28770: allocated[10,3,4,6,1] - 15 layerInUse[10,6,4] <= 0
+ R28771: allocated[10,3,4,6,2] - 15 layerInUse[10,6,4] <= 0
+ R28772: allocated[10,4,4,6,1] - 15 layerInUse[10,6,4] <= 0
+ R28773: allocated[10,4,4,6,2] - 15 layerInUse[10,6,4] <= 0
+ R28774: allocated[10,1,5,6,1] - 15 layerInUse[10,6,5] <= 0
+ R28775: allocated[10,1,5,6,2] - 15 layerInUse[10,6,5] <= 0
+ R28776: allocated[10,2,5,6,1] - 15 layerInUse[10,6,5] <= 0
+ R28777: allocated[10,2,5,6,2] - 15 layerInUse[10,6,5] <= 0
+ R28778: allocated[10,3,5,6,1] - 15 layerInUse[10,6,5] <= 0
+ R28779: allocated[10,3,5,6,2] - 15 layerInUse[10,6,5] <= 0
+ R28780: allocated[10,4,5,6,1] - 15 layerInUse[10,6,5] <= 0
+ R28781: allocated[10,4,5,6,2] - 15 layerInUse[10,6,5] <= 0
+ R28782: allocated[10,1,6,6,1] - 15 layerInUse[10,6,6] <= 0
+ R28783: allocated[10,1,6,6,2] - 15 layerInUse[10,6,6] <= 0
+ R28784: allocated[10,2,6,6,1] - 15 layerInUse[10,6,6] <= 0
+ R28785: allocated[10,2,6,6,2] - 15 layerInUse[10,6,6] <= 0
+ R28786: allocated[10,3,6,6,1] - 15 layerInUse[10,6,6] <= 0
+ R28787: allocated[10,3,6,6,2] - 15 layerInUse[10,6,6] <= 0
+ R28788: allocated[10,4,6,6,1] - 15 layerInUse[10,6,6] <= 0
+ R28789: allocated[10,4,6,6,2] - 15 layerInUse[10,6,6] <= 0
+ R28790: allocated[10,1,1,7,1] - 15 layerInUse[10,7,1] <= 0
+ R28791: allocated[10,1,1,7,2] - 15 layerInUse[10,7,1] <= 0
+ R28792: allocated[10,2,1,7,1] - 15 layerInUse[10,7,1] <= 0
+ R28793: allocated[10,2,1,7,2] - 15 layerInUse[10,7,1] <= 0
+ R28794: allocated[10,3,1,7,1] - 15 layerInUse[10,7,1] <= 0
+ R28795: allocated[10,3,1,7,2] - 15 layerInUse[10,7,1] <= 0
+ R28796: allocated[10,4,1,7,1] - 15 layerInUse[10,7,1] <= 0
+ R28797: allocated[10,4,1,7,2] - 15 layerInUse[10,7,1] <= 0
+ R28798: allocated[10,1,2,7,1] - 15 layerInUse[10,7,2] <= 0
+ R28799: allocated[10,1,2,7,2] - 15 layerInUse[10,7,2] <= 0
+ R28800: allocated[10,2,2,7,1] - 15 layerInUse[10,7,2] <= 0
+ R28801: allocated[10,2,2,7,2] - 15 layerInUse[10,7,2] <= 0
+ R28802: allocated[10,3,2,7,1] - 15 layerInUse[10,7,2] <= 0
+ R28803: allocated[10,3,2,7,2] - 15 layerInUse[10,7,2] <= 0
+ R28804: allocated[10,4,2,7,1] - 15 layerInUse[10,7,2] <= 0
+ R28805: allocated[10,4,2,7,2] - 15 layerInUse[10,7,2] <= 0
+ R28806: allocated[10,1,3,7,1] - 15 layerInUse[10,7,3] <= 0
+ R28807: allocated[10,1,3,7,2] - 15 layerInUse[10,7,3] <= 0
+ R28808: allocated[10,2,3,7,1] - 15 layerInUse[10,7,3] <= 0
+ R28809: allocated[10,2,3,7,2] - 15 layerInUse[10,7,3] <= 0
+ R28810: allocated[10,3,3,7,1] - 15 layerInUse[10,7,3] <= 0
+ R28811: allocated[10,3,3,7,2] - 15 layerInUse[10,7,3] <= 0
+ R28812: allocated[10,4,3,7,1] - 15 layerInUse[10,7,3] <= 0
+ R28813: allocated[10,4,3,7,2] - 15 layerInUse[10,7,3] <= 0
+ R28814: allocated[10,1,4,7,1] - 15 layerInUse[10,7,4] <= 0
+ R28815: allocated[10,1,4,7,2] - 15 layerInUse[10,7,4] <= 0
+ R28816: allocated[10,2,4,7,1] - 15 layerInUse[10,7,4] <= 0
+ R28817: allocated[10,2,4,7,2] - 15 layerInUse[10,7,4] <= 0
+ R28818: allocated[10,3,4,7,1] - 15 layerInUse[10,7,4] <= 0
+ R28819: allocated[10,3,4,7,2] - 15 layerInUse[10,7,4] <= 0
+ R28820: allocated[10,4,4,7,1] - 15 layerInUse[10,7,4] <= 0
+ R28821: allocated[10,4,4,7,2] - 15 layerInUse[10,7,4] <= 0
+ R28822: allocated[10,1,5,7,1] - 15 layerInUse[10,7,5] <= 0
+ R28823: allocated[10,1,5,7,2] - 15 layerInUse[10,7,5] <= 0
+ R28824: allocated[10,2,5,7,1] - 15 layerInUse[10,7,5] <= 0
+ R28825: allocated[10,2,5,7,2] - 15 layerInUse[10,7,5] <= 0
+ R28826: allocated[10,3,5,7,1] - 15 layerInUse[10,7,5] <= 0
+ R28827: allocated[10,3,5,7,2] - 15 layerInUse[10,7,5] <= 0
+ R28828: allocated[10,4,5,7,1] - 15 layerInUse[10,7,5] <= 0
+ R28829: allocated[10,4,5,7,2] - 15 layerInUse[10,7,5] <= 0
+ R28830: allocated[10,1,6,7,1] - 15 layerInUse[10,7,6] <= 0
+ R28831: allocated[10,1,6,7,2] - 15 layerInUse[10,7,6] <= 0
+ R28832: allocated[10,2,6,7,1] - 15 layerInUse[10,7,6] <= 0
+ R28833: allocated[10,2,6,7,2] - 15 layerInUse[10,7,6] <= 0
+ R28834: allocated[10,3,6,7,1] - 15 layerInUse[10,7,6] <= 0
+ R28835: allocated[10,3,6,7,2] - 15 layerInUse[10,7,6] <= 0
+ R28836: allocated[10,4,6,7,1] - 15 layerInUse[10,7,6] <= 0
+ R28837: allocated[10,4,6,7,2] - 15 layerInUse[10,7,6] <= 0
+ R28838: allocated[10,1,1,8,1] - 15 layerInUse[10,8,1] <= 0
+ R28839: allocated[10,1,1,8,2] - 15 layerInUse[10,8,1] <= 0
+ R28840: allocated[10,2,1,8,1] - 15 layerInUse[10,8,1] <= 0
+ R28841: allocated[10,2,1,8,2] - 15 layerInUse[10,8,1] <= 0
+ R28842: allocated[10,3,1,8,1] - 15 layerInUse[10,8,1] <= 0
+ R28843: allocated[10,3,1,8,2] - 15 layerInUse[10,8,1] <= 0
+ R28844: allocated[10,4,1,8,1] - 15 layerInUse[10,8,1] <= 0
+ R28845: allocated[10,4,1,8,2] - 15 layerInUse[10,8,1] <= 0
+ R28846: allocated[10,1,2,8,1] - 15 layerInUse[10,8,2] <= 0
+ R28847: allocated[10,1,2,8,2] - 15 layerInUse[10,8,2] <= 0
+ R28848: allocated[10,2,2,8,1] - 15 layerInUse[10,8,2] <= 0
+ R28849: allocated[10,2,2,8,2] - 15 layerInUse[10,8,2] <= 0
+ R28850: allocated[10,3,2,8,1] - 15 layerInUse[10,8,2] <= 0
+ R28851: allocated[10,3,2,8,2] - 15 layerInUse[10,8,2] <= 0
+ R28852: allocated[10,4,2,8,1] - 15 layerInUse[10,8,2] <= 0
+ R28853: allocated[10,4,2,8,2] - 15 layerInUse[10,8,2] <= 0
+ R28854: allocated[10,1,3,8,1] - 15 layerInUse[10,8,3] <= 0
+ R28855: allocated[10,1,3,8,2] - 15 layerInUse[10,8,3] <= 0
+ R28856: allocated[10,2,3,8,1] - 15 layerInUse[10,8,3] <= 0
+ R28857: allocated[10,2,3,8,2] - 15 layerInUse[10,8,3] <= 0
+ R28858: allocated[10,3,3,8,1] - 15 layerInUse[10,8,3] <= 0
+ R28859: allocated[10,3,3,8,2] - 15 layerInUse[10,8,3] <= 0
+ R28860: allocated[10,4,3,8,1] - 15 layerInUse[10,8,3] <= 0
+ R28861: allocated[10,4,3,8,2] - 15 layerInUse[10,8,3] <= 0
+ R28862: allocated[10,1,4,8,1] - 15 layerInUse[10,8,4] <= 0
+ R28863: allocated[10,1,4,8,2] - 15 layerInUse[10,8,4] <= 0
+ R28864: allocated[10,2,4,8,1] - 15 layerInUse[10,8,4] <= 0
+ R28865: allocated[10,2,4,8,2] - 15 layerInUse[10,8,4] <= 0
+ R28866: allocated[10,3,4,8,1] - 15 layerInUse[10,8,4] <= 0
+ R28867: allocated[10,3,4,8,2] - 15 layerInUse[10,8,4] <= 0
+ R28868: allocated[10,4,4,8,1] - 15 layerInUse[10,8,4] <= 0
+ R28869: allocated[10,4,4,8,2] - 15 layerInUse[10,8,4] <= 0
+ R28870: allocated[10,1,5,8,1] - 15 layerInUse[10,8,5] <= 0
+ R28871: allocated[10,1,5,8,2] - 15 layerInUse[10,8,5] <= 0
+ R28872: allocated[10,2,5,8,1] - 15 layerInUse[10,8,5] <= 0
+ R28873: allocated[10,2,5,8,2] - 15 layerInUse[10,8,5] <= 0
+ R28874: allocated[10,3,5,8,1] - 15 layerInUse[10,8,5] <= 0
+ R28875: allocated[10,3,5,8,2] - 15 layerInUse[10,8,5] <= 0
+ R28876: allocated[10,4,5,8,1] - 15 layerInUse[10,8,5] <= 0
+ R28877: allocated[10,4,5,8,2] - 15 layerInUse[10,8,5] <= 0
+ R28878: allocated[10,1,6,8,1] - 15 layerInUse[10,8,6] <= 0
+ R28879: allocated[10,1,6,8,2] - 15 layerInUse[10,8,6] <= 0
+ R28880: allocated[10,2,6,8,1] - 15 layerInUse[10,8,6] <= 0
+ R28881: allocated[10,2,6,8,2] - 15 layerInUse[10,8,6] <= 0
+ R28882: allocated[10,3,6,8,1] - 15 layerInUse[10,8,6] <= 0
+ R28883: allocated[10,3,6,8,2] - 15 layerInUse[10,8,6] <= 0
+ R28884: allocated[10,4,6,8,1] - 15 layerInUse[10,8,6] <= 0
+ R28885: allocated[10,4,6,8,2] - 15 layerInUse[10,8,6] <= 0
+ R28886: - allocated[1,1,1,1,1] - allocated[1,1,1,1,2]
+   - allocated[1,2,1,1,1] - allocated[1,2,1,1,2] - allocated[1,3,1,1,1]
+   - allocated[1,3,1,1,2] - allocated[1,4,1,1,1] - allocated[1,4,1,1,2]
+   + layerInUse[1,1,1] <= 0
+ R28887: - allocated[1,1,2,1,1] - allocated[1,1,2,1,2]
+   - allocated[1,2,2,1,1] - allocated[1,2,2,1,2] - allocated[1,3,2,1,1]
+   - allocated[1,3,2,1,2] - allocated[1,4,2,1,1] - allocated[1,4,2,1,2]
+   + layerInUse[1,1,2] <= 0
+ R28888: - allocated[1,1,3,1,1] - allocated[1,1,3,1,2]
+   - allocated[1,2,3,1,1] - allocated[1,2,3,1,2] - allocated[1,3,3,1,1]
+   - allocated[1,3,3,1,2] - allocated[1,4,3,1,1] - allocated[1,4,3,1,2]
+   + layerInUse[1,1,3] <= 0
+ R28889: - allocated[1,1,4,1,1] - allocated[1,1,4,1,2]
+   - allocated[1,2,4,1,1] - allocated[1,2,4,1,2] - allocated[1,3,4,1,1]
+   - allocated[1,3,4,1,2] - allocated[1,4,4,1,1] - allocated[1,4,4,1,2]
+   + layerInUse[1,1,4] <= 0
+ R28890: - allocated[1,1,5,1,1] - allocated[1,1,5,1,2]
+   - allocated[1,2,5,1,1] - allocated[1,2,5,1,2] - allocated[1,3,5,1,1]
+   - allocated[1,3,5,1,2] - allocated[1,4,5,1,1] - allocated[1,4,5,1,2]
+   + layerInUse[1,1,5] <= 0
+ R28891: - allocated[1,1,6,1,1] - allocated[1,1,6,1,2]
+   - allocated[1,2,6,1,1] - allocated[1,2,6,1,2] - allocated[1,3,6,1,1]
+   - allocated[1,3,6,1,2] - allocated[1,4,6,1,1] - allocated[1,4,6,1,2]
+   + layerInUse[1,1,6] <= 0
+ R28892: - allocated[1,1,1,2,1] - allocated[1,1,1,2,2]
+   - allocated[1,2,1,2,1] - allocated[1,2,1,2,2] - allocated[1,3,1,2,1]
+   - allocated[1,3,1,2,2] - allocated[1,4,1,2,1] - allocated[1,4,1,2,2]
+   + layerInUse[1,2,1] <= 0
+ R28893: - allocated[1,1,2,2,1] - allocated[1,1,2,2,2]
+   - allocated[1,2,2,2,1] - allocated[1,2,2,2,2] - allocated[1,3,2,2,1]
+   - allocated[1,3,2,2,2] - allocated[1,4,2,2,1] - allocated[1,4,2,2,2]
+   + layerInUse[1,2,2] <= 0
+ R28894: - allocated[1,1,3,2,1] - allocated[1,1,3,2,2]
+   - allocated[1,2,3,2,1] - allocated[1,2,3,2,2] - allocated[1,3,3,2,1]
+   - allocated[1,3,3,2,2] - allocated[1,4,3,2,1] - allocated[1,4,3,2,2]
+   + layerInUse[1,2,3] <= 0
+ R28895: - allocated[1,1,4,2,1] - allocated[1,1,4,2,2]
+   - allocated[1,2,4,2,1] - allocated[1,2,4,2,2] - allocated[1,3,4,2,1]
+   - allocated[1,3,4,2,2] - allocated[1,4,4,2,1] - allocated[1,4,4,2,2]
+   + layerInUse[1,2,4] <= 0
+ R28896: - allocated[1,1,5,2,1] - allocated[1,1,5,2,2]
+   - allocated[1,2,5,2,1] - allocated[1,2,5,2,2] - allocated[1,3,5,2,1]
+   - allocated[1,3,5,2,2] - allocated[1,4,5,2,1] - allocated[1,4,5,2,2]
+   + layerInUse[1,2,5] <= 0
+ R28897: - allocated[1,1,6,2,1] - allocated[1,1,6,2,2]
+   - allocated[1,2,6,2,1] - allocated[1,2,6,2,2] - allocated[1,3,6,2,1]
+   - allocated[1,3,6,2,2] - allocated[1,4,6,2,1] - allocated[1,4,6,2,2]
+   + layerInUse[1,2,6] <= 0
+ R28898: - allocated[1,1,1,3,1] - allocated[1,1,1,3,2]
+   - allocated[1,2,1,3,1] - allocated[1,2,1,3,2] - allocated[1,3,1,3,1]
+   - allocated[1,3,1,3,2] - allocated[1,4,1,3,1] - allocated[1,4,1,3,2]
+   + layerInUse[1,3,1] <= 0
+ R28899: - allocated[1,1,2,3,1] - allocated[1,1,2,3,2]
+   - allocated[1,2,2,3,1] - allocated[1,2,2,3,2] - allocated[1,3,2,3,1]
+   - allocated[1,3,2,3,2] - allocated[1,4,2,3,1] - allocated[1,4,2,3,2]
+   + layerInUse[1,3,2] <= 0
+ R28900: - allocated[1,1,3,3,1] - allocated[1,1,3,3,2]
+   - allocated[1,2,3,3,1] - allocated[1,2,3,3,2] - allocated[1,3,3,3,1]
+   - allocated[1,3,3,3,2] - allocated[1,4,3,3,1] - allocated[1,4,3,3,2]
+   + layerInUse[1,3,3] <= 0
+ R28901: - allocated[1,1,4,3,1] - allocated[1,1,4,3,2]
+   - allocated[1,2,4,3,1] - allocated[1,2,4,3,2] - allocated[1,3,4,3,1]
+   - allocated[1,3,4,3,2] - allocated[1,4,4,3,1] - allocated[1,4,4,3,2]
+   + layerInUse[1,3,4] <= 0
+ R28902: - allocated[1,1,5,3,1] - allocated[1,1,5,3,2]
+   - allocated[1,2,5,3,1] - allocated[1,2,5,3,2] - allocated[1,3,5,3,1]
+   - allocated[1,3,5,3,2] - allocated[1,4,5,3,1] - allocated[1,4,5,3,2]
+   + layerInUse[1,3,5] <= 0
+ R28903: - allocated[1,1,6,3,1] - allocated[1,1,6,3,2]
+   - allocated[1,2,6,3,1] - allocated[1,2,6,3,2] - allocated[1,3,6,3,1]
+   - allocated[1,3,6,3,2] - allocated[1,4,6,3,1] - allocated[1,4,6,3,2]
+   + layerInUse[1,3,6] <= 0
+ R28904: - allocated[1,1,1,4,1] - allocated[1,1,1,4,2]
+   - allocated[1,2,1,4,1] - allocated[1,2,1,4,2] - allocated[1,3,1,4,1]
+   - allocated[1,3,1,4,2] - allocated[1,4,1,4,1] - allocated[1,4,1,4,2]
+   + layerInUse[1,4,1] <= 0
+ R28905: - allocated[1,1,2,4,1] - allocated[1,1,2,4,2]
+   - allocated[1,2,2,4,1] - allocated[1,2,2,4,2] - allocated[1,3,2,4,1]
+   - allocated[1,3,2,4,2] - allocated[1,4,2,4,1] - allocated[1,4,2,4,2]
+   + layerInUse[1,4,2] <= 0
+ R28906: - allocated[1,1,3,4,1] - allocated[1,1,3,4,2]
+   - allocated[1,2,3,4,1] - allocated[1,2,3,4,2] - allocated[1,3,3,4,1]
+   - allocated[1,3,3,4,2] - allocated[1,4,3,4,1] - allocated[1,4,3,4,2]
+   + layerInUse[1,4,3] <= 0
+ R28907: - allocated[1,1,4,4,1] - allocated[1,1,4,4,2]
+   - allocated[1,2,4,4,1] - allocated[1,2,4,4,2] - allocated[1,3,4,4,1]
+   - allocated[1,3,4,4,2] - allocated[1,4,4,4,1] - allocated[1,4,4,4,2]
+   + layerInUse[1,4,4] <= 0
+ R28908: - allocated[1,1,5,4,1] - allocated[1,1,5,4,2]
+   - allocated[1,2,5,4,1] - allocated[1,2,5,4,2] - allocated[1,3,5,4,1]
+   - allocated[1,3,5,4,2] - allocated[1,4,5,4,1] - allocated[1,4,5,4,2]
+   + layerInUse[1,4,5] <= 0
+ R28909: - allocated[1,1,6,4,1] - allocated[1,1,6,4,2]
+   - allocated[1,2,6,4,1] - allocated[1,2,6,4,2] - allocated[1,3,6,4,1]
+   - allocated[1,3,6,4,2] - allocated[1,4,6,4,1] - allocated[1,4,6,4,2]
+   + layerInUse[1,4,6] <= 0
+ R28910: - allocated[1,1,1,5,1] - allocated[1,1,1,5,2]
+   - allocated[1,2,1,5,1] - allocated[1,2,1,5,2] - allocated[1,3,1,5,1]
+   - allocated[1,3,1,5,2] - allocated[1,4,1,5,1] - allocated[1,4,1,5,2]
+   + layerInUse[1,5,1] <= 0
+ R28911: - allocated[1,1,2,5,1] - allocated[1,1,2,5,2]
+   - allocated[1,2,2,5,1] - allocated[1,2,2,5,2] - allocated[1,3,2,5,1]
+   - allocated[1,3,2,5,2] - allocated[1,4,2,5,1] - allocated[1,4,2,5,2]
+   + layerInUse[1,5,2] <= 0
+ R28912: - allocated[1,1,3,5,1] - allocated[1,1,3,5,2]
+   - allocated[1,2,3,5,1] - allocated[1,2,3,5,2] - allocated[1,3,3,5,1]
+   - allocated[1,3,3,5,2] - allocated[1,4,3,5,1] - allocated[1,4,3,5,2]
+   + layerInUse[1,5,3] <= 0
+ R28913: - allocated[1,1,4,5,1] - allocated[1,1,4,5,2]
+   - allocated[1,2,4,5,1] - allocated[1,2,4,5,2] - allocated[1,3,4,5,1]
+   - allocated[1,3,4,5,2] - allocated[1,4,4,5,1] - allocated[1,4,4,5,2]
+   + layerInUse[1,5,4] <= 0
+ R28914: - allocated[1,1,5,5,1] - allocated[1,1,5,5,2]
+   - allocated[1,2,5,5,1] - allocated[1,2,5,5,2] - allocated[1,3,5,5,1]
+   - allocated[1,3,5,5,2] - allocated[1,4,5,5,1] - allocated[1,4,5,5,2]
+   + layerInUse[1,5,5] <= 0
+ R28915: - allocated[1,1,6,5,1] - allocated[1,1,6,5,2]
+   - allocated[1,2,6,5,1] - allocated[1,2,6,5,2] - allocated[1,3,6,5,1]
+   - allocated[1,3,6,5,2] - allocated[1,4,6,5,1] - allocated[1,4,6,5,2]
+   + layerInUse[1,5,6] <= 0
+ R28916: - allocated[1,1,1,6,1] - allocated[1,1,1,6,2]
+   - allocated[1,2,1,6,1] - allocated[1,2,1,6,2] - allocated[1,3,1,6,1]
+   - allocated[1,3,1,6,2] - allocated[1,4,1,6,1] - allocated[1,4,1,6,2]
+   + layerInUse[1,6,1] <= 0
+ R28917: - allocated[1,1,2,6,1] - allocated[1,1,2,6,2]
+   - allocated[1,2,2,6,1] - allocated[1,2,2,6,2] - allocated[1,3,2,6,1]
+   - allocated[1,3,2,6,2] - allocated[1,4,2,6,1] - allocated[1,4,2,6,2]
+   + layerInUse[1,6,2] <= 0
+ R28918: - allocated[1,1,3,6,1] - allocated[1,1,3,6,2]
+   - allocated[1,2,3,6,1] - allocated[1,2,3,6,2] - allocated[1,3,3,6,1]
+   - allocated[1,3,3,6,2] - allocated[1,4,3,6,1] - allocated[1,4,3,6,2]
+   + layerInUse[1,6,3] <= 0
+ R28919: - allocated[1,1,4,6,1] - allocated[1,1,4,6,2]
+   - allocated[1,2,4,6,1] - allocated[1,2,4,6,2] - allocated[1,3,4,6,1]
+   - allocated[1,3,4,6,2] - allocated[1,4,4,6,1] - allocated[1,4,4,6,2]
+   + layerInUse[1,6,4] <= 0
+ R28920: - allocated[1,1,5,6,1] - allocated[1,1,5,6,2]
+   - allocated[1,2,5,6,1] - allocated[1,2,5,6,2] - allocated[1,3,5,6,1]
+   - allocated[1,3,5,6,2] - allocated[1,4,5,6,1] - allocated[1,4,5,6,2]
+   + layerInUse[1,6,5] <= 0
+ R28921: - allocated[1,1,6,6,1] - allocated[1,1,6,6,2]
+   - allocated[1,2,6,6,1] - allocated[1,2,6,6,2] - allocated[1,3,6,6,1]
+   - allocated[1,3,6,6,2] - allocated[1,4,6,6,1] - allocated[1,4,6,6,2]
+   + layerInUse[1,6,6] <= 0
+ R28922: - allocated[1,1,1,7,1] - allocated[1,1,1,7,2]
+   - allocated[1,2,1,7,1] - allocated[1,2,1,7,2] - allocated[1,3,1,7,1]
+   - allocated[1,3,1,7,2] - allocated[1,4,1,7,1] - allocated[1,4,1,7,2]
+   + layerInUse[1,7,1] <= 0
+ R28923: - allocated[1,1,2,7,1] - allocated[1,1,2,7,2]
+   - allocated[1,2,2,7,1] - allocated[1,2,2,7,2] - allocated[1,3,2,7,1]
+   - allocated[1,3,2,7,2] - allocated[1,4,2,7,1] - allocated[1,4,2,7,2]
+   + layerInUse[1,7,2] <= 0
+ R28924: - allocated[1,1,3,7,1] - allocated[1,1,3,7,2]
+   - allocated[1,2,3,7,1] - allocated[1,2,3,7,2] - allocated[1,3,3,7,1]
+   - allocated[1,3,3,7,2] - allocated[1,4,3,7,1] - allocated[1,4,3,7,2]
+   + layerInUse[1,7,3] <= 0
+ R28925: - allocated[1,1,4,7,1] - allocated[1,1,4,7,2]
+   - allocated[1,2,4,7,1] - allocated[1,2,4,7,2] - allocated[1,3,4,7,1]
+   - allocated[1,3,4,7,2] - allocated[1,4,4,7,1] - allocated[1,4,4,7,2]
+   + layerInUse[1,7,4] <= 0
+ R28926: - allocated[1,1,5,7,1] - allocated[1,1,5,7,2]
+   - allocated[1,2,5,7,1] - allocated[1,2,5,7,2] - allocated[1,3,5,7,1]
+   - allocated[1,3,5,7,2] - allocated[1,4,5,7,1] - allocated[1,4,5,7,2]
+   + layerInUse[1,7,5] <= 0
+ R28927: - allocated[1,1,6,7,1] - allocated[1,1,6,7,2]
+   - allocated[1,2,6,7,1] - allocated[1,2,6,7,2] - allocated[1,3,6,7,1]
+   - allocated[1,3,6,7,2] - allocated[1,4,6,7,1] - allocated[1,4,6,7,2]
+   + layerInUse[1,7,6] <= 0
+ R28928: - allocated[1,1,1,8,1] - allocated[1,1,1,8,2]
+   - allocated[1,2,1,8,1] - allocated[1,2,1,8,2] - allocated[1,3,1,8,1]
+   - allocated[1,3,1,8,2] - allocated[1,4,1,8,1] - allocated[1,4,1,8,2]
+   + layerInUse[1,8,1] <= 0
+ R28929: - allocated[1,1,2,8,1] - allocated[1,1,2,8,2]
+   - allocated[1,2,2,8,1] - allocated[1,2,2,8,2] - allocated[1,3,2,8,1]
+   - allocated[1,3,2,8,2] - allocated[1,4,2,8,1] - allocated[1,4,2,8,2]
+   + layerInUse[1,8,2] <= 0
+ R28930: - allocated[1,1,3,8,1] - allocated[1,1,3,8,2]
+   - allocated[1,2,3,8,1] - allocated[1,2,3,8,2] - allocated[1,3,3,8,1]
+   - allocated[1,3,3,8,2] - allocated[1,4,3,8,1] - allocated[1,4,3,8,2]
+   + layerInUse[1,8,3] <= 0
+ R28931: - allocated[1,1,4,8,1] - allocated[1,1,4,8,2]
+   - allocated[1,2,4,8,1] - allocated[1,2,4,8,2] - allocated[1,3,4,8,1]
+   - allocated[1,3,4,8,2] - allocated[1,4,4,8,1] - allocated[1,4,4,8,2]
+   + layerInUse[1,8,4] <= 0
+ R28932: - allocated[1,1,5,8,1] - allocated[1,1,5,8,2]
+   - allocated[1,2,5,8,1] - allocated[1,2,5,8,2] - allocated[1,3,5,8,1]
+   - allocated[1,3,5,8,2] - allocated[1,4,5,8,1] - allocated[1,4,5,8,2]
+   + layerInUse[1,8,5] <= 0
+ R28933: - allocated[1,1,6,8,1] - allocated[1,1,6,8,2]
+   - allocated[1,2,6,8,1] - allocated[1,2,6,8,2] - allocated[1,3,6,8,1]
+   - allocated[1,3,6,8,2] - allocated[1,4,6,8,1] - allocated[1,4,6,8,2]
+   + layerInUse[1,8,6] <= 0
+ R28934: - allocated[2,1,1,1,1] - allocated[2,1,1,1,2]
+   - allocated[2,2,1,1,1] - allocated[2,2,1,1,2] - allocated[2,3,1,1,1]
+   - allocated[2,3,1,1,2] - allocated[2,4,1,1,1] - allocated[2,4,1,1,2]
+   + layerInUse[2,1,1] <= 0
+ R28935: - allocated[2,1,2,1,1] - allocated[2,1,2,1,2]
+   - allocated[2,2,2,1,1] - allocated[2,2,2,1,2] - allocated[2,3,2,1,1]
+   - allocated[2,3,2,1,2] - allocated[2,4,2,1,1] - allocated[2,4,2,1,2]
+   + layerInUse[2,1,2] <= 0
+ R28936: - allocated[2,1,3,1,1] - allocated[2,1,3,1,2]
+   - allocated[2,2,3,1,1] - allocated[2,2,3,1,2] - allocated[2,3,3,1,1]
+   - allocated[2,3,3,1,2] - allocated[2,4,3,1,1] - allocated[2,4,3,1,2]
+   + layerInUse[2,1,3] <= 0
+ R28937: - allocated[2,1,4,1,1] - allocated[2,1,4,1,2]
+   - allocated[2,2,4,1,1] - allocated[2,2,4,1,2] - allocated[2,3,4,1,1]
+   - allocated[2,3,4,1,2] - allocated[2,4,4,1,1] - allocated[2,4,4,1,2]
+   + layerInUse[2,1,4] <= 0
+ R28938: - allocated[2,1,5,1,1] - allocated[2,1,5,1,2]
+   - allocated[2,2,5,1,1] - allocated[2,2,5,1,2] - allocated[2,3,5,1,1]
+   - allocated[2,3,5,1,2] - allocated[2,4,5,1,1] - allocated[2,4,5,1,2]
+   + layerInUse[2,1,5] <= 0
+ R28939: - allocated[2,1,6,1,1] - allocated[2,1,6,1,2]
+   - allocated[2,2,6,1,1] - allocated[2,2,6,1,2] - allocated[2,3,6,1,1]
+   - allocated[2,3,6,1,2] - allocated[2,4,6,1,1] - allocated[2,4,6,1,2]
+   + layerInUse[2,1,6] <= 0
+ R28940: - allocated[2,1,1,2,1] - allocated[2,1,1,2,2]
+   - allocated[2,2,1,2,1] - allocated[2,2,1,2,2] - allocated[2,3,1,2,1]
+   - allocated[2,3,1,2,2] - allocated[2,4,1,2,1] - allocated[2,4,1,2,2]
+   + layerInUse[2,2,1] <= 0
+ R28941: - allocated[2,1,2,2,1] - allocated[2,1,2,2,2]
+   - allocated[2,2,2,2,1] - allocated[2,2,2,2,2] - allocated[2,3,2,2,1]
+   - allocated[2,3,2,2,2] - allocated[2,4,2,2,1] - allocated[2,4,2,2,2]
+   + layerInUse[2,2,2] <= 0
+ R28942: - allocated[2,1,3,2,1] - allocated[2,1,3,2,2]
+   - allocated[2,2,3,2,1] - allocated[2,2,3,2,2] - allocated[2,3,3,2,1]
+   - allocated[2,3,3,2,2] - allocated[2,4,3,2,1] - allocated[2,4,3,2,2]
+   + layerInUse[2,2,3] <= 0
+ R28943: - allocated[2,1,4,2,1] - allocated[2,1,4,2,2]
+   - allocated[2,2,4,2,1] - allocated[2,2,4,2,2] - allocated[2,3,4,2,1]
+   - allocated[2,3,4,2,2] - allocated[2,4,4,2,1] - allocated[2,4,4,2,2]
+   + layerInUse[2,2,4] <= 0
+ R28944: - allocated[2,1,5,2,1] - allocated[2,1,5,2,2]
+   - allocated[2,2,5,2,1] - allocated[2,2,5,2,2] - allocated[2,3,5,2,1]
+   - allocated[2,3,5,2,2] - allocated[2,4,5,2,1] - allocated[2,4,5,2,2]
+   + layerInUse[2,2,5] <= 0
+ R28945: - allocated[2,1,6,2,1] - allocated[2,1,6,2,2]
+   - allocated[2,2,6,2,1] - allocated[2,2,6,2,2] - allocated[2,3,6,2,1]
+   - allocated[2,3,6,2,2] - allocated[2,4,6,2,1] - allocated[2,4,6,2,2]
+   + layerInUse[2,2,6] <= 0
+ R28946: - allocated[2,1,1,3,1] - allocated[2,1,1,3,2]
+   - allocated[2,2,1,3,1] - allocated[2,2,1,3,2] - allocated[2,3,1,3,1]
+   - allocated[2,3,1,3,2] - allocated[2,4,1,3,1] - allocated[2,4,1,3,2]
+   + layerInUse[2,3,1] <= 0
+ R28947: - allocated[2,1,2,3,1] - allocated[2,1,2,3,2]
+   - allocated[2,2,2,3,1] - allocated[2,2,2,3,2] - allocated[2,3,2,3,1]
+   - allocated[2,3,2,3,2] - allocated[2,4,2,3,1] - allocated[2,4,2,3,2]
+   + layerInUse[2,3,2] <= 0
+ R28948: - allocated[2,1,3,3,1] - allocated[2,1,3,3,2]
+   - allocated[2,2,3,3,1] - allocated[2,2,3,3,2] - allocated[2,3,3,3,1]
+   - allocated[2,3,3,3,2] - allocated[2,4,3,3,1] - allocated[2,4,3,3,2]
+   + layerInUse[2,3,3] <= 0
+ R28949: - allocated[2,1,4,3,1] - allocated[2,1,4,3,2]
+   - allocated[2,2,4,3,1] - allocated[2,2,4,3,2] - allocated[2,3,4,3,1]
+   - allocated[2,3,4,3,2] - allocated[2,4,4,3,1] - allocated[2,4,4,3,2]
+   + layerInUse[2,3,4] <= 0
+ R28950: - allocated[2,1,5,3,1] - allocated[2,1,5,3,2]
+   - allocated[2,2,5,3,1] - allocated[2,2,5,3,2] - allocated[2,3,5,3,1]
+   - allocated[2,3,5,3,2] - allocated[2,4,5,3,1] - allocated[2,4,5,3,2]
+   + layerInUse[2,3,5] <= 0
+ R28951: - allocated[2,1,6,3,1] - allocated[2,1,6,3,2]
+   - allocated[2,2,6,3,1] - allocated[2,2,6,3,2] - allocated[2,3,6,3,1]
+   - allocated[2,3,6,3,2] - allocated[2,4,6,3,1] - allocated[2,4,6,3,2]
+   + layerInUse[2,3,6] <= 0
+ R28952: - allocated[2,1,1,4,1] - allocated[2,1,1,4,2]
+   - allocated[2,2,1,4,1] - allocated[2,2,1,4,2] - allocated[2,3,1,4,1]
+   - allocated[2,3,1,4,2] - allocated[2,4,1,4,1] - allocated[2,4,1,4,2]
+   + layerInUse[2,4,1] <= 0
+ R28953: - allocated[2,1,2,4,1] - allocated[2,1,2,4,2]
+   - allocated[2,2,2,4,1] - allocated[2,2,2,4,2] - allocated[2,3,2,4,1]
+   - allocated[2,3,2,4,2] - allocated[2,4,2,4,1] - allocated[2,4,2,4,2]
+   + layerInUse[2,4,2] <= 0
+ R28954: - allocated[2,1,3,4,1] - allocated[2,1,3,4,2]
+   - allocated[2,2,3,4,1] - allocated[2,2,3,4,2] - allocated[2,3,3,4,1]
+   - allocated[2,3,3,4,2] - allocated[2,4,3,4,1] - allocated[2,4,3,4,2]
+   + layerInUse[2,4,3] <= 0
+ R28955: - allocated[2,1,4,4,1] - allocated[2,1,4,4,2]
+   - allocated[2,2,4,4,1] - allocated[2,2,4,4,2] - allocated[2,3,4,4,1]
+   - allocated[2,3,4,4,2] - allocated[2,4,4,4,1] - allocated[2,4,4,4,2]
+   + layerInUse[2,4,4] <= 0
+ R28956: - allocated[2,1,5,4,1] - allocated[2,1,5,4,2]
+   - allocated[2,2,5,4,1] - allocated[2,2,5,4,2] - allocated[2,3,5,4,1]
+   - allocated[2,3,5,4,2] - allocated[2,4,5,4,1] - allocated[2,4,5,4,2]
+   + layerInUse[2,4,5] <= 0
+ R28957: - allocated[2,1,6,4,1] - allocated[2,1,6,4,2]
+   - allocated[2,2,6,4,1] - allocated[2,2,6,4,2] - allocated[2,3,6,4,1]
+   - allocated[2,3,6,4,2] - allocated[2,4,6,4,1] - allocated[2,4,6,4,2]
+   + layerInUse[2,4,6] <= 0
+ R28958: - allocated[2,1,1,5,1] - allocated[2,1,1,5,2]
+   - allocated[2,2,1,5,1] - allocated[2,2,1,5,2] - allocated[2,3,1,5,1]
+   - allocated[2,3,1,5,2] - allocated[2,4,1,5,1] - allocated[2,4,1,5,2]
+   + layerInUse[2,5,1] <= 0
+ R28959: - allocated[2,1,2,5,1] - allocated[2,1,2,5,2]
+   - allocated[2,2,2,5,1] - allocated[2,2,2,5,2] - allocated[2,3,2,5,1]
+   - allocated[2,3,2,5,2] - allocated[2,4,2,5,1] - allocated[2,4,2,5,2]
+   + layerInUse[2,5,2] <= 0
+ R28960: - allocated[2,1,3,5,1] - allocated[2,1,3,5,2]
+   - allocated[2,2,3,5,1] - allocated[2,2,3,5,2] - allocated[2,3,3,5,1]
+   - allocated[2,3,3,5,2] - allocated[2,4,3,5,1] - allocated[2,4,3,5,2]
+   + layerInUse[2,5,3] <= 0
+ R28961: - allocated[2,1,4,5,1] - allocated[2,1,4,5,2]
+   - allocated[2,2,4,5,1] - allocated[2,2,4,5,2] - allocated[2,3,4,5,1]
+   - allocated[2,3,4,5,2] - allocated[2,4,4,5,1] - allocated[2,4,4,5,2]
+   + layerInUse[2,5,4] <= 0
+ R28962: - allocated[2,1,5,5,1] - allocated[2,1,5,5,2]
+   - allocated[2,2,5,5,1] - allocated[2,2,5,5,2] - allocated[2,3,5,5,1]
+   - allocated[2,3,5,5,2] - allocated[2,4,5,5,1] - allocated[2,4,5,5,2]
+   + layerInUse[2,5,5] <= 0
+ R28963: - allocated[2,1,6,5,1] - allocated[2,1,6,5,2]
+   - allocated[2,2,6,5,1] - allocated[2,2,6,5,2] - allocated[2,3,6,5,1]
+   - allocated[2,3,6,5,2] - allocated[2,4,6,5,1] - allocated[2,4,6,5,2]
+   + layerInUse[2,5,6] <= 0
+ R28964: - allocated[2,1,1,6,1] - allocated[2,1,1,6,2]
+   - allocated[2,2,1,6,1] - allocated[2,2,1,6,2] - allocated[2,3,1,6,1]
+   - allocated[2,3,1,6,2] - allocated[2,4,1,6,1] - allocated[2,4,1,6,2]
+   + layerInUse[2,6,1] <= 0
+ R28965: - allocated[2,1,2,6,1] - allocated[2,1,2,6,2]
+   - allocated[2,2,2,6,1] - allocated[2,2,2,6,2] - allocated[2,3,2,6,1]
+   - allocated[2,3,2,6,2] - allocated[2,4,2,6,1] - allocated[2,4,2,6,2]
+   + layerInUse[2,6,2] <= 0
+ R28966: - allocated[2,1,3,6,1] - allocated[2,1,3,6,2]
+   - allocated[2,2,3,6,1] - allocated[2,2,3,6,2] - allocated[2,3,3,6,1]
+   - allocated[2,3,3,6,2] - allocated[2,4,3,6,1] - allocated[2,4,3,6,2]
+   + layerInUse[2,6,3] <= 0
+ R28967: - allocated[2,1,4,6,1] - allocated[2,1,4,6,2]
+   - allocated[2,2,4,6,1] - allocated[2,2,4,6,2] - allocated[2,3,4,6,1]
+   - allocated[2,3,4,6,2] - allocated[2,4,4,6,1] - allocated[2,4,4,6,2]
+   + layerInUse[2,6,4] <= 0
+ R28968: - allocated[2,1,5,6,1] - allocated[2,1,5,6,2]
+   - allocated[2,2,5,6,1] - allocated[2,2,5,6,2] - allocated[2,3,5,6,1]
+   - allocated[2,3,5,6,2] - allocated[2,4,5,6,1] - allocated[2,4,5,6,2]
+   + layerInUse[2,6,5] <= 0
+ R28969: - allocated[2,1,6,6,1] - allocated[2,1,6,6,2]
+   - allocated[2,2,6,6,1] - allocated[2,2,6,6,2] - allocated[2,3,6,6,1]
+   - allocated[2,3,6,6,2] - allocated[2,4,6,6,1] - allocated[2,4,6,6,2]
+   + layerInUse[2,6,6] <= 0
+ R28970: - allocated[2,1,1,7,1] - allocated[2,1,1,7,2]
+   - allocated[2,2,1,7,1] - allocated[2,2,1,7,2] - allocated[2,3,1,7,1]
+   - allocated[2,3,1,7,2] - allocated[2,4,1,7,1] - allocated[2,4,1,7,2]
+   + layerInUse[2,7,1] <= 0
+ R28971: - allocated[2,1,2,7,1] - allocated[2,1,2,7,2]
+   - allocated[2,2,2,7,1] - allocated[2,2,2,7,2] - allocated[2,3,2,7,1]
+   - allocated[2,3,2,7,2] - allocated[2,4,2,7,1] - allocated[2,4,2,7,2]
+   + layerInUse[2,7,2] <= 0
+ R28972: - allocated[2,1,3,7,1] - allocated[2,1,3,7,2]
+   - allocated[2,2,3,7,1] - allocated[2,2,3,7,2] - allocated[2,3,3,7,1]
+   - allocated[2,3,3,7,2] - allocated[2,4,3,7,1] - allocated[2,4,3,7,2]
+   + layerInUse[2,7,3] <= 0
+ R28973: - allocated[2,1,4,7,1] - allocated[2,1,4,7,2]
+   - allocated[2,2,4,7,1] - allocated[2,2,4,7,2] - allocated[2,3,4,7,1]
+   - allocated[2,3,4,7,2] - allocated[2,4,4,7,1] - allocated[2,4,4,7,2]
+   + layerInUse[2,7,4] <= 0
+ R28974: - allocated[2,1,5,7,1] - allocated[2,1,5,7,2]
+   - allocated[2,2,5,7,1] - allocated[2,2,5,7,2] - allocated[2,3,5,7,1]
+   - allocated[2,3,5,7,2] - allocated[2,4,5,7,1] - allocated[2,4,5,7,2]
+   + layerInUse[2,7,5] <= 0
+ R28975: - allocated[2,1,6,7,1] - allocated[2,1,6,7,2]
+   - allocated[2,2,6,7,1] - allocated[2,2,6,7,2] - allocated[2,3,6,7,1]
+   - allocated[2,3,6,7,2] - allocated[2,4,6,7,1] - allocated[2,4,6,7,2]
+   + layerInUse[2,7,6] <= 0
+ R28976: - allocated[2,1,1,8,1] - allocated[2,1,1,8,2]
+   - allocated[2,2,1,8,1] - allocated[2,2,1,8,2] - allocated[2,3,1,8,1]
+   - allocated[2,3,1,8,2] - allocated[2,4,1,8,1] - allocated[2,4,1,8,2]
+   + layerInUse[2,8,1] <= 0
+ R28977: - allocated[2,1,2,8,1] - allocated[2,1,2,8,2]
+   - allocated[2,2,2,8,1] - allocated[2,2,2,8,2] - allocated[2,3,2,8,1]
+   - allocated[2,3,2,8,2] - allocated[2,4,2,8,1] - allocated[2,4,2,8,2]
+   + layerInUse[2,8,2] <= 0
+ R28978: - allocated[2,1,3,8,1] - allocated[2,1,3,8,2]
+   - allocated[2,2,3,8,1] - allocated[2,2,3,8,2] - allocated[2,3,3,8,1]
+   - allocated[2,3,3,8,2] - allocated[2,4,3,8,1] - allocated[2,4,3,8,2]
+   + layerInUse[2,8,3] <= 0
+ R28979: - allocated[2,1,4,8,1] - allocated[2,1,4,8,2]
+   - allocated[2,2,4,8,1] - allocated[2,2,4,8,2] - allocated[2,3,4,8,1]
+   - allocated[2,3,4,8,2] - allocated[2,4,4,8,1] - allocated[2,4,4,8,2]
+   + layerInUse[2,8,4] <= 0
+ R28980: - allocated[2,1,5,8,1] - allocated[2,1,5,8,2]
+   - allocated[2,2,5,8,1] - allocated[2,2,5,8,2] - allocated[2,3,5,8,1]
+   - allocated[2,3,5,8,2] - allocated[2,4,5,8,1] - allocated[2,4,5,8,2]
+   + layerInUse[2,8,5] <= 0
+ R28981: - allocated[2,1,6,8,1] - allocated[2,1,6,8,2]
+   - allocated[2,2,6,8,1] - allocated[2,2,6,8,2] - allocated[2,3,6,8,1]
+   - allocated[2,3,6,8,2] - allocated[2,4,6,8,1] - allocated[2,4,6,8,2]
+   + layerInUse[2,8,6] <= 0
+ R28982: - allocated[3,1,1,1,1] - allocated[3,1,1,1,2]
+   - allocated[3,2,1,1,1] - allocated[3,2,1,1,2] - allocated[3,3,1,1,1]
+   - allocated[3,3,1,1,2] - allocated[3,4,1,1,1] - allocated[3,4,1,1,2]
+   + layerInUse[3,1,1] <= 0
+ R28983: - allocated[3,1,2,1,1] - allocated[3,1,2,1,2]
+   - allocated[3,2,2,1,1] - allocated[3,2,2,1,2] - allocated[3,3,2,1,1]
+   - allocated[3,3,2,1,2] - allocated[3,4,2,1,1] - allocated[3,4,2,1,2]
+   + layerInUse[3,1,2] <= 0
+ R28984: - allocated[3,1,3,1,1] - allocated[3,1,3,1,2]
+   - allocated[3,2,3,1,1] - allocated[3,2,3,1,2] - allocated[3,3,3,1,1]
+   - allocated[3,3,3,1,2] - allocated[3,4,3,1,1] - allocated[3,4,3,1,2]
+   + layerInUse[3,1,3] <= 0
+ R28985: - allocated[3,1,4,1,1] - allocated[3,1,4,1,2]
+   - allocated[3,2,4,1,1] - allocated[3,2,4,1,2] - allocated[3,3,4,1,1]
+   - allocated[3,3,4,1,2] - allocated[3,4,4,1,1] - allocated[3,4,4,1,2]
+   + layerInUse[3,1,4] <= 0
+ R28986: - allocated[3,1,5,1,1] - allocated[3,1,5,1,2]
+   - allocated[3,2,5,1,1] - allocated[3,2,5,1,2] - allocated[3,3,5,1,1]
+   - allocated[3,3,5,1,2] - allocated[3,4,5,1,1] - allocated[3,4,5,1,2]
+   + layerInUse[3,1,5] <= 0
+ R28987: - allocated[3,1,6,1,1] - allocated[3,1,6,1,2]
+   - allocated[3,2,6,1,1] - allocated[3,2,6,1,2] - allocated[3,3,6,1,1]
+   - allocated[3,3,6,1,2] - allocated[3,4,6,1,1] - allocated[3,4,6,1,2]
+   + layerInUse[3,1,6] <= 0
+ R28988: - allocated[3,1,1,2,1] - allocated[3,1,1,2,2]
+   - allocated[3,2,1,2,1] - allocated[3,2,1,2,2] - allocated[3,3,1,2,1]
+   - allocated[3,3,1,2,2] - allocated[3,4,1,2,1] - allocated[3,4,1,2,2]
+   + layerInUse[3,2,1] <= 0
+ R28989: - allocated[3,1,2,2,1] - allocated[3,1,2,2,2]
+   - allocated[3,2,2,2,1] - allocated[3,2,2,2,2] - allocated[3,3,2,2,1]
+   - allocated[3,3,2,2,2] - allocated[3,4,2,2,1] - allocated[3,4,2,2,2]
+   + layerInUse[3,2,2] <= 0
+ R28990: - allocated[3,1,3,2,1] - allocated[3,1,3,2,2]
+   - allocated[3,2,3,2,1] - allocated[3,2,3,2,2] - allocated[3,3,3,2,1]
+   - allocated[3,3,3,2,2] - allocated[3,4,3,2,1] - allocated[3,4,3,2,2]
+   + layerInUse[3,2,3] <= 0
+ R28991: - allocated[3,1,4,2,1] - allocated[3,1,4,2,2]
+   - allocated[3,2,4,2,1] - allocated[3,2,4,2,2] - allocated[3,3,4,2,1]
+   - allocated[3,3,4,2,2] - allocated[3,4,4,2,1] - allocated[3,4,4,2,2]
+   + layerInUse[3,2,4] <= 0
+ R28992: - allocated[3,1,5,2,1] - allocated[3,1,5,2,2]
+   - allocated[3,2,5,2,1] - allocated[3,2,5,2,2] - allocated[3,3,5,2,1]
+   - allocated[3,3,5,2,2] - allocated[3,4,5,2,1] - allocated[3,4,5,2,2]
+   + layerInUse[3,2,5] <= 0
+ R28993: - allocated[3,1,6,2,1] - allocated[3,1,6,2,2]
+   - allocated[3,2,6,2,1] - allocated[3,2,6,2,2] - allocated[3,3,6,2,1]
+   - allocated[3,3,6,2,2] - allocated[3,4,6,2,1] - allocated[3,4,6,2,2]
+   + layerInUse[3,2,6] <= 0
+ R28994: - allocated[3,1,1,3,1] - allocated[3,1,1,3,2]
+   - allocated[3,2,1,3,1] - allocated[3,2,1,3,2] - allocated[3,3,1,3,1]
+   - allocated[3,3,1,3,2] - allocated[3,4,1,3,1] - allocated[3,4,1,3,2]
+   + layerInUse[3,3,1] <= 0
+ R28995: - allocated[3,1,2,3,1] - allocated[3,1,2,3,2]
+   - allocated[3,2,2,3,1] - allocated[3,2,2,3,2] - allocated[3,3,2,3,1]
+   - allocated[3,3,2,3,2] - allocated[3,4,2,3,1] - allocated[3,4,2,3,2]
+   + layerInUse[3,3,2] <= 0
+ R28996: - allocated[3,1,3,3,1] - allocated[3,1,3,3,2]
+   - allocated[3,2,3,3,1] - allocated[3,2,3,3,2] - allocated[3,3,3,3,1]
+   - allocated[3,3,3,3,2] - allocated[3,4,3,3,1] - allocated[3,4,3,3,2]
+   + layerInUse[3,3,3] <= 0
+ R28997: - allocated[3,1,4,3,1] - allocated[3,1,4,3,2]
+   - allocated[3,2,4,3,1] - allocated[3,2,4,3,2] - allocated[3,3,4,3,1]
+   - allocated[3,3,4,3,2] - allocated[3,4,4,3,1] - allocated[3,4,4,3,2]
+   + layerInUse[3,3,4] <= 0
+ R28998: - allocated[3,1,5,3,1] - allocated[3,1,5,3,2]
+   - allocated[3,2,5,3,1] - allocated[3,2,5,3,2] - allocated[3,3,5,3,1]
+   - allocated[3,3,5,3,2] - allocated[3,4,5,3,1] - allocated[3,4,5,3,2]
+   + layerInUse[3,3,5] <= 0
+ R28999: - allocated[3,1,6,3,1] - allocated[3,1,6,3,2]
+   - allocated[3,2,6,3,1] - allocated[3,2,6,3,2] - allocated[3,3,6,3,1]
+   - allocated[3,3,6,3,2] - allocated[3,4,6,3,1] - allocated[3,4,6,3,2]
+   + layerInUse[3,3,6] <= 0
+ R29000: - allocated[3,1,1,4,1] - allocated[3,1,1,4,2]
+   - allocated[3,2,1,4,1] - allocated[3,2,1,4,2] - allocated[3,3,1,4,1]
+   - allocated[3,3,1,4,2] - allocated[3,4,1,4,1] - allocated[3,4,1,4,2]
+   + layerInUse[3,4,1] <= 0
+ R29001: - allocated[3,1,2,4,1] - allocated[3,1,2,4,2]
+   - allocated[3,2,2,4,1] - allocated[3,2,2,4,2] - allocated[3,3,2,4,1]
+   - allocated[3,3,2,4,2] - allocated[3,4,2,4,1] - allocated[3,4,2,4,2]
+   + layerInUse[3,4,2] <= 0
+ R29002: - allocated[3,1,3,4,1] - allocated[3,1,3,4,2]
+   - allocated[3,2,3,4,1] - allocated[3,2,3,4,2] - allocated[3,3,3,4,1]
+   - allocated[3,3,3,4,2] - allocated[3,4,3,4,1] - allocated[3,4,3,4,2]
+   + layerInUse[3,4,3] <= 0
+ R29003: - allocated[3,1,4,4,1] - allocated[3,1,4,4,2]
+   - allocated[3,2,4,4,1] - allocated[3,2,4,4,2] - allocated[3,3,4,4,1]
+   - allocated[3,3,4,4,2] - allocated[3,4,4,4,1] - allocated[3,4,4,4,2]
+   + layerInUse[3,4,4] <= 0
+ R29004: - allocated[3,1,5,4,1] - allocated[3,1,5,4,2]
+   - allocated[3,2,5,4,1] - allocated[3,2,5,4,2] - allocated[3,3,5,4,1]
+   - allocated[3,3,5,4,2] - allocated[3,4,5,4,1] - allocated[3,4,5,4,2]
+   + layerInUse[3,4,5] <= 0
+ R29005: - allocated[3,1,6,4,1] - allocated[3,1,6,4,2]
+   - allocated[3,2,6,4,1] - allocated[3,2,6,4,2] - allocated[3,3,6,4,1]
+   - allocated[3,3,6,4,2] - allocated[3,4,6,4,1] - allocated[3,4,6,4,2]
+   + layerInUse[3,4,6] <= 0
+ R29006: - allocated[3,1,1,5,1] - allocated[3,1,1,5,2]
+   - allocated[3,2,1,5,1] - allocated[3,2,1,5,2] - allocated[3,3,1,5,1]
+   - allocated[3,3,1,5,2] - allocated[3,4,1,5,1] - allocated[3,4,1,5,2]
+   + layerInUse[3,5,1] <= 0
+ R29007: - allocated[3,1,2,5,1] - allocated[3,1,2,5,2]
+   - allocated[3,2,2,5,1] - allocated[3,2,2,5,2] - allocated[3,3,2,5,1]
+   - allocated[3,3,2,5,2] - allocated[3,4,2,5,1] - allocated[3,4,2,5,2]
+   + layerInUse[3,5,2] <= 0
+ R29008: - allocated[3,1,3,5,1] - allocated[3,1,3,5,2]
+   - allocated[3,2,3,5,1] - allocated[3,2,3,5,2] - allocated[3,3,3,5,1]
+   - allocated[3,3,3,5,2] - allocated[3,4,3,5,1] - allocated[3,4,3,5,2]
+   + layerInUse[3,5,3] <= 0
+ R29009: - allocated[3,1,4,5,1] - allocated[3,1,4,5,2]
+   - allocated[3,2,4,5,1] - allocated[3,2,4,5,2] - allocated[3,3,4,5,1]
+   - allocated[3,3,4,5,2] - allocated[3,4,4,5,1] - allocated[3,4,4,5,2]
+   + layerInUse[3,5,4] <= 0
+ R29010: - allocated[3,1,5,5,1] - allocated[3,1,5,5,2]
+   - allocated[3,2,5,5,1] - allocated[3,2,5,5,2] - allocated[3,3,5,5,1]
+   - allocated[3,3,5,5,2] - allocated[3,4,5,5,1] - allocated[3,4,5,5,2]
+   + layerInUse[3,5,5] <= 0
+ R29011: - allocated[3,1,6,5,1] - allocated[3,1,6,5,2]
+   - allocated[3,2,6,5,1] - allocated[3,2,6,5,2] - allocated[3,3,6,5,1]
+   - allocated[3,3,6,5,2] - allocated[3,4,6,5,1] - allocated[3,4,6,5,2]
+   + layerInUse[3,5,6] <= 0
+ R29012: - allocated[3,1,1,6,1] - allocated[3,1,1,6,2]
+   - allocated[3,2,1,6,1] - allocated[3,2,1,6,2] - allocated[3,3,1,6,1]
+   - allocated[3,3,1,6,2] - allocated[3,4,1,6,1] - allocated[3,4,1,6,2]
+   + layerInUse[3,6,1] <= 0
+ R29013: - allocated[3,1,2,6,1] - allocated[3,1,2,6,2]
+   - allocated[3,2,2,6,1] - allocated[3,2,2,6,2] - allocated[3,3,2,6,1]
+   - allocated[3,3,2,6,2] - allocated[3,4,2,6,1] - allocated[3,4,2,6,2]
+   + layerInUse[3,6,2] <= 0
+ R29014: - allocated[3,1,3,6,1] - allocated[3,1,3,6,2]
+   - allocated[3,2,3,6,1] - allocated[3,2,3,6,2] - allocated[3,3,3,6,1]
+   - allocated[3,3,3,6,2] - allocated[3,4,3,6,1] - allocated[3,4,3,6,2]
+   + layerInUse[3,6,3] <= 0
+ R29015: - allocated[3,1,4,6,1] - allocated[3,1,4,6,2]
+   - allocated[3,2,4,6,1] - allocated[3,2,4,6,2] - allocated[3,3,4,6,1]
+   - allocated[3,3,4,6,2] - allocated[3,4,4,6,1] - allocated[3,4,4,6,2]
+   + layerInUse[3,6,4] <= 0
+ R29016: - allocated[3,1,5,6,1] - allocated[3,1,5,6,2]
+   - allocated[3,2,5,6,1] - allocated[3,2,5,6,2] - allocated[3,3,5,6,1]
+   - allocated[3,3,5,6,2] - allocated[3,4,5,6,1] - allocated[3,4,5,6,2]
+   + layerInUse[3,6,5] <= 0
+ R29017: - allocated[3,1,6,6,1] - allocated[3,1,6,6,2]
+   - allocated[3,2,6,6,1] - allocated[3,2,6,6,2] - allocated[3,3,6,6,1]
+   - allocated[3,3,6,6,2] - allocated[3,4,6,6,1] - allocated[3,4,6,6,2]
+   + layerInUse[3,6,6] <= 0
+ R29018: - allocated[3,1,1,7,1] - allocated[3,1,1,7,2]
+   - allocated[3,2,1,7,1] - allocated[3,2,1,7,2] - allocated[3,3,1,7,1]
+   - allocated[3,3,1,7,2] - allocated[3,4,1,7,1] - allocated[3,4,1,7,2]
+   + layerInUse[3,7,1] <= 0
+ R29019: - allocated[3,1,2,7,1] - allocated[3,1,2,7,2]
+   - allocated[3,2,2,7,1] - allocated[3,2,2,7,2] - allocated[3,3,2,7,1]
+   - allocated[3,3,2,7,2] - allocated[3,4,2,7,1] - allocated[3,4,2,7,2]
+   + layerInUse[3,7,2] <= 0
+ R29020: - allocated[3,1,3,7,1] - allocated[3,1,3,7,2]
+   - allocated[3,2,3,7,1] - allocated[3,2,3,7,2] - allocated[3,3,3,7,1]
+   - allocated[3,3,3,7,2] - allocated[3,4,3,7,1] - allocated[3,4,3,7,2]
+   + layerInUse[3,7,3] <= 0
+ R29021: - allocated[3,1,4,7,1] - allocated[3,1,4,7,2]
+   - allocated[3,2,4,7,1] - allocated[3,2,4,7,2] - allocated[3,3,4,7,1]
+   - allocated[3,3,4,7,2] - allocated[3,4,4,7,1] - allocated[3,4,4,7,2]
+   + layerInUse[3,7,4] <= 0
+ R29022: - allocated[3,1,5,7,1] - allocated[3,1,5,7,2]
+   - allocated[3,2,5,7,1] - allocated[3,2,5,7,2] - allocated[3,3,5,7,1]
+   - allocated[3,3,5,7,2] - allocated[3,4,5,7,1] - allocated[3,4,5,7,2]
+   + layerInUse[3,7,5] <= 0
+ R29023: - allocated[3,1,6,7,1] - allocated[3,1,6,7,2]
+   - allocated[3,2,6,7,1] - allocated[3,2,6,7,2] - allocated[3,3,6,7,1]
+   - allocated[3,3,6,7,2] - allocated[3,4,6,7,1] - allocated[3,4,6,7,2]
+   + layerInUse[3,7,6] <= 0
+ R29024: - allocated[3,1,1,8,1] - allocated[3,1,1,8,2]
+   - allocated[3,2,1,8,1] - allocated[3,2,1,8,2] - allocated[3,3,1,8,1]
+   - allocated[3,3,1,8,2] - allocated[3,4,1,8,1] - allocated[3,4,1,8,2]
+   + layerInUse[3,8,1] <= 0
+ R29025: - allocated[3,1,2,8,1] - allocated[3,1,2,8,2]
+   - allocated[3,2,2,8,1] - allocated[3,2,2,8,2] - allocated[3,3,2,8,1]
+   - allocated[3,3,2,8,2] - allocated[3,4,2,8,1] - allocated[3,4,2,8,2]
+   + layerInUse[3,8,2] <= 0
+ R29026: - allocated[3,1,3,8,1] - allocated[3,1,3,8,2]
+   - allocated[3,2,3,8,1] - allocated[3,2,3,8,2] - allocated[3,3,3,8,1]
+   - allocated[3,3,3,8,2] - allocated[3,4,3,8,1] - allocated[3,4,3,8,2]
+   + layerInUse[3,8,3] <= 0
+ R29027: - allocated[3,1,4,8,1] - allocated[3,1,4,8,2]
+   - allocated[3,2,4,8,1] - allocated[3,2,4,8,2] - allocated[3,3,4,8,1]
+   - allocated[3,3,4,8,2] - allocated[3,4,4,8,1] - allocated[3,4,4,8,2]
+   + layerInUse[3,8,4] <= 0
+ R29028: - allocated[3,1,5,8,1] - allocated[3,1,5,8,2]
+   - allocated[3,2,5,8,1] - allocated[3,2,5,8,2] - allocated[3,3,5,8,1]
+   - allocated[3,3,5,8,2] - allocated[3,4,5,8,1] - allocated[3,4,5,8,2]
+   + layerInUse[3,8,5] <= 0
+ R29029: - allocated[3,1,6,8,1] - allocated[3,1,6,8,2]
+   - allocated[3,2,6,8,1] - allocated[3,2,6,8,2] - allocated[3,3,6,8,1]
+   - allocated[3,3,6,8,2] - allocated[3,4,6,8,1] - allocated[3,4,6,8,2]
+   + layerInUse[3,8,6] <= 0
+ R29030: - allocated[4,1,1,1,1] - allocated[4,1,1,1,2]
+   - allocated[4,2,1,1,1] - allocated[4,2,1,1,2] - allocated[4,3,1,1,1]
+   - allocated[4,3,1,1,2] - allocated[4,4,1,1,1] - allocated[4,4,1,1,2]
+   + layerInUse[4,1,1] <= 0
+ R29031: - allocated[4,1,2,1,1] - allocated[4,1,2,1,2]
+   - allocated[4,2,2,1,1] - allocated[4,2,2,1,2] - allocated[4,3,2,1,1]
+   - allocated[4,3,2,1,2] - allocated[4,4,2,1,1] - allocated[4,4,2,1,2]
+   + layerInUse[4,1,2] <= 0
+ R29032: - allocated[4,1,3,1,1] - allocated[4,1,3,1,2]
+   - allocated[4,2,3,1,1] - allocated[4,2,3,1,2] - allocated[4,3,3,1,1]
+   - allocated[4,3,3,1,2] - allocated[4,4,3,1,1] - allocated[4,4,3,1,2]
+   + layerInUse[4,1,3] <= 0
+ R29033: - allocated[4,1,4,1,1] - allocated[4,1,4,1,2]
+   - allocated[4,2,4,1,1] - allocated[4,2,4,1,2] - allocated[4,3,4,1,1]
+   - allocated[4,3,4,1,2] - allocated[4,4,4,1,1] - allocated[4,4,4,1,2]
+   + layerInUse[4,1,4] <= 0
+ R29034: - allocated[4,1,5,1,1] - allocated[4,1,5,1,2]
+   - allocated[4,2,5,1,1] - allocated[4,2,5,1,2] - allocated[4,3,5,1,1]
+   - allocated[4,3,5,1,2] - allocated[4,4,5,1,1] - allocated[4,4,5,1,2]
+   + layerInUse[4,1,5] <= 0
+ R29035: - allocated[4,1,6,1,1] - allocated[4,1,6,1,2]
+   - allocated[4,2,6,1,1] - allocated[4,2,6,1,2] - allocated[4,3,6,1,1]
+   - allocated[4,3,6,1,2] - allocated[4,4,6,1,1] - allocated[4,4,6,1,2]
+   + layerInUse[4,1,6] <= 0
+ R29036: - allocated[4,1,1,2,1] - allocated[4,1,1,2,2]
+   - allocated[4,2,1,2,1] - allocated[4,2,1,2,2] - allocated[4,3,1,2,1]
+   - allocated[4,3,1,2,2] - allocated[4,4,1,2,1] - allocated[4,4,1,2,2]
+   + layerInUse[4,2,1] <= 0
+ R29037: - allocated[4,1,2,2,1] - allocated[4,1,2,2,2]
+   - allocated[4,2,2,2,1] - allocated[4,2,2,2,2] - allocated[4,3,2,2,1]
+   - allocated[4,3,2,2,2] - allocated[4,4,2,2,1] - allocated[4,4,2,2,2]
+   + layerInUse[4,2,2] <= 0
+ R29038: - allocated[4,1,3,2,1] - allocated[4,1,3,2,2]
+   - allocated[4,2,3,2,1] - allocated[4,2,3,2,2] - allocated[4,3,3,2,1]
+   - allocated[4,3,3,2,2] - allocated[4,4,3,2,1] - allocated[4,4,3,2,2]
+   + layerInUse[4,2,3] <= 0
+ R29039: - allocated[4,1,4,2,1] - allocated[4,1,4,2,2]
+   - allocated[4,2,4,2,1] - allocated[4,2,4,2,2] - allocated[4,3,4,2,1]
+   - allocated[4,3,4,2,2] - allocated[4,4,4,2,1] - allocated[4,4,4,2,2]
+   + layerInUse[4,2,4] <= 0
+ R29040: - allocated[4,1,5,2,1] - allocated[4,1,5,2,2]
+   - allocated[4,2,5,2,1] - allocated[4,2,5,2,2] - allocated[4,3,5,2,1]
+   - allocated[4,3,5,2,2] - allocated[4,4,5,2,1] - allocated[4,4,5,2,2]
+   + layerInUse[4,2,5] <= 0
+ R29041: - allocated[4,1,6,2,1] - allocated[4,1,6,2,2]
+   - allocated[4,2,6,2,1] - allocated[4,2,6,2,2] - allocated[4,3,6,2,1]
+   - allocated[4,3,6,2,2] - allocated[4,4,6,2,1] - allocated[4,4,6,2,2]
+   + layerInUse[4,2,6] <= 0
+ R29042: - allocated[4,1,1,3,1] - allocated[4,1,1,3,2]
+   - allocated[4,2,1,3,1] - allocated[4,2,1,3,2] - allocated[4,3,1,3,1]
+   - allocated[4,3,1,3,2] - allocated[4,4,1,3,1] - allocated[4,4,1,3,2]
+   + layerInUse[4,3,1] <= 0
+ R29043: - allocated[4,1,2,3,1] - allocated[4,1,2,3,2]
+   - allocated[4,2,2,3,1] - allocated[4,2,2,3,2] - allocated[4,3,2,3,1]
+   - allocated[4,3,2,3,2] - allocated[4,4,2,3,1] - allocated[4,4,2,3,2]
+   + layerInUse[4,3,2] <= 0
+ R29044: - allocated[4,1,3,3,1] - allocated[4,1,3,3,2]
+   - allocated[4,2,3,3,1] - allocated[4,2,3,3,2] - allocated[4,3,3,3,1]
+   - allocated[4,3,3,3,2] - allocated[4,4,3,3,1] - allocated[4,4,3,3,2]
+   + layerInUse[4,3,3] <= 0
+ R29045: - allocated[4,1,4,3,1] - allocated[4,1,4,3,2]
+   - allocated[4,2,4,3,1] - allocated[4,2,4,3,2] - allocated[4,3,4,3,1]
+   - allocated[4,3,4,3,2] - allocated[4,4,4,3,1] - allocated[4,4,4,3,2]
+   + layerInUse[4,3,4] <= 0
+ R29046: - allocated[4,1,5,3,1] - allocated[4,1,5,3,2]
+   - allocated[4,2,5,3,1] - allocated[4,2,5,3,2] - allocated[4,3,5,3,1]
+   - allocated[4,3,5,3,2] - allocated[4,4,5,3,1] - allocated[4,4,5,3,2]
+   + layerInUse[4,3,5] <= 0
+ R29047: - allocated[4,1,6,3,1] - allocated[4,1,6,3,2]
+   - allocated[4,2,6,3,1] - allocated[4,2,6,3,2] - allocated[4,3,6,3,1]
+   - allocated[4,3,6,3,2] - allocated[4,4,6,3,1] - allocated[4,4,6,3,2]
+   + layerInUse[4,3,6] <= 0
+ R29048: - allocated[4,1,1,4,1] - allocated[4,1,1,4,2]
+   - allocated[4,2,1,4,1] - allocated[4,2,1,4,2] - allocated[4,3,1,4,1]
+   - allocated[4,3,1,4,2] - allocated[4,4,1,4,1] - allocated[4,4,1,4,2]
+   + layerInUse[4,4,1] <= 0
+ R29049: - allocated[4,1,2,4,1] - allocated[4,1,2,4,2]
+   - allocated[4,2,2,4,1] - allocated[4,2,2,4,2] - allocated[4,3,2,4,1]
+   - allocated[4,3,2,4,2] - allocated[4,4,2,4,1] - allocated[4,4,2,4,2]
+   + layerInUse[4,4,2] <= 0
+ R29050: - allocated[4,1,3,4,1] - allocated[4,1,3,4,2]
+   - allocated[4,2,3,4,1] - allocated[4,2,3,4,2] - allocated[4,3,3,4,1]
+   - allocated[4,3,3,4,2] - allocated[4,4,3,4,1] - allocated[4,4,3,4,2]
+   + layerInUse[4,4,3] <= 0
+ R29051: - allocated[4,1,4,4,1] - allocated[4,1,4,4,2]
+   - allocated[4,2,4,4,1] - allocated[4,2,4,4,2] - allocated[4,3,4,4,1]
+   - allocated[4,3,4,4,2] - allocated[4,4,4,4,1] - allocated[4,4,4,4,2]
+   + layerInUse[4,4,4] <= 0
+ R29052: - allocated[4,1,5,4,1] - allocated[4,1,5,4,2]
+   - allocated[4,2,5,4,1] - allocated[4,2,5,4,2] - allocated[4,3,5,4,1]
+   - allocated[4,3,5,4,2] - allocated[4,4,5,4,1] - allocated[4,4,5,4,2]
+   + layerInUse[4,4,5] <= 0
+ R29053: - allocated[4,1,6,4,1] - allocated[4,1,6,4,2]
+   - allocated[4,2,6,4,1] - allocated[4,2,6,4,2] - allocated[4,3,6,4,1]
+   - allocated[4,3,6,4,2] - allocated[4,4,6,4,1] - allocated[4,4,6,4,2]
+   + layerInUse[4,4,6] <= 0
+ R29054: - allocated[4,1,1,5,1] - allocated[4,1,1,5,2]
+   - allocated[4,2,1,5,1] - allocated[4,2,1,5,2] - allocated[4,3,1,5,1]
+   - allocated[4,3,1,5,2] - allocated[4,4,1,5,1] - allocated[4,4,1,5,2]
+   + layerInUse[4,5,1] <= 0
+ R29055: - allocated[4,1,2,5,1] - allocated[4,1,2,5,2]
+   - allocated[4,2,2,5,1] - allocated[4,2,2,5,2] - allocated[4,3,2,5,1]
+   - allocated[4,3,2,5,2] - allocated[4,4,2,5,1] - allocated[4,4,2,5,2]
+   + layerInUse[4,5,2] <= 0
+ R29056: - allocated[4,1,3,5,1] - allocated[4,1,3,5,2]
+   - allocated[4,2,3,5,1] - allocated[4,2,3,5,2] - allocated[4,3,3,5,1]
+   - allocated[4,3,3,5,2] - allocated[4,4,3,5,1] - allocated[4,4,3,5,2]
+   + layerInUse[4,5,3] <= 0
+ R29057: - allocated[4,1,4,5,1] - allocated[4,1,4,5,2]
+   - allocated[4,2,4,5,1] - allocated[4,2,4,5,2] - allocated[4,3,4,5,1]
+   - allocated[4,3,4,5,2] - allocated[4,4,4,5,1] - allocated[4,4,4,5,2]
+   + layerInUse[4,5,4] <= 0
+ R29058: - allocated[4,1,5,5,1] - allocated[4,1,5,5,2]
+   - allocated[4,2,5,5,1] - allocated[4,2,5,5,2] - allocated[4,3,5,5,1]
+   - allocated[4,3,5,5,2] - allocated[4,4,5,5,1] - allocated[4,4,5,5,2]
+   + layerInUse[4,5,5] <= 0
+ R29059: - allocated[4,1,6,5,1] - allocated[4,1,6,5,2]
+   - allocated[4,2,6,5,1] - allocated[4,2,6,5,2] - allocated[4,3,6,5,1]
+   - allocated[4,3,6,5,2] - allocated[4,4,6,5,1] - allocated[4,4,6,5,2]
+   + layerInUse[4,5,6] <= 0
+ R29060: - allocated[4,1,1,6,1] - allocated[4,1,1,6,2]
+   - allocated[4,2,1,6,1] - allocated[4,2,1,6,2] - allocated[4,3,1,6,1]
+   - allocated[4,3,1,6,2] - allocated[4,4,1,6,1] - allocated[4,4,1,6,2]
+   + layerInUse[4,6,1] <= 0
+ R29061: - allocated[4,1,2,6,1] - allocated[4,1,2,6,2]
+   - allocated[4,2,2,6,1] - allocated[4,2,2,6,2] - allocated[4,3,2,6,1]
+   - allocated[4,3,2,6,2] - allocated[4,4,2,6,1] - allocated[4,4,2,6,2]
+   + layerInUse[4,6,2] <= 0
+ R29062: - allocated[4,1,3,6,1] - allocated[4,1,3,6,2]
+   - allocated[4,2,3,6,1] - allocated[4,2,3,6,2] - allocated[4,3,3,6,1]
+   - allocated[4,3,3,6,2] - allocated[4,4,3,6,1] - allocated[4,4,3,6,2]
+   + layerInUse[4,6,3] <= 0
+ R29063: - allocated[4,1,4,6,1] - allocated[4,1,4,6,2]
+   - allocated[4,2,4,6,1] - allocated[4,2,4,6,2] - allocated[4,3,4,6,1]
+   - allocated[4,3,4,6,2] - allocated[4,4,4,6,1] - allocated[4,4,4,6,2]
+   + layerInUse[4,6,4] <= 0
+ R29064: - allocated[4,1,5,6,1] - allocated[4,1,5,6,2]
+   - allocated[4,2,5,6,1] - allocated[4,2,5,6,2] - allocated[4,3,5,6,1]
+   - allocated[4,3,5,6,2] - allocated[4,4,5,6,1] - allocated[4,4,5,6,2]
+   + layerInUse[4,6,5] <= 0
+ R29065: - allocated[4,1,6,6,1] - allocated[4,1,6,6,2]
+   - allocated[4,2,6,6,1] - allocated[4,2,6,6,2] - allocated[4,3,6,6,1]
+   - allocated[4,3,6,6,2] - allocated[4,4,6,6,1] - allocated[4,4,6,6,2]
+   + layerInUse[4,6,6] <= 0
+ R29066: - allocated[4,1,1,7,1] - allocated[4,1,1,7,2]
+   - allocated[4,2,1,7,1] - allocated[4,2,1,7,2] - allocated[4,3,1,7,1]
+   - allocated[4,3,1,7,2] - allocated[4,4,1,7,1] - allocated[4,4,1,7,2]
+   + layerInUse[4,7,1] <= 0
+ R29067: - allocated[4,1,2,7,1] - allocated[4,1,2,7,2]
+   - allocated[4,2,2,7,1] - allocated[4,2,2,7,2] - allocated[4,3,2,7,1]
+   - allocated[4,3,2,7,2] - allocated[4,4,2,7,1] - allocated[4,4,2,7,2]
+   + layerInUse[4,7,2] <= 0
+ R29068: - allocated[4,1,3,7,1] - allocated[4,1,3,7,2]
+   - allocated[4,2,3,7,1] - allocated[4,2,3,7,2] - allocated[4,3,3,7,1]
+   - allocated[4,3,3,7,2] - allocated[4,4,3,7,1] - allocated[4,4,3,7,2]
+   + layerInUse[4,7,3] <= 0
+ R29069: - allocated[4,1,4,7,1] - allocated[4,1,4,7,2]
+   - allocated[4,2,4,7,1] - allocated[4,2,4,7,2] - allocated[4,3,4,7,1]
+   - allocated[4,3,4,7,2] - allocated[4,4,4,7,1] - allocated[4,4,4,7,2]
+   + layerInUse[4,7,4] <= 0
+ R29070: - allocated[4,1,5,7,1] - allocated[4,1,5,7,2]
+   - allocated[4,2,5,7,1] - allocated[4,2,5,7,2] - allocated[4,3,5,7,1]
+   - allocated[4,3,5,7,2] - allocated[4,4,5,7,1] - allocated[4,4,5,7,2]
+   + layerInUse[4,7,5] <= 0
+ R29071: - allocated[4,1,6,7,1] - allocated[4,1,6,7,2]
+   - allocated[4,2,6,7,1] - allocated[4,2,6,7,2] - allocated[4,3,6,7,1]
+   - allocated[4,3,6,7,2] - allocated[4,4,6,7,1] - allocated[4,4,6,7,2]
+   + layerInUse[4,7,6] <= 0
+ R29072: - allocated[4,1,1,8,1] - allocated[4,1,1,8,2]
+   - allocated[4,2,1,8,1] - allocated[4,2,1,8,2] - allocated[4,3,1,8,1]
+   - allocated[4,3,1,8,2] - allocated[4,4,1,8,1] - allocated[4,4,1,8,2]
+   + layerInUse[4,8,1] <= 0
+ R29073: - allocated[4,1,2,8,1] - allocated[4,1,2,8,2]
+   - allocated[4,2,2,8,1] - allocated[4,2,2,8,2] - allocated[4,3,2,8,1]
+   - allocated[4,3,2,8,2] - allocated[4,4,2,8,1] - allocated[4,4,2,8,2]
+   + layerInUse[4,8,2] <= 0
+ R29074: - allocated[4,1,3,8,1] - allocated[4,1,3,8,2]
+   - allocated[4,2,3,8,1] - allocated[4,2,3,8,2] - allocated[4,3,3,8,1]
+   - allocated[4,3,3,8,2] - allocated[4,4,3,8,1] - allocated[4,4,3,8,2]
+   + layerInUse[4,8,3] <= 0
+ R29075: - allocated[4,1,4,8,1] - allocated[4,1,4,8,2]
+   - allocated[4,2,4,8,1] - allocated[4,2,4,8,2] - allocated[4,3,4,8,1]
+   - allocated[4,3,4,8,2] - allocated[4,4,4,8,1] - allocated[4,4,4,8,2]
+   + layerInUse[4,8,4] <= 0
+ R29076: - allocated[4,1,5,8,1] - allocated[4,1,5,8,2]
+   - allocated[4,2,5,8,1] - allocated[4,2,5,8,2] - allocated[4,3,5,8,1]
+   - allocated[4,3,5,8,2] - allocated[4,4,5,8,1] - allocated[4,4,5,8,2]
+   + layerInUse[4,8,5] <= 0
+ R29077: - allocated[4,1,6,8,1] - allocated[4,1,6,8,2]
+   - allocated[4,2,6,8,1] - allocated[4,2,6,8,2] - allocated[4,3,6,8,1]
+   - allocated[4,3,6,8,2] - allocated[4,4,6,8,1] - allocated[4,4,6,8,2]
+   + layerInUse[4,8,6] <= 0
+ R29078: - allocated[5,1,1,1,1] - allocated[5,1,1,1,2]
+   - allocated[5,2,1,1,1] - allocated[5,2,1,1,2] - allocated[5,3,1,1,1]
+   - allocated[5,3,1,1,2] - allocated[5,4,1,1,1] - allocated[5,4,1,1,2]
+   + layerInUse[5,1,1] <= 0
+ R29079: - allocated[5,1,2,1,1] - allocated[5,1,2,1,2]
+   - allocated[5,2,2,1,1] - allocated[5,2,2,1,2] - allocated[5,3,2,1,1]
+   - allocated[5,3,2,1,2] - allocated[5,4,2,1,1] - allocated[5,4,2,1,2]
+   + layerInUse[5,1,2] <= 0
+ R29080: - allocated[5,1,3,1,1] - allocated[5,1,3,1,2]
+   - allocated[5,2,3,1,1] - allocated[5,2,3,1,2] - allocated[5,3,3,1,1]
+   - allocated[5,3,3,1,2] - allocated[5,4,3,1,1] - allocated[5,4,3,1,2]
+   + layerInUse[5,1,3] <= 0
+ R29081: - allocated[5,1,4,1,1] - allocated[5,1,4,1,2]
+   - allocated[5,2,4,1,1] - allocated[5,2,4,1,2] - allocated[5,3,4,1,1]
+   - allocated[5,3,4,1,2] - allocated[5,4,4,1,1] - allocated[5,4,4,1,2]
+   + layerInUse[5,1,4] <= 0
+ R29082: - allocated[5,1,5,1,1] - allocated[5,1,5,1,2]
+   - allocated[5,2,5,1,1] - allocated[5,2,5,1,2] - allocated[5,3,5,1,1]
+   - allocated[5,3,5,1,2] - allocated[5,4,5,1,1] - allocated[5,4,5,1,2]
+   + layerInUse[5,1,5] <= 0
+ R29083: - allocated[5,1,6,1,1] - allocated[5,1,6,1,2]
+   - allocated[5,2,6,1,1] - allocated[5,2,6,1,2] - allocated[5,3,6,1,1]
+   - allocated[5,3,6,1,2] - allocated[5,4,6,1,1] - allocated[5,4,6,1,2]
+   + layerInUse[5,1,6] <= 0
+ R29084: - allocated[5,1,1,2,1] - allocated[5,1,1,2,2]
+   - allocated[5,2,1,2,1] - allocated[5,2,1,2,2] - allocated[5,3,1,2,1]
+   - allocated[5,3,1,2,2] - allocated[5,4,1,2,1] - allocated[5,4,1,2,2]
+   + layerInUse[5,2,1] <= 0
+ R29085: - allocated[5,1,2,2,1] - allocated[5,1,2,2,2]
+   - allocated[5,2,2,2,1] - allocated[5,2,2,2,2] - allocated[5,3,2,2,1]
+   - allocated[5,3,2,2,2] - allocated[5,4,2,2,1] - allocated[5,4,2,2,2]
+   + layerInUse[5,2,2] <= 0
+ R29086: - allocated[5,1,3,2,1] - allocated[5,1,3,2,2]
+   - allocated[5,2,3,2,1] - allocated[5,2,3,2,2] - allocated[5,3,3,2,1]
+   - allocated[5,3,3,2,2] - allocated[5,4,3,2,1] - allocated[5,4,3,2,2]
+   + layerInUse[5,2,3] <= 0
+ R29087: - allocated[5,1,4,2,1] - allocated[5,1,4,2,2]
+   - allocated[5,2,4,2,1] - allocated[5,2,4,2,2] - allocated[5,3,4,2,1]
+   - allocated[5,3,4,2,2] - allocated[5,4,4,2,1] - allocated[5,4,4,2,2]
+   + layerInUse[5,2,4] <= 0
+ R29088: - allocated[5,1,5,2,1] - allocated[5,1,5,2,2]
+   - allocated[5,2,5,2,1] - allocated[5,2,5,2,2] - allocated[5,3,5,2,1]
+   - allocated[5,3,5,2,2] - allocated[5,4,5,2,1] - allocated[5,4,5,2,2]
+   + layerInUse[5,2,5] <= 0
+ R29089: - allocated[5,1,6,2,1] - allocated[5,1,6,2,2]
+   - allocated[5,2,6,2,1] - allocated[5,2,6,2,2] - allocated[5,3,6,2,1]
+   - allocated[5,3,6,2,2] - allocated[5,4,6,2,1] - allocated[5,4,6,2,2]
+   + layerInUse[5,2,6] <= 0
+ R29090: - allocated[5,1,1,3,1] - allocated[5,1,1,3,2]
+   - allocated[5,2,1,3,1] - allocated[5,2,1,3,2] - allocated[5,3,1,3,1]
+   - allocated[5,3,1,3,2] - allocated[5,4,1,3,1] - allocated[5,4,1,3,2]
+   + layerInUse[5,3,1] <= 0
+ R29091: - allocated[5,1,2,3,1] - allocated[5,1,2,3,2]
+   - allocated[5,2,2,3,1] - allocated[5,2,2,3,2] - allocated[5,3,2,3,1]
+   - allocated[5,3,2,3,2] - allocated[5,4,2,3,1] - allocated[5,4,2,3,2]
+   + layerInUse[5,3,2] <= 0
+ R29092: - allocated[5,1,3,3,1] - allocated[5,1,3,3,2]
+   - allocated[5,2,3,3,1] - allocated[5,2,3,3,2] - allocated[5,3,3,3,1]
+   - allocated[5,3,3,3,2] - allocated[5,4,3,3,1] - allocated[5,4,3,3,2]
+   + layerInUse[5,3,3] <= 0
+ R29093: - allocated[5,1,4,3,1] - allocated[5,1,4,3,2]
+   - allocated[5,2,4,3,1] - allocated[5,2,4,3,2] - allocated[5,3,4,3,1]
+   - allocated[5,3,4,3,2] - allocated[5,4,4,3,1] - allocated[5,4,4,3,2]
+   + layerInUse[5,3,4] <= 0
+ R29094: - allocated[5,1,5,3,1] - allocated[5,1,5,3,2]
+   - allocated[5,2,5,3,1] - allocated[5,2,5,3,2] - allocated[5,3,5,3,1]
+   - allocated[5,3,5,3,2] - allocated[5,4,5,3,1] - allocated[5,4,5,3,2]
+   + layerInUse[5,3,5] <= 0
+ R29095: - allocated[5,1,6,3,1] - allocated[5,1,6,3,2]
+   - allocated[5,2,6,3,1] - allocated[5,2,6,3,2] - allocated[5,3,6,3,1]
+   - allocated[5,3,6,3,2] - allocated[5,4,6,3,1] - allocated[5,4,6,3,2]
+   + layerInUse[5,3,6] <= 0
+ R29096: - allocated[5,1,1,4,1] - allocated[5,1,1,4,2]
+   - allocated[5,2,1,4,1] - allocated[5,2,1,4,2] - allocated[5,3,1,4,1]
+   - allocated[5,3,1,4,2] - allocated[5,4,1,4,1] - allocated[5,4,1,4,2]
+   + layerInUse[5,4,1] <= 0
+ R29097: - allocated[5,1,2,4,1] - allocated[5,1,2,4,2]
+   - allocated[5,2,2,4,1] - allocated[5,2,2,4,2] - allocated[5,3,2,4,1]
+   - allocated[5,3,2,4,2] - allocated[5,4,2,4,1] - allocated[5,4,2,4,2]
+   + layerInUse[5,4,2] <= 0
+ R29098: - allocated[5,1,3,4,1] - allocated[5,1,3,4,2]
+   - allocated[5,2,3,4,1] - allocated[5,2,3,4,2] - allocated[5,3,3,4,1]
+   - allocated[5,3,3,4,2] - allocated[5,4,3,4,1] - allocated[5,4,3,4,2]
+   + layerInUse[5,4,3] <= 0
+ R29099: - allocated[5,1,4,4,1] - allocated[5,1,4,4,2]
+   - allocated[5,2,4,4,1] - allocated[5,2,4,4,2] - allocated[5,3,4,4,1]
+   - allocated[5,3,4,4,2] - allocated[5,4,4,4,1] - allocated[5,4,4,4,2]
+   + layerInUse[5,4,4] <= 0
+ R29100: - allocated[5,1,5,4,1] - allocated[5,1,5,4,2]
+   - allocated[5,2,5,4,1] - allocated[5,2,5,4,2] - allocated[5,3,5,4,1]
+   - allocated[5,3,5,4,2] - allocated[5,4,5,4,1] - allocated[5,4,5,4,2]
+   + layerInUse[5,4,5] <= 0
+ R29101: - allocated[5,1,6,4,1] - allocated[5,1,6,4,2]
+   - allocated[5,2,6,4,1] - allocated[5,2,6,4,2] - allocated[5,3,6,4,1]
+   - allocated[5,3,6,4,2] - allocated[5,4,6,4,1] - allocated[5,4,6,4,2]
+   + layerInUse[5,4,6] <= 0
+ R29102: - allocated[5,1,1,5,1] - allocated[5,1,1,5,2]
+   - allocated[5,2,1,5,1] - allocated[5,2,1,5,2] - allocated[5,3,1,5,1]
+   - allocated[5,3,1,5,2] - allocated[5,4,1,5,1] - allocated[5,4,1,5,2]
+   + layerInUse[5,5,1] <= 0
+ R29103: - allocated[5,1,2,5,1] - allocated[5,1,2,5,2]
+   - allocated[5,2,2,5,1] - allocated[5,2,2,5,2] - allocated[5,3,2,5,1]
+   - allocated[5,3,2,5,2] - allocated[5,4,2,5,1] - allocated[5,4,2,5,2]
+   + layerInUse[5,5,2] <= 0
+ R29104: - allocated[5,1,3,5,1] - allocated[5,1,3,5,2]
+   - allocated[5,2,3,5,1] - allocated[5,2,3,5,2] - allocated[5,3,3,5,1]
+   - allocated[5,3,3,5,2] - allocated[5,4,3,5,1] - allocated[5,4,3,5,2]
+   + layerInUse[5,5,3] <= 0
+ R29105: - allocated[5,1,4,5,1] - allocated[5,1,4,5,2]
+   - allocated[5,2,4,5,1] - allocated[5,2,4,5,2] - allocated[5,3,4,5,1]
+   - allocated[5,3,4,5,2] - allocated[5,4,4,5,1] - allocated[5,4,4,5,2]
+   + layerInUse[5,5,4] <= 0
+ R29106: - allocated[5,1,5,5,1] - allocated[5,1,5,5,2]
+   - allocated[5,2,5,5,1] - allocated[5,2,5,5,2] - allocated[5,3,5,5,1]
+   - allocated[5,3,5,5,2] - allocated[5,4,5,5,1] - allocated[5,4,5,5,2]
+   + layerInUse[5,5,5] <= 0
+ R29107: - allocated[5,1,6,5,1] - allocated[5,1,6,5,2]
+   - allocated[5,2,6,5,1] - allocated[5,2,6,5,2] - allocated[5,3,6,5,1]
+   - allocated[5,3,6,5,2] - allocated[5,4,6,5,1] - allocated[5,4,6,5,2]
+   + layerInUse[5,5,6] <= 0
+ R29108: - allocated[5,1,1,6,1] - allocated[5,1,1,6,2]
+   - allocated[5,2,1,6,1] - allocated[5,2,1,6,2] - allocated[5,3,1,6,1]
+   - allocated[5,3,1,6,2] - allocated[5,4,1,6,1] - allocated[5,4,1,6,2]
+   + layerInUse[5,6,1] <= 0
+ R29109: - allocated[5,1,2,6,1] - allocated[5,1,2,6,2]
+   - allocated[5,2,2,6,1] - allocated[5,2,2,6,2] - allocated[5,3,2,6,1]
+   - allocated[5,3,2,6,2] - allocated[5,4,2,6,1] - allocated[5,4,2,6,2]
+   + layerInUse[5,6,2] <= 0
+ R29110: - allocated[5,1,3,6,1] - allocated[5,1,3,6,2]
+   - allocated[5,2,3,6,1] - allocated[5,2,3,6,2] - allocated[5,3,3,6,1]
+   - allocated[5,3,3,6,2] - allocated[5,4,3,6,1] - allocated[5,4,3,6,2]
+   + layerInUse[5,6,3] <= 0
+ R29111: - allocated[5,1,4,6,1] - allocated[5,1,4,6,2]
+   - allocated[5,2,4,6,1] - allocated[5,2,4,6,2] - allocated[5,3,4,6,1]
+   - allocated[5,3,4,6,2] - allocated[5,4,4,6,1] - allocated[5,4,4,6,2]
+   + layerInUse[5,6,4] <= 0
+ R29112: - allocated[5,1,5,6,1] - allocated[5,1,5,6,2]
+   - allocated[5,2,5,6,1] - allocated[5,2,5,6,2] - allocated[5,3,5,6,1]
+   - allocated[5,3,5,6,2] - allocated[5,4,5,6,1] - allocated[5,4,5,6,2]
+   + layerInUse[5,6,5] <= 0
+ R29113: - allocated[5,1,6,6,1] - allocated[5,1,6,6,2]
+   - allocated[5,2,6,6,1] - allocated[5,2,6,6,2] - allocated[5,3,6,6,1]
+   - allocated[5,3,6,6,2] - allocated[5,4,6,6,1] - allocated[5,4,6,6,2]
+   + layerInUse[5,6,6] <= 0
+ R29114: - allocated[5,1,1,7,1] - allocated[5,1,1,7,2]
+   - allocated[5,2,1,7,1] - allocated[5,2,1,7,2] - allocated[5,3,1,7,1]
+   - allocated[5,3,1,7,2] - allocated[5,4,1,7,1] - allocated[5,4,1,7,2]
+   + layerInUse[5,7,1] <= 0
+ R29115: - allocated[5,1,2,7,1] - allocated[5,1,2,7,2]
+   - allocated[5,2,2,7,1] - allocated[5,2,2,7,2] - allocated[5,3,2,7,1]
+   - allocated[5,3,2,7,2] - allocated[5,4,2,7,1] - allocated[5,4,2,7,2]
+   + layerInUse[5,7,2] <= 0
+ R29116: - allocated[5,1,3,7,1] - allocated[5,1,3,7,2]
+   - allocated[5,2,3,7,1] - allocated[5,2,3,7,2] - allocated[5,3,3,7,1]
+   - allocated[5,3,3,7,2] - allocated[5,4,3,7,1] - allocated[5,4,3,7,2]
+   + layerInUse[5,7,3] <= 0
+ R29117: - allocated[5,1,4,7,1] - allocated[5,1,4,7,2]
+   - allocated[5,2,4,7,1] - allocated[5,2,4,7,2] - allocated[5,3,4,7,1]
+   - allocated[5,3,4,7,2] - allocated[5,4,4,7,1] - allocated[5,4,4,7,2]
+   + layerInUse[5,7,4] <= 0
+ R29118: - allocated[5,1,5,7,1] - allocated[5,1,5,7,2]
+   - allocated[5,2,5,7,1] - allocated[5,2,5,7,2] - allocated[5,3,5,7,1]
+   - allocated[5,3,5,7,2] - allocated[5,4,5,7,1] - allocated[5,4,5,7,2]
+   + layerInUse[5,7,5] <= 0
+ R29119: - allocated[5,1,6,7,1] - allocated[5,1,6,7,2]
+   - allocated[5,2,6,7,1] - allocated[5,2,6,7,2] - allocated[5,3,6,7,1]
+   - allocated[5,3,6,7,2] - allocated[5,4,6,7,1] - allocated[5,4,6,7,2]
+   + layerInUse[5,7,6] <= 0
+ R29120: - allocated[5,1,1,8,1] - allocated[5,1,1,8,2]
+   - allocated[5,2,1,8,1] - allocated[5,2,1,8,2] - allocated[5,3,1,8,1]
+   - allocated[5,3,1,8,2] - allocated[5,4,1,8,1] - allocated[5,4,1,8,2]
+   + layerInUse[5,8,1] <= 0
+ R29121: - allocated[5,1,2,8,1] - allocated[5,1,2,8,2]
+   - allocated[5,2,2,8,1] - allocated[5,2,2,8,2] - allocated[5,3,2,8,1]
+   - allocated[5,3,2,8,2] - allocated[5,4,2,8,1] - allocated[5,4,2,8,2]
+   + layerInUse[5,8,2] <= 0
+ R29122: - allocated[5,1,3,8,1] - allocated[5,1,3,8,2]
+   - allocated[5,2,3,8,1] - allocated[5,2,3,8,2] - allocated[5,3,3,8,1]
+   - allocated[5,3,3,8,2] - allocated[5,4,3,8,1] - allocated[5,4,3,8,2]
+   + layerInUse[5,8,3] <= 0
+ R29123: - allocated[5,1,4,8,1] - allocated[5,1,4,8,2]
+   - allocated[5,2,4,8,1] - allocated[5,2,4,8,2] - allocated[5,3,4,8,1]
+   - allocated[5,3,4,8,2] - allocated[5,4,4,8,1] - allocated[5,4,4,8,2]
+   + layerInUse[5,8,4] <= 0
+ R29124: - allocated[5,1,5,8,1] - allocated[5,1,5,8,2]
+   - allocated[5,2,5,8,1] - allocated[5,2,5,8,2] - allocated[5,3,5,8,1]
+   - allocated[5,3,5,8,2] - allocated[5,4,5,8,1] - allocated[5,4,5,8,2]
+   + layerInUse[5,8,5] <= 0
+ R29125: - allocated[5,1,6,8,1] - allocated[5,1,6,8,2]
+   - allocated[5,2,6,8,1] - allocated[5,2,6,8,2] - allocated[5,3,6,8,1]
+   - allocated[5,3,6,8,2] - allocated[5,4,6,8,1] - allocated[5,4,6,8,2]
+   + layerInUse[5,8,6] <= 0
+ R29126: - allocated[6,1,1,1,1] - allocated[6,1,1,1,2]
+   - allocated[6,2,1,1,1] - allocated[6,2,1,1,2] - allocated[6,3,1,1,1]
+   - allocated[6,3,1,1,2] - allocated[6,4,1,1,1] - allocated[6,4,1,1,2]
+   + layerInUse[6,1,1] <= 0
+ R29127: - allocated[6,1,2,1,1] - allocated[6,1,2,1,2]
+   - allocated[6,2,2,1,1] - allocated[6,2,2,1,2] - allocated[6,3,2,1,1]
+   - allocated[6,3,2,1,2] - allocated[6,4,2,1,1] - allocated[6,4,2,1,2]
+   + layerInUse[6,1,2] <= 0
+ R29128: - allocated[6,1,3,1,1] - allocated[6,1,3,1,2]
+   - allocated[6,2,3,1,1] - allocated[6,2,3,1,2] - allocated[6,3,3,1,1]
+   - allocated[6,3,3,1,2] - allocated[6,4,3,1,1] - allocated[6,4,3,1,2]
+   + layerInUse[6,1,3] <= 0
+ R29129: - allocated[6,1,4,1,1] - allocated[6,1,4,1,2]
+   - allocated[6,2,4,1,1] - allocated[6,2,4,1,2] - allocated[6,3,4,1,1]
+   - allocated[6,3,4,1,2] - allocated[6,4,4,1,1] - allocated[6,4,4,1,2]
+   + layerInUse[6,1,4] <= 0
+ R29130: - allocated[6,1,5,1,1] - allocated[6,1,5,1,2]
+   - allocated[6,2,5,1,1] - allocated[6,2,5,1,2] - allocated[6,3,5,1,1]
+   - allocated[6,3,5,1,2] - allocated[6,4,5,1,1] - allocated[6,4,5,1,2]
+   + layerInUse[6,1,5] <= 0
+ R29131: - allocated[6,1,6,1,1] - allocated[6,1,6,1,2]
+   - allocated[6,2,6,1,1] - allocated[6,2,6,1,2] - allocated[6,3,6,1,1]
+   - allocated[6,3,6,1,2] - allocated[6,4,6,1,1] - allocated[6,4,6,1,2]
+   + layerInUse[6,1,6] <= 0
+ R29132: - allocated[6,1,1,2,1] - allocated[6,1,1,2,2]
+   - allocated[6,2,1,2,1] - allocated[6,2,1,2,2] - allocated[6,3,1,2,1]
+   - allocated[6,3,1,2,2] - allocated[6,4,1,2,1] - allocated[6,4,1,2,2]
+   + layerInUse[6,2,1] <= 0
+ R29133: - allocated[6,1,2,2,1] - allocated[6,1,2,2,2]
+   - allocated[6,2,2,2,1] - allocated[6,2,2,2,2] - allocated[6,3,2,2,1]
+   - allocated[6,3,2,2,2] - allocated[6,4,2,2,1] - allocated[6,4,2,2,2]
+   + layerInUse[6,2,2] <= 0
+ R29134: - allocated[6,1,3,2,1] - allocated[6,1,3,2,2]
+   - allocated[6,2,3,2,1] - allocated[6,2,3,2,2] - allocated[6,3,3,2,1]
+   - allocated[6,3,3,2,2] - allocated[6,4,3,2,1] - allocated[6,4,3,2,2]
+   + layerInUse[6,2,3] <= 0
+ R29135: - allocated[6,1,4,2,1] - allocated[6,1,4,2,2]
+   - allocated[6,2,4,2,1] - allocated[6,2,4,2,2] - allocated[6,3,4,2,1]
+   - allocated[6,3,4,2,2] - allocated[6,4,4,2,1] - allocated[6,4,4,2,2]
+   + layerInUse[6,2,4] <= 0
+ R29136: - allocated[6,1,5,2,1] - allocated[6,1,5,2,2]
+   - allocated[6,2,5,2,1] - allocated[6,2,5,2,2] - allocated[6,3,5,2,1]
+   - allocated[6,3,5,2,2] - allocated[6,4,5,2,1] - allocated[6,4,5,2,2]
+   + layerInUse[6,2,5] <= 0
+ R29137: - allocated[6,1,6,2,1] - allocated[6,1,6,2,2]
+   - allocated[6,2,6,2,1] - allocated[6,2,6,2,2] - allocated[6,3,6,2,1]
+   - allocated[6,3,6,2,2] - allocated[6,4,6,2,1] - allocated[6,4,6,2,2]
+   + layerInUse[6,2,6] <= 0
+ R29138: - allocated[6,1,1,3,1] - allocated[6,1,1,3,2]
+   - allocated[6,2,1,3,1] - allocated[6,2,1,3,2] - allocated[6,3,1,3,1]
+   - allocated[6,3,1,3,2] - allocated[6,4,1,3,1] - allocated[6,4,1,3,2]
+   + layerInUse[6,3,1] <= 0
+ R29139: - allocated[6,1,2,3,1] - allocated[6,1,2,3,2]
+   - allocated[6,2,2,3,1] - allocated[6,2,2,3,2] - allocated[6,3,2,3,1]
+   - allocated[6,3,2,3,2] - allocated[6,4,2,3,1] - allocated[6,4,2,3,2]
+   + layerInUse[6,3,2] <= 0
+ R29140: - allocated[6,1,3,3,1] - allocated[6,1,3,3,2]
+   - allocated[6,2,3,3,1] - allocated[6,2,3,3,2] - allocated[6,3,3,3,1]
+   - allocated[6,3,3,3,2] - allocated[6,4,3,3,1] - allocated[6,4,3,3,2]
+   + layerInUse[6,3,3] <= 0
+ R29141: - allocated[6,1,4,3,1] - allocated[6,1,4,3,2]
+   - allocated[6,2,4,3,1] - allocated[6,2,4,3,2] - allocated[6,3,4,3,1]
+   - allocated[6,3,4,3,2] - allocated[6,4,4,3,1] - allocated[6,4,4,3,2]
+   + layerInUse[6,3,4] <= 0
+ R29142: - allocated[6,1,5,3,1] - allocated[6,1,5,3,2]
+   - allocated[6,2,5,3,1] - allocated[6,2,5,3,2] - allocated[6,3,5,3,1]
+   - allocated[6,3,5,3,2] - allocated[6,4,5,3,1] - allocated[6,4,5,3,2]
+   + layerInUse[6,3,5] <= 0
+ R29143: - allocated[6,1,6,3,1] - allocated[6,1,6,3,2]
+   - allocated[6,2,6,3,1] - allocated[6,2,6,3,2] - allocated[6,3,6,3,1]
+   - allocated[6,3,6,3,2] - allocated[6,4,6,3,1] - allocated[6,4,6,3,2]
+   + layerInUse[6,3,6] <= 0
+ R29144: - allocated[6,1,1,4,1] - allocated[6,1,1,4,2]
+   - allocated[6,2,1,4,1] - allocated[6,2,1,4,2] - allocated[6,3,1,4,1]
+   - allocated[6,3,1,4,2] - allocated[6,4,1,4,1] - allocated[6,4,1,4,2]
+   + layerInUse[6,4,1] <= 0
+ R29145: - allocated[6,1,2,4,1] - allocated[6,1,2,4,2]
+   - allocated[6,2,2,4,1] - allocated[6,2,2,4,2] - allocated[6,3,2,4,1]
+   - allocated[6,3,2,4,2] - allocated[6,4,2,4,1] - allocated[6,4,2,4,2]
+   + layerInUse[6,4,2] <= 0
+ R29146: - allocated[6,1,3,4,1] - allocated[6,1,3,4,2]
+   - allocated[6,2,3,4,1] - allocated[6,2,3,4,2] - allocated[6,3,3,4,1]
+   - allocated[6,3,3,4,2] - allocated[6,4,3,4,1] - allocated[6,4,3,4,2]
+   + layerInUse[6,4,3] <= 0
+ R29147: - allocated[6,1,4,4,1] - allocated[6,1,4,4,2]
+   - allocated[6,2,4,4,1] - allocated[6,2,4,4,2] - allocated[6,3,4,4,1]
+   - allocated[6,3,4,4,2] - allocated[6,4,4,4,1] - allocated[6,4,4,4,2]
+   + layerInUse[6,4,4] <= 0
+ R29148: - allocated[6,1,5,4,1] - allocated[6,1,5,4,2]
+   - allocated[6,2,5,4,1] - allocated[6,2,5,4,2] - allocated[6,3,5,4,1]
+   - allocated[6,3,5,4,2] - allocated[6,4,5,4,1] - allocated[6,4,5,4,2]
+   + layerInUse[6,4,5] <= 0
+ R29149: - allocated[6,1,6,4,1] - allocated[6,1,6,4,2]
+   - allocated[6,2,6,4,1] - allocated[6,2,6,4,2] - allocated[6,3,6,4,1]
+   - allocated[6,3,6,4,2] - allocated[6,4,6,4,1] - allocated[6,4,6,4,2]
+   + layerInUse[6,4,6] <= 0
+ R29150: - allocated[6,1,1,5,1] - allocated[6,1,1,5,2]
+   - allocated[6,2,1,5,1] - allocated[6,2,1,5,2] - allocated[6,3,1,5,1]
+   - allocated[6,3,1,5,2] - allocated[6,4,1,5,1] - allocated[6,4,1,5,2]
+   + layerInUse[6,5,1] <= 0
+ R29151: - allocated[6,1,2,5,1] - allocated[6,1,2,5,2]
+   - allocated[6,2,2,5,1] - allocated[6,2,2,5,2] - allocated[6,3,2,5,1]
+   - allocated[6,3,2,5,2] - allocated[6,4,2,5,1] - allocated[6,4,2,5,2]
+   + layerInUse[6,5,2] <= 0
+ R29152: - allocated[6,1,3,5,1] - allocated[6,1,3,5,2]
+   - allocated[6,2,3,5,1] - allocated[6,2,3,5,2] - allocated[6,3,3,5,1]
+   - allocated[6,3,3,5,2] - allocated[6,4,3,5,1] - allocated[6,4,3,5,2]
+   + layerInUse[6,5,3] <= 0
+ R29153: - allocated[6,1,4,5,1] - allocated[6,1,4,5,2]
+   - allocated[6,2,4,5,1] - allocated[6,2,4,5,2] - allocated[6,3,4,5,1]
+   - allocated[6,3,4,5,2] - allocated[6,4,4,5,1] - allocated[6,4,4,5,2]
+   + layerInUse[6,5,4] <= 0
+ R29154: - allocated[6,1,5,5,1] - allocated[6,1,5,5,2]
+   - allocated[6,2,5,5,1] - allocated[6,2,5,5,2] - allocated[6,3,5,5,1]
+   - allocated[6,3,5,5,2] - allocated[6,4,5,5,1] - allocated[6,4,5,5,2]
+   + layerInUse[6,5,5] <= 0
+ R29155: - allocated[6,1,6,5,1] - allocated[6,1,6,5,2]
+   - allocated[6,2,6,5,1] - allocated[6,2,6,5,2] - allocated[6,3,6,5,1]
+   - allocated[6,3,6,5,2] - allocated[6,4,6,5,1] - allocated[6,4,6,5,2]
+   + layerInUse[6,5,6] <= 0
+ R29156: - allocated[6,1,1,6,1] - allocated[6,1,1,6,2]
+   - allocated[6,2,1,6,1] - allocated[6,2,1,6,2] - allocated[6,3,1,6,1]
+   - allocated[6,3,1,6,2] - allocated[6,4,1,6,1] - allocated[6,4,1,6,2]
+   + layerInUse[6,6,1] <= 0
+ R29157: - allocated[6,1,2,6,1] - allocated[6,1,2,6,2]
+   - allocated[6,2,2,6,1] - allocated[6,2,2,6,2] - allocated[6,3,2,6,1]
+   - allocated[6,3,2,6,2] - allocated[6,4,2,6,1] - allocated[6,4,2,6,2]
+   + layerInUse[6,6,2] <= 0
+ R29158: - allocated[6,1,3,6,1] - allocated[6,1,3,6,2]
+   - allocated[6,2,3,6,1] - allocated[6,2,3,6,2] - allocated[6,3,3,6,1]
+   - allocated[6,3,3,6,2] - allocated[6,4,3,6,1] - allocated[6,4,3,6,2]
+   + layerInUse[6,6,3] <= 0
+ R29159: - allocated[6,1,4,6,1] - allocated[6,1,4,6,2]
+   - allocated[6,2,4,6,1] - allocated[6,2,4,6,2] - allocated[6,3,4,6,1]
+   - allocated[6,3,4,6,2] - allocated[6,4,4,6,1] - allocated[6,4,4,6,2]
+   + layerInUse[6,6,4] <= 0
+ R29160: - allocated[6,1,5,6,1] - allocated[6,1,5,6,2]
+   - allocated[6,2,5,6,1] - allocated[6,2,5,6,2] - allocated[6,3,5,6,1]
+   - allocated[6,3,5,6,2] - allocated[6,4,5,6,1] - allocated[6,4,5,6,2]
+   + layerInUse[6,6,5] <= 0
+ R29161: - allocated[6,1,6,6,1] - allocated[6,1,6,6,2]
+   - allocated[6,2,6,6,1] - allocated[6,2,6,6,2] - allocated[6,3,6,6,1]
+   - allocated[6,3,6,6,2] - allocated[6,4,6,6,1] - allocated[6,4,6,6,2]
+   + layerInUse[6,6,6] <= 0
+ R29162: - allocated[6,1,1,7,1] - allocated[6,1,1,7,2]
+   - allocated[6,2,1,7,1] - allocated[6,2,1,7,2] - allocated[6,3,1,7,1]
+   - allocated[6,3,1,7,2] - allocated[6,4,1,7,1] - allocated[6,4,1,7,2]
+   + layerInUse[6,7,1] <= 0
+ R29163: - allocated[6,1,2,7,1] - allocated[6,1,2,7,2]
+   - allocated[6,2,2,7,1] - allocated[6,2,2,7,2] - allocated[6,3,2,7,1]
+   - allocated[6,3,2,7,2] - allocated[6,4,2,7,1] - allocated[6,4,2,7,2]
+   + layerInUse[6,7,2] <= 0
+ R29164: - allocated[6,1,3,7,1] - allocated[6,1,3,7,2]
+   - allocated[6,2,3,7,1] - allocated[6,2,3,7,2] - allocated[6,3,3,7,1]
+   - allocated[6,3,3,7,2] - allocated[6,4,3,7,1] - allocated[6,4,3,7,2]
+   + layerInUse[6,7,3] <= 0
+ R29165: - allocated[6,1,4,7,1] - allocated[6,1,4,7,2]
+   - allocated[6,2,4,7,1] - allocated[6,2,4,7,2] - allocated[6,3,4,7,1]
+   - allocated[6,3,4,7,2] - allocated[6,4,4,7,1] - allocated[6,4,4,7,2]
+   + layerInUse[6,7,4] <= 0
+ R29166: - allocated[6,1,5,7,1] - allocated[6,1,5,7,2]
+   - allocated[6,2,5,7,1] - allocated[6,2,5,7,2] - allocated[6,3,5,7,1]
+   - allocated[6,3,5,7,2] - allocated[6,4,5,7,1] - allocated[6,4,5,7,2]
+   + layerInUse[6,7,5] <= 0
+ R29167: - allocated[6,1,6,7,1] - allocated[6,1,6,7,2]
+   - allocated[6,2,6,7,1] - allocated[6,2,6,7,2] - allocated[6,3,6,7,1]
+   - allocated[6,3,6,7,2] - allocated[6,4,6,7,1] - allocated[6,4,6,7,2]
+   + layerInUse[6,7,6] <= 0
+ R29168: - allocated[6,1,1,8,1] - allocated[6,1,1,8,2]
+   - allocated[6,2,1,8,1] - allocated[6,2,1,8,2] - allocated[6,3,1,8,1]
+   - allocated[6,3,1,8,2] - allocated[6,4,1,8,1] - allocated[6,4,1,8,2]
+   + layerInUse[6,8,1] <= 0
+ R29169: - allocated[6,1,2,8,1] - allocated[6,1,2,8,2]
+   - allocated[6,2,2,8,1] - allocated[6,2,2,8,2] - allocated[6,3,2,8,1]
+   - allocated[6,3,2,8,2] - allocated[6,4,2,8,1] - allocated[6,4,2,8,2]
+   + layerInUse[6,8,2] <= 0
+ R29170: - allocated[6,1,3,8,1] - allocated[6,1,3,8,2]
+   - allocated[6,2,3,8,1] - allocated[6,2,3,8,2] - allocated[6,3,3,8,1]
+   - allocated[6,3,3,8,2] - allocated[6,4,3,8,1] - allocated[6,4,3,8,2]
+   + layerInUse[6,8,3] <= 0
+ R29171: - allocated[6,1,4,8,1] - allocated[6,1,4,8,2]
+   - allocated[6,2,4,8,1] - allocated[6,2,4,8,2] - allocated[6,3,4,8,1]
+   - allocated[6,3,4,8,2] - allocated[6,4,4,8,1] - allocated[6,4,4,8,2]
+   + layerInUse[6,8,4] <= 0
+ R29172: - allocated[6,1,5,8,1] - allocated[6,1,5,8,2]
+   - allocated[6,2,5,8,1] - allocated[6,2,5,8,2] - allocated[6,3,5,8,1]
+   - allocated[6,3,5,8,2] - allocated[6,4,5,8,1] - allocated[6,4,5,8,2]
+   + layerInUse[6,8,5] <= 0
+ R29173: - allocated[6,1,6,8,1] - allocated[6,1,6,8,2]
+   - allocated[6,2,6,8,1] - allocated[6,2,6,8,2] - allocated[6,3,6,8,1]
+   - allocated[6,3,6,8,2] - allocated[6,4,6,8,1] - allocated[6,4,6,8,2]
+   + layerInUse[6,8,6] <= 0
+ R29174: - allocated[7,1,1,1,1] - allocated[7,1,1,1,2]
+   - allocated[7,2,1,1,1] - allocated[7,2,1,1,2] - allocated[7,3,1,1,1]
+   - allocated[7,3,1,1,2] - allocated[7,4,1,1,1] - allocated[7,4,1,1,2]
+   + layerInUse[7,1,1] <= 0
+ R29175: - allocated[7,1,2,1,1] - allocated[7,1,2,1,2]
+   - allocated[7,2,2,1,1] - allocated[7,2,2,1,2] - allocated[7,3,2,1,1]
+   - allocated[7,3,2,1,2] - allocated[7,4,2,1,1] - allocated[7,4,2,1,2]
+   + layerInUse[7,1,2] <= 0
+ R29176: - allocated[7,1,3,1,1] - allocated[7,1,3,1,2]
+   - allocated[7,2,3,1,1] - allocated[7,2,3,1,2] - allocated[7,3,3,1,1]
+   - allocated[7,3,3,1,2] - allocated[7,4,3,1,1] - allocated[7,4,3,1,2]
+   + layerInUse[7,1,3] <= 0
+ R29177: - allocated[7,1,4,1,1] - allocated[7,1,4,1,2]
+   - allocated[7,2,4,1,1] - allocated[7,2,4,1,2] - allocated[7,3,4,1,1]
+   - allocated[7,3,4,1,2] - allocated[7,4,4,1,1] - allocated[7,4,4,1,2]
+   + layerInUse[7,1,4] <= 0
+ R29178: - allocated[7,1,5,1,1] - allocated[7,1,5,1,2]
+   - allocated[7,2,5,1,1] - allocated[7,2,5,1,2] - allocated[7,3,5,1,1]
+   - allocated[7,3,5,1,2] - allocated[7,4,5,1,1] - allocated[7,4,5,1,2]
+   + layerInUse[7,1,5] <= 0
+ R29179: - allocated[7,1,6,1,1] - allocated[7,1,6,1,2]
+   - allocated[7,2,6,1,1] - allocated[7,2,6,1,2] - allocated[7,3,6,1,1]
+   - allocated[7,3,6,1,2] - allocated[7,4,6,1,1] - allocated[7,4,6,1,2]
+   + layerInUse[7,1,6] <= 0
+ R29180: - allocated[7,1,1,2,1] - allocated[7,1,1,2,2]
+   - allocated[7,2,1,2,1] - allocated[7,2,1,2,2] - allocated[7,3,1,2,1]
+   - allocated[7,3,1,2,2] - allocated[7,4,1,2,1] - allocated[7,4,1,2,2]
+   + layerInUse[7,2,1] <= 0
+ R29181: - allocated[7,1,2,2,1] - allocated[7,1,2,2,2]
+   - allocated[7,2,2,2,1] - allocated[7,2,2,2,2] - allocated[7,3,2,2,1]
+   - allocated[7,3,2,2,2] - allocated[7,4,2,2,1] - allocated[7,4,2,2,2]
+   + layerInUse[7,2,2] <= 0
+ R29182: - allocated[7,1,3,2,1] - allocated[7,1,3,2,2]
+   - allocated[7,2,3,2,1] - allocated[7,2,3,2,2] - allocated[7,3,3,2,1]
+   - allocated[7,3,3,2,2] - allocated[7,4,3,2,1] - allocated[7,4,3,2,2]
+   + layerInUse[7,2,3] <= 0
+ R29183: - allocated[7,1,4,2,1] - allocated[7,1,4,2,2]
+   - allocated[7,2,4,2,1] - allocated[7,2,4,2,2] - allocated[7,3,4,2,1]
+   - allocated[7,3,4,2,2] - allocated[7,4,4,2,1] - allocated[7,4,4,2,2]
+   + layerInUse[7,2,4] <= 0
+ R29184: - allocated[7,1,5,2,1] - allocated[7,1,5,2,2]
+   - allocated[7,2,5,2,1] - allocated[7,2,5,2,2] - allocated[7,3,5,2,1]
+   - allocated[7,3,5,2,2] - allocated[7,4,5,2,1] - allocated[7,4,5,2,2]
+   + layerInUse[7,2,5] <= 0
+ R29185: - allocated[7,1,6,2,1] - allocated[7,1,6,2,2]
+   - allocated[7,2,6,2,1] - allocated[7,2,6,2,2] - allocated[7,3,6,2,1]
+   - allocated[7,3,6,2,2] - allocated[7,4,6,2,1] - allocated[7,4,6,2,2]
+   + layerInUse[7,2,6] <= 0
+ R29186: - allocated[7,1,1,3,1] - allocated[7,1,1,3,2]
+   - allocated[7,2,1,3,1] - allocated[7,2,1,3,2] - allocated[7,3,1,3,1]
+   - allocated[7,3,1,3,2] - allocated[7,4,1,3,1] - allocated[7,4,1,3,2]
+   + layerInUse[7,3,1] <= 0
+ R29187: - allocated[7,1,2,3,1] - allocated[7,1,2,3,2]
+   - allocated[7,2,2,3,1] - allocated[7,2,2,3,2] - allocated[7,3,2,3,1]
+   - allocated[7,3,2,3,2] - allocated[7,4,2,3,1] - allocated[7,4,2,3,2]
+   + layerInUse[7,3,2] <= 0
+ R29188: - allocated[7,1,3,3,1] - allocated[7,1,3,3,2]
+   - allocated[7,2,3,3,1] - allocated[7,2,3,3,2] - allocated[7,3,3,3,1]
+   - allocated[7,3,3,3,2] - allocated[7,4,3,3,1] - allocated[7,4,3,3,2]
+   + layerInUse[7,3,3] <= 0
+ R29189: - allocated[7,1,4,3,1] - allocated[7,1,4,3,2]
+   - allocated[7,2,4,3,1] - allocated[7,2,4,3,2] - allocated[7,3,4,3,1]
+   - allocated[7,3,4,3,2] - allocated[7,4,4,3,1] - allocated[7,4,4,3,2]
+   + layerInUse[7,3,4] <= 0
+ R29190: - allocated[7,1,5,3,1] - allocated[7,1,5,3,2]
+   - allocated[7,2,5,3,1] - allocated[7,2,5,3,2] - allocated[7,3,5,3,1]
+   - allocated[7,3,5,3,2] - allocated[7,4,5,3,1] - allocated[7,4,5,3,2]
+   + layerInUse[7,3,5] <= 0
+ R29191: - allocated[7,1,6,3,1] - allocated[7,1,6,3,2]
+   - allocated[7,2,6,3,1] - allocated[7,2,6,3,2] - allocated[7,3,6,3,1]
+   - allocated[7,3,6,3,2] - allocated[7,4,6,3,1] - allocated[7,4,6,3,2]
+   + layerInUse[7,3,6] <= 0
+ R29192: - allocated[7,1,1,4,1] - allocated[7,1,1,4,2]
+   - allocated[7,2,1,4,1] - allocated[7,2,1,4,2] - allocated[7,3,1,4,1]
+   - allocated[7,3,1,4,2] - allocated[7,4,1,4,1] - allocated[7,4,1,4,2]
+   + layerInUse[7,4,1] <= 0
+ R29193: - allocated[7,1,2,4,1] - allocated[7,1,2,4,2]
+   - allocated[7,2,2,4,1] - allocated[7,2,2,4,2] - allocated[7,3,2,4,1]
+   - allocated[7,3,2,4,2] - allocated[7,4,2,4,1] - allocated[7,4,2,4,2]
+   + layerInUse[7,4,2] <= 0
+ R29194: - allocated[7,1,3,4,1] - allocated[7,1,3,4,2]
+   - allocated[7,2,3,4,1] - allocated[7,2,3,4,2] - allocated[7,3,3,4,1]
+   - allocated[7,3,3,4,2] - allocated[7,4,3,4,1] - allocated[7,4,3,4,2]
+   + layerInUse[7,4,3] <= 0
+ R29195: - allocated[7,1,4,4,1] - allocated[7,1,4,4,2]
+   - allocated[7,2,4,4,1] - allocated[7,2,4,4,2] - allocated[7,3,4,4,1]
+   - allocated[7,3,4,4,2] - allocated[7,4,4,4,1] - allocated[7,4,4,4,2]
+   + layerInUse[7,4,4] <= 0
+ R29196: - allocated[7,1,5,4,1] - allocated[7,1,5,4,2]
+   - allocated[7,2,5,4,1] - allocated[7,2,5,4,2] - allocated[7,3,5,4,1]
+   - allocated[7,3,5,4,2] - allocated[7,4,5,4,1] - allocated[7,4,5,4,2]
+   + layerInUse[7,4,5] <= 0
+ R29197: - allocated[7,1,6,4,1] - allocated[7,1,6,4,2]
+   - allocated[7,2,6,4,1] - allocated[7,2,6,4,2] - allocated[7,3,6,4,1]
+   - allocated[7,3,6,4,2] - allocated[7,4,6,4,1] - allocated[7,4,6,4,2]
+   + layerInUse[7,4,6] <= 0
+ R29198: - allocated[7,1,1,5,1] - allocated[7,1,1,5,2]
+   - allocated[7,2,1,5,1] - allocated[7,2,1,5,2] - allocated[7,3,1,5,1]
+   - allocated[7,3,1,5,2] - allocated[7,4,1,5,1] - allocated[7,4,1,5,2]
+   + layerInUse[7,5,1] <= 0
+ R29199: - allocated[7,1,2,5,1] - allocated[7,1,2,5,2]
+   - allocated[7,2,2,5,1] - allocated[7,2,2,5,2] - allocated[7,3,2,5,1]
+   - allocated[7,3,2,5,2] - allocated[7,4,2,5,1] - allocated[7,4,2,5,2]
+   + layerInUse[7,5,2] <= 0
+ R29200: - allocated[7,1,3,5,1] - allocated[7,1,3,5,2]
+   - allocated[7,2,3,5,1] - allocated[7,2,3,5,2] - allocated[7,3,3,5,1]
+   - allocated[7,3,3,5,2] - allocated[7,4,3,5,1] - allocated[7,4,3,5,2]
+   + layerInUse[7,5,3] <= 0
+ R29201: - allocated[7,1,4,5,1] - allocated[7,1,4,5,2]
+   - allocated[7,2,4,5,1] - allocated[7,2,4,5,2] - allocated[7,3,4,5,1]
+   - allocated[7,3,4,5,2] - allocated[7,4,4,5,1] - allocated[7,4,4,5,2]
+   + layerInUse[7,5,4] <= 0
+ R29202: - allocated[7,1,5,5,1] - allocated[7,1,5,5,2]
+   - allocated[7,2,5,5,1] - allocated[7,2,5,5,2] - allocated[7,3,5,5,1]
+   - allocated[7,3,5,5,2] - allocated[7,4,5,5,1] - allocated[7,4,5,5,2]
+   + layerInUse[7,5,5] <= 0
+ R29203: - allocated[7,1,6,5,1] - allocated[7,1,6,5,2]
+   - allocated[7,2,6,5,1] - allocated[7,2,6,5,2] - allocated[7,3,6,5,1]
+   - allocated[7,3,6,5,2] - allocated[7,4,6,5,1] - allocated[7,4,6,5,2]
+   + layerInUse[7,5,6] <= 0
+ R29204: - allocated[7,1,1,6,1] - allocated[7,1,1,6,2]
+   - allocated[7,2,1,6,1] - allocated[7,2,1,6,2] - allocated[7,3,1,6,1]
+   - allocated[7,3,1,6,2] - allocated[7,4,1,6,1] - allocated[7,4,1,6,2]
+   + layerInUse[7,6,1] <= 0
+ R29205: - allocated[7,1,2,6,1] - allocated[7,1,2,6,2]
+   - allocated[7,2,2,6,1] - allocated[7,2,2,6,2] - allocated[7,3,2,6,1]
+   - allocated[7,3,2,6,2] - allocated[7,4,2,6,1] - allocated[7,4,2,6,2]
+   + layerInUse[7,6,2] <= 0
+ R29206: - allocated[7,1,3,6,1] - allocated[7,1,3,6,2]
+   - allocated[7,2,3,6,1] - allocated[7,2,3,6,2] - allocated[7,3,3,6,1]
+   - allocated[7,3,3,6,2] - allocated[7,4,3,6,1] - allocated[7,4,3,6,2]
+   + layerInUse[7,6,3] <= 0
+ R29207: - allocated[7,1,4,6,1] - allocated[7,1,4,6,2]
+   - allocated[7,2,4,6,1] - allocated[7,2,4,6,2] - allocated[7,3,4,6,1]
+   - allocated[7,3,4,6,2] - allocated[7,4,4,6,1] - allocated[7,4,4,6,2]
+   + layerInUse[7,6,4] <= 0
+ R29208: - allocated[7,1,5,6,1] - allocated[7,1,5,6,2]
+   - allocated[7,2,5,6,1] - allocated[7,2,5,6,2] - allocated[7,3,5,6,1]
+   - allocated[7,3,5,6,2] - allocated[7,4,5,6,1] - allocated[7,4,5,6,2]
+   + layerInUse[7,6,5] <= 0
+ R29209: - allocated[7,1,6,6,1] - allocated[7,1,6,6,2]
+   - allocated[7,2,6,6,1] - allocated[7,2,6,6,2] - allocated[7,3,6,6,1]
+   - allocated[7,3,6,6,2] - allocated[7,4,6,6,1] - allocated[7,4,6,6,2]
+   + layerInUse[7,6,6] <= 0
+ R29210: - allocated[7,1,1,7,1] - allocated[7,1,1,7,2]
+   - allocated[7,2,1,7,1] - allocated[7,2,1,7,2] - allocated[7,3,1,7,1]
+   - allocated[7,3,1,7,2] - allocated[7,4,1,7,1] - allocated[7,4,1,7,2]
+   + layerInUse[7,7,1] <= 0
+ R29211: - allocated[7,1,2,7,1] - allocated[7,1,2,7,2]
+   - allocated[7,2,2,7,1] - allocated[7,2,2,7,2] - allocated[7,3,2,7,1]
+   - allocated[7,3,2,7,2] - allocated[7,4,2,7,1] - allocated[7,4,2,7,2]
+   + layerInUse[7,7,2] <= 0
+ R29212: - allocated[7,1,3,7,1] - allocated[7,1,3,7,2]
+   - allocated[7,2,3,7,1] - allocated[7,2,3,7,2] - allocated[7,3,3,7,1]
+   - allocated[7,3,3,7,2] - allocated[7,4,3,7,1] - allocated[7,4,3,7,2]
+   + layerInUse[7,7,3] <= 0
+ R29213: - allocated[7,1,4,7,1] - allocated[7,1,4,7,2]
+   - allocated[7,2,4,7,1] - allocated[7,2,4,7,2] - allocated[7,3,4,7,1]
+   - allocated[7,3,4,7,2] - allocated[7,4,4,7,1] - allocated[7,4,4,7,2]
+   + layerInUse[7,7,4] <= 0
+ R29214: - allocated[7,1,5,7,1] - allocated[7,1,5,7,2]
+   - allocated[7,2,5,7,1] - allocated[7,2,5,7,2] - allocated[7,3,5,7,1]
+   - allocated[7,3,5,7,2] - allocated[7,4,5,7,1] - allocated[7,4,5,7,2]
+   + layerInUse[7,7,5] <= 0
+ R29215: - allocated[7,1,6,7,1] - allocated[7,1,6,7,2]
+   - allocated[7,2,6,7,1] - allocated[7,2,6,7,2] - allocated[7,3,6,7,1]
+   - allocated[7,3,6,7,2] - allocated[7,4,6,7,1] - allocated[7,4,6,7,2]
+   + layerInUse[7,7,6] <= 0
+ R29216: - allocated[7,1,1,8,1] - allocated[7,1,1,8,2]
+   - allocated[7,2,1,8,1] - allocated[7,2,1,8,2] - allocated[7,3,1,8,1]
+   - allocated[7,3,1,8,2] - allocated[7,4,1,8,1] - allocated[7,4,1,8,2]
+   + layerInUse[7,8,1] <= 0
+ R29217: - allocated[7,1,2,8,1] - allocated[7,1,2,8,2]
+   - allocated[7,2,2,8,1] - allocated[7,2,2,8,2] - allocated[7,3,2,8,1]
+   - allocated[7,3,2,8,2] - allocated[7,4,2,8,1] - allocated[7,4,2,8,2]
+   + layerInUse[7,8,2] <= 0
+ R29218: - allocated[7,1,3,8,1] - allocated[7,1,3,8,2]
+   - allocated[7,2,3,8,1] - allocated[7,2,3,8,2] - allocated[7,3,3,8,1]
+   - allocated[7,3,3,8,2] - allocated[7,4,3,8,1] - allocated[7,4,3,8,2]
+   + layerInUse[7,8,3] <= 0
+ R29219: - allocated[7,1,4,8,1] - allocated[7,1,4,8,2]
+   - allocated[7,2,4,8,1] - allocated[7,2,4,8,2] - allocated[7,3,4,8,1]
+   - allocated[7,3,4,8,2] - allocated[7,4,4,8,1] - allocated[7,4,4,8,2]
+   + layerInUse[7,8,4] <= 0
+ R29220: - allocated[7,1,5,8,1] - allocated[7,1,5,8,2]
+   - allocated[7,2,5,8,1] - allocated[7,2,5,8,2] - allocated[7,3,5,8,1]
+   - allocated[7,3,5,8,2] - allocated[7,4,5,8,1] - allocated[7,4,5,8,2]
+   + layerInUse[7,8,5] <= 0
+ R29221: - allocated[7,1,6,8,1] - allocated[7,1,6,8,2]
+   - allocated[7,2,6,8,1] - allocated[7,2,6,8,2] - allocated[7,3,6,8,1]
+   - allocated[7,3,6,8,2] - allocated[7,4,6,8,1] - allocated[7,4,6,8,2]
+   + layerInUse[7,8,6] <= 0
+ R29222: - allocated[8,1,1,1,1] - allocated[8,1,1,1,2]
+   - allocated[8,2,1,1,1] - allocated[8,2,1,1,2] - allocated[8,3,1,1,1]
+   - allocated[8,3,1,1,2] - allocated[8,4,1,1,1] - allocated[8,4,1,1,2]
+   + layerInUse[8,1,1] <= 0
+ R29223: - allocated[8,1,2,1,1] - allocated[8,1,2,1,2]
+   - allocated[8,2,2,1,1] - allocated[8,2,2,1,2] - allocated[8,3,2,1,1]
+   - allocated[8,3,2,1,2] - allocated[8,4,2,1,1] - allocated[8,4,2,1,2]
+   + layerInUse[8,1,2] <= 0
+ R29224: - allocated[8,1,3,1,1] - allocated[8,1,3,1,2]
+   - allocated[8,2,3,1,1] - allocated[8,2,3,1,2] - allocated[8,3,3,1,1]
+   - allocated[8,3,3,1,2] - allocated[8,4,3,1,1] - allocated[8,4,3,1,2]
+   + layerInUse[8,1,3] <= 0
+ R29225: - allocated[8,1,4,1,1] - allocated[8,1,4,1,2]
+   - allocated[8,2,4,1,1] - allocated[8,2,4,1,2] - allocated[8,3,4,1,1]
+   - allocated[8,3,4,1,2] - allocated[8,4,4,1,1] - allocated[8,4,4,1,2]
+   + layerInUse[8,1,4] <= 0
+ R29226: - allocated[8,1,5,1,1] - allocated[8,1,5,1,2]
+   - allocated[8,2,5,1,1] - allocated[8,2,5,1,2] - allocated[8,3,5,1,1]
+   - allocated[8,3,5,1,2] - allocated[8,4,5,1,1] - allocated[8,4,5,1,2]
+   + layerInUse[8,1,5] <= 0
+ R29227: - allocated[8,1,6,1,1] - allocated[8,1,6,1,2]
+   - allocated[8,2,6,1,1] - allocated[8,2,6,1,2] - allocated[8,3,6,1,1]
+   - allocated[8,3,6,1,2] - allocated[8,4,6,1,1] - allocated[8,4,6,1,2]
+   + layerInUse[8,1,6] <= 0
+ R29228: - allocated[8,1,1,2,1] - allocated[8,1,1,2,2]
+   - allocated[8,2,1,2,1] - allocated[8,2,1,2,2] - allocated[8,3,1,2,1]
+   - allocated[8,3,1,2,2] - allocated[8,4,1,2,1] - allocated[8,4,1,2,2]
+   + layerInUse[8,2,1] <= 0
+ R29229: - allocated[8,1,2,2,1] - allocated[8,1,2,2,2]
+   - allocated[8,2,2,2,1] - allocated[8,2,2,2,2] - allocated[8,3,2,2,1]
+   - allocated[8,3,2,2,2] - allocated[8,4,2,2,1] - allocated[8,4,2,2,2]
+   + layerInUse[8,2,2] <= 0
+ R29230: - allocated[8,1,3,2,1] - allocated[8,1,3,2,2]
+   - allocated[8,2,3,2,1] - allocated[8,2,3,2,2] - allocated[8,3,3,2,1]
+   - allocated[8,3,3,2,2] - allocated[8,4,3,2,1] - allocated[8,4,3,2,2]
+   + layerInUse[8,2,3] <= 0
+ R29231: - allocated[8,1,4,2,1] - allocated[8,1,4,2,2]
+   - allocated[8,2,4,2,1] - allocated[8,2,4,2,2] - allocated[8,3,4,2,1]
+   - allocated[8,3,4,2,2] - allocated[8,4,4,2,1] - allocated[8,4,4,2,2]
+   + layerInUse[8,2,4] <= 0
+ R29232: - allocated[8,1,5,2,1] - allocated[8,1,5,2,2]
+   - allocated[8,2,5,2,1] - allocated[8,2,5,2,2] - allocated[8,3,5,2,1]
+   - allocated[8,3,5,2,2] - allocated[8,4,5,2,1] - allocated[8,4,5,2,2]
+   + layerInUse[8,2,5] <= 0
+ R29233: - allocated[8,1,6,2,1] - allocated[8,1,6,2,2]
+   - allocated[8,2,6,2,1] - allocated[8,2,6,2,2] - allocated[8,3,6,2,1]
+   - allocated[8,3,6,2,2] - allocated[8,4,6,2,1] - allocated[8,4,6,2,2]
+   + layerInUse[8,2,6] <= 0
+ R29234: - allocated[8,1,1,3,1] - allocated[8,1,1,3,2]
+   - allocated[8,2,1,3,1] - allocated[8,2,1,3,2] - allocated[8,3,1,3,1]
+   - allocated[8,3,1,3,2] - allocated[8,4,1,3,1] - allocated[8,4,1,3,2]
+   + layerInUse[8,3,1] <= 0
+ R29235: - allocated[8,1,2,3,1] - allocated[8,1,2,3,2]
+   - allocated[8,2,2,3,1] - allocated[8,2,2,3,2] - allocated[8,3,2,3,1]
+   - allocated[8,3,2,3,2] - allocated[8,4,2,3,1] - allocated[8,4,2,3,2]
+   + layerInUse[8,3,2] <= 0
+ R29236: - allocated[8,1,3,3,1] - allocated[8,1,3,3,2]
+   - allocated[8,2,3,3,1] - allocated[8,2,3,3,2] - allocated[8,3,3,3,1]
+   - allocated[8,3,3,3,2] - allocated[8,4,3,3,1] - allocated[8,4,3,3,2]
+   + layerInUse[8,3,3] <= 0
+ R29237: - allocated[8,1,4,3,1] - allocated[8,1,4,3,2]
+   - allocated[8,2,4,3,1] - allocated[8,2,4,3,2] - allocated[8,3,4,3,1]
+   - allocated[8,3,4,3,2] - allocated[8,4,4,3,1] - allocated[8,4,4,3,2]
+   + layerInUse[8,3,4] <= 0
+ R29238: - allocated[8,1,5,3,1] - allocated[8,1,5,3,2]
+   - allocated[8,2,5,3,1] - allocated[8,2,5,3,2] - allocated[8,3,5,3,1]
+   - allocated[8,3,5,3,2] - allocated[8,4,5,3,1] - allocated[8,4,5,3,2]
+   + layerInUse[8,3,5] <= 0
+ R29239: - allocated[8,1,6,3,1] - allocated[8,1,6,3,2]
+   - allocated[8,2,6,3,1] - allocated[8,2,6,3,2] - allocated[8,3,6,3,1]
+   - allocated[8,3,6,3,2] - allocated[8,4,6,3,1] - allocated[8,4,6,3,2]
+   + layerInUse[8,3,6] <= 0
+ R29240: - allocated[8,1,1,4,1] - allocated[8,1,1,4,2]
+   - allocated[8,2,1,4,1] - allocated[8,2,1,4,2] - allocated[8,3,1,4,1]
+   - allocated[8,3,1,4,2] - allocated[8,4,1,4,1] - allocated[8,4,1,4,2]
+   + layerInUse[8,4,1] <= 0
+ R29241: - allocated[8,1,2,4,1] - allocated[8,1,2,4,2]
+   - allocated[8,2,2,4,1] - allocated[8,2,2,4,2] - allocated[8,3,2,4,1]
+   - allocated[8,3,2,4,2] - allocated[8,4,2,4,1] - allocated[8,4,2,4,2]
+   + layerInUse[8,4,2] <= 0
+ R29242: - allocated[8,1,3,4,1] - allocated[8,1,3,4,2]
+   - allocated[8,2,3,4,1] - allocated[8,2,3,4,2] - allocated[8,3,3,4,1]
+   - allocated[8,3,3,4,2] - allocated[8,4,3,4,1] - allocated[8,4,3,4,2]
+   + layerInUse[8,4,3] <= 0
+ R29243: - allocated[8,1,4,4,1] - allocated[8,1,4,4,2]
+   - allocated[8,2,4,4,1] - allocated[8,2,4,4,2] - allocated[8,3,4,4,1]
+   - allocated[8,3,4,4,2] - allocated[8,4,4,4,1] - allocated[8,4,4,4,2]
+   + layerInUse[8,4,4] <= 0
+ R29244: - allocated[8,1,5,4,1] - allocated[8,1,5,4,2]
+   - allocated[8,2,5,4,1] - allocated[8,2,5,4,2] - allocated[8,3,5,4,1]
+   - allocated[8,3,5,4,2] - allocated[8,4,5,4,1] - allocated[8,4,5,4,2]
+   + layerInUse[8,4,5] <= 0
+ R29245: - allocated[8,1,6,4,1] - allocated[8,1,6,4,2]
+   - allocated[8,2,6,4,1] - allocated[8,2,6,4,2] - allocated[8,3,6,4,1]
+   - allocated[8,3,6,4,2] - allocated[8,4,6,4,1] - allocated[8,4,6,4,2]
+   + layerInUse[8,4,6] <= 0
+ R29246: - allocated[8,1,1,5,1] - allocated[8,1,1,5,2]
+   - allocated[8,2,1,5,1] - allocated[8,2,1,5,2] - allocated[8,3,1,5,1]
+   - allocated[8,3,1,5,2] - allocated[8,4,1,5,1] - allocated[8,4,1,5,2]
+   + layerInUse[8,5,1] <= 0
+ R29247: - allocated[8,1,2,5,1] - allocated[8,1,2,5,2]
+   - allocated[8,2,2,5,1] - allocated[8,2,2,5,2] - allocated[8,3,2,5,1]
+   - allocated[8,3,2,5,2] - allocated[8,4,2,5,1] - allocated[8,4,2,5,2]
+   + layerInUse[8,5,2] <= 0
+ R29248: - allocated[8,1,3,5,1] - allocated[8,1,3,5,2]
+   - allocated[8,2,3,5,1] - allocated[8,2,3,5,2] - allocated[8,3,3,5,1]
+   - allocated[8,3,3,5,2] - allocated[8,4,3,5,1] - allocated[8,4,3,5,2]
+   + layerInUse[8,5,3] <= 0
+ R29249: - allocated[8,1,4,5,1] - allocated[8,1,4,5,2]
+   - allocated[8,2,4,5,1] - allocated[8,2,4,5,2] - allocated[8,3,4,5,1]
+   - allocated[8,3,4,5,2] - allocated[8,4,4,5,1] - allocated[8,4,4,5,2]
+   + layerInUse[8,5,4] <= 0
+ R29250: - allocated[8,1,5,5,1] - allocated[8,1,5,5,2]
+   - allocated[8,2,5,5,1] - allocated[8,2,5,5,2] - allocated[8,3,5,5,1]
+   - allocated[8,3,5,5,2] - allocated[8,4,5,5,1] - allocated[8,4,5,5,2]
+   + layerInUse[8,5,5] <= 0
+ R29251: - allocated[8,1,6,5,1] - allocated[8,1,6,5,2]
+   - allocated[8,2,6,5,1] - allocated[8,2,6,5,2] - allocated[8,3,6,5,1]
+   - allocated[8,3,6,5,2] - allocated[8,4,6,5,1] - allocated[8,4,6,5,2]
+   + layerInUse[8,5,6] <= 0
+ R29252: - allocated[8,1,1,6,1] - allocated[8,1,1,6,2]
+   - allocated[8,2,1,6,1] - allocated[8,2,1,6,2] - allocated[8,3,1,6,1]
+   - allocated[8,3,1,6,2] - allocated[8,4,1,6,1] - allocated[8,4,1,6,2]
+   + layerInUse[8,6,1] <= 0
+ R29253: - allocated[8,1,2,6,1] - allocated[8,1,2,6,2]
+   - allocated[8,2,2,6,1] - allocated[8,2,2,6,2] - allocated[8,3,2,6,1]
+   - allocated[8,3,2,6,2] - allocated[8,4,2,6,1] - allocated[8,4,2,6,2]
+   + layerInUse[8,6,2] <= 0
+ R29254: - allocated[8,1,3,6,1] - allocated[8,1,3,6,2]
+   - allocated[8,2,3,6,1] - allocated[8,2,3,6,2] - allocated[8,3,3,6,1]
+   - allocated[8,3,3,6,2] - allocated[8,4,3,6,1] - allocated[8,4,3,6,2]
+   + layerInUse[8,6,3] <= 0
+ R29255: - allocated[8,1,4,6,1] - allocated[8,1,4,6,2]
+   - allocated[8,2,4,6,1] - allocated[8,2,4,6,2] - allocated[8,3,4,6,1]
+   - allocated[8,3,4,6,2] - allocated[8,4,4,6,1] - allocated[8,4,4,6,2]
+   + layerInUse[8,6,4] <= 0
+ R29256: - allocated[8,1,5,6,1] - allocated[8,1,5,6,2]
+   - allocated[8,2,5,6,1] - allocated[8,2,5,6,2] - allocated[8,3,5,6,1]
+   - allocated[8,3,5,6,2] - allocated[8,4,5,6,1] - allocated[8,4,5,6,2]
+   + layerInUse[8,6,5] <= 0
+ R29257: - allocated[8,1,6,6,1] - allocated[8,1,6,6,2]
+   - allocated[8,2,6,6,1] - allocated[8,2,6,6,2] - allocated[8,3,6,6,1]
+   - allocated[8,3,6,6,2] - allocated[8,4,6,6,1] - allocated[8,4,6,6,2]
+   + layerInUse[8,6,6] <= 0
+ R29258: - allocated[8,1,1,7,1] - allocated[8,1,1,7,2]
+   - allocated[8,2,1,7,1] - allocated[8,2,1,7,2] - allocated[8,3,1,7,1]
+   - allocated[8,3,1,7,2] - allocated[8,4,1,7,1] - allocated[8,4,1,7,2]
+   + layerInUse[8,7,1] <= 0
+ R29259: - allocated[8,1,2,7,1] - allocated[8,1,2,7,2]
+   - allocated[8,2,2,7,1] - allocated[8,2,2,7,2] - allocated[8,3,2,7,1]
+   - allocated[8,3,2,7,2] - allocated[8,4,2,7,1] - allocated[8,4,2,7,2]
+   + layerInUse[8,7,2] <= 0
+ R29260: - allocated[8,1,3,7,1] - allocated[8,1,3,7,2]
+   - allocated[8,2,3,7,1] - allocated[8,2,3,7,2] - allocated[8,3,3,7,1]
+   - allocated[8,3,3,7,2] - allocated[8,4,3,7,1] - allocated[8,4,3,7,2]
+   + layerInUse[8,7,3] <= 0
+ R29261: - allocated[8,1,4,7,1] - allocated[8,1,4,7,2]
+   - allocated[8,2,4,7,1] - allocated[8,2,4,7,2] - allocated[8,3,4,7,1]
+   - allocated[8,3,4,7,2] - allocated[8,4,4,7,1] - allocated[8,4,4,7,2]
+   + layerInUse[8,7,4] <= 0
+ R29262: - allocated[8,1,5,7,1] - allocated[8,1,5,7,2]
+   - allocated[8,2,5,7,1] - allocated[8,2,5,7,2] - allocated[8,3,5,7,1]
+   - allocated[8,3,5,7,2] - allocated[8,4,5,7,1] - allocated[8,4,5,7,2]
+   + layerInUse[8,7,5] <= 0
+ R29263: - allocated[8,1,6,7,1] - allocated[8,1,6,7,2]
+   - allocated[8,2,6,7,1] - allocated[8,2,6,7,2] - allocated[8,3,6,7,1]
+   - allocated[8,3,6,7,2] - allocated[8,4,6,7,1] - allocated[8,4,6,7,2]
+   + layerInUse[8,7,6] <= 0
+ R29264: - allocated[8,1,1,8,1] - allocated[8,1,1,8,2]
+   - allocated[8,2,1,8,1] - allocated[8,2,1,8,2] - allocated[8,3,1,8,1]
+   - allocated[8,3,1,8,2] - allocated[8,4,1,8,1] - allocated[8,4,1,8,2]
+   + layerInUse[8,8,1] <= 0
+ R29265: - allocated[8,1,2,8,1] - allocated[8,1,2,8,2]
+   - allocated[8,2,2,8,1] - allocated[8,2,2,8,2] - allocated[8,3,2,8,1]
+   - allocated[8,3,2,8,2] - allocated[8,4,2,8,1] - allocated[8,4,2,8,2]
+   + layerInUse[8,8,2] <= 0
+ R29266: - allocated[8,1,3,8,1] - allocated[8,1,3,8,2]
+   - allocated[8,2,3,8,1] - allocated[8,2,3,8,2] - allocated[8,3,3,8,1]
+   - allocated[8,3,3,8,2] - allocated[8,4,3,8,1] - allocated[8,4,3,8,2]
+   + layerInUse[8,8,3] <= 0
+ R29267: - allocated[8,1,4,8,1] - allocated[8,1,4,8,2]
+   - allocated[8,2,4,8,1] - allocated[8,2,4,8,2] - allocated[8,3,4,8,1]
+   - allocated[8,3,4,8,2] - allocated[8,4,4,8,1] - allocated[8,4,4,8,2]
+   + layerInUse[8,8,4] <= 0
+ R29268: - allocated[8,1,5,8,1] - allocated[8,1,5,8,2]
+   - allocated[8,2,5,8,1] - allocated[8,2,5,8,2] - allocated[8,3,5,8,1]
+   - allocated[8,3,5,8,2] - allocated[8,4,5,8,1] - allocated[8,4,5,8,2]
+   + layerInUse[8,8,5] <= 0
+ R29269: - allocated[8,1,6,8,1] - allocated[8,1,6,8,2]
+   - allocated[8,2,6,8,1] - allocated[8,2,6,8,2] - allocated[8,3,6,8,1]
+   - allocated[8,3,6,8,2] - allocated[8,4,6,8,1] - allocated[8,4,6,8,2]
+   + layerInUse[8,8,6] <= 0
+ R29270: - allocated[9,1,1,1,1] - allocated[9,1,1,1,2]
+   - allocated[9,2,1,1,1] - allocated[9,2,1,1,2] - allocated[9,3,1,1,1]
+   - allocated[9,3,1,1,2] - allocated[9,4,1,1,1] - allocated[9,4,1,1,2]
+   + layerInUse[9,1,1] <= 0
+ R29271: - allocated[9,1,2,1,1] - allocated[9,1,2,1,2]
+   - allocated[9,2,2,1,1] - allocated[9,2,2,1,2] - allocated[9,3,2,1,1]
+   - allocated[9,3,2,1,2] - allocated[9,4,2,1,1] - allocated[9,4,2,1,2]
+   + layerInUse[9,1,2] <= 0
+ R29272: - allocated[9,1,3,1,1] - allocated[9,1,3,1,2]
+   - allocated[9,2,3,1,1] - allocated[9,2,3,1,2] - allocated[9,3,3,1,1]
+   - allocated[9,3,3,1,2] - allocated[9,4,3,1,1] - allocated[9,4,3,1,2]
+   + layerInUse[9,1,3] <= 0
+ R29273: - allocated[9,1,4,1,1] - allocated[9,1,4,1,2]
+   - allocated[9,2,4,1,1] - allocated[9,2,4,1,2] - allocated[9,3,4,1,1]
+   - allocated[9,3,4,1,2] - allocated[9,4,4,1,1] - allocated[9,4,4,1,2]
+   + layerInUse[9,1,4] <= 0
+ R29274: - allocated[9,1,5,1,1] - allocated[9,1,5,1,2]
+   - allocated[9,2,5,1,1] - allocated[9,2,5,1,2] - allocated[9,3,5,1,1]
+   - allocated[9,3,5,1,2] - allocated[9,4,5,1,1] - allocated[9,4,5,1,2]
+   + layerInUse[9,1,5] <= 0
+ R29275: - allocated[9,1,6,1,1] - allocated[9,1,6,1,2]
+   - allocated[9,2,6,1,1] - allocated[9,2,6,1,2] - allocated[9,3,6,1,1]
+   - allocated[9,3,6,1,2] - allocated[9,4,6,1,1] - allocated[9,4,6,1,2]
+   + layerInUse[9,1,6] <= 0
+ R29276: - allocated[9,1,1,2,1] - allocated[9,1,1,2,2]
+   - allocated[9,2,1,2,1] - allocated[9,2,1,2,2] - allocated[9,3,1,2,1]
+   - allocated[9,3,1,2,2] - allocated[9,4,1,2,1] - allocated[9,4,1,2,2]
+   + layerInUse[9,2,1] <= 0
+ R29277: - allocated[9,1,2,2,1] - allocated[9,1,2,2,2]
+   - allocated[9,2,2,2,1] - allocated[9,2,2,2,2] - allocated[9,3,2,2,1]
+   - allocated[9,3,2,2,2] - allocated[9,4,2,2,1] - allocated[9,4,2,2,2]
+   + layerInUse[9,2,2] <= 0
+ R29278: - allocated[9,1,3,2,1] - allocated[9,1,3,2,2]
+   - allocated[9,2,3,2,1] - allocated[9,2,3,2,2] - allocated[9,3,3,2,1]
+   - allocated[9,3,3,2,2] - allocated[9,4,3,2,1] - allocated[9,4,3,2,2]
+   + layerInUse[9,2,3] <= 0
+ R29279: - allocated[9,1,4,2,1] - allocated[9,1,4,2,2]
+   - allocated[9,2,4,2,1] - allocated[9,2,4,2,2] - allocated[9,3,4,2,1]
+   - allocated[9,3,4,2,2] - allocated[9,4,4,2,1] - allocated[9,4,4,2,2]
+   + layerInUse[9,2,4] <= 0
+ R29280: - allocated[9,1,5,2,1] - allocated[9,1,5,2,2]
+   - allocated[9,2,5,2,1] - allocated[9,2,5,2,2] - allocated[9,3,5,2,1]
+   - allocated[9,3,5,2,2] - allocated[9,4,5,2,1] - allocated[9,4,5,2,2]
+   + layerInUse[9,2,5] <= 0
+ R29281: - allocated[9,1,6,2,1] - allocated[9,1,6,2,2]
+   - allocated[9,2,6,2,1] - allocated[9,2,6,2,2] - allocated[9,3,6,2,1]
+   - allocated[9,3,6,2,2] - allocated[9,4,6,2,1] - allocated[9,4,6,2,2]
+   + layerInUse[9,2,6] <= 0
+ R29282: - allocated[9,1,1,3,1] - allocated[9,1,1,3,2]
+   - allocated[9,2,1,3,1] - allocated[9,2,1,3,2] - allocated[9,3,1,3,1]
+   - allocated[9,3,1,3,2] - allocated[9,4,1,3,1] - allocated[9,4,1,3,2]
+   + layerInUse[9,3,1] <= 0
+ R29283: - allocated[9,1,2,3,1] - allocated[9,1,2,3,2]
+   - allocated[9,2,2,3,1] - allocated[9,2,2,3,2] - allocated[9,3,2,3,1]
+   - allocated[9,3,2,3,2] - allocated[9,4,2,3,1] - allocated[9,4,2,3,2]
+   + layerInUse[9,3,2] <= 0
+ R29284: - allocated[9,1,3,3,1] - allocated[9,1,3,3,2]
+   - allocated[9,2,3,3,1] - allocated[9,2,3,3,2] - allocated[9,3,3,3,1]
+   - allocated[9,3,3,3,2] - allocated[9,4,3,3,1] - allocated[9,4,3,3,2]
+   + layerInUse[9,3,3] <= 0
+ R29285: - allocated[9,1,4,3,1] - allocated[9,1,4,3,2]
+   - allocated[9,2,4,3,1] - allocated[9,2,4,3,2] - allocated[9,3,4,3,1]
+   - allocated[9,3,4,3,2] - allocated[9,4,4,3,1] - allocated[9,4,4,3,2]
+   + layerInUse[9,3,4] <= 0
+ R29286: - allocated[9,1,5,3,1] - allocated[9,1,5,3,2]
+   - allocated[9,2,5,3,1] - allocated[9,2,5,3,2] - allocated[9,3,5,3,1]
+   - allocated[9,3,5,3,2] - allocated[9,4,5,3,1] - allocated[9,4,5,3,2]
+   + layerInUse[9,3,5] <= 0
+ R29287: - allocated[9,1,6,3,1] - allocated[9,1,6,3,2]
+   - allocated[9,2,6,3,1] - allocated[9,2,6,3,2] - allocated[9,3,6,3,1]
+   - allocated[9,3,6,3,2] - allocated[9,4,6,3,1] - allocated[9,4,6,3,2]
+   + layerInUse[9,3,6] <= 0
+ R29288: - allocated[9,1,1,4,1] - allocated[9,1,1,4,2]
+   - allocated[9,2,1,4,1] - allocated[9,2,1,4,2] - allocated[9,3,1,4,1]
+   - allocated[9,3,1,4,2] - allocated[9,4,1,4,1] - allocated[9,4,1,4,2]
+   + layerInUse[9,4,1] <= 0
+ R29289: - allocated[9,1,2,4,1] - allocated[9,1,2,4,2]
+   - allocated[9,2,2,4,1] - allocated[9,2,2,4,2] - allocated[9,3,2,4,1]
+   - allocated[9,3,2,4,2] - allocated[9,4,2,4,1] - allocated[9,4,2,4,2]
+   + layerInUse[9,4,2] <= 0
+ R29290: - allocated[9,1,3,4,1] - allocated[9,1,3,4,2]
+   - allocated[9,2,3,4,1] - allocated[9,2,3,4,2] - allocated[9,3,3,4,1]
+   - allocated[9,3,3,4,2] - allocated[9,4,3,4,1] - allocated[9,4,3,4,2]
+   + layerInUse[9,4,3] <= 0
+ R29291: - allocated[9,1,4,4,1] - allocated[9,1,4,4,2]
+   - allocated[9,2,4,4,1] - allocated[9,2,4,4,2] - allocated[9,3,4,4,1]
+   - allocated[9,3,4,4,2] - allocated[9,4,4,4,1] - allocated[9,4,4,4,2]
+   + layerInUse[9,4,4] <= 0
+ R29292: - allocated[9,1,5,4,1] - allocated[9,1,5,4,2]
+   - allocated[9,2,5,4,1] - allocated[9,2,5,4,2] - allocated[9,3,5,4,1]
+   - allocated[9,3,5,4,2] - allocated[9,4,5,4,1] - allocated[9,4,5,4,2]
+   + layerInUse[9,4,5] <= 0
+ R29293: - allocated[9,1,6,4,1] - allocated[9,1,6,4,2]
+   - allocated[9,2,6,4,1] - allocated[9,2,6,4,2] - allocated[9,3,6,4,1]
+   - allocated[9,3,6,4,2] - allocated[9,4,6,4,1] - allocated[9,4,6,4,2]
+   + layerInUse[9,4,6] <= 0
+ R29294: - allocated[9,1,1,5,1] - allocated[9,1,1,5,2]
+   - allocated[9,2,1,5,1] - allocated[9,2,1,5,2] - allocated[9,3,1,5,1]
+   - allocated[9,3,1,5,2] - allocated[9,4,1,5,1] - allocated[9,4,1,5,2]
+   + layerInUse[9,5,1] <= 0
+ R29295: - allocated[9,1,2,5,1] - allocated[9,1,2,5,2]
+   - allocated[9,2,2,5,1] - allocated[9,2,2,5,2] - allocated[9,3,2,5,1]
+   - allocated[9,3,2,5,2] - allocated[9,4,2,5,1] - allocated[9,4,2,5,2]
+   + layerInUse[9,5,2] <= 0
+ R29296: - allocated[9,1,3,5,1] - allocated[9,1,3,5,2]
+   - allocated[9,2,3,5,1] - allocated[9,2,3,5,2] - allocated[9,3,3,5,1]
+   - allocated[9,3,3,5,2] - allocated[9,4,3,5,1] - allocated[9,4,3,5,2]
+   + layerInUse[9,5,3] <= 0
+ R29297: - allocated[9,1,4,5,1] - allocated[9,1,4,5,2]
+   - allocated[9,2,4,5,1] - allocated[9,2,4,5,2] - allocated[9,3,4,5,1]
+   - allocated[9,3,4,5,2] - allocated[9,4,4,5,1] - allocated[9,4,4,5,2]
+   + layerInUse[9,5,4] <= 0
+ R29298: - allocated[9,1,5,5,1] - allocated[9,1,5,5,2]
+   - allocated[9,2,5,5,1] - allocated[9,2,5,5,2] - allocated[9,3,5,5,1]
+   - allocated[9,3,5,5,2] - allocated[9,4,5,5,1] - allocated[9,4,5,5,2]
+   + layerInUse[9,5,5] <= 0
+ R29299: - allocated[9,1,6,5,1] - allocated[9,1,6,5,2]
+   - allocated[9,2,6,5,1] - allocated[9,2,6,5,2] - allocated[9,3,6,5,1]
+   - allocated[9,3,6,5,2] - allocated[9,4,6,5,1] - allocated[9,4,6,5,2]
+   + layerInUse[9,5,6] <= 0
+ R29300: - allocated[9,1,1,6,1] - allocated[9,1,1,6,2]
+   - allocated[9,2,1,6,1] - allocated[9,2,1,6,2] - allocated[9,3,1,6,1]
+   - allocated[9,3,1,6,2] - allocated[9,4,1,6,1] - allocated[9,4,1,6,2]
+   + layerInUse[9,6,1] <= 0
+ R29301: - allocated[9,1,2,6,1] - allocated[9,1,2,6,2]
+   - allocated[9,2,2,6,1] - allocated[9,2,2,6,2] - allocated[9,3,2,6,1]
+   - allocated[9,3,2,6,2] - allocated[9,4,2,6,1] - allocated[9,4,2,6,2]
+   + layerInUse[9,6,2] <= 0
+ R29302: - allocated[9,1,3,6,1] - allocated[9,1,3,6,2]
+   - allocated[9,2,3,6,1] - allocated[9,2,3,6,2] - allocated[9,3,3,6,1]
+   - allocated[9,3,3,6,2] - allocated[9,4,3,6,1] - allocated[9,4,3,6,2]
+   + layerInUse[9,6,3] <= 0
+ R29303: - allocated[9,1,4,6,1] - allocated[9,1,4,6,2]
+   - allocated[9,2,4,6,1] - allocated[9,2,4,6,2] - allocated[9,3,4,6,1]
+   - allocated[9,3,4,6,2] - allocated[9,4,4,6,1] - allocated[9,4,4,6,2]
+   + layerInUse[9,6,4] <= 0
+ R29304: - allocated[9,1,5,6,1] - allocated[9,1,5,6,2]
+   - allocated[9,2,5,6,1] - allocated[9,2,5,6,2] - allocated[9,3,5,6,1]
+   - allocated[9,3,5,6,2] - allocated[9,4,5,6,1] - allocated[9,4,5,6,2]
+   + layerInUse[9,6,5] <= 0
+ R29305: - allocated[9,1,6,6,1] - allocated[9,1,6,6,2]
+   - allocated[9,2,6,6,1] - allocated[9,2,6,6,2] - allocated[9,3,6,6,1]
+   - allocated[9,3,6,6,2] - allocated[9,4,6,6,1] - allocated[9,4,6,6,2]
+   + layerInUse[9,6,6] <= 0
+ R29306: - allocated[9,1,1,7,1] - allocated[9,1,1,7,2]
+   - allocated[9,2,1,7,1] - allocated[9,2,1,7,2] - allocated[9,3,1,7,1]
+   - allocated[9,3,1,7,2] - allocated[9,4,1,7,1] - allocated[9,4,1,7,2]
+   + layerInUse[9,7,1] <= 0
+ R29307: - allocated[9,1,2,7,1] - allocated[9,1,2,7,2]
+   - allocated[9,2,2,7,1] - allocated[9,2,2,7,2] - allocated[9,3,2,7,1]
+   - allocated[9,3,2,7,2] - allocated[9,4,2,7,1] - allocated[9,4,2,7,2]
+   + layerInUse[9,7,2] <= 0
+ R29308: - allocated[9,1,3,7,1] - allocated[9,1,3,7,2]
+   - allocated[9,2,3,7,1] - allocated[9,2,3,7,2] - allocated[9,3,3,7,1]
+   - allocated[9,3,3,7,2] - allocated[9,4,3,7,1] - allocated[9,4,3,7,2]
+   + layerInUse[9,7,3] <= 0
+ R29309: - allocated[9,1,4,7,1] - allocated[9,1,4,7,2]
+   - allocated[9,2,4,7,1] - allocated[9,2,4,7,2] - allocated[9,3,4,7,1]
+   - allocated[9,3,4,7,2] - allocated[9,4,4,7,1] - allocated[9,4,4,7,2]
+   + layerInUse[9,7,4] <= 0
+ R29310: - allocated[9,1,5,7,1] - allocated[9,1,5,7,2]
+   - allocated[9,2,5,7,1] - allocated[9,2,5,7,2] - allocated[9,3,5,7,1]
+   - allocated[9,3,5,7,2] - allocated[9,4,5,7,1] - allocated[9,4,5,7,2]
+   + layerInUse[9,7,5] <= 0
+ R29311: - allocated[9,1,6,7,1] - allocated[9,1,6,7,2]
+   - allocated[9,2,6,7,1] - allocated[9,2,6,7,2] - allocated[9,3,6,7,1]
+   - allocated[9,3,6,7,2] - allocated[9,4,6,7,1] - allocated[9,4,6,7,2]
+   + layerInUse[9,7,6] <= 0
+ R29312: - allocated[9,1,1,8,1] - allocated[9,1,1,8,2]
+   - allocated[9,2,1,8,1] - allocated[9,2,1,8,2] - allocated[9,3,1,8,1]
+   - allocated[9,3,1,8,2] - allocated[9,4,1,8,1] - allocated[9,4,1,8,2]
+   + layerInUse[9,8,1] <= 0
+ R29313: - allocated[9,1,2,8,1] - allocated[9,1,2,8,2]
+   - allocated[9,2,2,8,1] - allocated[9,2,2,8,2] - allocated[9,3,2,8,1]
+   - allocated[9,3,2,8,2] - allocated[9,4,2,8,1] - allocated[9,4,2,8,2]
+   + layerInUse[9,8,2] <= 0
+ R29314: - allocated[9,1,3,8,1] - allocated[9,1,3,8,2]
+   - allocated[9,2,3,8,1] - allocated[9,2,3,8,2] - allocated[9,3,3,8,1]
+   - allocated[9,3,3,8,2] - allocated[9,4,3,8,1] - allocated[9,4,3,8,2]
+   + layerInUse[9,8,3] <= 0
+ R29315: - allocated[9,1,4,8,1] - allocated[9,1,4,8,2]
+   - allocated[9,2,4,8,1] - allocated[9,2,4,8,2] - allocated[9,3,4,8,1]
+   - allocated[9,3,4,8,2] - allocated[9,4,4,8,1] - allocated[9,4,4,8,2]
+   + layerInUse[9,8,4] <= 0
+ R29316: - allocated[9,1,5,8,1] - allocated[9,1,5,8,2]
+   - allocated[9,2,5,8,1] - allocated[9,2,5,8,2] - allocated[9,3,5,8,1]
+   - allocated[9,3,5,8,2] - allocated[9,4,5,8,1] - allocated[9,4,5,8,2]
+   + layerInUse[9,8,5] <= 0
+ R29317: - allocated[9,1,6,8,1] - allocated[9,1,6,8,2]
+   - allocated[9,2,6,8,1] - allocated[9,2,6,8,2] - allocated[9,3,6,8,1]
+   - allocated[9,3,6,8,2] - allocated[9,4,6,8,1] - allocated[9,4,6,8,2]
+   + layerInUse[9,8,6] <= 0
+ R29318: - allocated[10,1,1,1,1] - allocated[10,1,1,1,2]
+   - allocated[10,2,1,1,1] - allocated[10,2,1,1,2] - allocated[10,3,1,1,1]
+   - allocated[10,3,1,1,2] - allocated[10,4,1,1,1] - allocated[10,4,1,1,2]
+   + layerInUse[10,1,1] <= 0
+ R29319: - allocated[10,1,2,1,1] - allocated[10,1,2,1,2]
+   - allocated[10,2,2,1,1] - allocated[10,2,2,1,2] - allocated[10,3,2,1,1]
+   - allocated[10,3,2,1,2] - allocated[10,4,2,1,1] - allocated[10,4,2,1,2]
+   + layerInUse[10,1,2] <= 0
+ R29320: - allocated[10,1,3,1,1] - allocated[10,1,3,1,2]
+   - allocated[10,2,3,1,1] - allocated[10,2,3,1,2] - allocated[10,3,3,1,1]
+   - allocated[10,3,3,1,2] - allocated[10,4,3,1,1] - allocated[10,4,3,1,2]
+   + layerInUse[10,1,3] <= 0
+ R29321: - allocated[10,1,4,1,1] - allocated[10,1,4,1,2]
+   - allocated[10,2,4,1,1] - allocated[10,2,4,1,2] - allocated[10,3,4,1,1]
+   - allocated[10,3,4,1,2] - allocated[10,4,4,1,1] - allocated[10,4,4,1,2]
+   + layerInUse[10,1,4] <= 0
+ R29322: - allocated[10,1,5,1,1] - allocated[10,1,5,1,2]
+   - allocated[10,2,5,1,1] - allocated[10,2,5,1,2] - allocated[10,3,5,1,1]
+   - allocated[10,3,5,1,2] - allocated[10,4,5,1,1] - allocated[10,4,5,1,2]
+   + layerInUse[10,1,5] <= 0
+ R29323: - allocated[10,1,6,1,1] - allocated[10,1,6,1,2]
+   - allocated[10,2,6,1,1] - allocated[10,2,6,1,2] - allocated[10,3,6,1,1]
+   - allocated[10,3,6,1,2] - allocated[10,4,6,1,1] - allocated[10,4,6,1,2]
+   + layerInUse[10,1,6] <= 0
+ R29324: - allocated[10,1,1,2,1] - allocated[10,1,1,2,2]
+   - allocated[10,2,1,2,1] - allocated[10,2,1,2,2] - allocated[10,3,1,2,1]
+   - allocated[10,3,1,2,2] - allocated[10,4,1,2,1] - allocated[10,4,1,2,2]
+   + layerInUse[10,2,1] <= 0
+ R29325: - allocated[10,1,2,2,1] - allocated[10,1,2,2,2]
+   - allocated[10,2,2,2,1] - allocated[10,2,2,2,2] - allocated[10,3,2,2,1]
+   - allocated[10,3,2,2,2] - allocated[10,4,2,2,1] - allocated[10,4,2,2,2]
+   + layerInUse[10,2,2] <= 0
+ R29326: - allocated[10,1,3,2,1] - allocated[10,1,3,2,2]
+   - allocated[10,2,3,2,1] - allocated[10,2,3,2,2] - allocated[10,3,3,2,1]
+   - allocated[10,3,3,2,2] - allocated[10,4,3,2,1] - allocated[10,4,3,2,2]
+   + layerInUse[10,2,3] <= 0
+ R29327: - allocated[10,1,4,2,1] - allocated[10,1,4,2,2]
+   - allocated[10,2,4,2,1] - allocated[10,2,4,2,2] - allocated[10,3,4,2,1]
+   - allocated[10,3,4,2,2] - allocated[10,4,4,2,1] - allocated[10,4,4,2,2]
+   + layerInUse[10,2,4] <= 0
+ R29328: - allocated[10,1,5,2,1] - allocated[10,1,5,2,2]
+   - allocated[10,2,5,2,1] - allocated[10,2,5,2,2] - allocated[10,3,5,2,1]
+   - allocated[10,3,5,2,2] - allocated[10,4,5,2,1] - allocated[10,4,5,2,2]
+   + layerInUse[10,2,5] <= 0
+ R29329: - allocated[10,1,6,2,1] - allocated[10,1,6,2,2]
+   - allocated[10,2,6,2,1] - allocated[10,2,6,2,2] - allocated[10,3,6,2,1]
+   - allocated[10,3,6,2,2] - allocated[10,4,6,2,1] - allocated[10,4,6,2,2]
+   + layerInUse[10,2,6] <= 0
+ R29330: - allocated[10,1,1,3,1] - allocated[10,1,1,3,2]
+   - allocated[10,2,1,3,1] - allocated[10,2,1,3,2] - allocated[10,3,1,3,1]
+   - allocated[10,3,1,3,2] - allocated[10,4,1,3,1] - allocated[10,4,1,3,2]
+   + layerInUse[10,3,1] <= 0
+ R29331: - allocated[10,1,2,3,1] - allocated[10,1,2,3,2]
+   - allocated[10,2,2,3,1] - allocated[10,2,2,3,2] - allocated[10,3,2,3,1]
+   - allocated[10,3,2,3,2] - allocated[10,4,2,3,1] - allocated[10,4,2,3,2]
+   + layerInUse[10,3,2] <= 0
+ R29332: - allocated[10,1,3,3,1] - allocated[10,1,3,3,2]
+   - allocated[10,2,3,3,1] - allocated[10,2,3,3,2] - allocated[10,3,3,3,1]
+   - allocated[10,3,3,3,2] - allocated[10,4,3,3,1] - allocated[10,4,3,3,2]
+   + layerInUse[10,3,3] <= 0
+ R29333: - allocated[10,1,4,3,1] - allocated[10,1,4,3,2]
+   - allocated[10,2,4,3,1] - allocated[10,2,4,3,2] - allocated[10,3,4,3,1]
+   - allocated[10,3,4,3,2] - allocated[10,4,4,3,1] - allocated[10,4,4,3,2]
+   + layerInUse[10,3,4] <= 0
+ R29334: - allocated[10,1,5,3,1] - allocated[10,1,5,3,2]
+   - allocated[10,2,5,3,1] - allocated[10,2,5,3,2] - allocated[10,3,5,3,1]
+   - allocated[10,3,5,3,2] - allocated[10,4,5,3,1] - allocated[10,4,5,3,2]
+   + layerInUse[10,3,5] <= 0
+ R29335: - allocated[10,1,6,3,1] - allocated[10,1,6,3,2]
+   - allocated[10,2,6,3,1] - allocated[10,2,6,3,2] - allocated[10,3,6,3,1]
+   - allocated[10,3,6,3,2] - allocated[10,4,6,3,1] - allocated[10,4,6,3,2]
+   + layerInUse[10,3,6] <= 0
+ R29336: - allocated[10,1,1,4,1] - allocated[10,1,1,4,2]
+   - allocated[10,2,1,4,1] - allocated[10,2,1,4,2] - allocated[10,3,1,4,1]
+   - allocated[10,3,1,4,2] - allocated[10,4,1,4,1] - allocated[10,4,1,4,2]
+   + layerInUse[10,4,1] <= 0
+ R29337: - allocated[10,1,2,4,1] - allocated[10,1,2,4,2]
+   - allocated[10,2,2,4,1] - allocated[10,2,2,4,2] - allocated[10,3,2,4,1]
+   - allocated[10,3,2,4,2] - allocated[10,4,2,4,1] - allocated[10,4,2,4,2]
+   + layerInUse[10,4,2] <= 0
+ R29338: - allocated[10,1,3,4,1] - allocated[10,1,3,4,2]
+   - allocated[10,2,3,4,1] - allocated[10,2,3,4,2] - allocated[10,3,3,4,1]
+   - allocated[10,3,3,4,2] - allocated[10,4,3,4,1] - allocated[10,4,3,4,2]
+   + layerInUse[10,4,3] <= 0
+ R29339: - allocated[10,1,4,4,1] - allocated[10,1,4,4,2]
+   - allocated[10,2,4,4,1] - allocated[10,2,4,4,2] - allocated[10,3,4,4,1]
+   - allocated[10,3,4,4,2] - allocated[10,4,4,4,1] - allocated[10,4,4,4,2]
+   + layerInUse[10,4,4] <= 0
+ R29340: - allocated[10,1,5,4,1] - allocated[10,1,5,4,2]
+   - allocated[10,2,5,4,1] - allocated[10,2,5,4,2] - allocated[10,3,5,4,1]
+   - allocated[10,3,5,4,2] - allocated[10,4,5,4,1] - allocated[10,4,5,4,2]
+   + layerInUse[10,4,5] <= 0
+ R29341: - allocated[10,1,6,4,1] - allocated[10,1,6,4,2]
+   - allocated[10,2,6,4,1] - allocated[10,2,6,4,2] - allocated[10,3,6,4,1]
+   - allocated[10,3,6,4,2] - allocated[10,4,6,4,1] - allocated[10,4,6,4,2]
+   + layerInUse[10,4,6] <= 0
+ R29342: - allocated[10,1,1,5,1] - allocated[10,1,1,5,2]
+   - allocated[10,2,1,5,1] - allocated[10,2,1,5,2] - allocated[10,3,1,5,1]
+   - allocated[10,3,1,5,2] - allocated[10,4,1,5,1] - allocated[10,4,1,5,2]
+   + layerInUse[10,5,1] <= 0
+ R29343: - allocated[10,1,2,5,1] - allocated[10,1,2,5,2]
+   - allocated[10,2,2,5,1] - allocated[10,2,2,5,2] - allocated[10,3,2,5,1]
+   - allocated[10,3,2,5,2] - allocated[10,4,2,5,1] - allocated[10,4,2,5,2]
+   + layerInUse[10,5,2] <= 0
+ R29344: - allocated[10,1,3,5,1] - allocated[10,1,3,5,2]
+   - allocated[10,2,3,5,1] - allocated[10,2,3,5,2] - allocated[10,3,3,5,1]
+   - allocated[10,3,3,5,2] - allocated[10,4,3,5,1] - allocated[10,4,3,5,2]
+   + layerInUse[10,5,3] <= 0
+ R29345: - allocated[10,1,4,5,1] - allocated[10,1,4,5,2]
+   - allocated[10,2,4,5,1] - allocated[10,2,4,5,2] - allocated[10,3,4,5,1]
+   - allocated[10,3,4,5,2] - allocated[10,4,4,5,1] - allocated[10,4,4,5,2]
+   + layerInUse[10,5,4] <= 0
+ R29346: - allocated[10,1,5,5,1] - allocated[10,1,5,5,2]
+   - allocated[10,2,5,5,1] - allocated[10,2,5,5,2] - allocated[10,3,5,5,1]
+   - allocated[10,3,5,5,2] - allocated[10,4,5,5,1] - allocated[10,4,5,5,2]
+   + layerInUse[10,5,5] <= 0
+ R29347: - allocated[10,1,6,5,1] - allocated[10,1,6,5,2]
+   - allocated[10,2,6,5,1] - allocated[10,2,6,5,2] - allocated[10,3,6,5,1]
+   - allocated[10,3,6,5,2] - allocated[10,4,6,5,1] - allocated[10,4,6,5,2]
+   + layerInUse[10,5,6] <= 0
+ R29348: - allocated[10,1,1,6,1] - allocated[10,1,1,6,2]
+   - allocated[10,2,1,6,1] - allocated[10,2,1,6,2] - allocated[10,3,1,6,1]
+   - allocated[10,3,1,6,2] - allocated[10,4,1,6,1] - allocated[10,4,1,6,2]
+   + layerInUse[10,6,1] <= 0
+ R29349: - allocated[10,1,2,6,1] - allocated[10,1,2,6,2]
+   - allocated[10,2,2,6,1] - allocated[10,2,2,6,2] - allocated[10,3,2,6,1]
+   - allocated[10,3,2,6,2] - allocated[10,4,2,6,1] - allocated[10,4,2,6,2]
+   + layerInUse[10,6,2] <= 0
+ R29350: - allocated[10,1,3,6,1] - allocated[10,1,3,6,2]
+   - allocated[10,2,3,6,1] - allocated[10,2,3,6,2] - allocated[10,3,3,6,1]
+   - allocated[10,3,3,6,2] - allocated[10,4,3,6,1] - allocated[10,4,3,6,2]
+   + layerInUse[10,6,3] <= 0
+ R29351: - allocated[10,1,4,6,1] - allocated[10,1,4,6,2]
+   - allocated[10,2,4,6,1] - allocated[10,2,4,6,2] - allocated[10,3,4,6,1]
+   - allocated[10,3,4,6,2] - allocated[10,4,4,6,1] - allocated[10,4,4,6,2]
+   + layerInUse[10,6,4] <= 0
+ R29352: - allocated[10,1,5,6,1] - allocated[10,1,5,6,2]
+   - allocated[10,2,5,6,1] - allocated[10,2,5,6,2] - allocated[10,3,5,6,1]
+   - allocated[10,3,5,6,2] - allocated[10,4,5,6,1] - allocated[10,4,5,6,2]
+   + layerInUse[10,6,5] <= 0
+ R29353: - allocated[10,1,6,6,1] - allocated[10,1,6,6,2]
+   - allocated[10,2,6,6,1] - allocated[10,2,6,6,2] - allocated[10,3,6,6,1]
+   - allocated[10,3,6,6,2] - allocated[10,4,6,6,1] - allocated[10,4,6,6,2]
+   + layerInUse[10,6,6] <= 0
+ R29354: - allocated[10,1,1,7,1] - allocated[10,1,1,7,2]
+   - allocated[10,2,1,7,1] - allocated[10,2,1,7,2] - allocated[10,3,1,7,1]
+   - allocated[10,3,1,7,2] - allocated[10,4,1,7,1] - allocated[10,4,1,7,2]
+   + layerInUse[10,7,1] <= 0
+ R29355: - allocated[10,1,2,7,1] - allocated[10,1,2,7,2]
+   - allocated[10,2,2,7,1] - allocated[10,2,2,7,2] - allocated[10,3,2,7,1]
+   - allocated[10,3,2,7,2] - allocated[10,4,2,7,1] - allocated[10,4,2,7,2]
+   + layerInUse[10,7,2] <= 0
+ R29356: - allocated[10,1,3,7,1] - allocated[10,1,3,7,2]
+   - allocated[10,2,3,7,1] - allocated[10,2,3,7,2] - allocated[10,3,3,7,1]
+   - allocated[10,3,3,7,2] - allocated[10,4,3,7,1] - allocated[10,4,3,7,2]
+   + layerInUse[10,7,3] <= 0
+ R29357: - allocated[10,1,4,7,1] - allocated[10,1,4,7,2]
+   - allocated[10,2,4,7,1] - allocated[10,2,4,7,2] - allocated[10,3,4,7,1]
+   - allocated[10,3,4,7,2] - allocated[10,4,4,7,1] - allocated[10,4,4,7,2]
+   + layerInUse[10,7,4] <= 0
+ R29358: - allocated[10,1,5,7,1] - allocated[10,1,5,7,2]
+   - allocated[10,2,5,7,1] - allocated[10,2,5,7,2] - allocated[10,3,5,7,1]
+   - allocated[10,3,5,7,2] - allocated[10,4,5,7,1] - allocated[10,4,5,7,2]
+   + layerInUse[10,7,5] <= 0
+ R29359: - allocated[10,1,6,7,1] - allocated[10,1,6,7,2]
+   - allocated[10,2,6,7,1] - allocated[10,2,6,7,2] - allocated[10,3,6,7,1]
+   - allocated[10,3,6,7,2] - allocated[10,4,6,7,1] - allocated[10,4,6,7,2]
+   + layerInUse[10,7,6] <= 0
+ R29360: - allocated[10,1,1,8,1] - allocated[10,1,1,8,2]
+   - allocated[10,2,1,8,1] - allocated[10,2,1,8,2] - allocated[10,3,1,8,1]
+   - allocated[10,3,1,8,2] - allocated[10,4,1,8,1] - allocated[10,4,1,8,2]
+   + layerInUse[10,8,1] <= 0
+ R29361: - allocated[10,1,2,8,1] - allocated[10,1,2,8,2]
+   - allocated[10,2,2,8,1] - allocated[10,2,2,8,2] - allocated[10,3,2,8,1]
+   - allocated[10,3,2,8,2] - allocated[10,4,2,8,1] - allocated[10,4,2,8,2]
+   + layerInUse[10,8,2] <= 0
+ R29362: - allocated[10,1,3,8,1] - allocated[10,1,3,8,2]
+   - allocated[10,2,3,8,1] - allocated[10,2,3,8,2] - allocated[10,3,3,8,1]
+   - allocated[10,3,3,8,2] - allocated[10,4,3,8,1] - allocated[10,4,3,8,2]
+   + layerInUse[10,8,3] <= 0
+ R29363: - allocated[10,1,4,8,1] - allocated[10,1,4,8,2]
+   - allocated[10,2,4,8,1] - allocated[10,2,4,8,2] - allocated[10,3,4,8,1]
+   - allocated[10,3,4,8,2] - allocated[10,4,4,8,1] - allocated[10,4,4,8,2]
+   + layerInUse[10,8,4] <= 0
+ R29364: - allocated[10,1,5,8,1] - allocated[10,1,5,8,2]
+   - allocated[10,2,5,8,1] - allocated[10,2,5,8,2] - allocated[10,3,5,8,1]
+   - allocated[10,3,5,8,2] - allocated[10,4,5,8,1] - allocated[10,4,5,8,2]
+   + layerInUse[10,8,5] <= 0
+ R29365: - allocated[10,1,6,8,1] - allocated[10,1,6,8,2]
+   - allocated[10,2,6,8,1] - allocated[10,2,6,8,2] - allocated[10,3,6,8,1]
+   - allocated[10,3,6,8,2] - allocated[10,4,6,8,1] - allocated[10,4,6,8,2]
+   + layerInUse[10,8,6] <= 0
+ R29366: layerInUse[1,1,1] - layerInUse[2,1,1]
+   + layerWillBeTakenInUseToday[2,1,1] >= 0
+ R29367: layerInUse[1,1,2] - layerInUse[2,1,2]
+   + layerWillBeTakenInUseToday[2,1,2] >= 0
+ R29368: layerInUse[1,1,3] - layerInUse[2,1,3]
+   + layerWillBeTakenInUseToday[2,1,3] >= 0
+ R29369: layerInUse[1,1,4] - layerInUse[2,1,4]
+   + layerWillBeTakenInUseToday[2,1,4] >= 0
+ R29370: layerInUse[1,1,5] - layerInUse[2,1,5]
+   + layerWillBeTakenInUseToday[2,1,5] >= 0
+ R29371: layerInUse[1,1,6] - layerInUse[2,1,6]
+   + layerWillBeTakenInUseToday[2,1,6] >= 0
+ R29372: layerInUse[1,2,1] - layerInUse[2,2,1]
+   + layerWillBeTakenInUseToday[2,2,1] >= 0
+ R29373: layerInUse[1,2,2] - layerInUse[2,2,2]
+   + layerWillBeTakenInUseToday[2,2,2] >= 0
+ R29374: layerInUse[1,2,3] - layerInUse[2,2,3]
+   + layerWillBeTakenInUseToday[2,2,3] >= 0
+ R29375: layerInUse[1,2,4] - layerInUse[2,2,4]
+   + layerWillBeTakenInUseToday[2,2,4] >= 0
+ R29376: layerInUse[1,2,5] - layerInUse[2,2,5]
+   + layerWillBeTakenInUseToday[2,2,5] >= 0
+ R29377: layerInUse[1,2,6] - layerInUse[2,2,6]
+   + layerWillBeTakenInUseToday[2,2,6] >= 0
+ R29378: layerInUse[1,3,1] - layerInUse[2,3,1]
+   + layerWillBeTakenInUseToday[2,3,1] >= 0
+ R29379: layerInUse[1,3,2] - layerInUse[2,3,2]
+   + layerWillBeTakenInUseToday[2,3,2] >= 0
+ R29380: layerInUse[1,3,3] - layerInUse[2,3,3]
+   + layerWillBeTakenInUseToday[2,3,3] >= 0
+ R29381: layerInUse[1,3,4] - layerInUse[2,3,4]
+   + layerWillBeTakenInUseToday[2,3,4] >= 0
+ R29382: layerInUse[1,3,5] - layerInUse[2,3,5]
+   + layerWillBeTakenInUseToday[2,3,5] >= 0
+ R29383: layerInUse[1,3,6] - layerInUse[2,3,6]
+   + layerWillBeTakenInUseToday[2,3,6] >= 0
+ R29384: layerInUse[1,4,1] - layerInUse[2,4,1]
+   + layerWillBeTakenInUseToday[2,4,1] >= 0
+ R29385: layerInUse[1,4,2] - layerInUse[2,4,2]
+   + layerWillBeTakenInUseToday[2,4,2] >= 0
+ R29386: layerInUse[1,4,3] - layerInUse[2,4,3]
+   + layerWillBeTakenInUseToday[2,4,3] >= 0
+ R29387: layerInUse[1,4,4] - layerInUse[2,4,4]
+   + layerWillBeTakenInUseToday[2,4,4] >= 0
+ R29388: layerInUse[1,4,5] - layerInUse[2,4,5]
+   + layerWillBeTakenInUseToday[2,4,5] >= 0
+ R29389: layerInUse[1,4,6] - layerInUse[2,4,6]
+   + layerWillBeTakenInUseToday[2,4,6] >= 0
+ R29390: layerInUse[1,5,1] - layerInUse[2,5,1]
+   + layerWillBeTakenInUseToday[2,5,1] >= 0
+ R29391: layerInUse[1,5,2] - layerInUse[2,5,2]
+   + layerWillBeTakenInUseToday[2,5,2] >= 0
+ R29392: layerInUse[1,5,3] - layerInUse[2,5,3]
+   + layerWillBeTakenInUseToday[2,5,3] >= 0
+ R29393: layerInUse[1,5,4] - layerInUse[2,5,4]
+   + layerWillBeTakenInUseToday[2,5,4] >= 0
+ R29394: layerInUse[1,5,5] - layerInUse[2,5,5]
+   + layerWillBeTakenInUseToday[2,5,5] >= 0
+ R29395: layerInUse[1,5,6] - layerInUse[2,5,6]
+   + layerWillBeTakenInUseToday[2,5,6] >= 0
+ R29396: layerInUse[1,6,1] - layerInUse[2,6,1]
+   + layerWillBeTakenInUseToday[2,6,1] >= 0
+ R29397: layerInUse[1,6,2] - layerInUse[2,6,2]
+   + layerWillBeTakenInUseToday[2,6,2] >= 0
+ R29398: layerInUse[1,6,3] - layerInUse[2,6,3]
+   + layerWillBeTakenInUseToday[2,6,3] >= 0
+ R29399: layerInUse[1,6,4] - layerInUse[2,6,4]
+   + layerWillBeTakenInUseToday[2,6,4] >= 0
+ R29400: layerInUse[1,6,5] - layerInUse[2,6,5]
+   + layerWillBeTakenInUseToday[2,6,5] >= 0
+ R29401: layerInUse[1,6,6] - layerInUse[2,6,6]
+   + layerWillBeTakenInUseToday[2,6,6] >= 0
+ R29402: layerInUse[1,7,1] - layerInUse[2,7,1]
+   + layerWillBeTakenInUseToday[2,7,1] >= 0
+ R29403: layerInUse[1,7,2] - layerInUse[2,7,2]
+   + layerWillBeTakenInUseToday[2,7,2] >= 0
+ R29404: layerInUse[1,7,3] - layerInUse[2,7,3]
+   + layerWillBeTakenInUseToday[2,7,3] >= 0
+ R29405: layerInUse[1,7,4] - layerInUse[2,7,4]
+   + layerWillBeTakenInUseToday[2,7,4] >= 0
+ R29406: layerInUse[1,7,5] - layerInUse[2,7,5]
+   + layerWillBeTakenInUseToday[2,7,5] >= 0
+ R29407: layerInUse[1,7,6] - layerInUse[2,7,6]
+   + layerWillBeTakenInUseToday[2,7,6] >= 0
+ R29408: layerInUse[1,8,1] - layerInUse[2,8,1]
+   + layerWillBeTakenInUseToday[2,8,1] >= 0
+ R29409: layerInUse[1,8,2] - layerInUse[2,8,2]
+   + layerWillBeTakenInUseToday[2,8,2] >= 0
+ R29410: layerInUse[1,8,3] - layerInUse[2,8,3]
+   + layerWillBeTakenInUseToday[2,8,3] >= 0
+ R29411: layerInUse[1,8,4] - layerInUse[2,8,4]
+   + layerWillBeTakenInUseToday[2,8,4] >= 0
+ R29412: layerInUse[1,8,5] - layerInUse[2,8,5]
+   + layerWillBeTakenInUseToday[2,8,5] >= 0
+ R29413: layerInUse[1,8,6] - layerInUse[2,8,6]
+   + layerWillBeTakenInUseToday[2,8,6] >= 0
+ R29414: layerInUse[2,1,1] - layerInUse[3,1,1]
+   + layerWillBeTakenInUseToday[3,1,1] >= 0
+ R29415: layerInUse[2,1,2] - layerInUse[3,1,2]
+   + layerWillBeTakenInUseToday[3,1,2] >= 0
+ R29416: layerInUse[2,1,3] - layerInUse[3,1,3]
+   + layerWillBeTakenInUseToday[3,1,3] >= 0
+ R29417: layerInUse[2,1,4] - layerInUse[3,1,4]
+   + layerWillBeTakenInUseToday[3,1,4] >= 0
+ R29418: layerInUse[2,1,5] - layerInUse[3,1,5]
+   + layerWillBeTakenInUseToday[3,1,5] >= 0
+ R29419: layerInUse[2,1,6] - layerInUse[3,1,6]
+   + layerWillBeTakenInUseToday[3,1,6] >= 0
+ R29420: layerInUse[2,2,1] - layerInUse[3,2,1]
+   + layerWillBeTakenInUseToday[3,2,1] >= 0
+ R29421: layerInUse[2,2,2] - layerInUse[3,2,2]
+   + layerWillBeTakenInUseToday[3,2,2] >= 0
+ R29422: layerInUse[2,2,3] - layerInUse[3,2,3]
+   + layerWillBeTakenInUseToday[3,2,3] >= 0
+ R29423: layerInUse[2,2,4] - layerInUse[3,2,4]
+   + layerWillBeTakenInUseToday[3,2,4] >= 0
+ R29424: layerInUse[2,2,5] - layerInUse[3,2,5]
+   + layerWillBeTakenInUseToday[3,2,5] >= 0
+ R29425: layerInUse[2,2,6] - layerInUse[3,2,6]
+   + layerWillBeTakenInUseToday[3,2,6] >= 0
+ R29426: layerInUse[2,3,1] - layerInUse[3,3,1]
+   + layerWillBeTakenInUseToday[3,3,1] >= 0
+ R29427: layerInUse[2,3,2] - layerInUse[3,3,2]
+   + layerWillBeTakenInUseToday[3,3,2] >= 0
+ R29428: layerInUse[2,3,3] - layerInUse[3,3,3]
+   + layerWillBeTakenInUseToday[3,3,3] >= 0
+ R29429: layerInUse[2,3,4] - layerInUse[3,3,4]
+   + layerWillBeTakenInUseToday[3,3,4] >= 0
+ R29430: layerInUse[2,3,5] - layerInUse[3,3,5]
+   + layerWillBeTakenInUseToday[3,3,5] >= 0
+ R29431: layerInUse[2,3,6] - layerInUse[3,3,6]
+   + layerWillBeTakenInUseToday[3,3,6] >= 0
+ R29432: layerInUse[2,4,1] - layerInUse[3,4,1]
+   + layerWillBeTakenInUseToday[3,4,1] >= 0
+ R29433: layerInUse[2,4,2] - layerInUse[3,4,2]
+   + layerWillBeTakenInUseToday[3,4,2] >= 0
+ R29434: layerInUse[2,4,3] - layerInUse[3,4,3]
+   + layerWillBeTakenInUseToday[3,4,3] >= 0
+ R29435: layerInUse[2,4,4] - layerInUse[3,4,4]
+   + layerWillBeTakenInUseToday[3,4,4] >= 0
+ R29436: layerInUse[2,4,5] - layerInUse[3,4,5]
+   + layerWillBeTakenInUseToday[3,4,5] >= 0
+ R29437: layerInUse[2,4,6] - layerInUse[3,4,6]
+   + layerWillBeTakenInUseToday[3,4,6] >= 0
+ R29438: layerInUse[2,5,1] - layerInUse[3,5,1]
+   + layerWillBeTakenInUseToday[3,5,1] >= 0
+ R29439: layerInUse[2,5,2] - layerInUse[3,5,2]
+   + layerWillBeTakenInUseToday[3,5,2] >= 0
+ R29440: layerInUse[2,5,3] - layerInUse[3,5,3]
+   + layerWillBeTakenInUseToday[3,5,3] >= 0
+ R29441: layerInUse[2,5,4] - layerInUse[3,5,4]
+   + layerWillBeTakenInUseToday[3,5,4] >= 0
+ R29442: layerInUse[2,5,5] - layerInUse[3,5,5]
+   + layerWillBeTakenInUseToday[3,5,5] >= 0
+ R29443: layerInUse[2,5,6] - layerInUse[3,5,6]
+   + layerWillBeTakenInUseToday[3,5,6] >= 0
+ R29444: layerInUse[2,6,1] - layerInUse[3,6,1]
+   + layerWillBeTakenInUseToday[3,6,1] >= 0
+ R29445: layerInUse[2,6,2] - layerInUse[3,6,2]
+   + layerWillBeTakenInUseToday[3,6,2] >= 0
+ R29446: layerInUse[2,6,3] - layerInUse[3,6,3]
+   + layerWillBeTakenInUseToday[3,6,3] >= 0
+ R29447: layerInUse[2,6,4] - layerInUse[3,6,4]
+   + layerWillBeTakenInUseToday[3,6,4] >= 0
+ R29448: layerInUse[2,6,5] - layerInUse[3,6,5]
+   + layerWillBeTakenInUseToday[3,6,5] >= 0
+ R29449: layerInUse[2,6,6] - layerInUse[3,6,6]
+   + layerWillBeTakenInUseToday[3,6,6] >= 0
+ R29450: layerInUse[2,7,1] - layerInUse[3,7,1]
+   + layerWillBeTakenInUseToday[3,7,1] >= 0
+ R29451: layerInUse[2,7,2] - layerInUse[3,7,2]
+   + layerWillBeTakenInUseToday[3,7,2] >= 0
+ R29452: layerInUse[2,7,3] - layerInUse[3,7,3]
+   + layerWillBeTakenInUseToday[3,7,3] >= 0
+ R29453: layerInUse[2,7,4] - layerInUse[3,7,4]
+   + layerWillBeTakenInUseToday[3,7,4] >= 0
+ R29454: layerInUse[2,7,5] - layerInUse[3,7,5]
+   + layerWillBeTakenInUseToday[3,7,5] >= 0
+ R29455: layerInUse[2,7,6] - layerInUse[3,7,6]
+   + layerWillBeTakenInUseToday[3,7,6] >= 0
+ R29456: layerInUse[2,8,1] - layerInUse[3,8,1]
+   + layerWillBeTakenInUseToday[3,8,1] >= 0
+ R29457: layerInUse[2,8,2] - layerInUse[3,8,2]
+   + layerWillBeTakenInUseToday[3,8,2] >= 0
+ R29458: layerInUse[2,8,3] - layerInUse[3,8,3]
+   + layerWillBeTakenInUseToday[3,8,3] >= 0
+ R29459: layerInUse[2,8,4] - layerInUse[3,8,4]
+   + layerWillBeTakenInUseToday[3,8,4] >= 0
+ R29460: layerInUse[2,8,5] - layerInUse[3,8,5]
+   + layerWillBeTakenInUseToday[3,8,5] >= 0
+ R29461: layerInUse[2,8,6] - layerInUse[3,8,6]
+   + layerWillBeTakenInUseToday[3,8,6] >= 0
+ R29462: layerInUse[3,1,1] - layerInUse[4,1,1]
+   + layerWillBeTakenInUseToday[4,1,1] >= 0
+ R29463: layerInUse[3,1,2] - layerInUse[4,1,2]
+   + layerWillBeTakenInUseToday[4,1,2] >= 0
+ R29464: layerInUse[3,1,3] - layerInUse[4,1,3]
+   + layerWillBeTakenInUseToday[4,1,3] >= 0
+ R29465: layerInUse[3,1,4] - layerInUse[4,1,4]
+   + layerWillBeTakenInUseToday[4,1,4] >= 0
+ R29466: layerInUse[3,1,5] - layerInUse[4,1,5]
+   + layerWillBeTakenInUseToday[4,1,5] >= 0
+ R29467: layerInUse[3,1,6] - layerInUse[4,1,6]
+   + layerWillBeTakenInUseToday[4,1,6] >= 0
+ R29468: layerInUse[3,2,1] - layerInUse[4,2,1]
+   + layerWillBeTakenInUseToday[4,2,1] >= 0
+ R29469: layerInUse[3,2,2] - layerInUse[4,2,2]
+   + layerWillBeTakenInUseToday[4,2,2] >= 0
+ R29470: layerInUse[3,2,3] - layerInUse[4,2,3]
+   + layerWillBeTakenInUseToday[4,2,3] >= 0
+ R29471: layerInUse[3,2,4] - layerInUse[4,2,4]
+   + layerWillBeTakenInUseToday[4,2,4] >= 0
+ R29472: layerInUse[3,2,5] - layerInUse[4,2,5]
+   + layerWillBeTakenInUseToday[4,2,5] >= 0
+ R29473: layerInUse[3,2,6] - layerInUse[4,2,6]
+   + layerWillBeTakenInUseToday[4,2,6] >= 0
+ R29474: layerInUse[3,3,1] - layerInUse[4,3,1]
+   + layerWillBeTakenInUseToday[4,3,1] >= 0
+ R29475: layerInUse[3,3,2] - layerInUse[4,3,2]
+   + layerWillBeTakenInUseToday[4,3,2] >= 0
+ R29476: layerInUse[3,3,3] - layerInUse[4,3,3]
+   + layerWillBeTakenInUseToday[4,3,3] >= 0
+ R29477: layerInUse[3,3,4] - layerInUse[4,3,4]
+   + layerWillBeTakenInUseToday[4,3,4] >= 0
+ R29478: layerInUse[3,3,5] - layerInUse[4,3,5]
+   + layerWillBeTakenInUseToday[4,3,5] >= 0
+ R29479: layerInUse[3,3,6] - layerInUse[4,3,6]
+   + layerWillBeTakenInUseToday[4,3,6] >= 0
+ R29480: layerInUse[3,4,1] - layerInUse[4,4,1]
+   + layerWillBeTakenInUseToday[4,4,1] >= 0
+ R29481: layerInUse[3,4,2] - layerInUse[4,4,2]
+   + layerWillBeTakenInUseToday[4,4,2] >= 0
+ R29482: layerInUse[3,4,3] - layerInUse[4,4,3]
+   + layerWillBeTakenInUseToday[4,4,3] >= 0
+ R29483: layerInUse[3,4,4] - layerInUse[4,4,4]
+   + layerWillBeTakenInUseToday[4,4,4] >= 0
+ R29484: layerInUse[3,4,5] - layerInUse[4,4,5]
+   + layerWillBeTakenInUseToday[4,4,5] >= 0
+ R29485: layerInUse[3,4,6] - layerInUse[4,4,6]
+   + layerWillBeTakenInUseToday[4,4,6] >= 0
+ R29486: layerInUse[3,5,1] - layerInUse[4,5,1]
+   + layerWillBeTakenInUseToday[4,5,1] >= 0
+ R29487: layerInUse[3,5,2] - layerInUse[4,5,2]
+   + layerWillBeTakenInUseToday[4,5,2] >= 0
+ R29488: layerInUse[3,5,3] - layerInUse[4,5,3]
+   + layerWillBeTakenInUseToday[4,5,3] >= 0
+ R29489: layerInUse[3,5,4] - layerInUse[4,5,4]
+   + layerWillBeTakenInUseToday[4,5,4] >= 0
+ R29490: layerInUse[3,5,5] - layerInUse[4,5,5]
+   + layerWillBeTakenInUseToday[4,5,5] >= 0
+ R29491: layerInUse[3,5,6] - layerInUse[4,5,6]
+   + layerWillBeTakenInUseToday[4,5,6] >= 0
+ R29492: layerInUse[3,6,1] - layerInUse[4,6,1]
+   + layerWillBeTakenInUseToday[4,6,1] >= 0
+ R29493: layerInUse[3,6,2] - layerInUse[4,6,2]
+   + layerWillBeTakenInUseToday[4,6,2] >= 0
+ R29494: layerInUse[3,6,3] - layerInUse[4,6,3]
+   + layerWillBeTakenInUseToday[4,6,3] >= 0
+ R29495: layerInUse[3,6,4] - layerInUse[4,6,4]
+   + layerWillBeTakenInUseToday[4,6,4] >= 0
+ R29496: layerInUse[3,6,5] - layerInUse[4,6,5]
+   + layerWillBeTakenInUseToday[4,6,5] >= 0
+ R29497: layerInUse[3,6,6] - layerInUse[4,6,6]
+   + layerWillBeTakenInUseToday[4,6,6] >= 0
+ R29498: layerInUse[3,7,1] - layerInUse[4,7,1]
+   + layerWillBeTakenInUseToday[4,7,1] >= 0
+ R29499: layerInUse[3,7,2] - layerInUse[4,7,2]
+   + layerWillBeTakenInUseToday[4,7,2] >= 0
+ R29500: layerInUse[3,7,3] - layerInUse[4,7,3]
+   + layerWillBeTakenInUseToday[4,7,3] >= 0
+ R29501: layerInUse[3,7,4] - layerInUse[4,7,4]
+   + layerWillBeTakenInUseToday[4,7,4] >= 0
+ R29502: layerInUse[3,7,5] - layerInUse[4,7,5]
+   + layerWillBeTakenInUseToday[4,7,5] >= 0
+ R29503: layerInUse[3,7,6] - layerInUse[4,7,6]
+   + layerWillBeTakenInUseToday[4,7,6] >= 0
+ R29504: layerInUse[3,8,1] - layerInUse[4,8,1]
+   + layerWillBeTakenInUseToday[4,8,1] >= 0
+ R29505: layerInUse[3,8,2] - layerInUse[4,8,2]
+   + layerWillBeTakenInUseToday[4,8,2] >= 0
+ R29506: layerInUse[3,8,3] - layerInUse[4,8,3]
+   + layerWillBeTakenInUseToday[4,8,3] >= 0
+ R29507: layerInUse[3,8,4] - layerInUse[4,8,4]
+   + layerWillBeTakenInUseToday[4,8,4] >= 0
+ R29508: layerInUse[3,8,5] - layerInUse[4,8,5]
+   + layerWillBeTakenInUseToday[4,8,5] >= 0
+ R29509: layerInUse[3,8,6] - layerInUse[4,8,6]
+   + layerWillBeTakenInUseToday[4,8,6] >= 0
+ R29510: layerInUse[4,1,1] - layerInUse[5,1,1]
+   + layerWillBeTakenInUseToday[5,1,1] >= 0
+ R29511: layerInUse[4,1,2] - layerInUse[5,1,2]
+   + layerWillBeTakenInUseToday[5,1,2] >= 0
+ R29512: layerInUse[4,1,3] - layerInUse[5,1,3]
+   + layerWillBeTakenInUseToday[5,1,3] >= 0
+ R29513: layerInUse[4,1,4] - layerInUse[5,1,4]
+   + layerWillBeTakenInUseToday[5,1,4] >= 0
+ R29514: layerInUse[4,1,5] - layerInUse[5,1,5]
+   + layerWillBeTakenInUseToday[5,1,5] >= 0
+ R29515: layerInUse[4,1,6] - layerInUse[5,1,6]
+   + layerWillBeTakenInUseToday[5,1,6] >= 0
+ R29516: layerInUse[4,2,1] - layerInUse[5,2,1]
+   + layerWillBeTakenInUseToday[5,2,1] >= 0
+ R29517: layerInUse[4,2,2] - layerInUse[5,2,2]
+   + layerWillBeTakenInUseToday[5,2,2] >= 0
+ R29518: layerInUse[4,2,3] - layerInUse[5,2,3]
+   + layerWillBeTakenInUseToday[5,2,3] >= 0
+ R29519: layerInUse[4,2,4] - layerInUse[5,2,4]
+   + layerWillBeTakenInUseToday[5,2,4] >= 0
+ R29520: layerInUse[4,2,5] - layerInUse[5,2,5]
+   + layerWillBeTakenInUseToday[5,2,5] >= 0
+ R29521: layerInUse[4,2,6] - layerInUse[5,2,6]
+   + layerWillBeTakenInUseToday[5,2,6] >= 0
+ R29522: layerInUse[4,3,1] - layerInUse[5,3,1]
+   + layerWillBeTakenInUseToday[5,3,1] >= 0
+ R29523: layerInUse[4,3,2] - layerInUse[5,3,2]
+   + layerWillBeTakenInUseToday[5,3,2] >= 0
+ R29524: layerInUse[4,3,3] - layerInUse[5,3,3]
+   + layerWillBeTakenInUseToday[5,3,3] >= 0
+ R29525: layerInUse[4,3,4] - layerInUse[5,3,4]
+   + layerWillBeTakenInUseToday[5,3,4] >= 0
+ R29526: layerInUse[4,3,5] - layerInUse[5,3,5]
+   + layerWillBeTakenInUseToday[5,3,5] >= 0
+ R29527: layerInUse[4,3,6] - layerInUse[5,3,6]
+   + layerWillBeTakenInUseToday[5,3,6] >= 0
+ R29528: layerInUse[4,4,1] - layerInUse[5,4,1]
+   + layerWillBeTakenInUseToday[5,4,1] >= 0
+ R29529: layerInUse[4,4,2] - layerInUse[5,4,2]
+   + layerWillBeTakenInUseToday[5,4,2] >= 0
+ R29530: layerInUse[4,4,3] - layerInUse[5,4,3]
+   + layerWillBeTakenInUseToday[5,4,3] >= 0
+ R29531: layerInUse[4,4,4] - layerInUse[5,4,4]
+   + layerWillBeTakenInUseToday[5,4,4] >= 0
+ R29532: layerInUse[4,4,5] - layerInUse[5,4,5]
+   + layerWillBeTakenInUseToday[5,4,5] >= 0
+ R29533: layerInUse[4,4,6] - layerInUse[5,4,6]
+   + layerWillBeTakenInUseToday[5,4,6] >= 0
+ R29534: layerInUse[4,5,1] - layerInUse[5,5,1]
+   + layerWillBeTakenInUseToday[5,5,1] >= 0
+ R29535: layerInUse[4,5,2] - layerInUse[5,5,2]
+   + layerWillBeTakenInUseToday[5,5,2] >= 0
+ R29536: layerInUse[4,5,3] - layerInUse[5,5,3]
+   + layerWillBeTakenInUseToday[5,5,3] >= 0
+ R29537: layerInUse[4,5,4] - layerInUse[5,5,4]
+   + layerWillBeTakenInUseToday[5,5,4] >= 0
+ R29538: layerInUse[4,5,5] - layerInUse[5,5,5]
+   + layerWillBeTakenInUseToday[5,5,5] >= 0
+ R29539: layerInUse[4,5,6] - layerInUse[5,5,6]
+   + layerWillBeTakenInUseToday[5,5,6] >= 0
+ R29540: layerInUse[4,6,1] - layerInUse[5,6,1]
+   + layerWillBeTakenInUseToday[5,6,1] >= 0
+ R29541: layerInUse[4,6,2] - layerInUse[5,6,2]
+   + layerWillBeTakenInUseToday[5,6,2] >= 0
+ R29542: layerInUse[4,6,3] - layerInUse[5,6,3]
+   + layerWillBeTakenInUseToday[5,6,3] >= 0
+ R29543: layerInUse[4,6,4] - layerInUse[5,6,4]
+   + layerWillBeTakenInUseToday[5,6,4] >= 0
+ R29544: layerInUse[4,6,5] - layerInUse[5,6,5]
+   + layerWillBeTakenInUseToday[5,6,5] >= 0
+ R29545: layerInUse[4,6,6] - layerInUse[5,6,6]
+   + layerWillBeTakenInUseToday[5,6,6] >= 0
+ R29546: layerInUse[4,7,1] - layerInUse[5,7,1]
+   + layerWillBeTakenInUseToday[5,7,1] >= 0
+ R29547: layerInUse[4,7,2] - layerInUse[5,7,2]
+   + layerWillBeTakenInUseToday[5,7,2] >= 0
+ R29548: layerInUse[4,7,3] - layerInUse[5,7,3]
+   + layerWillBeTakenInUseToday[5,7,3] >= 0
+ R29549: layerInUse[4,7,4] - layerInUse[5,7,4]
+   + layerWillBeTakenInUseToday[5,7,4] >= 0
+ R29550: layerInUse[4,7,5] - layerInUse[5,7,5]
+   + layerWillBeTakenInUseToday[5,7,5] >= 0
+ R29551: layerInUse[4,7,6] - layerInUse[5,7,6]
+   + layerWillBeTakenInUseToday[5,7,6] >= 0
+ R29552: layerInUse[4,8,1] - layerInUse[5,8,1]
+   + layerWillBeTakenInUseToday[5,8,1] >= 0
+ R29553: layerInUse[4,8,2] - layerInUse[5,8,2]
+   + layerWillBeTakenInUseToday[5,8,2] >= 0
+ R29554: layerInUse[4,8,3] - layerInUse[5,8,3]
+   + layerWillBeTakenInUseToday[5,8,3] >= 0
+ R29555: layerInUse[4,8,4] - layerInUse[5,8,4]
+   + layerWillBeTakenInUseToday[5,8,4] >= 0
+ R29556: layerInUse[4,8,5] - layerInUse[5,8,5]
+   + layerWillBeTakenInUseToday[5,8,5] >= 0
+ R29557: layerInUse[4,8,6] - layerInUse[5,8,6]
+   + layerWillBeTakenInUseToday[5,8,6] >= 0
+ R29558: layerInUse[5,1,1] - layerInUse[6,1,1]
+   + layerWillBeTakenInUseToday[6,1,1] >= 0
+ R29559: layerInUse[5,1,2] - layerInUse[6,1,2]
+   + layerWillBeTakenInUseToday[6,1,2] >= 0
+ R29560: layerInUse[5,1,3] - layerInUse[6,1,3]
+   + layerWillBeTakenInUseToday[6,1,3] >= 0
+ R29561: layerInUse[5,1,4] - layerInUse[6,1,4]
+   + layerWillBeTakenInUseToday[6,1,4] >= 0
+ R29562: layerInUse[5,1,5] - layerInUse[6,1,5]
+   + layerWillBeTakenInUseToday[6,1,5] >= 0
+ R29563: layerInUse[5,1,6] - layerInUse[6,1,6]
+   + layerWillBeTakenInUseToday[6,1,6] >= 0
+ R29564: layerInUse[5,2,1] - layerInUse[6,2,1]
+   + layerWillBeTakenInUseToday[6,2,1] >= 0
+ R29565: layerInUse[5,2,2] - layerInUse[6,2,2]
+   + layerWillBeTakenInUseToday[6,2,2] >= 0
+ R29566: layerInUse[5,2,3] - layerInUse[6,2,3]
+   + layerWillBeTakenInUseToday[6,2,3] >= 0
+ R29567: layerInUse[5,2,4] - layerInUse[6,2,4]
+   + layerWillBeTakenInUseToday[6,2,4] >= 0
+ R29568: layerInUse[5,2,5] - layerInUse[6,2,5]
+   + layerWillBeTakenInUseToday[6,2,5] >= 0
+ R29569: layerInUse[5,2,6] - layerInUse[6,2,6]
+   + layerWillBeTakenInUseToday[6,2,6] >= 0
+ R29570: layerInUse[5,3,1] - layerInUse[6,3,1]
+   + layerWillBeTakenInUseToday[6,3,1] >= 0
+ R29571: layerInUse[5,3,2] - layerInUse[6,3,2]
+   + layerWillBeTakenInUseToday[6,3,2] >= 0
+ R29572: layerInUse[5,3,3] - layerInUse[6,3,3]
+   + layerWillBeTakenInUseToday[6,3,3] >= 0
+ R29573: layerInUse[5,3,4] - layerInUse[6,3,4]
+   + layerWillBeTakenInUseToday[6,3,4] >= 0
+ R29574: layerInUse[5,3,5] - layerInUse[6,3,5]
+   + layerWillBeTakenInUseToday[6,3,5] >= 0
+ R29575: layerInUse[5,3,6] - layerInUse[6,3,6]
+   + layerWillBeTakenInUseToday[6,3,6] >= 0
+ R29576: layerInUse[5,4,1] - layerInUse[6,4,1]
+   + layerWillBeTakenInUseToday[6,4,1] >= 0
+ R29577: layerInUse[5,4,2] - layerInUse[6,4,2]
+   + layerWillBeTakenInUseToday[6,4,2] >= 0
+ R29578: layerInUse[5,4,3] - layerInUse[6,4,3]
+   + layerWillBeTakenInUseToday[6,4,3] >= 0
+ R29579: layerInUse[5,4,4] - layerInUse[6,4,4]
+   + layerWillBeTakenInUseToday[6,4,4] >= 0
+ R29580: layerInUse[5,4,5] - layerInUse[6,4,5]
+   + layerWillBeTakenInUseToday[6,4,5] >= 0
+ R29581: layerInUse[5,4,6] - layerInUse[6,4,6]
+   + layerWillBeTakenInUseToday[6,4,6] >= 0
+ R29582: layerInUse[5,5,1] - layerInUse[6,5,1]
+   + layerWillBeTakenInUseToday[6,5,1] >= 0
+ R29583: layerInUse[5,5,2] - layerInUse[6,5,2]
+   + layerWillBeTakenInUseToday[6,5,2] >= 0
+ R29584: layerInUse[5,5,3] - layerInUse[6,5,3]
+   + layerWillBeTakenInUseToday[6,5,3] >= 0
+ R29585: layerInUse[5,5,4] - layerInUse[6,5,4]
+   + layerWillBeTakenInUseToday[6,5,4] >= 0
+ R29586: layerInUse[5,5,5] - layerInUse[6,5,5]
+   + layerWillBeTakenInUseToday[6,5,5] >= 0
+ R29587: layerInUse[5,5,6] - layerInUse[6,5,6]
+   + layerWillBeTakenInUseToday[6,5,6] >= 0
+ R29588: layerInUse[5,6,1] - layerInUse[6,6,1]
+   + layerWillBeTakenInUseToday[6,6,1] >= 0
+ R29589: layerInUse[5,6,2] - layerInUse[6,6,2]
+   + layerWillBeTakenInUseToday[6,6,2] >= 0
+ R29590: layerInUse[5,6,3] - layerInUse[6,6,3]
+   + layerWillBeTakenInUseToday[6,6,3] >= 0
+ R29591: layerInUse[5,6,4] - layerInUse[6,6,4]
+   + layerWillBeTakenInUseToday[6,6,4] >= 0
+ R29592: layerInUse[5,6,5] - layerInUse[6,6,5]
+   + layerWillBeTakenInUseToday[6,6,5] >= 0
+ R29593: layerInUse[5,6,6] - layerInUse[6,6,6]
+   + layerWillBeTakenInUseToday[6,6,6] >= 0
+ R29594: layerInUse[5,7,1] - layerInUse[6,7,1]
+   + layerWillBeTakenInUseToday[6,7,1] >= 0
+ R29595: layerInUse[5,7,2] - layerInUse[6,7,2]
+   + layerWillBeTakenInUseToday[6,7,2] >= 0
+ R29596: layerInUse[5,7,3] - layerInUse[6,7,3]
+   + layerWillBeTakenInUseToday[6,7,3] >= 0
+ R29597: layerInUse[5,7,4] - layerInUse[6,7,4]
+   + layerWillBeTakenInUseToday[6,7,4] >= 0
+ R29598: layerInUse[5,7,5] - layerInUse[6,7,5]
+   + layerWillBeTakenInUseToday[6,7,5] >= 0
+ R29599: layerInUse[5,7,6] - layerInUse[6,7,6]
+   + layerWillBeTakenInUseToday[6,7,6] >= 0
+ R29600: layerInUse[5,8,1] - layerInUse[6,8,1]
+   + layerWillBeTakenInUseToday[6,8,1] >= 0
+ R29601: layerInUse[5,8,2] - layerInUse[6,8,2]
+   + layerWillBeTakenInUseToday[6,8,2] >= 0
+ R29602: layerInUse[5,8,3] - layerInUse[6,8,3]
+   + layerWillBeTakenInUseToday[6,8,3] >= 0
+ R29603: layerInUse[5,8,4] - layerInUse[6,8,4]
+   + layerWillBeTakenInUseToday[6,8,4] >= 0
+ R29604: layerInUse[5,8,5] - layerInUse[6,8,5]
+   + layerWillBeTakenInUseToday[6,8,5] >= 0
+ R29605: layerInUse[5,8,6] - layerInUse[6,8,6]
+   + layerWillBeTakenInUseToday[6,8,6] >= 0
+ R29606: layerInUse[6,1,1] - layerInUse[7,1,1]
+   + layerWillBeTakenInUseToday[7,1,1] >= 0
+ R29607: layerInUse[6,1,2] - layerInUse[7,1,2]
+   + layerWillBeTakenInUseToday[7,1,2] >= 0
+ R29608: layerInUse[6,1,3] - layerInUse[7,1,3]
+   + layerWillBeTakenInUseToday[7,1,3] >= 0
+ R29609: layerInUse[6,1,4] - layerInUse[7,1,4]
+   + layerWillBeTakenInUseToday[7,1,4] >= 0
+ R29610: layerInUse[6,1,5] - layerInUse[7,1,5]
+   + layerWillBeTakenInUseToday[7,1,5] >= 0
+ R29611: layerInUse[6,1,6] - layerInUse[7,1,6]
+   + layerWillBeTakenInUseToday[7,1,6] >= 0
+ R29612: layerInUse[6,2,1] - layerInUse[7,2,1]
+   + layerWillBeTakenInUseToday[7,2,1] >= 0
+ R29613: layerInUse[6,2,2] - layerInUse[7,2,2]
+   + layerWillBeTakenInUseToday[7,2,2] >= 0
+ R29614: layerInUse[6,2,3] - layerInUse[7,2,3]
+   + layerWillBeTakenInUseToday[7,2,3] >= 0
+ R29615: layerInUse[6,2,4] - layerInUse[7,2,4]
+   + layerWillBeTakenInUseToday[7,2,4] >= 0
+ R29616: layerInUse[6,2,5] - layerInUse[7,2,5]
+   + layerWillBeTakenInUseToday[7,2,5] >= 0
+ R29617: layerInUse[6,2,6] - layerInUse[7,2,6]
+   + layerWillBeTakenInUseToday[7,2,6] >= 0
+ R29618: layerInUse[6,3,1] - layerInUse[7,3,1]
+   + layerWillBeTakenInUseToday[7,3,1] >= 0
+ R29619: layerInUse[6,3,2] - layerInUse[7,3,2]
+   + layerWillBeTakenInUseToday[7,3,2] >= 0
+ R29620: layerInUse[6,3,3] - layerInUse[7,3,3]
+   + layerWillBeTakenInUseToday[7,3,3] >= 0
+ R29621: layerInUse[6,3,4] - layerInUse[7,3,4]
+   + layerWillBeTakenInUseToday[7,3,4] >= 0
+ R29622: layerInUse[6,3,5] - layerInUse[7,3,5]
+   + layerWillBeTakenInUseToday[7,3,5] >= 0
+ R29623: layerInUse[6,3,6] - layerInUse[7,3,6]
+   + layerWillBeTakenInUseToday[7,3,6] >= 0
+ R29624: layerInUse[6,4,1] - layerInUse[7,4,1]
+   + layerWillBeTakenInUseToday[7,4,1] >= 0
+ R29625: layerInUse[6,4,2] - layerInUse[7,4,2]
+   + layerWillBeTakenInUseToday[7,4,2] >= 0
+ R29626: layerInUse[6,4,3] - layerInUse[7,4,3]
+   + layerWillBeTakenInUseToday[7,4,3] >= 0
+ R29627: layerInUse[6,4,4] - layerInUse[7,4,4]
+   + layerWillBeTakenInUseToday[7,4,4] >= 0
+ R29628: layerInUse[6,4,5] - layerInUse[7,4,5]
+   + layerWillBeTakenInUseToday[7,4,5] >= 0
+ R29629: layerInUse[6,4,6] - layerInUse[7,4,6]
+   + layerWillBeTakenInUseToday[7,4,6] >= 0
+ R29630: layerInUse[6,5,1] - layerInUse[7,5,1]
+   + layerWillBeTakenInUseToday[7,5,1] >= 0
+ R29631: layerInUse[6,5,2] - layerInUse[7,5,2]
+   + layerWillBeTakenInUseToday[7,5,2] >= 0
+ R29632: layerInUse[6,5,3] - layerInUse[7,5,3]
+   + layerWillBeTakenInUseToday[7,5,3] >= 0
+ R29633: layerInUse[6,5,4] - layerInUse[7,5,4]
+   + layerWillBeTakenInUseToday[7,5,4] >= 0
+ R29634: layerInUse[6,5,5] - layerInUse[7,5,5]
+   + layerWillBeTakenInUseToday[7,5,5] >= 0
+ R29635: layerInUse[6,5,6] - layerInUse[7,5,6]
+   + layerWillBeTakenInUseToday[7,5,6] >= 0
+ R29636: layerInUse[6,6,1] - layerInUse[7,6,1]
+   + layerWillBeTakenInUseToday[7,6,1] >= 0
+ R29637: layerInUse[6,6,2] - layerInUse[7,6,2]
+   + layerWillBeTakenInUseToday[7,6,2] >= 0
+ R29638: layerInUse[6,6,3] - layerInUse[7,6,3]
+   + layerWillBeTakenInUseToday[7,6,3] >= 0
+ R29639: layerInUse[6,6,4] - layerInUse[7,6,4]
+   + layerWillBeTakenInUseToday[7,6,4] >= 0
+ R29640: layerInUse[6,6,5] - layerInUse[7,6,5]
+   + layerWillBeTakenInUseToday[7,6,5] >= 0
+ R29641: layerInUse[6,6,6] - layerInUse[7,6,6]
+   + layerWillBeTakenInUseToday[7,6,6] >= 0
+ R29642: layerInUse[6,7,1] - layerInUse[7,7,1]
+   + layerWillBeTakenInUseToday[7,7,1] >= 0
+ R29643: layerInUse[6,7,2] - layerInUse[7,7,2]
+   + layerWillBeTakenInUseToday[7,7,2] >= 0
+ R29644: layerInUse[6,7,3] - layerInUse[7,7,3]
+   + layerWillBeTakenInUseToday[7,7,3] >= 0
+ R29645: layerInUse[6,7,4] - layerInUse[7,7,4]
+   + layerWillBeTakenInUseToday[7,7,4] >= 0
+ R29646: layerInUse[6,7,5] - layerInUse[7,7,5]
+   + layerWillBeTakenInUseToday[7,7,5] >= 0
+ R29647: layerInUse[6,7,6] - layerInUse[7,7,6]
+   + layerWillBeTakenInUseToday[7,7,6] >= 0
+ R29648: layerInUse[6,8,1] - layerInUse[7,8,1]
+   + layerWillBeTakenInUseToday[7,8,1] >= 0
+ R29649: layerInUse[6,8,2] - layerInUse[7,8,2]
+   + layerWillBeTakenInUseToday[7,8,2] >= 0
+ R29650: layerInUse[6,8,3] - layerInUse[7,8,3]
+   + layerWillBeTakenInUseToday[7,8,3] >= 0
+ R29651: layerInUse[6,8,4] - layerInUse[7,8,4]
+   + layerWillBeTakenInUseToday[7,8,4] >= 0
+ R29652: layerInUse[6,8,5] - layerInUse[7,8,5]
+   + layerWillBeTakenInUseToday[7,8,5] >= 0
+ R29653: layerInUse[6,8,6] - layerInUse[7,8,6]
+   + layerWillBeTakenInUseToday[7,8,6] >= 0
+ R29654: layerInUse[7,1,1] - layerInUse[8,1,1]
+   + layerWillBeTakenInUseToday[8,1,1] >= 0
+ R29655: layerInUse[7,1,2] - layerInUse[8,1,2]
+   + layerWillBeTakenInUseToday[8,1,2] >= 0
+ R29656: layerInUse[7,1,3] - layerInUse[8,1,3]
+   + layerWillBeTakenInUseToday[8,1,3] >= 0
+ R29657: layerInUse[7,1,4] - layerInUse[8,1,4]
+   + layerWillBeTakenInUseToday[8,1,4] >= 0
+ R29658: layerInUse[7,1,5] - layerInUse[8,1,5]
+   + layerWillBeTakenInUseToday[8,1,5] >= 0
+ R29659: layerInUse[7,1,6] - layerInUse[8,1,6]
+   + layerWillBeTakenInUseToday[8,1,6] >= 0
+ R29660: layerInUse[7,2,1] - layerInUse[8,2,1]
+   + layerWillBeTakenInUseToday[8,2,1] >= 0
+ R29661: layerInUse[7,2,2] - layerInUse[8,2,2]
+   + layerWillBeTakenInUseToday[8,2,2] >= 0
+ R29662: layerInUse[7,2,3] - layerInUse[8,2,3]
+   + layerWillBeTakenInUseToday[8,2,3] >= 0
+ R29663: layerInUse[7,2,4] - layerInUse[8,2,4]
+   + layerWillBeTakenInUseToday[8,2,4] >= 0
+ R29664: layerInUse[7,2,5] - layerInUse[8,2,5]
+   + layerWillBeTakenInUseToday[8,2,5] >= 0
+ R29665: layerInUse[7,2,6] - layerInUse[8,2,6]
+   + layerWillBeTakenInUseToday[8,2,6] >= 0
+ R29666: layerInUse[7,3,1] - layerInUse[8,3,1]
+   + layerWillBeTakenInUseToday[8,3,1] >= 0
+ R29667: layerInUse[7,3,2] - layerInUse[8,3,2]
+   + layerWillBeTakenInUseToday[8,3,2] >= 0
+ R29668: layerInUse[7,3,3] - layerInUse[8,3,3]
+   + layerWillBeTakenInUseToday[8,3,3] >= 0
+ R29669: layerInUse[7,3,4] - layerInUse[8,3,4]
+   + layerWillBeTakenInUseToday[8,3,4] >= 0
+ R29670: layerInUse[7,3,5] - layerInUse[8,3,5]
+   + layerWillBeTakenInUseToday[8,3,5] >= 0
+ R29671: layerInUse[7,3,6] - layerInUse[8,3,6]
+   + layerWillBeTakenInUseToday[8,3,6] >= 0
+ R29672: layerInUse[7,4,1] - layerInUse[8,4,1]
+   + layerWillBeTakenInUseToday[8,4,1] >= 0
+ R29673: layerInUse[7,4,2] - layerInUse[8,4,2]
+   + layerWillBeTakenInUseToday[8,4,2] >= 0
+ R29674: layerInUse[7,4,3] - layerInUse[8,4,3]
+   + layerWillBeTakenInUseToday[8,4,3] >= 0
+ R29675: layerInUse[7,4,4] - layerInUse[8,4,4]
+   + layerWillBeTakenInUseToday[8,4,4] >= 0
+ R29676: layerInUse[7,4,5] - layerInUse[8,4,5]
+   + layerWillBeTakenInUseToday[8,4,5] >= 0
+ R29677: layerInUse[7,4,6] - layerInUse[8,4,6]
+   + layerWillBeTakenInUseToday[8,4,6] >= 0
+ R29678: layerInUse[7,5,1] - layerInUse[8,5,1]
+   + layerWillBeTakenInUseToday[8,5,1] >= 0
+ R29679: layerInUse[7,5,2] - layerInUse[8,5,2]
+   + layerWillBeTakenInUseToday[8,5,2] >= 0
+ R29680: layerInUse[7,5,3] - layerInUse[8,5,3]
+   + layerWillBeTakenInUseToday[8,5,3] >= 0
+ R29681: layerInUse[7,5,4] - layerInUse[8,5,4]
+   + layerWillBeTakenInUseToday[8,5,4] >= 0
+ R29682: layerInUse[7,5,5] - layerInUse[8,5,5]
+   + layerWillBeTakenInUseToday[8,5,5] >= 0
+ R29683: layerInUse[7,5,6] - layerInUse[8,5,6]
+   + layerWillBeTakenInUseToday[8,5,6] >= 0
+ R29684: layerInUse[7,6,1] - layerInUse[8,6,1]
+   + layerWillBeTakenInUseToday[8,6,1] >= 0
+ R29685: layerInUse[7,6,2] - layerInUse[8,6,2]
+   + layerWillBeTakenInUseToday[8,6,2] >= 0
+ R29686: layerInUse[7,6,3] - layerInUse[8,6,3]
+   + layerWillBeTakenInUseToday[8,6,3] >= 0
+ R29687: layerInUse[7,6,4] - layerInUse[8,6,4]
+   + layerWillBeTakenInUseToday[8,6,4] >= 0
+ R29688: layerInUse[7,6,5] - layerInUse[8,6,5]
+   + layerWillBeTakenInUseToday[8,6,5] >= 0
+ R29689: layerInUse[7,6,6] - layerInUse[8,6,6]
+   + layerWillBeTakenInUseToday[8,6,6] >= 0
+ R29690: layerInUse[7,7,1] - layerInUse[8,7,1]
+   + layerWillBeTakenInUseToday[8,7,1] >= 0
+ R29691: layerInUse[7,7,2] - layerInUse[8,7,2]
+   + layerWillBeTakenInUseToday[8,7,2] >= 0
+ R29692: layerInUse[7,7,3] - layerInUse[8,7,3]
+   + layerWillBeTakenInUseToday[8,7,3] >= 0
+ R29693: layerInUse[7,7,4] - layerInUse[8,7,4]
+   + layerWillBeTakenInUseToday[8,7,4] >= 0
+ R29694: layerInUse[7,7,5] - layerInUse[8,7,5]
+   + layerWillBeTakenInUseToday[8,7,5] >= 0
+ R29695: layerInUse[7,7,6] - layerInUse[8,7,6]
+   + layerWillBeTakenInUseToday[8,7,6] >= 0
+ R29696: layerInUse[7,8,1] - layerInUse[8,8,1]
+   + layerWillBeTakenInUseToday[8,8,1] >= 0
+ R29697: layerInUse[7,8,2] - layerInUse[8,8,2]
+   + layerWillBeTakenInUseToday[8,8,2] >= 0
+ R29698: layerInUse[7,8,3] - layerInUse[8,8,3]
+   + layerWillBeTakenInUseToday[8,8,3] >= 0
+ R29699: layerInUse[7,8,4] - layerInUse[8,8,4]
+   + layerWillBeTakenInUseToday[8,8,4] >= 0
+ R29700: layerInUse[7,8,5] - layerInUse[8,8,5]
+   + layerWillBeTakenInUseToday[8,8,5] >= 0
+ R29701: layerInUse[7,8,6] - layerInUse[8,8,6]
+   + layerWillBeTakenInUseToday[8,8,6] >= 0
+ R29702: layerInUse[8,1,1] - layerInUse[9,1,1]
+   + layerWillBeTakenInUseToday[9,1,1] >= 0
+ R29703: layerInUse[8,1,2] - layerInUse[9,1,2]
+   + layerWillBeTakenInUseToday[9,1,2] >= 0
+ R29704: layerInUse[8,1,3] - layerInUse[9,1,3]
+   + layerWillBeTakenInUseToday[9,1,3] >= 0
+ R29705: layerInUse[8,1,4] - layerInUse[9,1,4]
+   + layerWillBeTakenInUseToday[9,1,4] >= 0
+ R29706: layerInUse[8,1,5] - layerInUse[9,1,5]
+   + layerWillBeTakenInUseToday[9,1,5] >= 0
+ R29707: layerInUse[8,1,6] - layerInUse[9,1,6]
+   + layerWillBeTakenInUseToday[9,1,6] >= 0
+ R29708: layerInUse[8,2,1] - layerInUse[9,2,1]
+   + layerWillBeTakenInUseToday[9,2,1] >= 0
+ R29709: layerInUse[8,2,2] - layerInUse[9,2,2]
+   + layerWillBeTakenInUseToday[9,2,2] >= 0
+ R29710: layerInUse[8,2,3] - layerInUse[9,2,3]
+   + layerWillBeTakenInUseToday[9,2,3] >= 0
+ R29711: layerInUse[8,2,4] - layerInUse[9,2,4]
+   + layerWillBeTakenInUseToday[9,2,4] >= 0
+ R29712: layerInUse[8,2,5] - layerInUse[9,2,5]
+   + layerWillBeTakenInUseToday[9,2,5] >= 0
+ R29713: layerInUse[8,2,6] - layerInUse[9,2,6]
+   + layerWillBeTakenInUseToday[9,2,6] >= 0
+ R29714: layerInUse[8,3,1] - layerInUse[9,3,1]
+   + layerWillBeTakenInUseToday[9,3,1] >= 0
+ R29715: layerInUse[8,3,2] - layerInUse[9,3,2]
+   + layerWillBeTakenInUseToday[9,3,2] >= 0
+ R29716: layerInUse[8,3,3] - layerInUse[9,3,3]
+   + layerWillBeTakenInUseToday[9,3,3] >= 0
+ R29717: layerInUse[8,3,4] - layerInUse[9,3,4]
+   + layerWillBeTakenInUseToday[9,3,4] >= 0
+ R29718: layerInUse[8,3,5] - layerInUse[9,3,5]
+   + layerWillBeTakenInUseToday[9,3,5] >= 0
+ R29719: layerInUse[8,3,6] - layerInUse[9,3,6]
+   + layerWillBeTakenInUseToday[9,3,6] >= 0
+ R29720: layerInUse[8,4,1] - layerInUse[9,4,1]
+   + layerWillBeTakenInUseToday[9,4,1] >= 0
+ R29721: layerInUse[8,4,2] - layerInUse[9,4,2]
+   + layerWillBeTakenInUseToday[9,4,2] >= 0
+ R29722: layerInUse[8,4,3] - layerInUse[9,4,3]
+   + layerWillBeTakenInUseToday[9,4,3] >= 0
+ R29723: layerInUse[8,4,4] - layerInUse[9,4,4]
+   + layerWillBeTakenInUseToday[9,4,4] >= 0
+ R29724: layerInUse[8,4,5] - layerInUse[9,4,5]
+   + layerWillBeTakenInUseToday[9,4,5] >= 0
+ R29725: layerInUse[8,4,6] - layerInUse[9,4,6]
+   + layerWillBeTakenInUseToday[9,4,6] >= 0
+ R29726: layerInUse[8,5,1] - layerInUse[9,5,1]
+   + layerWillBeTakenInUseToday[9,5,1] >= 0
+ R29727: layerInUse[8,5,2] - layerInUse[9,5,2]
+   + layerWillBeTakenInUseToday[9,5,2] >= 0
+ R29728: layerInUse[8,5,3] - layerInUse[9,5,3]
+   + layerWillBeTakenInUseToday[9,5,3] >= 0
+ R29729: layerInUse[8,5,4] - layerInUse[9,5,4]
+   + layerWillBeTakenInUseToday[9,5,4] >= 0
+ R29730: layerInUse[8,5,5] - layerInUse[9,5,5]
+   + layerWillBeTakenInUseToday[9,5,5] >= 0
+ R29731: layerInUse[8,5,6] - layerInUse[9,5,6]
+   + layerWillBeTakenInUseToday[9,5,6] >= 0
+ R29732: layerInUse[8,6,1] - layerInUse[9,6,1]
+   + layerWillBeTakenInUseToday[9,6,1] >= 0
+ R29733: layerInUse[8,6,2] - layerInUse[9,6,2]
+   + layerWillBeTakenInUseToday[9,6,2] >= 0
+ R29734: layerInUse[8,6,3] - layerInUse[9,6,3]
+   + layerWillBeTakenInUseToday[9,6,3] >= 0
+ R29735: layerInUse[8,6,4] - layerInUse[9,6,4]
+   + layerWillBeTakenInUseToday[9,6,4] >= 0
+ R29736: layerInUse[8,6,5] - layerInUse[9,6,5]
+   + layerWillBeTakenInUseToday[9,6,5] >= 0
+ R29737: layerInUse[8,6,6] - layerInUse[9,6,6]
+   + layerWillBeTakenInUseToday[9,6,6] >= 0
+ R29738: layerInUse[8,7,1] - layerInUse[9,7,1]
+   + layerWillBeTakenInUseToday[9,7,1] >= 0
+ R29739: layerInUse[8,7,2] - layerInUse[9,7,2]
+   + layerWillBeTakenInUseToday[9,7,2] >= 0
+ R29740: layerInUse[8,7,3] - layerInUse[9,7,3]
+   + layerWillBeTakenInUseToday[9,7,3] >= 0
+ R29741: layerInUse[8,7,4] - layerInUse[9,7,4]
+   + layerWillBeTakenInUseToday[9,7,4] >= 0
+ R29742: layerInUse[8,7,5] - layerInUse[9,7,5]
+   + layerWillBeTakenInUseToday[9,7,5] >= 0
+ R29743: layerInUse[8,7,6] - layerInUse[9,7,6]
+   + layerWillBeTakenInUseToday[9,7,6] >= 0
+ R29744: layerInUse[8,8,1] - layerInUse[9,8,1]
+   + layerWillBeTakenInUseToday[9,8,1] >= 0
+ R29745: layerInUse[8,8,2] - layerInUse[9,8,2]
+   + layerWillBeTakenInUseToday[9,8,2] >= 0
+ R29746: layerInUse[8,8,3] - layerInUse[9,8,3]
+   + layerWillBeTakenInUseToday[9,8,3] >= 0
+ R29747: layerInUse[8,8,4] - layerInUse[9,8,4]
+   + layerWillBeTakenInUseToday[9,8,4] >= 0
+ R29748: layerInUse[8,8,5] - layerInUse[9,8,5]
+   + layerWillBeTakenInUseToday[9,8,5] >= 0
+ R29749: layerInUse[8,8,6] - layerInUse[9,8,6]
+   + layerWillBeTakenInUseToday[9,8,6] >= 0
+ R29750: layerInUse[9,1,1] - layerInUse[10,1,1]
+   + layerWillBeTakenInUseToday[10,1,1] >= 0
+ R29751: layerInUse[9,1,2] - layerInUse[10,1,2]
+   + layerWillBeTakenInUseToday[10,1,2] >= 0
+ R29752: layerInUse[9,1,3] - layerInUse[10,1,3]
+   + layerWillBeTakenInUseToday[10,1,3] >= 0
+ R29753: layerInUse[9,1,4] - layerInUse[10,1,4]
+   + layerWillBeTakenInUseToday[10,1,4] >= 0
+ R29754: layerInUse[9,1,5] - layerInUse[10,1,5]
+   + layerWillBeTakenInUseToday[10,1,5] >= 0
+ R29755: layerInUse[9,1,6] - layerInUse[10,1,6]
+   + layerWillBeTakenInUseToday[10,1,6] >= 0
+ R29756: layerInUse[9,2,1] - layerInUse[10,2,1]
+   + layerWillBeTakenInUseToday[10,2,1] >= 0
+ R29757: layerInUse[9,2,2] - layerInUse[10,2,2]
+   + layerWillBeTakenInUseToday[10,2,2] >= 0
+ R29758: layerInUse[9,2,3] - layerInUse[10,2,3]
+   + layerWillBeTakenInUseToday[10,2,3] >= 0
+ R29759: layerInUse[9,2,4] - layerInUse[10,2,4]
+   + layerWillBeTakenInUseToday[10,2,4] >= 0
+ R29760: layerInUse[9,2,5] - layerInUse[10,2,5]
+   + layerWillBeTakenInUseToday[10,2,5] >= 0
+ R29761: layerInUse[9,2,6] - layerInUse[10,2,6]
+   + layerWillBeTakenInUseToday[10,2,6] >= 0
+ R29762: layerInUse[9,3,1] - layerInUse[10,3,1]
+   + layerWillBeTakenInUseToday[10,3,1] >= 0
+ R29763: layerInUse[9,3,2] - layerInUse[10,3,2]
+   + layerWillBeTakenInUseToday[10,3,2] >= 0
+ R29764: layerInUse[9,3,3] - layerInUse[10,3,3]
+   + layerWillBeTakenInUseToday[10,3,3] >= 0
+ R29765: layerInUse[9,3,4] - layerInUse[10,3,4]
+   + layerWillBeTakenInUseToday[10,3,4] >= 0
+ R29766: layerInUse[9,3,5] - layerInUse[10,3,5]
+   + layerWillBeTakenInUseToday[10,3,5] >= 0
+ R29767: layerInUse[9,3,6] - layerInUse[10,3,6]
+   + layerWillBeTakenInUseToday[10,3,6] >= 0
+ R29768: layerInUse[9,4,1] - layerInUse[10,4,1]
+   + layerWillBeTakenInUseToday[10,4,1] >= 0
+ R29769: layerInUse[9,4,2] - layerInUse[10,4,2]
+   + layerWillBeTakenInUseToday[10,4,2] >= 0
+ R29770: layerInUse[9,4,3] - layerInUse[10,4,3]
+   + layerWillBeTakenInUseToday[10,4,3] >= 0
+ R29771: layerInUse[9,4,4] - layerInUse[10,4,4]
+   + layerWillBeTakenInUseToday[10,4,4] >= 0
+ R29772: layerInUse[9,4,5] - layerInUse[10,4,5]
+   + layerWillBeTakenInUseToday[10,4,5] >= 0
+ R29773: layerInUse[9,4,6] - layerInUse[10,4,6]
+   + layerWillBeTakenInUseToday[10,4,6] >= 0
+ R29774: layerInUse[9,5,1] - layerInUse[10,5,1]
+   + layerWillBeTakenInUseToday[10,5,1] >= 0
+ R29775: layerInUse[9,5,2] - layerInUse[10,5,2]
+   + layerWillBeTakenInUseToday[10,5,2] >= 0
+ R29776: layerInUse[9,5,3] - layerInUse[10,5,3]
+   + layerWillBeTakenInUseToday[10,5,3] >= 0
+ R29777: layerInUse[9,5,4] - layerInUse[10,5,4]
+   + layerWillBeTakenInUseToday[10,5,4] >= 0
+ R29778: layerInUse[9,5,5] - layerInUse[10,5,5]
+   + layerWillBeTakenInUseToday[10,5,5] >= 0
+ R29779: layerInUse[9,5,6] - layerInUse[10,5,6]
+   + layerWillBeTakenInUseToday[10,5,6] >= 0
+ R29780: layerInUse[9,6,1] - layerInUse[10,6,1]
+   + layerWillBeTakenInUseToday[10,6,1] >= 0
+ R29781: layerInUse[9,6,2] - layerInUse[10,6,2]
+   + layerWillBeTakenInUseToday[10,6,2] >= 0
+ R29782: layerInUse[9,6,3] - layerInUse[10,6,3]
+   + layerWillBeTakenInUseToday[10,6,3] >= 0
+ R29783: layerInUse[9,6,4] - layerInUse[10,6,4]
+   + layerWillBeTakenInUseToday[10,6,4] >= 0
+ R29784: layerInUse[9,6,5] - layerInUse[10,6,5]
+   + layerWillBeTakenInUseToday[10,6,5] >= 0
+ R29785: layerInUse[9,6,6] - layerInUse[10,6,6]
+   + layerWillBeTakenInUseToday[10,6,6] >= 0
+ R29786: layerInUse[9,7,1] - layerInUse[10,7,1]
+   + layerWillBeTakenInUseToday[10,7,1] >= 0
+ R29787: layerInUse[9,7,2] - layerInUse[10,7,2]
+   + layerWillBeTakenInUseToday[10,7,2] >= 0
+ R29788: layerInUse[9,7,3] - layerInUse[10,7,3]
+   + layerWillBeTakenInUseToday[10,7,3] >= 0
+ R29789: layerInUse[9,7,4] - layerInUse[10,7,4]
+   + layerWillBeTakenInUseToday[10,7,4] >= 0
+ R29790: layerInUse[9,7,5] - layerInUse[10,7,5]
+   + layerWillBeTakenInUseToday[10,7,5] >= 0
+ R29791: layerInUse[9,7,6] - layerInUse[10,7,6]
+   + layerWillBeTakenInUseToday[10,7,6] >= 0
+ R29792: layerInUse[9,8,1] - layerInUse[10,8,1]
+   + layerWillBeTakenInUseToday[10,8,1] >= 0
+ R29793: layerInUse[9,8,2] - layerInUse[10,8,2]
+   + layerWillBeTakenInUseToday[10,8,2] >= 0
+ R29794: layerInUse[9,8,3] - layerInUse[10,8,3]
+   + layerWillBeTakenInUseToday[10,8,3] >= 0
+ R29795: layerInUse[9,8,4] - layerInUse[10,8,4]
+   + layerWillBeTakenInUseToday[10,8,4] >= 0
+ R29796: layerInUse[9,8,5] - layerInUse[10,8,5]
+   + layerWillBeTakenInUseToday[10,8,5] >= 0
+ R29797: layerInUse[9,8,6] - layerInUse[10,8,6]
+   + layerWillBeTakenInUseToday[10,8,6] >= 0
+ R29798: - layerInUse[1,1,1] + layerWillBeTakenInUseToday[1,1,1] = 0
+ R29799: - layerInUse[1,1,2] + layerWillBeTakenInUseToday[1,1,2] = 0
+ R29800: - layerInUse[1,1,3] + layerWillBeTakenInUseToday[1,1,3] = 0
+ R29801: - layerInUse[1,1,4] + layerWillBeTakenInUseToday[1,1,4] = 0
+ R29802: - layerInUse[1,1,5] + layerWillBeTakenInUseToday[1,1,5] = 0
+ R29803: - layerInUse[1,1,6] + layerWillBeTakenInUseToday[1,1,6] = 0
+ R29804: - layerInUse[1,2,1] + layerWillBeTakenInUseToday[1,2,1] = 0
+ R29805: - layerInUse[1,2,2] + layerWillBeTakenInUseToday[1,2,2] = 0
+ R29806: - layerInUse[1,2,3] + layerWillBeTakenInUseToday[1,2,3] = 0
+ R29807: - layerInUse[1,2,4] + layerWillBeTakenInUseToday[1,2,4] = 0
+ R29808: - layerInUse[1,2,5] + layerWillBeTakenInUseToday[1,2,5] = 0
+ R29809: - layerInUse[1,2,6] + layerWillBeTakenInUseToday[1,2,6] = 0
+ R29810: - layerInUse[1,3,1] + layerWillBeTakenInUseToday[1,3,1] = 0
+ R29811: - layerInUse[1,3,2] + layerWillBeTakenInUseToday[1,3,2] = 0
+ R29812: - layerInUse[1,3,3] + layerWillBeTakenInUseToday[1,3,3] = 0
+ R29813: - layerInUse[1,3,4] + layerWillBeTakenInUseToday[1,3,4] = 0
+ R29814: - layerInUse[1,3,5] + layerWillBeTakenInUseToday[1,3,5] = 0
+ R29815: - layerInUse[1,3,6] + layerWillBeTakenInUseToday[1,3,6] = 0
+ R29816: - layerInUse[1,4,1] + layerWillBeTakenInUseToday[1,4,1] = 0
+ R29817: - layerInUse[1,4,2] + layerWillBeTakenInUseToday[1,4,2] = 0
+ R29818: - layerInUse[1,4,3] + layerWillBeTakenInUseToday[1,4,3] = 0
+ R29819: - layerInUse[1,4,4] + layerWillBeTakenInUseToday[1,4,4] = 0
+ R29820: - layerInUse[1,4,5] + layerWillBeTakenInUseToday[1,4,5] = 0
+ R29821: - layerInUse[1,4,6] + layerWillBeTakenInUseToday[1,4,6] = 0
+ R29822: - layerInUse[1,5,1] + layerWillBeTakenInUseToday[1,5,1] = 0
+ R29823: - layerInUse[1,5,2] + layerWillBeTakenInUseToday[1,5,2] = 0
+ R29824: - layerInUse[1,5,3] + layerWillBeTakenInUseToday[1,5,3] = 0
+ R29825: - layerInUse[1,5,4] + layerWillBeTakenInUseToday[1,5,4] = 0
+ R29826: - layerInUse[1,5,5] + layerWillBeTakenInUseToday[1,5,5] = 0
+ R29827: - layerInUse[1,5,6] + layerWillBeTakenInUseToday[1,5,6] = 0
+ R29828: - layerInUse[1,6,1] + layerWillBeTakenInUseToday[1,6,1] = 0
+ R29829: - layerInUse[1,6,2] + layerWillBeTakenInUseToday[1,6,2] = 0
+ R29830: - layerInUse[1,6,3] + layerWillBeTakenInUseToday[1,6,3] = 0
+ R29831: - layerInUse[1,6,4] + layerWillBeTakenInUseToday[1,6,4] = 0
+ R29832: - layerInUse[1,6,5] + layerWillBeTakenInUseToday[1,6,5] = 0
+ R29833: - layerInUse[1,6,6] + layerWillBeTakenInUseToday[1,6,6] = 0
+ R29834: - layerInUse[1,7,1] + layerWillBeTakenInUseToday[1,7,1] = 0
+ R29835: - layerInUse[1,7,2] + layerWillBeTakenInUseToday[1,7,2] = 0
+ R29836: - layerInUse[1,7,3] + layerWillBeTakenInUseToday[1,7,3] = 0
+ R29837: - layerInUse[1,7,4] + layerWillBeTakenInUseToday[1,7,4] = 0
+ R29838: - layerInUse[1,7,5] + layerWillBeTakenInUseToday[1,7,5] = 0
+ R29839: - layerInUse[1,7,6] + layerWillBeTakenInUseToday[1,7,6] = 0
+ R29840: - layerInUse[1,8,1] + layerWillBeTakenInUseToday[1,8,1] = 0
+ R29841: - layerInUse[1,8,2] + layerWillBeTakenInUseToday[1,8,2] = 0
+ R29842: - layerInUse[1,8,3] + layerWillBeTakenInUseToday[1,8,3] = 0
+ R29843: - layerInUse[1,8,4] + layerWillBeTakenInUseToday[1,8,4] = 0
+ R29844: - layerInUse[1,8,5] + layerWillBeTakenInUseToday[1,8,5] = 0
+ R29845: - layerInUse[1,8,6] + layerWillBeTakenInUseToday[1,8,6] = 0
+ R29846: - layerInUse[1,1,1] + layerWillBeTakenInUseToday[1,1,1] <= 0
+ R29847: - layerInUse[1,1,1] - layerInUse[1,1,2]
+   + 2 layerWillBeTakenInUseToday[1,1,2] <= 0
+ R29848: - layerInUse[1,1,1] - layerInUse[1,1,2] - layerInUse[1,1,3]
+   + 3 layerWillBeTakenInUseToday[1,1,3] <= 0
+ R29849: - layerInUse[1,1,1] - layerInUse[1,1,2] - layerInUse[1,1,3]
+   - layerInUse[1,1,4] + 4 layerWillBeTakenInUseToday[1,1,4] <= 0
+ R29850: - layerInUse[1,1,1] - layerInUse[1,1,2] - layerInUse[1,1,3]
+   - layerInUse[1,1,4] - layerInUse[1,1,5]
+   + 5 layerWillBeTakenInUseToday[1,1,5] <= 0
+ R29851: - layerInUse[1,1,1] - layerInUse[1,1,2] - layerInUse[1,1,3]
+   - layerInUse[1,1,4] - layerInUse[1,1,5] - layerInUse[1,1,6]
+   + 6 layerWillBeTakenInUseToday[1,1,6] <= 0
+ R29852: - layerInUse[1,2,1] + layerWillBeTakenInUseToday[1,2,1] <= 0
+ R29853: - layerInUse[1,2,1] - layerInUse[1,2,2]
+   + 2 layerWillBeTakenInUseToday[1,2,2] <= 0
+ R29854: - layerInUse[1,2,1] - layerInUse[1,2,2] - layerInUse[1,2,3]
+   + 3 layerWillBeTakenInUseToday[1,2,3] <= 0
+ R29855: - layerInUse[1,2,1] - layerInUse[1,2,2] - layerInUse[1,2,3]
+   - layerInUse[1,2,4] + 4 layerWillBeTakenInUseToday[1,2,4] <= 0
+ R29856: - layerInUse[1,2,1] - layerInUse[1,2,2] - layerInUse[1,2,3]
+   - layerInUse[1,2,4] - layerInUse[1,2,5]
+   + 5 layerWillBeTakenInUseToday[1,2,5] <= 0
+ R29857: - layerInUse[1,2,1] - layerInUse[1,2,2] - layerInUse[1,2,3]
+   - layerInUse[1,2,4] - layerInUse[1,2,5] - layerInUse[1,2,6]
+   + 6 layerWillBeTakenInUseToday[1,2,6] <= 0
+ R29858: - layerInUse[1,3,1] + layerWillBeTakenInUseToday[1,3,1] <= 0
+ R29859: - layerInUse[1,3,1] - layerInUse[1,3,2]
+   + 2 layerWillBeTakenInUseToday[1,3,2] <= 0
+ R29860: - layerInUse[1,3,1] - layerInUse[1,3,2] - layerInUse[1,3,3]
+   + 3 layerWillBeTakenInUseToday[1,3,3] <= 0
+ R29861: - layerInUse[1,3,1] - layerInUse[1,3,2] - layerInUse[1,3,3]
+   - layerInUse[1,3,4] + 4 layerWillBeTakenInUseToday[1,3,4] <= 0
+ R29862: - layerInUse[1,3,1] - layerInUse[1,3,2] - layerInUse[1,3,3]
+   - layerInUse[1,3,4] - layerInUse[1,3,5]
+   + 5 layerWillBeTakenInUseToday[1,3,5] <= 0
+ R29863: - layerInUse[1,3,1] - layerInUse[1,3,2] - layerInUse[1,3,3]
+   - layerInUse[1,3,4] - layerInUse[1,3,5] - layerInUse[1,3,6]
+   + 6 layerWillBeTakenInUseToday[1,3,6] <= 0
+ R29864: - layerInUse[1,4,1] + layerWillBeTakenInUseToday[1,4,1] <= 0
+ R29865: - layerInUse[1,4,1] - layerInUse[1,4,2]
+   + 2 layerWillBeTakenInUseToday[1,4,2] <= 0
+ R29866: - layerInUse[1,4,1] - layerInUse[1,4,2] - layerInUse[1,4,3]
+   + 3 layerWillBeTakenInUseToday[1,4,3] <= 0
+ R29867: - layerInUse[1,4,1] - layerInUse[1,4,2] - layerInUse[1,4,3]
+   - layerInUse[1,4,4] + 4 layerWillBeTakenInUseToday[1,4,4] <= 0
+ R29868: - layerInUse[1,4,1] - layerInUse[1,4,2] - layerInUse[1,4,3]
+   - layerInUse[1,4,4] - layerInUse[1,4,5]
+   + 5 layerWillBeTakenInUseToday[1,4,5] <= 0
+ R29869: - layerInUse[1,4,1] - layerInUse[1,4,2] - layerInUse[1,4,3]
+   - layerInUse[1,4,4] - layerInUse[1,4,5] - layerInUse[1,4,6]
+   + 6 layerWillBeTakenInUseToday[1,4,6] <= 0
+ R29870: - layerInUse[1,5,1] + layerWillBeTakenInUseToday[1,5,1] <= 0
+ R29871: - layerInUse[1,5,1] - layerInUse[1,5,2]
+   + 2 layerWillBeTakenInUseToday[1,5,2] <= 0
+ R29872: - layerInUse[1,5,1] - layerInUse[1,5,2] - layerInUse[1,5,3]
+   + 3 layerWillBeTakenInUseToday[1,5,3] <= 0
+ R29873: - layerInUse[1,5,1] - layerInUse[1,5,2] - layerInUse[1,5,3]
+   - layerInUse[1,5,4] + 4 layerWillBeTakenInUseToday[1,5,4] <= 0
+ R29874: - layerInUse[1,5,1] - layerInUse[1,5,2] - layerInUse[1,5,3]
+   - layerInUse[1,5,4] - layerInUse[1,5,5]
+   + 5 layerWillBeTakenInUseToday[1,5,5] <= 0
+ R29875: - layerInUse[1,5,1] - layerInUse[1,5,2] - layerInUse[1,5,3]
+   - layerInUse[1,5,4] - layerInUse[1,5,5] - layerInUse[1,5,6]
+   + 6 layerWillBeTakenInUseToday[1,5,6] <= 0
+ R29876: - layerInUse[1,6,1] + layerWillBeTakenInUseToday[1,6,1] <= 0
+ R29877: - layerInUse[1,6,1] - layerInUse[1,6,2]
+   + 2 layerWillBeTakenInUseToday[1,6,2] <= 0
+ R29878: - layerInUse[1,6,1] - layerInUse[1,6,2] - layerInUse[1,6,3]
+   + 3 layerWillBeTakenInUseToday[1,6,3] <= 0
+ R29879: - layerInUse[1,6,1] - layerInUse[1,6,2] - layerInUse[1,6,3]
+   - layerInUse[1,6,4] + 4 layerWillBeTakenInUseToday[1,6,4] <= 0
+ R29880: - layerInUse[1,6,1] - layerInUse[1,6,2] - layerInUse[1,6,3]
+   - layerInUse[1,6,4] - layerInUse[1,6,5]
+   + 5 layerWillBeTakenInUseToday[1,6,5] <= 0
+ R29881: - layerInUse[1,6,1] - layerInUse[1,6,2] - layerInUse[1,6,3]
+   - layerInUse[1,6,4] - layerInUse[1,6,5] - layerInUse[1,6,6]
+   + 6 layerWillBeTakenInUseToday[1,6,6] <= 0
+ R29882: - layerInUse[1,7,1] + layerWillBeTakenInUseToday[1,7,1] <= 0
+ R29883: - layerInUse[1,7,1] - layerInUse[1,7,2]
+   + 2 layerWillBeTakenInUseToday[1,7,2] <= 0
+ R29884: - layerInUse[1,7,1] - layerInUse[1,7,2] - layerInUse[1,7,3]
+   + 3 layerWillBeTakenInUseToday[1,7,3] <= 0
+ R29885: - layerInUse[1,7,1] - layerInUse[1,7,2] - layerInUse[1,7,3]
+   - layerInUse[1,7,4] + 4 layerWillBeTakenInUseToday[1,7,4] <= 0
+ R29886: - layerInUse[1,7,1] - layerInUse[1,7,2] - layerInUse[1,7,3]
+   - layerInUse[1,7,4] - layerInUse[1,7,5]
+   + 5 layerWillBeTakenInUseToday[1,7,5] <= 0
+ R29887: - layerInUse[1,7,1] - layerInUse[1,7,2] - layerInUse[1,7,3]
+   - layerInUse[1,7,4] - layerInUse[1,7,5] - layerInUse[1,7,6]
+   + 6 layerWillBeTakenInUseToday[1,7,6] <= 0
+ R29888: - layerInUse[1,8,1] + layerWillBeTakenInUseToday[1,8,1] <= 0
+ R29889: - layerInUse[1,8,1] - layerInUse[1,8,2]
+   + 2 layerWillBeTakenInUseToday[1,8,2] <= 0
+ R29890: - layerInUse[1,8,1] - layerInUse[1,8,2] - layerInUse[1,8,3]
+   + 3 layerWillBeTakenInUseToday[1,8,3] <= 0
+ R29891: - layerInUse[1,8,1] - layerInUse[1,8,2] - layerInUse[1,8,3]
+   - layerInUse[1,8,4] + 4 layerWillBeTakenInUseToday[1,8,4] <= 0
+ R29892: - layerInUse[1,8,1] - layerInUse[1,8,2] - layerInUse[1,8,3]
+   - layerInUse[1,8,4] - layerInUse[1,8,5]
+   + 5 layerWillBeTakenInUseToday[1,8,5] <= 0
+ R29893: - layerInUse[1,8,1] - layerInUse[1,8,2] - layerInUse[1,8,3]
+   - layerInUse[1,8,4] - layerInUse[1,8,5] - layerInUse[1,8,6]
+   + 6 layerWillBeTakenInUseToday[1,8,6] <= 0
+ R29894: - layerInUse[2,1,1] + layerWillBeTakenInUseToday[2,1,1] <= 0
+ R29895: - layerInUse[2,1,1] - layerInUse[2,1,2]
+   + 2 layerWillBeTakenInUseToday[2,1,2] <= 0
+ R29896: - layerInUse[2,1,1] - layerInUse[2,1,2] - layerInUse[2,1,3]
+   + 3 layerWillBeTakenInUseToday[2,1,3] <= 0
+ R29897: - layerInUse[2,1,1] - layerInUse[2,1,2] - layerInUse[2,1,3]
+   - layerInUse[2,1,4] + 4 layerWillBeTakenInUseToday[2,1,4] <= 0
+ R29898: - layerInUse[2,1,1] - layerInUse[2,1,2] - layerInUse[2,1,3]
+   - layerInUse[2,1,4] - layerInUse[2,1,5]
+   + 5 layerWillBeTakenInUseToday[2,1,5] <= 0
+ R29899: - layerInUse[2,1,1] - layerInUse[2,1,2] - layerInUse[2,1,3]
+   - layerInUse[2,1,4] - layerInUse[2,1,5] - layerInUse[2,1,6]
+   + 6 layerWillBeTakenInUseToday[2,1,6] <= 0
+ R29900: - layerInUse[2,2,1] + layerWillBeTakenInUseToday[2,2,1] <= 0
+ R29901: - layerInUse[2,2,1] - layerInUse[2,2,2]
+   + 2 layerWillBeTakenInUseToday[2,2,2] <= 0
+ R29902: - layerInUse[2,2,1] - layerInUse[2,2,2] - layerInUse[2,2,3]
+   + 3 layerWillBeTakenInUseToday[2,2,3] <= 0
+ R29903: - layerInUse[2,2,1] - layerInUse[2,2,2] - layerInUse[2,2,3]
+   - layerInUse[2,2,4] + 4 layerWillBeTakenInUseToday[2,2,4] <= 0
+ R29904: - layerInUse[2,2,1] - layerInUse[2,2,2] - layerInUse[2,2,3]
+   - layerInUse[2,2,4] - layerInUse[2,2,5]
+   + 5 layerWillBeTakenInUseToday[2,2,5] <= 0
+ R29905: - layerInUse[2,2,1] - layerInUse[2,2,2] - layerInUse[2,2,3]
+   - layerInUse[2,2,4] - layerInUse[2,2,5] - layerInUse[2,2,6]
+   + 6 layerWillBeTakenInUseToday[2,2,6] <= 0
+ R29906: - layerInUse[2,3,1] + layerWillBeTakenInUseToday[2,3,1] <= 0
+ R29907: - layerInUse[2,3,1] - layerInUse[2,3,2]
+   + 2 layerWillBeTakenInUseToday[2,3,2] <= 0
+ R29908: - layerInUse[2,3,1] - layerInUse[2,3,2] - layerInUse[2,3,3]
+   + 3 layerWillBeTakenInUseToday[2,3,3] <= 0
+ R29909: - layerInUse[2,3,1] - layerInUse[2,3,2] - layerInUse[2,3,3]
+   - layerInUse[2,3,4] + 4 layerWillBeTakenInUseToday[2,3,4] <= 0
+ R29910: - layerInUse[2,3,1] - layerInUse[2,3,2] - layerInUse[2,3,3]
+   - layerInUse[2,3,4] - layerInUse[2,3,5]
+   + 5 layerWillBeTakenInUseToday[2,3,5] <= 0
+ R29911: - layerInUse[2,3,1] - layerInUse[2,3,2] - layerInUse[2,3,3]
+   - layerInUse[2,3,4] - layerInUse[2,3,5] - layerInUse[2,3,6]
+   + 6 layerWillBeTakenInUseToday[2,3,6] <= 0
+ R29912: - layerInUse[2,4,1] + layerWillBeTakenInUseToday[2,4,1] <= 0
+ R29913: - layerInUse[2,4,1] - layerInUse[2,4,2]
+   + 2 layerWillBeTakenInUseToday[2,4,2] <= 0
+ R29914: - layerInUse[2,4,1] - layerInUse[2,4,2] - layerInUse[2,4,3]
+   + 3 layerWillBeTakenInUseToday[2,4,3] <= 0
+ R29915: - layerInUse[2,4,1] - layerInUse[2,4,2] - layerInUse[2,4,3]
+   - layerInUse[2,4,4] + 4 layerWillBeTakenInUseToday[2,4,4] <= 0
+ R29916: - layerInUse[2,4,1] - layerInUse[2,4,2] - layerInUse[2,4,3]
+   - layerInUse[2,4,4] - layerInUse[2,4,5]
+   + 5 layerWillBeTakenInUseToday[2,4,5] <= 0
+ R29917: - layerInUse[2,4,1] - layerInUse[2,4,2] - layerInUse[2,4,3]
+   - layerInUse[2,4,4] - layerInUse[2,4,5] - layerInUse[2,4,6]
+   + 6 layerWillBeTakenInUseToday[2,4,6] <= 0
+ R29918: - layerInUse[2,5,1] + layerWillBeTakenInUseToday[2,5,1] <= 0
+ R29919: - layerInUse[2,5,1] - layerInUse[2,5,2]
+   + 2 layerWillBeTakenInUseToday[2,5,2] <= 0
+ R29920: - layerInUse[2,5,1] - layerInUse[2,5,2] - layerInUse[2,5,3]
+   + 3 layerWillBeTakenInUseToday[2,5,3] <= 0
+ R29921: - layerInUse[2,5,1] - layerInUse[2,5,2] - layerInUse[2,5,3]
+   - layerInUse[2,5,4] + 4 layerWillBeTakenInUseToday[2,5,4] <= 0
+ R29922: - layerInUse[2,5,1] - layerInUse[2,5,2] - layerInUse[2,5,3]
+   - layerInUse[2,5,4] - layerInUse[2,5,5]
+   + 5 layerWillBeTakenInUseToday[2,5,5] <= 0
+ R29923: - layerInUse[2,5,1] - layerInUse[2,5,2] - layerInUse[2,5,3]
+   - layerInUse[2,5,4] - layerInUse[2,5,5] - layerInUse[2,5,6]
+   + 6 layerWillBeTakenInUseToday[2,5,6] <= 0
+ R29924: - layerInUse[2,6,1] + layerWillBeTakenInUseToday[2,6,1] <= 0
+ R29925: - layerInUse[2,6,1] - layerInUse[2,6,2]
+   + 2 layerWillBeTakenInUseToday[2,6,2] <= 0
+ R29926: - layerInUse[2,6,1] - layerInUse[2,6,2] - layerInUse[2,6,3]
+   + 3 layerWillBeTakenInUseToday[2,6,3] <= 0
+ R29927: - layerInUse[2,6,1] - layerInUse[2,6,2] - layerInUse[2,6,3]
+   - layerInUse[2,6,4] + 4 layerWillBeTakenInUseToday[2,6,4] <= 0
+ R29928: - layerInUse[2,6,1] - layerInUse[2,6,2] - layerInUse[2,6,3]
+   - layerInUse[2,6,4] - layerInUse[2,6,5]
+   + 5 layerWillBeTakenInUseToday[2,6,5] <= 0
+ R29929: - layerInUse[2,6,1] - layerInUse[2,6,2] - layerInUse[2,6,3]
+   - layerInUse[2,6,4] - layerInUse[2,6,5] - layerInUse[2,6,6]
+   + 6 layerWillBeTakenInUseToday[2,6,6] <= 0
+ R29930: - layerInUse[2,7,1] + layerWillBeTakenInUseToday[2,7,1] <= 0
+ R29931: - layerInUse[2,7,1] - layerInUse[2,7,2]
+   + 2 layerWillBeTakenInUseToday[2,7,2] <= 0
+ R29932: - layerInUse[2,7,1] - layerInUse[2,7,2] - layerInUse[2,7,3]
+   + 3 layerWillBeTakenInUseToday[2,7,3] <= 0
+ R29933: - layerInUse[2,7,1] - layerInUse[2,7,2] - layerInUse[2,7,3]
+   - layerInUse[2,7,4] + 4 layerWillBeTakenInUseToday[2,7,4] <= 0
+ R29934: - layerInUse[2,7,1] - layerInUse[2,7,2] - layerInUse[2,7,3]
+   - layerInUse[2,7,4] - layerInUse[2,7,5]
+   + 5 layerWillBeTakenInUseToday[2,7,5] <= 0
+ R29935: - layerInUse[2,7,1] - layerInUse[2,7,2] - layerInUse[2,7,3]
+   - layerInUse[2,7,4] - layerInUse[2,7,5] - layerInUse[2,7,6]
+   + 6 layerWillBeTakenInUseToday[2,7,6] <= 0
+ R29936: - layerInUse[2,8,1] + layerWillBeTakenInUseToday[2,8,1] <= 0
+ R29937: - layerInUse[2,8,1] - layerInUse[2,8,2]
+   + 2 layerWillBeTakenInUseToday[2,8,2] <= 0
+ R29938: - layerInUse[2,8,1] - layerInUse[2,8,2] - layerInUse[2,8,3]
+   + 3 layerWillBeTakenInUseToday[2,8,3] <= 0
+ R29939: - layerInUse[2,8,1] - layerInUse[2,8,2] - layerInUse[2,8,3]
+   - layerInUse[2,8,4] + 4 layerWillBeTakenInUseToday[2,8,4] <= 0
+ R29940: - layerInUse[2,8,1] - layerInUse[2,8,2] - layerInUse[2,8,3]
+   - layerInUse[2,8,4] - layerInUse[2,8,5]
+   + 5 layerWillBeTakenInUseToday[2,8,5] <= 0
+ R29941: - layerInUse[2,8,1] - layerInUse[2,8,2] - layerInUse[2,8,3]
+   - layerInUse[2,8,4] - layerInUse[2,8,5] - layerInUse[2,8,6]
+   + 6 layerWillBeTakenInUseToday[2,8,6] <= 0
+ R29942: - layerInUse[3,1,1] + layerWillBeTakenInUseToday[3,1,1] <= 0
+ R29943: - layerInUse[3,1,1] - layerInUse[3,1,2]
+   + 2 layerWillBeTakenInUseToday[3,1,2] <= 0
+ R29944: - layerInUse[3,1,1] - layerInUse[3,1,2] - layerInUse[3,1,3]
+   + 3 layerWillBeTakenInUseToday[3,1,3] <= 0
+ R29945: - layerInUse[3,1,1] - layerInUse[3,1,2] - layerInUse[3,1,3]
+   - layerInUse[3,1,4] + 4 layerWillBeTakenInUseToday[3,1,4] <= 0
+ R29946: - layerInUse[3,1,1] - layerInUse[3,1,2] - layerInUse[3,1,3]
+   - layerInUse[3,1,4] - layerInUse[3,1,5]
+   + 5 layerWillBeTakenInUseToday[3,1,5] <= 0
+ R29947: - layerInUse[3,1,1] - layerInUse[3,1,2] - layerInUse[3,1,3]
+   - layerInUse[3,1,4] - layerInUse[3,1,5] - layerInUse[3,1,6]
+   + 6 layerWillBeTakenInUseToday[3,1,6] <= 0
+ R29948: - layerInUse[3,2,1] + layerWillBeTakenInUseToday[3,2,1] <= 0
+ R29949: - layerInUse[3,2,1] - layerInUse[3,2,2]
+   + 2 layerWillBeTakenInUseToday[3,2,2] <= 0
+ R29950: - layerInUse[3,2,1] - layerInUse[3,2,2] - layerInUse[3,2,3]
+   + 3 layerWillBeTakenInUseToday[3,2,3] <= 0
+ R29951: - layerInUse[3,2,1] - layerInUse[3,2,2] - layerInUse[3,2,3]
+   - layerInUse[3,2,4] + 4 layerWillBeTakenInUseToday[3,2,4] <= 0
+ R29952: - layerInUse[3,2,1] - layerInUse[3,2,2] - layerInUse[3,2,3]
+   - layerInUse[3,2,4] - layerInUse[3,2,5]
+   + 5 layerWillBeTakenInUseToday[3,2,5] <= 0
+ R29953: - layerInUse[3,2,1] - layerInUse[3,2,2] - layerInUse[3,2,3]
+   - layerInUse[3,2,4] - layerInUse[3,2,5] - layerInUse[3,2,6]
+   + 6 layerWillBeTakenInUseToday[3,2,6] <= 0
+ R29954: - layerInUse[3,3,1] + layerWillBeTakenInUseToday[3,3,1] <= 0
+ R29955: - layerInUse[3,3,1] - layerInUse[3,3,2]
+   + 2 layerWillBeTakenInUseToday[3,3,2] <= 0
+ R29956: - layerInUse[3,3,1] - layerInUse[3,3,2] - layerInUse[3,3,3]
+   + 3 layerWillBeTakenInUseToday[3,3,3] <= 0
+ R29957: - layerInUse[3,3,1] - layerInUse[3,3,2] - layerInUse[3,3,3]
+   - layerInUse[3,3,4] + 4 layerWillBeTakenInUseToday[3,3,4] <= 0
+ R29958: - layerInUse[3,3,1] - layerInUse[3,3,2] - layerInUse[3,3,3]
+   - layerInUse[3,3,4] - layerInUse[3,3,5]
+   + 5 layerWillBeTakenInUseToday[3,3,5] <= 0
+ R29959: - layerInUse[3,3,1] - layerInUse[3,3,2] - layerInUse[3,3,3]
+   - layerInUse[3,3,4] - layerInUse[3,3,5] - layerInUse[3,3,6]
+   + 6 layerWillBeTakenInUseToday[3,3,6] <= 0
+ R29960: - layerInUse[3,4,1] + layerWillBeTakenInUseToday[3,4,1] <= 0
+ R29961: - layerInUse[3,4,1] - layerInUse[3,4,2]
+   + 2 layerWillBeTakenInUseToday[3,4,2] <= 0
+ R29962: - layerInUse[3,4,1] - layerInUse[3,4,2] - layerInUse[3,4,3]
+   + 3 layerWillBeTakenInUseToday[3,4,3] <= 0
+ R29963: - layerInUse[3,4,1] - layerInUse[3,4,2] - layerInUse[3,4,3]
+   - layerInUse[3,4,4] + 4 layerWillBeTakenInUseToday[3,4,4] <= 0
+ R29964: - layerInUse[3,4,1] - layerInUse[3,4,2] - layerInUse[3,4,3]
+   - layerInUse[3,4,4] - layerInUse[3,4,5]
+   + 5 layerWillBeTakenInUseToday[3,4,5] <= 0
+ R29965: - layerInUse[3,4,1] - layerInUse[3,4,2] - layerInUse[3,4,3]
+   - layerInUse[3,4,4] - layerInUse[3,4,5] - layerInUse[3,4,6]
+   + 6 layerWillBeTakenInUseToday[3,4,6] <= 0
+ R29966: - layerInUse[3,5,1] + layerWillBeTakenInUseToday[3,5,1] <= 0
+ R29967: - layerInUse[3,5,1] - layerInUse[3,5,2]
+   + 2 layerWillBeTakenInUseToday[3,5,2] <= 0
+ R29968: - layerInUse[3,5,1] - layerInUse[3,5,2] - layerInUse[3,5,3]
+   + 3 layerWillBeTakenInUseToday[3,5,3] <= 0
+ R29969: - layerInUse[3,5,1] - layerInUse[3,5,2] - layerInUse[3,5,3]
+   - layerInUse[3,5,4] + 4 layerWillBeTakenInUseToday[3,5,4] <= 0
+ R29970: - layerInUse[3,5,1] - layerInUse[3,5,2] - layerInUse[3,5,3]
+   - layerInUse[3,5,4] - layerInUse[3,5,5]
+   + 5 layerWillBeTakenInUseToday[3,5,5] <= 0
+ R29971: - layerInUse[3,5,1] - layerInUse[3,5,2] - layerInUse[3,5,3]
+   - layerInUse[3,5,4] - layerInUse[3,5,5] - layerInUse[3,5,6]
+   + 6 layerWillBeTakenInUseToday[3,5,6] <= 0
+ R29972: - layerInUse[3,6,1] + layerWillBeTakenInUseToday[3,6,1] <= 0
+ R29973: - layerInUse[3,6,1] - layerInUse[3,6,2]
+   + 2 layerWillBeTakenInUseToday[3,6,2] <= 0
+ R29974: - layerInUse[3,6,1] - layerInUse[3,6,2] - layerInUse[3,6,3]
+   + 3 layerWillBeTakenInUseToday[3,6,3] <= 0
+ R29975: - layerInUse[3,6,1] - layerInUse[3,6,2] - layerInUse[3,6,3]
+   - layerInUse[3,6,4] + 4 layerWillBeTakenInUseToday[3,6,4] <= 0
+ R29976: - layerInUse[3,6,1] - layerInUse[3,6,2] - layerInUse[3,6,3]
+   - layerInUse[3,6,4] - layerInUse[3,6,5]
+   + 5 layerWillBeTakenInUseToday[3,6,5] <= 0
+ R29977: - layerInUse[3,6,1] - layerInUse[3,6,2] - layerInUse[3,6,3]
+   - layerInUse[3,6,4] - layerInUse[3,6,5] - layerInUse[3,6,6]
+   + 6 layerWillBeTakenInUseToday[3,6,6] <= 0
+ R29978: - layerInUse[3,7,1] + layerWillBeTakenInUseToday[3,7,1] <= 0
+ R29979: - layerInUse[3,7,1] - layerInUse[3,7,2]
+   + 2 layerWillBeTakenInUseToday[3,7,2] <= 0
+ R29980: - layerInUse[3,7,1] - layerInUse[3,7,2] - layerInUse[3,7,3]
+   + 3 layerWillBeTakenInUseToday[3,7,3] <= 0
+ R29981: - layerInUse[3,7,1] - layerInUse[3,7,2] - layerInUse[3,7,3]
+   - layerInUse[3,7,4] + 4 layerWillBeTakenInUseToday[3,7,4] <= 0
+ R29982: - layerInUse[3,7,1] - layerInUse[3,7,2] - layerInUse[3,7,3]
+   - layerInUse[3,7,4] - layerInUse[3,7,5]
+   + 5 layerWillBeTakenInUseToday[3,7,5] <= 0
+ R29983: - layerInUse[3,7,1] - layerInUse[3,7,2] - layerInUse[3,7,3]
+   - layerInUse[3,7,4] - layerInUse[3,7,5] - layerInUse[3,7,6]
+   + 6 layerWillBeTakenInUseToday[3,7,6] <= 0
+ R29984: - layerInUse[3,8,1] + layerWillBeTakenInUseToday[3,8,1] <= 0
+ R29985: - layerInUse[3,8,1] - layerInUse[3,8,2]
+   + 2 layerWillBeTakenInUseToday[3,8,2] <= 0
+ R29986: - layerInUse[3,8,1] - layerInUse[3,8,2] - layerInUse[3,8,3]
+   + 3 layerWillBeTakenInUseToday[3,8,3] <= 0
+ R29987: - layerInUse[3,8,1] - layerInUse[3,8,2] - layerInUse[3,8,3]
+   - layerInUse[3,8,4] + 4 layerWillBeTakenInUseToday[3,8,4] <= 0
+ R29988: - layerInUse[3,8,1] - layerInUse[3,8,2] - layerInUse[3,8,3]
+   - layerInUse[3,8,4] - layerInUse[3,8,5]
+   + 5 layerWillBeTakenInUseToday[3,8,5] <= 0
+ R29989: - layerInUse[3,8,1] - layerInUse[3,8,2] - layerInUse[3,8,3]
+   - layerInUse[3,8,4] - layerInUse[3,8,5] - layerInUse[3,8,6]
+   + 6 layerWillBeTakenInUseToday[3,8,6] <= 0
+ R29990: - layerInUse[4,1,1] + layerWillBeTakenInUseToday[4,1,1] <= 0
+ R29991: - layerInUse[4,1,1] - layerInUse[4,1,2]
+   + 2 layerWillBeTakenInUseToday[4,1,2] <= 0
+ R29992: - layerInUse[4,1,1] - layerInUse[4,1,2] - layerInUse[4,1,3]
+   + 3 layerWillBeTakenInUseToday[4,1,3] <= 0
+ R29993: - layerInUse[4,1,1] - layerInUse[4,1,2] - layerInUse[4,1,3]
+   - layerInUse[4,1,4] + 4 layerWillBeTakenInUseToday[4,1,4] <= 0
+ R29994: - layerInUse[4,1,1] - layerInUse[4,1,2] - layerInUse[4,1,3]
+   - layerInUse[4,1,4] - layerInUse[4,1,5]
+   + 5 layerWillBeTakenInUseToday[4,1,5] <= 0
+ R29995: - layerInUse[4,1,1] - layerInUse[4,1,2] - layerInUse[4,1,3]
+   - layerInUse[4,1,4] - layerInUse[4,1,5] - layerInUse[4,1,6]
+   + 6 layerWillBeTakenInUseToday[4,1,6] <= 0
+ R29996: - layerInUse[4,2,1] + layerWillBeTakenInUseToday[4,2,1] <= 0
+ R29997: - layerInUse[4,2,1] - layerInUse[4,2,2]
+   + 2 layerWillBeTakenInUseToday[4,2,2] <= 0
+ R29998: - layerInUse[4,2,1] - layerInUse[4,2,2] - layerInUse[4,2,3]
+   + 3 layerWillBeTakenInUseToday[4,2,3] <= 0
+ R29999: - layerInUse[4,2,1] - layerInUse[4,2,2] - layerInUse[4,2,3]
+   - layerInUse[4,2,4] + 4 layerWillBeTakenInUseToday[4,2,4] <= 0
+ R30000: - layerInUse[4,2,1] - layerInUse[4,2,2] - layerInUse[4,2,3]
+   - layerInUse[4,2,4] - layerInUse[4,2,5]
+   + 5 layerWillBeTakenInUseToday[4,2,5] <= 0
+ R30001: - layerInUse[4,2,1] - layerInUse[4,2,2] - layerInUse[4,2,3]
+   - layerInUse[4,2,4] - layerInUse[4,2,5] - layerInUse[4,2,6]
+   + 6 layerWillBeTakenInUseToday[4,2,6] <= 0
+ R30002: - layerInUse[4,3,1] + layerWillBeTakenInUseToday[4,3,1] <= 0
+ R30003: - layerInUse[4,3,1] - layerInUse[4,3,2]
+   + 2 layerWillBeTakenInUseToday[4,3,2] <= 0
+ R30004: - layerInUse[4,3,1] - layerInUse[4,3,2] - layerInUse[4,3,3]
+   + 3 layerWillBeTakenInUseToday[4,3,3] <= 0
+ R30005: - layerInUse[4,3,1] - layerInUse[4,3,2] - layerInUse[4,3,3]
+   - layerInUse[4,3,4] + 4 layerWillBeTakenInUseToday[4,3,4] <= 0
+ R30006: - layerInUse[4,3,1] - layerInUse[4,3,2] - layerInUse[4,3,3]
+   - layerInUse[4,3,4] - layerInUse[4,3,5]
+   + 5 layerWillBeTakenInUseToday[4,3,5] <= 0
+ R30007: - layerInUse[4,3,1] - layerInUse[4,3,2] - layerInUse[4,3,3]
+   - layerInUse[4,3,4] - layerInUse[4,3,5] - layerInUse[4,3,6]
+   + 6 layerWillBeTakenInUseToday[4,3,6] <= 0
+ R30008: - layerInUse[4,4,1] + layerWillBeTakenInUseToday[4,4,1] <= 0
+ R30009: - layerInUse[4,4,1] - layerInUse[4,4,2]
+   + 2 layerWillBeTakenInUseToday[4,4,2] <= 0
+ R30010: - layerInUse[4,4,1] - layerInUse[4,4,2] - layerInUse[4,4,3]
+   + 3 layerWillBeTakenInUseToday[4,4,3] <= 0
+ R30011: - layerInUse[4,4,1] - layerInUse[4,4,2] - layerInUse[4,4,3]
+   - layerInUse[4,4,4] + 4 layerWillBeTakenInUseToday[4,4,4] <= 0
+ R30012: - layerInUse[4,4,1] - layerInUse[4,4,2] - layerInUse[4,4,3]
+   - layerInUse[4,4,4] - layerInUse[4,4,5]
+   + 5 layerWillBeTakenInUseToday[4,4,5] <= 0
+ R30013: - layerInUse[4,4,1] - layerInUse[4,4,2] - layerInUse[4,4,3]
+   - layerInUse[4,4,4] - layerInUse[4,4,5] - layerInUse[4,4,6]
+   + 6 layerWillBeTakenInUseToday[4,4,6] <= 0
+ R30014: - layerInUse[4,5,1] + layerWillBeTakenInUseToday[4,5,1] <= 0
+ R30015: - layerInUse[4,5,1] - layerInUse[4,5,2]
+   + 2 layerWillBeTakenInUseToday[4,5,2] <= 0
+ R30016: - layerInUse[4,5,1] - layerInUse[4,5,2] - layerInUse[4,5,3]
+   + 3 layerWillBeTakenInUseToday[4,5,3] <= 0
+ R30017: - layerInUse[4,5,1] - layerInUse[4,5,2] - layerInUse[4,5,3]
+   - layerInUse[4,5,4] + 4 layerWillBeTakenInUseToday[4,5,4] <= 0
+ R30018: - layerInUse[4,5,1] - layerInUse[4,5,2] - layerInUse[4,5,3]
+   - layerInUse[4,5,4] - layerInUse[4,5,5]
+   + 5 layerWillBeTakenInUseToday[4,5,5] <= 0
+ R30019: - layerInUse[4,5,1] - layerInUse[4,5,2] - layerInUse[4,5,3]
+   - layerInUse[4,5,4] - layerInUse[4,5,5] - layerInUse[4,5,6]
+   + 6 layerWillBeTakenInUseToday[4,5,6] <= 0
+ R30020: - layerInUse[4,6,1] + layerWillBeTakenInUseToday[4,6,1] <= 0
+ R30021: - layerInUse[4,6,1] - layerInUse[4,6,2]
+   + 2 layerWillBeTakenInUseToday[4,6,2] <= 0
+ R30022: - layerInUse[4,6,1] - layerInUse[4,6,2] - layerInUse[4,6,3]
+   + 3 layerWillBeTakenInUseToday[4,6,3] <= 0
+ R30023: - layerInUse[4,6,1] - layerInUse[4,6,2] - layerInUse[4,6,3]
+   - layerInUse[4,6,4] + 4 layerWillBeTakenInUseToday[4,6,4] <= 0
+ R30024: - layerInUse[4,6,1] - layerInUse[4,6,2] - layerInUse[4,6,3]
+   - layerInUse[4,6,4] - layerInUse[4,6,5]
+   + 5 layerWillBeTakenInUseToday[4,6,5] <= 0
+ R30025: - layerInUse[4,6,1] - layerInUse[4,6,2] - layerInUse[4,6,3]
+   - layerInUse[4,6,4] - layerInUse[4,6,5] - layerInUse[4,6,6]
+   + 6 layerWillBeTakenInUseToday[4,6,6] <= 0
+ R30026: - layerInUse[4,7,1] + layerWillBeTakenInUseToday[4,7,1] <= 0
+ R30027: - layerInUse[4,7,1] - layerInUse[4,7,2]
+   + 2 layerWillBeTakenInUseToday[4,7,2] <= 0
+ R30028: - layerInUse[4,7,1] - layerInUse[4,7,2] - layerInUse[4,7,3]
+   + 3 layerWillBeTakenInUseToday[4,7,3] <= 0
+ R30029: - layerInUse[4,7,1] - layerInUse[4,7,2] - layerInUse[4,7,3]
+   - layerInUse[4,7,4] + 4 layerWillBeTakenInUseToday[4,7,4] <= 0
+ R30030: - layerInUse[4,7,1] - layerInUse[4,7,2] - layerInUse[4,7,3]
+   - layerInUse[4,7,4] - layerInUse[4,7,5]
+   + 5 layerWillBeTakenInUseToday[4,7,5] <= 0
+ R30031: - layerInUse[4,7,1] - layerInUse[4,7,2] - layerInUse[4,7,3]
+   - layerInUse[4,7,4] - layerInUse[4,7,5] - layerInUse[4,7,6]
+   + 6 layerWillBeTakenInUseToday[4,7,6] <= 0
+ R30032: - layerInUse[4,8,1] + layerWillBeTakenInUseToday[4,8,1] <= 0
+ R30033: - layerInUse[4,8,1] - layerInUse[4,8,2]
+   + 2 layerWillBeTakenInUseToday[4,8,2] <= 0
+ R30034: - layerInUse[4,8,1] - layerInUse[4,8,2] - layerInUse[4,8,3]
+   + 3 layerWillBeTakenInUseToday[4,8,3] <= 0
+ R30035: - layerInUse[4,8,1] - layerInUse[4,8,2] - layerInUse[4,8,3]
+   - layerInUse[4,8,4] + 4 layerWillBeTakenInUseToday[4,8,4] <= 0
+ R30036: - layerInUse[4,8,1] - layerInUse[4,8,2] - layerInUse[4,8,3]
+   - layerInUse[4,8,4] - layerInUse[4,8,5]
+   + 5 layerWillBeTakenInUseToday[4,8,5] <= 0
+ R30037: - layerInUse[4,8,1] - layerInUse[4,8,2] - layerInUse[4,8,3]
+   - layerInUse[4,8,4] - layerInUse[4,8,5] - layerInUse[4,8,6]
+   + 6 layerWillBeTakenInUseToday[4,8,6] <= 0
+ R30038: - layerInUse[5,1,1] + layerWillBeTakenInUseToday[5,1,1] <= 0
+ R30039: - layerInUse[5,1,1] - layerInUse[5,1,2]
+   + 2 layerWillBeTakenInUseToday[5,1,2] <= 0
+ R30040: - layerInUse[5,1,1] - layerInUse[5,1,2] - layerInUse[5,1,3]
+   + 3 layerWillBeTakenInUseToday[5,1,3] <= 0
+ R30041: - layerInUse[5,1,1] - layerInUse[5,1,2] - layerInUse[5,1,3]
+   - layerInUse[5,1,4] + 4 layerWillBeTakenInUseToday[5,1,4] <= 0
+ R30042: - layerInUse[5,1,1] - layerInUse[5,1,2] - layerInUse[5,1,3]
+   - layerInUse[5,1,4] - layerInUse[5,1,5]
+   + 5 layerWillBeTakenInUseToday[5,1,5] <= 0
+ R30043: - layerInUse[5,1,1] - layerInUse[5,1,2] - layerInUse[5,1,3]
+   - layerInUse[5,1,4] - layerInUse[5,1,5] - layerInUse[5,1,6]
+   + 6 layerWillBeTakenInUseToday[5,1,6] <= 0
+ R30044: - layerInUse[5,2,1] + layerWillBeTakenInUseToday[5,2,1] <= 0
+ R30045: - layerInUse[5,2,1] - layerInUse[5,2,2]
+   + 2 layerWillBeTakenInUseToday[5,2,2] <= 0
+ R30046: - layerInUse[5,2,1] - layerInUse[5,2,2] - layerInUse[5,2,3]
+   + 3 layerWillBeTakenInUseToday[5,2,3] <= 0
+ R30047: - layerInUse[5,2,1] - layerInUse[5,2,2] - layerInUse[5,2,3]
+   - layerInUse[5,2,4] + 4 layerWillBeTakenInUseToday[5,2,4] <= 0
+ R30048: - layerInUse[5,2,1] - layerInUse[5,2,2] - layerInUse[5,2,3]
+   - layerInUse[5,2,4] - layerInUse[5,2,5]
+   + 5 layerWillBeTakenInUseToday[5,2,5] <= 0
+ R30049: - layerInUse[5,2,1] - layerInUse[5,2,2] - layerInUse[5,2,3]
+   - layerInUse[5,2,4] - layerInUse[5,2,5] - layerInUse[5,2,6]
+   + 6 layerWillBeTakenInUseToday[5,2,6] <= 0
+ R30050: - layerInUse[5,3,1] + layerWillBeTakenInUseToday[5,3,1] <= 0
+ R30051: - layerInUse[5,3,1] - layerInUse[5,3,2]
+   + 2 layerWillBeTakenInUseToday[5,3,2] <= 0
+ R30052: - layerInUse[5,3,1] - layerInUse[5,3,2] - layerInUse[5,3,3]
+   + 3 layerWillBeTakenInUseToday[5,3,3] <= 0
+ R30053: - layerInUse[5,3,1] - layerInUse[5,3,2] - layerInUse[5,3,3]
+   - layerInUse[5,3,4] + 4 layerWillBeTakenInUseToday[5,3,4] <= 0
+ R30054: - layerInUse[5,3,1] - layerInUse[5,3,2] - layerInUse[5,3,3]
+   - layerInUse[5,3,4] - layerInUse[5,3,5]
+   + 5 layerWillBeTakenInUseToday[5,3,5] <= 0
+ R30055: - layerInUse[5,3,1] - layerInUse[5,3,2] - layerInUse[5,3,3]
+   - layerInUse[5,3,4] - layerInUse[5,3,5] - layerInUse[5,3,6]
+   + 6 layerWillBeTakenInUseToday[5,3,6] <= 0
+ R30056: - layerInUse[5,4,1] + layerWillBeTakenInUseToday[5,4,1] <= 0
+ R30057: - layerInUse[5,4,1] - layerInUse[5,4,2]
+   + 2 layerWillBeTakenInUseToday[5,4,2] <= 0
+ R30058: - layerInUse[5,4,1] - layerInUse[5,4,2] - layerInUse[5,4,3]
+   + 3 layerWillBeTakenInUseToday[5,4,3] <= 0
+ R30059: - layerInUse[5,4,1] - layerInUse[5,4,2] - layerInUse[5,4,3]
+   - layerInUse[5,4,4] + 4 layerWillBeTakenInUseToday[5,4,4] <= 0
+ R30060: - layerInUse[5,4,1] - layerInUse[5,4,2] - layerInUse[5,4,3]
+   - layerInUse[5,4,4] - layerInUse[5,4,5]
+   + 5 layerWillBeTakenInUseToday[5,4,5] <= 0
+ R30061: - layerInUse[5,4,1] - layerInUse[5,4,2] - layerInUse[5,4,3]
+   - layerInUse[5,4,4] - layerInUse[5,4,5] - layerInUse[5,4,6]
+   + 6 layerWillBeTakenInUseToday[5,4,6] <= 0
+ R30062: - layerInUse[5,5,1] + layerWillBeTakenInUseToday[5,5,1] <= 0
+ R30063: - layerInUse[5,5,1] - layerInUse[5,5,2]
+   + 2 layerWillBeTakenInUseToday[5,5,2] <= 0
+ R30064: - layerInUse[5,5,1] - layerInUse[5,5,2] - layerInUse[5,5,3]
+   + 3 layerWillBeTakenInUseToday[5,5,3] <= 0
+ R30065: - layerInUse[5,5,1] - layerInUse[5,5,2] - layerInUse[5,5,3]
+   - layerInUse[5,5,4] + 4 layerWillBeTakenInUseToday[5,5,4] <= 0
+ R30066: - layerInUse[5,5,1] - layerInUse[5,5,2] - layerInUse[5,5,3]
+   - layerInUse[5,5,4] - layerInUse[5,5,5]
+   + 5 layerWillBeTakenInUseToday[5,5,5] <= 0
+ R30067: - layerInUse[5,5,1] - layerInUse[5,5,2] - layerInUse[5,5,3]
+   - layerInUse[5,5,4] - layerInUse[5,5,5] - layerInUse[5,5,6]
+   + 6 layerWillBeTakenInUseToday[5,5,6] <= 0
+ R30068: - layerInUse[5,6,1] + layerWillBeTakenInUseToday[5,6,1] <= 0
+ R30069: - layerInUse[5,6,1] - layerInUse[5,6,2]
+   + 2 layerWillBeTakenInUseToday[5,6,2] <= 0
+ R30070: - layerInUse[5,6,1] - layerInUse[5,6,2] - layerInUse[5,6,3]
+   + 3 layerWillBeTakenInUseToday[5,6,3] <= 0
+ R30071: - layerInUse[5,6,1] - layerInUse[5,6,2] - layerInUse[5,6,3]
+   - layerInUse[5,6,4] + 4 layerWillBeTakenInUseToday[5,6,4] <= 0
+ R30072: - layerInUse[5,6,1] - layerInUse[5,6,2] - layerInUse[5,6,3]
+   - layerInUse[5,6,4] - layerInUse[5,6,5]
+   + 5 layerWillBeTakenInUseToday[5,6,5] <= 0
+ R30073: - layerInUse[5,6,1] - layerInUse[5,6,2] - layerInUse[5,6,3]
+   - layerInUse[5,6,4] - layerInUse[5,6,5] - layerInUse[5,6,6]
+   + 6 layerWillBeTakenInUseToday[5,6,6] <= 0
+ R30074: - layerInUse[5,7,1] + layerWillBeTakenInUseToday[5,7,1] <= 0
+ R30075: - layerInUse[5,7,1] - layerInUse[5,7,2]
+   + 2 layerWillBeTakenInUseToday[5,7,2] <= 0
+ R30076: - layerInUse[5,7,1] - layerInUse[5,7,2] - layerInUse[5,7,3]
+   + 3 layerWillBeTakenInUseToday[5,7,3] <= 0
+ R30077: - layerInUse[5,7,1] - layerInUse[5,7,2] - layerInUse[5,7,3]
+   - layerInUse[5,7,4] + 4 layerWillBeTakenInUseToday[5,7,4] <= 0
+ R30078: - layerInUse[5,7,1] - layerInUse[5,7,2] - layerInUse[5,7,3]
+   - layerInUse[5,7,4] - layerInUse[5,7,5]
+   + 5 layerWillBeTakenInUseToday[5,7,5] <= 0
+ R30079: - layerInUse[5,7,1] - layerInUse[5,7,2] - layerInUse[5,7,3]
+   - layerInUse[5,7,4] - layerInUse[5,7,5] - layerInUse[5,7,6]
+   + 6 layerWillBeTakenInUseToday[5,7,6] <= 0
+ R30080: - layerInUse[5,8,1] + layerWillBeTakenInUseToday[5,8,1] <= 0
+ R30081: - layerInUse[5,8,1] - layerInUse[5,8,2]
+   + 2 layerWillBeTakenInUseToday[5,8,2] <= 0
+ R30082: - layerInUse[5,8,1] - layerInUse[5,8,2] - layerInUse[5,8,3]
+   + 3 layerWillBeTakenInUseToday[5,8,3] <= 0
+ R30083: - layerInUse[5,8,1] - layerInUse[5,8,2] - layerInUse[5,8,3]
+   - layerInUse[5,8,4] + 4 layerWillBeTakenInUseToday[5,8,4] <= 0
+ R30084: - layerInUse[5,8,1] - layerInUse[5,8,2] - layerInUse[5,8,3]
+   - layerInUse[5,8,4] - layerInUse[5,8,5]
+   + 5 layerWillBeTakenInUseToday[5,8,5] <= 0
+ R30085: - layerInUse[5,8,1] - layerInUse[5,8,2] - layerInUse[5,8,3]
+   - layerInUse[5,8,4] - layerInUse[5,8,5] - layerInUse[5,8,6]
+   + 6 layerWillBeTakenInUseToday[5,8,6] <= 0
+ R30086: - layerInUse[6,1,1] + layerWillBeTakenInUseToday[6,1,1] <= 0
+ R30087: - layerInUse[6,1,1] - layerInUse[6,1,2]
+   + 2 layerWillBeTakenInUseToday[6,1,2] <= 0
+ R30088: - layerInUse[6,1,1] - layerInUse[6,1,2] - layerInUse[6,1,3]
+   + 3 layerWillBeTakenInUseToday[6,1,3] <= 0
+ R30089: - layerInUse[6,1,1] - layerInUse[6,1,2] - layerInUse[6,1,3]
+   - layerInUse[6,1,4] + 4 layerWillBeTakenInUseToday[6,1,4] <= 0
+ R30090: - layerInUse[6,1,1] - layerInUse[6,1,2] - layerInUse[6,1,3]
+   - layerInUse[6,1,4] - layerInUse[6,1,5]
+   + 5 layerWillBeTakenInUseToday[6,1,5] <= 0
+ R30091: - layerInUse[6,1,1] - layerInUse[6,1,2] - layerInUse[6,1,3]
+   - layerInUse[6,1,4] - layerInUse[6,1,5] - layerInUse[6,1,6]
+   + 6 layerWillBeTakenInUseToday[6,1,6] <= 0
+ R30092: - layerInUse[6,2,1] + layerWillBeTakenInUseToday[6,2,1] <= 0
+ R30093: - layerInUse[6,2,1] - layerInUse[6,2,2]
+   + 2 layerWillBeTakenInUseToday[6,2,2] <= 0
+ R30094: - layerInUse[6,2,1] - layerInUse[6,2,2] - layerInUse[6,2,3]
+   + 3 layerWillBeTakenInUseToday[6,2,3] <= 0
+ R30095: - layerInUse[6,2,1] - layerInUse[6,2,2] - layerInUse[6,2,3]
+   - layerInUse[6,2,4] + 4 layerWillBeTakenInUseToday[6,2,4] <= 0
+ R30096: - layerInUse[6,2,1] - layerInUse[6,2,2] - layerInUse[6,2,3]
+   - layerInUse[6,2,4] - layerInUse[6,2,5]
+   + 5 layerWillBeTakenInUseToday[6,2,5] <= 0
+ R30097: - layerInUse[6,2,1] - layerInUse[6,2,2] - layerInUse[6,2,3]
+   - layerInUse[6,2,4] - layerInUse[6,2,5] - layerInUse[6,2,6]
+   + 6 layerWillBeTakenInUseToday[6,2,6] <= 0
+ R30098: - layerInUse[6,3,1] + layerWillBeTakenInUseToday[6,3,1] <= 0
+ R30099: - layerInUse[6,3,1] - layerInUse[6,3,2]
+   + 2 layerWillBeTakenInUseToday[6,3,2] <= 0
+ R30100: - layerInUse[6,3,1] - layerInUse[6,3,2] - layerInUse[6,3,3]
+   + 3 layerWillBeTakenInUseToday[6,3,3] <= 0
+ R30101: - layerInUse[6,3,1] - layerInUse[6,3,2] - layerInUse[6,3,3]
+   - layerInUse[6,3,4] + 4 layerWillBeTakenInUseToday[6,3,4] <= 0
+ R30102: - layerInUse[6,3,1] - layerInUse[6,3,2] - layerInUse[6,3,3]
+   - layerInUse[6,3,4] - layerInUse[6,3,5]
+   + 5 layerWillBeTakenInUseToday[6,3,5] <= 0
+ R30103: - layerInUse[6,3,1] - layerInUse[6,3,2] - layerInUse[6,3,3]
+   - layerInUse[6,3,4] - layerInUse[6,3,5] - layerInUse[6,3,6]
+   + 6 layerWillBeTakenInUseToday[6,3,6] <= 0
+ R30104: - layerInUse[6,4,1] + layerWillBeTakenInUseToday[6,4,1] <= 0
+ R30105: - layerInUse[6,4,1] - layerInUse[6,4,2]
+   + 2 layerWillBeTakenInUseToday[6,4,2] <= 0
+ R30106: - layerInUse[6,4,1] - layerInUse[6,4,2] - layerInUse[6,4,3]
+   + 3 layerWillBeTakenInUseToday[6,4,3] <= 0
+ R30107: - layerInUse[6,4,1] - layerInUse[6,4,2] - layerInUse[6,4,3]
+   - layerInUse[6,4,4] + 4 layerWillBeTakenInUseToday[6,4,4] <= 0
+ R30108: - layerInUse[6,4,1] - layerInUse[6,4,2] - layerInUse[6,4,3]
+   - layerInUse[6,4,4] - layerInUse[6,4,5]
+   + 5 layerWillBeTakenInUseToday[6,4,5] <= 0
+ R30109: - layerInUse[6,4,1] - layerInUse[6,4,2] - layerInUse[6,4,3]
+   - layerInUse[6,4,4] - layerInUse[6,4,5] - layerInUse[6,4,6]
+   + 6 layerWillBeTakenInUseToday[6,4,6] <= 0
+ R30110: - layerInUse[6,5,1] + layerWillBeTakenInUseToday[6,5,1] <= 0
+ R30111: - layerInUse[6,5,1] - layerInUse[6,5,2]
+   + 2 layerWillBeTakenInUseToday[6,5,2] <= 0
+ R30112: - layerInUse[6,5,1] - layerInUse[6,5,2] - layerInUse[6,5,3]
+   + 3 layerWillBeTakenInUseToday[6,5,3] <= 0
+ R30113: - layerInUse[6,5,1] - layerInUse[6,5,2] - layerInUse[6,5,3]
+   - layerInUse[6,5,4] + 4 layerWillBeTakenInUseToday[6,5,4] <= 0
+ R30114: - layerInUse[6,5,1] - layerInUse[6,5,2] - layerInUse[6,5,3]
+   - layerInUse[6,5,4] - layerInUse[6,5,5]
+   + 5 layerWillBeTakenInUseToday[6,5,5] <= 0
+ R30115: - layerInUse[6,5,1] - layerInUse[6,5,2] - layerInUse[6,5,3]
+   - layerInUse[6,5,4] - layerInUse[6,5,5] - layerInUse[6,5,6]
+   + 6 layerWillBeTakenInUseToday[6,5,6] <= 0
+ R30116: - layerInUse[6,6,1] + layerWillBeTakenInUseToday[6,6,1] <= 0
+ R30117: - layerInUse[6,6,1] - layerInUse[6,6,2]
+   + 2 layerWillBeTakenInUseToday[6,6,2] <= 0
+ R30118: - layerInUse[6,6,1] - layerInUse[6,6,2] - layerInUse[6,6,3]
+   + 3 layerWillBeTakenInUseToday[6,6,3] <= 0
+ R30119: - layerInUse[6,6,1] - layerInUse[6,6,2] - layerInUse[6,6,3]
+   - layerInUse[6,6,4] + 4 layerWillBeTakenInUseToday[6,6,4] <= 0
+ R30120: - layerInUse[6,6,1] - layerInUse[6,6,2] - layerInUse[6,6,3]
+   - layerInUse[6,6,4] - layerInUse[6,6,5]
+   + 5 layerWillBeTakenInUseToday[6,6,5] <= 0
+ R30121: - layerInUse[6,6,1] - layerInUse[6,6,2] - layerInUse[6,6,3]
+   - layerInUse[6,6,4] - layerInUse[6,6,5] - layerInUse[6,6,6]
+   + 6 layerWillBeTakenInUseToday[6,6,6] <= 0
+ R30122: - layerInUse[6,7,1] + layerWillBeTakenInUseToday[6,7,1] <= 0
+ R30123: - layerInUse[6,7,1] - layerInUse[6,7,2]
+   + 2 layerWillBeTakenInUseToday[6,7,2] <= 0
+ R30124: - layerInUse[6,7,1] - layerInUse[6,7,2] - layerInUse[6,7,3]
+   + 3 layerWillBeTakenInUseToday[6,7,3] <= 0
+ R30125: - layerInUse[6,7,1] - layerInUse[6,7,2] - layerInUse[6,7,3]
+   - layerInUse[6,7,4] + 4 layerWillBeTakenInUseToday[6,7,4] <= 0
+ R30126: - layerInUse[6,7,1] - layerInUse[6,7,2] - layerInUse[6,7,3]
+   - layerInUse[6,7,4] - layerInUse[6,7,5]
+   + 5 layerWillBeTakenInUseToday[6,7,5] <= 0
+ R30127: - layerInUse[6,7,1] - layerInUse[6,7,2] - layerInUse[6,7,3]
+   - layerInUse[6,7,4] - layerInUse[6,7,5] - layerInUse[6,7,6]
+   + 6 layerWillBeTakenInUseToday[6,7,6] <= 0
+ R30128: - layerInUse[6,8,1] + layerWillBeTakenInUseToday[6,8,1] <= 0
+ R30129: - layerInUse[6,8,1] - layerInUse[6,8,2]
+   + 2 layerWillBeTakenInUseToday[6,8,2] <= 0
+ R30130: - layerInUse[6,8,1] - layerInUse[6,8,2] - layerInUse[6,8,3]
+   + 3 layerWillBeTakenInUseToday[6,8,3] <= 0
+ R30131: - layerInUse[6,8,1] - layerInUse[6,8,2] - layerInUse[6,8,3]
+   - layerInUse[6,8,4] + 4 layerWillBeTakenInUseToday[6,8,4] <= 0
+ R30132: - layerInUse[6,8,1] - layerInUse[6,8,2] - layerInUse[6,8,3]
+   - layerInUse[6,8,4] - layerInUse[6,8,5]
+   + 5 layerWillBeTakenInUseToday[6,8,5] <= 0
+ R30133: - layerInUse[6,8,1] - layerInUse[6,8,2] - layerInUse[6,8,3]
+   - layerInUse[6,8,4] - layerInUse[6,8,5] - layerInUse[6,8,6]
+   + 6 layerWillBeTakenInUseToday[6,8,6] <= 0
+ R30134: - layerInUse[7,1,1] + layerWillBeTakenInUseToday[7,1,1] <= 0
+ R30135: - layerInUse[7,1,1] - layerInUse[7,1,2]
+   + 2 layerWillBeTakenInUseToday[7,1,2] <= 0
+ R30136: - layerInUse[7,1,1] - layerInUse[7,1,2] - layerInUse[7,1,3]
+   + 3 layerWillBeTakenInUseToday[7,1,3] <= 0
+ R30137: - layerInUse[7,1,1] - layerInUse[7,1,2] - layerInUse[7,1,3]
+   - layerInUse[7,1,4] + 4 layerWillBeTakenInUseToday[7,1,4] <= 0
+ R30138: - layerInUse[7,1,1] - layerInUse[7,1,2] - layerInUse[7,1,3]
+   - layerInUse[7,1,4] - layerInUse[7,1,5]
+   + 5 layerWillBeTakenInUseToday[7,1,5] <= 0
+ R30139: - layerInUse[7,1,1] - layerInUse[7,1,2] - layerInUse[7,1,3]
+   - layerInUse[7,1,4] - layerInUse[7,1,5] - layerInUse[7,1,6]
+   + 6 layerWillBeTakenInUseToday[7,1,6] <= 0
+ R30140: - layerInUse[7,2,1] + layerWillBeTakenInUseToday[7,2,1] <= 0
+ R30141: - layerInUse[7,2,1] - layerInUse[7,2,2]
+   + 2 layerWillBeTakenInUseToday[7,2,2] <= 0
+ R30142: - layerInUse[7,2,1] - layerInUse[7,2,2] - layerInUse[7,2,3]
+   + 3 layerWillBeTakenInUseToday[7,2,3] <= 0
+ R30143: - layerInUse[7,2,1] - layerInUse[7,2,2] - layerInUse[7,2,3]
+   - layerInUse[7,2,4] + 4 layerWillBeTakenInUseToday[7,2,4] <= 0
+ R30144: - layerInUse[7,2,1] - layerInUse[7,2,2] - layerInUse[7,2,3]
+   - layerInUse[7,2,4] - layerInUse[7,2,5]
+   + 5 layerWillBeTakenInUseToday[7,2,5] <= 0
+ R30145: - layerInUse[7,2,1] - layerInUse[7,2,2] - layerInUse[7,2,3]
+   - layerInUse[7,2,4] - layerInUse[7,2,5] - layerInUse[7,2,6]
+   + 6 layerWillBeTakenInUseToday[7,2,6] <= 0
+ R30146: - layerInUse[7,3,1] + layerWillBeTakenInUseToday[7,3,1] <= 0
+ R30147: - layerInUse[7,3,1] - layerInUse[7,3,2]
+   + 2 layerWillBeTakenInUseToday[7,3,2] <= 0
+ R30148: - layerInUse[7,3,1] - layerInUse[7,3,2] - layerInUse[7,3,3]
+   + 3 layerWillBeTakenInUseToday[7,3,3] <= 0
+ R30149: - layerInUse[7,3,1] - layerInUse[7,3,2] - layerInUse[7,3,3]
+   - layerInUse[7,3,4] + 4 layerWillBeTakenInUseToday[7,3,4] <= 0
+ R30150: - layerInUse[7,3,1] - layerInUse[7,3,2] - layerInUse[7,3,3]
+   - layerInUse[7,3,4] - layerInUse[7,3,5]
+   + 5 layerWillBeTakenInUseToday[7,3,5] <= 0
+ R30151: - layerInUse[7,3,1] - layerInUse[7,3,2] - layerInUse[7,3,3]
+   - layerInUse[7,3,4] - layerInUse[7,3,5] - layerInUse[7,3,6]
+   + 6 layerWillBeTakenInUseToday[7,3,6] <= 0
+ R30152: - layerInUse[7,4,1] + layerWillBeTakenInUseToday[7,4,1] <= 0
+ R30153: - layerInUse[7,4,1] - layerInUse[7,4,2]
+   + 2 layerWillBeTakenInUseToday[7,4,2] <= 0
+ R30154: - layerInUse[7,4,1] - layerInUse[7,4,2] - layerInUse[7,4,3]
+   + 3 layerWillBeTakenInUseToday[7,4,3] <= 0
+ R30155: - layerInUse[7,4,1] - layerInUse[7,4,2] - layerInUse[7,4,3]
+   - layerInUse[7,4,4] + 4 layerWillBeTakenInUseToday[7,4,4] <= 0
+ R30156: - layerInUse[7,4,1] - layerInUse[7,4,2] - layerInUse[7,4,3]
+   - layerInUse[7,4,4] - layerInUse[7,4,5]
+   + 5 layerWillBeTakenInUseToday[7,4,5] <= 0
+ R30157: - layerInUse[7,4,1] - layerInUse[7,4,2] - layerInUse[7,4,3]
+   - layerInUse[7,4,4] - layerInUse[7,4,5] - layerInUse[7,4,6]
+   + 6 layerWillBeTakenInUseToday[7,4,6] <= 0
+ R30158: - layerInUse[7,5,1] + layerWillBeTakenInUseToday[7,5,1] <= 0
+ R30159: - layerInUse[7,5,1] - layerInUse[7,5,2]
+   + 2 layerWillBeTakenInUseToday[7,5,2] <= 0
+ R30160: - layerInUse[7,5,1] - layerInUse[7,5,2] - layerInUse[7,5,3]
+   + 3 layerWillBeTakenInUseToday[7,5,3] <= 0
+ R30161: - layerInUse[7,5,1] - layerInUse[7,5,2] - layerInUse[7,5,3]
+   - layerInUse[7,5,4] + 4 layerWillBeTakenInUseToday[7,5,4] <= 0
+ R30162: - layerInUse[7,5,1] - layerInUse[7,5,2] - layerInUse[7,5,3]
+   - layerInUse[7,5,4] - layerInUse[7,5,5]
+   + 5 layerWillBeTakenInUseToday[7,5,5] <= 0
+ R30163: - layerInUse[7,5,1] - layerInUse[7,5,2] - layerInUse[7,5,3]
+   - layerInUse[7,5,4] - layerInUse[7,5,5] - layerInUse[7,5,6]
+   + 6 layerWillBeTakenInUseToday[7,5,6] <= 0
+ R30164: - layerInUse[7,6,1] + layerWillBeTakenInUseToday[7,6,1] <= 0
+ R30165: - layerInUse[7,6,1] - layerInUse[7,6,2]
+   + 2 layerWillBeTakenInUseToday[7,6,2] <= 0
+ R30166: - layerInUse[7,6,1] - layerInUse[7,6,2] - layerInUse[7,6,3]
+   + 3 layerWillBeTakenInUseToday[7,6,3] <= 0
+ R30167: - layerInUse[7,6,1] - layerInUse[7,6,2] - layerInUse[7,6,3]
+   - layerInUse[7,6,4] + 4 layerWillBeTakenInUseToday[7,6,4] <= 0
+ R30168: - layerInUse[7,6,1] - layerInUse[7,6,2] - layerInUse[7,6,3]
+   - layerInUse[7,6,4] - layerInUse[7,6,5]
+   + 5 layerWillBeTakenInUseToday[7,6,5] <= 0
+ R30169: - layerInUse[7,6,1] - layerInUse[7,6,2] - layerInUse[7,6,3]
+   - layerInUse[7,6,4] - layerInUse[7,6,5] - layerInUse[7,6,6]
+   + 6 layerWillBeTakenInUseToday[7,6,6] <= 0
+ R30170: - layerInUse[7,7,1] + layerWillBeTakenInUseToday[7,7,1] <= 0
+ R30171: - layerInUse[7,7,1] - layerInUse[7,7,2]
+   + 2 layerWillBeTakenInUseToday[7,7,2] <= 0
+ R30172: - layerInUse[7,7,1] - layerInUse[7,7,2] - layerInUse[7,7,3]
+   + 3 layerWillBeTakenInUseToday[7,7,3] <= 0
+ R30173: - layerInUse[7,7,1] - layerInUse[7,7,2] - layerInUse[7,7,3]
+   - layerInUse[7,7,4] + 4 layerWillBeTakenInUseToday[7,7,4] <= 0
+ R30174: - layerInUse[7,7,1] - layerInUse[7,7,2] - layerInUse[7,7,3]
+   - layerInUse[7,7,4] - layerInUse[7,7,5]
+   + 5 layerWillBeTakenInUseToday[7,7,5] <= 0
+ R30175: - layerInUse[7,7,1] - layerInUse[7,7,2] - layerInUse[7,7,3]
+   - layerInUse[7,7,4] - layerInUse[7,7,5] - layerInUse[7,7,6]
+   + 6 layerWillBeTakenInUseToday[7,7,6] <= 0
+ R30176: - layerInUse[7,8,1] + layerWillBeTakenInUseToday[7,8,1] <= 0
+ R30177: - layerInUse[7,8,1] - layerInUse[7,8,2]
+   + 2 layerWillBeTakenInUseToday[7,8,2] <= 0
+ R30178: - layerInUse[7,8,1] - layerInUse[7,8,2] - layerInUse[7,8,3]
+   + 3 layerWillBeTakenInUseToday[7,8,3] <= 0
+ R30179: - layerInUse[7,8,1] - layerInUse[7,8,2] - layerInUse[7,8,3]
+   - layerInUse[7,8,4] + 4 layerWillBeTakenInUseToday[7,8,4] <= 0
+ R30180: - layerInUse[7,8,1] - layerInUse[7,8,2] - layerInUse[7,8,3]
+   - layerInUse[7,8,4] - layerInUse[7,8,5]
+   + 5 layerWillBeTakenInUseToday[7,8,5] <= 0
+ R30181: - layerInUse[7,8,1] - layerInUse[7,8,2] - layerInUse[7,8,3]
+   - layerInUse[7,8,4] - layerInUse[7,8,5] - layerInUse[7,8,6]
+   + 6 layerWillBeTakenInUseToday[7,8,6] <= 0
+ R30182: - layerInUse[8,1,1] + layerWillBeTakenInUseToday[8,1,1] <= 0
+ R30183: - layerInUse[8,1,1] - layerInUse[8,1,2]
+   + 2 layerWillBeTakenInUseToday[8,1,2] <= 0
+ R30184: - layerInUse[8,1,1] - layerInUse[8,1,2] - layerInUse[8,1,3]
+   + 3 layerWillBeTakenInUseToday[8,1,3] <= 0
+ R30185: - layerInUse[8,1,1] - layerInUse[8,1,2] - layerInUse[8,1,3]
+   - layerInUse[8,1,4] + 4 layerWillBeTakenInUseToday[8,1,4] <= 0
+ R30186: - layerInUse[8,1,1] - layerInUse[8,1,2] - layerInUse[8,1,3]
+   - layerInUse[8,1,4] - layerInUse[8,1,5]
+   + 5 layerWillBeTakenInUseToday[8,1,5] <= 0
+ R30187: - layerInUse[8,1,1] - layerInUse[8,1,2] - layerInUse[8,1,3]
+   - layerInUse[8,1,4] - layerInUse[8,1,5] - layerInUse[8,1,6]
+   + 6 layerWillBeTakenInUseToday[8,1,6] <= 0
+ R30188: - layerInUse[8,2,1] + layerWillBeTakenInUseToday[8,2,1] <= 0
+ R30189: - layerInUse[8,2,1] - layerInUse[8,2,2]
+   + 2 layerWillBeTakenInUseToday[8,2,2] <= 0
+ R30190: - layerInUse[8,2,1] - layerInUse[8,2,2] - layerInUse[8,2,3]
+   + 3 layerWillBeTakenInUseToday[8,2,3] <= 0
+ R30191: - layerInUse[8,2,1] - layerInUse[8,2,2] - layerInUse[8,2,3]
+   - layerInUse[8,2,4] + 4 layerWillBeTakenInUseToday[8,2,4] <= 0
+ R30192: - layerInUse[8,2,1] - layerInUse[8,2,2] - layerInUse[8,2,3]
+   - layerInUse[8,2,4] - layerInUse[8,2,5]
+   + 5 layerWillBeTakenInUseToday[8,2,5] <= 0
+ R30193: - layerInUse[8,2,1] - layerInUse[8,2,2] - layerInUse[8,2,3]
+   - layerInUse[8,2,4] - layerInUse[8,2,5] - layerInUse[8,2,6]
+   + 6 layerWillBeTakenInUseToday[8,2,6] <= 0
+ R30194: - layerInUse[8,3,1] + layerWillBeTakenInUseToday[8,3,1] <= 0
+ R30195: - layerInUse[8,3,1] - layerInUse[8,3,2]
+   + 2 layerWillBeTakenInUseToday[8,3,2] <= 0
+ R30196: - layerInUse[8,3,1] - layerInUse[8,3,2] - layerInUse[8,3,3]
+   + 3 layerWillBeTakenInUseToday[8,3,3] <= 0
+ R30197: - layerInUse[8,3,1] - layerInUse[8,3,2] - layerInUse[8,3,3]
+   - layerInUse[8,3,4] + 4 layerWillBeTakenInUseToday[8,3,4] <= 0
+ R30198: - layerInUse[8,3,1] - layerInUse[8,3,2] - layerInUse[8,3,3]
+   - layerInUse[8,3,4] - layerInUse[8,3,5]
+   + 5 layerWillBeTakenInUseToday[8,3,5] <= 0
+ R30199: - layerInUse[8,3,1] - layerInUse[8,3,2] - layerInUse[8,3,3]
+   - layerInUse[8,3,4] - layerInUse[8,3,5] - layerInUse[8,3,6]
+   + 6 layerWillBeTakenInUseToday[8,3,6] <= 0
+ R30200: - layerInUse[8,4,1] + layerWillBeTakenInUseToday[8,4,1] <= 0
+ R30201: - layerInUse[8,4,1] - layerInUse[8,4,2]
+   + 2 layerWillBeTakenInUseToday[8,4,2] <= 0
+ R30202: - layerInUse[8,4,1] - layerInUse[8,4,2] - layerInUse[8,4,3]
+   + 3 layerWillBeTakenInUseToday[8,4,3] <= 0
+ R30203: - layerInUse[8,4,1] - layerInUse[8,4,2] - layerInUse[8,4,3]
+   - layerInUse[8,4,4] + 4 layerWillBeTakenInUseToday[8,4,4] <= 0
+ R30204: - layerInUse[8,4,1] - layerInUse[8,4,2] - layerInUse[8,4,3]
+   - layerInUse[8,4,4] - layerInUse[8,4,5]
+   + 5 layerWillBeTakenInUseToday[8,4,5] <= 0
+ R30205: - layerInUse[8,4,1] - layerInUse[8,4,2] - layerInUse[8,4,3]
+   - layerInUse[8,4,4] - layerInUse[8,4,5] - layerInUse[8,4,6]
+   + 6 layerWillBeTakenInUseToday[8,4,6] <= 0
+ R30206: - layerInUse[8,5,1] + layerWillBeTakenInUseToday[8,5,1] <= 0
+ R30207: - layerInUse[8,5,1] - layerInUse[8,5,2]
+   + 2 layerWillBeTakenInUseToday[8,5,2] <= 0
+ R30208: - layerInUse[8,5,1] - layerInUse[8,5,2] - layerInUse[8,5,3]
+   + 3 layerWillBeTakenInUseToday[8,5,3] <= 0
+ R30209: - layerInUse[8,5,1] - layerInUse[8,5,2] - layerInUse[8,5,3]
+   - layerInUse[8,5,4] + 4 layerWillBeTakenInUseToday[8,5,4] <= 0
+ R30210: - layerInUse[8,5,1] - layerInUse[8,5,2] - layerInUse[8,5,3]
+   - layerInUse[8,5,4] - layerInUse[8,5,5]
+   + 5 layerWillBeTakenInUseToday[8,5,5] <= 0
+ R30211: - layerInUse[8,5,1] - layerInUse[8,5,2] - layerInUse[8,5,3]
+   - layerInUse[8,5,4] - layerInUse[8,5,5] - layerInUse[8,5,6]
+   + 6 layerWillBeTakenInUseToday[8,5,6] <= 0
+ R30212: - layerInUse[8,6,1] + layerWillBeTakenInUseToday[8,6,1] <= 0
+ R30213: - layerInUse[8,6,1] - layerInUse[8,6,2]
+   + 2 layerWillBeTakenInUseToday[8,6,2] <= 0
+ R30214: - layerInUse[8,6,1] - layerInUse[8,6,2] - layerInUse[8,6,3]
+   + 3 layerWillBeTakenInUseToday[8,6,3] <= 0
+ R30215: - layerInUse[8,6,1] - layerInUse[8,6,2] - layerInUse[8,6,3]
+   - layerInUse[8,6,4] + 4 layerWillBeTakenInUseToday[8,6,4] <= 0
+ R30216: - layerInUse[8,6,1] - layerInUse[8,6,2] - layerInUse[8,6,3]
+   - layerInUse[8,6,4] - layerInUse[8,6,5]
+   + 5 layerWillBeTakenInUseToday[8,6,5] <= 0
+ R30217: - layerInUse[8,6,1] - layerInUse[8,6,2] - layerInUse[8,6,3]
+   - layerInUse[8,6,4] - layerInUse[8,6,5] - layerInUse[8,6,6]
+   + 6 layerWillBeTakenInUseToday[8,6,6] <= 0
+ R30218: - layerInUse[8,7,1] + layerWillBeTakenInUseToday[8,7,1] <= 0
+ R30219: - layerInUse[8,7,1] - layerInUse[8,7,2]
+   + 2 layerWillBeTakenInUseToday[8,7,2] <= 0
+ R30220: - layerInUse[8,7,1] - layerInUse[8,7,2] - layerInUse[8,7,3]
+   + 3 layerWillBeTakenInUseToday[8,7,3] <= 0
+ R30221: - layerInUse[8,7,1] - layerInUse[8,7,2] - layerInUse[8,7,3]
+   - layerInUse[8,7,4] + 4 layerWillBeTakenInUseToday[8,7,4] <= 0
+ R30222: - layerInUse[8,7,1] - layerInUse[8,7,2] - layerInUse[8,7,3]
+   - layerInUse[8,7,4] - layerInUse[8,7,5]
+   + 5 layerWillBeTakenInUseToday[8,7,5] <= 0
+ R30223: - layerInUse[8,7,1] - layerInUse[8,7,2] - layerInUse[8,7,3]
+   - layerInUse[8,7,4] - layerInUse[8,7,5] - layerInUse[8,7,6]
+   + 6 layerWillBeTakenInUseToday[8,7,6] <= 0
+ R30224: - layerInUse[8,8,1] + layerWillBeTakenInUseToday[8,8,1] <= 0
+ R30225: - layerInUse[8,8,1] - layerInUse[8,8,2]
+   + 2 layerWillBeTakenInUseToday[8,8,2] <= 0
+ R30226: - layerInUse[8,8,1] - layerInUse[8,8,2] - layerInUse[8,8,3]
+   + 3 layerWillBeTakenInUseToday[8,8,3] <= 0
+ R30227: - layerInUse[8,8,1] - layerInUse[8,8,2] - layerInUse[8,8,3]
+   - layerInUse[8,8,4] + 4 layerWillBeTakenInUseToday[8,8,4] <= 0
+ R30228: - layerInUse[8,8,1] - layerInUse[8,8,2] - layerInUse[8,8,3]
+   - layerInUse[8,8,4] - layerInUse[8,8,5]
+   + 5 layerWillBeTakenInUseToday[8,8,5] <= 0
+ R30229: - layerInUse[8,8,1] - layerInUse[8,8,2] - layerInUse[8,8,3]
+   - layerInUse[8,8,4] - layerInUse[8,8,5] - layerInUse[8,8,6]
+   + 6 layerWillBeTakenInUseToday[8,8,6] <= 0
+ R30230: - layerInUse[9,1,1] + layerWillBeTakenInUseToday[9,1,1] <= 0
+ R30231: - layerInUse[9,1,1] - layerInUse[9,1,2]
+   + 2 layerWillBeTakenInUseToday[9,1,2] <= 0
+ R30232: - layerInUse[9,1,1] - layerInUse[9,1,2] - layerInUse[9,1,3]
+   + 3 layerWillBeTakenInUseToday[9,1,3] <= 0
+ R30233: - layerInUse[9,1,1] - layerInUse[9,1,2] - layerInUse[9,1,3]
+   - layerInUse[9,1,4] + 4 layerWillBeTakenInUseToday[9,1,4] <= 0
+ R30234: - layerInUse[9,1,1] - layerInUse[9,1,2] - layerInUse[9,1,3]
+   - layerInUse[9,1,4] - layerInUse[9,1,5]
+   + 5 layerWillBeTakenInUseToday[9,1,5] <= 0
+ R30235: - layerInUse[9,1,1] - layerInUse[9,1,2] - layerInUse[9,1,3]
+   - layerInUse[9,1,4] - layerInUse[9,1,5] - layerInUse[9,1,6]
+   + 6 layerWillBeTakenInUseToday[9,1,6] <= 0
+ R30236: - layerInUse[9,2,1] + layerWillBeTakenInUseToday[9,2,1] <= 0
+ R30237: - layerInUse[9,2,1] - layerInUse[9,2,2]
+   + 2 layerWillBeTakenInUseToday[9,2,2] <= 0
+ R30238: - layerInUse[9,2,1] - layerInUse[9,2,2] - layerInUse[9,2,3]
+   + 3 layerWillBeTakenInUseToday[9,2,3] <= 0
+ R30239: - layerInUse[9,2,1] - layerInUse[9,2,2] - layerInUse[9,2,3]
+   - layerInUse[9,2,4] + 4 layerWillBeTakenInUseToday[9,2,4] <= 0
+ R30240: - layerInUse[9,2,1] - layerInUse[9,2,2] - layerInUse[9,2,3]
+   - layerInUse[9,2,4] - layerInUse[9,2,5]
+   + 5 layerWillBeTakenInUseToday[9,2,5] <= 0
+ R30241: - layerInUse[9,2,1] - layerInUse[9,2,2] - layerInUse[9,2,3]
+   - layerInUse[9,2,4] - layerInUse[9,2,5] - layerInUse[9,2,6]
+   + 6 layerWillBeTakenInUseToday[9,2,6] <= 0
+ R30242: - layerInUse[9,3,1] + layerWillBeTakenInUseToday[9,3,1] <= 0
+ R30243: - layerInUse[9,3,1] - layerInUse[9,3,2]
+   + 2 layerWillBeTakenInUseToday[9,3,2] <= 0
+ R30244: - layerInUse[9,3,1] - layerInUse[9,3,2] - layerInUse[9,3,3]
+   + 3 layerWillBeTakenInUseToday[9,3,3] <= 0
+ R30245: - layerInUse[9,3,1] - layerInUse[9,3,2] - layerInUse[9,3,3]
+   - layerInUse[9,3,4] + 4 layerWillBeTakenInUseToday[9,3,4] <= 0
+ R30246: - layerInUse[9,3,1] - layerInUse[9,3,2] - layerInUse[9,3,3]
+   - layerInUse[9,3,4] - layerInUse[9,3,5]
+   + 5 layerWillBeTakenInUseToday[9,3,5] <= 0
+ R30247: - layerInUse[9,3,1] - layerInUse[9,3,2] - layerInUse[9,3,3]
+   - layerInUse[9,3,4] - layerInUse[9,3,5] - layerInUse[9,3,6]
+   + 6 layerWillBeTakenInUseToday[9,3,6] <= 0
+ R30248: - layerInUse[9,4,1] + layerWillBeTakenInUseToday[9,4,1] <= 0
+ R30249: - layerInUse[9,4,1] - layerInUse[9,4,2]
+   + 2 layerWillBeTakenInUseToday[9,4,2] <= 0
+ R30250: - layerInUse[9,4,1] - layerInUse[9,4,2] - layerInUse[9,4,3]
+   + 3 layerWillBeTakenInUseToday[9,4,3] <= 0
+ R30251: - layerInUse[9,4,1] - layerInUse[9,4,2] - layerInUse[9,4,3]
+   - layerInUse[9,4,4] + 4 layerWillBeTakenInUseToday[9,4,4] <= 0
+ R30252: - layerInUse[9,4,1] - layerInUse[9,4,2] - layerInUse[9,4,3]
+   - layerInUse[9,4,4] - layerInUse[9,4,5]
+   + 5 layerWillBeTakenInUseToday[9,4,5] <= 0
+ R30253: - layerInUse[9,4,1] - layerInUse[9,4,2] - layerInUse[9,4,3]
+   - layerInUse[9,4,4] - layerInUse[9,4,5] - layerInUse[9,4,6]
+   + 6 layerWillBeTakenInUseToday[9,4,6] <= 0
+ R30254: - layerInUse[9,5,1] + layerWillBeTakenInUseToday[9,5,1] <= 0
+ R30255: - layerInUse[9,5,1] - layerInUse[9,5,2]
+   + 2 layerWillBeTakenInUseToday[9,5,2] <= 0
+ R30256: - layerInUse[9,5,1] - layerInUse[9,5,2] - layerInUse[9,5,3]
+   + 3 layerWillBeTakenInUseToday[9,5,3] <= 0
+ R30257: - layerInUse[9,5,1] - layerInUse[9,5,2] - layerInUse[9,5,3]
+   - layerInUse[9,5,4] + 4 layerWillBeTakenInUseToday[9,5,4] <= 0
+ R30258: - layerInUse[9,5,1] - layerInUse[9,5,2] - layerInUse[9,5,3]
+   - layerInUse[9,5,4] - layerInUse[9,5,5]
+   + 5 layerWillBeTakenInUseToday[9,5,5] <= 0
+ R30259: - layerInUse[9,5,1] - layerInUse[9,5,2] - layerInUse[9,5,3]
+   - layerInUse[9,5,4] - layerInUse[9,5,5] - layerInUse[9,5,6]
+   + 6 layerWillBeTakenInUseToday[9,5,6] <= 0
+ R30260: - layerInUse[9,6,1] + layerWillBeTakenInUseToday[9,6,1] <= 0
+ R30261: - layerInUse[9,6,1] - layerInUse[9,6,2]
+   + 2 layerWillBeTakenInUseToday[9,6,2] <= 0
+ R30262: - layerInUse[9,6,1] - layerInUse[9,6,2] - layerInUse[9,6,3]
+   + 3 layerWillBeTakenInUseToday[9,6,3] <= 0
+ R30263: - layerInUse[9,6,1] - layerInUse[9,6,2] - layerInUse[9,6,3]
+   - layerInUse[9,6,4] + 4 layerWillBeTakenInUseToday[9,6,4] <= 0
+ R30264: - layerInUse[9,6,1] - layerInUse[9,6,2] - layerInUse[9,6,3]
+   - layerInUse[9,6,4] - layerInUse[9,6,5]
+   + 5 layerWillBeTakenInUseToday[9,6,5] <= 0
+ R30265: - layerInUse[9,6,1] - layerInUse[9,6,2] - layerInUse[9,6,3]
+   - layerInUse[9,6,4] - layerInUse[9,6,5] - layerInUse[9,6,6]
+   + 6 layerWillBeTakenInUseToday[9,6,6] <= 0
+ R30266: - layerInUse[9,7,1] + layerWillBeTakenInUseToday[9,7,1] <= 0
+ R30267: - layerInUse[9,7,1] - layerInUse[9,7,2]
+   + 2 layerWillBeTakenInUseToday[9,7,2] <= 0
+ R30268: - layerInUse[9,7,1] - layerInUse[9,7,2] - layerInUse[9,7,3]
+   + 3 layerWillBeTakenInUseToday[9,7,3] <= 0
+ R30269: - layerInUse[9,7,1] - layerInUse[9,7,2] - layerInUse[9,7,3]
+   - layerInUse[9,7,4] + 4 layerWillBeTakenInUseToday[9,7,4] <= 0
+ R30270: - layerInUse[9,7,1] - layerInUse[9,7,2] - layerInUse[9,7,3]
+   - layerInUse[9,7,4] - layerInUse[9,7,5]
+   + 5 layerWillBeTakenInUseToday[9,7,5] <= 0
+ R30271: - layerInUse[9,7,1] - layerInUse[9,7,2] - layerInUse[9,7,3]
+   - layerInUse[9,7,4] - layerInUse[9,7,5] - layerInUse[9,7,6]
+   + 6 layerWillBeTakenInUseToday[9,7,6] <= 0
+ R30272: - layerInUse[9,8,1] + layerWillBeTakenInUseToday[9,8,1] <= 0
+ R30273: - layerInUse[9,8,1] - layerInUse[9,8,2]
+   + 2 layerWillBeTakenInUseToday[9,8,2] <= 0
+ R30274: - layerInUse[9,8,1] - layerInUse[9,8,2] - layerInUse[9,8,3]
+   + 3 layerWillBeTakenInUseToday[9,8,3] <= 0
+ R30275: - layerInUse[9,8,1] - layerInUse[9,8,2] - layerInUse[9,8,3]
+   - layerInUse[9,8,4] + 4 layerWillBeTakenInUseToday[9,8,4] <= 0
+ R30276: - layerInUse[9,8,1] - layerInUse[9,8,2] - layerInUse[9,8,3]
+   - layerInUse[9,8,4] - layerInUse[9,8,5]
+   + 5 layerWillBeTakenInUseToday[9,8,5] <= 0
+ R30277: - layerInUse[9,8,1] - layerInUse[9,8,2] - layerInUse[9,8,3]
+   - layerInUse[9,8,4] - layerInUse[9,8,5] - layerInUse[9,8,6]
+   + 6 layerWillBeTakenInUseToday[9,8,6] <= 0
+ R30278: - layerInUse[10,1,1] + layerWillBeTakenInUseToday[10,1,1] <= 0
+ R30279: - layerInUse[10,1,1] - layerInUse[10,1,2]
+   + 2 layerWillBeTakenInUseToday[10,1,2] <= 0
+ R30280: - layerInUse[10,1,1] - layerInUse[10,1,2] - layerInUse[10,1,3]
+   + 3 layerWillBeTakenInUseToday[10,1,3] <= 0
+ R30281: - layerInUse[10,1,1] - layerInUse[10,1,2] - layerInUse[10,1,3]
+   - layerInUse[10,1,4] + 4 layerWillBeTakenInUseToday[10,1,4] <= 0
+ R30282: - layerInUse[10,1,1] - layerInUse[10,1,2] - layerInUse[10,1,3]
+   - layerInUse[10,1,4] - layerInUse[10,1,5]
+   + 5 layerWillBeTakenInUseToday[10,1,5] <= 0
+ R30283: - layerInUse[10,1,1] - layerInUse[10,1,2] - layerInUse[10,1,3]
+   - layerInUse[10,1,4] - layerInUse[10,1,5] - layerInUse[10,1,6]
+   + 6 layerWillBeTakenInUseToday[10,1,6] <= 0
+ R30284: - layerInUse[10,2,1] + layerWillBeTakenInUseToday[10,2,1] <= 0
+ R30285: - layerInUse[10,2,1] - layerInUse[10,2,2]
+   + 2 layerWillBeTakenInUseToday[10,2,2] <= 0
+ R30286: - layerInUse[10,2,1] - layerInUse[10,2,2] - layerInUse[10,2,3]
+   + 3 layerWillBeTakenInUseToday[10,2,3] <= 0
+ R30287: - layerInUse[10,2,1] - layerInUse[10,2,2] - layerInUse[10,2,3]
+   - layerInUse[10,2,4] + 4 layerWillBeTakenInUseToday[10,2,4] <= 0
+ R30288: - layerInUse[10,2,1] - layerInUse[10,2,2] - layerInUse[10,2,3]
+   - layerInUse[10,2,4] - layerInUse[10,2,5]
+   + 5 layerWillBeTakenInUseToday[10,2,5] <= 0
+ R30289: - layerInUse[10,2,1] - layerInUse[10,2,2] - layerInUse[10,2,3]
+   - layerInUse[10,2,4] - layerInUse[10,2,5] - layerInUse[10,2,6]
+   + 6 layerWillBeTakenInUseToday[10,2,6] <= 0
+ R30290: - layerInUse[10,3,1] + layerWillBeTakenInUseToday[10,3,1] <= 0
+ R30291: - layerInUse[10,3,1] - layerInUse[10,3,2]
+   + 2 layerWillBeTakenInUseToday[10,3,2] <= 0
+ R30292: - layerInUse[10,3,1] - layerInUse[10,3,2] - layerInUse[10,3,3]
+   + 3 layerWillBeTakenInUseToday[10,3,3] <= 0
+ R30293: - layerInUse[10,3,1] - layerInUse[10,3,2] - layerInUse[10,3,3]
+   - layerInUse[10,3,4] + 4 layerWillBeTakenInUseToday[10,3,4] <= 0
+ R30294: - layerInUse[10,3,1] - layerInUse[10,3,2] - layerInUse[10,3,3]
+   - layerInUse[10,3,4] - layerInUse[10,3,5]
+   + 5 layerWillBeTakenInUseToday[10,3,5] <= 0
+ R30295: - layerInUse[10,3,1] - layerInUse[10,3,2] - layerInUse[10,3,3]
+   - layerInUse[10,3,4] - layerInUse[10,3,5] - layerInUse[10,3,6]
+   + 6 layerWillBeTakenInUseToday[10,3,6] <= 0
+ R30296: - layerInUse[10,4,1] + layerWillBeTakenInUseToday[10,4,1] <= 0
+ R30297: - layerInUse[10,4,1] - layerInUse[10,4,2]
+   + 2 layerWillBeTakenInUseToday[10,4,2] <= 0
+ R30298: - layerInUse[10,4,1] - layerInUse[10,4,2] - layerInUse[10,4,3]
+   + 3 layerWillBeTakenInUseToday[10,4,3] <= 0
+ R30299: - layerInUse[10,4,1] - layerInUse[10,4,2] - layerInUse[10,4,3]
+   - layerInUse[10,4,4] + 4 layerWillBeTakenInUseToday[10,4,4] <= 0
+ R30300: - layerInUse[10,4,1] - layerInUse[10,4,2] - layerInUse[10,4,3]
+   - layerInUse[10,4,4] - layerInUse[10,4,5]
+   + 5 layerWillBeTakenInUseToday[10,4,5] <= 0
+ R30301: - layerInUse[10,4,1] - layerInUse[10,4,2] - layerInUse[10,4,3]
+   - layerInUse[10,4,4] - layerInUse[10,4,5] - layerInUse[10,4,6]
+   + 6 layerWillBeTakenInUseToday[10,4,6] <= 0
+ R30302: - layerInUse[10,5,1] + layerWillBeTakenInUseToday[10,5,1] <= 0
+ R30303: - layerInUse[10,5,1] - layerInUse[10,5,2]
+   + 2 layerWillBeTakenInUseToday[10,5,2] <= 0
+ R30304: - layerInUse[10,5,1] - layerInUse[10,5,2] - layerInUse[10,5,3]
+   + 3 layerWillBeTakenInUseToday[10,5,3] <= 0
+ R30305: - layerInUse[10,5,1] - layerInUse[10,5,2] - layerInUse[10,5,3]
+   - layerInUse[10,5,4] + 4 layerWillBeTakenInUseToday[10,5,4] <= 0
+ R30306: - layerInUse[10,5,1] - layerInUse[10,5,2] - layerInUse[10,5,3]
+   - layerInUse[10,5,4] - layerInUse[10,5,5]
+   + 5 layerWillBeTakenInUseToday[10,5,5] <= 0
+ R30307: - layerInUse[10,5,1] - layerInUse[10,5,2] - layerInUse[10,5,3]
+   - layerInUse[10,5,4] - layerInUse[10,5,5] - layerInUse[10,5,6]
+   + 6 layerWillBeTakenInUseToday[10,5,6] <= 0
+ R30308: - layerInUse[10,6,1] + layerWillBeTakenInUseToday[10,6,1] <= 0
+ R30309: - layerInUse[10,6,1] - layerInUse[10,6,2]
+   + 2 layerWillBeTakenInUseToday[10,6,2] <= 0
+ R30310: - layerInUse[10,6,1] - layerInUse[10,6,2] - layerInUse[10,6,3]
+   + 3 layerWillBeTakenInUseToday[10,6,3] <= 0
+ R30311: - layerInUse[10,6,1] - layerInUse[10,6,2] - layerInUse[10,6,3]
+   - layerInUse[10,6,4] + 4 layerWillBeTakenInUseToday[10,6,4] <= 0
+ R30312: - layerInUse[10,6,1] - layerInUse[10,6,2] - layerInUse[10,6,3]
+   - layerInUse[10,6,4] - layerInUse[10,6,5]
+   + 5 layerWillBeTakenInUseToday[10,6,5] <= 0
+ R30313: - layerInUse[10,6,1] - layerInUse[10,6,2] - layerInUse[10,6,3]
+   - layerInUse[10,6,4] - layerInUse[10,6,5] - layerInUse[10,6,6]
+   + 6 layerWillBeTakenInUseToday[10,6,6] <= 0
+ R30314: - layerInUse[10,7,1] + layerWillBeTakenInUseToday[10,7,1] <= 0
+ R30315: - layerInUse[10,7,1] - layerInUse[10,7,2]
+   + 2 layerWillBeTakenInUseToday[10,7,2] <= 0
+ R30316: - layerInUse[10,7,1] - layerInUse[10,7,2] - layerInUse[10,7,3]
+   + 3 layerWillBeTakenInUseToday[10,7,3] <= 0
+ R30317: - layerInUse[10,7,1] - layerInUse[10,7,2] - layerInUse[10,7,3]
+   - layerInUse[10,7,4] + 4 layerWillBeTakenInUseToday[10,7,4] <= 0
+ R30318: - layerInUse[10,7,1] - layerInUse[10,7,2] - layerInUse[10,7,3]
+   - layerInUse[10,7,4] - layerInUse[10,7,5]
+   + 5 layerWillBeTakenInUseToday[10,7,5] <= 0
+ R30319: - layerInUse[10,7,1] - layerInUse[10,7,2] - layerInUse[10,7,3]
+   - layerInUse[10,7,4] - layerInUse[10,7,5] - layerInUse[10,7,6]
+   + 6 layerWillBeTakenInUseToday[10,7,6] <= 0
+ R30320: - layerInUse[10,8,1] + layerWillBeTakenInUseToday[10,8,1] <= 0
+ R30321: - layerInUse[10,8,1] - layerInUse[10,8,2]
+   + 2 layerWillBeTakenInUseToday[10,8,2] <= 0
+ R30322: - layerInUse[10,8,1] - layerInUse[10,8,2] - layerInUse[10,8,3]
+   + 3 layerWillBeTakenInUseToday[10,8,3] <= 0
+ R30323: - layerInUse[10,8,1] - layerInUse[10,8,2] - layerInUse[10,8,3]
+   - layerInUse[10,8,4] + 4 layerWillBeTakenInUseToday[10,8,4] <= 0
+ R30324: - layerInUse[10,8,1] - layerInUse[10,8,2] - layerInUse[10,8,3]
+   - layerInUse[10,8,4] - layerInUse[10,8,5]
+   + 5 layerWillBeTakenInUseToday[10,8,5] <= 0
+ R30325: - layerInUse[10,8,1] - layerInUse[10,8,2] - layerInUse[10,8,3]
+   - layerInUse[10,8,4] - layerInUse[10,8,5] - layerInUse[10,8,6]
+   + 6 layerWillBeTakenInUseToday[10,8,6] <= 0
 Bounds
  containers[1,1,1,1,1] <= 15
  containers[1,1,1,1,2] <= 15
@@ -47174,6 +56699,397 @@ Binaries
  containerMovements[10,4,6,6,1] containerMovements[10,4,6,6,2]
  containerMovements[10,4,6,7,1] containerMovements[10,4,6,7,2]
  containerMovements[10,4,6,8,1] containerMovements[10,4,6,8,2]
+ firstDayInUseRack[1,1] firstDayInUseRack[1,2] firstDayInUseRack[1,3]
+ firstDayInUseRack[1,4] firstDayInUseRack[1,5] firstDayInUseRack[1,6]
+ firstDayInUseRack[1,7] firstDayInUseRack[1,8] firstDayInUseRack[2,1]
+ firstDayInUseRack[2,2] firstDayInUseRack[2,3] firstDayInUseRack[2,4]
+ firstDayInUseRack[2,5] firstDayInUseRack[2,6] firstDayInUseRack[2,7]
+ firstDayInUseRack[2,8] firstDayInUseRack[3,1] firstDayInUseRack[3,2]
+ firstDayInUseRack[3,3] firstDayInUseRack[3,4] firstDayInUseRack[3,5]
+ firstDayInUseRack[3,6] firstDayInUseRack[3,7] firstDayInUseRack[3,8]
+ firstDayInUseRack[4,1] firstDayInUseRack[4,2] firstDayInUseRack[4,3]
+ firstDayInUseRack[4,4] firstDayInUseRack[4,5] firstDayInUseRack[4,6]
+ firstDayInUseRack[4,7] firstDayInUseRack[4,8] firstDayInUseRack[5,1]
+ firstDayInUseRack[5,2] firstDayInUseRack[5,3] firstDayInUseRack[5,4]
+ firstDayInUseRack[5,5] firstDayInUseRack[5,6] firstDayInUseRack[5,7]
+ firstDayInUseRack[5,8] firstDayInUseRack[6,1] firstDayInUseRack[6,2]
+ firstDayInUseRack[6,3] firstDayInUseRack[6,4] firstDayInUseRack[6,5]
+ firstDayInUseRack[6,6] firstDayInUseRack[6,7] firstDayInUseRack[6,8]
+ firstDayInUseRack[7,1] firstDayInUseRack[7,2] firstDayInUseRack[7,3]
+ firstDayInUseRack[7,4] firstDayInUseRack[7,5] firstDayInUseRack[7,6]
+ firstDayInUseRack[7,7] firstDayInUseRack[7,8] firstDayInUseRack[8,1]
+ firstDayInUseRack[8,2] firstDayInUseRack[8,3] firstDayInUseRack[8,4]
+ firstDayInUseRack[8,5] firstDayInUseRack[8,6] firstDayInUseRack[8,7]
+ firstDayInUseRack[8,8] firstDayInUseRack[9,1] firstDayInUseRack[9,2]
+ firstDayInUseRack[9,3] firstDayInUseRack[9,4] firstDayInUseRack[9,5]
+ firstDayInUseRack[9,6] firstDayInUseRack[9,7] firstDayInUseRack[9,8]
+ firstDayInUseRack[10,1] firstDayInUseRack[10,2] firstDayInUseRack[10,3]
+ firstDayInUseRack[10,4] firstDayInUseRack[10,5] firstDayInUseRack[10,6]
+ firstDayInUseRack[10,7] firstDayInUseRack[10,8] layerInUse[1,1,1]
+ layerInUse[1,1,2] layerInUse[1,1,3] layerInUse[1,1,4] layerInUse[1,1,5]
+ layerInUse[1,1,6] layerInUse[1,2,1] layerInUse[1,2,2] layerInUse[1,2,3]
+ layerInUse[1,2,4] layerInUse[1,2,5] layerInUse[1,2,6] layerInUse[1,3,1]
+ layerInUse[1,3,2] layerInUse[1,3,3] layerInUse[1,3,4] layerInUse[1,3,5]
+ layerInUse[1,3,6] layerInUse[1,4,1] layerInUse[1,4,2] layerInUse[1,4,3]
+ layerInUse[1,4,4] layerInUse[1,4,5] layerInUse[1,4,6] layerInUse[1,5,1]
+ layerInUse[1,5,2] layerInUse[1,5,3] layerInUse[1,5,4] layerInUse[1,5,5]
+ layerInUse[1,5,6] layerInUse[1,6,1] layerInUse[1,6,2] layerInUse[1,6,3]
+ layerInUse[1,6,4] layerInUse[1,6,5] layerInUse[1,6,6] layerInUse[1,7,1]
+ layerInUse[1,7,2] layerInUse[1,7,3] layerInUse[1,7,4] layerInUse[1,7,5]
+ layerInUse[1,7,6] layerInUse[1,8,1] layerInUse[1,8,2] layerInUse[1,8,3]
+ layerInUse[1,8,4] layerInUse[1,8,5] layerInUse[1,8,6] layerInUse[2,1,1]
+ layerInUse[2,1,2] layerInUse[2,1,3] layerInUse[2,1,4] layerInUse[2,1,5]
+ layerInUse[2,1,6] layerInUse[2,2,1] layerInUse[2,2,2] layerInUse[2,2,3]
+ layerInUse[2,2,4] layerInUse[2,2,5] layerInUse[2,2,6] layerInUse[2,3,1]
+ layerInUse[2,3,2] layerInUse[2,3,3] layerInUse[2,3,4] layerInUse[2,3,5]
+ layerInUse[2,3,6] layerInUse[2,4,1] layerInUse[2,4,2] layerInUse[2,4,3]
+ layerInUse[2,4,4] layerInUse[2,4,5] layerInUse[2,4,6] layerInUse[2,5,1]
+ layerInUse[2,5,2] layerInUse[2,5,3] layerInUse[2,5,4] layerInUse[2,5,5]
+ layerInUse[2,5,6] layerInUse[2,6,1] layerInUse[2,6,2] layerInUse[2,6,3]
+ layerInUse[2,6,4] layerInUse[2,6,5] layerInUse[2,6,6] layerInUse[2,7,1]
+ layerInUse[2,7,2] layerInUse[2,7,3] layerInUse[2,7,4] layerInUse[2,7,5]
+ layerInUse[2,7,6] layerInUse[2,8,1] layerInUse[2,8,2] layerInUse[2,8,3]
+ layerInUse[2,8,4] layerInUse[2,8,5] layerInUse[2,8,6] layerInUse[3,1,1]
+ layerInUse[3,1,2] layerInUse[3,1,3] layerInUse[3,1,4] layerInUse[3,1,5]
+ layerInUse[3,1,6] layerInUse[3,2,1] layerInUse[3,2,2] layerInUse[3,2,3]
+ layerInUse[3,2,4] layerInUse[3,2,5] layerInUse[3,2,6] layerInUse[3,3,1]
+ layerInUse[3,3,2] layerInUse[3,3,3] layerInUse[3,3,4] layerInUse[3,3,5]
+ layerInUse[3,3,6] layerInUse[3,4,1] layerInUse[3,4,2] layerInUse[3,4,3]
+ layerInUse[3,4,4] layerInUse[3,4,5] layerInUse[3,4,6] layerInUse[3,5,1]
+ layerInUse[3,5,2] layerInUse[3,5,3] layerInUse[3,5,4] layerInUse[3,5,5]
+ layerInUse[3,5,6] layerInUse[3,6,1] layerInUse[3,6,2] layerInUse[3,6,3]
+ layerInUse[3,6,4] layerInUse[3,6,5] layerInUse[3,6,6] layerInUse[3,7,1]
+ layerInUse[3,7,2] layerInUse[3,7,3] layerInUse[3,7,4] layerInUse[3,7,5]
+ layerInUse[3,7,6] layerInUse[3,8,1] layerInUse[3,8,2] layerInUse[3,8,3]
+ layerInUse[3,8,4] layerInUse[3,8,5] layerInUse[3,8,6] layerInUse[4,1,1]
+ layerInUse[4,1,2] layerInUse[4,1,3] layerInUse[4,1,4] layerInUse[4,1,5]
+ layerInUse[4,1,6] layerInUse[4,2,1] layerInUse[4,2,2] layerInUse[4,2,3]
+ layerInUse[4,2,4] layerInUse[4,2,5] layerInUse[4,2,6] layerInUse[4,3,1]
+ layerInUse[4,3,2] layerInUse[4,3,3] layerInUse[4,3,4] layerInUse[4,3,5]
+ layerInUse[4,3,6] layerInUse[4,4,1] layerInUse[4,4,2] layerInUse[4,4,3]
+ layerInUse[4,4,4] layerInUse[4,4,5] layerInUse[4,4,6] layerInUse[4,5,1]
+ layerInUse[4,5,2] layerInUse[4,5,3] layerInUse[4,5,4] layerInUse[4,5,5]
+ layerInUse[4,5,6] layerInUse[4,6,1] layerInUse[4,6,2] layerInUse[4,6,3]
+ layerInUse[4,6,4] layerInUse[4,6,5] layerInUse[4,6,6] layerInUse[4,7,1]
+ layerInUse[4,7,2] layerInUse[4,7,3] layerInUse[4,7,4] layerInUse[4,7,5]
+ layerInUse[4,7,6] layerInUse[4,8,1] layerInUse[4,8,2] layerInUse[4,8,3]
+ layerInUse[4,8,4] layerInUse[4,8,5] layerInUse[4,8,6] layerInUse[5,1,1]
+ layerInUse[5,1,2] layerInUse[5,1,3] layerInUse[5,1,4] layerInUse[5,1,5]
+ layerInUse[5,1,6] layerInUse[5,2,1] layerInUse[5,2,2] layerInUse[5,2,3]
+ layerInUse[5,2,4] layerInUse[5,2,5] layerInUse[5,2,6] layerInUse[5,3,1]
+ layerInUse[5,3,2] layerInUse[5,3,3] layerInUse[5,3,4] layerInUse[5,3,5]
+ layerInUse[5,3,6] layerInUse[5,4,1] layerInUse[5,4,2] layerInUse[5,4,3]
+ layerInUse[5,4,4] layerInUse[5,4,5] layerInUse[5,4,6] layerInUse[5,5,1]
+ layerInUse[5,5,2] layerInUse[5,5,3] layerInUse[5,5,4] layerInUse[5,5,5]
+ layerInUse[5,5,6] layerInUse[5,6,1] layerInUse[5,6,2] layerInUse[5,6,3]
+ layerInUse[5,6,4] layerInUse[5,6,5] layerInUse[5,6,6] layerInUse[5,7,1]
+ layerInUse[5,7,2] layerInUse[5,7,3] layerInUse[5,7,4] layerInUse[5,7,5]
+ layerInUse[5,7,6] layerInUse[5,8,1] layerInUse[5,8,2] layerInUse[5,8,3]
+ layerInUse[5,8,4] layerInUse[5,8,5] layerInUse[5,8,6] layerInUse[6,1,1]
+ layerInUse[6,1,2] layerInUse[6,1,3] layerInUse[6,1,4] layerInUse[6,1,5]
+ layerInUse[6,1,6] layerInUse[6,2,1] layerInUse[6,2,2] layerInUse[6,2,3]
+ layerInUse[6,2,4] layerInUse[6,2,5] layerInUse[6,2,6] layerInUse[6,3,1]
+ layerInUse[6,3,2] layerInUse[6,3,3] layerInUse[6,3,4] layerInUse[6,3,5]
+ layerInUse[6,3,6] layerInUse[6,4,1] layerInUse[6,4,2] layerInUse[6,4,3]
+ layerInUse[6,4,4] layerInUse[6,4,5] layerInUse[6,4,6] layerInUse[6,5,1]
+ layerInUse[6,5,2] layerInUse[6,5,3] layerInUse[6,5,4] layerInUse[6,5,5]
+ layerInUse[6,5,6] layerInUse[6,6,1] layerInUse[6,6,2] layerInUse[6,6,3]
+ layerInUse[6,6,4] layerInUse[6,6,5] layerInUse[6,6,6] layerInUse[6,7,1]
+ layerInUse[6,7,2] layerInUse[6,7,3] layerInUse[6,7,4] layerInUse[6,7,5]
+ layerInUse[6,7,6] layerInUse[6,8,1] layerInUse[6,8,2] layerInUse[6,8,3]
+ layerInUse[6,8,4] layerInUse[6,8,5] layerInUse[6,8,6] layerInUse[7,1,1]
+ layerInUse[7,1,2] layerInUse[7,1,3] layerInUse[7,1,4] layerInUse[7,1,5]
+ layerInUse[7,1,6] layerInUse[7,2,1] layerInUse[7,2,2] layerInUse[7,2,3]
+ layerInUse[7,2,4] layerInUse[7,2,5] layerInUse[7,2,6] layerInUse[7,3,1]
+ layerInUse[7,3,2] layerInUse[7,3,3] layerInUse[7,3,4] layerInUse[7,3,5]
+ layerInUse[7,3,6] layerInUse[7,4,1] layerInUse[7,4,2] layerInUse[7,4,3]
+ layerInUse[7,4,4] layerInUse[7,4,5] layerInUse[7,4,6] layerInUse[7,5,1]
+ layerInUse[7,5,2] layerInUse[7,5,3] layerInUse[7,5,4] layerInUse[7,5,5]
+ layerInUse[7,5,6] layerInUse[7,6,1] layerInUse[7,6,2] layerInUse[7,6,3]
+ layerInUse[7,6,4] layerInUse[7,6,5] layerInUse[7,6,6] layerInUse[7,7,1]
+ layerInUse[7,7,2] layerInUse[7,7,3] layerInUse[7,7,4] layerInUse[7,7,5]
+ layerInUse[7,7,6] layerInUse[7,8,1] layerInUse[7,8,2] layerInUse[7,8,3]
+ layerInUse[7,8,4] layerInUse[7,8,5] layerInUse[7,8,6] layerInUse[8,1,1]
+ layerInUse[8,1,2] layerInUse[8,1,3] layerInUse[8,1,4] layerInUse[8,1,5]
+ layerInUse[8,1,6] layerInUse[8,2,1] layerInUse[8,2,2] layerInUse[8,2,3]
+ layerInUse[8,2,4] layerInUse[8,2,5] layerInUse[8,2,6] layerInUse[8,3,1]
+ layerInUse[8,3,2] layerInUse[8,3,3] layerInUse[8,3,4] layerInUse[8,3,5]
+ layerInUse[8,3,6] layerInUse[8,4,1] layerInUse[8,4,2] layerInUse[8,4,3]
+ layerInUse[8,4,4] layerInUse[8,4,5] layerInUse[8,4,6] layerInUse[8,5,1]
+ layerInUse[8,5,2] layerInUse[8,5,3] layerInUse[8,5,4] layerInUse[8,5,5]
+ layerInUse[8,5,6] layerInUse[8,6,1] layerInUse[8,6,2] layerInUse[8,6,3]
+ layerInUse[8,6,4] layerInUse[8,6,5] layerInUse[8,6,6] layerInUse[8,7,1]
+ layerInUse[8,7,2] layerInUse[8,7,3] layerInUse[8,7,4] layerInUse[8,7,5]
+ layerInUse[8,7,6] layerInUse[8,8,1] layerInUse[8,8,2] layerInUse[8,8,3]
+ layerInUse[8,8,4] layerInUse[8,8,5] layerInUse[8,8,6] layerInUse[9,1,1]
+ layerInUse[9,1,2] layerInUse[9,1,3] layerInUse[9,1,4] layerInUse[9,1,5]
+ layerInUse[9,1,6] layerInUse[9,2,1] layerInUse[9,2,2] layerInUse[9,2,3]
+ layerInUse[9,2,4] layerInUse[9,2,5] layerInUse[9,2,6] layerInUse[9,3,1]
+ layerInUse[9,3,2] layerInUse[9,3,3] layerInUse[9,3,4] layerInUse[9,3,5]
+ layerInUse[9,3,6] layerInUse[9,4,1] layerInUse[9,4,2] layerInUse[9,4,3]
+ layerInUse[9,4,4] layerInUse[9,4,5] layerInUse[9,4,6] layerInUse[9,5,1]
+ layerInUse[9,5,2] layerInUse[9,5,3] layerInUse[9,5,4] layerInUse[9,5,5]
+ layerInUse[9,5,6] layerInUse[9,6,1] layerInUse[9,6,2] layerInUse[9,6,3]
+ layerInUse[9,6,4] layerInUse[9,6,5] layerInUse[9,6,6] layerInUse[9,7,1]
+ layerInUse[9,7,2] layerInUse[9,7,3] layerInUse[9,7,4] layerInUse[9,7,5]
+ layerInUse[9,7,6] layerInUse[9,8,1] layerInUse[9,8,2] layerInUse[9,8,3]
+ layerInUse[9,8,4] layerInUse[9,8,5] layerInUse[9,8,6] layerInUse[10,1,1]
+ layerInUse[10,1,2] layerInUse[10,1,3] layerInUse[10,1,4]
+ layerInUse[10,1,5] layerInUse[10,1,6] layerInUse[10,2,1]
+ layerInUse[10,2,2] layerInUse[10,2,3] layerInUse[10,2,4]
+ layerInUse[10,2,5] layerInUse[10,2,6] layerInUse[10,3,1]
+ layerInUse[10,3,2] layerInUse[10,3,3] layerInUse[10,3,4]
+ layerInUse[10,3,5] layerInUse[10,3,6] layerInUse[10,4,1]
+ layerInUse[10,4,2] layerInUse[10,4,3] layerInUse[10,4,4]
+ layerInUse[10,4,5] layerInUse[10,4,6] layerInUse[10,5,1]
+ layerInUse[10,5,2] layerInUse[10,5,3] layerInUse[10,5,4]
+ layerInUse[10,5,5] layerInUse[10,5,6] layerInUse[10,6,1]
+ layerInUse[10,6,2] layerInUse[10,6,3] layerInUse[10,6,4]
+ layerInUse[10,6,5] layerInUse[10,6,6] layerInUse[10,7,1]
+ layerInUse[10,7,2] layerInUse[10,7,3] layerInUse[10,7,4]
+ layerInUse[10,7,5] layerInUse[10,7,6] layerInUse[10,8,1]
+ layerInUse[10,8,2] layerInUse[10,8,3] layerInUse[10,8,4]
+ layerInUse[10,8,5] layerInUse[10,8,6] layerWillBeTakenInUseToday[1,1,1]
+ layerWillBeTakenInUseToday[1,1,2] layerWillBeTakenInUseToday[1,1,3]
+ layerWillBeTakenInUseToday[1,1,4] layerWillBeTakenInUseToday[1,1,5]
+ layerWillBeTakenInUseToday[1,1,6] layerWillBeTakenInUseToday[1,2,1]
+ layerWillBeTakenInUseToday[1,2,2] layerWillBeTakenInUseToday[1,2,3]
+ layerWillBeTakenInUseToday[1,2,4] layerWillBeTakenInUseToday[1,2,5]
+ layerWillBeTakenInUseToday[1,2,6] layerWillBeTakenInUseToday[1,3,1]
+ layerWillBeTakenInUseToday[1,3,2] layerWillBeTakenInUseToday[1,3,3]
+ layerWillBeTakenInUseToday[1,3,4] layerWillBeTakenInUseToday[1,3,5]
+ layerWillBeTakenInUseToday[1,3,6] layerWillBeTakenInUseToday[1,4,1]
+ layerWillBeTakenInUseToday[1,4,2] layerWillBeTakenInUseToday[1,4,3]
+ layerWillBeTakenInUseToday[1,4,4] layerWillBeTakenInUseToday[1,4,5]
+ layerWillBeTakenInUseToday[1,4,6] layerWillBeTakenInUseToday[1,5,1]
+ layerWillBeTakenInUseToday[1,5,2] layerWillBeTakenInUseToday[1,5,3]
+ layerWillBeTakenInUseToday[1,5,4] layerWillBeTakenInUseToday[1,5,5]
+ layerWillBeTakenInUseToday[1,5,6] layerWillBeTakenInUseToday[1,6,1]
+ layerWillBeTakenInUseToday[1,6,2] layerWillBeTakenInUseToday[1,6,3]
+ layerWillBeTakenInUseToday[1,6,4] layerWillBeTakenInUseToday[1,6,5]
+ layerWillBeTakenInUseToday[1,6,6] layerWillBeTakenInUseToday[1,7,1]
+ layerWillBeTakenInUseToday[1,7,2] layerWillBeTakenInUseToday[1,7,3]
+ layerWillBeTakenInUseToday[1,7,4] layerWillBeTakenInUseToday[1,7,5]
+ layerWillBeTakenInUseToday[1,7,6] layerWillBeTakenInUseToday[1,8,1]
+ layerWillBeTakenInUseToday[1,8,2] layerWillBeTakenInUseToday[1,8,3]
+ layerWillBeTakenInUseToday[1,8,4] layerWillBeTakenInUseToday[1,8,5]
+ layerWillBeTakenInUseToday[1,8,6] layerWillBeTakenInUseToday[2,1,1]
+ layerWillBeTakenInUseToday[2,1,2] layerWillBeTakenInUseToday[2,1,3]
+ layerWillBeTakenInUseToday[2,1,4] layerWillBeTakenInUseToday[2,1,5]
+ layerWillBeTakenInUseToday[2,1,6] layerWillBeTakenInUseToday[2,2,1]
+ layerWillBeTakenInUseToday[2,2,2] layerWillBeTakenInUseToday[2,2,3]
+ layerWillBeTakenInUseToday[2,2,4] layerWillBeTakenInUseToday[2,2,5]
+ layerWillBeTakenInUseToday[2,2,6] layerWillBeTakenInUseToday[2,3,1]
+ layerWillBeTakenInUseToday[2,3,2] layerWillBeTakenInUseToday[2,3,3]
+ layerWillBeTakenInUseToday[2,3,4] layerWillBeTakenInUseToday[2,3,5]
+ layerWillBeTakenInUseToday[2,3,6] layerWillBeTakenInUseToday[2,4,1]
+ layerWillBeTakenInUseToday[2,4,2] layerWillBeTakenInUseToday[2,4,3]
+ layerWillBeTakenInUseToday[2,4,4] layerWillBeTakenInUseToday[2,4,5]
+ layerWillBeTakenInUseToday[2,4,6] layerWillBeTakenInUseToday[2,5,1]
+ layerWillBeTakenInUseToday[2,5,2] layerWillBeTakenInUseToday[2,5,3]
+ layerWillBeTakenInUseToday[2,5,4] layerWillBeTakenInUseToday[2,5,5]
+ layerWillBeTakenInUseToday[2,5,6] layerWillBeTakenInUseToday[2,6,1]
+ layerWillBeTakenInUseToday[2,6,2] layerWillBeTakenInUseToday[2,6,3]
+ layerWillBeTakenInUseToday[2,6,4] layerWillBeTakenInUseToday[2,6,5]
+ layerWillBeTakenInUseToday[2,6,6] layerWillBeTakenInUseToday[2,7,1]
+ layerWillBeTakenInUseToday[2,7,2] layerWillBeTakenInUseToday[2,7,3]
+ layerWillBeTakenInUseToday[2,7,4] layerWillBeTakenInUseToday[2,7,5]
+ layerWillBeTakenInUseToday[2,7,6] layerWillBeTakenInUseToday[2,8,1]
+ layerWillBeTakenInUseToday[2,8,2] layerWillBeTakenInUseToday[2,8,3]
+ layerWillBeTakenInUseToday[2,8,4] layerWillBeTakenInUseToday[2,8,5]
+ layerWillBeTakenInUseToday[2,8,6] layerWillBeTakenInUseToday[3,1,1]
+ layerWillBeTakenInUseToday[3,1,2] layerWillBeTakenInUseToday[3,1,3]
+ layerWillBeTakenInUseToday[3,1,4] layerWillBeTakenInUseToday[3,1,5]
+ layerWillBeTakenInUseToday[3,1,6] layerWillBeTakenInUseToday[3,2,1]
+ layerWillBeTakenInUseToday[3,2,2] layerWillBeTakenInUseToday[3,2,3]
+ layerWillBeTakenInUseToday[3,2,4] layerWillBeTakenInUseToday[3,2,5]
+ layerWillBeTakenInUseToday[3,2,6] layerWillBeTakenInUseToday[3,3,1]
+ layerWillBeTakenInUseToday[3,3,2] layerWillBeTakenInUseToday[3,3,3]
+ layerWillBeTakenInUseToday[3,3,4] layerWillBeTakenInUseToday[3,3,5]
+ layerWillBeTakenInUseToday[3,3,6] layerWillBeTakenInUseToday[3,4,1]
+ layerWillBeTakenInUseToday[3,4,2] layerWillBeTakenInUseToday[3,4,3]
+ layerWillBeTakenInUseToday[3,4,4] layerWillBeTakenInUseToday[3,4,5]
+ layerWillBeTakenInUseToday[3,4,6] layerWillBeTakenInUseToday[3,5,1]
+ layerWillBeTakenInUseToday[3,5,2] layerWillBeTakenInUseToday[3,5,3]
+ layerWillBeTakenInUseToday[3,5,4] layerWillBeTakenInUseToday[3,5,5]
+ layerWillBeTakenInUseToday[3,5,6] layerWillBeTakenInUseToday[3,6,1]
+ layerWillBeTakenInUseToday[3,6,2] layerWillBeTakenInUseToday[3,6,3]
+ layerWillBeTakenInUseToday[3,6,4] layerWillBeTakenInUseToday[3,6,5]
+ layerWillBeTakenInUseToday[3,6,6] layerWillBeTakenInUseToday[3,7,1]
+ layerWillBeTakenInUseToday[3,7,2] layerWillBeTakenInUseToday[3,7,3]
+ layerWillBeTakenInUseToday[3,7,4] layerWillBeTakenInUseToday[3,7,5]
+ layerWillBeTakenInUseToday[3,7,6] layerWillBeTakenInUseToday[3,8,1]
+ layerWillBeTakenInUseToday[3,8,2] layerWillBeTakenInUseToday[3,8,3]
+ layerWillBeTakenInUseToday[3,8,4] layerWillBeTakenInUseToday[3,8,5]
+ layerWillBeTakenInUseToday[3,8,6] layerWillBeTakenInUseToday[4,1,1]
+ layerWillBeTakenInUseToday[4,1,2] layerWillBeTakenInUseToday[4,1,3]
+ layerWillBeTakenInUseToday[4,1,4] layerWillBeTakenInUseToday[4,1,5]
+ layerWillBeTakenInUseToday[4,1,6] layerWillBeTakenInUseToday[4,2,1]
+ layerWillBeTakenInUseToday[4,2,2] layerWillBeTakenInUseToday[4,2,3]
+ layerWillBeTakenInUseToday[4,2,4] layerWillBeTakenInUseToday[4,2,5]
+ layerWillBeTakenInUseToday[4,2,6] layerWillBeTakenInUseToday[4,3,1]
+ layerWillBeTakenInUseToday[4,3,2] layerWillBeTakenInUseToday[4,3,3]
+ layerWillBeTakenInUseToday[4,3,4] layerWillBeTakenInUseToday[4,3,5]
+ layerWillBeTakenInUseToday[4,3,6] layerWillBeTakenInUseToday[4,4,1]
+ layerWillBeTakenInUseToday[4,4,2] layerWillBeTakenInUseToday[4,4,3]
+ layerWillBeTakenInUseToday[4,4,4] layerWillBeTakenInUseToday[4,4,5]
+ layerWillBeTakenInUseToday[4,4,6] layerWillBeTakenInUseToday[4,5,1]
+ layerWillBeTakenInUseToday[4,5,2] layerWillBeTakenInUseToday[4,5,3]
+ layerWillBeTakenInUseToday[4,5,4] layerWillBeTakenInUseToday[4,5,5]
+ layerWillBeTakenInUseToday[4,5,6] layerWillBeTakenInUseToday[4,6,1]
+ layerWillBeTakenInUseToday[4,6,2] layerWillBeTakenInUseToday[4,6,3]
+ layerWillBeTakenInUseToday[4,6,4] layerWillBeTakenInUseToday[4,6,5]
+ layerWillBeTakenInUseToday[4,6,6] layerWillBeTakenInUseToday[4,7,1]
+ layerWillBeTakenInUseToday[4,7,2] layerWillBeTakenInUseToday[4,7,3]
+ layerWillBeTakenInUseToday[4,7,4] layerWillBeTakenInUseToday[4,7,5]
+ layerWillBeTakenInUseToday[4,7,6] layerWillBeTakenInUseToday[4,8,1]
+ layerWillBeTakenInUseToday[4,8,2] layerWillBeTakenInUseToday[4,8,3]
+ layerWillBeTakenInUseToday[4,8,4] layerWillBeTakenInUseToday[4,8,5]
+ layerWillBeTakenInUseToday[4,8,6] layerWillBeTakenInUseToday[5,1,1]
+ layerWillBeTakenInUseToday[5,1,2] layerWillBeTakenInUseToday[5,1,3]
+ layerWillBeTakenInUseToday[5,1,4] layerWillBeTakenInUseToday[5,1,5]
+ layerWillBeTakenInUseToday[5,1,6] layerWillBeTakenInUseToday[5,2,1]
+ layerWillBeTakenInUseToday[5,2,2] layerWillBeTakenInUseToday[5,2,3]
+ layerWillBeTakenInUseToday[5,2,4] layerWillBeTakenInUseToday[5,2,5]
+ layerWillBeTakenInUseToday[5,2,6] layerWillBeTakenInUseToday[5,3,1]
+ layerWillBeTakenInUseToday[5,3,2] layerWillBeTakenInUseToday[5,3,3]
+ layerWillBeTakenInUseToday[5,3,4] layerWillBeTakenInUseToday[5,3,5]
+ layerWillBeTakenInUseToday[5,3,6] layerWillBeTakenInUseToday[5,4,1]
+ layerWillBeTakenInUseToday[5,4,2] layerWillBeTakenInUseToday[5,4,3]
+ layerWillBeTakenInUseToday[5,4,4] layerWillBeTakenInUseToday[5,4,5]
+ layerWillBeTakenInUseToday[5,4,6] layerWillBeTakenInUseToday[5,5,1]
+ layerWillBeTakenInUseToday[5,5,2] layerWillBeTakenInUseToday[5,5,3]
+ layerWillBeTakenInUseToday[5,5,4] layerWillBeTakenInUseToday[5,5,5]
+ layerWillBeTakenInUseToday[5,5,6] layerWillBeTakenInUseToday[5,6,1]
+ layerWillBeTakenInUseToday[5,6,2] layerWillBeTakenInUseToday[5,6,3]
+ layerWillBeTakenInUseToday[5,6,4] layerWillBeTakenInUseToday[5,6,5]
+ layerWillBeTakenInUseToday[5,6,6] layerWillBeTakenInUseToday[5,7,1]
+ layerWillBeTakenInUseToday[5,7,2] layerWillBeTakenInUseToday[5,7,3]
+ layerWillBeTakenInUseToday[5,7,4] layerWillBeTakenInUseToday[5,7,5]
+ layerWillBeTakenInUseToday[5,7,6] layerWillBeTakenInUseToday[5,8,1]
+ layerWillBeTakenInUseToday[5,8,2] layerWillBeTakenInUseToday[5,8,3]
+ layerWillBeTakenInUseToday[5,8,4] layerWillBeTakenInUseToday[5,8,5]
+ layerWillBeTakenInUseToday[5,8,6] layerWillBeTakenInUseToday[6,1,1]
+ layerWillBeTakenInUseToday[6,1,2] layerWillBeTakenInUseToday[6,1,3]
+ layerWillBeTakenInUseToday[6,1,4] layerWillBeTakenInUseToday[6,1,5]
+ layerWillBeTakenInUseToday[6,1,6] layerWillBeTakenInUseToday[6,2,1]
+ layerWillBeTakenInUseToday[6,2,2] layerWillBeTakenInUseToday[6,2,3]
+ layerWillBeTakenInUseToday[6,2,4] layerWillBeTakenInUseToday[6,2,5]
+ layerWillBeTakenInUseToday[6,2,6] layerWillBeTakenInUseToday[6,3,1]
+ layerWillBeTakenInUseToday[6,3,2] layerWillBeTakenInUseToday[6,3,3]
+ layerWillBeTakenInUseToday[6,3,4] layerWillBeTakenInUseToday[6,3,5]
+ layerWillBeTakenInUseToday[6,3,6] layerWillBeTakenInUseToday[6,4,1]
+ layerWillBeTakenInUseToday[6,4,2] layerWillBeTakenInUseToday[6,4,3]
+ layerWillBeTakenInUseToday[6,4,4] layerWillBeTakenInUseToday[6,4,5]
+ layerWillBeTakenInUseToday[6,4,6] layerWillBeTakenInUseToday[6,5,1]
+ layerWillBeTakenInUseToday[6,5,2] layerWillBeTakenInUseToday[6,5,3]
+ layerWillBeTakenInUseToday[6,5,4] layerWillBeTakenInUseToday[6,5,5]
+ layerWillBeTakenInUseToday[6,5,6] layerWillBeTakenInUseToday[6,6,1]
+ layerWillBeTakenInUseToday[6,6,2] layerWillBeTakenInUseToday[6,6,3]
+ layerWillBeTakenInUseToday[6,6,4] layerWillBeTakenInUseToday[6,6,5]
+ layerWillBeTakenInUseToday[6,6,6] layerWillBeTakenInUseToday[6,7,1]
+ layerWillBeTakenInUseToday[6,7,2] layerWillBeTakenInUseToday[6,7,3]
+ layerWillBeTakenInUseToday[6,7,4] layerWillBeTakenInUseToday[6,7,5]
+ layerWillBeTakenInUseToday[6,7,6] layerWillBeTakenInUseToday[6,8,1]
+ layerWillBeTakenInUseToday[6,8,2] layerWillBeTakenInUseToday[6,8,3]
+ layerWillBeTakenInUseToday[6,8,4] layerWillBeTakenInUseToday[6,8,5]
+ layerWillBeTakenInUseToday[6,8,6] layerWillBeTakenInUseToday[7,1,1]
+ layerWillBeTakenInUseToday[7,1,2] layerWillBeTakenInUseToday[7,1,3]
+ layerWillBeTakenInUseToday[7,1,4] layerWillBeTakenInUseToday[7,1,5]
+ layerWillBeTakenInUseToday[7,1,6] layerWillBeTakenInUseToday[7,2,1]
+ layerWillBeTakenInUseToday[7,2,2] layerWillBeTakenInUseToday[7,2,3]
+ layerWillBeTakenInUseToday[7,2,4] layerWillBeTakenInUseToday[7,2,5]
+ layerWillBeTakenInUseToday[7,2,6] layerWillBeTakenInUseToday[7,3,1]
+ layerWillBeTakenInUseToday[7,3,2] layerWillBeTakenInUseToday[7,3,3]
+ layerWillBeTakenInUseToday[7,3,4] layerWillBeTakenInUseToday[7,3,5]
+ layerWillBeTakenInUseToday[7,3,6] layerWillBeTakenInUseToday[7,4,1]
+ layerWillBeTakenInUseToday[7,4,2] layerWillBeTakenInUseToday[7,4,3]
+ layerWillBeTakenInUseToday[7,4,4] layerWillBeTakenInUseToday[7,4,5]
+ layerWillBeTakenInUseToday[7,4,6] layerWillBeTakenInUseToday[7,5,1]
+ layerWillBeTakenInUseToday[7,5,2] layerWillBeTakenInUseToday[7,5,3]
+ layerWillBeTakenInUseToday[7,5,4] layerWillBeTakenInUseToday[7,5,5]
+ layerWillBeTakenInUseToday[7,5,6] layerWillBeTakenInUseToday[7,6,1]
+ layerWillBeTakenInUseToday[7,6,2] layerWillBeTakenInUseToday[7,6,3]
+ layerWillBeTakenInUseToday[7,6,4] layerWillBeTakenInUseToday[7,6,5]
+ layerWillBeTakenInUseToday[7,6,6] layerWillBeTakenInUseToday[7,7,1]
+ layerWillBeTakenInUseToday[7,7,2] layerWillBeTakenInUseToday[7,7,3]
+ layerWillBeTakenInUseToday[7,7,4] layerWillBeTakenInUseToday[7,7,5]
+ layerWillBeTakenInUseToday[7,7,6] layerWillBeTakenInUseToday[7,8,1]
+ layerWillBeTakenInUseToday[7,8,2] layerWillBeTakenInUseToday[7,8,3]
+ layerWillBeTakenInUseToday[7,8,4] layerWillBeTakenInUseToday[7,8,5]
+ layerWillBeTakenInUseToday[7,8,6] layerWillBeTakenInUseToday[8,1,1]
+ layerWillBeTakenInUseToday[8,1,2] layerWillBeTakenInUseToday[8,1,3]
+ layerWillBeTakenInUseToday[8,1,4] layerWillBeTakenInUseToday[8,1,5]
+ layerWillBeTakenInUseToday[8,1,6] layerWillBeTakenInUseToday[8,2,1]
+ layerWillBeTakenInUseToday[8,2,2] layerWillBeTakenInUseToday[8,2,3]
+ layerWillBeTakenInUseToday[8,2,4] layerWillBeTakenInUseToday[8,2,5]
+ layerWillBeTakenInUseToday[8,2,6] layerWillBeTakenInUseToday[8,3,1]
+ layerWillBeTakenInUseToday[8,3,2] layerWillBeTakenInUseToday[8,3,3]
+ layerWillBeTakenInUseToday[8,3,4] layerWillBeTakenInUseToday[8,3,5]
+ layerWillBeTakenInUseToday[8,3,6] layerWillBeTakenInUseToday[8,4,1]
+ layerWillBeTakenInUseToday[8,4,2] layerWillBeTakenInUseToday[8,4,3]
+ layerWillBeTakenInUseToday[8,4,4] layerWillBeTakenInUseToday[8,4,5]
+ layerWillBeTakenInUseToday[8,4,6] layerWillBeTakenInUseToday[8,5,1]
+ layerWillBeTakenInUseToday[8,5,2] layerWillBeTakenInUseToday[8,5,3]
+ layerWillBeTakenInUseToday[8,5,4] layerWillBeTakenInUseToday[8,5,5]
+ layerWillBeTakenInUseToday[8,5,6] layerWillBeTakenInUseToday[8,6,1]
+ layerWillBeTakenInUseToday[8,6,2] layerWillBeTakenInUseToday[8,6,3]
+ layerWillBeTakenInUseToday[8,6,4] layerWillBeTakenInUseToday[8,6,5]
+ layerWillBeTakenInUseToday[8,6,6] layerWillBeTakenInUseToday[8,7,1]
+ layerWillBeTakenInUseToday[8,7,2] layerWillBeTakenInUseToday[8,7,3]
+ layerWillBeTakenInUseToday[8,7,4] layerWillBeTakenInUseToday[8,7,5]
+ layerWillBeTakenInUseToday[8,7,6] layerWillBeTakenInUseToday[8,8,1]
+ layerWillBeTakenInUseToday[8,8,2] layerWillBeTakenInUseToday[8,8,3]
+ layerWillBeTakenInUseToday[8,8,4] layerWillBeTakenInUseToday[8,8,5]
+ layerWillBeTakenInUseToday[8,8,6] layerWillBeTakenInUseToday[9,1,1]
+ layerWillBeTakenInUseToday[9,1,2] layerWillBeTakenInUseToday[9,1,3]
+ layerWillBeTakenInUseToday[9,1,4] layerWillBeTakenInUseToday[9,1,5]
+ layerWillBeTakenInUseToday[9,1,6] layerWillBeTakenInUseToday[9,2,1]
+ layerWillBeTakenInUseToday[9,2,2] layerWillBeTakenInUseToday[9,2,3]
+ layerWillBeTakenInUseToday[9,2,4] layerWillBeTakenInUseToday[9,2,5]
+ layerWillBeTakenInUseToday[9,2,6] layerWillBeTakenInUseToday[9,3,1]
+ layerWillBeTakenInUseToday[9,3,2] layerWillBeTakenInUseToday[9,3,3]
+ layerWillBeTakenInUseToday[9,3,4] layerWillBeTakenInUseToday[9,3,5]
+ layerWillBeTakenInUseToday[9,3,6] layerWillBeTakenInUseToday[9,4,1]
+ layerWillBeTakenInUseToday[9,4,2] layerWillBeTakenInUseToday[9,4,3]
+ layerWillBeTakenInUseToday[9,4,4] layerWillBeTakenInUseToday[9,4,5]
+ layerWillBeTakenInUseToday[9,4,6] layerWillBeTakenInUseToday[9,5,1]
+ layerWillBeTakenInUseToday[9,5,2] layerWillBeTakenInUseToday[9,5,3]
+ layerWillBeTakenInUseToday[9,5,4] layerWillBeTakenInUseToday[9,5,5]
+ layerWillBeTakenInUseToday[9,5,6] layerWillBeTakenInUseToday[9,6,1]
+ layerWillBeTakenInUseToday[9,6,2] layerWillBeTakenInUseToday[9,6,3]
+ layerWillBeTakenInUseToday[9,6,4] layerWillBeTakenInUseToday[9,6,5]
+ layerWillBeTakenInUseToday[9,6,6] layerWillBeTakenInUseToday[9,7,1]
+ layerWillBeTakenInUseToday[9,7,2] layerWillBeTakenInUseToday[9,7,3]
+ layerWillBeTakenInUseToday[9,7,4] layerWillBeTakenInUseToday[9,7,5]
+ layerWillBeTakenInUseToday[9,7,6] layerWillBeTakenInUseToday[9,8,1]
+ layerWillBeTakenInUseToday[9,8,2] layerWillBeTakenInUseToday[9,8,3]
+ layerWillBeTakenInUseToday[9,8,4] layerWillBeTakenInUseToday[9,8,5]
+ layerWillBeTakenInUseToday[9,8,6] layerWillBeTakenInUseToday[10,1,1]
+ layerWillBeTakenInUseToday[10,1,2] layerWillBeTakenInUseToday[10,1,3]
+ layerWillBeTakenInUseToday[10,1,4] layerWillBeTakenInUseToday[10,1,5]
+ layerWillBeTakenInUseToday[10,1,6] layerWillBeTakenInUseToday[10,2,1]
+ layerWillBeTakenInUseToday[10,2,2] layerWillBeTakenInUseToday[10,2,3]
+ layerWillBeTakenInUseToday[10,2,4] layerWillBeTakenInUseToday[10,2,5]
+ layerWillBeTakenInUseToday[10,2,6] layerWillBeTakenInUseToday[10,3,1]
+ layerWillBeTakenInUseToday[10,3,2] layerWillBeTakenInUseToday[10,3,3]
+ layerWillBeTakenInUseToday[10,3,4] layerWillBeTakenInUseToday[10,3,5]
+ layerWillBeTakenInUseToday[10,3,6] layerWillBeTakenInUseToday[10,4,1]
+ layerWillBeTakenInUseToday[10,4,2] layerWillBeTakenInUseToday[10,4,3]
+ layerWillBeTakenInUseToday[10,4,4] layerWillBeTakenInUseToday[10,4,5]
+ layerWillBeTakenInUseToday[10,4,6] layerWillBeTakenInUseToday[10,5,1]
+ layerWillBeTakenInUseToday[10,5,2] layerWillBeTakenInUseToday[10,5,3]
+ layerWillBeTakenInUseToday[10,5,4] layerWillBeTakenInUseToday[10,5,5]
+ layerWillBeTakenInUseToday[10,5,6] layerWillBeTakenInUseToday[10,6,1]
+ layerWillBeTakenInUseToday[10,6,2] layerWillBeTakenInUseToday[10,6,3]
+ layerWillBeTakenInUseToday[10,6,4] layerWillBeTakenInUseToday[10,6,5]
+ layerWillBeTakenInUseToday[10,6,6] layerWillBeTakenInUseToday[10,7,1]
+ layerWillBeTakenInUseToday[10,7,2] layerWillBeTakenInUseToday[10,7,3]
+ layerWillBeTakenInUseToday[10,7,4] layerWillBeTakenInUseToday[10,7,5]
+ layerWillBeTakenInUseToday[10,7,6] layerWillBeTakenInUseToday[10,8,1]
+ layerWillBeTakenInUseToday[10,8,2] layerWillBeTakenInUseToday[10,8,3]
+ layerWillBeTakenInUseToday[10,8,4] layerWillBeTakenInUseToday[10,8,5]
+ layerWillBeTakenInUseToday[10,8,6]
 Generals
  containers[1,1,1,1,1] containers[1,1,1,1,2] containers[1,1,1,2,1]
  containers[1,1,1,2,2] containers[1,1,1,3,1] containers[1,1,1,3,2]
