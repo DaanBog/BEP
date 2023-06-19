@@ -44,14 +44,15 @@ mip.addConstrs(h[(d-1,b,l,r,p)] - h[(d,b,l,r,p)] <= Dh[(d,b,l,r,p)] for d in D[1
 
 # Simple symmetry breaking constraints
 if USE_SYMMETRY_BREAKING:
-    mip.addConstrs(gp.quicksum([h[(d,b,l,r,p)] for b in B for l in L for p in P]) <= len(B) * len(L) * len(P) * gp.quicksum([y[(i,r)] for i in D[:d]]) for d in D for r in R) # 1
+    mip.addConstrs(h[(d,b,l,r,p)] <= gp.quicksum([ y[i,r] for i in D[:d] ]) for d in D for b in B for l in L for r in R for p in P) # 1
+    mip.addConstrs(gp.quicksum([ y[i,r] for i in D[:d] ]) <= gp.quicksum([h[(i,b,l,r,p)] for i in D[:d] for b in B for l in L for p in P]) for d in D for r in R) # 1
     mip.addConstrs(gp.quicksum([ y[(d,r)] for d in D]) == 1 for r in R) # 2
     mip.addConstrs(y[(d,r)] <= gp.quicksum([ y[i,r-1] for i in D[:d] ]) for d in D for r in R[1:]) # 3
 
 # Advanced symmetry breaking constraints
 if USE_ADVANCED_SYMMETRY_BREAKING:
     # Link layer in use to h variables
-    mip.addConstrs(h[(d,b,l,r,p)] <= c * z[(d,r,l)] for d in D for r in R for l in L for b in B for p in P)
+    mip.addConstrs(h[(d,b,l,r,p)] <= z[(d,r,l)] for d in D for r in R for l in L for b in B for p in P)
     mip.addConstrs(z[(d,r,l)] <= h.sum(d,"*",l,r,"*") for d in D for r in R for l in L)
 
     # Link will be taken in use today to in use variable
@@ -62,16 +63,15 @@ if USE_ADVANCED_SYMMETRY_BREAKING:
     mip.addConstrs(l * u[(d,r,l)] <= gp.quicksum([z[(d,r,i)] for i in L[:l]])  for d in D for r in R for l in L )
     
    
-# objective function
+# objective functions
 Dv_obj = gp.quicksum([Dv[(d,r)] for d in D[1:] for r in R])
 Dh_obj = gp.quicksum([Dh[(d,b,l,r,p)] for d in D[1:] for b in B for l in L for r in R for p in P if nc[(d,b)] == nc[(d-1,b)]]) 
 h_obj = gp.quicksum([h[(d,b,l,r,p)] for d in D for b in B for l in L for r in R for p in P])
 
 mip.setObjectiveN(Dv_obj, 0, 2)
-mip.setObjectiveN(Dh_obj, 1,1)
-mip.setObjectiveN(h_obj, 2,0)
+mip.setObjectiveN(Dh_obj, 1, 1)
+mip.setObjectiveN(h_obj, 2, 0)
 mip.ModelSense = GRB.MINIMIZE
-
 
 mip.write('model.lp')
 mip.optimize()
@@ -84,3 +84,4 @@ for d in D:
                 for p in P:
                     if cnt[(d,b,l,r,p)].x > 0:
                         print(F"On D{d} for B{b} at L{l}R{r}P{p} we have {cnt[(d,b,l,r,p)].x}")
+
