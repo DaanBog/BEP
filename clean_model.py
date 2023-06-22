@@ -83,5 +83,10 @@ for d in D:
             for r in R:
                 for p in P:
                     if cnt[(d,b,l,r,p)].x > 0:
-                        print(F"On D{d} for B{b} at L{l}R{r}P{p} we have {cnt[(d,b,l,r,p)].x}")
+                        irr_regime = None
+                        for i in I_list:
+                            if irr[(d,l,r,p,i)].x > 0:
+                               irr_regime = i 
+                        print(F"On D{d} for B{b} at L{l}R{r}P{p} we have {cnt[(d,b,l,r,p)].x} containers with irrigation {irr_regime}")
+
 
